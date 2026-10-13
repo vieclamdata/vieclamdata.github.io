@@ -7,7 +7,7 @@ Website tổng hợp việc làm ngành data (Việt Nam + remote quốc tế). 
 
 | File | Việc |
 |---|---|
-| `scrape.py` | Lấy job từ VietnamWorks, ITviec, CareerViet, LinkedIn Jobs, Ybox, RemoteOK, Remotive, Arbeitnow, Himalayas, Jobicy và trang tuyển dụng của các công ty (VNG, MoMo, VPBank, SHB, Grab, Bosch…) |
+| `scrape.py` | Lấy job từ VietnamWorks, CareerViet, LinkedIn Jobs, Ybox, RemoteOK, Remotive, Arbeitnow, Himalayas, Jobicy và trang tuyển dụng của các công ty (VNG, MoMo, VPBank, SHB, Grab, Bosch…) |
 | `index.html` | Trang web: lưới thẻ việc làm, rê chuột (hoặc chạm trên điện thoại) để xem nhanh, tìm kiếm (gõ không dấu cũng được), lọc khu vực, kinh nghiệm, nguồn |
 
 ## Đưa website lên mạng (khoảng 10 phút)
@@ -81,4 +81,5 @@ Cấp bậc kinh nghiệm được đoán từ tên vị trí ("Senior", "Trư�
 ## Chưa hỗ trợ
 
 - **TopCV**: Cloudflare chặn request tự động (lỗi 403).
+- **ITviec**: Cloudflare chặn IP máy chủ GitHub (lỗi 403), dù chạy trên máy cá nhân ở Việt Nam vẫn được.
 - **TopDev**: API không trả về tên công việc.

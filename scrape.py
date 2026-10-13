@@ -77,7 +77,7 @@ def levels(title, hint="", years=0):
 
 
 def get(url, body=None):
-    # header giống trình duyệt thật; thiếu Accept/Accept-Language thì Cloudflare (ITviec) dễ chặn IP máy chủ GitHub
+    # header giống trình duyệt thật, để trang không coi là bot
     headers = {"User-Agent": UA, "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
                "Accept-Language": "vi-VN,vi;q=0.9,en;q=0.8"}
     if body is not None:
@@ -110,15 +110,6 @@ def day(v):
     if re.match(r"[A-Z][a-z]{2} [A-Z][a-z]{2} \d", str(v)):
         return datetime.strptime(str(v)[4:15], "%b %d %Y").date().isoformat()
     return str(v)[:10]
-
-
-def ago(s):
-    """'Posted 3 days ago' → ngày đăng."""
-    m = re.search(r"(\d+)\s*(minute|hour|day|week|month)", s)
-    if not m:
-        return TODAY
-    days = int(m[1]) * {"minute": 0, "hour": 0, "day": 1, "week": 7, "month": 30}[m[2]]
-    return (date.today() - timedelta(days=days)).isoformat()
 
 
 def plain(markup, n=400):
@@ -154,21 +145,6 @@ def vietnamworks():
                            logo=j.get("companyLogo") or "", salary=j.get("prettySalary"),
                            tags=[s["skillName"] for s in j.get("skills") or []], desc=plain(j.get("jobDescription")),
                            hint=j.get("jobLevelVI"), years=j.get("yearsOfExperience") or 0))
-    return out
-
-
-def itviec():
-    out = []
-    for page in (1, 2, 3):
-        for c in soup(f"https://itviec.com/it-jobs/data?page={page}").select("div.job-card"):
-            a = c.select_one("h3 a")
-            loc = c.select_one("div.text-rich-grey[title]")
-            img = c.select_one("img[data-src]")
-            sal = text(c, "div.salary")  # khách chưa đăng nhập chỉ thấy "Sign in to view salary"
-            out.append(job(a.get_text(strip=True), text(c, 'a.text-rich-grey[href^="/companies"]'),
-                           loc["title"] if loc else "", "VN", a["href"].split("?")[0], "ITviec", ago(c.get_text(" ")),
-                           logo=img["data-src"] if img else "", salary="" if "sign in" in sal.lower() else sal,
-                           tags=[t.get_text(strip=True) for t in c.select("a.itag")]))
     return out
 
 
@@ -435,7 +411,7 @@ def be():
     return out
 
 
-SOURCES = [vietnamworks, itviec, careerviet, linkedin, ybox, remoteok, remotive, arbeitnow, himalayas, jobicy, companies, vng, momo, be]
+SOURCES = [vietnamworks, careerviet, linkedin, ybox, remoteok, remotive, arbeitnow, himalayas, jobicy, companies, vng, momo, be]
 
 
 def merge(old, new, today=TODAY):
