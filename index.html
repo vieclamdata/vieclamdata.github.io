@@ -474,14 +474,17 @@ new IntersectionObserver(([e]) => form.classList.toggle("stuck", e.intersectionR
   { threshold: 1, rootMargin: "-1px 0px 0px 0px" }).observe(form);
 
 (async () => {
-  const main = await loadJson("jobs.json");
+  // jobs.json: bot GitHub; local.json: máy cá nhân (nguồn chặn máy chủ GitHub hoặc cần trình duyệt)
+  const [main, local] = await Promise.all([loadJson("jobs.json"), loadJson("local.json")]);
   if (!main && location.protocol === "file:") {
     // trình duyệt chặn fetch() khi mở file trực tiếp (file:///)
     $("sub").textContent = "Không đọc được jobs.json khi mở file trực tiếp. Chạy \"python -m http.server\" trong thư mục dự án rồi mở http://localhost:8000";
     list.replaceChildren();
     return;
   }
-  jobs = (main?.jobs || [])
+  const seen = new Set();
+  jobs = [...(main?.jobs || []), ...(local?.jobs || [])]
+    .filter((j) => !seen.has(j.url) && seen.add(j.url))
     .sort((a, b) => b.date.localeCompare(a.date))
     .map((j) => {
       const d = daysAgo(j.date);
@@ -494,8 +497,9 @@ new IntersectionObserver(([e]) => form.classList.toggle("stuck", e.intersectionR
   for (const s of [...new Set(jobs.map((j) => j.source))].sort()) form.source.append(new Option(`${s} · ${counts[s]}`, s));
 
   $("sub").textContent = `${jobs.length.toLocaleString("vi-VN")} việc làm ngành data tại Việt Nam và remote quốc tế.`;
-  if (main?.updated) {
-    const h = (Date.now() - new Date(main.updated)) / 36e5;
+  const updated = [main?.updated, local?.updated].filter(Boolean).sort().at(-1);
+  if (updated) {
+    const h = (Date.now() - new Date(updated)) / 36e5;
     $("since").textContent = h < 1 ? "Vừa cập nhật" : h < 24 ? `Cập nhật ${Math.floor(h)} giờ trước` : `Cập nhật ${Math.floor(h / 24)} ngày trước`;
     $("dot").classList.toggle("stale", h > 12); // scrape chạy 6 tiếng/lần, quá 12 tiếng là có vấn đề
     $("updated").hidden = false;

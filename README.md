@@ -3,11 +3,13 @@
 Website tổng hợp việc làm ngành data (Việt Nam + remote quốc tế). Chạy hoàn toàn miễn phí trên GitHub:
 
 - **GitHub Actions** chạy `scrape.py` 6 tiếng/lần → cập nhật `jobs.json`
+- **Máy của bạn** chạy `local.py` 6 tiếng/lần (Task Scheduler) → cập nhật `local.json`, cho các trang chặn máy chủ GitHub hoặc cần trình duyệt thật
 - **GitHub Pages** hiển thị `index.html` tại `https://<tên-tổ-chức>.github.io`
 
 | File | Việc |
 |---|---|
 | `scrape.py` | Lấy job từ VietnamWorks, CareerViet, LinkedIn Jobs, Ybox, RemoteOK, Remotive, Arbeitnow, Himalayas, Jobicy và trang tuyển dụng của các công ty (VNG, MoMo, VPBank, SHB, Grab, Bosch…) |
+| `local.py` | Lấy job từ ITviec, TopCV, TopDev, CareerLink, JobsGo, Vieclam24h, Glints và trang công ty VNPT, NashTech |
 | `index.html` | Trang web: lưới thẻ việc làm, rê chuột (hoặc chạm trên điện thoại) để xem nhanh, tìm kiếm (gõ không dấu cũng được), lọc khu vực, kinh nghiệm, nguồn |
 
 ## Đưa website lên mạng (khoảng 10 phút)
@@ -48,6 +50,20 @@ git push
 
 Muốn tên miền riêng (`vieclamdata.com`, khoảng 250 nghìn đồng/năm): mua tên miền, thêm 4 bản ghi A trỏ tới `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` và CNAME `www` → `vieclamdata.github.io`, rồi nhập tên miền ở **Settings → Pages → Custom domain**.
 
+## Cào bằng máy của bạn (`local.py`)
+
+ITviec chặn máy chủ GitHub; TopCV, JobsGo, NashTech chỉ cho trình duyệt thật có cửa sổ vào; VNPT chỉ hiện tin sau khi chạy JavaScript. Các trang này do `local.py` lấy bằng IP Việt Nam và Microsoft Edge có sẵn trên máy, ghi vào `local.json` rồi tự push. Bot GitHub chỉ ghi `jobs.json`, nên hai bên không bao giờ xung đột.
+
+1. Cài một lần: `pip install beautifulsoup4 playwright` (không cần tải trình duyệt, dùng Edge).
+2. Chạy thử không push: `python local.py --no-push`
+3. Lịch tự chạy 6 tiếng/lần đã được tạo bằng lệnh dưới (tên `vieclamdata-local`). Máy phải bật và đã đăng nhập Windows; khi chạy sẽ thoáng thấy biểu tượng Edge trên thanh taskbar.
+   ```powershell
+   schtasks /Create /TN vieclamdata-local /SC HOURLY /MO 6 /ST 07:00 /F /TR "cmd /c cd /d C:\Users\nguye\Documents\data_job_website && python local.py >> local.log 2>&1"
+   ```
+   - Chạy ngay: `schtasks /Run /TN vieclamdata-local`
+   - Xem kết quả: mở `local.log` (dòng `Nguồn cần kiểm tra: ...` nếu có trang hỏng)
+   - Tắt lịch: `schtasks /Delete /TN vieclamdata-local /F`
+
 ## Chạy thử trên máy
 
 ```powershell
@@ -80,6 +96,7 @@ Cấp bậc kinh nghiệm được đoán từ tên vị trí ("Senior", "Trư�
 
 ## Chưa hỗ trợ
 
-- **TopCV**: Cloudflare chặn request tự động (lỗi 403).
-- **ITviec**: Cloudflare chặn IP máy chủ GitHub (lỗi 403), dù chạy trên máy cá nhân ở Việt Nam vẫn được.
+- **Indeed**: Cloudflare chặn cả trình duyệt thật.
+- **FPT, Tiki**: trang tuyển dụng không hiện danh sách tin công khai.
+- **123job, Joboko, Timviec365**: chủ yếu đăng lại tin từ trang khác → trùng lặp, nên không lấy.
 - **TopDev**: API không trả về tên công việc.

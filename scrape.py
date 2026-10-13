@@ -29,7 +29,9 @@ DATA_RE = re.compile(
 )
 # luôn loại: "data" mang nghĩa khác (danh sách khách hàng của sales, trung tâm dữ liệu, tính từ), nhập/gán nhãn dữ liệu, DBA
 NOT_DATA_RE = re.compile(
-    r"data entry|nhập liệu|data (?:\w+ ){0,2}(?:có )?sẵn|data nóng|spam data|data cent(?:er|re)|data[- ]driven|annotat|gán nhãn"
+    r"data entry|nhập (?:dữ )?liệu|data (?:\w+ ){0,2}(?:có )?sẵn|data nóng|spam data|data cent(?:er|re)|data[- ]driven|annotat|gán nhãn"
+    # sales VN: "data" = danh sách khách hàng được giao ("Hỗ trợ Data", "Sẵn 100% Data", "Data công ty cấp", "Nhắc phí theo Data")
+    r"|(?:hỗ trợ|có sẵn|sẵn|có|cung cấp|theo|gọi|tìm) (?:100% )?data\b|data (?:được |công ty )*(?:cung )?cấp|data topup"
     r"|telesales|telemarketing|quản trị cơ sở dữ liệu|\bDBA\b|database administrat|sql server administrat",
     re.I,
 )
@@ -38,11 +40,13 @@ NOT_DATA_RE = re.compile(
 OTHER_ROLE_RE = re.compile(
     r"\bsales\b|account (?:executive|manager)|business development|nhân viên kinh doanh|chuyên viên kinh doanh|bán hàng"
     r"|recruit|talent acquisition|tuyển sinh|nhân sự|nguồn nhân lực|\bHR\b|counsel|pháp chế|compensation|hành chính"
-    r"|customer (?:service|support|success)|chăm sóc khách hàng|application support",
+    r"|customer (?:service|support|success)|chăm sóc khách hàng|application support"
+    r"|tư vấn|nhắc phí|cskh|qua điện thoại|gọi điện|bất động sản|\bbđs\b|phát triển thị trường|kho hàng"
+    r"|(?:nhóm|giám đốc|trưởng phòng) kinh doanh",
     re.I,
 )
 DATA_ROLE_RE = re.compile(
-    r"data (?:analyst|engineer|scientist|architect|science|analytics|modeler)|phân tích dữ liệu|kỹ sư dữ liệu|khoa học dữ liệu"
+    r"data (?:analyst|engineer|scientist|architect|science|analytics|modeler|consultant)|phân tích dữ liệu|kỹ sư dữ liệu|khoa học dữ liệu"
     r"|machine learning|business intelligence|power ?bi|tableau",
     re.I,
 )
@@ -188,6 +192,12 @@ def linkedin():
     return out
 
 
+def slugify(s):
+    """'Phân tích Dữ liệu' → 'phan-tich-du-lieu' (cho link trang chỉ cần id, slug để link dễ đọc)."""
+    s = unicodedata.normalize("NFD", s.replace("đ", "d").replace("Đ", "D")).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
+
+
 YBOX_CITY = {"HN": "Hà Nội", "HCM": "Hồ Chí Minh", "ĐN": "Đà Nẵng", "DN": "Đà Nẵng"}
 
 
@@ -210,9 +220,7 @@ def ybox():
              "{ edges { _id title publishedAt photo summary } } } }" % page)
         for p in get_json("https://api.ybox.vn/graphql?query=" + urllib.parse.quote(q))["data"]["AllPosts"]["NewestPosts"]["edges"]:
             loc, company, title = ybox_title(p["title"])
-            slug = re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFD", p["title"].replace("đ", "d").replace("Đ", "D"))
-                          .encode("ascii", "ignore").decode().lower()).strip("-")
-            out.append(job(title, company, loc, "VN", f"https://ybox.vn/tuyen-dung/{slug}-{p['_id']}", "Ybox", day(p["publishedAt"]),
+            out.append(job(title, company, loc, "VN", f"https://ybox.vn/tuyen-dung/{slugify(p['title'])}-{p['_id']}", "Ybox", day(p["publishedAt"]),
                            logo=(p.get("photo") or "").replace("http://", "https://"), desc=plain(p.get("summary"))))
     return out
 
@@ -437,10 +445,11 @@ def save(path, jobs):
         json.dump({"updated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "jobs": jobs}, f, ensure_ascii=False, indent=1)
 
 
-def main():
+def run(sources, path):
+    """Chạy các nguồn, gộp vào file json ở path, trả về tên các nguồn hỏng. local.py dùng lại cho local.json."""
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     new, broken = [], []
-    for src in SOURCES:
+    for src in sources:
         try:
             raw = src()
             found = [j for j in raw if is_data_job(j["title"])]
@@ -451,11 +460,15 @@ def main():
         except Exception as e:
             print(f"{src.__name__}: LỖI {e!r}")
             broken.append(src.__name__)
-    old = [j for j in load("jobs.json") if is_data_job(j["title"])]  # sửa bộ lọc thì job cũ cũng được lọc lại
+    old = [j for j in load(path) if is_data_job(j["title"])]  # sửa bộ lọc thì job cũ cũng được lọc lại
     jobs = merge(old, new)
-    save("jobs.json", jobs)
+    save(path, jobs)
     print(f"Tổng: {len(jobs)} job")
-    broken += FAILED_COMPANIES
+    return broken + FAILED_COMPANIES
+
+
+def main():
+    broken = run(SOURCES, "jobs.json")
     if broken:  # workflow báo đỏ + GitHub gửi email → biết nguồn nào cần sửa
         print(f"Nguồn cần kiểm tra: {', '.join(broken)}")
         sys.exit(1)
