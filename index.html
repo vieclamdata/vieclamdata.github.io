@@ -460,6 +460,20 @@ function update() {
   render(s);
 }
 
+// "CÔNG TY CỔ PHẦN F88" và "F88 Business JSC" → "f88": bỏ các chữ chỉ loại hình doanh nghiệp
+const LEGAL = /\b(cong ty|cty|tnhh|co phan|cp|tap doan|tong cong ty|ngan hang|tmcp|thuong mai|jsc|joint stock|company|co ltd|ltd|limited|llc|inc|corp|corporation|group|business|viet nam|vietnam|vn|chi nhanh|mot thanh vien|mtv|dich vu|dau tu|phat trien|cong nghe|technology|technologies|solutions?)\b/g;
+const words = (s) => norm(s).replace(/[^a-z0-9]+/g, " ");
+function dupKey(j) {
+  // mã tin trong tên ("... (2026TD450980)") giống nhau trên mọi trang, kể cả khi tên công ty khác hẳn ("MBBANK" / "Ngân hàng TMCP Quân Đội")
+  // ponytail: mã chung kiểu "ISO27001" ở hai công ty khác nhau sẽ bị gộp nhầm; thêm tên công ty vào khóa nếu gặp
+  const code = j.title.match(/\b(?=[A-Z0-9]*\d{4})(?=[A-Z0-9]*[A-Z])[A-Z0-9]{7,}\b/);
+  if (code) return code[0];
+  const company = words(j.company).replace(LEGAL, " ").replace(/\s+/g, " ").trim();
+  const title = words(j.title.replace(/\(.*?\)|\[.*?\]/g, " ")).replace(/\s+/g, " ").trim();
+  return company ? `${title}|${company}` : j.url; // không có tên công ty thì không gộp, tránh gộp nhầm
+}
+const richness = (j) => (j.desc ? 8 : 0) + (j.salary ? 4 : 0) + (j.logo ? 2 : 0) + (j.tags?.length ? 1 : 0);
+
 async function loadJson(path) {
   try { const r = await fetch(path, { cache: "no-cache" }); return r.ok ? await r.json() : null; }
   catch { return null; }
@@ -482,9 +496,13 @@ new IntersectionObserver(([e]) => form.classList.toggle("stuck", e.intersectionR
     list.replaceChildren();
     return;
   }
-  const seen = new Set();
-  jobs = [...(main?.jobs || []), ...(local?.jobs || [])]
-    .filter((j) => !seen.has(j.url) && seen.add(j.url))
+  // cùng vị trí + công ty đăng ở nhiều trang (hoặc nhiều link trên một trang) → giữ 1 tin, tin có nhiều thông tin nhất
+  const best = new Map();
+  for (const j of [...(main?.jobs || []), ...(local?.jobs || [])]) {
+    const k = dupKey(j), b = best.get(k);
+    if (!b || richness(j) > richness(b)) best.set(k, j);
+  }
+  jobs = [...best.values()]
     .sort((a, b) => b.date.localeCompare(a.date))
     .map((j) => {
       const d = daysAgo(j.date);
