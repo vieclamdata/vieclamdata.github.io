@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Việc làm Data</title>
+<meta name="description" content="Tổng hợp việc làm ngành data tại Việt Nam và remote quốc tế, cập nhật mỗi 6 tiếng.">
+<meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<style>
+  :root {
+    --bg: #f5f5f7; --card: #fff; --text: #1d1d1f; --text2: #424245; --muted: #6e6e73;
+    --line: rgb(0 0 0 / .1); --line-hi: rgb(0 0 0 / .18); --accent: #0066cc; --accent-soft: rgb(0 102 204 / .16);
+    --remote: #1a7f37; --remote-soft: #e3f4e8;
+    --seg: rgb(118 118 128 / .12); --thumb: #fff; --pop: rgb(255 255 255 / .82);
+    --bar: rgb(245 245 247 / .72); --shadow: 0 1px 2px rgb(0 0 0 / .04), 0 4px 16px rgb(0 0 0 / .04);
+    --shadow-hi: 0 2px 4px rgb(0 0 0 / .05), 0 12px 32px rgb(0 0 0 / .08);
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000; --card: #1c1c1e; --text: #f5f5f7; --text2: #d1d1d6; --muted: #98989d;
+      --line: rgb(255 255 255 / .12); --line-hi: rgb(255 255 255 / .24); --accent: #4da3ff; --accent-soft: rgb(77 163 255 / .25);
+      --remote: #5fd47f; --remote-soft: #12301c;
+      --seg: rgb(118 118 128 / .24); --thumb: #636366; --pop: rgb(44 44 46 / .82);
+      --bar: rgb(0 0 0 / .7); --shadow: none; --shadow-hi: 0 12px 32px rgb(0 0 0 / .5);
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 100%/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { padding: 0 clamp(16px, 3vw, 40px); } /* giãn hết chiều ngang, lưới tự thêm cột */
+
+  /* Tiêu đề lớn: chữ to thì tracking âm, leading chặt (chừa chỗ cho dấu tiếng Việt) */
+  .hero { padding-top: 56px; padding-bottom: 20px; }
+  h1 { margin: 0; font-size: clamp(2.25rem, 1.6rem + 3vw, 3rem); line-height: 1.1; letter-spacing: -0.03em; font-weight: 700; }
+  .sub { margin: 8px 0 0; font-size: 1.0625rem; color: var(--text2); letter-spacing: -0.01em; }
+  .updated { margin: 6px 0 0; font-size: .875rem; color: var(--muted); }
+  .dot { display: inline-block; width: 8px; height: 8px; margin-right: 6px; border-radius: 50%; background: #30d158; vertical-align: 1px; }
+  .dot.stale { background: #ff9f0a; }
+
+  /* Thanh lọc: lớp kính mờ, chỉ hiện "vật liệu" khi có nội dung cuộn bên dưới */
+  .bar { position: sticky; top: 0; z-index: 2; padding: 10px 0; transition: background-color .2s, box-shadow .2s; }
+  .bar.stuck {
+    background: var(--bar); box-shadow: 0 1px 0 var(--line);
+    -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px);
+  }
+  .controls { display: grid; grid-template-columns: minmax(0, 1fr) auto auto auto; grid-template-areas: "q seg level source"; gap: 8px; }
+  .search { grid-area: q; } .seg { grid-area: seg; } [name=level] { grid-area: level; } [name=source] { grid-area: source; }
+  @media (max-width: 1000px) { .controls { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-areas: "q seg" "level source"; } }
+  input, select {
+    font: inherit; font-size: 1rem; color: var(--text); background: var(--card);
+    border: 1px solid var(--line); border-radius: 10px; height: 44px; padding: 0 12px; min-width: 0;
+    transition: border-color .15s, box-shadow .15s;
+  }
+  input:focus-visible, select:focus-visible { outline: none; border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
+  select { cursor: pointer; }
+  .search { position: relative; display: flex; align-items: center; }
+  .search input { width: 100%; padding: 0 36px 0 38px; }
+  .search svg { position: absolute; left: 12px; width: 18px; height: 18px; color: var(--muted); pointer-events: none; }
+  .search kbd {
+    position: absolute; right: 10px; padding: 3px 7px; border: 1px solid var(--line); border-radius: 6px;
+    font: 500 .75rem/1 system-ui, sans-serif; color: var(--muted); pointer-events: none;
+  }
+  .search input:focus ~ kbd, .search input:not(:placeholder-shown) ~ kbd { display: none; }
+  @media (hover: none) { .search kbd { display: none; } }
+
+  /* Segmented control: radio thật bên dưới, thumb trượt bằng transform */
+  .seg { position: relative; display: grid; grid-template-columns: repeat(3, 1fr); padding: 3px; height: 44px; border-radius: 10px; background: var(--seg); }
+  .seg input { position: absolute; opacity: 0; pointer-events: none; }
+  .seg label {
+    position: relative; z-index: 1; display: grid; place-items: center; padding: 0 14px; border-radius: 8px;
+    font-size: .875rem; font-weight: 500; color: var(--muted); white-space: nowrap; cursor: pointer;
+    user-select: none; -webkit-tap-highlight-color: transparent; transition: color .2s;
+  }
+  .seg input:checked + label, .seg label:active { color: var(--text); }
+  .seg input:focus-visible + label { outline: 2px solid var(--accent); outline-offset: -2px; }
+  .thumb {
+    position: absolute; top: 3px; bottom: 3px; left: 3px; width: calc((100% - 6px) / 3); border-radius: 8px;
+    background: var(--thumb); box-shadow: 0 1px 3px rgb(0 0 0 / .12), 0 1px 1px rgb(0 0 0 / .04);
+  }
+  .ready .thumb { transition: transform .32s cubic-bezier(.25, .8, .25, 1); } /* không trượt khi khôi phục bộ lọc từ URL lúc tải trang */
+  #r-vn:checked ~ .thumb { transform: translateX(100%); }
+  #r-remote:checked ~ .thumb { transform: translateX(200%); }
+
+  .status { display: flex; align-items: center; justify-content: space-between; min-height: 36px; margin: 12px 0 0; }
+  .status p { margin: 0; font-size: .875rem; color: var(--muted); }
+  .reset {
+    font: inherit; font-size: .9375rem; font-weight: 500; color: var(--accent); background: none;
+    border: 0; border-radius: 8px; padding: 6px 10px; margin-right: -10px; cursor: pointer;
+  }
+  .reset:active { opacity: .55; }
+  .reset:focus-visible { outline: 2px solid var(--accent); }
+
+  /* Lưới thẻ việc làm, nhóm theo ngày */
+  section:first-child h2 { margin-top: 8px; }
+  h2 { display: flex; align-items: baseline; gap: 8px; margin: 32px 4px 12px; font-size: 1.25rem; font-weight: 700; letter-spacing: -0.015em; line-height: 1.2; }
+  h2 .n { font-size: .875rem; font-weight: 500; color: var(--muted); letter-spacing: 0; }
+  .grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 16px; }
+  .card {
+    position: relative; display: flex; flex-direction: column; background: var(--card);
+    border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); overflow-wrap: anywhere;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform .25s cubic-bezier(.2, .8, .2, 1), border-color .2s, box-shadow .2s;
+  }
+  @media (hover: hover) { .card:hover { border-color: var(--line-hi); box-shadow: var(--shadow-hi); } }
+  .card:active { transform: scale(.98); transition-duration: .1s; } /* phản hồi ngay khi nhấn xuống */
+  .co { display: flex; align-items: center; gap: 14px; padding: 16px 18px; }
+  .logo {
+    flex: none; display: grid; place-items: center; width: 56px; height: 56px; overflow: hidden; border-radius: 12px;
+    background: #fff; box-shadow: inset 0 0 0 1px rgb(0 0 0 / .06); /* logo thiết kế cho nền trắng, kể cả ở chế độ tối */
+  }
+  .logo img { width: 100%; height: 100%; padding: 6px; object-fit: contain; }
+  .logo.mono { background: var(--seg); box-shadow: none; color: var(--muted); font-size: 1.375rem; font-weight: 700; }
+  .cname, .title { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
+  .cname { font-weight: 600; line-height: 1.3; letter-spacing: -0.01em; }
+  .body { flex: 1; padding: 14px 18px 16px; border-top: 1px solid var(--line); }
+  .title { color: var(--text); font-size: 1.0625rem; font-weight: 600; line-height: 1.35; letter-spacing: -0.01em; text-decoration: none; }
+  .title:visited { color: var(--muted); }
+  .title::after { content: ""; position: absolute; inset: 0; } /* cả thẻ là vùng bấm */
+  .title:focus-visible { outline: none; }
+  .title:focus-visible::after { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 16px; }
+  .loc { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin-top: 8px; font-size: .875rem; color: var(--text2); }
+  .foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 12px; padding: 12px 18px; border-top: 1px solid var(--line); }
+  .sal { display: flex; align-items: center; gap: 8px; font-weight: 600; }
+  .sal.none { font-weight: 400; font-size: .875rem; color: var(--muted); }
+  .sal svg { flex: none; width: 20px; height: 20px; color: var(--muted); }
+  .src { font-size: .8125rem; color: var(--muted); white-space: nowrap; }
+  .tag { padding: 1px 8px; border-radius: 99px; font-size: .75rem; font-weight: 600; letter-spacing: .01em; }
+  .tag.remote { background: var(--remote-soft); color: var(--remote); }
+  .tag.lvl { background: var(--seg); color: var(--text2); }
+
+  /* Xem nhanh: popover cạnh thẻ (chuột) hoặc sheet từ dưới lên (cảm ứng) */
+  #qv {
+    width: 380px; max-width: calc(100vw - 16px); max-height: min(600px, calc(100vh - 16px)); overflow: auto; padding: 0;
+    color: var(--text); background: var(--pop); border: 1px solid var(--line); border-radius: 18px;
+    box-shadow: 0 16px 48px rgb(0 0 0 / .2), 0 2px 8px rgb(0 0 0 / .08);
+    -webkit-backdrop-filter: saturate(180%) blur(24px); backdrop-filter: saturate(180%) blur(24px);
+  }
+  #qv:not(:modal) { position: fixed; inset: auto; z-index: 10; margin: 0; }
+  #qv:modal {
+    inset: auto 0 0; width: 100%; max-width: none; max-height: 88vh; margin: 0; background: var(--card);
+    border-width: 1px 0 0; border-radius: 20px 20px 0 0; padding-bottom: env(safe-area-inset-bottom);
+  }
+  #qv::backdrop { background: rgb(0 0 0 / .4); transition: background-color .3s; }
+  #qv.closing::backdrop { background: transparent; }
+  @starting-style { #qv:modal::backdrop { background: transparent; } }
+  html:has(#qv:modal) { overflow: hidden; }
+  .qv { display: grid; gap: 14px; padding: 20px; }
+  .qv-head { display: flex; align-items: center; gap: 12px; }
+  .qv-head .logo { width: 48px; height: 48px; border-radius: 10px; }
+  .qv-co { flex: 1; font-weight: 600; color: var(--text2); line-height: 1.3; }
+  .qv-x {
+    flex: none; display: grid; place-items: center; width: 32px; height: 32px; padding: 0; border: 0; border-radius: 50%;
+    background: var(--seg); color: var(--muted); font-size: 1.125rem; line-height: 1; cursor: pointer;
+  }
+  .qv-x:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  #qv:not(:modal) .qv-x { display: none; }
+  .qv h3 { margin: 0; font-size: 1.25rem; line-height: 1.3; letter-spacing: -0.02em; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 99px; background: var(--seg); font-size: .8125rem; color: var(--text2); }
+  .chip.money { font-weight: 600; color: var(--text); }
+  .chip.money svg { width: 16px; height: 16px; }
+  .chip.skill { background: none; box-shadow: inset 0 0 0 1px var(--line); }
+  .desc { margin: 0; font-size: .9375rem; line-height: 1.6; color: var(--text2); }
+  .desc.none { color: var(--muted); }
+  .apply {
+    display: flex; align-items: center; justify-content: center; gap: 6px; height: 48px; border-radius: 12px;
+    background: #0066cc; color: #fff; font-weight: 600; text-decoration: none; transition: transform .1s, filter .15s;
+  }
+  .apply:hover { filter: brightness(1.1); }
+  .apply:active { transform: scale(.97); }
+  .apply:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .note { margin: -6px 0 0; font-size: .75rem; color: var(--muted); text-align: center; }
+
+  .skel { height: 230px; box-shadow: none; }
+  .empty { padding: 64px 0; text-align: center; color: var(--muted); }
+  .empty p { margin: 0 0 8px; font-size: 1.0625rem; }
+  footer { margin: 40px 0 64px; font-size: .8125rem; color: var(--muted); }
+
+  @media (max-width: 640px) {
+    .hero { padding-top: 32px; }
+    .bar { position: static; } /* 3 hàng bộ lọc dính trên đầu sẽ chiếm 1/4 màn hình điện thoại */
+    .controls { grid-template-areas: "q q" "seg seg" "level source"; }
+    .seg label { padding: 0 4px; }
+  }
+  @media (prefers-reduced-motion: reduce) { .ready .thumb, .bar, .card { transition: none; } .card:active { transform: none; } }
+  @media (prefers-reduced-transparency: reduce) {
+    .bar.stuck { background: var(--bg); -webkit-backdrop-filter: none; backdrop-filter: none; }
+    #qv { background: var(--card); -webkit-backdrop-filter: none; backdrop-filter: none; }
+  }
+  @media (prefers-contrast: more) { :root { --line: rgb(128 128 128 / .7); } }
+</style>
+</head>
+<body>
+<header class="wrap hero">
+  <h1>Việc làm Data</h1>
+  <p class="sub" id="sub">Đang tải…</p>
+  <p class="updated" id="updated" hidden><span class="dot" id="dot"></span><span id="since"></span></p>
+</header>
+
+<form id="f" class="bar" role="search" autocomplete="off">
+  <div class="wrap controls">
+    <label class="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <input name="q" type="search" placeholder="Tìm vị trí, công ty, kỹ năng…" aria-label="Tìm kiếm" enterkeyhint="search" spellcheck="false">
+      <kbd>/</kbd>
+    </label>
+    <div class="seg" role="radiogroup" aria-label="Khu vực">
+      <input type="radio" name="region" id="r-all" value="" checked><label for="r-all">Tất cả</label>
+      <input type="radio" name="region" id="r-vn" value="VN"><label for="r-vn">Việt Nam</label>
+      <input type="radio" name="region" id="r-remote" value="Remote"><label for="r-remote">Remote</label>
+      <span class="thumb"></span>
+    </div>
+    <select name="level" aria-label="Kinh nghiệm">
+      <option value="">Mọi kinh nghiệm</option>
+    </select>
+    <select name="source" aria-label="Nguồn">
+      <option value="">Mọi nguồn</option>
+    </select>
+  </div>
+</form>
+
+<main class="wrap">
+  <div class="status">
+    <p id="count" aria-live="polite"></p>
+    <button type="button" class="reset" id="reset" hidden>Xóa bộ lọc</button>
+  </div>
+  <div id="list"><ul class="grid" aria-hidden="true"><li class="card skel"></li><li class="card skel"></li><li class="card skel"></li></ul></div>
+  <footer>Dữ liệu tổng hợp tự động từ các trang tuyển dụng và mạng xã hội. Bấm vào tin để xem bản gốc và ứng tuyển.</footer>
+</main>
+
+<dialog id="qv" aria-labelledby="qv-title"></dialog>
+
+<script>
+const LEVELS = { intern: "Thực tập / Fresher", junior: "Junior", mid: "Middle", senior: "Senior", lead: "Lead / Quản lý" }; // khóa khớp LEVELS trong scrape.py
+const levelText = (j) => (j.level || []).map((k) => LEVELS[k]).join(" · ");
+const where = (j) => (j.source === "Trang công ty" ? `trang ${j.company}` : j.source); // "Ứng tuyển trên trang Grab"
+const CASH = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2.5" y="6" width="19" height="12" rx="2.5"/><circle cx="12" cy="12" r="2.5"/></svg>';
+const $ = (id) => document.getElementById(id);
+const form = $("f"), qv = $("qv");
+// bỏ dấu để "du lieu" tìm được "dữ liệu"
+const norm = (s) => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/gi, "d").toLowerCase();
+const safeUrl = (u) => (/^https?:\/\//i.test(u) ? u : "#");
+const daysAgo = (d) => Math.round((Date.now() - new Date(d + "T00:00:00")) / 864e5);
+const group = (n) => (n <= 0 ? "Hôm nay" : n === 1 ? "Hôm qua" : n < 7 ? "7 ngày qua" : "Cũ hơn");
+
+// giống Mail: hôm nay / hôm qua / thứ trong tuần / ngày tháng
+function when(j) {
+  if (j._days <= 1) return group(j._days);
+  return new Date(j.date + "T00:00:00").toLocaleDateString("vi-VN", j._days < 7 ? { weekday: "long" } : { day: "numeric", month: "numeric" });
+}
+
+function el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text) e.textContent = text;
+  return e;
+}
+
+function link(cls, text, url) {
+  const a = el("a", cls, text);
+  a.href = safeUrl(url); a.target = "_blank"; a.rel = "noopener noreferrer";
+  return a;
+}
+
+function logo(j) {
+  const box = el("span", "logo");
+  const mono = () => { box.classList.add("mono"); box.textContent = [...(j.company || j.source).trim()][0]?.toUpperCase() || "?"; };
+  if (!/^https:\/\//.test(j.logo || "")) { mono(); return box; }
+  const img = el("img");
+  img.alt = ""; img.loading = "lazy"; img.decoding = "async"; img.referrerPolicy = "no-referrer";
+  img.onerror = mono; // ảnh hỏng/chặn hotlink → chữ cái đầu
+  img.src = j.logo;
+  box.append(img);
+  return box;
+}
+
+function money(salary, cls) {
+  const s = el("span", cls);
+  s.innerHTML = CASH;
+  s.append(salary);
+  return s;
+}
+
+function card(j) {
+  const li = el("li", "card");
+  li._job = j;
+  const co = el("div", "co");
+  co.append(logo(j), el("span", "cname", j.company || j.source));
+  const body = el("div", "body");
+  body.append(link("title", j.title, j.url));
+  const loc = el("div", "loc");
+  if (j.level?.length) loc.append(el("span", "tag lvl", levelText(j)));
+  if (j.region === "Remote") loc.append(el("span", "tag remote", "Remote"));
+  if (j.location && !/^remote/i.test(j.location)) loc.append(el("span", "", j.location));
+  if (loc.childElementCount) body.append(loc);
+  const foot = el("div", "foot");
+  const t = el("time", "src", `${j.source} · ${when(j)}`);
+  t.dateTime = j.date;
+  foot.append(money(j.salary || "Chưa có thông tin lương", j.salary ? "sal" : "sal none"), t);
+  li.append(co, body, foot);
+  li.addEventListener("pointerenter", (e) => { if (e.pointerType === "mouse") hoverIn(li); });
+  li.addEventListener("pointerleave", (e) => { if (e.pointerType === "mouse") hoverOut(); });
+  return li;
+}
+
+// ---------- Xem nhanh ----------
+
+function fill(j) {
+  const head = el("div", "qv-head");
+  const x = el("button", "qv-x", "✕");
+  x.type = "button"; x.setAttribute("aria-label", "Đóng"); x.onclick = qvHide;
+  head.append(logo(j), el("div", "qv-co", j.company || j.source), x);
+  const h = el("h3", "", j.title);
+  h.id = "qv-title";
+  const facts = el("div", "chips");
+  if (j.salary) facts.append(money(j.salary, "chip money"));
+  if (j.level?.length) facts.append(el("span", "chip", levelText(j)));
+  if (j.region === "Remote") facts.append(el("span", "chip", "Remote"));
+  if (j.location && !/^remote/i.test(j.location)) facts.append(el("span", "chip", j.location));
+  facts.append(el("span", "chip", when(j)));
+  const skills = el("div", "chips");
+  for (const s of j.tags || []) skills.append(el("span", "chip skill", s));
+  const desc = j.desc;
+  const box = el("div", "qv");
+  box.append(head, h, facts);
+  if (skills.childElementCount) box.append(skills);
+  box.append(
+    el("p", desc ? "desc" : "desc none", desc || `Mô tả chi tiết có trên ${where(j)}.`),
+    link("apply", `Ứng tuyển trên ${where(j)} ↗`, j.url),
+    el("p", "note", `Bạn sẽ nộp hồ sơ trực tiếp trên ${where(j)}.`),
+  );
+  qv.replaceChildren(box);
+}
+
+// đặt popover bên phải thẻ, hết chỗ thì sang trái; scale ra từ phía thẻ
+function place(card) {
+  const r = card.getBoundingClientRect(), w = qv.offsetWidth, h = qv.offsetHeight, gap = 12;
+  const right = r.right + gap + w <= innerWidth - 8;
+  const x = right ? r.right + gap : Math.max(8, r.left - gap - w);
+  const y = Math.min(Math.max(8, r.top), innerHeight - h - 8);
+  qv.style.left = `${x}px`; qv.style.top = `${y}px`;
+  qv.style.transformOrigin = `${right ? "left" : "right"} ${Math.min(Math.max(r.top + r.height / 2 - y, 0), h)}px`;
+}
+
+const reduce = matchMedia("(prefers-reduced-motion: reduce)");
+let timer, anim, current, closing = false, touch = false;
+
+function frames(sheet) {
+  if (reduce.matches) return [{ opacity: 0 }, { opacity: 1 }];
+  return sheet ? [{ transform: "translateY(100%)" }, { transform: "none" }]
+               : [{ opacity: 0, transform: "scale(.96)" }, { opacity: 1, transform: "none" }];
+}
+
+// một animation cho cả mở và đóng: bị ngắt giữa chừng thì đảo chiều từ vị trí hiện tại, không nhảy
+function run(sheet, opening) {
+  if (anim?.playState === "running") anim.reverse();
+  else {
+    anim?.cancel();
+    const duration = sheet ? (opening ? 420 : 300) : (opening ? 180 : 120);
+    anim = qv.animate(frames(sheet), { duration, easing: "cubic-bezier(.32, .72, 0, 1)", fill: "both", direction: opening ? "normal" : "reverse" });
+  }
+  anim.onfinish = opening ? null : () => { closing = false; qv.close(); anim.cancel(); qv.classList.remove("closing"); };
+}
+
+function qvOpen(card, sheet) {
+  clearTimeout(timer);
+  if (qv.open && sheet !== qv.matches(":modal")) { anim?.cancel(); qv.close(); closing = false; }
+  current = card;
+  fill(card._job);
+  const fresh = !qv.open;
+  // popover dùng thuộc tính open thay vì show(): show() tự chuyển focus vào nút trong dialog → rê chuột qua thẻ sẽ cướp focus ô tìm kiếm
+  if (fresh) { qv.removeAttribute("style"); sheet ? qv.showModal() : qv.setAttribute("open", ""); }
+  if (!sheet) place(card);
+  qv.classList.remove("closing");
+  if (fresh || closing) { closing = false; run(sheet, true); }
+}
+
+function qvHide() {
+  clearTimeout(timer);
+  if (!qv.open || closing) return;
+  closing = true;
+  qv.classList.add("closing");
+  run(qv.matches(":modal"), false);
+}
+
+// rê chuột dừng 400ms mới mở; đang mở thì chuyển thẻ nhanh hơn
+function hoverIn(card) {
+  clearTimeout(timer);
+  if (current === card && qv.open && !closing) return;
+  timer = setTimeout(() => qvOpen(card, false), !qv.open ? 400 : current === card ? 0 : 120);
+}
+function hoverOut() { clearTimeout(timer); timer = setTimeout(qvHide, 150); } // đủ thời gian đưa chuột sang popover
+qv.addEventListener("pointerenter", () => { clearTimeout(timer); if (closing && current) qvOpen(current, false); });
+qv.addEventListener("pointerleave", () => { if (!qv.matches(":modal")) hoverOut(); });
+qv.addEventListener("cancel", (e) => { e.preventDefault(); qvHide(); }); // Esc
+qv.addEventListener("click", (e) => { if (e.target === qv) qvHide(); }); // bấm ra nền mờ
+addEventListener("keydown", (e) => { if (e.key === "Escape" && qv.open) qvHide(); });
+addEventListener("scroll", () => { if (qv.open && !qv.matches(":modal")) qvHide(); }, { passive: true });
+addEventListener("pointerdown", (e) => { touch = e.pointerType !== "mouse"; }, true);
+
+const list = $("list");
+// cảm ứng không có hover → chạm vào thẻ mở sheet xem nhanh; chuột bấm thì mở tin gốc như link thường
+list.addEventListener("click", (e) => {
+  const c = e.target.closest(".card");
+  if (c?._job && touch) { e.preventDefault(); qvOpen(c, true); }
+});
+list.addEventListener("focusin", (e) => { if (e.target.matches(":focus-visible")) qvOpen(e.target.closest(".card"), false); });
+list.addEventListener("focusout", () => { if (!qv.matches(":modal")) qvHide(); });
+
+// ---------- Lọc ----------
+
+let jobs = [];
+
+function render(s) {
+  if (!qv.matches(":modal")) qvHide();
+  const words = norm(s.q).split(/\s+/).filter(Boolean);
+  const active = Object.values(s).some(Boolean);
+  const shown = jobs.filter((j) =>
+    (!s.region || j.region === s.region) &&
+    (!s.level || j.level?.includes(s.level)) &&
+    (!s.source || j.source === s.source) &&
+    words.every((w) => j._search.includes(w)));
+
+  const groups = [];
+  for (const j of shown) {
+    if (groups.at(-1)?.name !== j._group) groups.push({ name: j._group, cards: [] });
+    groups.at(-1).cards.push(card(j));
+  }
+  list.replaceChildren(...groups.map((g) => {
+    const h = el("h2", "", g.name);
+    h.append(el("span", "n", String(g.cards.length)));
+    const ul = el("ul", "grid");
+    ul.append(...g.cards);
+    const sec = el("section");
+    sec.append(h, ul);
+    return sec;
+  }));
+
+  $("count").textContent = `${shown.length.toLocaleString("vi-VN")} việc làm`;
+  $("reset").hidden = !active;
+  if (!shown.length) {
+    const e = el("div", "empty");
+    e.append(el("p", "", "Không có việc làm phù hợp."));
+    if (active) { const b = $("reset").cloneNode(true); b.removeAttribute("id"); e.append(b); }
+    list.append(e);
+  }
+}
+
+// lưu bộ lọc lên URL để chia sẻ được link đã lọc
+function update() {
+  const s = Object.fromEntries(new FormData(form));
+  const qs = new URLSearchParams(Object.entries(s).filter(([, v]) => v)).toString();
+  history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+  render(s);
+}
+
+async function loadJson(path) {
+  try { const r = await fetch(path, { cache: "no-cache" }); return r.ok ? await r.json() : null; }
+  catch { return null; }
+}
+
+form.addEventListener("submit", (e) => { e.preventDefault(); form.q.blur(); }); // Enter: ẩn bàn phím trên điện thoại
+addEventListener("click", (e) => { if (e.target.closest(".reset")) { form.reset(); update(); } });
+addEventListener("keydown", (e) => {
+  if (e.key === "/" && !e.target.closest("input, select, textarea")) { e.preventDefault(); form.q.focus(); }
+});
+new IntersectionObserver(([e]) => form.classList.toggle("stuck", e.intersectionRatio < 1),
+  { threshold: 1, rootMargin: "-1px 0px 0px 0px" }).observe(form);
+
+(async () => {
+  const main = await loadJson("jobs.json");
+  if (!main && location.protocol === "file:") {
+    // trình duyệt chặn fetch() khi mở file trực tiếp (file:///)
+    $("sub").textContent = "Không đọc được jobs.json khi mở file trực tiếp. Chạy \"python -m http.server\" trong thư mục dự án rồi mở http://localhost:8000";
+    list.replaceChildren();
+    return;
+  }
+  jobs = (main?.jobs || [])
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .map((j) => {
+      const d = daysAgo(j.date);
+      return { ...j, _days: d, _group: group(d), _search: norm([j.title, j.company, j.location, j.source, levelText(j), ...(j.tags || [])].join(" ")) };
+    });
+
+  const counts = {};
+  for (const j of jobs) for (const k of [j.source, ...(j.level || [])]) counts[k] = (counts[k] || 0) + 1;
+  for (const [k, label] of Object.entries(LEVELS)) form.level.append(new Option(`${label} · ${counts[k] || 0}`, k));
+  for (const s of [...new Set(jobs.map((j) => j.source))].sort()) form.source.append(new Option(`${s} · ${counts[s]}`, s));
+
+  $("sub").textContent = `${jobs.length.toLocaleString("vi-VN")} việc làm ngành data tại Việt Nam và remote quốc tế.`;
+  if (main?.updated) {
+    const h = (Date.now() - new Date(main.updated)) / 36e5;
+    $("since").textContent = h < 1 ? "Vừa cập nhật" : h < 24 ? `Cập nhật ${Math.floor(h)} giờ trước` : `Cập nhật ${Math.floor(h / 24)} ngày trước`;
+    $("dot").classList.toggle("stale", h > 12); // scrape chạy 6 tiếng/lần, quá 12 tiếng là có vấn đề
+    $("updated").hidden = false;
+  }
+
+  const params = new URLSearchParams(location.search);
+  for (const k of ["q", "region", "level", "source"]) if (params.get(k)) form.elements[k].value = params.get(k);
+  for (const sel of [form.level, form.source]) if (sel.selectedIndex < 0) sel.selectedIndex = 0;
+
+  form.addEventListener("input", update);
+  update();
+  form.offsetWidth; // chốt vị trí thumb trước khi bật transition
+  form.classList.add("ready");
+})();
+</script>
+</body>
+</html>
