@@ -1,6 +1,221 @@
 {
- "updated": "2026-10-12T15:57+00:00",
+ "updated": "2026-10-13T14:53+00:00",
  "jobs": [
+  {
+   "title": "Data Analyst (Tài Chính)",
+   "company": "Công ty Cổ phần Vàng bạc đá quý Bảo Tín Mạnh Hải",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/data-analyst-tai-chinh-1791882110569512251-2118947-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-13",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/7b/11420901.png",
+   "salary": "Thương lượng",
+   "tags": [
+    "SQL",
+    "Tableau BI",
+    "Business Analysis",
+    "Phân Tích Dữ Liệu",
+    "Financial Analysis"
+   ],
+   "desc": "Tại sao bạn nên gia nhập cùng chúng tôi CHẾ ĐỘ PHÚC LỢI: - Thu nhập cạnh tranh. Lương thỏa thuận theo năng lực, tương xứng với kinh nghiệm và đóng góp thực tế. - Thưởng hấp dẫn: 1. Thưởng tháng lương 13 cố định. 2. Thưởng các ngày Lễ, Tết theo quy định Công ty. 3. Thưởng hiệu quả...",
+   "level": [
+    "mid"
+   ]
+  },
+  {
+   "title": "Head Of Insights And Analytics",
+   "company": "NAB Innovation Centre Vietnam",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/head-of-insights-and-analytics-1791881675031437314-2118951-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-13",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/d9/11293186.png",
+   "salary": "Thương lượng",
+   "tags": [
+    "Data Analytics",
+    "ETL Database",
+    "Stakeholder management",
+    "Strategic Thinking",
+    "Data Engineering"
+   ],
+   "desc": "MAIN RESPONSIBILITIES: 1. Strategic Performance Advisory As a strategic partner to Executive Leadership, this role drives the measurement, interpretation, and optimization of Service Centre performance. • Serve as a trusted advisor to the Executive Leadership Team, shaping how business performance is measured, monitored, and improved across the Service Centre. • Lead and develop a central…",
+   "level": [
+    "lead"
+   ]
+  },
+  {
+   "title": "Senior AI Scientist",
+   "company": "FPT Software",
+   "location": "Thừa Thiên Huế",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/senior-ai-scientist-2118819-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-13",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/14/11129135.png",
+   "salary": "Thương lượng",
+   "tags": [
+    "AI",
+    "Science",
+    "AI system",
+    "PYTHON",
+    "Python programming"
+   ],
+   "desc": "ABOUT FPT SOFTWARE FPT Software, a subsidiary of FPT Group, is a leading global IT service provider headquartered in Vietnam. With 33,000+ employees in 88 offices across 30 countries, we serve 1,100+ clients, including 96 Fortune 500 companies. We believe diversity fuels innovation and strive to create an inclusive workplace where talents of all backgrounds thrive....",
+   "level": [
+    "senior"
+   ]
+  },
+  {
+   "title": "Kỹ sư Dữ liệu (Data Engineer)",
+   "company": "Công Ty Cổ Phần Đầu Tư Xây Dựng Newtecons",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ky-su-du-lieu-data-engineer-2118921-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-13",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/0e/11128386.png",
+   "salary": "$ 700-1,200 /tháng",
+   "tags": [
+    "Sql Và Postgresql",
+    "Pyspark",
+    "Apache Spark",
+    "Apache Airflow",
+    "Giao tiếp Tiếng Anh"
+   ],
+   "desc": "MÔ TẢ CÔNG VIỆC - Thu thập và tích hợp dữ liệu từ các hệ thống tài chính, nhân sự, quản lý dự án, thi công, thiết bị và các ứng dụng nội bộ. - Xử lý dữ liệu có cấu trúc, bán cấu trúc và phi cấu trúc; làm sạch, chuẩn hóa, loại bỏ trùng...",
+   "level": [
+    "mid"
+   ]
+  },
+  {
+   "title": "AI Engineer (LLM/RAG) - Signing Bonus Up to 30M",
+   "company": "FPT Software",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ai-engineer-llmrag-signing-bonus-up-to-30m-2104545-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-13",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/14/11129135.png",
+   "salary": "Tới 30tr ₫/tháng",
+   "tags": [
+    "LLMs",
+    "Data Integration",
+    "Lambda",
+    "Python programming",
+    "genAI"
+   ],
+   "desc": "ABOUT FPT SOFTWARE • FPT Software, a subsidiary of FPT Group, is a leading global IT service provider headquartered in Vietnam. With 33,000+ employees in 88 offices across 30 countries, we serve 1,100+ clients, including 96 Fortune 500 companies. • We believe diversity fuels innovation and strive to create an inclusive workplace where talents of all...",
+   "level": [
+    "mid"
+   ]
+  },
+  {
+   "title": "Senior Business Intelligence",
+   "company": "Công Ty TNHH SPX Express",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/senior-business-intelligence-1791883658952891931-2118994-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-13",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/3e/11232016.png",
+   "salary": "Thương lượng",
+   "tags": [
+    "Business Intelligence",
+    "Data Analysis",
+    "Business Analysis",
+    "SQL & Power BI"
+   ],
+   "desc": "Data Analytics: Develop, manage business intelligence solutions and provide data reports to improve business operation and processes Evaluate and define business metrics, democrats data by building and socialising decision tools (dashboard, reports) Prepare business cases or calculations for key initiatives Support various business functions with the development and maintenance of various…",
+   "level": [
+    "senior"
+   ]
+  },
+  {
+   "title": "Head of Data (Engineer & Analyst)",
+   "company": "UrBox - Digital Rewards & Loyalty Solution",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4477978565",
+   "source": "LinkedIn",
+   "date": "2026-10-13",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHrNYJvEo9m8Q/company-logo_100_100/B56ZqfZ3piJUAU-/0/1763610950830/urboxvn_logo?e=2147483647&v=beta&t=cHFO9Yu2MuvF4-pjArZEAA2Cah8ob80JQDYDjLuzeO0",
+   "level": [
+    "lead"
+   ]
+  },
+  {
+   "title": "Junior Data Scientist",
+   "company": "micro1",
+   "location": "Australia, Canada, New Zealand, United Kingdom, United States",
+   "region": "Remote",
+   "url": "https://himalayas.app/companies/micro1/jobs/junior-data-scientist",
+   "source": "Himalayas",
+   "date": "2026-10-13",
+   "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
+   "salary": "$150–200/giờ",
+   "desc": "Role Title: Junior Data Scientist Role Type: Contractor Location: Remote About the Role micro1 is partnering with a leading AI lab to hire data scientists and quantitative professionals from top companies. You'll bring rigor to how AI models handle statistics, machine learning, experimentation, and quantitative reasoning. Scope of Work Evaluate AI model outputs on data science, statistics, ML,…",
+   "level": [
+    "junior"
+   ]
+  },
+  {
+   "title": "Sr. Forward Deployed AI Engineer (Remote Eligible in the UK)",
+   "company": "Smartsheet",
+   "location": "UK",
+   "region": "Remote",
+   "url": "https://jobicy.com/jobs/155167-sr-forward-deployed-ai-engineer-remote-eligible-in-the-uk",
+   "source": "Jobicy",
+   "date": "2026-10-13",
+   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/8b6103bd-221.jpg",
+   "desc": "For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights at scale, we create the space for people to focus on what truly matters: judgment, creativity, and big thinking. That is…",
+   "level": [
+    "senior"
+   ]
+  },
+  {
+   "title": "QA Automation Lead [gn] Data Intelligence",
+   "company": "Actian",
+   "location": "Europe",
+   "region": "Remote",
+   "url": "https://jobicy.com/jobs/149048-qa-automation-lead-gn-data-intelligence",
+   "source": "Jobicy",
+   "date": "2026-10-13",
+   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2026/06/0fee3ec4-221.webp",
+   "desc": "The QA Automation Team is the ultimate guardian of our platform’s reliability, scalability, and deployment velocity. In a complex, data-heavy ecosystem, manual testing is a bottleneck; continuous, intelligent, and bulletproof automation is the only way forward. We are looking for a QA Automation Lead who will architect, scale, and own our automated testing strategy end-to-end. You are not a…",
+   "level": [
+    "lead"
+   ]
+  },
+  {
+   "title": "AI Enablement Lead [gn] Data Intelligence",
+   "company": "Actian",
+   "location": "Europe",
+   "region": "Remote",
+   "url": "https://jobicy.com/jobs/149049-ai-enablement-lead-gn-data-intelligence",
+   "source": "Jobicy",
+   "date": "2026-10-13",
+   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2026/06/0fee3ec4-221.webp",
+   "desc": "The AI Enablement Team is the catalyst for internal transformation and product acceleration across Actian . In the modern data landscape, AI is not a siloed experimental lab; it is a core capability that must be embedded into our product DNA and our engineering workflows. We are looking for an AI Enablement Lead who will architect, scale, and own our AI enablement strategy end-to-end. You are not…",
+   "level": [
+    "lead"
+   ]
+  },
+  {
+   "title": "Manager, GTM Analytics",
+   "company": "Zapier",
+   "location": "Canada,  USA",
+   "region": "Remote",
+   "url": "https://jobicy.com/jobs/153099-manager-gtm-analytics",
+   "source": "Jobicy",
+   "date": "2026-10-13",
+   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2021/03/Jobicy-210317121153-967239.png",
+   "desc": "AI at Zapier At Zapier , we build and use automation every day to make work more efficient, creative, and human. So if you’re using AI tools while applying here - that’s great! We just ask that you use them responsibly and transparently . Check out our guidance on How to Collaborate with AI During Zapier’s Hiring Process , including how to use AI tools like ChatGPT, Claude, Gemini, or others…",
+   "level": [
+    "lead"
+   ]
+  },
   {
    "title": "Trung tâm Quản trị & Phân tích dữ liệu, Hội sở - Trưởng nhóm Vận hành dữ liệu",
    "company": "Ngân Hàng TMCP Phương Đông - OCB",
@@ -574,13 +789,16 @@
    ]
   },
   {
-   "title": "AI Engineer II (Speech)",
+   "title": "Senior AI Engineer, Inference",
    "company": "MoMo",
    "location": "Hồ Chí Minh",
    "region": "VN",
    "url": "https://momo.careers/jobs/ai-agent-engineer-ii-16905",
    "source": "Trang công ty",
-   "date": "2026-10-12"
+   "date": "2026-10-12",
+   "level": [
+    "senior"
+   ]
   },
   {
    "title": "Senior - AI Engineer, NLP",
@@ -615,6 +833,76 @@
    "url": "https://be.com.vn/ve-be/tuyen-dung/digital-analytics-specialist",
    "source": "Trang công ty",
    "date": "2026-10-12"
+  },
+  {
+   "title": "Lead BI Developer",
+   "company": "Launch Potato",
+   "location": "USA",
+   "region": "Remote",
+   "url": "https://jobicy.com/jobs/155159-lead-bi-developer-2",
+   "source": "Jobicy",
+   "date": "2026-10-12",
+   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/30f8890f-221-1.png",
+   "desc": "WHO ARE WE? Launch Potato is the discovery and conversion company. We reach tens of millions of people every month through our brands, including FinanceBuzz , All About Cookies , and OnlyInYourState . We turn that attention into real outcomes for our partners, some of the world's leading companies. Our mission: create predictable, high-value customer acquisition at scale by connecting discovery,…",
+   "level": [
+    "lead"
+   ]
+  },
+  {
+   "title": "Lead BI Manager",
+   "company": "Launch Potato",
+   "location": "USA",
+   "region": "Remote",
+   "url": "https://jobicy.com/jobs/155160-lead-bi-manager-2",
+   "source": "Jobicy",
+   "date": "2026-10-12",
+   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/30f8890f-221-1.png",
+   "desc": "WHO ARE WE? Launch Potato is the discovery and conversion company. We reach tens of millions of people every month through our brands, including FinanceBuzz , All About Cookies , and OnlyInYourState . We turn that attention into real outcomes for our partners, some of the world's leading companies. Our mission: create predictable, high-value customer acquisition at scale by connecting discovery,…",
+   "level": [
+    "lead"
+   ]
+  },
+  {
+   "title": "Lead Analytics Manager",
+   "company": "Launch Potato",
+   "location": "USA",
+   "region": "Remote",
+   "url": "https://jobicy.com/jobs/155158-lead-analytics-manager-2",
+   "source": "Jobicy",
+   "date": "2026-10-12",
+   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/30f8890f-221-1.png",
+   "desc": "WHO ARE WE? Launch Potato is the discovery and conversion company. We reach tens of millions of people every month through our brands, including FinanceBuzz , All About Cookies , and OnlyInYourState . We turn that attention into real outcomes for our partners, some of the world's leading companies. Our mission: create predictable, high-value customer acquisition at scale by connecting discovery,…",
+   "level": [
+    "lead"
+   ]
+  },
+  {
+   "title": "Business Intelligence Lead, Performance Marketing",
+   "company": "Launch Potato",
+   "location": "USA",
+   "region": "Remote",
+   "url": "https://jobicy.com/jobs/155153-business-intelligence-lead-performance-marketing-4",
+   "source": "Jobicy",
+   "date": "2026-10-12",
+   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/30f8890f-221-1.png",
+   "desc": "WHO ARE WE? Launch Potato is the discovery and conversion company. We reach tens of millions of people every month through our brands, including FinanceBuzz , All About Cookies , and OnlyInYourState . We turn that attention into real outcomes for our partners, some of the world's leading companies. Our mission: create predictable, high-value customer acquisition at scale by connecting discovery,…",
+   "level": [
+    "lead"
+   ]
+  },
+  {
+   "title": "Senior Data Engineer, Ads",
+   "company": "Discord",
+   "location": "USA",
+   "region": "Remote",
+   "url": "https://jobicy.com/jobs/155126-senior-data-engineer-ads",
+   "source": "Jobicy",
+   "date": "2026-10-12",
+   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2021/02/WRILS-210216185819-522054.jpg",
+   "desc": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Discord seeks a seasoned Data…",
+   "level": [
+    "senior"
+   ]
   },
   {
    "title": "Staff Machine Learning Engineer, Ads Foundational Representations",
@@ -1923,7 +2211,10 @@
     "Fraud Detection Systems",
     "Analytical thinking"
    ],
-   "desc": "Key Responsibilities 1. Fraud Analytics & Prevention - Analyze large datasets to identify fraud patterns, anomalies, and potential risk indicators. - Develop fraud triggers, rules, scores, and prevention strategies for products, services, and customer segments. - Monitor fraud trends and evaluate the effectiveness of fraud prevention measures. - Recommend data-driven solutions to minimize fraud…"
+   "desc": "Key Responsibilities 1. Fraud Analytics & Prevention - Analyze large datasets to identify fraud patterns, anomalies, and potential risk indicators. - Develop fraud triggers, rules, scores, and prevention strategies for products, services, and customer segments. - Monitor fraud trends and evaluate the effectiveness of fraud prevention measures. - Recommend data-driven solutions to minimize fraud…",
+   "level": [
+    "lead"
+   ]
   },
   {
    "title": "Business Growth & Data Analyst – Chuyên Viên Phân Tích Dữ Liệu & Phát Triển Kinh Doanh Phòng",
@@ -2893,7 +3184,7 @@
    "title": "Senior Data Engineer",
    "company": "Renesas Electronics",
    "location": "Ho Chi Minh City, Ho Chi Minh City, Vietnam",
-   "region": "Remote",
+   "region": "VN",
    "url": "https://www.linkedin.com/jobs/view/4455748718",
    "source": "LinkedIn",
    "date": "2026-09-29",
@@ -3110,6 +3401,28 @@
    "date": "2026-09-28",
    "level": [
     "junior"
+   ]
+  },
+  {
+   "title": "AI Engineer (Education & Research)",
+   "company": "Trường Đại học VinUni",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ai-engineer-education-and-research-2112163-jv",
+   "source": "VietnamWorks",
+   "date": "2026-09-28",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/d5/10894078.png",
+   "salary": "Thương lượng",
+   "tags": [
+    "Artificial Intelligence (AI)",
+    "Machine Learning",
+    "Large Language Models (LLM)",
+    "Generative AI",
+    "PYTHON"
+   ],
+   "desc": "ABOUT THE POSITION The AI Engineer builds and maintains production AI systems for learning, teaching and research at VinUniversity as part of the Center for AI Research's product team. Products include conversational tutors, retrieval over course and academic content, authoring and rubric-based grading assistants, and research agents. The role spans the full stack of a...",
+   "level": [
+    "mid"
    ]
   },
   {
@@ -3826,7 +4139,7 @@
    "title": "*Data Analyst (Tender Data)",
    "company": "DKSH",
    "location": "Ho Chi Minh City, Vietnam",
-   "region": "Remote",
+   "region": "VN",
    "url": "https://www.linkedin.com/jobs/view/4467382932",
    "source": "LinkedIn",
    "date": "2026-09-21",
@@ -3862,6 +4175,28 @@
    "date": "2026-09-21",
    "level": [
     "lead"
+   ]
+  },
+  {
+   "title": "Software & Web Developer — Power BI and Microsoft Dynamics ERP",
+   "company": "MDC Precision Vietnam",
+   "location": "Đồng Nai",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/software-web-developer-power-bi-and-microsoft-dynamics-erp-2108384-jv",
+   "source": "VietnamWorks",
+   "date": "2026-09-21",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/30/11016819.png",
+   "salary": "Tới $ 2,500 /tháng",
+   "tags": [
+    "MS SQL",
+    "AX Technical",
+    "Microsoft Dynamics AX",
+    "Server Administration",
+    "Data Science"
+   ],
+   "desc": "Location and Employment • Location: Dong Nai/HCM, Vietnam • Work arrangement: Full-time, onsite • Experience: Minimum three years • Department: Information Technology / Business Systems • Reports to: IT Director Position Summary The Software & Web Developer will design, develop, integrate, test, deploy, and support web applications, internal business systems, Power BI reporting solutions, and…",
+   "level": [
+    "mid"
    ]
   },
   {
@@ -4003,7 +4338,20 @@
    "region": "Remote",
    "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2091131",
    "source": "Remotive",
-   "date": "2026-09-18"
+   "date": "2026-09-18",
+   "logo": "https://remotive.com/job/2091131/logo",
+   "tags": [
+    ".Net",
+    "android",
+    "C",
+    "C#",
+    "C++",
+    "data science"
+   ],
+   "desc": "Are you a talented Senior AI Engineer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates…",
+   "level": [
+    "senior"
+   ]
   },
   {
    "title": "Data Developer",
@@ -4231,7 +4579,20 @@
    "region": "Remote",
    "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2091129",
    "source": "Remotive",
-   "date": "2026-09-16"
+   "date": "2026-09-16",
+   "logo": "https://remotive.com/job/2091129/logo",
+   "tags": [
+    ".Net",
+    "android",
+    "C",
+    "C#",
+    "C++",
+    "golang"
+   ],
+   "desc": "Are you a talented Senior Data Scientist looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating…",
+   "level": [
+    "senior"
+   ]
   },
   {
    "title": "Senior Independent AI Engineer / Architect",
@@ -4240,7 +4601,21 @@
    "region": "Remote",
    "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
    "source": "Remotive",
-   "date": "2026-09-16"
+   "date": "2026-09-16",
+   "logo": "https://remotive.com/job/1919266/logo",
+   "salary": "$120 - $170 /hour",
+   "tags": [
+    "go",
+    "UI/UX",
+    "wordpress",
+    "chat",
+    "apple",
+    "testing"
+   ],
+   "desc": "Senior Independent AI Engineer / Architect Remote | Americas, Europe, or Israel Most AI engineers can find work. Finding work worth doing is harder. A.Team is an invite-only network of senior AI engineers, ML engineers, and AI architects building production AI systems for startups, enterprises, and global companies. Since 2020, builders in the network have earned more than $200M working with…",
+   "level": [
+    "senior"
+   ]
   },
   {
    "title": "Data Analytics Specialist (East Asia), Mobility Aftermarket Division",
@@ -4282,6 +4657,47 @@
     "DevSecOps"
    ],
    "desc": "Kỹ sư Bảo mật Dữ liệu phụ trách thiết kế, triển khai và vận hành các giải pháp kỹ thuật bảo vệ dữ liệu cá nhân trên toàn bộ vòng đời dữ liệu của Công ty – từ hành khách, tài xế đối tác đến đối tác thương nhân – bảo đảm các yêu...",
+   "level": [
+    "senior"
+   ]
+  },
+  {
+   "title": "Consultant, Data Governance",
+   "company": "NAB Innovation Centre Vietnam",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/consultant-data-governance-2107466-jv",
+   "source": "VietnamWorks",
+   "date": "2026-09-15",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/d9/11293186.png",
+   "salary": "Thương lượng",
+   "tags": [
+    "Data Management",
+    "Data Quality Assessment",
+    "Information Risk Management",
+    "Data Control",
+    "Governance & Compliance"
+   ],
+   "desc": "The Senior Consultant Marketing Data Governance role supports the Group Marketing Business Data Steward in the execution and continuous improvement of data risk management, data governance, data quality and compliance practices across Group Marketing. The role acts as a key advisor and coordinator, helping to ensure critical data assets are effectively governed, data obligations..."
+  },
+  {
+   "title": "Digital Marketing Analytics Consultant",
+   "company": "NAB Innovation Centre Vietnam",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/digital-marketing-analytics-consultant-2107470-jv",
+   "source": "VietnamWorks",
+   "date": "2026-09-15",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/d9/11293186.png",
+   "salary": "Thương lượng",
+   "tags": [
+    "Digital Marketing",
+    "Sql",
+    "Data Visualization",
+    "Stakeholder management",
+    "Marketing Mix Modelling"
+   ],
+   "desc": "The Marketing Performance Management team is responsible for enabling the Marketing businesses through innovative tools and techniques to measure and effectively leverage data to drive marketing performance. The Digital Marketing Analytics Consultant will be responsible for executing on the design, development, and maintenance of the measurement frameworks to support marketing campaigns and…",
    "level": [
     "senior"
    ]
@@ -4401,56 +4817,6 @@
    "url": "https://himalayas.app/companies/nttdata/jobs/data-architect-sr-advisor-remote-tx-us",
    "source": "Himalayas",
    "date": "2026-09-13"
-  },
-  {
-   "title": "Data Analyst (BI, Power BI, SQL, Data Warehouse, ETL)",
-   "company": "Công ty Cổ phần Dược – Thiết bị Y tế Đà Nẵng (Dapharco)",
-   "location": "Ha Noi",
-   "region": "VN",
-   "url": "https://itviec.com/it-jobs/data-analyst-bi-power-bi-sql-data-warehouse-etl-cong-ty-co-phan-duoc-thiet-bi-y-te-da-nang-dapharco-3523",
-   "source": "ITviec",
-   "date": "2026-09-12",
-   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODA3NDMzMCwicHVyIjoiYmxvYl9pZCJ9fQ==--79995bbf6922ba78ada0cfcedcdb127881e4d6c8/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/Logo-Dapharco.png",
-   "tags": [
-    "Data Analysis",
-    "ETL",
-    "Power BI",
-    "Microsoft SQL Server",
-    "Data Warehousing",
-    "Business Intelligence"
-   ]
-  },
-  {
-   "title": "Senior Data Engineer (Python, ETL)",
-   "company": "Vortech Service Company Limited",
-   "location": "Ho Chi Minh",
-   "region": "VN",
-   "url": "https://itviec.com/it-jobs/senior-data-engineer-python-etl-vortech-service-company-limited-0334",
-   "source": "ITviec",
-   "date": "2026-09-12",
-   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjQyMDI4NSwicHVyIjoiYmxvYl9pZCJ9fQ==--5f5bbd6b794bb24f994c9077508f914ab56cc5eb/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/Logo%20full%20-%20Hien.png",
-   "tags": [
-    "Data Engineer",
-    "Kafka",
-    "Spark",
-    "Apache Airflow",
-    "ETL",
-    "Python"
-   ],
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Data Engineering",
-   "company": "Tổng Công ty Cổ phần Bảo hiểm Ngân hàng Đầu tư và Phát triển Việt Nam (BIC)",
-   "location": "Hà Nội",
-   "region": "VN",
-   "url": "https://careerviet.vn/vi/tim-viec-lam/data-engineering.35C8325A.html",
-   "source": "CareerViet",
-   "date": "2026-09-12",
-   "logo": "https://images.careerviet.vn/employer_folders/lot6/181286/180329logo_bic_1488443535_1488529229.png",
-   "salary": "Cạnh tranh"
   }
  ]
 }
