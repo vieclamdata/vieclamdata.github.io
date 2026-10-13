@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T15:23+00:00",
+ "updated": "2026-10-13T16:09+00:00",
  "jobs": [
   {
    "title": "Data Analyst (Tài Chính)",
@@ -10,7 +10,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-13",
    "logo": "https://images.vietnamworks.com/pictureofcompany/7b/11420901.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "SQL",
     "Tableau BI",
@@ -32,7 +32,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-13",
    "logo": "https://images.vietnamworks.com/pictureofcompany/d9/11293186.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Data Analytics",
     "ETL Database",
@@ -54,7 +54,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-13",
    "logo": "https://images.vietnamworks.com/pictureofcompany/14/11129135.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "AI",
     "Science",
@@ -76,7 +76,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-13",
    "logo": "https://images.vietnamworks.com/pictureofcompany/0e/11128386.png",
-   "salary": "$ 700-1,200 /tháng",
+   "salary": "≈18–31 triệu",
    "tags": [
     "Sql Và Postgresql",
     "Pyspark",
@@ -98,7 +98,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-13",
    "logo": "https://images.vietnamworks.com/pictureofcompany/14/11129135.png",
-   "salary": "Tới 30tr ₫/tháng",
+   "salary": "Đến 30 triệu",
    "tags": [
     "LLMs",
     "Data Integration",
@@ -120,7 +120,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-13",
    "logo": "https://images.vietnamworks.com/pictureofcompany/3e/11232016.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Business Intelligence",
     "Data Analysis",
@@ -133,100 +133,6 @@
    ]
   },
   {
-   "title": "Head of Data (Engineer & Analyst)",
-   "company": "UrBox - Digital Rewards & Loyalty Solution",
-   "location": "Ho Chi Minh City, Vietnam",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4477978565",
-   "source": "LinkedIn",
-   "date": "2026-10-13",
-   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHrNYJvEo9m8Q/company-logo_100_100/B56ZqfZ3piJUAU-/0/1763610950830/urboxvn_logo?e=2147483647&v=beta&t=cHFO9Yu2MuvF4-pjArZEAA2Cah8ob80JQDYDjLuzeO0",
-   "level": [
-    "lead"
-   ]
-  },
-  {
-   "title": "Junior Data Scientist",
-   "company": "micro1",
-   "location": "Australia, Canada, New Zealand, United Kingdom, United States",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/micro1/jobs/junior-data-scientist",
-   "source": "Himalayas",
-   "date": "2026-10-13",
-   "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
-   "salary": "$150–200/giờ",
-   "desc": "Role Title: Junior Data Scientist Role Type: Contractor Location: Remote About the Role micro1 is partnering with a leading AI lab to hire data scientists and quantitative professionals from top companies. You'll bring rigor to how AI models handle statistics, machine learning, experimentation, and quantitative reasoning. Scope of Work Evaluate AI model outputs on data science, statistics, ML,…",
-   "level": [
-    "junior"
-   ]
-  },
-  {
-   "title": "Sr. Forward Deployed AI Engineer (Remote Eligible in the UK)",
-   "company": "Smartsheet",
-   "location": "UK",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/155167-sr-forward-deployed-ai-engineer-remote-eligible-in-the-uk",
-   "source": "Jobicy",
-   "date": "2026-10-13",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/8b6103bd-221.jpg",
-   "desc": "For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights at scale, we create the space for people to focus on what truly matters: judgment, creativity, and big thinking. That is…",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "QA Automation Lead [gn] Data Intelligence",
-   "company": "Actian",
-   "location": "Europe",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/149048-qa-automation-lead-gn-data-intelligence",
-   "source": "Jobicy",
-   "date": "2026-10-13",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2026/06/0fee3ec4-221.webp",
-   "desc": "The QA Automation Team is the ultimate guardian of our platform’s reliability, scalability, and deployment velocity. In a complex, data-heavy ecosystem, manual testing is a bottleneck; continuous, intelligent, and bulletproof automation is the only way forward. We are looking for a QA Automation Lead who will architect, scale, and own our automated testing strategy end-to-end. You are not a…",
-   "level": [
-    "lead"
-   ]
-  },
-  {
-   "title": "AI Enablement Lead [gn] Data Intelligence",
-   "company": "Actian",
-   "location": "Europe",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/149049-ai-enablement-lead-gn-data-intelligence",
-   "source": "Jobicy",
-   "date": "2026-10-13",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2026/06/0fee3ec4-221.webp",
-   "desc": "The AI Enablement Team is the catalyst for internal transformation and product acceleration across Actian . In the modern data landscape, AI is not a siloed experimental lab; it is a core capability that must be embedded into our product DNA and our engineering workflows. We are looking for an AI Enablement Lead who will architect, scale, and own our AI enablement strategy end-to-end. You are not…",
-   "level": [
-    "lead"
-   ]
-  },
-  {
-   "title": "Manager, GTM Analytics",
-   "company": "Zapier",
-   "location": "Canada,  USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/153099-manager-gtm-analytics",
-   "source": "Jobicy",
-   "date": "2026-10-13",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2021/03/Jobicy-210317121153-967239.png",
-   "desc": "AI at Zapier At Zapier , we build and use automation every day to make work more efficient, creative, and human. So if you’re using AI tools while applying here - that’s great! We just ask that you use them responsibly and transparently . Check out our guidance on How to Collaborate with AI During Zapier’s Hiring Process , including how to use AI tools like ChatGPT, Claude, Gemini, or others…",
-   "level": [
-    "lead"
-   ]
-  },
-  {
-   "title": "Data Analytics Analyst 1",
-   "company": "IQVIA",
-   "location": "Kathmandu, Bāgmatī, Nepal",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4477991621",
-   "source": "LinkedIn",
-   "date": "2026-10-13",
-   "logo": "https://media.licdn.com/dms/image/v2/C560BAQFW8oSPns4-Cw/company-logo_100_100/company-logo_100_100/0/1678802429367/iqvia_logo?e=2147483647&v=beta&t=QOXo3llXq86V8X_W17HYn3FC5VtElAP1K_rAxCkyhIs"
-  },
-  {
    "title": "Nhân viên data (admin)",
    "company": "CÔNG TY TRÁCH NHIỆM HỮU HẠN FM SUPPLY CHAIN VIỆT NAM",
    "location": "Hưng Yên",
@@ -235,7 +141,7 @@
    "source": "CareerViet",
    "date": "2026-10-13",
    "logo": "https://images.careerviet.vn/employer_folders/lot9/255299/113652tc_logo_fmlogistic_flat_nobackground.png",
-   "salary": "10 - 13 Triệu VND"
+   "salary": "10–13 triệu"
   },
   {
    "title": "Senior Data Analyst",
@@ -259,7 +165,7 @@
    "source": "CareerViet",
    "date": "2026-10-12",
    "logo": "https://images.careerviet.vn/employers/6442/112123logo-ocb.png",
-   "salary": "Cạnh tranh",
+   "salary": "Thỏa thuận",
    "level": [
     "lead"
    ]
@@ -298,108 +204,6 @@
    "logo": "https://media.licdn.com/dms/image/v2/D560BAQGbR6S_2juFEQ/company-logo_100_100/company-logo_100_100/0/1704359472009/fpt_play_logo?e=2147483647&v=beta&t=Ydt5jo2USqCzqkubZe-SLl0M_ddwkkN7njXAyyROKlQ",
    "level": [
     "mid"
-   ]
-  },
-  {
-   "title": "Staff Data Engineer",
-   "company": "Sandisk",
-   "location": "Bengaluru, Karnataka, India",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4478367646",
-   "source": "LinkedIn",
-   "date": "2026-10-12",
-   "logo": "https://media.licdn.com/dms/image/v2/D560BAQFT3XpBw27MZQ/company-logo_100_100/B56Znem7iXIYAQ-/0/1760376371839/sandisk_logo?e=2147483647&v=beta&t=9jSi5C_S8tJzrynYB43fIOkJ3YOofaMfZ5PbugS2SEI",
-   "level": [
-    "lead"
-   ]
-  },
-  {
-   "title": "Junior Data Engineer",
-   "company": "Wakeb_Data",
-   "location": "Riyadh Region",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4475683946",
-   "source": "LinkedIn",
-   "date": "2026-10-12",
-   "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQEPKcAv2X6mUA/company-logo_100_100/company-logo_100_100/0/1677675035311/wakeb_data_logo?e=2147483647&v=beta&t=8_3EZ7sAKkNev-W9ug8ZAOLK-kwci80wRzlcUIz1cMI",
-   "level": [
-    "junior"
-   ]
-  },
-  {
-   "title": "Data Analyst",
-   "company": "RAPSYS TECHNOLOGIES PTE LTD",
-   "location": "Mumbai Metropolitan Region",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4477572635",
-   "source": "LinkedIn",
-   "date": "2026-10-12",
-   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQGp1vIDv_xNWw/company-logo_100_100/B4DZ.ElAPvKsAI-/0/1784635720911/rapsys_technologies_pte_ltd_logo?e=2147483647&v=beta&t=wCZ1oEs7CrHQ2fYzu_gAySq9t4gTY7Rk85HeuJCGzUo"
-  },
-  {
-   "title": "Data Architect",
-   "company": "Data Ideology",
-   "location": "United States",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/data-ideology/jobs/data-architect",
-   "source": "Himalayas",
-   "date": "2026-10-12",
-   "desc": "Data Ideology At DI, we provide Data & Analytics expertise to drive measurable business outcomes, often solving complex business problems for our clients. Our data analytics advisory services enable our customers to transform data into insights by driving a culture of empowerment and ownership of results. Our team consists of highly motivated individuals passionate about learning, understanding,…",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Software Engineer II - Data Platform",
-   "company": "Five9",
-   "location": "Portugal",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/155066-software-engineer-ii-data-platform",
-   "source": "Jobicy",
-   "date": "2026-10-12",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/08/7c3d754e-221.png",
-   "desc": "Join us in bringing joy to customer experience. Five9 is a leading provider of cloud contact center software, bringing the power of cloud innovation to customers worldwide. Living our values everyday results in our team-first culture and enables us to innovate, grow, and thrive while enjoying the journey together. We celebrate diversity and foster an inclusive environment, empowering our…"
-  },
-  {
-   "title": "Software Engineer III | AI/ML",
-   "company": "ExtraHop",
-   "location": "USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/153029-software-engineer-iii-ai-ml",
-   "source": "Jobicy",
-   "date": "2026-10-12",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/4800f505-221.jpg",
-   "desc": "At ExtraHop , we’re on a mission to protect and empower the connected enterprise. We reveal what is happening in the very infrastructure that sustains businesses, lives, and communities, and ensure the integrity of networks, data, systems, and processes. Organizations rely on ExtraHop to provide visibility into the cyber threats, vulnerabilities, and network performance issues that evade their…",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Senior Data Scientist",
-   "company": "ExtraHop",
-   "location": "USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/153021-senior-data-scientist-2",
-   "source": "Jobicy",
-   "date": "2026-10-12",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/4800f505-221.jpg",
-   "desc": "At ExtraHop , we’re on a mission to protect and empower the connected enterprise. We reveal what is happening in the very infrastructure that sustains businesses, lives, and communities, and ensure the integrity of networks, data, systems, and processes. Organizations rely on ExtraHop to provide visibility into the cyber threats, vulnerabilities, and network performance issues that evade their…",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Principal Software Engineer | Data Science",
-   "company": "ExtraHop",
-   "location": "USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/153013-principal-software-engineer-data-science",
-   "source": "Jobicy",
-   "date": "2026-10-12",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/4800f505-221.jpg",
-   "desc": "At ExtraHop , we’re on a mission to protect and empower the connected enterprise. We reveal what is happening in the very infrastructure that sustains businesses, lives, and communities, and ensure the integrity of networks, data, systems, and processes. Organizations rely on ExtraHop to provide visibility into the cyber threats, vulnerabilities, and network performance issues that evade their…",
-   "level": [
-    "lead"
    ]
   },
   {
@@ -869,76 +673,6 @@
    "date": "2026-10-12"
   },
   {
-   "title": "Lead BI Developer",
-   "company": "Launch Potato",
-   "location": "USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/155159-lead-bi-developer-2",
-   "source": "Jobicy",
-   "date": "2026-10-12",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/30f8890f-221-1.png",
-   "desc": "WHO ARE WE? Launch Potato is the discovery and conversion company. We reach tens of millions of people every month through our brands, including FinanceBuzz , All About Cookies , and OnlyInYourState . We turn that attention into real outcomes for our partners, some of the world's leading companies. Our mission: create predictable, high-value customer acquisition at scale by connecting discovery,…",
-   "level": [
-    "lead"
-   ]
-  },
-  {
-   "title": "Lead BI Manager",
-   "company": "Launch Potato",
-   "location": "USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/155160-lead-bi-manager-2",
-   "source": "Jobicy",
-   "date": "2026-10-12",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/30f8890f-221-1.png",
-   "desc": "WHO ARE WE? Launch Potato is the discovery and conversion company. We reach tens of millions of people every month through our brands, including FinanceBuzz , All About Cookies , and OnlyInYourState . We turn that attention into real outcomes for our partners, some of the world's leading companies. Our mission: create predictable, high-value customer acquisition at scale by connecting discovery,…",
-   "level": [
-    "lead"
-   ]
-  },
-  {
-   "title": "Lead Analytics Manager",
-   "company": "Launch Potato",
-   "location": "USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/155158-lead-analytics-manager-2",
-   "source": "Jobicy",
-   "date": "2026-10-12",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/30f8890f-221-1.png",
-   "desc": "WHO ARE WE? Launch Potato is the discovery and conversion company. We reach tens of millions of people every month through our brands, including FinanceBuzz , All About Cookies , and OnlyInYourState . We turn that attention into real outcomes for our partners, some of the world's leading companies. Our mission: create predictable, high-value customer acquisition at scale by connecting discovery,…",
-   "level": [
-    "lead"
-   ]
-  },
-  {
-   "title": "Business Intelligence Lead, Performance Marketing",
-   "company": "Launch Potato",
-   "location": "USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/155153-business-intelligence-lead-performance-marketing-4",
-   "source": "Jobicy",
-   "date": "2026-10-12",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/30f8890f-221-1.png",
-   "desc": "WHO ARE WE? Launch Potato is the discovery and conversion company. We reach tens of millions of people every month through our brands, including FinanceBuzz , All About Cookies , and OnlyInYourState . We turn that attention into real outcomes for our partners, some of the world's leading companies. Our mission: create predictable, high-value customer acquisition at scale by connecting discovery,…",
-   "level": [
-    "lead"
-   ]
-  },
-  {
-   "title": "Senior Data Engineer, Ads",
-   "company": "Discord",
-   "location": "USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/155126-senior-data-engineer-ads",
-   "source": "Jobicy",
-   "date": "2026-10-12",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2021/02/WRILS-210216185819-522054.jpg",
-   "desc": "Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. Discord seeks a seasoned Data…",
-   "level": [
-    "senior"
-   ]
-  },
-  {
    "title": "Data Analyst",
    "company": "Highlands Coffee®",
    "location": "Ho Chi Minh City, Vietnam",
@@ -949,99 +683,6 @@
    "logo": "https://media.licdn.com/dms/image/v2/D560BAQHGz4C6QEoVlw/company-logo_100_100/B56Z8SkoH2KgAI-/0/1782723019721/highlands_coffee_logo?e=2147483647&v=beta&t=CLN41nY9g2vzgmZC2Vyp7o-0FtIqesyi6K0tuU-U1Bw"
   },
   {
-   "title": "Staff Machine Learning Engineer, Ads Foundational Representations",
-   "company": "Reddit",
-   "location": "Netherlands,  UK",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/155056-staff-machine-learning-engineer-ads-foundational-representations",
-   "source": "Jobicy",
-   "date": "2026-10-11",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2020/10/Reddit.jpg",
-   "desc": "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of…",
-   "level": [
-    "lead"
-   ]
-  },
-  {
-   "title": "Senior Software Engineer, Data Product",
-   "company": "TRM Labs",
-   "location": "LATAM",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/155044-senior-software-engineer-data-product",
-   "source": "Jobicy",
-   "date": "2026-10-11",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/34aa038c-221.png",
-   "desc": "Build a Safer World. TRM Labs provides AI-powered intelligence solutions that help public and private sector agencies investigate and disrupt crime. TRM's platforms enable investigators to trace illicit activity, build cases, and construct operating pictures of threat networks. Leading agencies and businesses worldwide rely on TRM to make the world safer and more secure. The Data Product team…",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Senior Data Scientist - Personalization & Predictions",
-   "company": "Bloomreach",
-   "location": "Czechia,  Slovakia",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/155015-senior-data-scientist-personalization-predictions",
-   "source": "Jobicy",
-   "date": "2026-10-11",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/08/60790cd5-221.png",
-   "desc": "Bloomreach is building the world’s premier agentic platform for personalization .We’re revolutionizing how businesses connect with their customers, building and deploying AI agents to personalize the entire customer journey. We're taking autonomous search mainstream, making product discovery more intuitive and conversational for customers, and more profitable for businesses. We’re making…",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Credit Model Validation Manager (Machine Learning & NPV Models)",
-   "company": "Monzo",
-   "location": "UK",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/155010-credit-model-validation-manager-machine-learning-npv-models",
-   "source": "Jobicy",
-   "date": "2026-10-11",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/5b4c0ec3-221.jpg",
-   "desc": "We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint accounts , accounts for 16-17 year olds , a free kids account and credit cards in the UK, with…",
-   "level": [
-    "lead"
-   ]
-  },
-  {
-   "title": "Analyst, GTM Analytics",
-   "company": "Fivetran",
-   "location": "Costa Rica",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/154990-analyst-gtm-analytics",
-   "source": "Jobicy",
-   "date": "2026-10-11",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/3b8e4532-221-1.jpg",
-   "desc": "From Fivetran ’s founding until now, our mission has remained the same: to make access to data as simple and reliable as electricity. With Fivetran, customer data arrives in their warehouses, canonical and ready to query, with no engineering or maintenance required. We’re proud that more organizations continue to leverage our technology every day to become truly data-driven. About Us Fivetran and…"
-  },
-  {
-   "title": "Research Engineer in Data",
-   "company": "Synthesia",
-   "location": "Europe",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/152972-research-engineer-in-data",
-   "source": "Jobicy",
-   "date": "2026-10-11",
-   "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2026/06/c69aad11-221.webp",
-   "desc": "Synthesia is the world’s leading AI video platform for business, used by over 90% of the Fortune 100. Founded in 2017, the company is headquartered in London, with offices and teams across Europe and the US. As AI continues to shape the way we live and work, Synthesia develops products to enhance visual communication and enterprise skill development, helping people work better and stay at the…"
-  },
-  {
-   "title": "Data & Analytics Sr. Managing Consultant (Remote, TX, US)",
-   "company": "NTT DATA",
-   "location": "United States",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/nttdata/jobs/data-analytics-sr-managing-consultant-remote-tx-us",
-   "source": "Himalayas",
-   "date": "2026-10-11",
-   "logo": "https://cdn-images.himalayas.app/to0griyuq0frod5n5b7505ono0z4",
-   "salary": "$134k–180k/năm",
-   "desc": "Req ID: 388878 NTT DATA strives to hire exceptional, innovative and passionate individuals who want to grow with us. If you want to be part of an inclusive, adaptable, and forward-thinking organization, apply now. We are currently seeking a Data & Analytics Sr. Managing Consultant to join our team in Remote, Texas (US-TX), United States (US). Role Senior Data Migration Engineer with DBA…",
-   "level": [
-    "senior"
-   ]
-  },
-  {
    "title": "Trung tâm Quản trị và phân tích dữ liệu - Trưởng bộ phận Tích hợp dữ liệu (Data Engineer)",
    "company": "Ngân Hàng TMCP Phương Đông - OCB",
    "location": "Hà Nội, Hồ Chí Minh",
@@ -1050,7 +691,7 @@
    "source": "CareerViet",
    "date": "2026-10-10",
    "logo": "https://images.careerviet.vn/employers/6442/112123logo-ocb.png",
-   "salary": "Cạnh tranh",
+   "salary": "Thỏa thuận",
    "level": [
     "lead"
    ]
@@ -1064,98 +705,9 @@
    "source": "CareerViet",
    "date": "2026-10-10",
    "logo": "https://images.careerviet.vn/employers/6442/112123logo-ocb.png",
-   "salary": "Cạnh tranh",
+   "salary": "Thỏa thuận",
    "level": [
     "senior"
-   ]
-  },
-  {
-   "title": "Machine Learning Scientist",
-   "company": "Nucs AI",
-   "location": "Remote job",
-   "region": "Remote",
-   "url": "https://www.arbeitnow.com/jobs/companies/nucs-ai/remote-machine-learning-scientist-berlin-216070",
-   "source": "Arbeitnow",
-   "date": "2026-10-10"
-  },
-  {
-   "title": "Senior Data Scientist",
-   "company": "Duck Duck Go",
-   "location": "Remote",
-   "region": "Remote",
-   "url": "https://www.arbeitnow.ch/jobs/companies/duck-duck-go/remote-senior-data-scientist-340621",
-   "source": "Arbeitnow",
-   "date": "2026-10-10",
-   "desc": "Who We Are Hi, we're DuckDuckGo, the online protection company and remote-first team of 300+ on a mission to raise the standard of trust online. Founded in 2008 and profitable since 2014, annual revenue now exceeds $100m USD and millions use our browser on on Mac , Windows , iOS , and Android , our search engine , and the DuckDuckGo subscription . We also offer private, useful, and optional AI,…",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Data Architect",
-   "company": "Cordance",
-   "location": "USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/152947-data-architect",
-   "source": "Jobicy",
-   "date": "2026-10-10"
-  },
-  {
-   "title": "Staff Software Engineer - Data",
-   "company": "Dune",
-   "location": "Europe,  USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/152919-staff-software-engineer-data",
-   "source": "Jobicy",
-   "date": "2026-10-10"
-  },
-  {
-   "title": "Senior Data Analyst",
-   "company": "Tremendous",
-   "location": "LATAM,  Canada,  USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/152859-senior-data-analyst",
-   "source": "Jobicy",
-   "date": "2026-10-10"
-  },
-  {
-   "title": "Veeam Data Cloud Vault Solution Specialist",
-   "company": "veeamsoftware",
-   "location": "Remote",
-   "region": "Remote",
-   "url": "https://www.arbeitnow.com/jobs/companies/veeamsoftware/remote-veeam-data-cloud-vault-solution-specialist-93212",
-   "source": "Arbeitnow",
-   "date": "2026-10-10"
-  },
-  {
-   "title": "Senior Consultant (m/w/d) BI & Konsolidierung",
-   "company": "ANGEHEUERT GmbH",
-   "location": "Homeoffice",
-   "region": "Remote",
-   "url": "https://www.arbeitnow.com/jobs/companies/angeheuert-gmbh/remote-senior-consultant-bi-konsolidierung-baden-wurttemberg-128747",
-   "source": "Arbeitnow",
-   "date": "2026-10-10"
-  },
-  {
-   "title": "Senior Data Scientist",
-   "company": "DuckDuckGo",
-   "location": "Austria,  Czechia,  Hungary,  Ireland,  Poland,  Portugal,  Romania,  Slovakia,  Spain,  Switzerland,  UK,  USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/154962-senior-data-scientist-7",
-   "source": "Jobicy",
-   "date": "2026-10-10"
-  },
-  {
-   "title": "Manager Clinical Data Management",
-   "company": "EDETEK",
-   "location": "Remote",
-   "region": "Remote",
-   "url": "https://remoteOK.com/remote-jobs/remote-manager-clinical-data-management-edetek-1137481",
-   "source": "RemoteOK",
-   "date": "2026-10-10",
-   "desc": "Manager, Clinical Data Management leads clinical data management team to handle project management documentation, preform clinical data management activities and system implementations for EDETEKâs CONFORM eClinical, write design specifications for the system (forms, reports, etc.), and facilitate testing of system implementations. In addition to stay hands-on with clinical data management…",
-   "level": [
-    "lead"
    ]
   },
   {
@@ -1177,7 +729,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-09",
    "logo": "https://images.vietnamworks.com/pictureofcompany/64/11474031.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Data Analysis",
     "SQL",
@@ -1199,7 +751,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-09",
    "logo": "https://images.vietnamworks.com/pictureofcompany/6c/11052357.png",
-   "salary": "35tr-80tr ₫/tháng",
+   "salary": "35–80 triệu",
    "tags": [
     "Quản Trị Dữ Liệu",
     "Kiến Trúc Data Warehouse/Data Lake",
@@ -1221,7 +773,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-09",
    "logo": "https://images.vietnamworks.com/pictureofcompany/e4/11445482.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Risk Model Monitoring",
     "Data Analysis",
@@ -1243,7 +795,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-09",
    "logo": "https://images.vietnamworks.com/pictureofcompany/64/11474031.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "SQL",
     "Spark",
@@ -1274,117 +826,6 @@
    ]
   },
   {
-   "title": "Firm-wide Data Governance - Data Quality and Data Contracts - Vice President",
-   "company": "JPM Unternehmensgruppe",
-   "location": "United States",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/jpm-unternehmensgruppe/jobs/firm-wide-data-governance-data-quality-and-data-contracts-vice-president-2680665640",
-   "source": "Himalayas",
-   "date": "2026-10-09",
-   "logo": "https://cdn-images.himalayas.app/zia3tw2pi4r34pugmtqdx0nnza07",
-   "desc": "You will drive the execution of data governance across large-scale initiatives. This role sits at the center of improving data quality, strengthening controls, and enabling teams to manage data effectively. You will influence outcomes by ensuring data is governed with consistency and accountability. As a Data Quality Governance Lead in the Firmwide Data Governance Function, you will lead the…",
-   "level": [
-    "lead"
-   ]
-  },
-  {
-   "title": "Firm-wide Data Governance - Data Quality and Data Contracts - Vice President",
-   "company": "JPMorgan Chase & Co.",
-   "location": "United States",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/jpmorgan-chase-co/jobs/firm-wide-data-governance-data-quality-and-data-contracts-vice-president",
-   "source": "Himalayas",
-   "date": "2026-10-09",
-   "logo": "https://cdn-images.himalayas.app/s42dzx3l08g3b4bx6gvrut361xbz",
-   "desc": "You will drive the execution of data governance across large-scale initiatives. This role sits at the center of improving data quality, strengthening controls, and enabling teams to manage data effectively. You will influence outcomes by ensuring data is governed with consistency and accountability. As a Data Quality Governance Lead in the Firmwide Data Governance Function, you will lead the…",
-   "level": [
-    "lead"
-   ]
-  },
-  {
-   "title": "Group Product Manager, AI-Native Data Warehouse",
-   "company": "Juniper Square",
-   "location": "Canada,  USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/154953-group-product-manager-ai-native-data-warehouse",
-   "source": "Jobicy",
-   "date": "2026-10-09"
-  },
-  {
-   "title": "AI Engineer, GTM",
-   "company": "Cresta",
-   "location": "USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/154946-ai-engineer-gtm",
-   "source": "Jobicy",
-   "date": "2026-10-09"
-  },
-  {
-   "title": "Staff Data Engineer",
-   "company": "Jobber",
-   "location": "Canada",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/154934-staff-data-engineer-2",
-   "source": "Jobicy",
-   "date": "2026-10-09"
-  },
-  {
-   "title": "Sr. Staff Machine Learning Systems Engineer",
-   "company": "hims &#038; hers",
-   "location": "USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/154909-sr-staff-machine-learning-systems-engineer",
-   "source": "Jobicy",
-   "date": "2026-10-09"
-  },
-  {
-   "title": "Senior Machine Learning Engineer, Ranking - Quora",
-   "company": "Quora",
-   "location": "Canada,  Ireland,  USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/154907-senior-machine-learning-engineer-ranking-quora",
-   "source": "Jobicy",
-   "date": "2026-10-09"
-  },
-  {
-   "title": "Data Analytics Engineer",
-   "company": "Toptal",
-   "location": "LATAM,  Canada,  USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/154889-data-analytics-engineer-2",
-   "source": "Jobicy",
-   "date": "2026-10-09"
-  },
-  {
-   "title": "Manager, Business Analytics",
-   "company": "Veracyte",
-   "location": "USA",
-   "region": "Remote",
-   "url": "https://jobicy.com/jobs/154894-manager-business-analytics",
-   "source": "Jobicy",
-   "date": "2026-10-09"
-  },
-  {
-   "title": "Data Engineer, Digital Transformation & Data (DT&D)",
-   "company": "BOC Aviation",
-   "location": "Singapore, Singapore",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4464517266",
-   "source": "LinkedIn",
-   "date": "2026-10-09",
-   "logo": "https://media.licdn.com/dms/image/v2/C560BAQFuwbXymwfdfw/company-logo_100_100/company-logo_100_100/0/1631333527839?e=2147483647&v=beta&t=W-V60q-C8UpxS8DZVIZkaP5GK9hqxr9dS-kTmjm5_To"
-  },
-  {
-   "title": "Data Analyst",
-   "company": "Daice Labs",
-   "location": "Singapore",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4476837842",
-   "source": "LinkedIn",
-   "date": "2026-10-09",
-   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQH-V4JsbJWqrw/company-logo_100_100/B4EZl.8KboIkAQ-/0/1758771324979/daice_labs_logo?e=2147483647&v=beta&t=BrncOE2TB3mt8ykxDIrT8e8e61xa0GpoQGkHBxbNBlg"
-  },
-  {
    "title": "Chuyên Gia Dữ Liệu Báo Cáo - Phòng Quản Lý Kinh Doanh - Khối KHDN",
    "company": "Ngân Hàng TMCP Đại Chúng Việt Nam",
    "location": "Hà Nội",
@@ -1393,7 +834,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-09",
    "logo": "https://images.vietnamworks.com/pictureofcompany/a1/11266673.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "excel",
     "Phân Tích Dữ Liệu",
@@ -1450,7 +891,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-08",
    "logo": "https://images.vietnamworks.com/pictureofcompany/80/11401672.png",
-   "salary": "20tr-25tr ₫/tháng",
+   "salary": "20–25 triệu",
    "tags": [
     "SQL",
     "Báo Cáo Quản Trị",
@@ -1472,7 +913,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-08",
    "logo": "https://images.vietnamworks.com/pictureofcompany/9c/11125788.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Analysis & Reporting Skills",
     "Presentation",
@@ -1587,7 +1028,7 @@
    "source": "CareerViet",
    "date": "2026-10-08",
    "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
-   "salary": "Cạnh tranh",
+   "salary": "Thỏa thuận",
    "level": [
     "senior"
    ]
@@ -1601,7 +1042,7 @@
    "source": "CareerViet",
    "date": "2026-10-08",
    "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
-   "salary": "Cạnh tranh"
+   "salary": "Thỏa thuận"
   },
   {
    "title": "Chuyên viên Quản lý chất lượng dữ liệu - Data Quality Management Specialist - Khối Dữ liệu (2026TD450981)",
@@ -1612,16 +1053,7 @@
    "source": "CareerViet",
    "date": "2026-10-08",
    "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
-   "salary": "Cạnh tranh"
-  },
-  {
-   "title": "Applied AI Engineer",
-   "company": "ElevenLabs",
-   "location": "Remote",
-   "region": "Remote",
-   "url": "https://www.arbeitnow.ch/jobs/companies/elevenlabs/remote-applied-ai-engineer-404690",
-   "source": "Arbeitnow",
-   "date": "2026-10-08"
+   "salary": "Thỏa thuận"
   },
   {
    "title": "Senior Data Engineer",
@@ -1676,29 +1108,6 @@
    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQE7MK0289c3WQ/company-logo_100_100/B4DZ48c1XBJUAI-/0/1779130652451/concentrix_logo?e=2147483647&v=beta&t=CdZ0Yg3DL4LwH11dXhnRgc6uIagFF7i1oHfYvffcOC0"
   },
   {
-   "title": "Senior Data Engineer, Data Platform & Warehouse",
-   "company": "Traveloka",
-   "location": "Shanghai, Shanghai, China",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4467192053",
-   "source": "LinkedIn",
-   "date": "2026-10-08",
-   "logo": "https://media.licdn.com/dms/image/v2/D560BAQGe_izwxvj_SQ/company-logo_100_100/company-logo_100_100/0/1700635813325/traveloka_logo?e=2147483647&v=beta&t=25DqjamWZ4ZG4xslE0-yiaS8xySzkR9MKgtClKKAFYs",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Data Engineer - SCD",
-   "company": "IKEA",
-   "location": "Älmhult, Kronoberg County, Sweden",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4477164664",
-   "source": "LinkedIn",
-   "date": "2026-10-08",
-   "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQHFZRoCWlWZ-g/company-logo_100_100/company-logo_100_100/0/1630574725858/ikea_group_logo?e=2147483647&v=beta&t=9-VJrIF2z_1fp9dknIpVt5CQOwrUyL9Dr_7JV13RN9s"
-  },
-  {
    "title": "Business Intelligence Engineer (Junior)",
    "company": "Gameloft",
    "location": "Ho Chi Minh City",
@@ -1719,7 +1128,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-07",
    "logo": "https://images.vietnamworks.com/pictureofcompany/89/11125541.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Power BI",
     "IT Audit",
@@ -1741,7 +1150,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-07",
    "logo": "https://images.vietnamworks.com/pictureofcompany/e4/11445482.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Sql",
     "DWH",
@@ -1763,7 +1172,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-07",
    "logo": "https://images.vietnamworks.com/pictureofcompany/e4/11445482.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Machine Learning",
     "Data Science",
@@ -1785,7 +1194,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-07",
    "logo": "https://images.vietnamworks.com/pictureofcompany/3a/11220612.png",
-   "salary": "17tr-25tr ₫/tháng",
+   "salary": "17–25 triệu",
    "tags": [
     "Java System",
     "Lập Trình",
@@ -1807,7 +1216,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-07",
    "logo": "https://images.vietnamworks.com/pictureofcompany/37/11136210.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Machine Learning",
     "Data Mining",
@@ -1925,21 +1334,7 @@
    "source": "CareerViet",
    "date": "2026-10-07",
    "logo": "https://images.careerviet.vn/employer_folders/lot2/123152/92239logokotagline-01.png",
-   "salary": "Cạnh tranh",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Snowflake Data Engineer (Remote, KA, IN)",
-   "company": "NTT DATA",
-   "location": "India",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/nttdata/jobs/snowflake-data-engineer-remote-ka-in-441504075",
-   "source": "Himalayas",
-   "date": "2026-10-07",
-   "logo": "https://cdn-images.himalayas.app/to0griyuq0frod5n5b7505ono0z4",
-   "desc": "Req ID: 380945 NTT DATA strives to hire exceptional, innovative and passionate individuals who want to grow with us. If you want to be part of an inclusive, adaptable, and forward-thinking organization, apply now. We are currently seeking a Snowflake Data Engineer to join our team in Remote, Karnātaka (IN-KA), India (IN). \"Primary Responsibilities • Client Engagement & Delivery • Data Pipeline…",
+   "salary": "Thỏa thuận",
    "level": [
     "senior"
    ]
@@ -1952,7 +1347,7 @@
    "url": "https://www.vietnamworks.com/chuyen-vien-xu-ly-du-lieu-1791362016445298757-2116877-jv",
    "source": "VietnamWorks",
    "date": "2026-10-07",
-   "salary": "Tới 14tr ₫/tháng",
+   "salary": "Đến 14 triệu",
    "tags": [
     "Thành Thạo Excel, Google Sheet Nâng Cao",
     "Viết Câu Lệnh Truy Vấn Sql",
@@ -1974,15 +1369,6 @@
    "source": "LinkedIn",
    "date": "2026-10-07",
    "logo": "https://media.licdn.com/dms/image/v2/D560BAQFZVZIJp7pTIg/company-logo_100_100/company-logo_100_100/0/1699350429393/sicix_technology_logo?e=2147483647&v=beta&t=C3tldguexCh1CuKdir2D1PKWJqLQMPk0Uq9cRidUvzk"
-  },
-  {
-   "title": "Data Engineer",
-   "company": "Delta Defense LLC",
-   "location": "West Bend, WI",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4458288363",
-   "source": "LinkedIn",
-   "date": "2026-10-07"
   },
   {
    "title": "Data Analyst",
@@ -2131,7 +1517,7 @@
    "source": "CareerViet",
    "date": "2026-10-06",
    "logo": "https://images.careerviet.vn/employers/2996/11552808d75f53baccdb3fe6600824c464a9c9.jpg",
-   "salary": "Cạnh tranh"
+   "salary": "Thỏa thuận"
   },
   {
    "title": "Delivery Manager — Data & Platform Products",
@@ -2142,7 +1528,7 @@
    "source": "CareerViet",
    "date": "2026-10-06",
    "logo": "https://images.careerviet.vn/employer_folders/lot7/307647/161430logochinh.png",
-   "salary": "Cạnh tranh",
+   "salary": "Thỏa thuận",
    "level": [
     "lead"
    ]
@@ -2159,36 +1545,6 @@
    "level": [
     "senior"
    ]
-  },
-  {
-   "title": "Staff Data Analyst (m/f/d)",
-   "company": "Redcare Pharmacy",
-   "location": "Berlin, Berlin, Germany",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4459955796",
-   "source": "LinkedIn",
-   "date": "2026-10-06",
-   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFbPkoSGLh9Kg/company-logo_100_100/company-logo_100_100/0/1686131798841/redcare_pharmacy_com_logo?e=2147483647&v=beta&t=F0vu2YjGVtqkufwC8Oc1p1v1Md-SkAABse2irUpupkw"
-  },
-  {
-   "title": "Data Analyst",
-   "company": "Hatched Analytics",
-   "location": "Dublin, County Dublin, Ireland",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4474081306",
-   "source": "LinkedIn",
-   "date": "2026-10-06",
-   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHieAfunuD7Gw/company-logo_100_100/B4EZu4SHmsHIAU-/0/1768323316856/hatched_analytics_logo?e=2147483647&v=beta&t=DEVj5M_j5KrjA4bDSjejotfPHAJmSgGDlJfPqKlaJ2g"
-  },
-  {
-   "title": "Data Engineer",
-   "company": "Motorit AB",
-   "location": "Gothenburg, Västra Götaland County, Sweden",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4474089047",
-   "source": "LinkedIn",
-   "date": "2026-10-06",
-   "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQEzq7S6n730TQ/company-logo_100_100/company-logo_100_100/0/1631345246534?e=2147483647&v=beta&t=yo8qWLMgt0sELLfSYyHdxhjx5qUJt9ilG-8CnjnTJ6k"
   },
   {
    "title": "Senior Business Intelligence (Khối EDA, RB Insight Analytics) - HN - TA174",
@@ -2274,7 +1630,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-05",
    "logo": "https://images.vietnamworks.com/pictureofcompany/e9/11478642.png",
-   "salary": "$ 1,500-2,500 /tháng",
+   "salary": "≈39–65 triệu",
    "tags": [
     "Sql",
     "Power Bi",
@@ -2296,7 +1652,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-05",
    "logo": "https://images.vietnamworks.com/pictureofcompany/42/11433247.png",
-   "salary": "30tr-45tr ₫/tháng",
+   "salary": "30–45 triệu",
    "tags": [
     "Data Analys",
     "Business Intelligence",
@@ -2315,7 +1671,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-05",
    "logo": "https://images.vietnamworks.com/pictureofcompany/9c/11125788.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Sql",
     "Power Bi",
@@ -2464,7 +1820,7 @@
    "source": "CareerViet",
    "date": "2026-10-05",
    "logo": "https://static.careerviet.vn/themes/kiemviecv32/images/graphics/logo-default.png",
-   "salary": "Cạnh tranh"
+   "salary": "Thỏa thuận"
   },
   {
    "title": "CHUYÊN VIÊN PHÂN TÍCH DỮ LIỆU KINH DOANH (Data Analyst - UP25M)",
@@ -2475,21 +1831,7 @@
    "source": "CareerViet",
    "date": "2026-10-05",
    "logo": "https://images.careerviet.vn/employer_folders/lot3/310843/161144logo-lining-inkythuatso-21-14-56-33.jpg",
-   "salary": "20 - 25 Triệu VND"
-  },
-  {
-   "title": "Senior Data Engineer - Market #3 (Remote, DL, IN)",
-   "company": "NTT DATA",
-   "location": "India",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/nttdata/jobs/senior-data-engineer-market-3-remote-dl-in-9879579151",
-   "source": "Himalayas",
-   "date": "2026-10-05",
-   "logo": "https://cdn-images.himalayas.app/to0griyuq0frod5n5b7505ono0z4",
-   "desc": "Req ID: 374238 NTT DATA strives to hire exceptional, innovative and passionate individuals who want to grow with us. If you want to be part of an inclusive, adaptable, and forward-thinking organization, apply now. We are currently seeking a Senior Data Engineer - Market #3 to join our team in Remote, Delhi (IN-DL), India (IN). \"Position Overview We are seeking Senior Data Engineers to support…",
-   "level": [
-    "senior"
-   ]
+   "salary": "20–25 triệu"
   },
   {
    "title": "1 Data Engineer",
@@ -2526,16 +1868,6 @@
    ]
   },
   {
-   "title": "Data Engineer & Analytics",
-   "company": "Kredivo Group",
-   "location": "Jakarta Metropolitan Area",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4252939391",
-   "source": "LinkedIn",
-   "date": "2026-10-05",
-   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEcTpBN5xjLQQ/company-logo_100_100/company-logo_100_100/0/1693461125877/kredivo_group_logo?e=2147483647&v=beta&t=rhbqxfZYqtp9mYCJeQ1xAJTm1e8-kyo85_ymBWNCjok"
-  },
-  {
    "title": "Senior Software Engineer, Customer Data Platform",
    "company": "Grab",
    "location": "HCMC",
@@ -2568,7 +1900,7 @@
    "source": "CareerViet",
    "date": "2026-10-04",
    "logo": "https://images.careerviet.vn/employer_folders/lot2/123152/92239logokotagline-01.png",
-   "salary": "Cạnh tranh",
+   "salary": "Thỏa thuận",
    "level": [
     "senior"
    ]
@@ -2582,7 +1914,7 @@
    "source": "CareerViet",
    "date": "2026-10-04",
    "logo": "https://images.careerviet.vn/employer_folders/lot6/318956/165011logotnexfinance.png",
-   "salary": "Cạnh tranh",
+   "salary": "Thỏa thuận",
    "level": [
     "senior"
    ]
@@ -2619,19 +1951,6 @@
    ]
   },
   {
-   "title": "Staff Data Engineer - Data Infrastructure",
-   "company": "Discord",
-   "location": "San Francisco, CA",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4475337480",
-   "source": "LinkedIn",
-   "date": "2026-10-03",
-   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEGavKonGPGcw/company-logo_100_100/company-logo_100_100/0/1719257940480/discord_logo?e=2147483647&v=beta&t=QqNnNuiOygDtzBPDZ_Pk9F9WOTPBb4aExfKHM412qaU",
-   "level": [
-    "lead"
-   ]
-  },
-  {
    "title": "Corporate Data Manager",
    "company": "FMCG (PROJECT & MANUFACTURING) CONSULTING LIMITED",
    "location": "Ho Chi Minh City, Vietnam",
@@ -2653,7 +1972,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-02",
    "logo": "https://images.vietnamworks.com/pictureofcompany/e4/11445482.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Data Masking",
     "Cloud Security",
@@ -2675,7 +1994,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-02",
    "logo": "https://images.vietnamworks.com/pictureofcompany/f2/11404415.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Business Intelligence",
     "Computer Science",
@@ -2717,47 +2036,7 @@
    "source": "CareerViet",
    "date": "2026-10-02",
    "logo": "https://images.careerviet.vn/employer_folders/lot7/307647/161430logochinh.png",
-   "salary": "Cạnh tranh"
-  },
-  {
-   "title": "Data Engineer Databricks - Mexico",
-   "company": "Mutt Data",
-   "location": "Mexico",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/mutt-data/jobs/data-engineer-databricks-mexico",
-   "source": "Himalayas",
-   "date": "2026-10-02",
-   "logo": "https://cdn-images.himalayas.app/bqu6v5it7pohbb9t6tc47f8buzn8",
-   "desc": "🚀 Join Our Remote Data Products & Machine Learning Startup! 🚀 At Muttdata, we build innovative Data Products and Machine Learning solutions that help companies solve complex business challenges. As a fast-growing, remote-first startup, we're passionate about technology, collaboration, and continuous learning. This opportunity is with a leading multinational beverage company based in Mexico City.…",
-   "level": [
-    "mid"
-   ]
-  },
-  {
-   "title": "Staff Data Engineer",
-   "company": "Dexcom",
-   "location": "San Diego, California, United States",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4446368700",
-   "source": "LinkedIn",
-   "date": "2026-10-02",
-   "logo": "https://media.licdn.com/dms/image/v2/C560BAQE3mpvPlafs2Q/company-logo_100_100/company-logo_100_100/0/1675797236800/dexcom_logo?e=2147483647&v=beta&t=-vfjfyGM_VbDYp7FaptO1qHPZFORw1lH1e7VFjCqGZU",
-   "level": [
-    "lead"
-   ]
-  },
-  {
-   "title": "Junior Data Engineer (BI Developer)",
-   "company": "Continental",
-   "location": "Neveronys, Kaunas, Lithuania",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4474766426",
-   "source": "LinkedIn",
-   "date": "2026-10-02",
-   "logo": "https://media.licdn.com/dms/image/v2/C560BAQFYrK_MuDgrbg/company-logo_100_100/company-logo_100_100/0/1631328590640?e=2147483647&v=beta&t=BesZoZkcT6BFGra3NwnqyLh__a6CbxLudb678X7_40M",
-   "level": [
-    "junior"
-   ]
+   "salary": "Thỏa thuận"
   },
   {
    "title": "Senior Data Engineer",
@@ -2788,7 +2067,7 @@
    "source": "VietnamWorks",
    "date": "2026-10-01",
    "logo": "https://images.vietnamworks.com/pictureofcompany/5a/10480385.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Data Engineer",
     "Big Data",
@@ -2872,20 +2151,6 @@
    ]
   },
   {
-   "title": "Data Migration Engineer (Fall 2026) (Remote, KA, IN)",
-   "company": "NTT DATA",
-   "location": "India",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/nttdata/jobs/data-migration-engineer-fall-2026-remote-ka-in-8930730993",
-   "source": "Himalayas",
-   "date": "2026-10-01",
-   "logo": "https://cdn-images.himalayas.app/to0griyuq0frod5n5b7505ono0z4",
-   "desc": "Key Responsibilities Assess complex Informatica workflows including sessions, mappings, and parameterizations and translate them into equivalent Python EL scripts and dbt transformation models. • Develop and maintain Python EL pipelines to land high-volume data, including billion-row tables, into the target warehouse using SQLAlchemy, cx_Oracle, pyodbc, and bulk export tools such as Oracle Data…",
-   "level": [
-    "mid"
-   ]
-  },
-  {
    "title": "Data Engineer I, II (Fabric, Python, Azure)",
    "company": "MiTek Vietnam",
    "location": "Ho Chi Minh City, Vietnam",
@@ -2894,42 +2159,6 @@
    "source": "LinkedIn",
    "date": "2026-10-01",
    "logo": "https://media.licdn.com/dms/image/v2/C560BAQHBBkXcgLTVrA/company-logo_100_100/company-logo_100_100/0/1630664430568/platinum_global_co_ltd_logo?e=2147483647&v=beta&t=-cuOkdfuq2gD2VxXW_Qggq7cyTDEASytxNqNEF_tvSo"
-  },
-  {
-   "title": "Data Engineer (Azure Databricks) - Remote Work | REF#295236",
-   "company": "BairesDev",
-   "location": "Cajamarca, Peru",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4464901679",
-   "source": "LinkedIn",
-   "date": "2026-10-01",
-   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGNvQASzrdL_w/company-logo_100_100/company-logo_100_100/0/1687874736484/bairesdev_logo?e=2147483647&v=beta&t=O-1i-F9arEGwUjngSlvE7NWxL-mpYFwN_XZxHy0C03s"
-  },
-  {
-   "title": "Senior Data Engineer - AI & Databricks",
-   "company": "Danfoss",
-   "location": "Copenhagen, Capital Region of Denmark, Denmark",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4474158005",
-   "source": "LinkedIn",
-   "date": "2026-10-01",
-   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQHcMLfSJhk-YA/company-logo_100_100/B4EZioW0jUGcAU-/0/1755171211867/danfoss_logo?e=2147483647&v=beta&t=MHLt6q_lwQu_sEDFdWvvd8Nf69xXboKkwCEROWMUrYw",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Senior Data Engineer (Data Business Partner)",
-   "company": "REA Group",
-   "location": "Richmond, Victoria, Australia",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4472669936",
-   "source": "LinkedIn",
-   "date": "2026-10-01",
-   "logo": "https://media.licdn.com/dms/image/v2/C560BAQEA8N_DSsRn0Q/company-logo_100_100/company-logo_100_100/0/1636331627220/rea_group_logo?e=2147483647&v=beta&t=U522LjbGKIoiqicx_ATwHoPGEz2gaS4RPlwCBM-U66A",
-   "level": [
-    "senior"
-   ]
   },
   {
    "title": "Junior Data Analyst (Finance Analytics team)",
@@ -2953,7 +2182,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-30",
    "logo": "https://images.vietnamworks.com/pictureofcompany/ce/company-logo-423746-1790743846241764863.jpg",
-   "salary": "90tr-170tr ₫/tháng",
+   "salary": "90–170 triệu",
    "tags": [
     "Large Language Model Systems",
     "Agentic workflows",
@@ -2975,7 +2204,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-30",
    "logo": "https://images.vietnamworks.com/pictureofcompany/02/11286511.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Business Intelligence",
     "Data Science",
@@ -2993,7 +2222,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-30",
    "logo": "https://images.vietnamworks.com/pictureofcompany/22/11234686.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Kiến Trúc Data Lakehouse",
     "Kiến Trúc Data Warehouse",
@@ -3015,7 +2244,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-30",
    "logo": "https://images.vietnamworks.com/pictureofcompany/14/11286904.png",
-   "salary": "$ 700-1,000 /tháng",
+   "salary": "≈18–26 triệu",
    "tags": [
     "C#",
     "Generative Ai/Llm",
@@ -3061,7 +2290,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-29",
    "logo": "https://images.vietnamworks.com/pictureofcompany/95/11125340.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Data Lake",
     "Hadoop Ecosystem",
@@ -3083,7 +2312,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-29",
    "logo": "https://images.vietnamworks.com/pictureofcompany/95/11125340.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Data Science",
     "Machine Learning",
@@ -3105,7 +2334,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-29",
    "logo": "https://images.vietnamworks.com/pictureofcompany/6c/11052357.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Python programming",
     "ETL Tool",
@@ -3127,7 +2356,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-29",
    "logo": "https://images.vietnamworks.com/pictureofcompany/af/11226160.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "PYTHON",
     "Sql",
@@ -3149,7 +2378,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-29",
    "logo": "https://images.vietnamworks.com/pictureofcompany/6c/11052357.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Tensorflow",
     "Trực quan hóa dữ liệu",
@@ -3251,7 +2480,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-29",
    "logo": "https://images.vietnamworks.com/pictureofcompany/6c/11052357.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Data Management",
     "Giao tiếp",
@@ -3262,32 +2491,6 @@
    "desc": "1. Mô tả công việc: 1.1. Chiến lược Quản trị Dữ liệu • Xây dựng và truyền đạt tầm nhìn, chiến lược và lộ trình triển khai Data Governance của Tổng công ty. • Xác định mục tiêu, ưu tiên và bộ chỉ số đánh giá (KPI) cho công tác quản trị dữ liệu. • Thiết lập mô...",
    "level": [
     "junior"
-   ]
-  },
-  {
-   "title": "Senior Data Engineer",
-   "company": "Renesas Electronics",
-   "location": "Ho Chi Minh City",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4455748718",
-   "source": "LinkedIn",
-   "date": "2026-09-29",
-   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHlwp8hH_CdSg/company-logo_100_100/B56Zm7Sm_TIAAQ-/0/1759783842062/renesas_logo?e=2147483647&v=beta&t=IPyLH7X_M1aJkP81Og5r0dpxZkleQxB_cRImLz-lxVY",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Senior Data Engineer",
-   "company": "Renesas Electronics",
-   "location": "George Town, Penang, Malaysia",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4455745909",
-   "source": "LinkedIn",
-   "date": "2026-09-29",
-   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHlwp8hH_CdSg/company-logo_100_100/B56Zm7Sm_TIAAQ-/0/1759783842062/renesas_logo?e=2147483647&v=beta&t=IPyLH7X_M1aJkP81Og5r0dpxZkleQxB_cRImLz-lxVY",
-   "level": [
-    "senior"
    ]
   },
   {
@@ -3309,7 +2512,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-28",
    "logo": "https://images.vietnamworks.com/pictureofcompany/13/11287997.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Quản Trị Dữ Liệu",
     "Banking",
@@ -3330,7 +2533,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-28",
    "logo": "https://images.vietnamworks.com/pictureofcompany/d5/10894078.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Artificial Intelligence (AI)",
     "Machine Learning",
@@ -3373,22 +2576,7 @@
    "source": "CareerViet",
    "date": "2026-09-28",
    "logo": "https://images.careerviet.vn/employer_folders/lot7/236627/160538logodigital-02.png",
-   "salary": "14 - 15,5 Triệu VND"
-  },
-  {
-   "title": "Lead Data Architect",
-   "company": "Data Meaning",
-   "location": "United States",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/data-meaning/jobs/lead-data-architect",
-   "source": "Himalayas",
-   "date": "2026-09-28",
-   "logo": "https://cdn-images.himalayas.app/6rc8s9thf2uw308eevzc7oprg2or",
-   "salary": "$190k/năm",
-   "desc": "Lead Data Architect Location: Remote, US based Position type: Full Time Employee Compensation: $190.000 (base + bonus) Job Summary Data Meaning is a front-runner in Business Intelligence and Data Analytics consulting, renowned for our high-quality consulting services throughout the US and beyond. Our expertise lies in delivering tailored solutions in Business Intelligence, Data Warehousing, and…",
-   "level": [
-    "lead"
-   ]
+   "salary": "14–15,5 triệu"
   },
   {
    "title": "Senior Data Engineer",
@@ -3439,29 +2627,6 @@
    ]
   },
   {
-   "title": "Data Analyst",
-   "company": "Mastek",
-   "location": "Noida, Uttar Pradesh, India",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4470864626",
-   "source": "LinkedIn",
-   "date": "2026-09-28",
-   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQH_Vr13cQq2BQ/company-logo_100_100/company-logo_100_100/0/1719831464267/mastek_logo?e=2147483647&v=beta&t=TEdmCmIyHozM92tiDEmmVQsOcBfXoKHjG53kVubJHok"
-  },
-  {
-   "title": "Senior Data Scientist/ Engineer",
-   "company": "Peraton",
-   "location": "Honolulu, HI",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4445749643",
-   "source": "LinkedIn",
-   "date": "2026-09-28",
-   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFk1Pg7xa6iog/company-logo_100_100/B4EZmCJwuEKsAU-/0/1758825222228/peraton_logo?e=2147483647&v=beta&t=oTAZ_d-ILtGYzLVRnNC4T7Al2YWh8ERKm2_8eJaBH6g",
-   "level": [
-    "senior"
-   ]
-  },
-  {
    "title": "Senior / Staff Data Engineer (BI) – CEG Team",
    "company": "Agoda",
    "location": "Ho Chi Minh City, Vietnam",
@@ -3496,7 +2661,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-28",
    "logo": "https://images.vietnamworks.com/pictureofcompany/d5/10894078.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Artificial Intelligence (AI)",
     "Machine Learning",
@@ -3523,42 +2688,6 @@
    ]
   },
   {
-   "title": "Senior Data Engineer, DX",
-   "company": "Atlassian",
-   "location": "Salt Lake City, Utah, United States",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4454862094",
-   "source": "LinkedIn",
-   "date": "2026-09-26",
-   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_100_100/company-logo_100_100/0/1735593604612/atlassian_logo?e=2147483647&v=beta&t=4riZdTtd16Oeoew0_mSThLQak3uyYv2-ep73cztBjbo",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Senior Data Modeler & Data Analyst",
-   "company": "Fidelity Investments",
-   "location": "Galway, County Galway, Ireland",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4436324969",
-   "source": "LinkedIn",
-   "date": "2026-09-26",
-   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQEuH501asNUIQ/company-logo_100_100/B4EZXtxo03G0AU-/0/1743450967859/fidelity_investments_logo?e=2147483647&v=beta&t=KyaswXYHURo34Y0GAgxyomTUHS2AT7gsD5nrw-IGG78",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Data Engineer - Enterprise Data Engineering & Analytics",
-   "company": "UT MD Anderson",
-   "location": "Houston, TX",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4472279852",
-   "source": "LinkedIn",
-   "date": "2026-09-26",
-   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEtcUd-KF909g/company-logo_100_100/company-logo_100_100/0/1708463593072/mdandersoncancercenter_logo?e=2147483647&v=beta&t=G9IcfMf2a1Z23RbEXtQOt_nnpFuU4eri-36pds9rXA8"
-  },
-  {
    "title": "Chuyên Gia Phân Tích Dữ Liệu Kinh Doanh, Phòng Kế Hoạch và Quản Lý Hiệu Quả Kinh Doanh, Khối Khách Hàng Cá Nhân",
    "company": "Ngân Hàng TMCP Đại Chúng Việt Nam",
    "location": "Hà Nội",
@@ -3567,7 +2696,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-25",
    "logo": "https://images.vietnamworks.com/pictureofcompany/a1/11266673.png",
-   "salary": "$ 1,500-1,500 /tháng",
+   "salary": "≈39 triệu",
    "tags": [
     "Data Warehouse",
     "Data Analys",
@@ -3587,7 +2716,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-25",
    "logo": "https://images.vietnamworks.com/pictureofcompany/a1/11266673.png",
-   "salary": "$ 1,000-1,500 /tháng",
+   "salary": "≈26–39 triệu",
    "tags": [
     "Quản Trị Dữ Liệu Ngân Hàng",
     "MIS",
@@ -3607,7 +2736,7 @@
    "source": "CareerViet",
    "date": "2026-09-25",
    "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
-   "salary": "Cạnh tranh"
+   "salary": "Thỏa thuận"
   },
   {
    "title": "Chuyên viên cao cấp Bảo mật dữ liệu - Senior Data Security - Khối Dữ liệu (2026TD450980)",
@@ -3618,7 +2747,7 @@
    "source": "CareerViet",
    "date": "2026-09-25",
    "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
-   "salary": "Cạnh tranh",
+   "salary": "Thỏa thuận",
    "level": [
     "senior"
    ]
@@ -3632,7 +2761,7 @@
    "source": "CareerViet",
    "date": "2026-09-25",
    "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
-   "salary": "Cạnh tranh",
+   "salary": "Thỏa thuận",
    "level": [
     "senior"
    ]
@@ -3646,7 +2775,7 @@
    "source": "CareerViet",
    "date": "2026-09-25",
    "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
-   "salary": "Cạnh tranh"
+   "salary": "Thỏa thuận"
   },
   {
    "title": "Chuyên viên Phân tích Khách hàng Doanh nghiệp - Business Customer Data Analyst - Khối Dữ liệu (2026TD451020)",
@@ -3657,7 +2786,7 @@
    "source": "CareerViet",
    "date": "2026-09-25",
    "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
-   "salary": "Cạnh tranh"
+   "salary": "Thỏa thuận"
   },
   {
    "title": "Chuyên viên Phân tích Khách hàng cá nhân - Data Analyst (Retail Banking) - Khối Dữ liệu (2026TD453678)",
@@ -3668,7 +2797,7 @@
    "source": "CareerViet",
    "date": "2026-09-25",
    "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
-   "salary": "Cạnh tranh"
+   "salary": "Thỏa thuận"
   },
   {
    "title": "Chuyên viên Phân tích và thiết kế Mô hình dữ liệu - Data Analyst - Khối Dữ liệu (2026TD450983)",
@@ -3679,7 +2808,7 @@
    "source": "CareerViet",
    "date": "2026-09-25",
    "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
-   "salary": "Cạnh tranh"
+   "salary": "Thỏa thuận"
   },
   {
    "title": "Chuyên viên Phân tích và thiết kế Mô hình dữ liệu - Data Analyst - Khối Dữ liệu (2026TD45098)",
@@ -3690,7 +2819,7 @@
    "source": "CareerViet",
    "date": "2026-09-25",
    "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
-   "salary": "Cạnh tranh"
+   "salary": "Thỏa thuận"
   },
   {
    "title": "Lead Data Analyst",
@@ -3714,7 +2843,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-24",
    "logo": "https://images.vietnamworks.com/pictureofcompany/74/11427434.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "IT Operations",
     "Data Engineer",
@@ -3750,16 +2879,6 @@
    ]
   },
   {
-   "title": "Data Analyst (Quick Commerce & Partnerships)",
-   "company": "foodpanda",
-   "location": "Karāchi, Sindh, Pakistan",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4469367981",
-   "source": "LinkedIn",
-   "date": "2026-09-24",
-   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQECAtxyczcBvg/company-logo_100_100/B4DZijDI4THsAQ-/0/1755082166162/foodpanda_logo?e=2147483647&v=beta&t=xSnraMyKJN-jfc37NCTwpv46f6M1O6ZPTDwH1h1QUUg"
-  },
-  {
    "title": "Chuyên Viên Cao Cấp Data IT",
    "company": "Elite Fitness",
    "location": "Hà Nội",
@@ -3768,7 +2887,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-24",
    "logo": "https://images.vietnamworks.com/pictureofcompany/39/11008164.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "AI",
     "Data Organization"
@@ -3784,7 +2903,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-24",
    "logo": "https://images.vietnamworks.com/pictureofcompany/13/11287997.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Ai/Ml",
     "Khoa Học Dữ Liệu",
@@ -3827,7 +2946,7 @@
    "source": "CareerViet",
    "date": "2026-09-23",
    "logo": "https://images.careerviet.vn/employer_folders/lot0/228060/170701logomsb.png",
-   "salary": "Cạnh tranh"
+   "salary": "Thỏa thuận"
   },
   {
    "title": "Senior Data Analyst (Data Quality)",
@@ -3843,16 +2962,6 @@
    ]
   },
   {
-   "title": "Data Engineer",
-   "company": "Bokadirekt",
-   "location": "Stockholm, Stockholm County, Sweden",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4439342339",
-   "source": "LinkedIn",
-   "date": "2026-09-23",
-   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFtFod40Ev9SQ/company-logo_100_100/company-logo_100_100/0/1719235576782/bokadirekt_i_stockholm_ab_logo?e=2147483647&v=beta&t=tBDerNqehBGrWZsmaTLvZxYsklvKra0GSE7nJ2It1NI"
-  },
-  {
    "title": "Lead, Data Reconciliation (Payment Team)",
    "company": "NAB Innovation Centre Vietnam",
    "location": "Hà Nội",
@@ -3861,7 +2970,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-23",
    "logo": "https://images.vietnamworks.com/pictureofcompany/d9/11293186.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Analytical Skills",
     "Data Processing",
@@ -3880,7 +2989,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-22",
    "logo": "https://images.vietnamworks.com/pictureofcompany/25/10816736.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Python Programming",
     "PostgreSQL",
@@ -3902,7 +3011,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-22",
    "logo": "https://images.vietnamworks.com/pictureofcompany/e4/11445482.png",
-   "salary": "20tr-50tr ₫/tháng",
+   "salary": "20–50 triệu",
    "tags": [
     "PYTHON",
     "C++",
@@ -3921,7 +3030,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-22",
    "logo": "https://images.vietnamworks.com/pictureofcompany/e4/11445482.png",
-   "salary": "28tr-70tr ₫/tháng",
+   "salary": "28–70 triệu",
    "tags": [
     "PYTHON",
     "Microservice",
@@ -3943,7 +3052,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-22",
    "logo": "https://images.vietnamworks.com/pictureofcompany/e4/11445482.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Hopsworks",
     "PYTHON",
@@ -3965,7 +3074,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-22",
    "logo": "https://images.vietnamworks.com/pictureofcompany/e4/11445482.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Mlops",
     "Gitlab Ci",
@@ -3987,7 +3096,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-22",
    "logo": "https://images.vietnamworks.com/pictureofcompany/e4/11445482.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Mlops",
     "Gitlab Ci",
@@ -4009,7 +3118,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-22",
    "logo": "https://images.vietnamworks.com/pictureofcompany/e4/11445482.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Data Analytics",
     "Data processing",
@@ -4031,7 +3140,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-22",
    "logo": "https://images.vietnamworks.com/pictureofcompany/e4/11445482.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "PYTHON",
     "C++",
@@ -4053,7 +3162,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-22",
    "logo": "https://images.vietnamworks.com/pictureofcompany/d4/11237183.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "SQL",
     "Python",
@@ -4088,16 +3197,6 @@
    ]
   },
   {
-   "title": "Software Developer Security Analytics",
-   "company": "RedMimicry",
-   "location": "Remote",
-   "region": "Remote",
-   "url": "https://remoteOK.com/remote-jobs/remote-software-developer-security-analytics-redmimicry-1137417",
-   "source": "RemoteOK",
-   "date": "2026-09-22",
-   "desc": "Remote - Location: Mostly remote (within Germany), with monthly in-person collaboration at our Berlin officeHours: Full-time, 40 hours per weekContract: Fixed-termSalary: EUR 69,000 â 77,000We are building a new capability that turns fragmented, noisy security logs... Please mention the word **CONTINUITY** and tag RMjQwNTo0ODAyOjU1YjplODkwOjg5ZGM6ZGU3ODoxOGNhOmExNjY= when applying to show you…"
-  },
-  {
    "title": "AI Data Engineer (Senior)",
    "company": "EPOS",
    "location": "Ho Chi Minh City, Vietnam",
@@ -4109,16 +3208,6 @@
    "level": [
     "senior"
    ]
-  },
-  {
-   "title": "Data Analyst",
-   "company": "YipitData",
-   "location": "Singapore",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4470410361",
-   "source": "LinkedIn",
-   "date": "2026-09-22",
-   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGMx73aenSomQ/company-logo_100_100/B4EZWl6kS1GYAQ-/0/1742245351244/yipitllc_logo?e=2147483647&v=beta&t=FsfN8XjQsEyxtz9NoCybrgbkyYGtx83uIFJHag7DnhA"
   },
   {
    "title": "Data Analyst (Middle)",
@@ -4142,7 +3231,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-21",
    "logo": "https://images.vietnamworks.com/pictureofcompany/d5/10894078.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "PYTHON",
     "Data Engineer",
@@ -4164,7 +3253,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-21",
    "logo": "https://images.vietnamworks.com/pictureofcompany/67/11303897.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Commercial Analysis",
     "Business Intelligence",
@@ -4186,7 +3275,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-21",
    "logo": "https://images.vietnamworks.com/pictureofcompany/31/11435513.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "RAG Systems",
     "LLM",
@@ -4230,37 +3319,7 @@
    "source": "CareerViet",
    "date": "2026-09-21",
    "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuy%E1%BB%83n%20d%E1%BB%A5ng.png",
-   "salary": "Cạnh tranh"
-  },
-  {
-   "title": "*Data Analyst (Tender Data)",
-   "company": "DKSH",
-   "location": "Ho Chi Minh City, Vietnam",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4467382932",
-   "source": "LinkedIn",
-   "date": "2026-09-21",
-   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQEqaIbSmNp_Lw/company-logo_100_100/company-logo_100_100/0/1721115269951/dksh_logo?e=2147483647&v=beta&t=4sFA-QNWo6ByfMcxB8iQBwYMFpbkSsgfGKZCsiTghd0"
-  },
-  {
-   "title": "Master Data Analyst",
-   "company": "ECCO",
-   "location": "Surabaya, East Java, Indonesia",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4415337251",
-   "source": "LinkedIn",
-   "date": "2026-09-21",
-   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGJRKnEu-mq2A/company-logo_100_100/company-logo_100_100/0/1697106333399/ecco_logo?e=2147483647&v=beta&t=MetVBQQCbBpM1QrGsW4Uzq4oWa44rMADPOKzTvgZ1nQ"
-  },
-  {
-   "title": "AI Data Engineering Consultant (Managerial)",
-   "company": "EY",
-   "location": "Jakarta, Jakarta, Indonesia",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4421573912",
-   "source": "LinkedIn",
-   "date": "2026-09-21",
-   "logo": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_100_100/company-logo_100_100/0/1630570672166/ernstandyoung_logo?e=2147483647&v=beta&t=b0upZAfAhCLoq3ru166xwEzp681OHwS_p2jRguRs5Fo"
+   "salary": "Thỏa thuận"
   },
   {
    "title": "Lead Product Manager, Data Platform",
@@ -4283,7 +3342,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-21",
    "logo": "https://images.vietnamworks.com/pictureofcompany/30/11016819.png",
-   "salary": "Tới $ 2,500 /tháng",
+   "salary": "Đến ≈65 triệu",
    "tags": [
     "MS SQL",
     "AX Technical",
@@ -4294,33 +3353,6 @@
    "desc": "Location and Employment • Location: Dong Nai/HCM, Vietnam • Work arrangement: Full-time, onsite • Experience: Minimum three years • Department: Information Technology / Business Systems • Reports to: IT Director Position Summary The Software & Web Developer will design, develop, integrate, test, deploy, and support web applications, internal business systems, Power BI reporting solutions, and…",
    "level": [
     "mid"
-   ]
-  },
-  {
-   "title": "Data Architect",
-   "company": "Aligned Data Centers",
-   "location": "United States",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/aligned-data-centers/jobs/data-architect",
-   "source": "Himalayas",
-   "date": "2026-09-20",
-   "desc": "It's fun to work in a company where people truly BELIEVE in what they're doing! We're committed to bringing passion and customer focus to the business. We are seeking a highly skilled Data Architect with expertise in modern data management platforms and a deep understanding of data ingestion from multiple sources, including SQL databases, APIs and cloud data services. The ideal candidate will be…",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Data Scientist Lead",
-   "company": "Mutt Data",
-   "location": "Argentina",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/mutt-data/jobs/data-scientist-lead",
-   "source": "Himalayas",
-   "date": "2026-09-20",
-   "logo": "https://cdn-images.himalayas.app/bqu6v5it7pohbb9t6tc47f8buzn8",
-   "desc": "🚀 Join Our Data Products and Machine Learning Development Remote Startup! 🚀 Muttdata is a dynamic startup committed to crafting innovative systems using cutting-edge Big Data and Machine Learning technologies. We’re looking for a Data Scientist Lead to help take our expertise to the next level. If you consider yourself a data nerd like us, we’d love to connect! 🐶🚀 🚀 What We Do Leveraging our…",
-   "level": [
-    "lead"
    ]
   },
   {
@@ -4350,7 +3382,7 @@
    "source": "CareerViet",
    "date": "2026-09-19",
    "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
-   "salary": "Cạnh tranh"
+   "salary": "Thỏa thuận"
   },
   {
    "title": "Senior Data Science Specialist",
@@ -4361,7 +3393,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-18",
    "logo": "https://images.vietnamworks.com/pictureofcompany/9c/11125788.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Data Modeling",
     "Data Mining",
@@ -4383,7 +3415,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-18",
    "logo": "https://images.vietnamworks.com/pictureofcompany/c7/11308606.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Data Analytics",
     "SQL",
@@ -4404,7 +3436,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-18",
    "logo": "https://images.vietnamworks.com/pictureofcompany/9c/11125788.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Data Modeling",
     "Business Intelligence",
@@ -4426,43 +3458,7 @@
    "source": "CareerViet",
    "date": "2026-09-18",
    "logo": "https://images.careerviet.vn/employer_folders/lot2/208702/Logo%20vu%C3%B4ng.png",
-   "salary": "Cạnh tranh"
-  },
-  {
-   "title": "Senior AI Engineer",
-   "company": "Lemon.io",
-   "location": "Northern America, LATAM, Europe, APAC",
-   "region": "Remote",
-   "url": "https://remotive.com/remote-jobs/artificial-intelligence/senior-ai-engineer-2091131",
-   "source": "Remotive",
-   "date": "2026-09-18",
-   "logo": "https://remotive.com/job/2091131/logo",
-   "tags": [
-    ".Net",
-    "android",
-    "C",
-    "C#",
-    "C++",
-    "data science"
-   ],
-   "desc": "Are you a talented Senior AI Engineer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating rates…",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Data Developer",
-   "company": "Mutt Data",
-   "location": "Argentina",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/mutt-data/jobs/data-developer-5932916119",
-   "source": "Himalayas",
-   "date": "2026-09-18",
-   "logo": "https://cdn-images.himalayas.app/bqu6v5it7pohbb9t6tc47f8buzn8",
-   "desc": "🚀 Join Our Data Products and Machine Learning Development Remote Startup! 🚀 Muttdata is a dynamic startup committed to crafting innovative systems using cutting-edge Big Data and Machine Learning technologies. We’re looking for a Data Developer to help take our expertise to the next level. If you consider yourself a data nerd like us, we’d love to connect! 🐶🚀 🚀 What We Do Leveraging our…",
-   "level": [
-    "mid"
-   ]
+   "salary": "Thỏa thuận"
   },
   {
    "title": "Senior Data Engineer - Enterprise DWH",
@@ -4486,7 +3482,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-17",
    "logo": "https://images.vietnamworks.com/pictureofcompany/5a/10480385.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Data Engineer",
     "Data Platforms",
@@ -4508,7 +3504,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-17",
    "logo": "https://images.vietnamworks.com/pictureofcompany/3c/11125455.png",
-   "salary": "Tới 35tr ₫/tháng",
+   "salary": "Đến 35 triệu",
    "tags": [
     "Application Solution",
     "Generative AI Applications",
@@ -4530,7 +3526,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-17",
    "logo": "https://images.vietnamworks.com/pictureofcompany/aa/11210187.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Access SQL",
     "Data Warehouse Systems",
@@ -4552,7 +3548,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-17",
    "logo": "https://images.vietnamworks.com/pictureofcompany/59/11118441.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Data AI",
     "Data Management",
@@ -4595,35 +3591,7 @@
    "source": "CareerViet",
    "date": "2026-09-17",
    "logo": "https://images.careerviet.vn/employer_folders/lot5/95095/211005logobetrimex.png",
-   "salary": "Cạnh tranh"
-  },
-  {
-   "title": "Data Engineer Senior dl",
-   "company": "Mutt Data",
-   "location": "Argentina",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/mutt-data/jobs/data-engineer-senior-dl",
-   "source": "Himalayas",
-   "date": "2026-09-17",
-   "logo": "https://cdn-images.himalayas.app/bqu6v5it7pohbb9t6tc47f8buzn8",
-   "desc": "🚀 Join Our Data Products and Machine Learning Development Remote Startup! 🚀 Mutt Data is a dynamic startup committed to crafting innovative systems using cutting-edge Big Data and Machine Learning technologies. We’re looking for a Data Engineer Senior to help take our expertise to the next level. If you consider yourself a data nerd like us, we’d love to connect! 🐶🚀 🚀 What We Do Leveraging our…",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Data Engineer Lead dl",
-   "company": "Mutt Data",
-   "location": "Argentina",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/mutt-data/jobs/data-engineer-lead-dl",
-   "source": "Himalayas",
-   "date": "2026-09-17",
-   "logo": "https://cdn-images.himalayas.app/bqu6v5it7pohbb9t6tc47f8buzn8",
-   "desc": "🚀 Join Our Data Products and Machine Learning Development Remote Startup! 🚀 Mutt Data is a dynamic startup committed to crafting innovative systems using cutting-edge Big Data and Machine Learning technologies. We’re looking for a Data Engineer Lead to help take our expertise to the next level. If you consider yourself a data nerd like us, we’d love to connect! 🐶🚀 🚀 What We Do Leveraging our…",
-   "level": [
-    "lead"
-   ]
+   "salary": "Thỏa thuận"
   },
   {
    "title": "Risk Management Data Analytics Expert - Id9106",
@@ -4634,7 +3602,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-17",
    "logo": "https://images.vietnamworks.com/pictureofcompany/89/11125541.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Basel II",
     "Sql",
@@ -4656,7 +3624,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-16",
    "logo": "https://images.vietnamworks.com/pictureofcompany/d4/11375529.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Trade Marketing",
     "Digital Marketing",
@@ -4667,51 +3635,6 @@
    "desc": "1. Xây dựng và quản lý các chương trình Trade Marketing: - Lập kế hoạch, thực hiện, rà soát, tổng kết và quản lý ngân sách Trade Marketing theo tháng, quý, năm; đảm bảo sử dụng ngân sách đúng mục đích, đúng chính sách và trong hạn mức được phê duyệt đồng thời hiệu quả,...",
    "level": [
     "lead"
-   ]
-  },
-  {
-   "title": "Senior Data Scientist",
-   "company": "Lemon.io",
-   "location": "Northern America, LATAM, Europe, APAC",
-   "region": "Remote",
-   "url": "https://remotive.com/remote-jobs/data/senior-data-scientist-2091129",
-   "source": "Remotive",
-   "date": "2026-09-16",
-   "logo": "https://remotive.com/job/2091129/logo",
-   "tags": [
-    ".Net",
-    "android",
-    "C",
-    "C#",
-    "C++",
-    "golang"
-   ],
-   "desc": "Are you a talented Senior Data Scientist looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your skills and experience. We've already paid out over $11M to our engineers. No more hunting for clients or negotiating…",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Senior Independent AI Engineer / Architect",
-   "company": "A.Team",
-   "location": "Americas, Europe, Israel",
-   "region": "Remote",
-   "url": "https://remotive.com/remote-jobs/software-development/senior-independent-ai-engineer-architect-1919266",
-   "source": "Remotive",
-   "date": "2026-09-16",
-   "logo": "https://remotive.com/job/1919266/logo",
-   "salary": "$120 - $170 /hour",
-   "tags": [
-    "go",
-    "UI/UX",
-    "wordpress",
-    "chat",
-    "apple",
-    "testing"
-   ],
-   "desc": "Senior Independent AI Engineer / Architect Remote | Americas, Europe, or Israel Most AI engineers can find work. Finding work worth doing is harder. A.Team is an invite-only network of senior AI engineers, ML engineers, and AI architects building production AI systems for startups, enterprises, and global companies. Since 2020, builders in the network have earned more than $200M working with…",
-   "level": [
-    "senior"
    ]
   },
   {
@@ -4747,7 +3670,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-15",
    "logo": "https://images.vietnamworks.com/pictureofcompany/d4/11448900.png",
-   "salary": "$ 1,500-2,500 /tháng",
+   "salary": "≈39–65 triệu",
    "tags": [
     "Data Privacy",
     "AWS",
@@ -4767,7 +3690,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-15",
    "logo": "https://images.vietnamworks.com/pictureofcompany/d9/11293186.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Data Management",
     "Data Quality Assessment",
@@ -4786,7 +3709,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-15",
    "logo": "https://images.vietnamworks.com/pictureofcompany/d9/11293186.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Digital Marketing",
     "Sql",
@@ -4808,7 +3731,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-14",
    "logo": "https://images.vietnamworks.com/pictureofcompany/13/11287997.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Quản Trị Dữ Liệu",
     "Khoa Học Dữ Liệu",
@@ -4866,7 +3789,7 @@
    "source": "VietnamWorks",
    "date": "2026-09-14",
    "logo": "https://images.vietnamworks.com/pictureofcompany/7a/11244436.png",
-   "salary": "Thương lượng",
+   "salary": "Thỏa thuận",
    "tags": [
     "Kế Hoạch Tài Chính",
     "VBA",
@@ -4878,42 +3801,6 @@
    "level": [
     "senior"
    ]
-  },
-  {
-   "title": "Senior Data Analyst",
-   "company": "TechDoQuest",
-   "location": "Toronto, Ontario, Canada",
-   "region": "Remote",
-   "url": "https://www.linkedin.com/jobs/view/4465220935",
-   "source": "LinkedIn",
-   "date": "2026-09-14",
-   "logo": "https://media.licdn.com/dms/image/v2/D560BAQG8f2lZAtmXdA/company-logo_100_100/B56ZlRl5gWKEAQ-/0/1758010514181/techdoquest_logo?e=2147483647&v=beta&t=uqWpkKy3mGYJjNkSBSfnuEtcKGzw1xsGS1jKcl5rbrk",
-   "level": [
-    "senior"
-   ]
-  },
-  {
-   "title": "Data Engineer Lead - Databricks",
-   "company": "Mutt Data",
-   "location": "Argentina",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/mutt-data/jobs/data-engineer-lead-databricks",
-   "source": "Himalayas",
-   "date": "2026-09-13",
-   "logo": "https://cdn-images.himalayas.app/bqu6v5it7pohbb9t6tc47f8buzn8",
-   "desc": "🚀 Join Our Data Products and Machine Learning Development Remote Startup! 🚀 Muttdata is a dynamic startup committed to crafting innovative systems using cutting-edge Big Data and Machine Learning technologies. We’re looking for a Data Engineer Lead to help take our expertise to the next level. If you consider yourself a data nerd like us, we’d love to connect! 🐶🚀 🚀 What We Do Leveraging our…",
-   "level": [
-    "lead"
-   ]
-  },
-  {
-   "title": "Data Architect Sr. Advisor (Remote, TX, US)",
-   "company": "NTT DATA",
-   "location": "United States",
-   "region": "Remote",
-   "url": "https://himalayas.app/companies/nttdata/jobs/data-architect-sr-advisor-remote-tx-us",
-   "source": "Himalayas",
-   "date": "2026-09-13"
   }
  ]
 }
