@@ -77,7 +77,9 @@ def levels(title, hint="", years=0):
 
 
 def get(url, body=None):
-    headers = {"User-Agent": UA}
+    # header giống trình duyệt thật; thiếu Accept/Accept-Language thì Cloudflare (ITviec) dễ chặn IP máy chủ GitHub
+    headers = {"User-Agent": UA, "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
+               "Accept-Language": "vi-VN,vi;q=0.9,en;q=0.8"}
     if body is not None:
         body = json.dumps(body).encode()
         headers["Content-Type"] = "application/json"
