@@ -34,10 +34,9 @@ def ago(s):
     return (date.today() - timedelta(days=int(m[1]) * unit[m[2]])).isoformat()
 
 
-def trieu(lo, hi):
-    """(14000000, 18000000) → '14–18 triệu'."""
-    rng = "–".join(dict.fromkeys(f"{v / 1e6:g}" for v in (lo, hi) if v))
-    return f"{rng} triệu" if rng else ""
+def amount(lo, hi, cur="VND"):
+    """Khoảng lương dạng số → '14000000-18000000 VND' để job() quy đổi sang triệu VNĐ."""
+    return f"{lo}-{hi} {cur}" if lo and hi else f"Đến {hi} {cur}" if hi else f"Từ {lo} {cur}" if lo else ""
 
 
 # ---------- đọc bằng request thường (cần IP Việt Nam) ----------
@@ -101,7 +100,7 @@ def vieclam24h():
                 e = j.get("employer_info") or {}
                 out.append(job(j["title"], e.get("name", ""), "", "VN", "https://vieclam24h.vn" + links[str(j["id"])], "Vieclam24h",
                                day(str(j.get("approved_at") or "")), logo=e.get("logo") or "",
-                               salary=trieu(j.get("salary_min"), j.get("salary_max"))))
+                               salary=amount(j.get("salary_min"), j.get("salary_max"))))
     return out
 
 
@@ -116,7 +115,7 @@ def glints():
             out.append(job(j["title"], j["company"]["name"], ((loc.get("parents") or [{}])[0].get("name") or loc.get("name", "")), "VN",
                            f"https://glints.com/vn/opportunities/jobs/{slugify(j['title'])}/{j['id']}", "Glints", day(j["updatedAt"]),
                            logo=logo + j["company"]["logo"] if j["company"].get("logo") else "",
-                           salary=trieu(sal.get("minAmount"), sal.get("maxAmount")), years=j.get("minYearsOfExperience") or 0))
+                           salary=amount(sal.get("minAmount"), sal.get("maxAmount"), sal.get("CurrencyCode") or "VND"), years=j.get("minYearsOfExperience") or 0))
         if not d.get("hasMore"):
             break
     return out

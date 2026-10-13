@@ -122,17 +122,48 @@ def plain(markup, n=400):
     return t if len(t) <= n else t[:n].rsplit(" ", 1)[0] + "…"
 
 
-def money(lo, hi, cur="USD", per="năm"):
-    """(60000, 90000) → '$60k–90k/năm'. API trả số hoặc chuỗi, thiếu thì None/0."""
-    k = lambda v: f"{round(v / 1000)}k" if v >= 1000 else f"{v:g}"
-    rng = "–".join(dict.fromkeys(k(float(v)) for v in (lo, hi) if v))
-    sym = {"USD": "$", "EUR": "€", "GBP": "£"}.get(cur or "USD", f"{cur} ")
-    return f"{sym}{rng}/{per}" if rng else ""
+_RATES = {}  # số đơn vị tiền mỗi 1 USD, lấy 1 lần mỗi lần chạy
+
+
+def rate(cur):
+    """Số VNĐ cho 1 đơn vị ngoại tệ, theo tỷ giá hiện tại (open.er-api.com: miễn phí, cập nhật hằng ngày)."""
+    if not _RATES:
+        _RATES.update(get_json("https://open.er-api.com/v6/latest/USD")["rates"])
+    return _RATES["VND"] / _RATES[cur]
+
+
+def vnd(s):
+    """Mọi kiểu ghi lương → triệu VNĐ/tháng:
+    '$ 1,500-2,500 /tháng' → '≈39–65 triệu' (≈ = quy đổi từ ngoại tệ), '14 - 15,5 Triệu VND' → '14–15,5 triệu',
+    '20tr-25tr ₫/tháng' → '20–25 triệu', 'Tới 35 triệu' → 'Đến 35 triệu', 'Thương lượng' / 'Cạnh tranh' → 'Thỏa thuận'."""
+    s = (s or "").strip()
+    if not s:
+        return ""
+    if not re.search(r"\d", s):
+        return "Thỏa thuận"
+    low = s.lower()
+    code = re.search(r"\b(?!VND)([A-Z]{3})\b", s.upper())  # "1000-2000 USD", "SGD 5,000"
+    cur = "USD" if "$" in s else "EUR" if "€" in s else code[1] if code and code[1] in ("USD", "EUR", "SGD", "JPY", "GBP", "AUD", "KRW") else "VND"
+    if cur == "VND" and re.search(r"triệu|\d\s*(?:tr|m)\b", low):  # số đã tính bằng triệu, dấu phẩy là thập phân
+        nums = [float(n.replace(",", ".")) for n in re.findall(r"\d+(?:[.,]\d+)?", s)]
+    else:  # "1,500" / "15.000.000" / "60k": dấu phẩy, chấm là phân cách hàng nghìn
+        nums = [float(re.sub(r"[.,](?=\d{3}\b)", "", n.rstrip("kK"))) * (1000 if n[-1] in "kK" else 1)
+                for n in re.findall(r"\d[\d.,]*[kK]?", s)]
+        nums = [n * rate(cur) / 1e6 for n in nums]
+    nums = list(dict.fromkeys(n for n in nums if n))
+    if nums and (re.search(r"năm|year|annual", low) or max(nums) > 500 and "tháng" not in low):  # lương năm ("$60K – $90K")
+        nums = [n / 12 for n in nums]
+    if not nums or max(nums) < 0.5 or max(nums) > 2000:  # dữ liệu nguồn sai (vd 1–2 USD) → bỏ
+        return ""
+    approx = "≈" if cur != "VND" or "≈" in s else ""
+    fmt = lambda n: (f"{n:.0f}" if approx else f"{round(n, 1):g}").replace(".", ",")  # quy đổi thì làm tròn, VNĐ gốc giữ số lẻ
+    prefix = "Đến " if re.match(r"(tới|đến|lên đến|up ?to)", low) else "Từ " if re.match(r"(từ|trên|from)", low) else ""
+    return f"{prefix}{approx}{'–'.join(fmt(n) for n in nums[:2])} triệu"
 
 
 def job(title, company, location, region, url, source, posted, logo="", salary="", tags=(), desc="", hint="", years=0):
     """hint: nhãn cấp bậc của nguồn ("Senior", "Trưởng phòng"...), years: số năm kinh nghiệm yêu cầu."""
-    extra = dict(logo=logo, salary=(salary or "").strip(), tags=list(tags)[:6], desc=desc, level=levels(title, hint, years))
+    extra = dict(logo=logo, salary=vnd(salary), tags=list(tags)[:6], desc=desc, level=levels(title, hint, years))
     return dict(title=title.strip(), company=(company or "").strip(), location=(location or "").strip(),
                 region=region, url=url, source=source, date=posted, **{k: v for k, v in extra.items() if v})
 
@@ -170,25 +201,24 @@ def careerviet():
 def linkedin():
     """API công khai của LinkedIn Jobs, không cần đăng nhập."""
     out = []
-    for location, region, extra in (("Vietnam", "VN", {}), ("Worldwide", "Remote", {"f_WT": 2})):
-        for start in (0, 25, 50, 75):
-            q = urllib.parse.urlencode({"keywords": "data", "location": location, "sortBy": "DD", "start": start, **extra})
-            try:
-                cards = soup(f"https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?{q}").select("div.base-search-card")
-            except urllib.error.HTTPError as e:
-                if e.code != 429 or not out:
-                    raise
-                break  # bị giới hạn tốc độ giữa chừng → giữ các trang đã lấy được
-            for c in cards:
-                job_id = c.get("data-entity-urn", "").rsplit(":", 1)[-1]
-                t = c.select_one("time")
-                img = c.select_one("img[data-delayed-url]")
-                out.append(job(text(c, "h3"), text(c, "h4"), text(c, ".job-search-card__location"), region,
-                               f"https://www.linkedin.com/jobs/view/{job_id}", "LinkedIn", t["datetime"] if t else TODAY,
-                               logo=img["data-delayed-url"] if img else "", salary=text(c, ".job-search-card__salary-info")))
-            if not cards:
-                break
-            time.sleep(5)  # tránh bị LinkedIn chặn (429)
+    for start in (0, 25, 50, 75):
+        q = urllib.parse.urlencode({"keywords": "data", "location": "Vietnam", "sortBy": "DD", "start": start})
+        try:
+            cards = soup(f"https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?{q}").select("div.base-search-card")
+        except urllib.error.HTTPError as e:
+            if e.code != 429 or not out:
+                raise
+            break  # bị giới hạn tốc độ giữa chừng → giữ các trang đã lấy được
+        for c in cards:
+            job_id = c.get("data-entity-urn", "").rsplit(":", 1)[-1]
+            t = c.select_one("time")
+            img = c.select_one("img[data-delayed-url]")
+            out.append(job(text(c, "h3"), text(c, "h4"), text(c, ".job-search-card__location"), "VN",
+                           f"https://www.linkedin.com/jobs/view/{job_id}", "LinkedIn", t["datetime"] if t else TODAY,
+                           logo=img["data-delayed-url"] if img else "", salary=text(c, ".job-search-card__salary-info")))
+        if not cards:
+            break
+        time.sleep(5)  # tránh bị LinkedIn chặn (429)
     return out
 
 
@@ -223,44 +253,6 @@ def ybox():
             out.append(job(title, company, loc, "VN", f"https://ybox.vn/tuyen-dung/{slugify(p['title'])}-{p['_id']}", "Ybox", day(p["publishedAt"]),
                            logo=(p.get("photo") or "").replace("http://", "https://"), desc=plain(p.get("summary"))))
     return out
-
-
-# ---------- Remote quốc tế ----------
-
-def remoteok():
-    return [job(j["position"], j["company"], j.get("location") or "Remote", "Remote", j["url"], "RemoteOK", day(j["date"]),
-                logo=j.get("logo") or j.get("company_logo") or "", salary=money(j.get("salary_min"), j.get("salary_max")),
-                desc=plain(j.get("description")))
-            for j in get_json("https://remoteok.com/api")[1:]]  # phần tử đầu là thông báo pháp lý
-
-
-def remotive():
-    # Remotive yêu cầu tối đa 4 lần gọi/ngày → khớp lịch 6 tiếng/lần
-    return [job(j["title"], j["company_name"], j["candidate_required_location"], "Remote", j["url"], "Remotive", day(j["publication_date"]),
-                logo=j.get("company_logo") or "", salary=j.get("salary"), tags=j.get("tags") or [], desc=plain(j.get("description")))
-            for j in get_json("https://remotive.com/api/remote-jobs?category=data")["jobs"]]
-
-
-def arbeitnow():
-    return [job(j["title"], j["company_name"], j["location"], "Remote", j["url"], "Arbeitnow", day(j["created_at"]),
-                desc=plain(j.get("description")))
-            for j in get_json("https://www.arbeitnow.com/api/job-board-api")["data"] if j["remote"]]
-
-
-def himalayas():
-    per = {"monthly": "tháng", "month": "tháng", "hourly": "giờ", "hour": "giờ"}
-    return [job(j["title"], j["companyName"], ", ".join(j.get("locationRestrictions") or []) or "Worldwide", "Remote",
-                j["guid"], "Himalayas", day(j["pubDate"]), logo=j.get("companyLogo") or "",
-                salary=money(j.get("minSalary"), j.get("maxSalary"), j.get("currency"), per.get(j.get("salaryPeriod"), "năm")),
-                desc=plain(j.get("description")), hint=" ".join(j.get("seniority") or []))
-            for j in get_json("https://himalayas.app/jobs/api/search?q=data")["jobs"]]
-
-
-def jobicy():
-    return [job(j["jobTitle"], j["companyName"], j.get("jobGeo", ""), "Remote", j["url"], "Jobicy", day(j["pubDate"]),
-                logo=j.get("companyLogo") or "", salary=money(j.get("annualSalaryMin"), j.get("annualSalaryMax"), j.get("salaryCurrency")),
-                desc=plain(j.get("jobDescription")), hint=j.get("jobLevel"))
-            for j in get_json("https://jobicy.com/api/v2/remote-jobs?count=100&tag=data")["jobs"]]
 
 
 # ---------- Trang tuyển dụng của công ty ----------
@@ -419,7 +411,7 @@ def be():
     return out
 
 
-SOURCES = [vietnamworks, careerviet, linkedin, ybox, remoteok, remotive, arbeitnow, himalayas, jobicy, companies, vng, momo, be]
+SOURCES = [vietnamworks, careerviet, linkedin, ybox, companies, vng, momo, be]
 
 
 def merge(old, new, today=TODAY):
@@ -460,7 +452,9 @@ def run(sources, path):
         except Exception as e:
             print(f"{src.__name__}: LỖI {e!r}")
             broken.append(src.__name__)
-    old = [j for j in load(path) if is_data_job(j["title"])]  # sửa bộ lọc thì job cũ cũng được lọc lại
+    # sửa bộ lọc / cách ghi lương thì job cũ cũng được lọc, quy đổi lại; chỉ giữ việc làm ở Việt Nam
+    old = [{**j, "salary": vnd(j.get("salary"))} for j in load(path) if is_data_job(j["title"]) and j.get("region") == "VN"]
+    old = [{k: v for k, v in j.items() if v != ""} for j in old]  # lương rỗng thì bỏ trường, như job()
     jobs = merge(old, new)
     save(path, jobs)
     print(f"Tổng: {len(jobs)} job")

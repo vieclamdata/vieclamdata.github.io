@@ -1,6 +1,6 @@
 # Việc làm Data
 
-Website tổng hợp việc làm ngành data (Việt Nam + remote quốc tế). Chạy hoàn toàn miễn phí trên GitHub:
+Website tổng hợp việc làm ngành data tại Việt Nam. Lương được quy đổi hết sang triệu VNĐ/tháng (ngoại tệ theo tỷ giá hiện tại, có dấu ≈). Chạy hoàn toàn miễn phí trên GitHub:
 
 - **GitHub Actions** chạy `scrape.py` 6 tiếng/lần → cập nhật `jobs.json`
 - **Máy của bạn** chạy `local.py` 6 tiếng/lần (Task Scheduler) → cập nhật `local.json`, cho các trang chặn máy chủ GitHub hoặc cần trình duyệt thật
@@ -8,7 +8,7 @@ Website tổng hợp việc làm ngành data (Việt Nam + remote quốc tế). 
 
 | File | Việc |
 |---|---|
-| `scrape.py` | Lấy job từ VietnamWorks, CareerViet, LinkedIn Jobs, Ybox, RemoteOK, Remotive, Arbeitnow, Himalayas, Jobicy và trang tuyển dụng của các công ty (VNG, MoMo, VPBank, SHB, Grab, Bosch…) |
+| `scrape.py` | Lấy job từ VietnamWorks, CareerViet, LinkedIn Jobs, Ybox và trang tuyển dụng của các công ty (VNG, MoMo, VPBank, SHB, Grab, Bosch…) |
 | `local.py` | Lấy job từ ITviec, TopCV, TopDev, CareerLink, JobsGo, Vieclam24h, Glints và trang công ty VNPT, NashTech |
 | `index.html` | Trang web: lưới thẻ việc làm, rê chuột (hoặc chạm trên điện thoại) để xem nhanh, tìm kiếm (gõ không dấu cũng được), lọc khu vực, kinh nghiệm, nguồn |
 
