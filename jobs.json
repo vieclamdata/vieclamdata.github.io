@@ -1,6 +1,73 @@
 {
- "updated": "2026-10-13T22:36+00:00",
+ "updated": "2026-10-14T04:42+00:00",
  "jobs": [
+  {
+   "title": "Chuyên Viên Phân Tích Dữ Liệu",
+   "company": "Công Ty Cổ Phần Tập Đoàn Hòa Phát",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/chuyen-vien-phan-tich-du-lieu-1791945964659931389-2119152-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-14",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/db/11404971.png",
+   "salary": "Thỏa thuận",
+   "tags": [
+    "Phân Tích Dữ Liệu",
+    "Phân Tích Nghiệp Vụ",
+    "Báo Cáo Quản Trị",
+    "Đối Chiếu Số Liệu",
+    "Excel"
+   ],
+   "desc": "• Phối hợp với lãnh đạo, các đơn vị nghiệp vụ và đội ngũ kỹ thuật để làm rõ nhu cầu quản trị, chuyển đổi thành yêu cầu dữ liệu, chỉ tiêu và báo cáo phục vụ điều hành. • Thu thập, kết nối, tổng hợp, làm sạch và chuẩn hóa dữ liệu từ nhiều...",
+   "level": [
+    "mid"
+   ]
+  },
+  {
+   "title": "Nhân Viên Kế Toán Quản Lý Dữ Liệu / Master Data Staff",
+   "company": "Công ty Cổ Phần Dược Liệu Trung Ương 2 - Phytopharma",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/nhan-vien-ke-toan-quan-ly-du-lieu-master-data-staff-1791945250207266120-2119151-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-14",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/97/11042333.png",
+   "salary": "Thỏa thuận",
+   "tags": [
+    "Xử Lý Data",
+    "Sử Dụng Excel",
+    "System Testing",
+    "Xử Lý Dữ Liệu",
+    "Kỹ Năng Phối Hợp"
+   ],
+   "desc": "Đảm bảo dữ liệu nền tảng của doanh nghiệp chính xác, đầy đủ và nhất quán trên các hệ thống, hỗ trợ hoạt động vận hành, báo cáo và phân tích của các phòng ban. 1. Quản lý giá bán & dữ liệu thầu bệnh viện trên ERP Thiết lập và cập nhật các điều kiện...",
+   "level": [
+    "mid"
+   ]
+  },
+  {
+   "title": "Data BA Collaborator",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-Data-BA-Collaborator/1368806966/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-14",
+   "desc": "Yêu cầu công việc Chịu trách nhiệm thực hiện: - Tổng hợp rà soát, bổ sung, làm sạch các tài liệu phát triển của BA trên hệ thống báo cáo tuân thủ, hệ thống data engine cung cấp dữ liệu đầu vào cho các IT Application, được phát triển trải qua nhiều giai đoạn khác nhau, đảm bảo chất lượng tài liệu trước khi số hóa. - Phân tích yêu cầu nghiệp vụ về nhu…"
+  },
+  {
+   "title": "Business Intelligence Expert (RBD) - HN - TA174",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-Business-Intelligence-Expert-%28RBD%29-HN-TA174/1368813766/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-14",
+   "desc": "MỤC ĐÍCH CỦA CHỨC DANH/ JOB PURPOSE Là chuyên gia và chịu trách nhiệm chính, tham mưu cho Trưởng phòng trong việc lập kế hoạch, triển khai và giám sát việc thực hiện các công tác quản lý cơ sở dữ liệu, cung cấp báo cáo định kỳ, phân tích và báo cáo của lĩnh vực mình phụ trách. Mục đích: phục vụ một cách chủ động và tích cực cho việc ra quyết định của các cấp quản lý, lãnh đạo của Khối phụ trách;…",
+   "level": [
+    "senior"
+   ]
+  },
   {
    "title": "Data Analyst (Tài Chính)",
    "company": "Công ty Cổ phần Vàng bạc đá quý Bảo Tín Mạnh Hải",
@@ -167,6 +234,21 @@
    "logo": "https://media.licdn.com/dms/image/v2/D560BAQHrNYJvEo9m8Q/company-logo_100_100/B56ZqfZ3piJUAU-/0/1763610950830/urboxvn_logo?e=2147483647&v=beta&t=cHFO9Yu2MuvF4-pjArZEAA2Cah8ob80JQDYDjLuzeO0",
    "level": [
     "lead"
+   ]
+  },
+  {
+   "title": "Tuyển Dụng Game Data Analyst (Fresher/Junior)",
+   "company": "Công Ty VORTECH",
+   "location": "Kazakhstan",
+   "region": "VN",
+   "url": "https://ybox.vn/tuyen-dung/kazakhstan-cong-ty-vortech-tuyen-dung-tuyen-dung-game-data-analyst-fresher-junior-full-time-2026-6ace09ff758ea30cf293f5a5",
+   "source": "Ybox",
+   "date": "2026-10-13",
+   "logo": "https://static.ybox.vn/2026/10/2/1791887779655-screenshot20261013at173606.png",
+   "desc": "About Us:Vortech is a leading global provider of platforms, content, and services for the entertainment industry, committed to innovation, compliance, and sustainability. Establish",
+   "level": [
+    "intern",
+    "junior"
    ]
   },
   {
@@ -564,7 +646,7 @@
    "date": "2026-10-12"
   },
   {
-   "title": "Expert System Engineer - Data Infrastructure",
+   "title": "Expert Data Engineer - Data Infrastructure",
    "company": "MoMo",
    "location": "Hồ Chí Minh",
    "region": "VN",
