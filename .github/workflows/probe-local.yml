@@ -1,0 +1,28 @@
+name: probe-local
+
+# Tạm thời: thử các nguồn của local.py trên máy chủ GitHub, chỉ in kết quả, không ghi file, không commit.
+# Nguồn nào chạy được thì chuyển sang scrape.py; xong thì xóa file này.
+on: workflow_dispatch
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: |
+          python - <<'EOF'
+          import local, scrape
+          for src in local.LOCAL_SOURCES:
+              try:
+                  raw = src()
+                  print(f"{src.__name__}: OK {sum(scrape.is_data_job(j['title']) for j in raw)}/{len(raw)}")
+              except Exception as e:
+                  print(f"{src.__name__}: LỖI {e!r}")
+          EOF
