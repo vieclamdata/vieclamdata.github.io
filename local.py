@@ -1,10 +1,11 @@
 """Nguồn phải cào bằng máy của bạn → local.json, rồi tự commit + push lên GitHub.
 
-Vì sao không chạy trên GitHub Actions: các trang này chặn máy chủ GitHub (ITviec), chỉ cho trình duyệt thật có cửa sổ vào
-(TopCV, JobsGo, NashTech), hoặc chỉ hiện tin sau khi chạy JavaScript (VNPT). Máy bạn có IP Việt Nam và Edge thật.
+Vì sao không chạy trên GitHub Actions: các trang này chặn hoặc có thể chặn IP máy chủ nước ngoài (ITviec chặn máy chủ GitHub).
+Máy bạn có IP Việt Nam. Không cần trình duyệt: get() của scrape.py dùng Scrapling giả lập Chrome nên qua được Cloudflare
+của TopCV, JobsGo; VNPT trả sẵn danh sách trong HTML; NashTech có API.
 Bot GitHub ghi jobs.json, script này ghi local.json → hai bên không bao giờ sửa chung một file, không bị xung đột khi push.
 
-Cài một lần:  pip install beautifulsoup4 playwright   (dùng Microsoft Edge có sẵn, không tải thêm trình duyệt)
+Cài một lần:  pip install -r requirements.txt
 Chạy thử:     python local.py --no-push
 Task Scheduler gọi `python local.py` 6 tiếng/lần (xem README).
 """
@@ -13,25 +14,14 @@ import re
 import subprocess
 import sys
 import urllib.parse
-from datetime import date, timedelta
 from pathlib import Path
 
 from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright
 
-from scrape import COMPANY_SOURCE, TODAY, day, get, get_json, job, next_data, run, slugify, soup, text
+from scrape import COMPANY_SOURCE, TODAY, ago, day, get, get_json, job, next_data, run, slugify, soup, text
 
 HERE = Path(__file__).parent
 PAGES = 3  # số trang đọc ở mỗi trang tuyển dụng (tin mới nằm ở đầu)
-
-
-def ago(s):
-    """'Posted 3 days ago' / 'Đăng 2 tuần trước' / '9 giờ trước' → ngày đăng."""
-    m = re.search(r"(\d+)\s*(minute|hour|day|week|month|phút|giờ|ngày|tuần|tháng)", s)
-    if not m:
-        return TODAY
-    unit = {"minute": 0, "phút": 0, "hour": 0, "giờ": 0, "day": 1, "ngày": 1, "week": 7, "tuần": 7, "month": 30, "tháng": 30}
-    return (date.today() - timedelta(days=int(m[1]) * unit[m[2]])).isoformat()
 
 
 def amount(lo, hi, cur="VND"):
@@ -39,7 +29,7 @@ def amount(lo, hi, cur="VND"):
     return f"{lo}-{hi} {cur}" if lo and hi else f"Đến {hi} {cur}" if hi else f"Từ {lo} {cur}" if lo else ""
 
 
-# ---------- đọc bằng request thường (cần IP Việt Nam) ----------
+# ---------- cần IP Việt Nam ----------
 
 def itviec():
     out = []
@@ -121,34 +111,10 @@ def glints():
     return out
 
 
-# ---------- cần trình duyệt thật ----------
-# Một cửa sổ Edge dùng chung, đặt ngoài màn hình. Chạy ẩn (headless) thì Cloudflare của TopCV/JobsGo/NashTech chặn.
-_pw = _edge = None
-
-
-def edge():
-    global _pw, _edge
-    if _edge is None:
-        _pw = sync_playwright().start()
-        _edge = _pw.chromium.launch(channel="msedge", headless=False, args=["--window-position=-2400,0"])
-    return _edge
-
-
-def rendered(url, wait=6000):
-    """HTML sau khi trang chạy xong JavaScript."""
-    page = edge().new_page(locale="vi-VN")
-    try:
-        page.goto(url, wait_until="domcontentloaded", timeout=60000)
-        page.wait_for_timeout(wait)
-        return BeautifulSoup(page.content(), "html.parser")
-    finally:
-        page.close()
-
-
 def topcv():
     out = []
     for page in range(1, PAGES + 1):
-        for c in rendered(f"https://www.topcv.vn/tim-viec-lam-data?page={page}").select(".job-item-search-result"):
+        for c in soup(f"https://www.topcv.vn/tim-viec-lam-data?page={page}").select(".job-item-search-result"):
             a = c.select_one("h3.title a")
             img = c.select_one(".avatar img")
             exp = re.search(r"(\d+) năm", text(c, ".item-tag"))  # "3 năm kinh nghiệm"
@@ -161,7 +127,7 @@ def topcv():
 def jobsgo():
     out = []
     for page in range(1, PAGES + 1):
-        for c in rendered(f"https://jobsgo.vn/viec-lam.html?q=data&page={page}").select(".job-card"):
+        for c in soup(f"https://jobsgo.vn/viec-lam.html?q=data&page={page}").select(".job-card"):
             a = c.select_one("h3.job-title a")
             info = [s.get_text(strip=True) for s in c.select(".text-primary span") if s.get_text(strip=True) not in ("", "|")]  # [lương, nơi làm]
             img = c.select_one("img")
@@ -174,7 +140,7 @@ def vnpt():
     out, seen = [], set()
     for page in range(1, 15):
         added = 0
-        for c in rendered("https://tuyendung.vnpt.vn/viec-lam/tat-ca-viec-lam" + (f"/p{page}" if page > 1 else "") + ".html", 4000).select(".result-item"):
+        for c in soup("https://tuyendung.vnpt.vn/viec-lam/tat-ca-viec-lam" + (f"/p{page}" if page > 1 else "") + ".html").select(".result-item"):
             a = c.select_one("a[title]")
             if a["href"] in seen:
                 continue
@@ -187,16 +153,9 @@ def vnpt():
 
 
 def nashtech():
-    """Trang tự gọi API wp-json/ntc/job/get/v2 khi mở; bắt luôn JSON đó. Tin ở nhiều nước → chỉ giữ Việt Nam."""
-    page = edge().new_page()
-    try:
-        with page.expect_response(lambda r: "ntc/job/get" in r.url, timeout=60000) as resp:
-            page.goto("https://careers.nashtechglobal.com/jobs-finder/", wait_until="domcontentloaded", timeout=60000)
-        data = resp.value.json()
-    finally:
-        page.close()
+    """API mà trang jobs-finder tự gọi (POST, không cần tham số). Tin ở nhiều nước → chỉ giữ Việt Nam."""
     out = []
-    for j in data:
+    for j in get_json("https://careers.nashtechglobal.com/wp-json/ntc/job/get/v2", {}):
         tax = lambda kind: [t["name"] for t in j.get("taxonomy") or [] if t["taxonomy"] == kind]
         loc = ", ".join(tax("location"))
         if "vietnam" in loc.lower():
@@ -216,12 +175,7 @@ def main():
     push = "--no-push" not in sys.argv
     if push:
         git("pull", "--rebase", "--autostash")  # lấy bản mới (bot vừa commit jobs.json) trước khi ghi
-    try:
-        broken = run(LOCAL_SOURCES, str(HERE / "local.json"))
-    finally:
-        if _edge:
-            _edge.close()
-            _pw.stop()
+    broken = run(LOCAL_SOURCES, str(HERE / "local.json"))
     if push:
         git("add", "local.json")
         if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=HERE).returncode:  # có thay đổi mới commit

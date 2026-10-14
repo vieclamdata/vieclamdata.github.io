@@ -4,20 +4,21 @@ Chạy: python scrape.py   (GitHub Actions tự chạy 6 tiếng/lần)
 """
 import html
 import json
+import logging
 import re
 import sys
 import time
 import unicodedata
 import urllib.error
 import urllib.parse
-import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 from bs4 import BeautifulSoup
+from scrapling.fetchers import Fetcher
 
-UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+logging.getLogger("scrapling").setLevel(logging.WARNING)  # bỏ dòng log mỗi request
 TODAY = date.today().isoformat()
 KEEP_DAYS = 30
 
@@ -29,7 +30,7 @@ DATA_RE = re.compile(
 )
 # luôn loại: "data" mang nghĩa khác (danh sách khách hàng của sales, trung tâm dữ liệu, tính từ), nhập/gán nhãn dữ liệu, DBA
 NOT_DATA_RE = re.compile(
-    r"data entry|nhập (?:dữ )?liệu|data (?:\w+ ){0,2}(?:có )?sẵn|data nóng|spam data|data cent(?:er|re)|data[- ]driven|annotat|gán nhãn"
+    r"data entry|nhập (?:dữ )?liệu|data (?:\w+ ){0,2}(?:có )?sẵn|data nóng|spam data|data cent(?:er|re)|hạ tầng trung tâm dữ liệu|data[- ]driven|annotat|gán nhãn"
     # sales VN: "data" = danh sách khách hàng được giao ("Hỗ trợ Data", "Sẵn 100% Data", "Data công ty cấp", "Nhắc phí theo Data")
     r"|(?:hỗ trợ|có sẵn|sẵn|có|cung cấp|theo|gọi|tìm) (?:100% )?data\b|data (?:được |công ty )*(?:cung )?cấp|data topup"
     r"|telesales|telemarketing|quản trị cơ sở dữ liệu|\bDBA\b|database administrat|sql server administrat",
@@ -81,15 +82,13 @@ def levels(title, hint="", years=0):
 
 
 def get(url, body=None):
-    # header giống trình duyệt thật, để trang không coi là bot
-    headers = {"User-Agent": UA, "Accept": "text/html,application/xhtml+xml,application/json;q=0.9,*/*;q=0.8",
-               "Accept-Language": "vi-VN,vi;q=0.9,en;q=0.8"}
-    if body is not None:
-        body = json.dumps(body).encode()
-        headers["Content-Type"] = "application/json"
-    req = urllib.request.Request(url, data=body, headers=headers)
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode("utf-8")
+    """Scrapling giả lập Chrome tới cả dấu vân tay TLS (không chỉ header) → Cloudflare của TopCV, JobsGo... không coi là bot.
+    body: dict → gửi POST JSON."""
+    headers = {"Accept-Language": "vi-VN,vi;q=0.9,en;q=0.8"}
+    r = Fetcher.get(url, headers=headers) if body is None else Fetcher.post(url, json=body, headers=headers)
+    if r.status >= 400:
+        raise urllib.error.HTTPError(url, r.status, r.reason, None, None)
+    return r.body.decode("utf-8")
 
 
 def get_json(url, body=None):
@@ -114,6 +113,17 @@ def day(v):
     if re.match(r"[A-Z][a-z]{2} [A-Z][a-z]{2} \d", str(v)):
         return datetime.strptime(str(v)[4:15], "%b %d %Y").date().isoformat()
     return str(v)[:10]
+
+
+def ago(s):
+    """'Posted 3 Days Ago' / 'Đăng 2 tuần trước' / '9 giờ trước' / 'Posted Yesterday' → ngày đăng."""
+    if re.search(r"yesterday|hôm qua", s, re.I):
+        return (date.today() - timedelta(days=1)).isoformat()
+    m = re.search(r"(\d+)\+?\s*(minute|hour|day|week|month|phút|giờ|ngày|tuần|tháng)", s, re.I)
+    if not m:
+        return TODAY
+    unit = {"minute": 0, "phút": 0, "hour": 0, "giờ": 0, "day": 1, "ngày": 1, "week": 7, "tuần": 7, "month": 30, "tháng": 30}
+    return (date.today() - timedelta(days=int(m[1]) * unit[m[2].lower()])).isoformat()
 
 
 def plain(markup, n=400):
@@ -259,7 +269,8 @@ def ybox():
 # Nhiều công ty dùng hệ thống tuyển dụng (ATS) có API công khai → mỗi hàm dưới đây đọc được mọi công ty dùng hệ thống đó.
 # Chỉ lấy tin ở Việt Nam. Danh sách công ty: COMPANIES ở cuối phần này.
 COMPANY_SOURCE = "Trang công ty"
-VN_RE = re.compile(r"viet ?nam|ha ?noi|hà nội|ho chi minh|hồ chí minh|hcmc|sai ?gon|da ?nang|đà nẵng", re.I)
+VN_RE = re.compile(r"viet ?nam|việt nam|ha ?noi|hà nội|ho chi minh|hồ chí minh|\bhcm|sai ?gon|da ?nang|đà nẵng|binh duong|bình dương"
+                   r"|hai phong|hải phòng|bac ninh|bắc ninh|can tho|cần thơ", re.I)
 
 
 def greenhouse(slug, name):
@@ -301,16 +312,79 @@ def smartrecruiters(slug, name):
     return out
 
 
-def successfactors(base, name, keywords=("data", "dữ liệu", "Business Intelligence", "AI", "machine learning")):
-    """SAP SuccessFactors (VPBank...) có RSS. Tiêu đề dạng 'Tên vị trí (Hà Nội, VN)'.
+def workday(board, name):
+    """Workday (NVIDIA, Intel, Unilever...): board = '<mã>.wd<N>/<trang>' trong link <mã>.wd<N>.myworkdayjobs.com/<trang>.
+    Bộ lọc quốc gia mỗi công ty đặt một kiểu → tìm chữ "Vietnam", rồi đọc chi tiết các tin ngành data để biết chắc quốc gia,
+    ngày đăng và mô tả (danh sách chỉ ghi "2 Locations", "Posted 30+ Days Ago")."""
+    host, site = board.split("/")
+    api = f"https://{host}.myworkdayjobs.com/wday/cxs/{host.split('.')[0]}/{site}"
+    out, total = [], 0
+    for offset in range(0, 500, 20):  # tối đa 20 tin/lần
+        d = get_json(f"{api}/jobs", {"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": "Vietnam"})
+        total = total or d["total"]  # từ trang 2 Workday trả total = 0
+        for j in d["jobPostings"]:
+            if not is_data_job(j.get("title", "")):  # có tin ẩn chỉ còn mã tin, không có tên
+                continue
+            info = get_json(api + j["externalPath"])["jobPostingInfo"]
+            locs = [info.get("location", "")] + info.get("additionalLocations", [])
+            if VN_RE.search((info.get("country") or {}).get("descriptor", "")) or any(VN_RE.search(l) for l in locs):
+                out.append(job(info["title"], name, " / ".join(l for l in locs if VN_RE.search(l)) or locs[0], "VN", info["externalUrl"],
+                               COMPANY_SOURCE, info.get("startDate") or ago(j.get("postedOn", "")), desc=plain(info.get("jobDescription"))))
+        if offset + 20 >= total:
+            break
+    return out
+
+
+def successfactors(base, name, keywords=("data", "dữ liệu", "analytics", "Business Intelligence", "AI", "machine learning")):
+    """SAP SuccessFactors (VPBank, Techcombank, Vietcombank, Sacombank...) có RSS. Tiêu đề dạng 'Tên vị trí (Hà Nội, VN)'.
     ponytail: RSS trả tối đa 20 tin mới nhất mỗi từ khóa; công ty tuyển >20 vị trí data cùng lúc thì thêm từ khóa hẹp hơn."""
     out = []
     for kw in keywords:
         for it in ET.fromstring(get(f"{base}/services/rss/job/?locale=vi_VN&keywords=({urllib.parse.quote(kw)})")).iter("item"):
             m = re.match(r"(.*?)\s*\(([^()]*), VN\)\s*$", it.findtext("title"))
             title, loc = (m[1], m[2]) if m else (it.findtext("title"), "")
+            pub = it.findtext("pubDate")  # có tin không ghi ngày đăng → ngày thấy lần đầu
             out.append(job(title, name, loc, "VN", it.findtext("link"), COMPANY_SOURCE,
-                           parsedate_to_datetime(it.findtext("pubDate")).date().isoformat(), desc=plain(it.findtext("description"))))
+                           parsedate_to_datetime(pub).date().isoformat() if pub else TODAY, desc=plain(it.findtext("description"))))
+    return out
+
+
+def ainavi(domain, name):
+    """Ainavi (TPBank, OCB, LPBank, Nam A Bank, NCB, VietABank...): trang tuyển dụng có ảnh từ centralize-api.ainavi.com.vn,
+    link tin dạng <domain>/vi/jobs/<mã>. API chung của nền tảng, lọc theo tên miền trang tuyển dụng."""
+    out = []
+    for page in range(1, 20):
+        d = get_json(f"https://centralize-api.ainavi.com.vn/api/recruitment/Recruitment/GetRecruitmentsByDomain"
+                     f"?pageIndex={page}&pageSize=50&Domain={domain}")  # tối đa 50 tin/trang
+        for j in d["items"]:
+            posted = (j.get("recruitmentPublish") or {}).get("statTime") or j["createdTime"]  # giờ UTC, 17:00Z = 0h hôm sau ở VN
+            lo, hi = j.get("minSalary"), j.get("maxSalary")
+            places = [a.get("provinceName") for a in (j.get("workingNewAddresses") or []) + (j.get("workingAddresses") or [])]
+            out.append(job(j["name"], name, ", ".join(dict.fromkeys(p for p in places if p)), "VN", f"https://{domain}/vi/jobs/{j['slug']}", COMPANY_SOURCE,
+                           (datetime.fromisoformat(posted.replace("Z", "+00:00")) + timedelta(hours=7)).date().isoformat(),
+                           salary=f"{lo or ''}-{hi or ''} VND".strip("-") if lo or hi else ""))
+        if page >= d["totalPage"]:
+            break
+    return out
+
+
+def base(url, name):
+    """Base E-hiring (VIB, ACB, ABBank...): danh sách tin nhúng sẵn trong trang, ở biến JavaScript Client.pageData.
+    url = trang danh sách tất cả việc làm; phân trang ?page=N (trang không phân trang thì trả lại cùng danh sách → dừng)."""
+    out, seen = [], set()
+    for page in range(1, 60):
+        h = get(f"{url}?page={page}")
+        blobs = (json.JSONDecoder().raw_decode(h, m.end() - 1)[0] for m in re.finditer(r"Client\.pageData=\{", h))
+        new = [o for o in next((b["openings"] for b in blobs if b.get("openings")), []) if o["id"] not in seen]
+        if not new:
+            break
+        for o in new:
+            seen.add(o["id"])
+            # ACB: "Hội sở (Tp. HCM)<span…>;</span> Experience" → nơi làm lẫn với nhóm tin → chỉ giữ phần là địa danh
+            parts = [p.strip() for p in re.sub(r"<[^>]+>", "", o.get("multi_locations") or o.get("location") or "").split(";")]
+            loc = ", ".join(p for p in parts if VN_RE.search(p)) or parts[0]
+            out.append(job(o["name"], name, loc, "VN", o.get("url") or o["link"],
+                           COMPANY_SOURCE, day(o.get("since")), desc=plain(o.get("content"))))
     return out
 
 
@@ -338,12 +412,29 @@ def talentnetwork(base, name):
 # Thêm công ty = thêm một dòng (hệ thống, mã công ty hoặc địa chỉ trang tuyển dụng, tên hiển thị).
 # Mã công ty nằm trong link ứng tuyển trên trang tuyển dụng của họ:
 #   job-boards.greenhouse.io/<mã>   jobs.lever.co/<mã>   jobs.ashbyhq.com/<mã>   jobs.smartrecruiters.com/<mã>
-# Trang SuccessFactors có <địa chỉ>/services/rss/job/; trang TalentNetwork có ảnh từ image.talentnetwork.vn.
+#   <mã>.wd<N>.myworkdayjobs.com/<trang> → "<mã>.wd<N>/<trang>" (bỏ phần en-US/ nếu có)
+# Trang SuccessFactors có <địa chỉ>/services/rss/job/; trang TalentNetwork có ảnh từ image.talentnetwork.vn;
+# trang Ainavi có ảnh từ centralize-api.ainavi.com.vn; trang Base E-hiring có "Client.pageData=" trong mã nguồn.
 COMPANIES = [
+    # ngân hàng, chứng khoán
     (successfactors, "https://tuyendung.vpbank.com.vn", "VPBank"),
+    (successfactors, "https://www.techcombankjobs.com", "Techcombank"),
+    (successfactors, "https://tuyendung.vietcombank.com.vn", "Vietcombank"),
+    (successfactors, "https://sacombankcareer.com", "Sacombank"),
+    (base, "https://careers.vib.com.vn/careers", "VIB"),
+    (base, "https://www.acbjobs.com.vn/alljobs", "ACB"),
+    (base, "https://careers.abbank.vn/jobs", "ABBANK"),
+    (ainavi, "tuyendung.tpb.vn", "TPBank"),
+    (ainavi, "tuyendung.ocb.com.vn", "OCB"),
+    (ainavi, "tuyendung.lpbank.com.vn", "LPBank"),
+    (ainavi, "tuyendung.namabank.com.vn", "Nam A Bank"),
+    (ainavi, "tuyendung.ncb-bank.vn", "NCB"),
+    (ainavi, "tuyendung.vietabank.com.vn", "VietABank"),
     (talentnetwork, "https://tuyendung.shb.com.vn", "SHB"),
     (talentnetwork, "https://tuyendung.pvcombank.com.vn", "PVcomBank"),
     (talentnetwork, "https://tuyendung.pgbank.com.vn", "PGBank"),
+    (talentnetwork, "https://vndirectcareers.com", "VNDIRECT"),
+    # công ty khác
     (smartrecruiters, "Grab", "Grab"),
     (smartrecruiters, "BoschGroup", "Bosch Vietnam"),
     (smartrecruiters, "Gameloft", "Gameloft"),
@@ -354,6 +445,18 @@ COMPANIES = [
     (lever, "ninjavan", "Ninja Van"),
     (ashby, "skymavis", "Sky Mavis"),
     (ashby, "airwallex", "Airwallex"),
+    (workday, "nvidia.wd5/NVIDIAExternalCareerSite", "NVIDIA"),
+    (workday, "intel.wd1/External", "Intel"),
+    (workday, "marvell.wd1/MarvellCareers", "Marvell"),
+    (workday, "mastercard.wd1/CorporateCareers", "Mastercard"),
+    (workday, "nab.wd3/nab_careers", "NAB Innovation Centre Vietnam"),
+    (workday, "manulife.wd3/MFCJH_Jobs", "Manulife"),
+    (workday, "aia.wd3/External", "AIA Vietnam"),
+    (workday, "prudential.wd3/prudential", "Prudential Vietnam"),
+    (workday, "pwc.wd3/Global_Experienced_Careers", "PwC"),
+    (workday, "unilever.wd3/Unilever_Experienced_Professionals", "Unilever"),
+    (workday, "pg.wd5/1000", "P&G"),
+    (workday, "abbott.wd5/abbottcareers", "Abbott"),
 ]
 
 
@@ -411,7 +514,80 @@ def be():
     return out
 
 
-SOURCES = [vietnamworks, careerviet, linkedin, ybox, companies, vng, momo, be]
+# ngân hàng, chứng khoán, ví điện tử
+
+def dmy(s):
+    """Ngày dạng '06/10/2026' đầu tiên trong chuỗi → '2026-10-06'; không có thì ngày thấy lần đầu."""
+    m = re.search(r"(\d{1,2})/(\d{1,2})/(\d{4})", s)
+    return f"{m[3]}-{int(m[2]):02}-{int(m[1]):02}" if m else TODAY
+
+
+def paged(url, card, link, max_pages=30):
+    """Đọc url.format(trang) cho tới khi trang không còn tin mới (trang vượt quá có thể trả lại trang cuối) → (thẻ tin, link, địa chỉ)."""
+    seen = set()
+    for page in range(1, max_pages + 1):
+        added = 0
+        for c in soup(url.format(page)).select(card):
+            a = c.select_one(link)
+            if a and (href := urllib.parse.urljoin(url, a["href"])) not in seen:
+                seen.add(href)
+                added += 1
+                yield c, a, href
+        if not added:
+            break
+
+
+def seabank():
+    """Danh sách chỉ có tên vị trí."""
+    return [job(a.get_text(strip=True), "SeABank", "", "VN", url, COMPANY_SOURCE, TODAY)
+            for c, a, url in paged("https://tuyendung.seabank.com.vn/jobs?page={}", "div[title]", "a")]
+
+
+def vietinbank():
+    """Nhiều tin tuyển cho chi nhánh: địa chỉ thường để trống → dùng tên chi nhánh/phòng ban."""
+    return [job(text(c, ".c-line-jobtitle"), "VietinBank", text(c, ".c-line-address") or text(c, ".c-line-jobcontent"), "VN", url,
+                COMPANY_SOURCE, dmy(c.get_text(" ").split("Ngày đăng")[-1]))
+            for c, a, url in paged("https://tuyendung.vietinbank.vn/tuyendung/tuyen-dung?page={}", ".c-card", "a.btn-apply-ut", 40)]
+
+
+def msb():
+    """Trang chỉ hiện 10 tin mới nhất (phần còn lại tải bằng JavaScript), cộng 5 kết quả tìm "data".
+    Chạy 6 tiếng/lần và tin cũ được giữ lại nên vẫn không sót tin mới."""
+    out = {}
+    for url in ("https://jobs.msb.com.vn/latest-jobs", "https://jobs.msb.com.vn/jobs/search?keywords=data"):
+        for c in soup(url).select(".job_list_row"):
+            a = c.select_one("a.job_link")
+            posted = text(c, ".job_post_date .jlr_value")  # "21 giờ trước" / "Oct 06, 2026"
+            m = re.search(r"[A-Z][a-z]{2} \d\d, \d{4}", posted)
+            out[a["href"]] = job(a.get_text(strip=True), "MSB", text(c, "a.location").lstrip("🔍 "), "VN", a["href"], COMPANY_SOURCE,
+                                 datetime.strptime(m[0], "%b %d, %Y").date().isoformat() if m else ago(posted))
+    return list(out.values())
+
+
+def ssi():
+    return [job(a.get_text(strip=True), "SSI", text(c, ".info p"), "VN", url, COMPANY_SOURCE, dmy(c.get_text(" ").split("Đã đăng")[-1]))
+            for c, a, url in paged("https://tuyendung.ssi.com.vn/tin-tuyen-dung?page={}", ".single-content", "a.content-name")]
+
+
+def tcbs():
+    """Tin tuyển dụng là bài viết WordPress; trang tuyển dụng hiện 40 bài mới nhất."""
+    out = {}
+    for li in soup("https://www.tcbs.com.vn/ve-chung-toi/tuyen-dung/").select("li:has(> a.wp-block-latest-posts__post-title)"):
+        a, t = li.select_one("a"), li.select_one("time")
+        out[a["href"]] = job(a.get_text(strip=True), "TCBS", "", "VN", a["href"], COMPANY_SOURCE, day(t["datetime"] if t else ""),
+                             desc=plain(str(li.select_one(".wp-block-latest-posts__post-excerpt") or "")))
+    return list(out.values())
+
+
+def vnpay():
+    out = []
+    for c, a, url in paged("https://tuyendung.vnpay.vn/co-hoi-nghe-nghiep?page={}", ".recruitment-item", "a.title"):
+        info = [li.get_text(strip=True) for li in c.select("li")]  # [ngành, nơi làm, hạn nộp, "New"]; không có ngày đăng
+        out.append(job(a.get_text(strip=True), "VNPAY", info[1] if len(info) > 1 else "", "VN", url, COMPANY_SOURCE, TODAY))
+    return out
+
+
+SOURCES = [vietnamworks, careerviet, linkedin, ybox, companies, vng, momo, be, seabank, vietinbank, msb, ssi, tcbs, vnpay]
 
 
 def merge(old, new, today=TODAY):

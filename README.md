@@ -3,12 +3,12 @@
 Website tổng hợp việc làm ngành data tại Việt Nam. Lương được quy đổi hết sang triệu VNĐ/tháng (ngoại tệ theo tỷ giá hiện tại, có dấu ≈). Chạy hoàn toàn miễn phí trên GitHub:
 
 - **GitHub Actions** chạy `scrape.py` 6 tiếng/lần → cập nhật `jobs.json`
-- **Máy của bạn** chạy `local.py` 6 tiếng/lần (Task Scheduler) → cập nhật `local.json`, cho các trang chặn máy chủ GitHub hoặc cần trình duyệt thật
+- **Máy của bạn** chạy `local.py` 6 tiếng/lần (Task Scheduler) → cập nhật `local.json`, cho các trang chặn hoặc có thể chặn máy chủ GitHub
 - **GitHub Pages** hiển thị `index.html` tại `https://<tên-tổ-chức>.github.io`
 
 | File | Việc |
 |---|---|
-| `scrape.py` | Lấy job từ VietnamWorks, CareerViet, LinkedIn Jobs, Ybox và trang tuyển dụng của các công ty (VNG, MoMo, VPBank, SHB, Grab, Bosch…) |
+| `scrape.py` | Lấy job từ VietnamWorks, CareerViet, LinkedIn Jobs, Ybox và trang tuyển dụng của các công ty: 19 ngân hàng (Vietcombank, VietinBank, Techcombank, VPBank, ACB, VIB…), chứng khoán (SSI, VNDIRECT, TCBS), VNPAY, VNG, MoMo, Grab, NVIDIA, NAB, Prudential… |
 | `local.py` | Lấy job từ ITviec, TopCV, TopDev, CareerLink, JobsGo, Vieclam24h, Glints và trang công ty VNPT, NashTech |
 | `index.html` | Trang web: lưới thẻ việc làm, rê chuột (hoặc chạm trên điện thoại) để xem nhanh, tìm kiếm (gõ không dấu cũng được), lọc khu vực, kinh nghiệm, nguồn |
 
@@ -52,11 +52,11 @@ Muốn tên miền riêng (`vieclamdata.com`, khoảng 250 nghìn đồng/năm):
 
 ## Cào bằng máy của bạn (`local.py`)
 
-ITviec chặn máy chủ GitHub; TopCV, JobsGo, NashTech chỉ cho trình duyệt thật có cửa sổ vào; VNPT chỉ hiện tin sau khi chạy JavaScript. Các trang này do `local.py` lấy bằng IP Việt Nam và Microsoft Edge có sẵn trên máy, ghi vào `local.json` rồi tự push. Bot GitHub chỉ ghi `jobs.json`, nên hai bên không bao giờ xung đột.
+ITviec chặn máy chủ GitHub; các trang khác trong `local.py` chưa thử trên máy chủ GitHub. Các trang này do `local.py` lấy bằng IP Việt Nam, ghi vào `local.json` rồi tự push. Bot GitHub chỉ ghi `jobs.json`, nên hai bên không bao giờ xung đột. Không cần trình duyệt: mọi request đi qua [Scrapling](https://github.com/D4Vinci/Scrapling), giả lập Chrome tới cả dấu vân tay TLS nên Cloudflare của TopCV, JobsGo không chặn.
 
-1. Cài một lần: `pip install beautifulsoup4 playwright` (không cần tải trình duyệt, dùng Edge).
+1. Cài một lần: `pip install -r requirements.txt`
 2. Chạy thử không push: `python local.py --no-push`
-3. Lịch tự chạy 6 tiếng/lần đã được tạo bằng lệnh dưới (tên `vieclamdata-local`). Máy phải bật và đã đăng nhập Windows; khi chạy sẽ thoáng thấy biểu tượng Edge trên thanh taskbar.
+3. Lịch tự chạy 6 tiếng/lần đã được tạo bằng lệnh dưới (tên `vieclamdata-local`). Máy phải bật và đã đăng nhập Windows.
    ```powershell
    schtasks /Create /TN vieclamdata-local /SC HOURLY /MO 6 /ST 07:00 /F /TR "cmd /c cd /d C:\Users\nguye\Documents\data_job_website && python local.py >> local.log 2>&1"
    ```
@@ -67,7 +67,7 @@ ITviec chặn máy chủ GitHub; TopCV, JobsGo, NashTech chỉ cho trình duyệ
 ## Chạy thử trên máy
 
 ```powershell
-pip install beautifulsoup4
+pip install -r requirements.txt
 python scrape.py
 python -m http.server
 ```
@@ -87,10 +87,13 @@ Nhiều công ty đăng tin qua hệ thống tuyển dụng có API công khai. 
 | `jobs.lever.co/abc/...` | `(lever, "abc", "Tên công ty"),` |
 | `jobs.ashbyhq.com/abc/...` | `(ashby, "abc", "Tên công ty"),` |
 | `jobs.smartrecruiters.com/abc/...` | `(smartrecruiters, "abc", "Tên công ty"),` |
+| `abc.wd3.myworkdayjobs.com/en-US/Trang_ABC/...` (Workday, như NVIDIA, NAB, Prudential) | `(workday, "abc.wd3/Trang_ABC", "Tên công ty"),` |
+| Trang có ảnh từ `centralize-api.ainavi.com.vn`, link tin dạng `/vi/jobs/<mã>` (Ainavi, như TPBank, OCB, LPBank) | `(ainavi, "tuyendung.abc.com.vn", "Tên công ty"),` |
+| Mã nguồn trang có `Client.pageData=` (Base E-hiring, như VIB, ACB, ABBank) | `(base, "<địa chỉ trang tất cả việc làm>", "Tên công ty"),` |
 | Trang có `<địa chỉ>/services/rss/job/` (SAP SuccessFactors, như VPBank) | `(successfactors, "https://tuyendung.abc.com.vn", "Tên công ty"),` |
 | Trang có ảnh từ `image.talentnetwork.vn`, link tin dạng `/viec-lam/ten-vi-tri.35ac13c7.html` (như SHB, PVcomBank) | `(talentnetwork, "https://tuyendung.abc.com.vn", "Tên công ty"),` |
 
-Chỉ tin ở Việt Nam và đúng ngành data mới được lấy. Công ty tự làm trang tuyển dụng riêng thì mỗi trang một hàm (`vng`, `momo`, `be` trong `scrape.py`), nằm trong `SOURCES` như các trang tuyển dụng. Trang nào đổi giao diện thì workflow báo đỏ với tên hàm đó. Đã thử nhưng chưa làm được: FPT, Tiki, VNPT, Ahamove, NashTech, vì các trang này tải danh sách bằng JavaScript hoặc chặn API; VinBigData không còn cập nhật từ 2022.
+Chỉ tin ở Việt Nam và đúng ngành data mới được lấy. Công ty tự làm trang tuyển dụng riêng thì mỗi trang một hàm (`vng`, `momo`, `be`, `vietinbank`, `seabank`, `msb`, `ssi`, `tcbs`, `vnpay` trong `scrape.py`), nằm trong `SOURCES` như các trang tuyển dụng. Trang nào đổi giao diện thì workflow báo đỏ với tên hàm đó. VNPT, NashTech nằm trong `local.py`. Đã thử nhưng chưa làm được: FPT, Tiki, Ahamove, BIDV, Kienlongbank, vì các trang này tải danh sách bằng JavaScript hoặc chặn API; VinBigData không còn cập nhật từ 2022.
 
 Cấp bậc kinh nghiệm được đoán từ tên vị trí ("Senior", "Trưởng phòng", "Intern"...). Nếu tên không ghi thì dùng nhãn cấp bậc của nguồn. Từ khóa nằm ở `LEVELS` trong `scrape.py`.
 
