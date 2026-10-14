@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T07:35+00:00",
+ "updated": "2026-10-14T11:46+00:00",
  "jobs": [
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu",
@@ -416,6 +416,113 @@
    "source": "Trang công ty",
    "date": "2026-10-14",
    "logo": "logos/vnpt.png"
+  },
+  {
+   "title": "AI Engineer",
+   "company": "Công Ty Cổ Phần Greenfeed Việt Nam",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ai-engineer-1791966992337832149-2119462-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-14",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/57/11126537.png",
+   "salary": "Thỏa thuận",
+   "tags": [
+    "AI",
+    "AI Engineer",
+    "Data Analysis",
+    "Technology"
+   ],
+   "desc": "The AI Engineer is responsible for developing and integrating practical AI solutions that support GREENFEED's business and Digital/AI transformation initiatives. The role will focus on building GenAI applications, RAG solutions, AI assistants/agents, and AI-enabled business applications, working closely with Data, Business, and Technology teams to bring AI use cases from idea to production.…",
+   "level": [
+    "junior"
+   ]
+  },
+  {
+   "title": "Nhân viên vận hành dữ liệu thể thao",
+   "company": "Unity Sport",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/nhan-vien-van-hanh-du-lieu-the-thao/d4d15770-d55b-4da3-b959-5b8bd685715a",
+   "source": "Glints",
+   "date": "2026-10-14",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/692c938d3bfc4627701ee77199d8af01.png"
+  },
+  {
+   "title": "Business Data Analyst",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-Business-Data-Analyst/1368833666/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-14",
+   "desc": "Các trách nhiệm chính 1 Các trách nhiệm chính 2 Các trách nhiệm chính 3 Các trách nhiệm chính 4 Các trách nhiệm chính 5 Các trách nhiệm chính 6 Các trách nhiệm chính 7 Các trách nhiệm chính 8 Trình độ đào tạo Chứng chỉ/Bằng cấp chuyên môn Năng lực chuyên môn Kỹ năng Giá trị cốt lõi 1. KHÁT VỌNG 2. CHÍNH TRỰC 3. HIỆU QUẢ 4. KỶ CƯƠNG 5. SÁNG TẠO Các năng lực khác Các yêu cầu khác Tin tuyển dụng…",
+   "logo": "logos/vpbank.png"
+  },
+  {
+   "title": "Officer, Data Reconciliations",
+   "company": "NAB Innovation Centre Vietnam",
+   "location": "Capital Place, 29 Lieu Giai Street, Ngoc Ha Ward, Hanoi, VNM",
+   "region": "VN",
+   "url": "https://nab.wd3.myworkdayjobs.com/nab_careers/job/Capital-Place-29-Lieu-Giai-Street-Ngoc-Ha-Ward-Hanoi-VNM/Officer--Data-Reconciliations_JR122205",
+   "source": "Trang công ty",
+   "date": "2026-10-14",
+   "desc": "Job Posting End Date: Worker Type: Maximum Term/Fixed Term (Fixed Term) It's more than just a career at NAB! We believe in people with people and dreams, and we want you to achieve your aspirations. More than just a career, NAB Vietnam offers you a flexibility to balance your work - life, the opportunity to grow as professionals, people and a complete set of well-being offerings. If you have an…",
+   "logo": "logos/nab-innovation-centre-vietnam.png"
+  },
+  {
+   "title": "Senior Adobe Analytics Engineer - Martech",
+   "company": "NAB Innovation Centre Vietnam",
+   "location": "Tower A The Hallmark Building, 15 Tran Bach Dang An Khanh Ward, Thu Duc, Ho Chi Minh City, VNM",
+   "region": "VN",
+   "url": "https://nab.wd3.myworkdayjobs.com/nab_careers/job/Tower-A-The-Hallmark-Building-15-Tran-Bach-Dang-An-Khanh-Ward-Thu-Duc-Ho-Chi-Minh-City-VNM/Senior-Business-Analyst---Martech_JR120671",
+   "source": "Trang công ty",
+   "date": "2026-10-14",
+   "desc": "Job Posting End Date: Worker Type: Maximum Term/Fixed Term (Fixed Term) ABOUT THE JOB The Senior Adobe Analytics Engineer under Marketing Technology aims to provide critical thinking and a high degree of technical expertise and attention to detail while being recognised as a trusted advisor to the team and stakeholders. The characteristics include being versatile, displaying leadership qualities,…",
+   "level": [
+    "senior"
+   ],
+   "logo": "logos/nab-innovation-centre-vietnam.png"
+  },
+  {
+   "title": "Senior - Data Analyst",
+   "company": "MoMo",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://momo.careers/jobs/senior-data-analyst-19980",
+   "source": "Trang công ty",
+   "date": "2026-10-14",
+   "level": [
+    "senior"
+   ],
+   "logo": "logos/momo.png"
+  },
+  {
+   "title": "Middle/Senior Data Orchestration - Data Engineer",
+   "company": "MoMo",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://momo.careers/jobs/middle-senior-data-orchestration-data-engineer-19982",
+   "source": "Trang công ty",
+   "date": "2026-10-14",
+   "level": [
+    "mid",
+    "senior"
+   ],
+   "logo": "logos/momo.png"
+  },
+  {
+   "title": "Data Ops - Senior Data Engineer",
+   "company": "MoMo",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://momo.careers/jobs/data-ops-senior-data-engineer-19998",
+   "source": "Trang công ty",
+   "date": "2026-10-14",
+   "level": [
+    "senior"
+   ],
+   "logo": "logos/momo.png"
   },
   {
    "title": "Data Analyst (Tài Chính)",
@@ -2036,6 +2143,26 @@
    "logo": "logos/p-g.png"
   },
   {
+   "title": "Data Steward (Quản trị dữ liệu nghiệp vụ)",
+   "company": "VietinBank",
+   "location": "Thành phố Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vietinbank.vn/tuyendung/thong-tin-tuyen-dung/TSC202610671T00777",
+   "source": "Trang công ty",
+   "date": "2026-10-08",
+   "logo": "logos/vietinbank.png"
+  },
+  {
+   "title": "Data Governance (Quản trị dữ liệu)",
+   "company": "VietinBank",
+   "location": "Thành phố Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vietinbank.vn/tuyendung/thong-tin-tuyen-dung/TSC202610671T00776",
+   "source": "Trang công ty",
+   "date": "2026-10-08",
+   "logo": "logos/vietinbank.png"
+  },
+  {
    "title": "Audit Data Analytics Specialist – ID11908",
    "company": "VPBank - Https://tuyendung.vpbank.com.vn/",
    "location": "Hà Nội",
@@ -2347,6 +2474,35 @@
     "senior"
    ],
    "logo": "logos/abbank.png"
+  },
+  {
+   "title": "Data Analyst",
+   "company": "Vietnamworks' Client",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/data-analyst-1791366932898011257-2116883-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-07",
+   "logo": "https://images.vietnamworks.com/img/company-default-logo.png",
+   "salary": "Thỏa thuận",
+   "tags": [
+    "Data Analysis",
+    "MS Office (Excel)",
+    "Economics",
+    "Finance",
+    "Accounting"
+   ],
+   "desc": "An Investment Fund Manager is looking for a dynamic and hard-working Data Analyst with Job Description as below: - Collect and update macroeconomic and financial market data - Build, organize, and maintain database in a clear and readable format - Use Excel and other Microsoft Office tools to perform accounting calculations and analyse the results - Convert a..."
+  },
+  {
+   "title": "CV/CVC/CVCC Data Engineer",
+   "company": "VietinBank",
+   "location": "Thành phố Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vietinbank.vn/tuyendung/thong-tin-tuyen-dung/TSC202610666T00769",
+   "source": "Trang công ty",
+   "date": "2026-10-07",
+   "logo": "logos/vietinbank.png"
   },
   {
    "title": "Senior/Expert Data Architect (Database, ETL/ELT)",
