@@ -55,21 +55,66 @@ DATA_ROLE_RE = re.compile(
 
 # cấp bậc → từ khóa trong tên vị trí hoặc nhãn cấp bậc của nguồn. "Junior/Fresher" khớp cả hai.
 LEVELS = {
-    "intern": r"\bintern(?:ship)?\b|thực tập|fresher|trainee|\bgraduate\b|mới tốt nghiệp|sinh viên|entry[- ]level",
+    "intern": r"\bintern(?:ship)?\b|thực tập|fresher|trainee|\bgraduate\b|mới tốt nghiệp|sinh viên|entry[- ]level"
+              r"|tập sự|future leader|young (?:talent|leader)|fast[- ]track|tài năng trẻ",
     "junior": r"\bjunior\b|\bjr\b|\bassociate\b(?!\s+director)",  # "Associate" = nhãn junior của LinkedIn/SmartRecruiters
     "mid": r"\bmid(?:dle)?\b(?!\s*east)|intermediate|midweight",
     "senior": r"\bsenior\b|\bsr\b|cao cấp|\bexpert\b|chuyên gia",
     # "staff" chỉ tính khi là cấp kỹ sư ("Staff Data Engineer"); ở VN "BI Staff" = nhân viên.
     # "tăng trưởng" (growth) không phải "trưởng phòng"; "quản lý" chỉ tính ở đầu tên, "chuyên viên quản lý dữ liệu" là nghiệp vụ.
-    "lead": r"\blead(?:er)?\b|\bhead\b|manager|director|principal|\bchief\b|\bvp\b|staff (?:\w+ ){0,3}(?:engineer|scientist|architect)"
+    "lead": r"(?<!future )(?<!young )\blead(?:er)?\b|\bhead\b|manager|director|principal|\bchief\b|\bvp\b|staff (?:\w+ ){0,3}(?:engineer|scientist|architect)"
             r"|(?<!tăng )trưởng|phó phòng|giám đốc|^quản lý",
 }
+
+# kỹ năng → từ khóa trong tên + mô tả tin. Tên hiển thị trên thẻ việc làm, xếp theo thứ tự xuất hiện trong tin.
+SKILLS = {
+    "SQL": r"\bsql\b|postgre|mysql|oracle db|t-sql|pl/sql", "Python": r"\bpython\b", "R": r"(?-i:\bR\b)(?![&'’-])|\br programming|\brstudio\b",
+    "Excel": r"\bexcel\b", "VBA": r"(?-i:\bVBA\b)", "Power BI": r"power ?bi\b", "Tableau": r"tableau", "Looker": r"looker|data studio",
+    "Qlik": r"\bqlik", "Alteryx": r"alteryx", "Superset": r"superset", "Metabase": r"metabase", "Google Analytics": r"google analytics|\bGA4\b",
+    "Thống kê": r"statistic|thống kê|xác suất", "Machine Learning": r"machine learning|(?<!khoa )học máy|(?-i:\bML\b)", "Deep Learning": r"deep learning|học sâu",
+    "NLP": r"\bnlp\b|natural language|ngôn ngữ tự nhiên", "Computer Vision": r"computer vision|thị giác máy tính",
+    "LLM / GenAI": r"\bllms?\b|generative ai|\bgen ?ai\b|large language|\brag\b", "TensorFlow": r"tensorflow", "PyTorch": r"pytorch",
+    "Scikit-learn": r"scikit|sklearn", "Pandas": r"\bpandas\b", "ETL": r"(?-i:\bETL\b|\bELT\b)", "Data Warehouse": r"data ?warehous|kho dữ liệu|(?-i:\bDWH\b)",
+    "Data Modeling": r"data model(?:l?ing)?\b|mô hình hóa dữ liệu", "Spark": r"\bspark\b", "Hadoop": r"hadoop|\bhive\b|\bhdfs\b",
+    "Kafka": r"\bkafka\b", "Flink": r"\bflink\b", "Airflow": r"airflow", "dbt": r"(?-i:\bdbt\b)", "Snowflake": r"snowflake",
+    "BigQuery": r"bigquery", "Databricks": r"databricks", "Redshift": r"redshift", "SSIS": r"(?-i:\bSSIS\b)", "Informatica": r"informatica",
+    "Talend": r"\btalend\b", "NoSQL": r"nosql|mongodb|cassandra|elasticsearch", "AWS": r"(?-i:\bAWS\b)|amazon web services",
+    "Azure": r"\bazure\b", "GCP": r"(?-i:\bGCP\b)|google cloud", "Docker": r"\bdocker\b", "Kubernetes": r"kubernetes|\bk8s\b",
+    "MLOps": r"mlops", "Git": r"\bgit(?:hub|lab)?\b", "Linux": r"\blinux\b", "Java": r"\bjava\b(?!\s*script)", "Scala": r"\bscala\b",
+    "SAS": r"(?-i:\bSAS\b)", "SPSS": r"\bspss\b", "A/B Testing": r"\ba/?b test",
+    "Tiếng Anh": r"tiếng anh|\benglish (?:skill|proficien|communication|speaking|writing|fluen|level)|(?:fluent|good|proficient|proficiency|competent) (?:in )?english|ielts|toeic|toefl",
+    "Tiếng Nhật": r"tiếng nhật|japanese|\bjlpt\b",
+}
+SKILLS = {name: re.compile(pat, re.I) for name, pat in SKILLS.items()}
+# chương trình Management Trainee / Graduate: tên không ghi "data" → chỉ giữ khi tin đòi kỹ năng data
+TRAINEE_RE = re.compile(r"management trainee|quản trị viên tập sự|qtv tập sự|\bMT\b|\btrainee\b|tập sự"
+                        r"|graduate (?:development )?(?:program|trainee|scheme)|future leader"
+                        r"|young (?:talent|leader)|fast[- ]track|leadership (?:development )?program|tài năng trẻ", re.I)
+DATA_SKILLS = {"SQL", "R", "Power BI", "Tableau", "Looker", "Qlik", "Machine Learning", "Deep Learning", "ETL", "Data Warehouse",
+               "Spark", "BigQuery", "Snowflake", "Databricks", "SAS", "SPSS"}
 
 
 def is_data_job(text):
     if not DATA_RE.search(text) or NOT_DATA_RE.search(text):
         return False
     return not OTHER_ROLE_RE.search(text) or bool(DATA_ROLE_RE.search(text))
+
+
+def is_data_program(j):
+    """'Management Trainee 2026', 'Graduate Program', 'Aeon Future Leader'... mà tin đòi SQL/Python/Power BI → giữ."""
+    if not TRAINEE_RE.search(j["title"]) or NOT_DATA_RE.search(j["title"]) or OTHER_ROLE_RE.search(j["title"]):
+        return False
+    return bool(DATA_SKILLS & set(j.get("skills", [])))  # nhãn kỹ năng của nguồn quá rộng ("Excel Data Handling") nên không dùng
+
+
+def keep(j):
+    return is_data_job(j["title"]) or is_data_program(j)
+
+
+def skills(text):
+    """Kỹ năng nhắc trong tin, theo thứ tự xuất hiện."""
+    found = {name: m.start() for name, pat in SKILLS.items() if (m := pat.search(text))}
+    return sorted(found, key=found.get)
 
 
 def levels(title, hint="", years=0):
@@ -131,9 +176,13 @@ def ago(s):
     return (date.today() - timedelta(days=int(m[1]) * unit[m[2].lower()])).isoformat()
 
 
-def plain(markup, n=400):
-    """Mô tả HTML → đoạn văn ngắn cho khung xem nhanh."""
-    t = " ".join(BeautifulSoup(markup or "", "html.parser").get_text(" ").split())
+def plain(markup):
+    """Mô tả HTML → chữ trên một dòng."""
+    return " ".join(BeautifulSoup(markup or "", "html.parser").get_text(" ").split())
+
+
+def short(t, n=400):
+    """Đoạn văn ngắn cho khung xem nhanh."""
     return t if len(t) <= n else t[:n].rsplit(" ", 1)[0] + "…"
 
 
@@ -177,10 +226,15 @@ def vnd(s):
 
 
 def job(title, company, location, region, url, source, posted, logo="", salary="", tags=(), desc="", hint="", years=0):
-    """hint: nhãn cấp bậc của nguồn ("Senior", "Trưởng phòng"...), years: số năm kinh nghiệm yêu cầu."""
-    extra = dict(logo=logo, salary=vnd(salary), tags=list(tags)[:6], desc=desc, level=levels(title, hint, years))
-    return dict(title=title.strip(), company=(company or "").strip(), location=(location or "").strip(),
-                region=region, url=url, source=source, date=posted, **{k: v for k, v in extra.items() if v})
+    """desc: mô tả đầy đủ (HTML hoặc chữ), kỹ năng đọc từ đây. Tin không kèm mô tả thì run() đọc trang chi tiết (details).
+    hint: nhãn cấp bậc của nguồn ("Senior", "Trưởng phòng"...), years: số năm kinh nghiệm yêu cầu."""
+    full = plain(desc)
+    extra = dict(logo=logo, salary=vnd(salary), tags=list(tags)[:6], desc=short(full), level=levels(title, hint, years))
+    j = dict(title=title.strip(), company=(company or "").strip(), location=(location or "").strip(),
+             region=region, url=url, source=source, date=posted, **{k: v for k, v in extra.items() if v})
+    if len(full) > 400:  # mô tả thật, không phải tóm tắt vài dòng
+        j["skills"] = skills(f"{title} {full}")  # có mặt (kể cả rỗng) = đã đọc kỹ năng, run() không đọc trang chi tiết nữa
+    return j
 
 
 PAGES = 3  # số trang đọc ở mỗi trang tuyển dụng (tin mới nằm ở đầu)
@@ -195,13 +249,13 @@ def amount(lo, hi, cur="VND"):
 
 def vietnamworks():
     out = []
-    for q in ("data", "dữ liệu", "BI", "machine learning"):
+    for q in ("data", "dữ liệu", "BI", "machine learning", "trainee", "tập sự"):  # trainee, tập sự: chương trình MT (is_data_program)
         d = get_json("https://ms.vietnamworks.com/job-search/v1.0/search", {"query": q, "page": 0, "hitsPerPage": 100})
         for j in d["data"]:
             loc = ", ".join(l.get("cityNameVI") or l.get("cityName", "") for l in j.get("workingLocations") or [])
             out.append(job(j["jobTitle"], j["companyName"], loc, "VN", j["jobUrl"], "VietnamWorks", day(j["approvedOn"]),
-                           logo=j.get("companyLogo") or "", salary=j.get("prettySalary"),
-                           tags=[s["skillName"] for s in j.get("skills") or []], desc=plain(j.get("jobDescription")),
+                           logo=j.get("companyLogo") or "", salary=j.get("prettySalary"),  # nhãn kỹ năng do nhà tuyển dụng tự gõ, mơ hồ → đọc từ mô tả
+                           desc=f"{j.get('jobDescription') or ''} {j.get('jobRequirement') or ''}",
                            hint=j.get("jobLevelVI"), years=j.get("yearsOfExperience") or 0))
     return out
 
@@ -228,8 +282,8 @@ class RateLimited(Exception):
 def linkedin():
     """API công khai của LinkedIn Jobs, không cần đăng nhập."""
     out = []
-    for start in (0, 25, 50, 75):
-        q = urllib.parse.urlencode({"keywords": "data", "location": "Vietnam", "sortBy": "DD", "start": start})
+    for kw, start in [("data", 0), ("data", 25), ("data", 50), ("data", 75), ("management trainee", 0)]:
+        q = urllib.parse.urlencode({"keywords": kw, "location": "Vietnam", "sortBy": "DD", "start": start})
         try:
             cards = soup(f"https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?{q}").select("div.base-search-card")
         except urllib.error.HTTPError as e:
@@ -245,8 +299,6 @@ def linkedin():
             out.append(job(text(c, "h3"), text(c, "h4"), text(c, ".job-search-card__location"), "VN",
                            f"https://www.linkedin.com/jobs/view/{job_id}", "LinkedIn", t["datetime"] if t else TODAY,
                            logo=img["data-delayed-url"] if img else "", salary=text(c, ".job-search-card__salary-info")))
-        if not cards:
-            break
         time.sleep(5)  # tránh bị LinkedIn chặn (429)
     return out
 
@@ -280,7 +332,7 @@ def ybox():
         for p in get_json("https://api.ybox.vn/graphql?query=" + urllib.parse.quote(q))["data"]["AllPosts"]["NewestPosts"]["edges"]:
             loc, company, title = ybox_title(p["title"])
             out.append(job(title, company, loc, "VN", f"https://ybox.vn/tuyen-dung/{slugify(p['title'])}-{p['_id']}", "Ybox", day(p["publishedAt"]),
-                           logo=(p.get("photo") or "").replace("http://", "https://"), desc=plain(p.get("summary"))))
+                           logo=(p.get("photo") or "").replace("http://", "https://"), desc=p.get("summary")))
     return out
 
 
@@ -327,14 +379,14 @@ VN_RE = re.compile(r"viet ?nam|việt nam|ha ?noi|hà nội|ho chi minh|hồ ch�
 
 def greenhouse(slug, name):
     return [job(j["title"], name, j["location"]["name"], "VN", j["absolute_url"], COMPANY_SOURCE,
-                day(j.get("first_published") or j["updated_at"]), desc=plain(html.unescape(j.get("content") or "")))
+                day(j.get("first_published") or j["updated_at"]), desc=html.unescape(j.get("content") or ""))
             for j in get_json(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true")["jobs"]
             if VN_RE.search(j["location"]["name"])]
 
 
 def lever(slug, name):
     return [job(j["text"], name, j["categories"].get("location", ""), "VN", j["hostedUrl"], COMPANY_SOURCE,
-                day(str(j["createdAt"] // 1000)), desc=plain(j.get("descriptionPlain")))
+                day(str(j["createdAt"] // 1000)), desc=j.get("descriptionPlain"))
             for j in get_json(f"https://api.lever.co/v0/postings/{slug}?mode=json")
             if j.get("country") == "VN" or VN_RE.search(j["categories"].get("location", ""))]
 
@@ -346,7 +398,7 @@ def ashby(slug, name):
         locs = [j.get("location", ""), country] + [l.get("location", "") for l in j.get("secondaryLocations") or []]
         if loc := next((l for l in locs if VN_RE.search(l)), None):
             out.append(job(j["title"], name, loc, "VN", j["jobUrl"], COMPANY_SOURCE, day(j["publishedAt"]),
-                           salary=(j.get("compensation") or {}).get("compensationTierSummary"), desc=plain(j.get("descriptionPlain"))))
+                           salary=(j.get("compensation") or {}).get("compensationTierSummary"), desc=j.get("descriptionPlain")))
     return out
 
 
@@ -375,19 +427,19 @@ def workday(board, name):
         d = get_json(f"{api}/jobs", {"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": "Vietnam"})
         total = total or d["total"]  # từ trang 2 Workday trả total = 0
         for j in d["jobPostings"]:
-            if not is_data_job(j.get("title", "")):  # có tin ẩn chỉ còn mã tin, không có tên
+            if not (is_data_job(j.get("title", "")) or TRAINEE_RE.search(j.get("title", ""))):  # có tin ẩn chỉ còn mã tin, không có tên
                 continue
             info = get_json(api + j["externalPath"])["jobPostingInfo"]
             locs = [info.get("location", "")] + info.get("additionalLocations", [])
             if VN_RE.search((info.get("country") or {}).get("descriptor", "")) or any(VN_RE.search(l) for l in locs):
                 out.append(job(info["title"], name, " / ".join(l for l in locs if VN_RE.search(l)) or locs[0], "VN", info["externalUrl"],
-                               COMPANY_SOURCE, info.get("startDate") or ago(j.get("postedOn", "")), desc=plain(info.get("jobDescription"))))
+                               COMPANY_SOURCE, info.get("startDate") or ago(j.get("postedOn", "")), desc=info.get("jobDescription")))
         if offset + 20 >= total:
             break
     return out
 
 
-def successfactors(base, name, keywords=("data", "dữ liệu", "analytics", "Business Intelligence", "AI", "machine learning")):
+def successfactors(base, name, keywords=("data", "dữ liệu", "analytics", "Business Intelligence", "AI", "machine learning", "trainee", "tập sự")):
     """SAP SuccessFactors (VPBank, Techcombank, Vietcombank, Sacombank...) có RSS. Tiêu đề dạng 'Tên vị trí (Hà Nội, VN)'.
     ponytail: RSS trả tối đa 20 tin mới nhất mỗi từ khóa; công ty tuyển >20 vị trí data cùng lúc thì thêm từ khóa hẹp hơn."""
     out = []
@@ -397,7 +449,7 @@ def successfactors(base, name, keywords=("data", "dữ liệu", "analytics", "Bu
             title, loc = (m[1], m[2]) if m else (it.findtext("title"), "")
             pub = it.findtext("pubDate")  # có tin không ghi ngày đăng → ngày thấy lần đầu
             out.append(job(title, name, loc, "VN", it.findtext("link"), COMPANY_SOURCE,
-                           parsedate_to_datetime(pub).date().isoformat() if pub else TODAY, desc=plain(it.findtext("description"))))
+                           parsedate_to_datetime(pub).date().isoformat() if pub else TODAY, desc=it.findtext("description")))
     return out
 
 
@@ -436,7 +488,7 @@ def base(url, name):
             parts = [p.strip() for p in re.sub(r"<[^>]+>", "", o.get("multi_locations") or o.get("location") or "").split(";")]
             loc = ", ".join(p for p in parts if VN_RE.search(p)) or parts[0]
             out.append(job(o["name"], name, loc, "VN", o.get("url") or o["link"],
-                           COMPANY_SOURCE, day(o.get("since")), desc=plain(o.get("content"))))
+                           COMPANY_SOURCE, day(o.get("since")), desc=o.get("content")))
     return out
 
 
@@ -539,7 +591,7 @@ def vng():
     for page in range(1, 31):
         d = next_data(f"https://career.vng.com.vn/tim-kiem-viec-lam?page={page}")  # 10 tin/trang
         out += [job(j["title"], "VNG", j["location"], "VN", f"https://career.vng.com.vn/tim-kiem-viec-lam/chi-tiet/{j['slug']}",
-                    COMPANY_SOURCE, TODAY, desc=plain(j.get("summary"))) for j in d["jobs"]]
+                    COMPANY_SOURCE, TODAY, desc=j.get("summary")) for j in d["jobs"]]
         if page >= d["pages"]:
             break
     return out
@@ -656,7 +708,7 @@ def tcbs():
     for li in soup("https://www.tcbs.com.vn/ve-chung-toi/tuyen-dung/").select("li:has(> a.wp-block-latest-posts__post-title)"):
         a, t = li.select_one("a"), li.select_one("time")
         out[a["href"]] = job(a.get_text(strip=True), "TCBS", "", "VN", a["href"], COMPANY_SOURCE, day(t["datetime"] if t else ""),
-                             desc=plain(str(li.select_one(".wp-block-latest-posts__post-excerpt") or "")))
+                             desc=str(li.select_one(".wp-block-latest-posts__post-excerpt") or ""))
     return list(out.values())
 
 
@@ -695,33 +747,88 @@ def merge(old, new, today=TODAY):
     """Gộp theo url, cập nhật nội dung mới nhưng giữ ngày thấy đầu tiên, bỏ job quá KEEP_DAYS ngày, mới nhất lên đầu.
     Job cũ không còn trên trang nguồn vẫn được giữ tới khi quá hạn → trang nguồn lỗi tạm thời không làm mất dữ liệu."""
     jobs = {j["url"]: j for j in old}
-    for j in new:
-        jobs[j["url"]] = {**j, "date": jobs[j["url"]]["date"]} if j["url"] in jobs else j
+    for j in new:  # giữ trường tin mới không có (mô tả, kỹ năng đọc từ trang chi tiết)
+        jobs[j["url"]] = {**jobs[j["url"]], **j, "date": jobs[j["url"]]["date"]} if j["url"] in jobs else j
     cutoff = (date.fromisoformat(today) - timedelta(days=KEEP_DAYS)).isoformat()
     return sorted((j for j in jobs.values() if j["date"] >= cutoff), key=lambda j: j["date"], reverse=True)
 
 
-def load(path):
+def load(path, key="jobs"):
     try:
         with open(path, encoding="utf-8") as f:
-            return json.load(f)["jobs"]
+            return json.load(f).get(key, [])
     except FileNotFoundError:
         return []
 
 
-def save(path, jobs):
+def save(path, jobs, rejected=()):
     with open(path, "w", encoding="utf-8") as f:
-        json.dump({"updated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "jobs": jobs}, f, ensure_ascii=False, indent=1)
+        json.dump({"updated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "jobs": jobs, "rejected": sorted(rejected)},
+                  f, ensure_ascii=False, indent=1)
+
+
+def details(url):
+    """Nội dung trang chi tiết tin (mô tả + yêu cầu) để đọc kỹ năng. Hầu hết trang tuyển dụng nhúng JobPosting (schema.org) cho Google."""
+    if m := re.match(r"https://jobs\.smartrecruiters\.com/([^/]+)/(\d+)", url):  # Grab, Bosch...: trang chạy bằng JS, đọc API
+        ad = get_json(f"https://api.smartrecruiters.com/v1/companies/{m[1]}/postings/{m[2]}")["jobAd"]["sections"]
+        return " ".join(ad.get(k, {}).get("text", "") for k in ("jobDescription", "qualifications"))
+    page = soup(url)
+    for script in page.select('script[type="application/ld+json"]'):
+        try:
+            d = json.loads(script.string or "", strict=False)
+        except ValueError:
+            continue
+        for x in d if isinstance(d, list) else d.get("@graph", [d]) if isinstance(d, dict) else []:
+            if isinstance(x, dict) and x.get("@type") == "JobPosting":
+                return html.unescape(" ".join(str(x.get(k) or "") for k in ("description", "qualifications", "skills", "responsibilities")))
+    if el := page.select_one(".show-more-less-html__markup"):  # LinkedIn
+        return str(el)
+    if el := page.select_one("script#__NEXT_DATA__"):  # MoMo, VNG: chỉ lấy dữ liệu của tin, bỏ menu và tin liên quan
+        props = json.loads(el.string)["props"]["pageProps"]
+        return " ".join(str(v) for k, v in props.items() if re.search(r"job_?detail|job_data", k, re.I))
+    return ""  # trang không có dữ liệu chuẩn: chỉ đọc kỹ năng từ tên vị trí
+
+
+DETAILS_PER_RUN = 300  # ponytail: lần chạy đầu đọc ~250 tin; sau đó chỉ tin mới. Tăng nếu log báo còn tin chưa đọc
+
+
+def enrich(jobs):
+    """Tin chưa có kỹ năng: đọc trang chi tiết (mỗi tin một lần, merge() giữ kết quả cho các lần chạy sau)."""
+    bad, n = set(), 0  # trang chặn hoặc lỗi → bỏ qua cả trang đó lần này, lần sau thử lại
+    for j in jobs:
+        host = urllib.parse.urlparse(j["url"]).netloc
+        if "skills" in j or host in bad or n >= DETAILS_PER_RUN:
+            continue
+        n += 1
+        try:
+            full = plain(details(j["url"]))
+        except urllib.error.HTTPError as e:
+            if e.code not in (404, 410):  # 404/410 = tin đã gỡ, các tin khác của trang vẫn đọc được
+                bad.add(host)
+                print(f"  chi tiết {host}: LỖI {e.code}")
+                continue
+            full = ""
+        except Exception as e:
+            bad.add(host)
+            print(f"  chi tiết {host}: LỖI {e!r}"[:200])
+            continue
+        j["skills"] = skills(f"{j['title']} {j.get('desc', '')} {full}")
+        if full and not j.get("desc"):
+            j["desc"] = short(full)
+        if "linkedin" in host:
+            time.sleep(3)  # tránh 429
+    print(f"Đọc trang chi tiết: {n} tin" + (f", còn {sum('skills' not in j for j in jobs)} tin để lần sau" if n >= DETAILS_PER_RUN else ""))
 
 
 def run(sources, path):
     """Chạy các nguồn, gộp vào file json ở path, trả về tên các nguồn hỏng. local.py dùng lại cho local.json."""
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     new, broken = [], []
+    candidate = lambda j: is_data_job(j["title"]) or TRAINEE_RE.search(j["title"])  # chương trình MT: đọc chi tiết xong mới biết có giữ không
     for src in sources:
         try:
             raw = src()
-            found = [j for j in raw if is_data_job(j["title"])]
+            found = [j for j in raw if candidate(j)]
             print(f"{src.__name__}: {len(found)}/{len(raw)}")
             if not raw:  # 0 kết quả thô = trang đổi giao diện hoặc chặn
                 broken.append(src.__name__)
@@ -732,10 +839,15 @@ def run(sources, path):
             print(f"{src.__name__}: LỖI {e!r}")
             broken.append(src.__name__)
     # sửa bộ lọc / cách ghi lương thì job cũ cũng được lọc, quy đổi lại; chỉ giữ việc làm ở Việt Nam
-    old = [{**j, "salary": vnd(j.get("salary"))} for j in load(path) if is_data_job(j["title"]) and j.get("region") == "VN"]
+    old = [{**j, "salary": vnd(j.get("salary"))} for j in load(path) if candidate(j) and j.get("region") == "VN"]
     old = [{k: v for k, v in j.items() if v != ""} for j in old]  # lương rỗng thì bỏ trường, như job()
-    jobs = add_logos(merge(old, new), known=load(LOGOS.parent / "jobs.json") + load(LOGOS.parent / "local.json"))
-    save(path, jobs)
+    # chương trình MT đã đọc chi tiết và không cần kỹ năng data: không đọc lại mỗi lần chạy. Chỉ nhớ các tin nguồn còn đăng.
+    rejected = set(load(path, "rejected")) & {j["url"] for j in new}
+    jobs = merge(old, [j for j in new if j["url"] not in rejected])
+    enrich(jobs)
+    rejected |= {j["url"] for j in jobs if not keep(j) and "skills" in j}
+    jobs = add_logos([j for j in jobs if keep(j)], known=load(LOGOS.parent / "jobs.json") + load(LOGOS.parent / "local.json"))
+    save(path, jobs, rejected)
     print(f"Tổng: {len(jobs)} job")
     return broken + FAILED_COMPANIES
 

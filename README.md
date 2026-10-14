@@ -75,7 +75,11 @@ Mở http://localhost:8000
 
 ## Thêm một trang tuyển dụng mới
 
-Trong `scrape.py`, viết một hàm trả về danh sách `job(title, company, location, region, url, source, date)` rồi thêm tên hàm vào `SOURCES`. Nếu nguồn có thì truyền thêm `logo=`, `salary=`, `tags=`, `desc=` (dùng `plain()` để rút gọn mô tả HTML) cho khung xem nhanh. Từ khóa lọc ngành data nằm ở `DATA_RE`, `NOT_DATA_RE` và `OTHER_ROLE_RE`.
+Trong `scrape.py`, viết một hàm trả về danh sách `job(title, company, location, region, url, source, date)` rồi thêm tên hàm vào `SOURCES`. Nếu nguồn có thì truyền thêm `logo=`, `salary=`, `tags=`, `desc=` (mô tả đầy đủ, HTML cũng được) cho khung xem nhanh. Từ khóa lọc ngành data nằm ở `DATA_RE`, `NOT_DATA_RE` và `OTHER_ROLE_RE`.
+
+**Kỹ năng trên thẻ việc làm** được đọc từ mô tả tin theo danh sách `SKILLS` trong `scrape.py` (thêm kỹ năng = thêm một dòng tên + từ khóa). Tin nào danh sách không kèm mô tả thì `run()` đọc trang chi tiết của tin, mỗi tin một lần.
+
+**Chương trình Management Trainee / Graduate / Future Leader / Quản trị viên tập sự**: tên thường không ghi "data", nên được giữ khi mô tả tin đòi kỹ năng data (SQL, Python, Power BI…, xem `TRAINEE_RE` và `DATA_SKILLS`).
 
 ## Thêm trang tuyển dụng của một công ty
 

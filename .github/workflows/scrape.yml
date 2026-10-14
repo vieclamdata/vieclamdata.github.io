@@ -30,6 +30,6 @@ jobs:
           cp jobs.json "$RUNNER_TEMP/new.json"
           git checkout jobs.json
           git pull --ff-only
-          python -c "import sys, scrape; scrape.save('jobs.json', scrape.merge(scrape.load('jobs.json'), scrape.load(sys.argv[1])))" "$RUNNER_TEMP/new.json"
+          python -c "import sys, scrape; scrape.save('jobs.json', scrape.merge(scrape.load('jobs.json'), scrape.load(sys.argv[1])), scrape.load(sys.argv[1], 'rejected'))" "$RUNNER_TEMP/new.json"
           git add jobs.json
           git diff --cached --quiet || (git commit -m "update jobs" && git push)

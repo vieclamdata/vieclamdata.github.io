@@ -120,6 +120,11 @@
   .src { font-size: .8125rem; color: var(--muted); white-space: nowrap; }
   .tag { padding: 1px 8px; border-radius: 99px; font-size: .75rem; font-weight: 600; letter-spacing: .01em; }
   .tag.lvl { background: var(--fill); color: var(--text2); }
+  /* kỹ năng: viền mảnh để khác nhãn cấp bậc (nền xám) */
+  .skills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+  .skills span { padding: 2px 8px; border-radius: 6px; font-size: .75rem; color: var(--text2); box-shadow: inset 0 0 0 1px var(--line); }
+  .skills .more { color: var(--muted); box-shadow: none; padding-inline: 2px; }
+  .qv-label { margin: 0 0 -6px; font-size: .8125rem; font-weight: 600; color: var(--muted); }
 
   /* Xem nhanh: popover cạnh thẻ (chuột) hoặc sheet từ dưới lên (cảm ứng) */
   #qv {
@@ -218,6 +223,11 @@
 <script>
 const LEVELS = { intern: "Thực tập / Fresher", junior: "Junior", mid: "Middle", senior: "Senior", lead: "Lead / Quản lý" }; // khóa khớp LEVELS trong scrape.py
 const levelText = (j) => (j.level || []).map((k) => LEVELS[k]).join(" · ");
+// kỹ năng đọc từ nội dung tin (scrape.py: SKILLS) trước, rồi nhãn kỹ năng của trang nguồn; trùng tên (khác hoa thường) thì bỏ
+function skillsOf(j) {
+  const seen = new Set();
+  return [...(j.skills || []), ...(j.tags || [])].filter((s) => !seen.has(s.toLowerCase()) && seen.add(s.toLowerCase()));
+}
 const where = (j) => (j.source === "Trang công ty" ? `trang ${j.company}` : j.source); // "Ứng tuyển trên trang Grab"
 const CASH = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2.5" y="6" width="19" height="12" rx="2.5"/><circle cx="12" cy="12" r="2.5"/></svg>';
 const $ = (id) => document.getElementById(id);
@@ -314,6 +324,13 @@ function card(j) {
   if (j.level?.length) loc.append(el("span", "tag lvl", levelText(j)));
   if (j.location) loc.append(el("span", "", j.location));
   if (loc.childElementCount) body.append(loc);
+  if (j._skills.length) { // 4 kỹ năng đầu (nhắc sớm nhất trong tin), còn lại xem trong khung xem nhanh
+    const sk = el("div", "skills");
+    sk.setAttribute("aria-label", "Kỹ năng");
+    sk.append(...j._skills.slice(0, 4).map((s) => el("span", "", s)));
+    if (j._skills.length > 4) sk.append(el("span", "more", `+${j._skills.length - 4}`));
+    body.append(sk);
+  }
   const foot = el("div", "foot");
   const t = el("time", "src", `${j.source} · ${when(j)}`);
   t.dateTime = j.date;
@@ -339,11 +356,11 @@ function fill(j) {
   if (j.location) facts.append(el("span", "chip", j.location));
   facts.append(el("span", "chip", when(j)));
   const skills = el("div", "chips");
-  for (const s of j.tags || []) skills.append(el("span", "chip skill", s));
+  for (const s of j._skills) skills.append(el("span", "chip skill", s));
   const desc = j.desc;
   const box = el("div", "qv");
   box.append(head, h, facts);
-  if (skills.childElementCount) box.append(skills);
+  if (j._skills.length) box.append(el("p", "qv-label", "Kỹ năng cần có"), skills);
   box.append(
     el("p", desc ? "desc" : "desc none", desc || `Mô tả chi tiết có trên ${where(j)}.`),
     link("apply", `Ứng tuyển trên ${where(j)} ↗`, j.url),
@@ -489,7 +506,7 @@ function dupKey(j) {
   const title = words(j.title.replace(/\(.*?\)|\[.*?\]/g, " ")).replace(/\s+/g, " ").trim();
   return company ? `${title}|${company}` : j.url; // không có tên công ty thì không gộp, tránh gộp nhầm
 }
-const richness = (j) => (j.desc ? 8 : 0) + (j.salary ? 4 : 0) + (j.logo ? 2 : 0) + (j.tags?.length ? 1 : 0);
+const richness = (j) => (j.desc ? 8 : 0) + (j.salary ? 4 : 0) + (j.logo ? 2 : 0) + (j.skills?.length || j.tags?.length ? 1 : 0);
 
 async function loadJson(path) {
   try { const r = await fetch(path, { cache: "no-cache" }); return r.ok ? await r.json() : null; }
@@ -522,9 +539,9 @@ new IntersectionObserver(([e]) => form.classList.toggle("stuck", e.intersectionR
   jobs = [...best.values()]
     .sort((a, b) => b.date.localeCompare(a.date))
     .map((j) => {
-      const d = daysAgo(j.date);
-      return { ...j, _days: d, _group: group(d), _salary: salaryRange(j.salary), _provinces: provinces(j),
-               _search: norm([j.title, j.company, j.location, j.source, levelText(j), ...(j.tags || [])].join(" ")) };
+      const d = daysAgo(j.date), skills = skillsOf(j);
+      return { ...j, _days: d, _group: group(d), _salary: salaryRange(j.salary), _provinces: provinces(j), _skills: skills,
+               _search: norm([j.title, j.company, j.location, j.source, levelText(j), ...skills].join(" ")) };
     });
 
   const options = (sel, entries) => sel.append(...entries.map(([v, label]) => new Option(label, v)));
