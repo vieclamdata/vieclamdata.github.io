@@ -8,6 +8,8 @@ on:
 permissions:
   contents: write
 
+concurrency: scrape          # lần chạy sau đợi lần trước xong, không chạy chồng
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -18,10 +20,16 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python scrape.py
-      # vẫn lưu kết quả các nguồn khác dù có nguồn lỗi
+      # vẫn lưu kết quả các nguồn khác dù có nguồn lỗi.
+      # Cào mất vài phút; trong lúc đó jobs.json trên GitHub có thể đã đổi (commit từ máy) → lấy bản mới nhất về
+      # rồi gộp bằng merge() của scrape.py, thay vì rebase file JSON (dễ xung đột).
       - if: always()
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
+          cp jobs.json "$RUNNER_TEMP/new.json"
+          git checkout jobs.json
+          git pull --ff-only
+          python -c "import sys, scrape; scrape.save('jobs.json', scrape.merge(scrape.load('jobs.json'), scrape.load(sys.argv[1])))" "$RUNNER_TEMP/new.json"
           git add jobs.json
-          git diff --cached --quiet || (git commit -m "update jobs" && git pull --rebase && git push)
+          git diff --cached --quiet || (git commit -m "update jobs" && git push)
