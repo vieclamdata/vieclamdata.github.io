@@ -1,8 +1,8 @@
 """Nguồn phải cào bằng máy của bạn → local.json, rồi tự commit + push lên GitHub.
 
-Vì sao không chạy trên GitHub Actions: các trang này chặn hoặc có thể chặn IP máy chủ nước ngoài (ITviec chặn máy chủ GitHub).
-Máy bạn có IP Việt Nam. Không cần trình duyệt: get() của scrape.py dùng Scrapling giả lập Chrome nên qua được Cloudflare
-của TopCV, JobsGo; VNPT trả sẵn danh sách trong HTML; NashTech có API.
+Vì sao không chạy trên GitHub Actions: đã thử (10/2026), ITviec, TopCV, JobsGo, Vieclam24h trả 403 với máy chủ GitHub,
+CareerLink trả trang rỗng. Máy bạn có IP Việt Nam. Không cần trình duyệt: get() của scrape.py dùng Scrapling giả lập Chrome
+nên qua được Cloudflare của TopCV, JobsGo.
 Bot GitHub ghi jobs.json, script này ghi local.json → hai bên không bao giờ sửa chung một file, không bị xung đột khi push.
 
 Cài một lần:  pip install -r requirements.txt
@@ -18,15 +18,9 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
-from scrape import COMPANY_SOURCE, TODAY, ago, day, get, get_json, job, next_data, run, slugify, soup, text
+from scrape import PAGES, TODAY, ago, amount, day, get, job, run, soup, text
 
 HERE = Path(__file__).parent
-PAGES = 3  # số trang đọc ở mỗi trang tuyển dụng (tin mới nằm ở đầu)
-
-
-def amount(lo, hi, cur="VND"):
-    """Khoảng lương dạng số → '14000000-18000000 VND' để job() quy đổi sang triệu VNĐ."""
-    return f"{lo}-{hi} {cur}" if lo and hi else f"Đến {hi} {cur}" if hi else f"Từ {lo} {cur}" if lo else ""
 
 
 # ---------- cần IP Việt Nam ----------
@@ -62,22 +56,6 @@ def careerlink():
     return out
 
 
-def topdev():
-    fields = ("fields[job]=id,title,company,addresses,detail_url,published,job_levels_str,skills_str"
-              "&fields[company]=display_name,image_logo")
-    out = []
-    for page in range(1, PAGES + 1):
-        d = get_json(f"https://api.topdev.vn/td/v2/jobs?keyword=data&page={page}&page_size=50&{fields}")
-        for j in d["data"]:
-            dd, mm, yy = j["published"]["date"].split("-")  # "02-10-2026"
-            out.append(job(j["title"], j["company"]["display_name"], j["addresses"].get("sort_addresses", ""), "VN",
-                           j["detail_url"], "TopDev", f"{yy}-{mm}-{dd}", logo=j["company"].get("image_logo") or "",
-                           tags=[t for t in (j.get("skills_str") or "").split(", ") if t], hint=j.get("job_levels_str")))
-        if page >= d["meta"]["last_page"]:
-            break
-    return out
-
-
 def vieclam24h():
     """Next.js nhưng dữ liệu nằm ở props.initialState; link chi tiết lấy từ HTML theo id (cần mã ngành + tỉnh)."""
     out = []
@@ -91,23 +69,6 @@ def vieclam24h():
                 out.append(job(j["title"], e.get("name", ""), "", "VN", "https://vieclam24h.vn" + links[str(j["id"])], "Vieclam24h",
                                day(str(j.get("approved_at") or "")), logo=e.get("logo") or "",
                                salary=amount(j.get("salary_min"), j.get("salary_max"))))
-    return out
-
-
-def glints():
-    logo = "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/"
-    out = []
-    for page in range(1, PAGES + 1):
-        d = next_data(f"https://glints.com/vn/opportunities/jobs/explore?keyword=data&country=VN&page={page}")["initialJobs"]
-        for j in d["jobsInPage"]:
-            loc = j.get("location") or {}
-            sal = (j.get("salaries") or [{}])[0] if j.get("shouldShowSalary") else {}
-            out.append(job(j["title"], j["company"]["name"], ((loc.get("parents") or [{}])[0].get("name") or loc.get("name", "")), "VN",
-                           f"https://glints.com/vn/opportunities/jobs/{slugify(j['title'])}/{j['id']}", "Glints", day(j["updatedAt"]),
-                           logo=logo + j["company"]["logo"] if j["company"].get("logo") else "",
-                           salary=amount(sal.get("minAmount"), sal.get("maxAmount"), sal.get("CurrencyCode") or "VND"), years=j.get("minYearsOfExperience") or 0))
-        if not d.get("hasMore"):
-            break
     return out
 
 
@@ -136,35 +97,7 @@ def jobsgo():
     return out
 
 
-def vnpt():
-    out, seen = [], set()
-    for page in range(1, 15):
-        added = 0
-        for c in soup("https://tuyendung.vnpt.vn/viec-lam/tat-ca-viec-lam" + (f"/p{page}" if page > 1 else "") + ".html").select(".result-item"):
-            a = c.select_one("a[title]")
-            if a["href"] in seen:
-                continue
-            seen.add(a["href"])
-            added += 1
-            out.append(job(a["title"], text(c, ".div-department") or "VNPT", text(c, ".div-location"), "VN", a["href"], COMPANY_SOURCE, TODAY))
-        if not added:  # hết trang
-            break
-    return out
-
-
-def nashtech():
-    """API mà trang jobs-finder tự gọi (POST, không cần tham số). Tin ở nhiều nước → chỉ giữ Việt Nam."""
-    out = []
-    for j in get_json("https://careers.nashtechglobal.com/wp-json/ntc/job/get/v2", {}):
-        tax = lambda kind: [t["name"] for t in j.get("taxonomy") or [] if t["taxonomy"] == kind]
-        loc = ", ".join(tax("location"))
-        if "vietnam" in loc.lower():
-            out.append(job(j["post_title"], "NashTech", loc.replace(" - Vietnam", ""), "VN", j["post_permalink"], COMPANY_SOURCE,
-                           j["post_date"][:10], tags=tax("competency")))
-    return out
-
-
-LOCAL_SOURCES = [itviec, topcv, topdev, careerlink, jobsgo, vieclam24h, glints, vnpt, nashtech]
+LOCAL_SOURCES = [itviec, topcv, careerlink, jobsgo, vieclam24h]
 
 
 def git(*args):

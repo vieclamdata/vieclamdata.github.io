@@ -14,6 +14,7 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import date, datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
+from pathlib import Path
 
 from bs4 import BeautifulSoup
 from scrapling.fetchers import Fetcher
@@ -182,6 +183,14 @@ def job(title, company, location, region, url, source, posted, logo="", salary="
                 region=region, url=url, source=source, date=posted, **{k: v for k, v in extra.items() if v})
 
 
+PAGES = 3  # số trang đọc ở mỗi trang tuyển dụng (tin mới nằm ở đầu)
+
+
+def amount(lo, hi, cur="VND"):
+    """Khoảng lương dạng số → '14000000-18000000 VND' để job() quy đổi sang triệu VNĐ."""
+    return f"{lo}-{hi} {cur}" if lo and hi else f"Đến {hi} {cur}" if hi else f"Từ {lo} {cur}" if lo else ""
+
+
 # ---------- Việt Nam ----------
 
 def vietnamworks():
@@ -272,6 +281,39 @@ def ybox():
             loc, company, title = ybox_title(p["title"])
             out.append(job(title, company, loc, "VN", f"https://ybox.vn/tuyen-dung/{slugify(p['title'])}-{p['_id']}", "Ybox", day(p["publishedAt"]),
                            logo=(p.get("photo") or "").replace("http://", "https://"), desc=plain(p.get("summary"))))
+    return out
+
+
+def topdev():
+    fields = ("fields[job]=id,title,company,addresses,detail_url,published,job_levels_str,skills_str"
+              "&fields[company]=display_name,image_logo")
+    out = []
+    for page in range(1, PAGES + 1):
+        d = get_json(f"https://api.topdev.vn/td/v2/jobs?keyword=data&page={page}&page_size=50&{fields}")
+        for j in d["data"]:
+            dd, mm, yy = j["published"]["date"].split("-")  # "02-10-2026"
+            out.append(job(j["title"], j["company"]["display_name"], j["addresses"].get("sort_addresses", ""), "VN",
+                           j["detail_url"], "TopDev", f"{yy}-{mm}-{dd}", logo=j["company"].get("image_logo") or "",
+                           tags=[t for t in (j.get("skills_str") or "").split(", ") if t], hint=j.get("job_levels_str")))
+        if page >= d["meta"]["last_page"]:
+            break
+    return out
+
+
+def glints():
+    logo = "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/"
+    out = []
+    for page in range(1, PAGES + 1):
+        d = next_data(f"https://glints.com/vn/opportunities/jobs/explore?keyword=data&country=VN&page={page}")["initialJobs"]
+        for j in d["jobsInPage"]:
+            loc = j.get("location") or {}
+            sal = (j.get("salaries") or [{}])[0] if j.get("shouldShowSalary") else {}
+            out.append(job(j["title"], j["company"]["name"], ((loc.get("parents") or [{}])[0].get("name") or loc.get("name", "")), "VN",
+                           f"https://glints.com/vn/opportunities/jobs/{slugify(j['title'])}/{j['id']}", "Glints", day(j["updatedAt"]),
+                           logo=logo + j["company"]["logo"] if j["company"].get("logo") else "",
+                           salary=amount(sal.get("minAmount"), sal.get("maxAmount"), sal.get("CurrencyCode") or "VND"), years=j.get("minYearsOfExperience") or 0))
+        if not d.get("hasMore"):
+            break
     return out
 
 
@@ -524,6 +566,35 @@ def be():
     return out
 
 
+def vnpt():
+    out, seen = [], set()
+    for page in range(1, 15):
+        added = 0
+        for c in soup("https://tuyendung.vnpt.vn/viec-lam/tat-ca-viec-lam" + (f"/p{page}" if page > 1 else "") + ".html").select(".result-item"):
+            a = c.select_one("a[title]")
+            if a["href"] in seen:
+                continue
+            seen.add(a["href"])
+            added += 1
+            unit = text(c, ".div-department") or "VNPT"  # đơn vị tuyển: "Công ty VNPT AI", "Tổng công ty Hạ tầng mạng"
+            out.append(job(a["title"], unit if "VNPT" in unit else f"{unit} (VNPT)", text(c, ".div-location"), "VN", a["href"], COMPANY_SOURCE, TODAY))
+        if not added:  # hết trang
+            break
+    return out
+
+
+def nashtech():
+    """API mà trang jobs-finder tự gọi (POST, không cần tham số). Tin ở nhiều nước → chỉ giữ Việt Nam."""
+    out = []
+    for j in get_json("https://careers.nashtechglobal.com/wp-json/ntc/job/get/v2", {}):
+        tax = lambda kind: [t["name"] for t in j.get("taxonomy") or [] if t["taxonomy"] == kind]
+        loc = ", ".join(tax("location"))
+        if "vietnam" in loc.lower():
+            out.append(job(j["post_title"], "NashTech", loc.replace(" - Vietnam", ""), "VN", j["post_permalink"], COMPANY_SOURCE,
+                           j["post_date"][:10], tags=tax("competency")))
+    return out
+
+
 # ngân hàng, chứng khoán, ví điện tử
 
 def dmy(s):
@@ -597,7 +668,27 @@ def vnpay():
     return out
 
 
-SOURCES = [vietnamworks, careerviet, linkedin, ybox, companies, vng, momo, be, seabank, vietinbank, msb, ssi, tcbs, vnpay]
+SOURCES = [vietnamworks, careerviet, linkedin, ybox, topdev, glints, companies, vng, momo, be, vnpt, nashtech, seabank, vietinbank, msb, ssi, tcbs, vnpay]
+
+
+# ---------- Logo ----------
+LOGOS = Path(__file__).parent / "logos"
+
+
+def add_logos(jobs, known=()):
+    """Tin chưa có logo (trang tuyển dụng của công ty không kèm logo): dùng file logos/<tên công ty không dấu>.png;
+    tên file cũng có thể là một cụm trong tên công ty (logos/vnpt.png dùng cho "Công ty VNPT AI").
+    Không có file thì mượn logo của tin khác cùng tên công ty, kể cả ở file json kia (known)."""
+    stems = sorted((f.stem for f in LOGOS.glob("*.png")), key=len, reverse=True)  # cụm dài khớp trước
+    by_company = {j["company"].lower(): j["logo"] for j in [*known, *jobs] if j.get("logo") and j.get("company")}
+    for j in jobs:
+        if j.get("logo") or not j.get("company"):
+            continue
+        slug = slugify(j["company"])
+        stem = next((f for f in stems if re.search(rf"(?:^|-){re.escape(f)}(?:-|$)", slug)), None)
+        if logo := (stem and f"logos/{stem}.png") or by_company.get(j["company"].lower()):
+            j["logo"] = logo
+    return jobs
 
 
 def merge(old, new, today=TODAY):
@@ -643,7 +734,7 @@ def run(sources, path):
     # sửa bộ lọc / cách ghi lương thì job cũ cũng được lọc, quy đổi lại; chỉ giữ việc làm ở Việt Nam
     old = [{**j, "salary": vnd(j.get("salary"))} for j in load(path) if is_data_job(j["title"]) and j.get("region") == "VN"]
     old = [{k: v for k, v in j.items() if v != ""} for j in old]  # lương rỗng thì bỏ trường, như job()
-    jobs = merge(old, new)
+    jobs = add_logos(merge(old, new), known=load(LOGOS.parent / "jobs.json") + load(LOGOS.parent / "local.json"))
     save(path, jobs)
     print(f"Tổng: {len(jobs)} job")
     return broken + FAILED_COMPANIES

@@ -31,7 +31,8 @@
     font: 100%/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
     -webkit-font-smoothing: antialiased;
   }
-  .wrap { padding: 0 clamp(16px, 3vw, 40px); } /* giãn hết chiều ngang, lưới tự thêm cột */
+  :root { --gutter: clamp(16px, 3vw, 40px); }
+  .wrap { padding: 0 var(--gutter); } /* giãn hết chiều ngang, lưới tự thêm cột */
 
   /* Tiêu đề lớn: chữ to thì tracking âm, leading chặt (chừa chỗ cho dấu tiếng Việt) */
   .hero { padding-top: 56px; padding-bottom: 20px; }
@@ -47,8 +48,15 @@
     background: var(--bar); box-shadow: 0 1px 0 var(--line);
     -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px);
   }
-  .controls { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; grid-template-areas: "q level source"; gap: 8px; }
-  .search { grid-area: q; } [name=level] { grid-area: level; } [name=source] { grid-area: source; }
+  .controls { display: grid; gap: 8px; }
+  /* bộ lọc: một hàng dưới ô tìm kiếm; màn hình hẹp thì vuốt ngang, tràn tới mép màn hình */
+  .filters {
+    display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none;
+    margin: -4px calc(-1 * var(--gutter)); padding: 4px var(--gutter); /* chừa chỗ cho viền focus */
+  }
+  .filters::-webkit-scrollbar { display: none; }
+  .filters select { flex: 1 0 auto; height: 40px; }
+  .filters select.on { border-color: var(--accent); color: var(--accent); font-weight: 600; } /* bộ lọc đang chọn */
   input, select {
     font: inherit; font-size: 1rem; color: var(--text); background: var(--card);
     border: 1px solid var(--line); border-radius: 10px; height: 44px; padding: 0 12px; min-width: 0;
@@ -163,7 +171,6 @@
 
   @media (max-width: 640px) {
     .hero { padding-top: 32px; }
-    .controls { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); grid-template-areas: "q q" "level source"; }
   }
   @media (prefers-reduced-motion: reduce) { .bar, .card { transition: none; } .card:active { transform: none; } }
   @media (prefers-reduced-transparency: reduce) {
@@ -187,12 +194,13 @@
       <input name="q" type="search" placeholder="Tìm vị trí, công ty, kỹ năng…" aria-label="Tìm kiếm" enterkeyhint="search" spellcheck="false">
       <kbd>/</kbd>
     </label>
-    <select name="level" aria-label="Kinh nghiệm">
-      <option value="">Mọi kinh nghiệm</option>
-    </select>
-    <select name="source" aria-label="Nguồn">
-      <option value="">Mọi nguồn</option>
-    </select>
+    <div class="filters">
+      <select name="salary" aria-label="Mức lương"><option value="">Mọi mức lương</option></select>
+      <select name="province" aria-label="Tỉnh thành"><option value="">Mọi tỉnh thành</option></select>
+      <select name="posted" aria-label="Thời điểm đăng"><option value="">Mọi thời điểm</option></select>
+      <select name="level" aria-label="Kinh nghiệm"><option value="">Mọi kinh nghiệm</option></select>
+      <select name="source" aria-label="Nguồn"><option value="">Mọi nguồn</option></select>
+    </div>
   </div>
 </form>
 
@@ -217,8 +225,45 @@ const form = $("f"), qv = $("qv");
 // bỏ dấu để "du lieu" tìm được "dữ liệu"
 const norm = (s) => (s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/gi, "d").toLowerCase();
 const safeUrl = (u) => (/^https?:\/\//i.test(u) ? u : "#");
-const daysAgo = (d) => Math.round((Date.now() - new Date(d + "T00:00:00")) / 864e5);
+const today = new Date().setHours(0, 0, 0, 0);
+const daysAgo = (d) => Math.round((today - new Date(d + "T00:00:00")) / 864e5); // tính từ 0h hôm nay: sau 12h trưa tin hôm nay vẫn là "Hôm nay"
 const group = (n) => (n <= 0 ? "Hôm nay" : n === 1 ? "Hôm qua" : n < 7 ? "7 ngày qua" : "Cũ hơn");
+
+// ---------- Giá trị bộ lọc ----------
+// mức lương (triệu VNĐ/tháng): "thấp-cao", bỏ trống = không giới hạn; tt = Thỏa thuận
+const SALARY = { "-10": "Dưới 10 triệu", "10-20": "10 – 20 triệu", "20-30": "20 – 30 triệu", "30-50": "30 – 50 triệu", "50-": "Trên 50 triệu", tt: "Thỏa thuận" };
+const POSTED = { 0: "Hôm nay", 3: "3 ngày qua", 7: "7 ngày qua", 14: "14 ngày qua" }; // số ngày tính đến hôm nay
+// tên tỉnh (trước sáp nhập 2025, như các trang tuyển dụng vẫn ghi) + cách viết khác; tên không dấu tự khớp ("Ha Noi", "Hanoi")
+const PROVINCES = [
+  ["Hà Nội"], ["Hồ Chí Minh", "hcmc?|sai ?gon|thu duc"], ["Đà Nẵng"], ["Hải Phòng"], ["Cần Thơ"], ["Bình Dương"], ["Đồng Nai"],
+  ["Bắc Ninh"], ["Hưng Yên"], ["Hải Dương"], ["Vĩnh Phúc"], ["Bắc Giang"], ["Thái Nguyên"], ["Quảng Ninh"], ["Khánh Hòa", "nha trang"],
+  ["Bà Rịa - Vũng Tàu", "vung tau|ba ria"], ["Long An"], ["Tây Ninh"], ["Huế", "thua thien"], ["Nghệ An"], ["Thanh Hóa"], ["Lâm Đồng", "da lat"],
+  ["Đắk Lắk", "buon ma thuot"], ["Gia Lai"], ["Bình Định", "quy nhon"], ["Quảng Nam"], ["Quảng Ngãi"], ["Bình Thuận"], ["Phú Yên"], ["Hà Nam"],
+  ["Nam Định"], ["Ninh Bình"], ["Thái Bình"], ["Phú Thọ"], ["Lào Cai"], ["Hà Tĩnh"], ["Quảng Bình"], ["Quảng Trị"], ["Kiên Giang"],
+  ["An Giang"], ["Tiền Giang"], ["Bến Tre"], ["Đồng Tháp"], ["Vĩnh Long"], ["Trà Vinh"], ["Sóc Trăng"], ["Cà Mau"], ["Bạc Liêu"],
+  ["Hậu Giang"], ["Bình Phước"], ["Kon Tum"], ["Đắk Nông"], ["Làm từ xa", "remote|wfh|work from home"],
+].map(([name, alias]) => {
+  const base = norm(name).split(/[^a-z]+/).filter(Boolean).join(" ?");
+  return [name, new RegExp(`\\b(?:${base}${alias ? `|${alias}` : ""})\\b`)];
+});
+const provinces = (j) => PROVINCES.filter(([, re]) => re.test(norm(j.location))).map(([name]) => name);
+
+// "≈18–31 triệu" → [18, 31], "Đến 30 triệu" → [0, 30], "Từ 20 triệu" → [20, ∞], "Thỏa thuận" → "tt", không ghi → null
+function salaryRange(s) {
+  if (!s) return null;
+  const n = (s.match(/\d+(?:,\d+)?/g) || []).map((x) => parseFloat(x.replace(",", ".")));
+  if (!n.length) return "tt";
+  if (s.startsWith("Đến")) return [0, n[0]];
+  if (s.startsWith("Từ")) return [n[0], Infinity];
+  return [n[0], n[1] ?? n[0]];
+}
+// khoảng lương của tin giao với mức đã chọn ("15–25 triệu" thuộc cả 10–20 và 20–30)
+function salaryIn(range, key) {
+  if (key === "tt" || range === "tt") return key === range;
+  if (!range) return false;
+  const [lo, hi] = key.split("-").map((x, i) => (x ? +x : i ? Infinity : 0));
+  return range[0] < hi && Math.max(range[1], range[0] + 0.01) > lo;
+}
 
 // giống Mail: hôm nay / hôm qua / thứ trong tuần / ngày tháng
 function when(j) {
@@ -242,7 +287,7 @@ function link(cls, text, url) {
 function logo(j) {
   const box = el("span", "logo");
   const mono = () => { box.classList.add("mono"); box.textContent = [...(j.company || j.source).trim()][0]?.toUpperCase() || "?"; };
-  if (!/^https:\/\//.test(j.logo || "")) { mono(); return box; }
+  if (!/^(https:\/\/|logos\/)/.test(j.logo || "")) { mono(); return box; } // logos/: logo lưu trong repo
   const img = el("img");
   img.alt = ""; img.loading = "lazy"; img.decoding = "async"; img.referrerPolicy = "no-referrer";
   img.onerror = mono; // ảnh hỏng/chặn hotlink → chữ cái đầu
@@ -391,6 +436,9 @@ function render(s) {
   const words = norm(s.q).split(/\s+/).filter(Boolean);
   const active = Object.values(s).some(Boolean);
   const shown = jobs.filter((j) =>
+    (!s.salary || salaryIn(j._salary, s.salary)) &&
+    (!s.province || j._provinces.includes(s.province)) &&
+    (!s.posted || j._days <= +s.posted) &&
     (!s.level || j.level?.includes(s.level)) &&
     (!s.source || j.source === s.source) &&
     words.every((w) => j._search.includes(w)));
@@ -425,6 +473,7 @@ function update() {
   const s = Object.fromEntries(new FormData(form));
   const qs = new URLSearchParams(Object.entries(s).filter(([, v]) => v)).toString();
   history.replaceState(null, "", qs ? `?${qs}` : location.pathname);
+  for (const sel of form.querySelectorAll("select")) sel.classList.toggle("on", !!sel.value);
   render(s);
 }
 
@@ -456,7 +505,7 @@ new IntersectionObserver(([e]) => form.classList.toggle("stuck", e.intersectionR
   { threshold: 1, rootMargin: "-1px 0px 0px 0px" }).observe(form);
 
 (async () => {
-  // jobs.json: bot GitHub; local.json: máy cá nhân (nguồn chặn máy chủ GitHub hoặc cần trình duyệt)
+  // jobs.json: bot GitHub; local.json: máy cá nhân (nguồn chặn máy chủ GitHub)
   const [main, local] = await Promise.all([loadJson("jobs.json"), loadJson("local.json")]);
   if (!main && location.protocol === "file:") {
     // trình duyệt chặn fetch() khi mở file trực tiếp (file:///)
@@ -474,13 +523,19 @@ new IntersectionObserver(([e]) => form.classList.toggle("stuck", e.intersectionR
     .sort((a, b) => b.date.localeCompare(a.date))
     .map((j) => {
       const d = daysAgo(j.date);
-      return { ...j, _days: d, _group: group(d), _search: norm([j.title, j.company, j.location, j.source, levelText(j), ...(j.tags || [])].join(" ")) };
+      return { ...j, _days: d, _group: group(d), _salary: salaryRange(j.salary), _provinces: provinces(j),
+               _search: norm([j.title, j.company, j.location, j.source, levelText(j), ...(j.tags || [])].join(" ")) };
     });
 
-  const counts = {};
-  for (const j of jobs) for (const k of [j.source, ...(j.level || [])]) counts[k] = (counts[k] || 0) + 1;
-  for (const [k, label] of Object.entries(LEVELS)) form.level.append(new Option(`${label} · ${counts[k] || 0}`, k));
-  for (const s of [...new Set(jobs.map((j) => j.source))].sort()) form.source.append(new Option(`${s} · ${counts[s]}`, s));
+  const options = (sel, entries) => sel.append(...entries.map(([v, label]) => new Option(label, v)));
+  options(form.salary, Object.entries(SALARY));
+  options(form.posted, Object.entries(POSTED));
+  options(form.level, Object.entries(LEVELS));
+  options(form.source, [...new Set(jobs.map((j) => j.source))].sort().map((s) => [s, s]));
+  // tỉnh có trong dữ liệu, nhiều tin xếp trước (Hà Nội, Hồ Chí Minh...)
+  const freq = {};
+  for (const j of jobs) for (const p of j._provinces) freq[p] = (freq[p] || 0) + 1;
+  options(form.province, Object.keys(freq).sort((a, b) => freq[b] - freq[a]).map((p) => [p, p]));
 
   $("sub").textContent = `${jobs.length.toLocaleString("vi-VN")} việc làm ngành data tại Việt Nam.`;
   const updated = [main?.updated, local?.updated].filter(Boolean).sort().at(-1);
@@ -492,8 +547,8 @@ new IntersectionObserver(([e]) => form.classList.toggle("stuck", e.intersectionR
   }
 
   const params = new URLSearchParams(location.search);
-  for (const k of ["q", "level", "source"]) if (params.get(k)) form.elements[k].value = params.get(k);
-  for (const sel of [form.level, form.source]) if (sel.selectedIndex < 0) sel.selectedIndex = 0;
+  for (const [k, v] of params) if (form.elements[k]) form.elements[k].value = v;
+  for (const sel of form.querySelectorAll("select")) if (sel.selectedIndex < 0) sel.selectedIndex = 0; // giá trị trên link không còn
 
   form.addEventListener("input", update);
   update();
