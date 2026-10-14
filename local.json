@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T16:22+00:00",
+ "updated": "2026-10-14T18:00+00:00",
  "jobs": [
   {
    "title": "Analytics Engineer (Data Engineer, Data Analyst)",
@@ -1247,7 +1247,6 @@
    "date": "2026-10-13",
    "logo": "https://cdn1.vieclam24h.vn/images/employer_avatar/2025/03/27/Logo_Trường_Đại_học_Kinh_tế_–_Tài_chính_Thành_phố_Hồ_Chí_Minh_174309237346.png?v=220513",
    "desc": "Mô tả công việc: - Xây dựng và duy trì các pipeline dữ liệu (ETL – Extract, Transform, Load) để thu thập, xử lý và lưu trữ dữ liệu học tập, hành chính từ các nguồn khác nhau của trường (như hệ thống LMS, cơ sở dữ liệu sinh viên). - Tích hợp dữ liệu từ các hệ thống hiện có, đảm bảo dữ liệu sạch, đáng tin cậy và sẵn sàng cho phân tích hoặc ứng dụng AI. - Hỗ trợ phát triển cơ sở hạ tầng dữ liệu, bao…",
-   "location": "",
    "skills": [
     "ETL",
     "AWS",
@@ -1260,7 +1259,8 @@
     "Airflow",
     "SQL",
     "NoSQL"
-   ]
+   ],
+   "location": ""
   },
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu",
@@ -3701,68 +3701,6 @@
     "Python"
    ],
    "desc": "I. MÔ TẢ CÔNG VIỆC Phân tích báo cáo tài chính, doanh thu, chi phí, lợi nhuận, dòng tiền và hiệu quả từng mảng kinh doanh (actual và plan).. Xây dựng dashboard và báo cáo quản trị phục vụ Ban Tổng Giám đốc và các quyết định vận hành – chiến lược. Đối soát dữ liệu với Kế toán, Sales, Vận hành và các đơn vị kinh doanh để đảm bảo số liệu chính xác, nhất quán. Số hóa quy trình báo cáo, chuẩn hóa dữ…"
-  },
-  {
-   "title": "Remote Data Engineer - AI Data Platform Japan (Python)",
-   "company": "SalesNow Co., Ltd.",
-   "location": "Ha Noi - Da Nang - Ho Chi Minh",
-   "region": "VN",
-   "url": "https://itviec.com/it-jobs/remote-data-engineer-ai-data-platform-japan-python-salesnow-co-ltd-5911",
-   "source": "ITviec",
-   "date": "2026-09-14",
-   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzM4Njg1OCwicHVyIjoiYmxvYl9pZCJ9fQ==--210c1ca607a34991123d520bc5ec1d1f07089cc6/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--38cf628da18014271cd7a04458be413e21f554ca/logomark.jpg",
-   "tags": [
-    "Python",
-    "Data Engineer",
-    "AI",
-    "AWS",
-    "SQL",
-    "JSON"
-   ],
-   "desc": "Top 3 Reasons To Join Us 100% remote—work from anywhere with flexible hours Claude Code MAX ($200/month) provided from Day 1 Build pipelines for 8B data points—largest in SEA The Job ＜Vì sao có vị trí này＞ Thời kỳ doanh thu tăng tỷ lệ thuận với số lượng nhân sự đã kết thúc. Khi lực lượng lao động thu hẹp, mỗi người cần tạo ra nhiều giá trị hơn. SalesNow đã tái thiết kế tổ chức của chính mình trên…",
-   "skills": [
-    "Python",
-    "Airflow",
-    "Databricks",
-    "dbt",
-    "SQL",
-    "NoSQL",
-    "LLM / GenAI",
-    "Git",
-    "Tiếng Nhật",
-    "Scala",
-    "Spark",
-    "AWS",
-    "Machine Learning",
-    "Tiếng Anh"
-   ]
-  },
-  {
-   "title": "Business Analyst/ Data Analyst",
-   "company": "Seven System Vietnam",
-   "location": "Ho Chi Minh",
-   "region": "VN",
-   "url": "https://itviec.com/it-jobs/business-analyst-data-analyst-seven-system-vietnam-4804",
-   "source": "ITviec",
-   "date": "2026-09-14",
-   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mjk0MjQ4OSwicHVyIjoiYmxvYl9pZCJ9fQ==--6fdf3c3abe578cb8a97e1a18dd8b978b3cc29096/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--38cf628da18014271cd7a04458be413e21f554ca/Logo%20vu%C3%B4ng%20up%20FB,%20LInkdin.jpg",
-   "tags": [
-    "Business Analysis",
-    "JavaScript",
-    "C#",
-    "Java",
-    "Python",
-    "Data Analysis"
-   ],
-   "desc": "Top 3 Reasons To Join Us Flexible Working Hours and Environment Support 50% to buy a new MacBook Annual Leave 15-18days, PVI Care personal & family The Job MỤC ĐÍCH CÔNG VIỆC: Chuyên viên phân tích hỗ trợ vận hành phải có kiến thức và kinh nghiệm để quản lý các dự án dữ liệu lớn, phức tạp, xác định xu hướng, thực hiện các phân tích định tính và định lượng đáng tin cậy, đồng thời giúp phát triển…",
-   "skills": [
-    "Superset",
-    "Power BI",
-    "Looker",
-    "Python",
-    "Java",
-    "Pandas"
-   ]
   }
  ],
  "rejected": [
