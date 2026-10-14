@@ -85,7 +85,11 @@ def get(url, body=None):
     """Scrapling giả lập Chrome tới cả dấu vân tay TLS (không chỉ header) → Cloudflare của TopCV, JobsGo... không coi là bot.
     body: dict → gửi POST JSON."""
     headers = {"Accept-Language": "vi-VN,vi;q=0.9,en;q=0.8"}
-    r = Fetcher.get(url, headers=headers) if body is None else Fetcher.post(url, json=body, headers=headers)
+    for wait in (30, 90, 0):  # 429 = gửi quá nhiều request (LinkedIn hay chặn IP máy chủ GitHub) → chờ rồi thử lại
+        r = Fetcher.get(url, headers=headers) if body is None else Fetcher.post(url, json=body, headers=headers)
+        if r.status != 429 or not wait:
+            break
+        time.sleep(wait)
     if r.status >= 400:
         raise urllib.error.HTTPError(url, r.status, r.reason, None, None)
     return r.body.decode("utf-8")
@@ -208,6 +212,10 @@ def careerviet():
     return out
 
 
+class RateLimited(Exception):
+    """Nguồn tạm thời chặn vì gửi quá nhiều request: không tính là hỏng (workflow không báo đỏ), tin cũ vẫn giữ, lần chạy sau thử lại."""
+
+
 def linkedin():
     """API công khai của LinkedIn Jobs, không cần đăng nhập."""
     out = []
@@ -216,8 +224,10 @@ def linkedin():
         try:
             cards = soup(f"https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?{q}").select("div.base-search-card")
         except urllib.error.HTTPError as e:
-            if e.code != 429 or not out:
+            if e.code != 429:
                 raise
+            if not out:
+                raise RateLimited("429 Too Many Requests") from e
             break  # bị giới hạn tốc độ giữa chừng → giữ các trang đã lấy được
         for c in cards:
             job_id = c.get("data-entity-urn", "").rsplit(":", 1)[-1]
@@ -625,6 +635,8 @@ def run(sources, path):
             if not raw:  # 0 kết quả thô = trang đổi giao diện hoặc chặn
                 broken.append(src.__name__)
             new += found
+        except RateLimited as e:
+            print(f"{src.__name__}: tạm bị chặn ({e}), bỏ qua lần này")
         except Exception as e:
             print(f"{src.__name__}: LỖI {e!r}")
             broken.append(src.__name__)
