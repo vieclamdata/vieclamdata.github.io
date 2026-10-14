@@ -1,6 +1,156 @@
 {
- "updated": "2026-10-13T16:12+00:00",
+ "updated": "2026-10-14T12:02+00:00",
  "jobs": [
+  {
+   "title": "Analytics Engineer (Data Engineer, Data Analyst)",
+   "company": "AMANOTES",
+   "location": "Ho Chi Minh",
+   "region": "VN",
+   "url": "https://itviec.com/it-jobs/analytics-engineer-data-engineer-data-analyst-amanotes-4528",
+   "source": "ITviec",
+   "date": "2026-10-14",
+   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODk1MzEyLCJwdXIiOiJibG9iX2lkIn19--987f6b9854567bf38be146668d9fbee456acb6d4/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/amanotes-logo.png",
+   "tags": [
+    "Data Analysis",
+    "DBT",
+    "SQL",
+    "Data Engineer"
+   ]
+  },
+  {
+   "title": "[HCM] [Urgent] Middle/Senior Data Scientist",
+   "company": "MTI TECHNOLOGY",
+   "location": "Ho Chi Minh",
+   "region": "VN",
+   "url": "https://itviec.com/it-jobs/hcm-urgent-middle-senior-data-scientist-mti-technology-2354",
+   "source": "ITviec",
+   "date": "2026-10-14",
+   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODk4ODk2LCJwdXIiOiJibG9iX2lkIn19--3a38e8f7f9558b9b4699494ba9bef4deeed61264/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/mti-technology-logo.png",
+   "tags": [
+    "Data Science",
+    "Python",
+    "NLP",
+    "English"
+   ],
+   "level": [
+    "mid",
+    "senior"
+   ]
+  },
+  {
+   "title": "Audit Data Analytics Specialist - ID11908",
+   "company": "Ngân Hàng TMCP Việt Nam Thịnh Vượng (VPBank)",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.topcv.vn/viec-lam/audit-data-analytics-specialist-id11908/2323527.html",
+   "source": "TopCV",
+   "date": "2026-10-14",
+   "logo": "https://cdn-new.topcv.vn/unsafe/150x/https://static.topcv.vn/company_logos/6a6045f2e94271784694258.png",
+   "salary": "Thỏa thuận"
+  },
+  {
+   "title": "Data Analyst (Dự Án AI LLM)",
+   "company": "CÔNG TY TNHH MỘT THÀNH VIÊN AN NINH MẠNG VIETTEL",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.topcv.vn/viec-lam/data-analyst-du-an-ai-llm/2330683.html",
+   "source": "TopCV",
+   "date": "2026-10-14",
+   "logo": "https://cdn-new.topcv.vn/unsafe/150x/https://static.topcv.vn/company_logos/6864ae2d6e8cc1751428653.jpg",
+   "salary": "Thỏa thuận"
+  },
+  {
+   "title": "Data Engineer (Dự Án AI_LLM)",
+   "company": "CÔNG TY TNHH MỘT THÀNH VIÊN AN NINH MẠNG VIETTEL",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.topcv.vn/viec-lam/data-engineer-du-an-ai-llm/2330646.html",
+   "source": "TopCV",
+   "date": "2026-10-14",
+   "logo": "https://cdn-new.topcv.vn/unsafe/150x/https://static.topcv.vn/company_logos/6864ae2d6e8cc1751428653.jpg",
+   "salary": "Thỏa thuận"
+  },
+  {
+   "title": "Chuyên Gia Phân Tích Dữ Liệu Khách Hàng Và Đánh Giá Hiệu Quả",
+   "company": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN SSI",
+   "location": "Quận Hoàn Kiếm, Hà Nội",
+   "region": "VN",
+   "url": "https://topdev.vn/detail-jobs/chuyen-gia-phan-tich-du-lieu-khach-hang-va-danh-gia-hieu-qua-cong-ty-co-phan-chung-khoan-ssi-2138456",
+   "source": "TopDev",
+   "date": "2026-10-14",
+   "logo": "https://assets.saramin.vn/images/2020/07/16/8614acd1b479ea05203284af7ac90c0b-Eofqs.PNG",
+   "tags": [
+    "Data analysis"
+   ],
+   "level": [
+    "senior"
+   ]
+  },
+  {
+   "title": "Thực Tập Sinh Trade Marketing Thị Trường (Thu Thập Data)",
+   "company": "Công Ty Cổ Phần Giáo Dục Và Đào Tạo IMAP Việt Nam",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.careerlink.vn/tim-viec-lam/thuc-tap-sinh-trade-marketing-thi-truong-thu-thap-data/3650107",
+   "source": "CareerLink",
+   "date": "2026-10-14",
+   "logo": "https://static.careerlink.vn/image/f67adfa9f0227d9e7ce64357220a41ae",
+   "salary": "5–10 triệu",
+   "level": [
+    "intern"
+   ]
+  },
+  {
+   "title": "Data Engineer_Hanoi",
+   "company": "Công ty TNHH Diksha Technologies",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/data-engineer-hanoi/b0a98b6a-61b9-42dd-85cd-6dce17c65d05",
+   "source": "Glints",
+   "date": "2026-10-14",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/45bb223cb75a6a0e8c496a4b70197a9d.png",
+   "level": [
+    "mid"
+   ]
+  },
+  {
+   "title": "Finance & Data Specialist",
+   "company": "MindX Technology School",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/finance-data-specialist/88edd0d4-a88e-4e06-9fd9-418d8b2c0f07",
+   "source": "Glints",
+   "date": "2026-10-14",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/00a4c36ddd451d4da6e9b0c889462233.jpg",
+   "salary": "25–30 triệu",
+   "level": [
+    "junior"
+   ]
+  },
+  {
+   "title": "Finance & Data Senior",
+   "company": "MindX Technology School",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/finance-data-senior/75bf0d7c-ce0b-47a1-bf6b-3028f5e16643",
+   "source": "Glints",
+   "date": "2026-10-14",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/00a4c36ddd451d4da6e9b0c889462233.jpg",
+   "salary": "15–30 triệu",
+   "level": [
+    "senior"
+   ]
+  },
+  {
+   "title": "Nhân viên vận hành dữ liệu thể thao",
+   "company": "Unity Sport",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/nhan-vien-van-hanh-du-lieu-the-thao/d4d15770-d55b-4da3-b959-5b8bd685715a",
+   "source": "Glints",
+   "date": "2026-10-14",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/692c938d3bfc4627701ee77199d8af01.png"
+  },
   {
    "title": "Data Governance Expert",
    "company": "MB Life",
@@ -548,7 +698,6 @@
   {
    "title": "Data Analytics Executive / Supervisor",
    "company": "Cty Tài Chính TNHH MTV Mirae Asset (Việt Nam)",
-   "location": "",
    "region": "VN",
    "url": "https://vieclam24h.vn/tai-chinh-dau-tu-chung-khoan/data-analytics-executive-supervisor-c18p210000187id200963617.html",
    "source": "Vieclam24h",
@@ -672,6 +821,16 @@
    "date": "2026-10-13"
   },
   {
+   "title": "Data Analytics Executive",
+   "company": "Cty Tài Chính TNHH MTV Mirae Asset (Việt Nam)",
+   "location": "",
+   "region": "VN",
+   "url": "https://vieclam24h.vn/tai-chinh-dau-tu-chung-khoan/data-analytics-executive-c18p210000187id200963617.html",
+   "source": "Vieclam24h",
+   "date": "2026-10-13",
+   "logo": "https://cdn1.vieclam24h.vn/images/employer_avatar/2026/01/29/logo-mafc_176965256983.jpg?v=220513"
+  },
+  {
    "title": "Senior/Expert Data Architect (Database, ETL/ELT)",
    "company": "ABBANK",
    "location": "Ha Noi",
@@ -682,11 +841,11 @@
    "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzA0NDc2OCwicHVyIjoiYmxvYl9pZCJ9fQ==--58852c6ffb6b5f4d6aa11d51a36133557ea29c4b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/ABB_CoreID_RGB.png",
    "tags": [
     "Data Warehousing",
+    "Business Intelligence",
+    "Oracle",
     "ELT",
     "ETL",
-    "Database",
-    "Business Intelligence",
-    "Oracle"
+    "Database"
    ],
    "level": [
     "senior"
@@ -778,10 +937,10 @@
    "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTA1NjA0MCwicHVyIjoiYmxvYl9pZCJ9fQ==--35f533ea0a57f09826c9242a7a1e56233f65ecf4/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/Logo%20PNG.png",
    "tags": [
     "SQL",
-    "Data Warehousing",
-    "ETL",
     "Python",
-    "Apache Spark"
+    "Apache Spark",
+    "Data Warehousing",
+    "ETL"
    ]
   },
   {
@@ -902,10 +1061,10 @@
    "tags": [
     "LLM",
     "Agentic AI",
+    "SQL",
     "AI",
     "Python",
-    "NLP",
-    "SQL"
+    "NLP"
    ],
    "level": [
     "senior"
@@ -1427,10 +1586,10 @@
    "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Nzk2OTE3LCJwdXIiOiJibG9iX2lkIn19--42042283032f344a3ffed30ab486ee4c70ad0c99/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/imip-technology-and-solution-consultancy-logo.png",
    "tags": [
     "Data Engineer",
-    "Apache Spark",
     "Business Intelligence",
     "CI/CD",
-    "Kubernetes"
+    "Kubernetes",
+    "Apache Spark"
    ],
    "level": [
     "mid"
@@ -1615,11 +1774,11 @@
    "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODAwOTYyLCJwdXIiOiJibG9iX2lkIn19--31b7543fdd412ec3614f60fca48acc056343da93/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/pvcombank-logo.png",
    "tags": [
     "Python",
-    "Data Lineage",
     "Data Quality Tools",
     "Database",
     "PL/SQL",
-    "SQL"
+    "SQL",
+    "Data Lineage"
    ]
   },
   {
