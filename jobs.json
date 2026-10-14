@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T17:07+00:00",
+ "updated": "2026-10-14T21:40+00:00",
  "jobs": [
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu",
@@ -2777,11 +2777,13 @@
    "date": "2026-10-08",
    "logo": "https://images.vietnamworks.com/pictureofcompany/9c/11125788.png",
    "salary": "Thỏa thuận",
-   "desc": "Mục tiêu: Quản lý báo cáo xử lý tín dụng/ Chi phí rủi ro/ tình trạng chuyển tiếp các nhóm nợ có hiệu quả. Phân tích và hỗ trợ Khối để đảm bảo các hoạt động Thu Hồi Nợ đạt hiệu quả cao nhất. 1. Phân bổ chỉ tiêu: Lập kế hoạch phân bổ KPI hàng tháng...",
+   "desc": "Mục tiêu: Quản lý báo cáo xử lý tín dụng/ Chi phí rủi ro/ tình trạng chuyển tiếp các nhóm nợ có hiệu quả. Phân tích và hỗ trợ Khối để đảm bảo các hoạt động Thu Hồi Nợ đạt hiệu quả cao nhất. 1. Phân bổ chỉ tiêu: Lập kế hoạch phân bổ KPI hàng tháng... Tốt nghiệp Đại học, chuyên ngành toán tin, thống kê, kinh tế, CNTT hoặc liên quan Từ 3 năm kinh nghiệm tại các vị trí Phân tích dữ liệu, báo cáo,…",
    "level": [
     "senior"
    ],
-   "skills": []
+   "skills": [
+    "Thống kê"
+   ]
   },
   {
    "title": "Senior Data Scientist – VoiceAI",
@@ -3285,7 +3287,7 @@
    "date": "2026-10-07",
    "logo": "https://images.vietnamworks.com/pictureofcompany/3a/11220612.png",
    "salary": "17–25 triệu",
-   "desc": "- Xây dựng và phát triển sản phẩm AI: - Nghiên cứu, thiết kế và phát triển các tính năng ứng dụng trí tuệ nhân tạo cho các sản phẩm giáo dục của Smartcom (chấm điểm tự động, luyện nói – phát âm, chatbot/trợ lý học tập, cá nhân hóa lộ trình học). - Xây dựng...",
+   "desc": "- Xây dựng và phát triển sản phẩm AI: - Nghiên cứu, thiết kế và phát triển các tính năng ứng dụng trí tuệ nhân tạo cho các sản phẩm giáo dục của Smartcom (chấm điểm tự động, luyện nói – phát âm, chatbot/trợ lý học tập, cá nhân hóa lộ trình học). - Xây dựng... - Kinh nghiệm: - Tốt nghiệp đại học các ngành Công nghệ thông tin, Khoa học máy tính, Khoa học dữ liệu, Toán – Tin hoặc tương đương. - Có…",
    "level": [
     "mid"
    ],
@@ -5722,7 +5724,20 @@
    "logo": "logos/vpbank.png",
    "skills": [
     "Thống kê",
-    "Machine Learning"
+    "Machine Learning",
+    "Deep Learning",
+    "LLM / GenAI",
+    "Python",
+    "Pandas",
+    "Scikit-learn",
+    "TensorFlow",
+    "PyTorch",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Databricks",
+    "SQL",
+    "Excel"
    ]
   },
   {
