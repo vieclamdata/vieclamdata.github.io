@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T16:55+00:00",
+ "updated": "2026-10-15T21:21+00:00",
  "jobs": [
   {
    "title": "Manager, Business Intelligence & Analytics",
@@ -4787,6 +4787,27 @@
    ],
    "logo": "logos/nashtech.png",
    "skills": []
+  },
+  {
+   "title": "Senior Officer, Data Translator (50000281)",
+   "company": "Techcombank",
+   "location": "TP. Ha Noi",
+   "region": "VN",
+   "url": "https://www.techcombankjobs.com/job/TP_-Ha-Noi-Senior-Officer%2C-Data-Translator-%2850000281%29/55937144/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-05",
+   "desc": "Job Purpose '- The job holder will be responsible for conducting in gathering, research, analyzing business, process and data requirements to arrive at comprehensive solutions. - The job holder will be responsible for exploring a variety of company systems, company data platforms and analytical tools to provide timely, meaningful and consumable information to internal stakeholders as well as the…",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "SQL",
+    "Data Warehouse",
+    "AWS",
+    "Azure",
+    "GCP"
+   ],
+   "logo": "logos/techcombank.png"
   },
   {
    "title": "Risk Management Data Analytics Expert – ID9106",
