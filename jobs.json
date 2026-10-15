@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T04:31+00:00",
+ "updated": "2026-10-15T11:24+00:00",
  "jobs": [
   {
    "title": "Manager, Business Intelligence & Analytics",
@@ -18,6 +18,167 @@
    "skills": [
     "Thống kê"
    ]
+  },
+  {
+   "title": "Head of Data Science",
+   "company": "Navigos Search's Client",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/head-of-data-science-4-2120061-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-15",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/22/11234686.png",
+   "salary": "Thỏa thuận",
+   "desc": "Mục đích công việc: Tham mưu, giúp việc cho Ban Giám đốc Trung tâm trong công tác tối ưu hóa việc sử dụng dữ liệu trong ngân hàng; xác định các sáng kiến đổi mới sáng tạo để tăng giá trị và hiệu quả kinh doanh, đồng thời đánh giá dữ liệu để xác định... Yêu cầu về trình độ và kinh nghiệm làm việc 1. Trình độ: - Trình độ chuyên môn: Trình độ từ Đại học trở lên chuyên ngành khoa học dữ liệu, khoa…",
+   "level": [
+    "lead"
+   ],
+   "skills": []
+  },
+  {
+   "title": "Specialist, Business Intelligence & Process Automation",
+   "company": "DKSH Vietnam Co., Ltd.",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/specialist-business-intelligence-process-automation-1792047892709998624-2119877-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-15",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/93/11125407.png",
+   "salary": "18–22 triệu",
+   "desc": "Process Automation Build, deploy, and maintain end-to-end automation workflows using Power Automate (Desktop & Cloud) and Python Identify automation opportunities and implement scalable solutions in collaboration with Business, Operations, and IT teams to drive efficiency and productivity. Troubleshoot, monitor, and continuously optimize workflows, proposing innovative approaches to enhance…",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Python",
+    "SQL",
+    "Power BI",
+    "Data Modeling"
+   ]
+  },
+  {
+   "title": "Senior Data Analyst",
+   "company": "Central Retail in Vietnam",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4478867187",
+   "source": "LinkedIn",
+   "date": "2026-10-15",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFfEFb0Sh1nlA/company-logo_100_100/B4EZ.pVAedHAAM-/0/1785252284604?e=2147483647&v=beta&t=EZQlQpO4yT2uw_6jgSukrVQq4dyi3eYsGIN6Nc1DKJQ",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "SQL",
+    "Python",
+    "R",
+    "Thống kê",
+    "Data Warehouse",
+    "Redshift",
+    "ETL",
+    "Data Modeling"
+   ],
+   "desc": "KEY RESPONSIBILITIES 1. Customer Intelligence & Advanced Analytics Develop and manage the roadmap for customer data foundations, customer profiling, segmentation, and analytical modelling aligned with business priorities. Build customer analytics solutions, including predictive models, propensity scores, behavioral segments, and inferred customer attributes. Continuously enhance segmentation…"
+  },
+  {
+   "title": "Nhân Viên Nhập Và Xử Lý Dữ Liệu Tiếng Anh",
+   "company": "Công Ty CENNEXT",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://ybox.vn/tuyen-dung/hn-cong-ty-cennext-tuyen-dung-nhan-vien-nhap-va-xu-ly-du-lieu-tieng-anh-full-time-2026-6ad01ec7616c2042f039524d",
+   "source": "Ybox",
+   "date": "2026-10-15",
+   "logo": "https://static.ybox.vn/2024/10/2/1727769397444-CenNext.jpg",
+   "desc": "Được thành lập vào năm 2013, Cennext Co., Ltd là một công ty chuyên về Dịch vụ xử lý dữ liệu từ xa trong lĩnh vực Thương mại điện tử (dịch thuật, quản lý website, facebook, chỉnh s",
+   "skills": [
+    "Tiếng Anh"
+   ]
+  },
+  {
+   "title": "Finance Data Analyst",
+   "company": "CÔNG TY TNHH PERSOLKELLY VIỆT NAM",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/finance-data-analyst/f5102c68-c435-45f7-8ba5-94db242ec67a",
+   "source": "Glints",
+   "date": "2026-10-15",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/35d0c6dd1301686c376a97a30df91d77.png",
+   "salary": "14–19 triệu",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Excel",
+    "Power BI",
+    "SQL",
+    "Python",
+    "Thống kê",
+    "Tableau"
+   ],
+   "desc": "Job Description Prepare accurate and timely financial reports (monthly, quarterly, and annual statements). Collect, consolidate, and validate financial data from multiple departments and systems. Assist in coordinating financial planning activities and preparing executive summaries for management and stakeholders. Support the development of automated reports and interactive dashboards to convert…"
+  },
+  {
+   "title": "Data Catalog",
+   "company": "VIB",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://careers.vib.com.vn/careers/job/34565/data-catalog",
+   "source": "Trang công ty",
+   "date": "2026-10-15",
+   "desc": "Mô tả công việc: Chịu trách nhiệm phát triển và duy trì danh mục dữ liệu, đảm bảo các tài sản dữ liệu được tổ chức hợp lý, dễ truy cập và được quản lý hiệu quả theo các khung quản trị và tiêu chuẩn chính sách của VIB. Vai trò này đòi hỏi hiểu biết sâu sắc và vững chắc về các nguyên tắc quản lý dữ liệu, siêu dữ liệu và các thực hành quản trị dữ liệu. 1. Xây dựng, duy trì và cập nhật danh mục dữ…",
+   "skills": [
+    "Thống kê",
+    "Informatica",
+    "Tiếng Anh"
+   ],
+   "logo": "logos/vib.png"
+  },
+  {
+   "title": "Data Operation",
+   "company": "VIB",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://careers.vib.com.vn/careers/job/34564/data-operation",
+   "source": "Trang công ty",
+   "date": "2026-10-15",
+   "desc": "Responsibilities: Responsible for (i) Operating data systems (Data Lake/Data Warehouse/ Datamart/ Lakehouse) as required; (ii) Operating data processing systems, reporting systems; (iii) Reviewing, improving and supporting testing of data processing flows, reporting, and supporting ITSM systems; (iv) Implementing changes in the Production environment, performing DRP on systems as required; (v)…",
+   "skills": [
+    "Data Warehouse",
+    "ETL",
+    "Kafka",
+    "Java",
+    "SQL",
+    "Python",
+    "NoSQL",
+    "Redshift",
+    "Spark",
+    "AWS",
+    "Power BI",
+    "Tableau",
+    "Airflow"
+   ],
+   "logo": "logos/vib.png"
+  },
+  {
+   "title": "Business Intelligence (BI)",
+   "company": "VIB",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://careers.vib.com.vn/careers/job/34563/business-intelligence-bi",
+   "source": "Trang công ty",
+   "date": "2026-10-15",
+   "desc": "Mô tả công việc: Chịu trách nhiệm:(i) trực quan hóa và phân tích dữ liệu nhằm cung cấp thông tin kịp thời, hỗ trợ theo dõi KPI và ra quyết định chiến lược;(ii) đóng vai trò đối tác tư vấn dữ liệu cho các phòng ban, hỗ trợ xác định chỉ số thành công và đồng hành trong các sáng kiến kinh doanh;(iii) thúc đẩy văn hóa sử dụng dữ liệu thông qua đào tạo, hướng dẫn và chia sẻ kiến thức;(iv) phối hợp xây…",
+   "skills": [
+    "Power BI",
+    "Tableau",
+    "Data Modeling",
+    "Thống kê",
+    "SQL",
+    "Python",
+    "Data Warehouse",
+    "Git"
+   ],
+   "logo": "logos/vib.png"
   },
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu",
@@ -2390,6 +2551,26 @@
    "desc": "NHÂN VIÊN PHÒNG DỮ LIỆU Công ty 100% vốn đầu tư của Nhật Địa điểm: KCN Long Đức – Đồng Nai Có xe đưa đón từ công viên Tam Hiệp – Biên Hòa. 1. Mô tả công việc: Quản lý dữ liệu nhập. Nhận tài liệu, thông số kỹ thuật từ công ty mẹ qua mail, Teams, chat... và truyền đạt xuống các phòng ban. Lấy dữ liệu từ bảng thiết kế nhập vào hệ thống để bộ phận thiết kế sử dụng. Thời gian đầu nhận việc sẽ được đào…"
   },
   {
+   "title": "Senior AI Engineer",
+   "company": "Trường Đại học VinUni",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/senior-ai-engineer-2118443-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-12",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/d5/10894078.png",
+   "salary": "Thỏa thuận",
+   "desc": "ABOUT VINUNIVERSITY VinUniversity (VinUni) is Vietnam’s first private, not-for-profit university established to international standards, with the vision of becoming one of the world’s top 100 universities. Guided by its core values (EXCEL) of Empathy, Creativity, Leadership Mindset, Exceptional Capability, and Entrepreneurial Spirit, VinUni develops talent equipped to create meaningful impact in…",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Excel",
+    "Python",
+    "Java"
+   ]
+  },
+  {
    "title": "Senior Officer, Data Translator (50000281)",
    "company": "Techcombank",
    "location": "TP. Ha Noi",
@@ -2814,6 +2995,19 @@
     "SQL"
    ],
    "desc": "JOB DESCRIPTION Position : DATA ANALYST Quantity : 02 ( 1 senior English - 1 Middle) Type : Full-time Location : 5nd Floor, TTC Building, No.19 Duy Tan St., Dich Vong Hau Ward, Cau Giay Dist,. Hanoi Capital, Vietnam. ABOUT US  Astek is a global player in engineering and technology consulting, founded in France in 1988. Today, we are +7500 engineers across over 30 countries in the world.  With…"
+  },
+  {
+   "title": "Chuyên Viên Phân Tích Dữ Liệu - Data Analyst",
+   "company": "CTCP Tập Đoàn Phượng Hoàng Xanh A&A",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/chuyen-vien-phan-tich-du-lieu-data-analyst--2117744-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-09",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/ec/11129453.png",
+   "salary": "≈18–26 triệu",
+   "desc": "Thực hiện những dự án nghiên cứu về các thị trường khác nhau trong nước và quốc tế - với mục tiêu phục vụ những ngành nghề và lĩnh vực kinh doanh chính của tập đoàn. Các nhiệm vụ chính trong đó bao gồm: - Thực hiện nghiên cứu tại bàn (Desk Research), tổng hợp... - Tốt nghiệp đại học chuyên ngành Kinh tế, Marketing, quản trị kinh doanh, thương mại quốc tế... - Quen thuộc với các phương pháp nghiên…",
+   "skills": []
   },
   {
    "title": "Chuyên Viên Kế Toán Quản Trị Và Phân Tích Dữ Liệu",
@@ -3295,12 +3489,13 @@
    "date": "2026-10-07",
    "logo": "https://images.vietnamworks.com/pictureofcompany/89/11125541.png",
    "salary": "Thỏa thuận",
-   "desc": "Các trách nhiệm chính Chịu trách nhiệm phát triển, thực thi các giải pháp Phân tích Dữ liệu Kiểm toán (ADA), tự động hóa kịch bản kiểm tra và ứng dụng AI/Machine Learning nhằm chuyển đổi phương pháp kiểm toán từ chọn mẫu truyền thống sang rà soát 100% tổng thể dữ liệu. Vị trí này...",
+   "desc": "Các trách nhiệm chính Chịu trách nhiệm phát triển, thực thi các giải pháp Phân tích Dữ liệu Kiểm toán (ADA), tự động hóa kịch bản kiểm tra và ứng dụng AI/Machine Learning nhằm chuyển đổi phương pháp kiểm toán từ chọn mẫu truyền thống sang rà soát 100% tổng thể dữ liệu. Vị trí này... Các yêu cầu công việc A. Trình độ học vấn & Bằng cấp Tốt nghiệp Đại học trở lên chuyên ngành Khoa học dữ liệu,…",
    "level": [
     "mid"
    ],
    "skills": [
-    "Machine Learning"
+    "Machine Learning",
+    "Thống kê"
    ]
   },
   {
@@ -3562,11 +3757,14 @@
    "source": "VietnamWorks",
    "date": "2026-10-07",
    "salary": "Đến 14 triệu",
-   "desc": "1. Phân tích, phát triển báo cáo tuyển sinh: - Báo cáo phân tích các phễu tuyển sinh - Báo cáo theo dõi phân tích chỉ số chăm sóc - Báo cáo phân tích theo từng nguồn chỉ định…. Từ đó đưa ra các đề xuất, hành động kịp thời để thúc đẩy tuyển sinh hiệu quả 2. Xây dựng và tối ưu hóa...",
+   "desc": "1. Phân tích, phát triển báo cáo tuyển sinh: - Báo cáo phân tích các phễu tuyển sinh - Báo cáo theo dõi phân tích chỉ số chăm sóc - Báo cáo phân tích theo từng nguồn chỉ định…. Từ đó đưa ra các đề xuất, hành động kịp thời để thúc đẩy tuyển sinh hiệu quả 2. Xây dựng và tối ưu hóa... - Tốt nghiệp Đại học trở lên - Có 2 năm kinh nghiệm, Ưu tiên có kinh nghiệm làm hệ thống báo cáo đa cơ sở hoặc ngành…",
    "level": [
     "mid"
    ],
-   "skills": []
+   "skills": [
+    "Excel",
+    "VBA"
+   ]
   },
   {
    "title": "Chuyên viên Phân tích Dữ liệu",
@@ -4096,6 +4294,28 @@
    ],
    "logo": "logos/vpbank.png",
    "skills": []
+  },
+  {
+   "title": "CV/CVC/CVCC AI Engineer",
+   "company": "VietinBank",
+   "location": "Thành phố Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vietinbank.vn/tuyendung/thong-tin-tuyen-dung/TSC202610661T00761",
+   "source": "Trang công ty",
+   "date": "2026-10-06",
+   "skills": [],
+   "logo": "logos/vietinbank.png"
+  },
+  {
+   "title": "CV/CVC/CVCC Data Scientist",
+   "company": "VietinBank",
+   "location": "Thành phố Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vietinbank.vn/tuyendung/thong-tin-tuyen-dung/TSC202610661T00760",
+   "source": "Trang công ty",
+   "date": "2026-10-06",
+   "skills": [],
+   "logo": "logos/vietinbank.png"
   },
   {
    "title": "Unit Head Of Fraud Analytics",
@@ -6654,9 +6874,12 @@
    "date": "2026-09-24",
    "logo": "https://images.vietnamworks.com/pictureofcompany/39/11008164.png",
    "salary": "Thỏa thuận",
-   "desc": "- Nghiên cứu, đánh giá và đề xuất các giải pháp AI, Data & Automation phù hợp với nhu cầu vận hành, quản trị và kinh doanh. - Trực tiếp xây dựng, thử nghiệm và triển khai các ứng dụng AI; tích hợp các nền tảng OpenAI, Gemini, Claude/LLM với hệ thống và dữ liệu...",
+   "desc": "- Nghiên cứu, đánh giá và đề xuất các giải pháp AI, Data & Automation phù hợp với nhu cầu vận hành, quản trị và kinh doanh. - Trực tiếp xây dựng, thử nghiệm và triển khai các ứng dụng AI; tích hợp các nền tảng OpenAI, Gemini, Claude/LLM với hệ thống và dữ liệu... - Tốt nghiệp Đại học trở lên chuyên ngành CNTT, Khoa học máy tính, Data Science, AI, Software Engineering hoặc liên quan. - Tối thiểu 3…",
    "skills": [
     "LLM / GenAI"
+   ],
+   "level": [
+    "senior"
    ]
   },
   {
@@ -8266,6 +8489,7 @@
   "https://www.linkedin.com/jobs/view/4475527711",
   "https://www.linkedin.com/jobs/view/4477516496",
   "https://www.linkedin.com/jobs/view/4477969859",
+  "https://www.linkedin.com/jobs/view/4478838496",
   "https://www.vietnamworks.com/accommodation-material-trainee-1790678846495293506-2113266-jv",
   "https://www.vietnamworks.com/accommodation-trainee-1790679015465772928-2113273-jv",
   "https://www.vietnamworks.com/aeon-future-leader-quan-tri-vien-tap-su-1790055049222356870-2110044-jv",
