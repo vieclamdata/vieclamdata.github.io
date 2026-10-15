@@ -1,6 +1,156 @@
 {
- "updated": "2026-10-14T18:00+00:00",
+ "updated": "2026-10-15T12:00+00:00",
  "jobs": [
+  {
+   "title": "Junior Data Analyst (Python, SQL, R, Git)",
+   "company": "AI+DI",
+   "location": "Ho Chi Minh",
+   "region": "VN",
+   "url": "https://itviec.com/it-jobs/junior-data-analyst-python-sql-r-git-ai-di-1012",
+   "source": "ITviec",
+   "date": "2026-10-15",
+   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjQxNzA4NCwicHVyIjoiYmxvYl9pZCJ9fQ==--75fa39e6fd94b63ce0841f32413006d868d5d4bd/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/Screenshot%202025-07-23%20at%2014.08.35.png",
+   "tags": [
+    "Data Analysis",
+    "R",
+    "Git",
+    "Python",
+    "SQL"
+   ],
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Python",
+    "SQL",
+    "R",
+    "Git",
+    "Thống kê",
+    "Tiếng Anh",
+    "Airflow",
+    "dbt",
+    "Docker"
+   ],
+   "desc": "Top 3 Reasons To Join Us Clear career growth, competitive pay & benefits Build a product that inspires balance and growth Top engineering team - Unique AI + I Ching project The Job Chúng tôi xây dựng hạ tầng đo lường và chứng nhận kết quả phát triển con người, với mục tiêu để những cải thiện thật sự trong đời sống con người trở thành thứ có thể kiểm chứng và tài trợ được. Nhóm Dữ liệu và Đo lường…"
+  },
+  {
+   "title": "PowerBI (Business Intelligence) [Hà Nội] - Thu Nhập Lên Tới 30 Triệu, Yêu Cầu Từ 4 Năm Kinh Nghiệm",
+   "company": "CÔNG TY CỔ PHẦN PICO RETAIL",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.topcv.vn/viec-lam/powerbi-business-intelligence-ha-noi-thu-nhap-len-toi-30-trieu-yeu-cau-tu-4-nam-kinh-nghiem/2330254.html",
+   "source": "TopCV",
+   "date": "2026-10-15",
+   "logo": "https://cdn-new.topcv.vn/unsafe/150x/https://static.topcv.vn/company_logos/43ce975539dfe82e33beb53b5560af0c-664c15638823c.jpg",
+   "salary": "20–30 triệu",
+   "skills": [
+    "Power BI",
+    "Superset",
+    "ETL",
+    "NoSQL",
+    "SQL",
+    "Python",
+    "Airflow",
+    "Excel",
+    "Data Warehouse",
+    "Thống kê"
+   ],
+   "desc": "Mô tả công việc 1. Phân tích dữ liệu nghiệp vụ (Data Analytics) Thu thập, phân tích và chuẩn hóa yêu cầu báo cáo từ Ban lãnh đạo và các phòng ban: Kinh doanh, Kế toán, Kho vận, Chăm sóc khách hàng và Vận hành cửa hàng. Phân tích dữ liệu bán hàng, doanh thu, lợi nhuận, tồn kho, khách hàng, sản phẩm và hiệu quả hoạt động của từng cửa hàng, khu vực. Xây dựng bộ chỉ số KPI phục vụ quản trị và đánh…"
+  },
+  {
+   "title": "Chuyên viên AI & Data Platform",
+   "company": "Công ty CP Trung tâm Hội chợ Triển lãm Việt Nam",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.careerlink.vn/tim-viec-lam/chuyen-vien-ai-data-platform/3650410",
+   "source": "CareerLink",
+   "date": "2026-10-15",
+   "logo": "https://blob-careerlinkvn.careerlink.vn/company_logos/59d8b8f0fcf74830e038cfe1a72e1fa9.png",
+   "salary": "Thỏa thuận",
+   "skills": [
+    "Data Warehouse",
+    "ETL",
+    "Machine Learning",
+    "SQL",
+    "Python",
+    "LLM / GenAI"
+   ],
+   "desc": "1. Xây dựng nền tảng dữ liệu · Xây dựng và vận hành Data Lake, Data Warehouse và mô hình dữ liệu dùng chung của VEC. · Xây dựng, duy trì luồng nạp dữ liệu (ETL/ELT) từ các hệ thống nguồn theo lịch và theo sự kiện. · Quản lý quản trị dữ liệu (Data Governance), chất lượng dữ liệu và phân quyền truy cập theo đúng quy định bảo mật. · Xây dựng và duy trì bộ chỉ số KPI, dashboard vận hành cho Ban lãnh…"
+  },
+  {
+   "title": "Nhân viên Data Quản lý Công cụ Dụng cụ",
+   "company": "Công Ty TNHH Thương Mại - Dịch Vụ Xuất Nhập Khẩu 3S",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://jobsgo.vn/viec-lam/nhan-vien-data-quan-ly-cong-cu-dung-cu-29117436121.html",
+   "source": "JobsGo",
+   "date": "2026-10-15",
+   "logo": "https://media.jobsgo.vn/media/img/employer/146380-200x200.jpg?v=1772854959",
+   "salary": "Thỏa thuận",
+   "skills": [
+    "Excel",
+    "Thống kê"
+   ],
+   "desc": "Mô tả công việc - Tiếp nhận phiếu giao – nhận – trả rổ, thùng xốp, công cụ dụng cụ từ: Tài xế sau khi giao hàng, Bảo vệ tại bãi xe/bãi rổ, Nhân viên kho / khách hàng gửi lại. - Nhập liệu chính xác các số liệu vào hệ thống hoặc bảng Excel theo từng: Loại công cụ (rổ, thùng xốp, xe đẩy, pallet,...), Đơn vị nhận/trả (tài xế, khách hàng, kho, nhà xe thuê ngoài), Thời gian nhận – trả – hoàn. - Đối…"
+  },
+  {
+   "title": "Nhân Viên Quản Lý Dữ Liệu / Master Data Staff",
+   "company": "Công Ty Cổ Phần Dược Liệu Trung Ương 2",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://jobsgo.vn/viec-lam/nhan-vien-quan-ly-du-lieu-master-data-staff-29355421675.html",
+   "source": "JobsGo",
+   "date": "2026-10-15",
+   "logo": "https://media.jobsgo.vn/media/img/employer/51323-200x200.jpg?v=1617847724",
+   "salary": "Thỏa thuận",
+   "skills": [
+    "Excel"
+   ],
+   "desc": "Mô tả công việc - Đảm bảo dữ liệu nền tảng của doanh nghiệp chính xác, đầy đủ và nhất quán trên các hệ thống, hỗ trợ hoạt động vận hành, báo cáo và phân tích của các phòng ban. - Quản lý giá bán & dữ liệu thầu bệnh viện trên ERP - Thiết lập và cập nhật các điều kiện giá đặc biệt trên hệ thống ERP. - Cập nhật đầy đủ kết quả trúng thầu trên SAP, đảm bảo dữ liệu chính xác theo cam kết với khách…"
+  },
+  {
+   "title": "Chuyên Viên Phân Tích Dữ Liệu (Data Analyst)",
+   "company": "Công Ty Trách Nhiệm Hữu Hạn Clickzen",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://jobsgo.vn/viec-lam/chuyen-vien-phan-tich-du-lieu-data-analyst-29346703957.html",
+   "source": "JobsGo",
+   "date": "2026-10-15",
+   "logo": "https://media.jobsgo.vn/media/img/employer/609653-200x200.jpg?v=1792038482",
+   "salary": "Thỏa thuận",
+   "skills": [
+    "Thống kê",
+    "Excel",
+    "SQL",
+    "Power BI",
+    "Looker",
+    "Tableau",
+    "Google Analytics",
+    "Python"
+   ],
+   "desc": "Mô tả công việc - Thu thập, tổng hợp và phân tích dữ liệu từ website, hệ thống thống kê và các công cụ đo lường. - Làm sạch, chuẩn hóa và kiểm tra chất lượng dữ liệu. - Phân tích hành vi truy cập, nguồn traffic, mức độ tương tác và tỷ lệ người dùng quay lại. - Xây dựng dashboard, báo cáo trực quan phục vụ công tác quản lý và đánh giá hiệu quả. - Phối hợp với bộ phận SEO và Marketing phân tích…"
+  },
+  {
+   "title": "Data Analyst",
+   "company": "Công Ty Cổ Phần Mh Digital",
+   "location": "",
+   "region": "VN",
+   "url": "https://vieclam24h.vn/it-phan-mem/data-analyst-c8p210000160id200961652.html",
+   "source": "Vieclam24h",
+   "date": "2026-10-15",
+   "logo": "https://cdn1.vieclam24h.vn/images/default/2026/01/15/img-1768465327295_176846532699.png?v=220513",
+   "salary": "10–15 triệu",
+   "skills": [
+    "SQL",
+    "Data Warehouse",
+    "Excel",
+    "Power BI",
+    "Python",
+    "Superset",
+    "Tiếng Anh"
+   ],
+   "desc": "Mô tả công việc: - Vận hành và quản trị hệ thống cơ sở dữ liệu sẵn có, thực hiện thu thập, làm sạch và xử lý dữ liệu từ nhiều nguồn khác nhau. - Viết truy vấn SQL để khai thác, tổng hợp dữ liệu và phối hợp với các bộ phận liên quan để triển khai phân tích yêu cầu kinh doanh. - Duy trì các báo cáo hiện có, đồng thời tham gia phát triển và nâng cấp hệ thống Data Warehouse. - Xây dựng, thiết kế báo…"
+  },
   {
    "title": "Analytics Engineer (Data Engineer, Data Analyst)",
    "company": "AMANOTES",
@@ -785,7 +935,7 @@
    "source": "TopCV",
    "date": "2026-10-13",
    "logo": "https://cdn-new.topcv.vn/unsafe/150x/https://static.topcv.vn/company_logos/cong-ty-co-phan-cong-nghe-kiotviet-64085ad510ded.jpg",
-   "salary": "Thỏa thuận",
+   "salary": "25–40 triệu",
    "desc": "Mô tả công việc Design, implement and maintain the data pipelines that are scalable and reliable for KiotViet Data Platform. Design, implement and manage data warehouse, data marts that store and manage large volumes of data to meet the need of querying data and perform descriptive and predictive analytics. Collect, process, store and analyze our ever-growing customer data. Ensure data quality…",
    "skills": [
     "Data Warehouse",
@@ -1235,8 +1385,7 @@
     "Superset",
     "Tiếng Anh"
    ],
-   "desc": "Mô tả công việc: - Vận hành và quản trị hệ thống cơ sở dữ liệu sẵn có, thực hiện thu thập, làm sạch và xử lý dữ liệu từ nhiều nguồn khác nhau. - Viết truy vấn SQL để khai thác, tổng hợp dữ liệu và phối hợp với các bộ phận liên quan để triển khai phân tích yêu cầu kinh doanh. - Duy trì các báo cáo hiện có, đồng thời tham gia phát triển và nâng cấp hệ thống Data Warehouse. - Xây dựng, thiết kế báo…",
-   "location": ""
+   "desc": "Mô tả công việc: - Vận hành và quản trị hệ thống cơ sở dữ liệu sẵn có, thực hiện thu thập, làm sạch và xử lý dữ liệu từ nhiều nguồn khác nhau. - Viết truy vấn SQL để khai thác, tổng hợp dữ liệu và phối hợp với các bộ phận liên quan để triển khai phân tích yêu cầu kinh doanh. - Duy trì các báo cáo hiện có, đồng thời tham gia phát triển và nâng cấp hệ thống Data Warehouse. - Xây dựng, thiết kế báo…"
   },
   {
    "title": "Chuyên Viên Kỹ Thuật Dữ Liệu (Data Engineer)",
@@ -1450,10 +1599,10 @@
    "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjM1MzI1NSwicHVyIjoiYmxvYl9pZCJ9fQ==--ce13bc877c6ba6ce4f69b2dca684629e102ea643/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/Logo%20MB%20he%20mau%20RGB%2001.png",
    "tags": [
     "Security",
-    "Identity & Access Management",
-    "Cloud Security",
     "Information Security",
-    "Risk Management"
+    "Risk Management",
+    "Identity & Access Management",
+    "Cloud Security"
    ],
    "level": [
     "senior"
@@ -1559,10 +1708,10 @@
    "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTA1NjA0MCwicHVyIjoiYmxvYl9pZCJ9fQ==--35f533ea0a57f09826c9242a7a1e56233f65ecf4/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/Logo%20PNG.png",
    "tags": [
     "SQL",
-    "Python",
-    "Apache Spark",
     "Data Warehousing",
-    "ETL"
+    "ETL",
+    "Python",
+    "Apache Spark"
    ],
    "skills": [
     "SQL",
@@ -2570,10 +2719,10 @@
    "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Nzk2OTE3LCJwdXIiOiJibG9iX2lkIn19--42042283032f344a3ffed30ab486ee4c70ad0c99/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/imip-technology-and-solution-consultancy-logo.png",
    "tags": [
     "Data Engineer",
-    "Business Intelligence",
-    "CI/CD",
     "Kubernetes",
-    "Apache Spark"
+    "Apache Spark",
+    "Business Intelligence",
+    "CI/CD"
    ],
    "level": [
     "mid"
@@ -2821,11 +2970,11 @@
    "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODAwOTYyLCJwdXIiOiJibG9iX2lkIn19--31b7543fdd412ec3614f60fca48acc056343da93/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/pvcombank-logo.png",
    "tags": [
     "Python",
+    "Data Lineage",
     "Data Quality Tools",
     "Database",
     "PL/SQL",
-    "SQL",
-    "Data Lineage"
+    "SQL"
    ],
    "skills": [
     "SQL",
