@@ -1,6 +1,24 @@
 {
- "updated": "2026-10-14T21:40+00:00",
+ "updated": "2026-10-15T04:31+00:00",
  "jobs": [
+  {
+   "title": "Manager, Business Intelligence & Analytics",
+   "company": "Công Ty TNHH Dược Phẩm Gigamed",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/manager-business-intelligence-analytics-2104209-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-15",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/ae/11205617.png",
+   "salary": "Thỏa thuận",
+   "desc": "A. Phạm vi công việc: - Vị trí này chịu trách nhiệm dẫn dắt các hoạt động phân tích được lựa chọn, phát triển các công cụ và tiêu chuẩn chung, đồng thời chuyển đổi dữ liệu thị trường và dữ liệu nội bộ thành các khuyến nghị rõ ràng nhằm nâng cao chất... Trình độ học vấn: - Tốt nghiệp đại học chuyên ngành Quản trị Kinh doanh, Kinh tế, Dược, Khoa học Sự sống, Tài chính, Thống kê, Phân tích dữ liệu…",
+   "level": [
+    "lead"
+   ],
+   "skills": [
+    "Thống kê"
+   ]
+  },
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu",
    "company": "Công Ty Cổ Phần Tập Đoàn Hòa Phát",
@@ -866,6 +884,33 @@
    "date": "2026-10-14",
    "logo": "https://static.ybox.vn/2021/5/6/1620474211908-1572276296560-1569250393421-1567608769510-cazoodle.png",
    "desc": "Cazoodle là công ty công nghệ tập trung xây dựng và phát triển về công cụ tìm kiếm. Sản phấm chính là GrantForward, một công cụ tìm kiếm tài trợ cho học tập, nghiên cứu. Nhiệm vụ c",
+   "skills": []
+  },
+  {
+   "title": "Nhân Viên Điều Phối Xử Lý Dữ Liệu Trung Cấp",
+   "company": "Công Ty Nghiên Cứu Và Phát Triển Phần Mềm KROMLAB",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://ybox.vn/tuyen-dung/hcm-cong-ty-nghien-cuu-va-phat-trien-phan-mem-kromlab-tuyen-dung-nhan-vien-dieu-phoi-xu-ly-du-lieu-trung-cap-full-time-2026-6acf0b520dbe84346276014d",
+   "source": "Ybox",
+   "date": "2026-10-14",
+   "logo": "https://static.ybox.vn/2026/10/3/1791953231731-logobri.jpg",
+   "desc": "Inheriting from our former self - KromLab, BrillianceLab continues to be the Research & Development entity of XOMAD, one of the oldest influencer marketing agencies in the business",
+   "skills": []
+  },
+  {
+   "title": "Thực Tập Sinh/Cộng Tác Viên Quản Trị & Khai Thác Dữ Liệu",
+   "company": "Ngân Hàng Quốc Dân NCB",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://ybox.vn/tuyen-dung/hn-ngan-hang-quoc-dan-ncb-tuyen-dung-thuc-tap-sinh-cong-tac-vien-quan-tri-khai-thac-du-lieu-full-time-2026-6acf3fd5616c2042f0393202",
+   "source": "Ybox",
+   "date": "2026-10-14",
+   "logo": "https://static.ybox.vn/2020/4/6/1587806770627-ncb.jpg",
+   "desc": "NCB là Ngân hàng tư vấn tài chính tốt nhất VN năm 2025 do Tạp chi Global Banking & Finance Review bình chọn, Ngân hàng có môi trường làm việc tốt nhất VN năm 2025 do Tạp chí Intern",
+   "level": [
+    "intern"
+   ],
    "skills": []
   },
   {
@@ -2750,6 +2795,25 @@
    "skills": [
     "SQL"
    ]
+  },
+  {
+   "title": "Data Analyst",
+   "company": "Astek Vietnam",
+   "location": "Hanoi Capital Region",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4457754537",
+   "source": "LinkedIn",
+   "date": "2026-10-09",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQE_MNUiadaN_Q/company-logo_100_100/company-logo_100_100/0/1685084019433?e=2147483647&v=beta&t=MDx3-PzSwm62LjI7Gadn6Ta_WiOSnxPrm1OBCDU-9Vk",
+   "skills": [
+    "Power BI",
+    "Data Modeling",
+    "Tiếng Anh",
+    "Excel",
+    "Thống kê",
+    "SQL"
+   ],
+   "desc": "JOB DESCRIPTION Position : DATA ANALYST Quantity : 02 ( 1 senior English - 1 Middle) Type : Full-time Location : 5nd Floor, TTC Building, No.19 Duy Tan St., Dich Vong Hau Ward, Cau Giay Dist,. Hanoi Capital, Vietnam. ABOUT US  Astek is a global player in engineering and technology consulting, founded in France in 1988. Today, we are +7500 engineers across over 30 countries in the world.  With…"
   },
   {
    "title": "Chuyên Viên Kế Toán Quản Trị Và Phân Tích Dữ Liệu",
@@ -5496,6 +5560,24 @@
    "desc": "VỊ TRÍ TUYỂN DỤNG MÔ TẢ CÔNG VIỆC Quản lý, dẫn dắt và xây dựng đội ngũ Data Engineer, phân công công việc và định hướng phát triển chuyên môn cho các thành viên trong team. Xây dựng, vận hành và tối ưu data pipeline từ các sản phẩm app, game, web và hệ thống nội bộ. Thiết kế luồng xử lý dữ liệu theo mô hình ETL/ELT, đáp ứng nhu cầu batch hoặc near real-time processing. Đảm bảo hệ thống dữ liệu có…"
   },
   {
+   "title": "Nhân Viên IT Phần Mềm / Dữ Liệu (Chuỗi Siêu Thị)",
+   "company": "Công Ty TNHH Bán Lẻ Fujimart Việt Nam",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/nhan-vien-it-phan-mem-du-lieu-chuoi-sieu-thi-1790736407788308628-2113542-jv",
+   "source": "VietnamWorks",
+   "date": "2026-09-30",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/dc/11128388.png",
+   "salary": "Thỏa thuận",
+   "desc": "1 Quản trị CSDL và ứng dụng Quản lý bán lẻ - Quản trị Cơ sở dữ liệu SQL của ứng dụng Dsmart tại Fujimart (HO và các siêu thị thành viên) 2 Khai báo các thông tin đầu vào cho phần mềm quản lý bán lẻ - Thực hiện khai báo dữ liệu trên phần mềm quản lý... 1. Trình độ học vấn - Tốt nghiệp Đại học chuyên ngành Công nghệ thông tin hoặc Quản trị số liệu 2. Kinh nghiệm: - Có ít nhất 3 năm kinh nghiệm làm…",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "SQL"
+   ]
+  },
+  {
    "title": "HO - Data Lake Manager",
    "company": "Ngân Hàng TMCP Á Châu (ACB)",
    "location": "Hồ Chí Minh",
@@ -6478,6 +6560,27 @@
     "Looker"
    ],
    "desc": "Key roles and responsibilities include: Collecting, processing, and analyzing data from various sources to provide insights that support business decision-making. Their role includes creating reports and dashboards, ensuring data quality is accurate and complete. You will assist the team by delivering understandable analysis and results to help improve strategies and workflows. Additionally, Data…"
+  },
+  {
+   "title": "Data Engineer (Dong Nai/HCM)",
+   "company": "Amaris Consulting  | Part of Mantu",
+   "location": "Ho Chi Minh City Metropolitan Area",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4472050397",
+   "source": "LinkedIn",
+   "date": "2026-09-25",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQHsB8-V6fxAMA/company-logo_100_100/company-logo_100_100/0/1729584227309/amaris_logo?e=2147483647&v=beta&t=Gas7jHUA97blxh3l23UWbQ8ly62Bj0PZgTYzH66bTzo",
+   "skills": [
+    "Azure",
+    "Databricks",
+    "ETL",
+    "Data Modeling",
+    "Data Warehouse",
+    "Python",
+    "SQL",
+    "Scala"
+   ],
+   "desc": "Job Description Join Amaris Consulting as a Data Engineer within our Information System & Digital scope and contribute to the design, development, and optimization of cloud-based data solutions. In this role, you will build reliable data pipelines, support data transformation activities, and help deliver scalable data platforms using Azure technologies. Working location: Ho Chi Minh or Dong Nai…"
   },
   {
    "title": "Data Business Partner",
@@ -8153,123 +8256,6 @@
     "Python"
    ],
    "desc": "I. MÔ TẢ CÔNG VIỆC Phân tích báo cáo tài chính, doanh thu, chi phí, lợi nhuận, dòng tiền và hiệu quả từng mảng kinh doanh (actual và plan).. Xây dựng dashboard và báo cáo quản trị phục vụ Ban Tổng Giám đốc và các quyết định vận hành – chiến lược. Đối soát dữ liệu với Kế toán, Sales, Vận hành và các đơn vị kinh doanh để đảm bảo số liệu chính xác, nhất quán. Số hóa quy trình báo cáo, chuẩn hóa dữ…"
-  },
-  {
-   "title": "Phó Phòng Dữ Liệu Và Phân Tích [Hà Nội]",
-   "company": "Ngân hàng Lộc Phát Việt Nam LPBank",
-   "location": "Hà Nội",
-   "region": "VN",
-   "url": "https://www.vietnamworks.com/pho-phong-du-lieu-va-phan-tich-ha-noi-2106572-jv",
-   "source": "VietnamWorks",
-   "date": "2026-09-14",
-   "logo": "https://images.vietnamworks.com/pictureofcompany/13/11287997.png",
-   "salary": "Thỏa thuận",
-   "desc": "MÔ TẢ CÔNG VIỆC • Quản trị dữ liệu toàn hàng • Xây dựng hệ thống phân tích và khai thác dữ liệu • Giám sát và đảm bảo chất lượng dữ liệu • Quản lý kho dữ liệu chuyên đề và dịch vụ dữ liệu • Phát triển văn hóa dữ liệu và năng lực phân tích dữ...",
-   "level": [
-    "lead"
-   ],
-   "skills": [
-    "Data Warehouse"
-   ]
-  },
-  {
-   "title": "Remote Data Engineer - AI Data Platform Japan (Python)",
-   "company": "SalesNow Co., Ltd.",
-   "location": "Ha Noi - Da Nang - Ho Chi Minh",
-   "region": "VN",
-   "url": "https://itviec.com/it-jobs/remote-data-engineer-ai-data-platform-japan-python-salesnow-co-ltd-5911",
-   "source": "ITviec",
-   "date": "2026-09-14",
-   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzM4Njg1OCwicHVyIjoiYmxvYl9pZCJ9fQ==--210c1ca607a34991123d520bc5ec1d1f07089cc6/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--38cf628da18014271cd7a04458be413e21f554ca/logomark.jpg",
-   "tags": [
-    "Python",
-    "Data Engineer",
-    "AI",
-    "AWS",
-    "SQL",
-    "JSON"
-   ],
-   "desc": "Top 3 Reasons To Join Us 100% remote—work from anywhere with flexible hours Claude Code MAX ($200/month) provided from Day 1 Build pipelines for 8B data points—largest in SEA The Job ＜Vì sao có vị trí này＞ Thời kỳ doanh thu tăng tỷ lệ thuận với số lượng nhân sự đã kết thúc. Khi lực lượng lao động thu hẹp, mỗi người cần tạo ra nhiều giá trị hơn. SalesNow đã tái thiết kế tổ chức của chính mình trên…",
-   "skills": [
-    "Python",
-    "Airflow",
-    "Databricks",
-    "dbt",
-    "SQL",
-    "NoSQL",
-    "LLM / GenAI",
-    "Git",
-    "Tiếng Nhật",
-    "Scala",
-    "Spark",
-    "AWS",
-    "Machine Learning",
-    "Tiếng Anh"
-   ]
-  },
-  {
-   "title": "Business Analyst/ Data Analyst",
-   "company": "Seven System Vietnam",
-   "location": "Ho Chi Minh",
-   "region": "VN",
-   "url": "https://itviec.com/it-jobs/business-analyst-data-analyst-seven-system-vietnam-4804",
-   "source": "ITviec",
-   "date": "2026-09-14",
-   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mjk0MjQ4OSwicHVyIjoiYmxvYl9pZCJ9fQ==--6fdf3c3abe578cb8a97e1a18dd8b978b3cc29096/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--38cf628da18014271cd7a04458be413e21f554ca/Logo%20vu%C3%B4ng%20up%20FB,%20LInkdin.jpg",
-   "tags": [
-    "Business Analysis",
-    "JavaScript",
-    "C#",
-    "Java",
-    "Python",
-    "Data Analysis"
-   ],
-   "desc": "Top 3 Reasons To Join Us Flexible Working Hours and Environment Support 50% to buy a new MacBook Annual Leave 15-18days, PVI Care personal & family The Job MỤC ĐÍCH CÔNG VIỆC: Chuyên viên phân tích hỗ trợ vận hành phải có kiến thức và kinh nghiệm để quản lý các dự án dữ liệu lớn, phức tạp, xác định xu hướng, thực hiện các phân tích định tính và định lượng đáng tin cậy, đồng thời giúp phát triển…",
-   "skills": [
-    "Superset",
-    "Power BI",
-    "Looker",
-    "Python",
-    "Java",
-    "Pandas"
-   ]
-  },
-  {
-   "title": "Chuyên Viên Cao Cấp Kế Hoạch Tài Chính (Mảng Dữ Liệu)",
-   "company": "Ngân Hàng Thương Mại Cổ Phần Thịnh Vượng Và Phát Triển (PGBANK)",
-   "location": "Hà Nội",
-   "region": "VN",
-   "url": "https://www.vietnamworks.com/chuyen-vien-cao-cap-ke-hoach-tai-chinh-mang-du-lieu-2106767-jv",
-   "source": "VietnamWorks",
-   "date": "2026-09-14",
-   "logo": "https://images.vietnamworks.com/pictureofcompany/7a/11244436.png",
-   "salary": "Thỏa thuận",
-   "desc": "1. Xây dựng Cơ sở Dữ liệu: - Xây dựng cấu trúc dữ liệu SQL Server. - Thiết lập download dữ liệu tự động từ Database SQL Oracle của Ngân hàng. - Thiết lập download dữ liệu tự động từ các báo cáo trên BO (Trang web lưu dữ liệu của Ngân hàng). - Xây dựng các nguyên... - Tốt nghiệp đại học khối ngành Kinh Tế, chuyên ngành Kế Toán, Tài Chính, Kế Hoạch, Ngân Hàng, CNTT. - Có chứng chỉ CPA, ACCA hoặc…",
-   "level": [
-    "senior"
-   ],
-   "skills": [
-    "SQL"
-   ]
-  },
-  {
-   "title": "Analytics and Insights Manager",
-   "company": "P&G",
-   "location": "HO CHI MINH CITY OFFICE",
-   "region": "VN",
-   "url": "https://pg.wd5.myworkdayjobs.com/1000/job/HO-CHI-MINH-CITY-OFFICE/Analytics-and-Insights-Manager_R000154139",
-   "source": "Trang công ty",
-   "date": "2026-09-14",
-   "desc": "HO CHI MINH CITY OFFICE Trước khi gửi hồ sơ ứng tuyển, bạn cần đọc và hoàn tất THƯ THÔNG BÁO & BIỂU MẪU ĐỒNG Ý TRAO QUYỀN XỬ LÝ DỮ LIỆU CÁ NHÂN DÀNH CHO ỨNG VIÊN tại ĐÂY . P&G chỉ có thể tiếp tục xử lý hồ sơ ứng tuyển sau khi nhận được sự đồng ý theo yêu cầu. Nếu bạn không đồng ý, P&G sẽ không thể tiếp tục xử lý hoặc xem xét hồ sơ ứng tuyển của bạn cho vị trí này.…",
-   "level": [
-    "lead"
-   ],
-   "logo": "logos/p-g.png",
-   "skills": [
-    "Tiếng Anh",
-    "Power BI",
-    "Databricks"
-   ]
   }
  ],
  "rejected": [
