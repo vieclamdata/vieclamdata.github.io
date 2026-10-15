@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T11:24+00:00",
+ "updated": "2026-10-15T16:55+00:00",
  "jobs": [
   {
    "title": "Manager, Business Intelligence & Analytics",
@@ -179,6 +179,36 @@
     "Git"
    ],
    "logo": "logos/vib.png"
+  },
+  {
+   "title": "Công ty Cổ phần Tập đoàn Hòa Phát tuyển dụng chuyên viên phân tích dữ liệu",
+   "company": "Hoa Phat Group",
+   "location": "Hanoi",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4479110049",
+   "source": "LinkedIn",
+   "date": "2026-10-15",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQEq5VD0B1NKmQ/company-logo_100_100/company-logo_100_100/0/1644403164565/hoa_phat_group_logo?e=2147483647&v=beta&t=052Od5ZFFOzOQxb1LbzKnj4i-p1jXAM0dZnwB_vtGQw",
+   "skills": [
+    "Thống kê",
+    "Excel",
+    "SQL",
+    "Power BI",
+    "Data Modeling"
+   ],
+   "desc": "Công Ty Cổ Phần Tập Đoàn Hòa Phát Tuyển Dụng Vị Trí Thuộc Ban Công Nghệ Và Chuyển Đổi Số, Tham Gia Đề Án Trung Tâm Dữ Liệu Tập Trung Và Agentic AI, Chi Tiết Như Sau Vị trí tuyển dụng: 02 Chuyên viên Phân tích dữ liệu (Data Analyst) Yêu cầu Tốt nghiệp đại học chuyên ngành Thống kê, Toán ứng dụng, Hệ thống thông tin, Công nghệ thông tin hoặc các ngành liên quan. Có tối thiểu 02 năm kinh nghiệm làm…"
+  },
+  {
+   "title": "Trợ Giảng/Giảng Viên Phân Tích Dữ Liệu",
+   "company": "Công Ty Datapot Analytics Group",
+   "location": "Hà Nội, Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://ybox.vn/tuyen-dung/hn-hcm-cong-ty-datapot-analytics-group-tuyen-dung-tro-giang-giang-vien-phan-tich-du-lieu-part-time-2026-6ad05a655637854308e68142",
+   "source": "Ybox",
+   "date": "2026-10-15",
+   "logo": "https://static.ybox.vn/2022/8/2/1660038056982-Logo-Datapot-transparent-1024x336 (1).png",
+   "desc": "Mong muốn lớn nhất của chúng mình đó là mang phân tích dữ liệu đến gần hơn với mọi người, biến nó trở thành một kỹ năng giúp người trẻ có sự nghiệp vững mạnh! Trải qua 6 năm hình t",
+   "skills": []
   },
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu",
@@ -2761,7 +2791,7 @@
    "date": "2026-10-09",
    "logo": "https://images.vietnamworks.com/pictureofcompany/a1/11266673.png",
    "salary": "Thỏa thuận",
-   "desc": "- Thiết kế, xây dựng và hoàn thiện hệ thống báo cáo quản trị đa chiều, đảm bảo tính nhất quán, chính xác và khả năng khai thác phục vụ điều hành. - Phân tích dữ liệu kinh doanh, theo dõi hiệu quả TOI, lãi suất cho vay và các chỉ tiêu tài chính quan...",
+   "desc": "- Thiết kế, xây dựng và hoàn thiện hệ thống báo cáo quản trị đa chiều, đảm bảo tính nhất quán, chính xác và khả năng khai thác phục vụ điều hành. - Phân tích dữ liệu kinh doanh, theo dõi hiệu quả TOI, lãi suất cho vay và các chỉ tiêu tài chính quan... - Bằng cấp: Tốt nghiệp đại học trở lên (ưu tiên thạc sĩ) các ngành kinh tế, tài chính, ngân hàng, quản trị kinh doanh hoặc phân tích dữ liệu. -…",
    "level": [
     "senior"
    ],
@@ -6865,7 +6895,7 @@
    ]
   },
   {
-   "title": "Chuyên Viên Cao Cấp Data IT",
+   "title": "AI ENGINEER (DATA & AUTOMATION)",
    "company": "Elite Fitness",
    "location": "Hà Nội",
    "region": "VN",
@@ -6879,7 +6909,7 @@
     "LLM / GenAI"
    ],
    "level": [
-    "senior"
+    "mid"
    ]
   },
   {
@@ -8487,7 +8517,6 @@
   "https://tuyendung.vietabank.com.vn/vi/jobs/qzVYbq",
   "https://www.linkedin.com/jobs/view/4467346787",
   "https://www.linkedin.com/jobs/view/4475527711",
-  "https://www.linkedin.com/jobs/view/4477516496",
   "https://www.linkedin.com/jobs/view/4477969859",
   "https://www.linkedin.com/jobs/view/4478838496",
   "https://www.vietnamworks.com/accommodation-material-trainee-1790678846495293506-2113266-jv",
