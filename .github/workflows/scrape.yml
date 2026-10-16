@@ -28,8 +28,21 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
           cp jobs.json "$RUNNER_TEMP/new.json"
+          cp -r archive "$RUNNER_TEMP/archive"   # kho lần chạy này (có mô tả đầy đủ, dữ liệu gốc mà jobs.json không giữ)
           git checkout jobs.json
+          git checkout -- archive 2>/dev/null || true; git clean -fdq archive
           git pull --ff-only
-          python -c "import sys, scrape; scrape.save('jobs.json', scrape.merge(scrape.load('jobs.json'), scrape.load(sys.argv[1])), scrape.load(sys.argv[1], 'rejected'))" "$RUNNER_TEMP/new.json"
-          git add jobs.json
+          python -c "import sys, scrape; jobs = scrape.merge(scrape.load('jobs.json'), scrape.load(sys.argv[1])); scrape.save('jobs.json', jobs, scrape.load(sys.argv[1], 'rejected')); scrape.archive(scrape.archived('jobs', sys.argv[2]) + jobs, 'jobs')" "$RUNNER_TEMP/new.json" "$RUNNER_TEMP/archive"
+          git add jobs.json archive
           git diff --cached --quiet || (git commit -m "update jobs" && git push)
+      # cơ sở dữ liệu SQLite từ toàn bộ kho (cả archive/local-* của local.py), ghi đè lên Release "db":
+      # không commit file .db (git sẽ lưu lại cả file mỗi lần chạy → repo phình to), link tải cố định:
+      # https://github.com/<tổ chức>/<repo>/releases/download/db/archive.db
+      - if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python archive.py
+          gh release view db >/dev/null 2>&1 || gh release create db --title "Cơ sở dữ liệu việc làm (SQLite)" \
+            --notes "archive.db: mọi job từng thấy, cập nhật mỗi lần bot chạy. Cột và câu truy vấn mẫu: xem README, mục Kho lưu trữ."
+          gh release upload db archive.db --clobber

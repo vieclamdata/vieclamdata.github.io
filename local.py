@@ -36,7 +36,7 @@ def itviec():
             out.append(job(a.get_text(strip=True), text(c, 'a.text-rich-grey[href^="/companies"]'),
                            loc["title"] if loc else "", "VN", a["href"].split("?")[0], "ITviec", ago(c.get_text(" ")),
                            logo=img["data-src"] if img else "", salary="" if "sign in" in sal.lower() else sal,
-                           tags=[t.get_text(strip=True) for t in c.select("a.itag")]))
+                           tags=[t.get_text(strip=True) for t in c.select("a.itag")], raw=c))
     return out
 
 
@@ -52,7 +52,7 @@ def careerlink():
             out.append(job(a["title"], company["title"] if company else "", ", ".join(places), "VN",
                            urllib.parse.urljoin("https://www.careerlink.vn", a["href"].split("?")[0]), "CareerLink",
                            day(updated["data-datetime"]) if updated else TODAY,
-                           logo=img["src"] if img else "", salary=text(c, ".job-salary"), hint=text(c, ".job-position")))
+                           logo=img["src"] if img else "", salary=text(c, ".job-salary"), hint=text(c, ".job-position"), raw=c))
     return out
 
 
@@ -68,7 +68,7 @@ def vieclam24h():
                 e = j.get("employer_info") or {}
                 out.append(job(j["title"], e.get("name", ""), "", "VN", "https://vieclam24h.vn" + links[str(j["id"])], "Vieclam24h",
                                day(str(j.get("approved_at") or "")), logo=e.get("logo") or "",
-                               salary=amount(j.get("salary_min"), j.get("salary_max"))))
+                               salary=amount(j.get("salary_min"), j.get("salary_max")), raw=j))
     return out
 
 
@@ -81,7 +81,7 @@ def topcv():
             exp = re.search(r"(\d+) năm", text(c, ".item-tag"))  # "3 năm kinh nghiệm"
             out.append(job(a.get_text(strip=True), text(c, ".company-name"), text(c, ".city-text"), "VN", a["href"].split("?")[0],
                            "TopCV", ago(text(c, ".hidden-on-quick-view")), logo=(img.get("data-src") or img.get("src") or "") if img else "",
-                           salary=text(c, ".title-salary"), years=int(exp[1]) if exp else 0))
+                           salary=text(c, ".title-salary"), years=int(exp[1]) if exp else 0, raw=c))
     return out
 
 
@@ -93,14 +93,14 @@ def jobsgo():
             info = [s.get_text(strip=True) for s in c.select(".text-primary span") if s.get_text(strip=True) not in ("", "|")]  # [lương, nơi làm]
             img = c.select_one("img")
             out.append(job(a["title"], text(c, "a.company-title"), info[-1] if len(info) > 1 else "", "VN", a["href"].split("?")[0],
-                           "JobsGo", ago(c.get_text(" ")), logo=img["src"] if img else "", salary=info[0] if info else ""))
+                           "JobsGo", ago(c.get_text(" ")), logo=img["src"] if img else "", salary=info[0] if info else "", raw=c))
     return out
 
 
 def vietinbank():
     """Trả 502 với máy chủ GitHub (10/2026). Nhiều tin tuyển cho chi nhánh: địa chỉ thường để trống → dùng tên chi nhánh/phòng ban."""
     return [job(text(c, ".c-line-jobtitle"), "VietinBank", text(c, ".c-line-address") or text(c, ".c-line-jobcontent"), "VN", url,
-                COMPANY_SOURCE, dmy(c.get_text(" ").split("Ngày đăng")[-1]))
+                COMPANY_SOURCE, dmy(c.get_text(" ").split("Ngày đăng")[-1]), raw=c)
             for c, a, url in paged("https://tuyendung.vietinbank.vn/tuyen-dung?page={}", ".c-card", "a.btn-apply-ut", 40)]
 
 
@@ -117,7 +117,7 @@ def main():
         git("pull", "--rebase", "--autostash")  # lấy bản mới (bot vừa commit jobs.json) trước khi ghi
     broken = run(LOCAL_SOURCES, str(HERE / "local.json"))
     if push:
-        git("add", "local.json")
+        git("add", "local.json", "archive/local-*.jsonl")  # chỉ kho của local.py; archive/jobs-* là của bot
         if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=HERE).returncode:  # có thay đổi mới commit
             git("commit", "-m", "update local jobs")
             git("pull", "--rebase")

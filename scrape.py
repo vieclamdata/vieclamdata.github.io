@@ -225,15 +225,22 @@ def vnd(s):
     return f"{prefix}{approx}{'–'.join(fmt(n) for n in nums[:2])} triệu"
 
 
-def job(title, company, location, region, url, source, posted, logo="", salary="", tags=(), desc="", hint="", years=0):
+def job(title, company, location, region, url, source, posted, logo="", salary="", tags=(), desc="", hint="", years=0, raw=None):
     """desc: mô tả đầy đủ (HTML hoặc chữ), kỹ năng đọc từ đây. Tin không kèm mô tả thì run() đọc trang chi tiết (details).
-    hint: nhãn cấp bậc của nguồn ("Senior", "Trưởng phòng"...), years: số năm kinh nghiệm yêu cầu."""
+    hint: nhãn cấp bậc của nguồn ("Senior", "Trưởng phòng"...), years: số năm kinh nghiệm yêu cầu.
+    raw: bản ghi gốc của nguồn (dict từ API, thẻ tin HTML, mục RSS). Cùng full, salary_raw chỉ lưu vào kho (ARCHIVE_ONLY)."""
     full = plain(desc)
     extra = dict(logo=logo, salary=vnd(salary), tags=list(tags)[:6], desc=short(full), level=levels(title, hint, years))
     j = dict(title=title.strip(), company=(company or "").strip(), location=(location or "").strip(),
              region=region, url=url, source=source, date=posted, **{k: v for k, v in extra.items() if v})
     if len(full) > 400:  # mô tả thật, không phải tóm tắt vài dòng
         j["skills"] = skills(f"{title} {full}")  # có mặt (kể cả rỗng) = đã đọc kỹ năng, run() không đọc trang chi tiết nữa
+        j["full"] = full
+    if str(salary or "").strip():
+        j["salary_raw"] = str(salary).strip()  # "$ 1,500-2,500 /tháng" trước khi quy đổi
+    if raw is not None:
+        j["raw"] = (raw.get_text(" ", strip=True) if hasattr(raw, "get_text")  # thẻ tin HTML: mọi chữ trên thẻ (hạn nộp, loại hình...)
+                    else {e.tag: e.text for e in raw} if isinstance(raw, ET.Element) else raw)
     return j
 
 
@@ -256,7 +263,7 @@ def vietnamworks():
             out.append(job(j["jobTitle"], j["companyName"], loc, "VN", j["jobUrl"], "VietnamWorks", day(j["approvedOn"]),
                            logo=j.get("companyLogo") or "", salary=j.get("prettySalary"),  # nhãn kỹ năng do nhà tuyển dụng tự gõ, mơ hồ → đọc từ mô tả
                            desc=f"{j.get('jobDescription') or ''} {j.get('jobRequirement') or ''}",
-                           hint=j.get("jobLevelVI"), years=j.get("yearsOfExperience") or 0))
+                           hint=j.get("jobLevelVI"), years=j.get("yearsOfExperience") or 0, raw=j))
     return out
 
 
@@ -271,7 +278,7 @@ def careerviet():
                        urllib.parse.urljoin("https://careerviet.vn", a["href"]), "CareerViet",
                        f"{m[3]}-{m[2]}-{m[1]}" if m else TODAY,
                        logo=urllib.parse.parse_qs(urllib.parse.urlparse(src).query).get("url", [src])[0],
-                       salary=re.sub(r"^Lương:\s*", "", text(c, "div.salary"))))
+                       salary=re.sub(r"^Lương:\s*", "", text(c, "div.salary")), raw=c))
     return out
 
 
@@ -298,7 +305,7 @@ def linkedin():
             img = c.select_one("img[data-delayed-url]")
             out.append(job(text(c, "h3"), text(c, "h4"), text(c, ".job-search-card__location"), "VN",
                            f"https://www.linkedin.com/jobs/view/{job_id}", "LinkedIn", t["datetime"] if t else TODAY,
-                           logo=img["data-delayed-url"] if img else "", salary=text(c, ".job-search-card__salary-info")))
+                           logo=img["data-delayed-url"] if img else "", salary=text(c, ".job-search-card__salary-info"), raw=c))
         time.sleep(5)  # tránh bị LinkedIn chặn (429)
     return out
 
@@ -332,7 +339,7 @@ def ybox():
         for p in get_json("https://api.ybox.vn/graphql?query=" + urllib.parse.quote(q))["data"]["AllPosts"]["NewestPosts"]["edges"]:
             loc, company, title = ybox_title(p["title"])
             out.append(job(title, company, loc, "VN", f"https://ybox.vn/tuyen-dung/{slugify(p['title'])}-{p['_id']}", "Ybox", day(p["publishedAt"]),
-                           logo=(p.get("photo") or "").replace("http://", "https://"), desc=p.get("summary")))
+                           logo=(p.get("photo") or "").replace("http://", "https://"), desc=p.get("summary"), raw=p))
     return out
 
 
@@ -346,7 +353,7 @@ def topdev():
             dd, mm, yy = j["published"]["date"].split("-")  # "02-10-2026"
             out.append(job(j["title"], j["company"]["display_name"], j["addresses"].get("sort_addresses", ""), "VN",
                            j["detail_url"], "TopDev", f"{yy}-{mm}-{dd}", logo=j["company"].get("image_logo") or "",
-                           tags=[t for t in (j.get("skills_str") or "").split(", ") if t], hint=j.get("job_levels_str")))
+                           tags=[t for t in (j.get("skills_str") or "").split(", ") if t], hint=j.get("job_levels_str"), raw=j))
         if page >= d["meta"]["last_page"]:
             break
     return out
@@ -363,7 +370,7 @@ def glints():
             out.append(job(j["title"], j["company"]["name"], ((loc.get("parents") or [{}])[0].get("name") or loc.get("name", "")), "VN",
                            f"https://glints.com/vn/opportunities/jobs/{slugify(j['title'])}/{j['id']}", "Glints", day(j["updatedAt"]),
                            logo=logo + j["company"]["logo"] if j["company"].get("logo") else "",
-                           salary=amount(sal.get("minAmount"), sal.get("maxAmount"), sal.get("CurrencyCode") or "VND"), years=j.get("minYearsOfExperience") or 0))
+                           salary=amount(sal.get("minAmount"), sal.get("maxAmount"), sal.get("CurrencyCode") or "VND"), years=j.get("minYearsOfExperience") or 0, raw=j))
         if not d.get("hasMore"):
             break
     return out
@@ -379,14 +386,14 @@ VN_RE = re.compile(r"viet ?nam|việt nam|ha ?noi|hà nội|ho chi minh|hồ ch�
 
 def greenhouse(slug, name):
     return [job(j["title"], name, j["location"]["name"], "VN", j["absolute_url"], COMPANY_SOURCE,
-                day(j.get("first_published") or j["updated_at"]), desc=html.unescape(j.get("content") or ""))
+                day(j.get("first_published") or j["updated_at"]), desc=html.unescape(j.get("content") or ""), raw=j)
             for j in get_json(f"https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true")["jobs"]
             if VN_RE.search(j["location"]["name"])]
 
 
 def lever(slug, name):
     return [job(j["text"], name, j["categories"].get("location", ""), "VN", j["hostedUrl"], COMPANY_SOURCE,
-                day(str(j["createdAt"] // 1000)), desc=j.get("descriptionPlain"))
+                day(str(j["createdAt"] // 1000)), desc=j.get("descriptionPlain"), raw=j)
             for j in get_json(f"https://api.lever.co/v0/postings/{slug}?mode=json")
             if j.get("country") == "VN" or VN_RE.search(j["categories"].get("location", ""))]
 
@@ -398,7 +405,7 @@ def ashby(slug, name):
         locs = [j.get("location", ""), country] + [l.get("location", "") for l in j.get("secondaryLocations") or []]
         if loc := next((l for l in locs if VN_RE.search(l)), None):
             out.append(job(j["title"], name, loc, "VN", j["jobUrl"], COMPANY_SOURCE, day(j["publishedAt"]),
-                           salary=(j.get("compensation") or {}).get("compensationTierSummary"), desc=j.get("descriptionPlain")))
+                           salary=(j.get("compensation") or {}).get("compensationTierSummary"), desc=j.get("descriptionPlain"), raw=j))
     return out
 
 
@@ -410,7 +417,7 @@ def smartrecruiters(slug, name):
             loc = j["location"]
             out.append(job(j["name"], name, loc.get("city") or loc.get("region") or "Vietnam", "VN",
                            f"https://jobs.smartrecruiters.com/{j['company']['identifier']}/{j['id']}", COMPANY_SOURCE,
-                           day(j["releasedDate"]), hint=(j.get("experienceLevel") or {}).get("label")))
+                           day(j["releasedDate"]), hint=(j.get("experienceLevel") or {}).get("label"), raw=j))
         if offset + 100 >= d["totalFound"]:
             break
     return out
@@ -433,7 +440,7 @@ def workday(board, name):
             locs = [info.get("location", "")] + info.get("additionalLocations", [])
             if VN_RE.search((info.get("country") or {}).get("descriptor", "")) or any(VN_RE.search(l) for l in locs):
                 out.append(job(info["title"], name, " / ".join(l for l in locs if VN_RE.search(l)) or locs[0], "VN", info["externalUrl"],
-                               COMPANY_SOURCE, info.get("startDate") or ago(j.get("postedOn", "")), desc=info.get("jobDescription")))
+                               COMPANY_SOURCE, info.get("startDate") or ago(j.get("postedOn", "")), desc=info.get("jobDescription"), raw=info))
         if offset + 20 >= total:
             break
     return out
@@ -449,7 +456,7 @@ def successfactors(base, name, keywords=("data", "dữ liệu", "analytics", "Bu
             title, loc = (m[1], m[2]) if m else (it.findtext("title"), "")
             pub = it.findtext("pubDate")  # có tin không ghi ngày đăng → ngày thấy lần đầu
             out.append(job(title, name, loc, "VN", it.findtext("link"), COMPANY_SOURCE,
-                           parsedate_to_datetime(pub).date().isoformat() if pub else TODAY, desc=it.findtext("description")))
+                           parsedate_to_datetime(pub).date().isoformat() if pub else TODAY, desc=it.findtext("description"), raw=it))
     return out
 
 
@@ -466,7 +473,7 @@ def ainavi(domain, name):
             places = [a.get("provinceName") for a in (j.get("workingNewAddresses") or []) + (j.get("workingAddresses") or [])]
             out.append(job(j["name"], name, ", ".join(dict.fromkeys(p for p in places if p)), "VN", f"https://{domain}/vi/jobs/{j['slug']}", COMPANY_SOURCE,
                            (datetime.fromisoformat(posted.replace("Z", "+00:00")) + timedelta(hours=7)).date().isoformat(),
-                           salary=f"{lo or ''}-{hi or ''} VND".strip("-") if lo or hi else ""))
+                           salary=f"{lo or ''}-{hi or ''} VND".strip("-") if lo or hi else "", raw=j))
         if page >= d["totalPage"]:
             break
     return out
@@ -488,7 +495,7 @@ def base(url, name):
             parts = [p.strip() for p in re.sub(r"<[^>]+>", "", o.get("multi_locations") or o.get("location") or "").split(";")]
             loc = ", ".join(p for p in parts if VN_RE.search(p)) or parts[0]
             out.append(job(o["name"], name, loc, "VN", o.get("url") or o["link"],
-                           COMPANY_SOURCE, day(o.get("since")), desc=o.get("content")))
+                           COMPANY_SOURCE, day(o.get("since")), desc=o.get("content"), raw=o))
     return out
 
 
@@ -507,7 +514,7 @@ def talentnetwork(base, name):
             card = a.find_parent(class_=["panel-opening-job", "item"]) or a.parent
             loc = text(card, ".area") or next(
                 (li.get_text(" ", strip=True).split(":", 1)[-1].strip() for li in card.select("li") if "Nơi làm việc" in li.get_text()), "")
-            out.append(job(a["title"], name, loc, "VN", url, COMPANY_SOURCE, TODAY))
+            out.append(job(a["title"], name, loc, "VN", url, COMPANY_SOURCE, TODAY, raw=card))
         if not added:  # hết trang (trang vượt quá có thể trả lại trang cuối)
             break
     return out
@@ -591,7 +598,7 @@ def vng():
     for page in range(1, 31):
         d = next_data(f"https://career.vng.com.vn/tim-kiem-viec-lam?page={page}")  # 10 tin/trang
         out += [job(j["title"], "VNG", j["location"], "VN", f"https://career.vng.com.vn/tim-kiem-viec-lam/chi-tiet/{j['slug']}",
-                    COMPANY_SOURCE, TODAY, desc=j.get("summary")) for j in d["jobs"]]
+                    COMPANY_SOURCE, TODAY, desc=j.get("summary"), raw=j) for j in d["jobs"]]
         if page >= d["pages"]:
             break
     return out
@@ -603,7 +610,7 @@ def momo():
     out = []
     for q in ("data", "machine learning", "AI Engineer", "Business Intelligence", "analytics", "analyst"):
         d = next_data(f"https://momo.careers/jobs-opening?title={urllib.parse.quote(q)}")
-        out += [job(j["jobTitle"], "MoMo", j["location"], "VN", f"https://momo.careers/jobs/{j['subdirectory']}", COMPANY_SOURCE, TODAY)
+        out += [job(j["jobTitle"], "MoMo", j["location"], "VN", f"https://momo.careers/jobs/{j['subdirectory']}", COMPANY_SOURCE, TODAY, raw=j)
                 for j in d["dataListJobsWithFilter"]["Items"] or []]
     return out
 
@@ -614,7 +621,7 @@ def be():
         if a := c.select_one("h3 a"):
             place = text(c, "p span").split("|")[0].strip()  # "Head Office | Full Time | Technology"
             out.append(job(a.get_text(strip=True), "Be Group", place, "VN", urllib.parse.urljoin("https://be.com.vn", a["href"]),
-                           COMPANY_SOURCE, TODAY))
+                           COMPANY_SOURCE, TODAY, raw=c))
     return out
 
 
@@ -629,7 +636,7 @@ def vnpt():
             seen.add(a["href"])
             added += 1
             unit = text(c, ".div-department") or "VNPT"  # đơn vị tuyển: "Công ty VNPT AI", "Tổng công ty Hạ tầng mạng"
-            out.append(job(a["title"], unit if "VNPT" in unit else f"{unit} (VNPT)", text(c, ".div-location"), "VN", a["href"], COMPANY_SOURCE, TODAY))
+            out.append(job(a["title"], unit if "VNPT" in unit else f"{unit} (VNPT)", text(c, ".div-location"), "VN", a["href"], COMPANY_SOURCE, TODAY, raw=c))
         if not added:  # hết trang
             break
     return out
@@ -643,7 +650,7 @@ def nashtech():
         loc = ", ".join(tax("location"))
         if "vietnam" in loc.lower():
             out.append(job(j["post_title"], "NashTech", loc.replace(" - Vietnam", ""), "VN", j["post_permalink"], COMPANY_SOURCE,
-                           j["post_date"][:10], tags=tax("competency")))
+                           j["post_date"][:10], tags=tax("competency"), raw=j))
     return out
 
 
@@ -672,7 +679,7 @@ def paged(url, card, link, max_pages=30):
 
 def seabank():
     """Danh sách chỉ có tên vị trí."""
-    return [job(a.get_text(strip=True), "SeABank", "", "VN", url, COMPANY_SOURCE, TODAY)
+    return [job(a.get_text(strip=True), "SeABank", "", "VN", url, COMPANY_SOURCE, TODAY, raw=c)
             for c, a, url in paged("https://tuyendung.seabank.com.vn/jobs?page={}", "div[title]", "a")]
 
 
@@ -686,12 +693,12 @@ def msb():
             posted = text(c, ".job_post_date .jlr_value")  # "21 giờ trước" / "Oct 06, 2026"
             m = re.search(r"[A-Z][a-z]{2} \d\d, \d{4}", posted)
             out[a["href"]] = job(a.get_text(strip=True), "MSB", text(c, "a.location").lstrip("🔍 "), "VN", a["href"], COMPANY_SOURCE,
-                                 datetime.strptime(m[0], "%b %d, %Y").date().isoformat() if m else ago(posted))
+                                 datetime.strptime(m[0], "%b %d, %Y").date().isoformat() if m else ago(posted), raw=c)
     return list(out.values())
 
 
 def ssi():
-    return [job(a.get_text(strip=True), "SSI", text(c, ".info p"), "VN", url, COMPANY_SOURCE, dmy(c.get_text(" ").split("Đã đăng")[-1]))
+    return [job(a.get_text(strip=True), "SSI", text(c, ".info p"), "VN", url, COMPANY_SOURCE, dmy(c.get_text(" ").split("Đã đăng")[-1]), raw=c)
             for c, a, url in paged("https://tuyendung.ssi.com.vn/tin-tuyen-dung?page={}", ".single-content", "a.content-name")]
 
 
@@ -701,7 +708,7 @@ def tcbs():
     for li in soup("https://www.tcbs.com.vn/ve-chung-toi/tuyen-dung/").select("li:has(> a.wp-block-latest-posts__post-title)"):
         a, t = li.select_one("a"), li.select_one("time")
         out[a["href"]] = job(a.get_text(strip=True), "TCBS", "", "VN", a["href"], COMPANY_SOURCE, day(t["datetime"] if t else ""),
-                             desc=str(li.select_one(".wp-block-latest-posts__post-excerpt") or ""))
+                             desc=str(li.select_one(".wp-block-latest-posts__post-excerpt") or ""), raw=li)
     return list(out.values())
 
 
@@ -709,7 +716,7 @@ def vnpay():
     out = []
     for c, a, url in paged("https://tuyendung.vnpay.vn/co-hoi-nghe-nghiep?page={}", ".recruitment-item", "a.title"):
         info = [li.get_text(strip=True) for li in c.select("li")]  # [ngành, nơi làm, hạn nộp, "New"]; không có ngày đăng
-        out.append(job(a.get_text(strip=True), "VNPAY", info[1] if len(info) > 1 else "", "VN", url, COMPANY_SOURCE, TODAY))
+        out.append(job(a.get_text(strip=True), "VNPAY", info[1] if len(info) > 1 else "", "VN", url, COMPANY_SOURCE, TODAY, raw=c))
     return out
 
 
@@ -754,10 +761,41 @@ def load(path, key="jobs"):
         return []
 
 
+ARCHIVE_ONLY = ("full", "salary_raw", "raw")  # thông tin đầy đủ chỉ lưu vào kho; jobs.json giữ gọn cho trang web
+
+
 def save(path, jobs, rejected=()):
+    jobs = [{k: v for k, v in j.items() if k not in ARCHIVE_ONLY} for j in jobs]
     with open(path, "w", encoding="utf-8") as f:
         json.dump({"updated": datetime.now(timezone.utc).isoformat(timespec="minutes"), "jobs": jobs, "rejected": sorted(rejected)},
                   f, ensure_ascii=False, indent=1)
+
+
+# ---------- Kho lưu trữ: mọi job từng thấy, kể cả đã quá KEEP_DAYS ngày ----------
+ARCHIVE = Path(__file__).parent / "archive"
+
+
+def archive(jobs, name):
+    """Ghi jobs vào archive/<name>-<tháng thấy lần đầu>.jsonl, mỗi dòng một job, cập nhật theo url, xếp theo url (diff git gọn).
+    Job quá KEEP_DAYS ngày rời jobs.json nhưng vẫn nằm lại đây. name = "jobs" (bot GitHub) / "local" (máy) → hai bên không sửa chung file.
+    python archive.py gộp kho thành SQLite."""
+    ARCHIVE.mkdir(exist_ok=True)
+    months = {}
+    for j in jobs:
+        months.setdefault(j["date"][:7], []).append(j)
+    for month, js in months.items():
+        path = ARCHIVE / f"{name}-{month}.jsonl"
+        rows = {r["url"]: r for r in map(json.loads, path.read_text(encoding="utf-8").splitlines())} if path.exists() else {}
+        for j in js:
+            rows[j["url"]] = {**rows.get(j["url"], {}), **j}
+        with open(path, "w", encoding="utf-8", newline="\n") as f:
+            f.writelines(json.dumps(rows[u], ensure_ascii=False, sort_keys=True) + "\n" for u in sorted(rows))
+
+
+
+def archived(name, folder=ARCHIVE):
+    """Mọi dòng trong kho archive/<name>-*.jsonl."""
+    return [json.loads(line) for f in sorted(Path(folder).glob(f"{name}-*.jsonl")) for line in f.read_text(encoding="utf-8").splitlines()]
 
 
 def details(url):
@@ -791,12 +829,14 @@ def details(url):
 DETAILS_PER_RUN = 300  # ponytail: lần chạy đầu đọc ~250 tin; sau đó chỉ tin mới. Tăng nếu log báo còn tin chưa đọc
 
 
-def enrich(jobs):
-    """Tin chưa có kỹ năng: đọc trang chi tiết (mỗi tin một lần, merge() giữ kết quả cho các lần chạy sau)."""
+def enrich(jobs, have_full=()):
+    """Tin chưa có kỹ năng hoặc kho chưa có mô tả đầy đủ (have_full: url các tin kho đã có): đọc trang chi tiết.
+    Mỗi tin một lần: merge() giữ kỹ năng cho các lần chạy sau, kho giữ mô tả đầy đủ (full, có mặt kể cả rỗng = đã đọc)."""
+    done = lambda j: "skills" in j and ("full" in j or j["url"] in have_full)
     bad, n = set(), 0  # trang chặn hoặc lỗi → bỏ qua cả trang đó lần này, lần sau thử lại
     for j in jobs:
         host = urllib.parse.urlparse(j["url"]).netloc
-        if "skills" in j or host in bad or n >= DETAILS_PER_RUN:
+        if done(j) or host in bad or n >= DETAILS_PER_RUN:
             continue
         n += 1
         try:
@@ -811,12 +851,14 @@ def enrich(jobs):
             bad.add(host)
             print(f"  chi tiết {host}: LỖI {e!r}"[:200])
             continue
-        j["skills"] = skills(f"{j['title']} {j.get('desc', '')} {full}")
+        j["skills"] = skills(f"{j['title']} {j.get('full') or j.get('desc', '')} {full}")
         if full and not j.get("desc"):
             j["desc"] = short(full)
+        j["full"] = max(full, j.get("full") or j.get("desc", ""), key=len)
         if "linkedin" in host:
             time.sleep(3)  # tránh 429
-    print(f"Đọc trang chi tiết: {n} tin" + (f", còn {sum('skills' not in j for j in jobs)} tin để lần sau" if n >= DETAILS_PER_RUN else ""))
+    left = sum(not done(j) for j in jobs)
+    print(f"Đọc trang chi tiết: {n} tin" + (f", còn {left} tin để lần sau" if left else ""))
 
 
 def run(sources, path):
@@ -843,10 +885,14 @@ def run(sources, path):
     # chương trình MT đã đọc chi tiết và không cần kỹ năng data: không đọc lại mỗi lần chạy. Chỉ nhớ các tin nguồn còn đăng.
     rejected = set(load(path, "rejected")) & {j["url"] for j in new}
     jobs = merge(old, [j for j in new if j["url"] not in rejected])
-    enrich(jobs)
+    enrich(jobs, {r["url"] for r in archived(Path(path).stem) if "full" in r})
     rejected |= {j["url"] for j in jobs if not keep(j) and "skills" in j}
     jobs = add_logos([j for j in jobs if keep(j)], known=load(LOGOS.parent / "jobs.json") + load(LOGOS.parent / "local.json"))
+    seen = {j["url"] for j in new}
+    for j in jobs:  # last_seen: lần cuối trang nguồn còn đăng tin → kho biết tin đăng bao lâu
+        j["last_seen"] = TODAY if j["url"] in seen else j.get("last_seen", j["date"])
     save(path, jobs, rejected)
+    archive(jobs, Path(path).stem)
     print(f"Tổng: {len(jobs)} job")
     return broken + FAILED_COMPANIES
 
