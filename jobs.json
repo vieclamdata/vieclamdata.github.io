@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T16:40+00:00",
+ "updated": "2026-10-16T21:02+00:00",
  "jobs": [
   {
    "title": "Academic Assistant, Systems, Data & Quality Coordinator",
@@ -4921,8 +4921,16 @@
     "senior"
    ],
    "logo": "logos/vpbank.png",
-   "skills": [],
-   "last_seen": "2026-10-06"
+   "skills": [
+    "Thống kê",
+    "SQL",
+    "Python",
+    "R",
+    "Superset",
+    "AWS",
+    "Machine Learning"
+   ],
+   "last_seen": "2026-10-16"
   },
   {
    "title": "Senior Business Intelligence (Khối EDA - RB, Sales Performance & Incentive Analytics) - HN - TA174",
