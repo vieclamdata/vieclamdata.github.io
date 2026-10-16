@@ -10,7 +10,7 @@ Website tổng hợp việc làm ngành data tại Việt Nam. Lương được 
 | `archive/` | Kho lưu trữ mọi job từng thấy, kể cả đã quá 30 ngày (trang web chỉ hiện 30 ngày gần nhất) |
 | `archive.py` | Gộp kho thành cơ sở dữ liệu SQLite `archive.db` để truy vấn |
 
-## Đưa website lên mạng (khoảng 10 phút)
+## Website
 
 Link sẽ có dạng `https://vieclamdata.github.io`
 
