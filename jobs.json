@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T08:41+00:00",
+ "updated": "2026-10-16T11:20+00:00",
  "jobs": [
   {
    "title": "Academic Assistant, Systems, Data & Quality Coordinator",
@@ -137,6 +137,130 @@
    ],
    "desc": "Get to Know the Role We're looking for an experienced Lead Product Manager to join our Technical Infrastructure team, specifically focusing on the Data Platform. In this role, you will own the strategic direction and execution of our data platform, collaborating with engineering, data science, analytics, and product teams to identify areas for improvement and develop impactful solutions. The Data…",
    "logo": "logos/grab.png",
+   "last_seen": "2026-10-16"
+  },
+  {
+   "title": "Trade Marketing Leader - Mạnh Về Data Analyst",
+   "company": "CÔNG TY CỔ PHẦN PHÂN PHỐI QUỐC TẾ GENEX",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/trade-marketing-leader-manh-ve-data-analyst-1792144005407284191-2120525-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-16",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/d4/11375529.png",
+   "salary": "Thỏa thuận",
+   "desc": "1. Xây dựng và quản lý các chương trình Trade Marketing: - Lập kế hoạch, thực hiện, rà soát, tổng kết và quản lý ngân sách Trade Marketing theo tháng, quý, năm; đảm bảo sử dụng ngân sách đúng mục đích, đúng chính sách và trong hạn mức được phê duyệt đồng thời hiệu quả,... 1. Chuyên môn: - Tối thiểu 2 - 3 năm kinh nghiệm trong lĩnh vực Trade Marketing, Channel Marketing, Sales Operations tại các…",
+   "level": [
+    "lead"
+   ],
+   "skills": [],
+   "last_seen": "2026-10-16"
+  },
+  {
+   "title": "Data Scientist – ID2643",
+   "company": "Ngân Hàng TMCP Việt Nam Thịnh Vượng - VPBANK",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://careerviet.vn/vi/tim-viec-lam/data-scientist-id2643.35C8AE5D.html",
+   "source": "CareerViet",
+   "date": "2026-10-16",
+   "logo": "https://images.careerviet.vn/employer_folders/lot2/123152/92239logokotagline-01.png",
+   "salary": "Thỏa thuận",
+   "skills": [
+    "Thống kê",
+    "Machine Learning",
+    "Deep Learning",
+    "LLM / GenAI",
+    "Python",
+    "Pandas",
+    "Scikit-learn",
+    "TensorFlow",
+    "PyTorch",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Databricks",
+    "SQL",
+    "Excel"
+   ],
+   "desc": "1. Tham gia và phối hợp triển khai các giải pháp khoa học dữ liệu và trí tuệ nhân tạo cho các đơn vị trong ngân hàng - Đề xuất và tham gia triển khai các giải pháp khoa học dữ liệu cùng chuyên gia và phối hợp chặt chẽ với các đơn vị kinh doanh/vận hành để giải quyết các bài toán thực tế có tính ứng dụng cao - Ứng dụng các kỹ thuật phân tích nâng cao, xác suất thống kê, học máy, học sâu và GenAI…",
+   "last_seen": "2026-10-16"
+  },
+  {
+   "title": "Phân tích dữ liệu - Data Analyst",
+   "company": "Viettel IDC",
+   "location": "Hanoi Capital Region",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4479339919",
+   "source": "LinkedIn",
+   "date": "2026-10-16",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQGgYPifrZmrHw/company-logo_100_100/B56Z46P7V4G0AI-/0/1779093714607/viettel_idc_logo?e=2147483647&v=beta&t=LCnZEN82Ni46R9ozXFEj6CZegbkxKwHV4wgQRjgePEw",
+   "skills": [
+    "Power BI",
+    "Tableau",
+    "Looker",
+    "Superset",
+    "Machine Learning",
+    "Thống kê",
+    "SQL",
+    "Python",
+    "R",
+    "BigQuery",
+    "Snowflake",
+    "ETL",
+    "Airflow"
+   ],
+   "desc": "Key Responsibilities Data Collection & Analysis: Gather, consolidate, and analyze large-scale datasets from internal and external sources to support business objectives. Insights & Customer Experience: Mine data to understand customer behavior, product/service trends, and business performance to optimize operations and CX. BI & Reporting: Design, build, operate, and optimize regular and ad-hoc…",
+   "last_seen": "2026-10-16"
+  },
+  {
+   "title": "Data Engineer (Fabric, Python, Azure)",
+   "company": "MiTek Vietnam",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4477660861",
+   "source": "LinkedIn",
+   "date": "2026-10-16",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQHBBkXcgLTVrA/company-logo_100_100/company-logo_100_100/0/1630664430568/platinum_global_co_ltd_logo?e=2147483647&v=beta&t=-cuOkdfuq2gD2VxXW_Qggq7cyTDEASytxNqNEF_tvSo",
+   "skills": [
+    "Python",
+    "Azure",
+    "SQL"
+   ],
+   "desc": "Job Summary We are seeking a highly skilled and detail-oriented Data Engineer to join our data integration team. This role is responsible for managing, monitoring, optimizing, and enhancing data workflows and services within the Microsoft Azure ecosystem. You’ll play a critical role in ensuring data availability, integrity, and performance across our cloud-based platforms. Key Responsibilities…",
+   "last_seen": "2026-10-16"
+  },
+  {
+   "title": "Senior Data Engineer (40000063)",
+   "company": "Techcombank",
+   "location": "TP. Ho Chi Minh",
+   "region": "VN",
+   "url": "https://www.techcombankjobs.com/job/TP_-Ho-Chi-Minh-Senior-Data-Engineer-%2840000063%29/60757144/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-16",
+   "desc": "Job Purpose - The job holder is responsible for designing and developing programs, algorithms and automated processes to cleanse, integrate and evaluate large datasets from disparate sources and implement complex business logic as needed with the available data processing tools. - The job holder will be responsible for integrating new data sources to increase throughput of existing systems,…",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Thống kê",
+    "Machine Learning",
+    "ETL",
+    "Hadoop",
+    "Spark",
+    "Flink",
+    "Kafka",
+    "Tableau",
+    "SQL",
+    "NoSQL",
+    "Python",
+    "R",
+    "Scala",
+    "Java",
+    "Tiếng Anh",
+    "Data Warehouse"
+   ],
+   "logo": "logos/techcombank.png",
    "last_seen": "2026-10-16"
   },
   {
@@ -398,6 +522,33 @@
    "logo": "https://static.ybox.vn/2023/3/6/1678501114162-Logo-WNT.jpg",
    "desc": "Công ty TNHH WEB NHÀ THUỐC được thành lập từ năm 2016 bởi đội ngũ nhân sự giàu kinh nghiệm trong lĩnh vực lập trình phần mềm hệ thống ứng dụng cho ngành y tế và dược phẩm.Chúng tôi",
    "skills": [],
+   "last_seen": "2026-10-16"
+  },
+  {
+   "title": "Senior Data Analyst/ Data Engineer",
+   "company": "Qode Solutions",
+   "location": "Hanoi",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4479811568",
+   "source": "LinkedIn",
+   "date": "2026-10-15",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQFa7H1kYdf2rA/company-logo_100_100/B56aEvVjiWKYAI-/0/1791795542530?e=2147483647&v=beta&t=HqdsCbioUIL01kJTLAVcZcQxfnATOlC7gEEaOAtv33c",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Thống kê",
+    "SQL",
+    "Power BI",
+    "Data Warehouse",
+    "ETL",
+    "Python",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Informatica"
+   ],
+   "desc": "Senior Data Analyst/ Senior Data Engineer Work Location: Hanoi: TechnoPark Tower, Vinhomes Ocean Park, Hanoi Hochiminh: Vincom Dong Khoi, HCM Job Overview Vị trí đóng vai trò quan trọng trong việc phân tích dữ liệu nghiệp vụ, quy hoạch và quản lý tài sản dữ liệu phục vụ các PnL trong công ty. Ứng viên sẽ chịu trách nhiệm phân tích dữ liệu từ nhiều lĩnh vực nghiệp vụ, xác định nhu cầu, khoảng…",
    "last_seen": "2026-10-16"
   },
   {
@@ -2280,7 +2431,7 @@
    "last_seen": "2026-10-16"
   },
   {
-   "title": "Senior Business Intelligence Analyst, Zalopay",
+   "title": "Senior Business Intelligence Analyst (User Growth), Zalopay",
    "company": "VNG",
    "location": "Thành phố Hồ Chí Minh",
    "region": "VN",
@@ -2786,7 +2937,7 @@
     "SQL"
    ],
    "desc": "1. Responsibilities: Data Maintenance & Reporting Build and manage master datasets covering store analogs, rental profiles, rent-to-revenue ratios, lease benchmarks, and site evaluation inputs to support expansion, renewal, and investment decisions. Develop and maintain dynamic dashboards and reporting systems using Power BI and SQL, ensuring accurate, complete, and actionable data for…",
-   "last_seen": "2026-10-12"
+   "last_seen": "2026-10-16"
   },
   {
    "title": "*Data Analyst (Tender Data)",
@@ -2932,6 +3083,67 @@
     "Python",
     "Java"
    ],
+   "last_seen": "2026-10-16"
+  },
+  {
+   "title": "Data Engineer",
+   "company": "FPT Software",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4477290256",
+   "source": "LinkedIn",
+   "date": "2026-10-12",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEomupwSTKvWA/company-logo_100_100/B56Zh4Hgj3HMAU-/0/1754361892047/fpt_software_logo?e=2147483647&v=beta&t=UYcsvXSeYXJm5a9HK_dR-UKQlaXaffcPkJnWIOt19Ww",
+   "skills": [
+    "Tiếng Anh",
+    "ETL",
+    "Spark",
+    "SQL",
+    "Databricks",
+    "Machine Learning",
+    "LLM / GenAI",
+    "Python",
+    "Azure",
+    "AWS",
+    "Airflow",
+    "Kafka",
+    "Docker",
+    "Kubernetes"
+   ],
+   "desc": "Data Engineer - Good English Location: HCM Job Description: Design and optimize ETL/ELT data pipelines using PySpark, Spark SQL, and Databricks Jobs Architect Databricks Lakehouse solutions using Delta Lake (Bronze / Silver / Gold layers) Implement CI/CD pipelines for Databricks notebooks, workflows, and jobs Apply data governance and security using Unity Catalog (RBAC, access control, lineage)…",
+   "last_seen": "2026-10-16"
+  },
+  {
+   "title": "Data Engineer (Senior/Lead) - HN/HCM",
+   "company": "FPT Software Career",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4477283575",
+   "source": "LinkedIn",
+   "date": "2026-10-12",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEdgMtE6SX4wA/company-logo_100_100/B56Zh3xZ5yHQAY-/0/1754356097587/fptsoftwarecareer_logo?e=2147483647&v=beta&t=ZAOWsT8s3WcS-jwI3qb5Me7yTOT7kxr0IJr4ahvf6KY",
+   "level": [
+    "senior",
+    "lead"
+   ],
+   "skills": [
+    "ETL",
+    "Data Warehouse",
+    "SQL",
+    "Hadoop",
+    "Spark",
+    "Kafka",
+    "Python",
+    "Java",
+    "Scala",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Tiếng Anh",
+    "Data Modeling",
+    "Machine Learning"
+   ],
+   "desc": "Data Engineer (Level: Senior/Lead) Location: HN & HCM Responsibilities • Lead the design, development, and optimization of scalable data pipelines and ETL processes. • Architect and manage data storage solutions, including databases and data warehouses. • Collaborate with cross-functional teams to understand data requirements and deliver robust data solutions. • Implement and enforce data quality…",
    "last_seen": "2026-10-16"
   },
   {
@@ -3369,7 +3581,7 @@
     "SQL"
    ],
    "desc": "JOB DESCRIPTION Position : DATA ANALYST Quantity : 02 ( 1 senior English - 1 Middle) Type : Full-time Location : 5nd Floor, TTC Building, No.19 Duy Tan St., Dich Vong Hau Ward, Cau Giay Dist,. Hanoi Capital, Vietnam. ABOUT US  Astek is a global player in engineering and technology consulting, founded in France in 1988. Today, we are +7500 engineers across over 30 countries in the world.  With…",
-   "last_seen": "2026-10-09"
+   "last_seen": "2026-10-16"
   },
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu - Data Analyst",
@@ -4264,7 +4476,7 @@
     "Tiếng Anh"
    ],
    "desc": "Location: Ho Chi Minh City Apply now What you can expect ROSEN is seeking a detail oriented and analytically minded Data Analyst to support the Large Standoff Magnetometry (LSM) evaluation process. This role focuses on careful data review, pattern recognition, cross referencing, and contributing to high quality integrity assessments. LSM is an interdisciplinary domain, and comprehensive training…",
-   "last_seen": "2026-10-07"
+   "last_seen": "2026-10-16"
   },
   {
    "title": "Senior Data Architect (40000054)",
@@ -5311,6 +5523,30 @@
    "last_seen": "2026-10-16"
   },
   {
+   "title": "Business Intelligence (BI) Analyst",
+   "company": "MiTek",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4474262254",
+   "source": "LinkedIn",
+   "date": "2026-10-05",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQG7mdGiXGxenw/company-logo_100_100/company-logo_100_100/0/1707399665260/mitek_industries_inc_logo?e=2147483647&v=beta&t=L1lIbzxGttYxIpVk9nVMLTtveUnJdLlfI_tvCoCQSfc",
+   "skills": [
+    "Power BI",
+    "SQL",
+    "Python",
+    "Azure",
+    "Data Modeling",
+    "Thống kê",
+    "Tiếng Anh",
+    "Excel",
+    "VBA",
+    "ETL"
+   ],
+   "desc": "Job Description MiTek® is a global provider of building solutions for the residential and commercial construction industries. Utilizing software, services, engineered products, and automated manufacturing equipment, MiTek partners with clients to accelerate their genius and deliver breakthroughs in building. With a rich 60-year history and a network of 6,500 team members worldwide, MiTek pairs…",
+   "last_seen": "2026-10-16"
+  },
+  {
    "title": "Risk Management Data Analytics Expert – ID9106",
    "company": "Ngân Hàng TMCP Việt Nam Thịnh Vượng - VPBANK",
    "location": "Hà Nội",
@@ -6193,7 +6429,7 @@
     "Tiếng Anh"
    ],
    "desc": "📍 Location: Ho Chi Minh City (formerly Binh Duong), with company shuttle bus service from central HCMC. About the Role We are seeking a Data Engineer to support the development of our data and analytics environment across SAP S/4HANA, Microsoft Fabric, and Power BI . The role covers the full data journey — from ingesting and transforming source data to developing analytical models and…",
-   "last_seen": "2026-10-01"
+   "last_seen": "2026-10-16"
   },
   {
    "title": "Nhân Viên Xử Lý Dữ Liệu (Không Phải DA/BA/DE)",
@@ -6231,6 +6467,29 @@
     "Tableau"
    ],
    "desc": "Bouygues Construction Information Technologies Vietnam, a trusted digital partner supporting the competitiveness and transformation of the Bouygues Construction Group worldwide. We are currently looking for a Data Services Support Specialist to join our team in Vietnam. In this role, you will support our internal users with a focus on data services, dashboarding, and the usage of Microsoft 365…",
+   "last_seen": "2026-10-16"
+  },
+  {
+   "title": "Senior Data Analyst, Collections",
+   "company": "Kredivo Group",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4474126818",
+   "source": "LinkedIn",
+   "date": "2026-10-01",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEcTpBN5xjLQQ/company-logo_100_100/company-logo_100_100/0/1693461125877/kredivo_group_logo?e=2147483647&v=beta&t=rhbqxfZYqtp9mYCJeQ1xAJTm1e8-kyo85_ymBWNCjok",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Excel",
+    "SQL",
+    "Tableau",
+    "Python",
+    "R",
+    "Tiếng Anh"
+   ],
+   "desc": "About the Role As a Senior Collection Analyst, you will play a pivotal role in enhancing the effectiveness of our collections operations by analyzing performance data, identifying improvement opportunities, and supporting the implementation of strategies that minimize risk. Your insights and contributions will directly impact the success of the collections team and the organization’s financial…",
    "last_seen": "2026-10-16"
   },
   {
@@ -7178,7 +7437,7 @@
     "Machine Learning",
     "LLM / GenAI"
    ],
-   "last_seen": "2026-09-28"
+   "last_seen": "2026-10-16"
   },
   {
    "title": "Associate, Data Integration",
@@ -7195,6 +7454,26 @@
    "logo": "logos/nab-innovation-centre-vietnam.png",
    "skills": [],
    "last_seen": "2026-09-28"
+  },
+  {
+   "title": "Data Head",
+   "company": "MNR Consulting Services",
+   "location": "Gia Bình",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4472721796",
+   "source": "LinkedIn",
+   "date": "2026-09-28",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQHHb7MShZiH2A/company-logo_100_100/B4DZUQmLaNG8AQ-/0/1739740198789/mnr_consulting_services_logo?e=2147483647&v=beta&t=OOpeAs4BbtIEnn4xdBVPo4VVtDpbkXddAbW3rb0XkAM",
+   "level": [
+    "lead"
+   ],
+   "skills": [
+    "R",
+    "Data Modeling",
+    "Machine Learning"
+   ],
+   "desc": "VÊ BUZZMETRICS Buzzmetrics, thành viên của YouNet Group, là công ty Social Media & E-commerce Market Research hàng đầu cho Marketing Systems. Từ năm 2013, Buzzmetrics tiên phong ứng dụng các phương pháp market research vào social media và môi trường digital, giúp tổ chức hiểu market dynamics, consumer behavior và category evolution thông qua dữ liệu social và commerce. Thông qua việc kết hợp…",
+   "last_seen": "2026-10-16"
   },
   {
    "title": "Chuyên Gia Phân Tích Dữ Liệu Kinh Doanh, Phòng Kế Hoạch và Quản Lý Hiệu Quả Kinh Doanh, Khối Khách Hàng Cá Nhân",
@@ -7489,7 +7768,7 @@
     "Scala"
    ],
    "desc": "Job Description Join Amaris Consulting as a Data Engineer within our Information System & Digital scope and contribute to the design, development, and optimization of cloud-based data solutions. In this role, you will build reliable data pipelines, support data transformation activities, and help deliver scalable data platforms using Azure technologies. Working location: Ho Chi Minh or Dong Nai…",
-   "last_seen": "2026-09-25"
+   "last_seen": "2026-10-16"
   },
   {
    "title": "Data Business Partner",
@@ -8722,7 +9001,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/data-analyst.35C8788A.html",
    "source": "CareerViet",
    "date": "2026-09-18",
-   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot2/208702/Logo%20vu%C3%B4ng.png",
    "salary": "Thỏa thuận",
    "skills": [
     "SQL",
