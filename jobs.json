@@ -1,6 +1,61 @@
 {
- "updated": "2026-10-16T02:37+00:00",
+ "updated": "2026-10-16T04:25+00:00",
  "jobs": [
+  {
+   "title": "Academic Assistant, Systems, Data & Quality Coordinator",
+   "company": "Trường Đại học VinUni",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/academic-assistant-systems-data-quality-coordinator-1792121046622294888-2120163-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-16",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/d5/10894078.png",
+   "salary": "Thỏa thuận",
+   "desc": "The Academic Assistant, Systems, Data & Quality Coordinator supports the College of Arts and Sciences in academic administration, systems management, data reporting, quality assurance, process improvement, and digital capability. POSITION RESPONSIBILITIES - Academic Systems & Digital Platforms: Administer Canvas, Simple Syllabus, Digital Uni and other College digital platforms; manage course…",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Excel",
+    "Power BI",
+    "Looker"
+   ]
+  },
+  {
+   "title": "Nhân Viên Xử Lý Dữ Liệu (Không Phải DA/BA/DE)",
+   "company": "Công ty Cổ phần Công nghệ Hợp Long",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://topdev.vn/detail-jobs/nhan-vien-xu-ly-du-lieu-khong-phai-da-ba-de-cong-ty-co-phan-cong-nghe-hop-long-2138960",
+   "source": "TopDev",
+   "date": "2026-10-16",
+   "logo": "https://assets.saramin.vn/images/2026/07/07/TopDev-ava-HL-1783406919.png",
+   "skills": [],
+   "desc": "Số lượng tuyển: 2 người Your role & responsibilities Tiến hành xuất số liệu từ phần mềm nội bộ và tổng hợp các số liệu về Doanh số, khách hàng, các chương trình, chính sách bán hàng,.. (thực hiện định kỳ và phát sinh theo yêu cầu của Quản lý).Tính toán, theo dõi tiến độ đạt KPI và các hiệu suất kinh doanh khác theo số liệu có sẵn từ phần mềm nội bộ.Báo cáo và update cho Quản lý, các Bộ phận liên…"
+  },
+  {
+   "title": "Chuyên gia Data AI- Phòng Kế hoạch và Phân tích tài chính- Khối Quản trị tài chính",
+   "company": "NCB",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.ncb-bank.vn/vi/jobs/qDX0Xq",
+   "source": "Trang công ty",
+   "date": "2026-10-16",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "LLM / GenAI",
+    "Data Warehouse",
+    "SQL",
+    "Power BI",
+    "Tableau",
+    "Python",
+    "Machine Learning"
+   ],
+   "desc": "Xây dựng và triển khai Finance Data Mart, mô hình dữ liệu tài chính, KPI và Dashboard điều hành Nghiên cứu, phát triển và triển khai các ứng dụng AI/GenAI phục vụ lập kế hoạch, dự báo tài chính, quản trị chi phí, phân tích hiệu quả kinh doanh và tự động hóa báo cáo. Tham gia xây dựng chiến lược dữ liệu và lộ trình chuyển đổi số của Khối QTTC. Tối thiểu 5 năm kinh nghiệm về Data Analytics, Data…",
+   "logo": "logos/ncb.png"
+  },
   {
    "title": "Manager, Business Intelligence & Analytics",
    "company": "Công Ty TNHH Dược Phẩm Gigamed",
@@ -7924,7 +7979,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/data-engineer.35C843CF.html",
    "source": "CareerViet",
    "date": "2026-09-21",
-   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuyển dụng.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuy%E1%BB%83n%20d%E1%BB%A5ng.png",
    "salary": "Thỏa thuận",
    "desc": "Đây là vị trí có vai trò quan trọng trong việc xây dựng nền tảng công nghệ và dữ liệu cho Fraud Detection, kết nối giữa năng lực Big Data/Data Engineering và bài toán quản trị rủi ro trong môi trường Retail. Vị trí có cơ hội tham gia trực tiếp vào các bài toán dữ liệu lớn, xây dựng Detection Engine/Model và triển khai các use case thực tế cùng đội ngũ Retail Fraud Analytics. 1. Mục tiêu vị trí…",
    "skills": [
