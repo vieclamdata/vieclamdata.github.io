@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T02:02+00:00",
+ "updated": "2026-10-16T02:10+00:00",
  "jobs": [
   {
    "title": "Manager, Business Intelligence & Analytics",
@@ -7077,7 +7077,18 @@
    "level": [
     "lead"
    ],
-   "logo": "logos/ocb.png"
+   "logo": "logos/ocb.png",
+   "skills": [
+    "Data Warehouse",
+    "Databricks",
+    "ETL",
+    "Superset",
+    "SQL",
+    "Tableau",
+    "Power BI",
+    "Python"
+   ],
+   "desc": "MỤC ĐÍCH CHỨC DANH: Quản lý và điều hành đội ngũ DataOps trong việc vận hành các nền tảng dữ liệu của Ngân hàng, chịu trách nhiệm vận hành, giám sát và tối ưu nền tảng dữ liệu tập trung (DWH), bao gồm hệ thống On-Premises (DB2, ExaCC), nền tảng dashboard BI/AI BI và Cloud Data Platform (Databricks), đảm bảo các dịch vụ dữ liệu hoạt động ổn định, liên tục và đáp ứng yêu cầu kinh doanh. Đồng thời…"
   },
   {
    "title": "Senior/Lead Data Engineer",
@@ -8546,6 +8557,11 @@
  "rejected": [
   "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Vietnam---Ho-Chi-Minh-City/Marketing-Trainee---Ensure-Upstream_31164023",
   "https://jobs.msb.com.vn/jobs/mt8-management-trainee-kh%E1%BB%91i-qu%E1%BA%A3n-l%C3%BD-r%E1%BB%A7i-ro-mrrb-6856",
+  "https://tuyendung.ncb-bank.vn/vi/jobs/RlVAry",
+  "https://tuyendung.ncb-bank.vn/vi/jobs/yLK3Eq",
+  "https://tuyendung.tpb.vn/vi/jobs/PwleoR",
+  "https://tuyendung.tpb.vn/vi/jobs/RlVpay",
+  "https://tuyendung.tpb.vn/vi/jobs/yKX3YP",
   "https://tuyendung.vietabank.com.vn/vi/jobs/qzVYbq",
   "https://www.linkedin.com/jobs/view/4467346787",
   "https://www.linkedin.com/jobs/view/4475527711",
