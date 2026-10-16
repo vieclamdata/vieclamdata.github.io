@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T21:21+00:00",
+ "updated": "2026-10-16T01:18+00:00",
  "jobs": [
   {
    "title": "Manager, Business Intelligence & Analytics",
@@ -209,6 +209,36 @@
    "logo": "https://static.ybox.vn/2022/8/2/1660038056982-Logo-Datapot-transparent-1024x336 (1).png",
    "desc": "Mong muốn lớn nhất của chúng mình đó là mang phân tích dữ liệu đến gần hơn với mọi người, biến nó trở thành một kỹ năng giúp người trẻ có sự nghiệp vững mạnh! Trải qua 6 năm hình t",
    "skills": []
+  },
+  {
+   "title": "Senior Data Engineer",
+   "company": "Hitachi Digital Services",
+   "location": "Ho Chi Minh City Metropolitan Area",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4479171818",
+   "source": "LinkedIn",
+   "date": "2026-10-15",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEFHP03F8jxvw/company-logo_100_100/B56ZXyKTgIGcAQ-/0/1743524542845/hitachi_digital_services_logo?e=2147483647&v=beta&t=770JsTpG71v4AuO-g3hp04C-M_t3IOHkPnQdKFNqPPY",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Databricks",
+    "SQL",
+    "Pandas",
+    "Machine Learning",
+    "Spark",
+    "Python",
+    "Airflow",
+    "Kafka",
+    "Docker",
+    "Kubernetes",
+    "Flink",
+    "Azure",
+    "Power BI",
+    "Git"
+   ],
+   "desc": "Our Company We're Hitachi Digital Services, a global digital solutions and transformation business with a bold vision of our world's potential. We're people-centric and here to power good. Every day, we future-proof urban spaces, conserve natural resources, protect rainforests, and save lives. This is a world where innovation, technology, and deep expertise come together to take our company and…"
   },
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu",
@@ -3049,7 +3079,7 @@
    "date": "2026-10-08",
    "logo": "https://images.vietnamworks.com/pictureofcompany/80/11401672.png",
    "salary": "20–25 triệu",
-   "desc": "MỤC TIÊU CÔNG VIỆC Thực hiện phân tích dữ liệu tài chính, xây dựng báo cáo quản trị và Dashboard nhằm cung cấp thông tin chính xác, kịp thời phục vụ Ban Lãnh đạo trong công tác điều hành; đồng thời tham gia xây dựng, chuẩn hóa hệ thống quản trị tài chính nội bộ...",
+   "desc": "MỤC TIÊU CÔNG VIỆC Thực hiện phân tích dữ liệu tài chính, xây dựng báo cáo quản trị và Dashboard nhằm cung cấp thông tin chính xác, kịp thời phục vụ Ban Lãnh đạo trong công tác điều hành; đồng thời tham gia xây dựng, chuẩn hóa hệ thống quản trị tài chính nội bộ... - Tốt nghiệp Đại học chuyên ngành Kế toán, Kiểm toán, Tài chính, Hệ thống thông tin quản lý hoặc các chuyên ngành liên quan. - Tối…",
    "level": [
     "mid"
    ],
@@ -5849,6 +5879,24 @@
    ]
   },
   {
+   "title": "Chuyên Gia Phân Tích Dữ Liệu Thẻ và Cho Vay Không Có TSBĐ",
+   "company": "Ngân Hàng TMCP Quốc Tế Việt Nam (VIB)",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/chuyen-gia-phan-tich-du-lieu-the-va-cho-vay-khong-co-tsbd-1790769249870924263-2114342-jv",
+   "source": "VietnamWorks",
+   "date": "2026-09-30",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/9f/11125546.png",
+   "salary": "Thỏa thuận",
+   "desc": "Trách nhiệm :Chịu trách nhiệm (i) phân tích danh mục; (ii)xây dựng các báo cáo liên quan đến sản phẩm Thẻ và cho vay không có TSBĐ, từ đó đề xuất cải tiến sản phẩm, quy trình dựa trên số liệu giúp nâng cao hiệu quả hoạt động kinh doanh của Khối. 1. ... • Trình độ Đại học trở lên chuyên ngành Tài chính - Ngân hàng, Quản trị kinh doanh, Công nghệ thông tin, Toán thống kê, Kinh tế lượng, Phân tích…",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Thống kê"
+   ]
+  },
+  {
    "title": "HO - Data Lake Manager",
    "company": "Ngân Hàng TMCP Á Châu (ACB)",
    "location": "Hồ Chí Minh",
@@ -7087,6 +7135,26 @@
    ]
   },
   {
+   "title": "AI Engineer (Remote Japan)",
+   "company": "VMO - An ALTEN Company",
+   "location": "Khác",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ai-engineer-remote-japan-2111385-jv",
+   "source": "VietnamWorks",
+   "date": "2026-09-24",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/99/11437140.png",
+   "salary": "Đến ≈103 triệu",
+   "desc": "Project Overview: Development and operation of a proprietary GenAI platform providing AI-powered chatbot and business support solutions. The platform is expanding with new plans and features, requiring an AI Engineer to support the next development phase and ongoing service operation. Responsibilities: - Evaluate and develop GenAI features, including chatbot and AI-based functions, before…",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "LLM / GenAI",
+    "Docker",
+    "Tiếng Nhật"
+   ]
+  },
+  {
    "title": "Data Engineer - MSB - KCN - 3I142",
    "company": "Ngân hàng Thương mại Cổ phần Hàng Hải Việt Nam (MSB)",
    "location": "Hà Nội",
@@ -8143,6 +8211,25 @@
    "skills": []
   },
   {
+   "title": "AI Engineer",
+   "company": "Trung Tâm Công Nghệ Cao Mobifone – Chi Nhánh Tổng Công Ty Viễn Thông Mobifone",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ai-engineer-1789725946873336018-2109088-jv",
+   "source": "VietnamWorks",
+   "date": "2026-09-18",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/45/11018911.png",
+   "salary": "Thỏa thuận",
+   "desc": "Mô tả công việc: • Nghiên cứu, lựa chọn, huấn luyện, tinh chỉnh, đánh giá và tối ưu các mô hình AI phù hợp với yêu cầu của sản phẩm. • Xây dựng quy trình thu thập dữ liệu, làm sạch dữ liệu, gán nhãn dữ liệu, kiểm tra chất lượng dữ liệu, xây dựng Data... Yêu cầu tuyển dụng • Tốt nghiệp Đại học trở lên chuyên ngành Khoa học máy tính, Kỹ thuật máy tính, Khoa học dữ liệu, Trí tuệ nhân tạo, Toán tin…",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Machine Learning",
+    "Deep Learning"
+   ]
+  },
+  {
    "title": "Data Engineer Lead",
    "company": "Home Credit Vietnam - Explore Your Dream Team",
    "location": "Hồ Chí Minh",
@@ -8442,94 +8529,6 @@
     "Python"
    ],
    "desc": "- Tham gia thiết kế, xây dựng và vận hành luồng dữ liệu cho các hệ thống Data Lake/Data Warehouse/Business Intelligent. - Hỗ trợ triển khai tích hợp dữ liệu từ nhiều nguồn, nhiều định dạng khác nhau về Data Lake. - Tham gia phát triển, tối ưu hệ thống dữ liệu, pipeline, công cụ ETL theo yêu cầu của dự án. - Phối hợp với đội Data Analyst / Business Analyst để phân tích, đánh giá yêu cầu và đề xuất…"
-  },
-  {
-   "title": "Kỹ Sư Bảo Mật Dữ Liệu - Privacy Engineer (Senior DevSecOps)",
-   "company": "GSM",
-   "location": "Hà Nội",
-   "region": "VN",
-   "url": "https://www.vietnamworks.com/ky-su-bao-mat-du-lieu-privacy-engineer-senior-devsecops--2107428-jv",
-   "source": "VietnamWorks",
-   "date": "2026-09-15",
-   "logo": "https://images.vietnamworks.com/pictureofcompany/d4/11448900.png",
-   "salary": "≈39–65 triệu",
-   "desc": "Kỹ sư Bảo mật Dữ liệu phụ trách thiết kế, triển khai và vận hành các giải pháp kỹ thuật bảo vệ dữ liệu cá nhân trên toàn bộ vòng đời dữ liệu của Công ty – từ hành khách, tài xế đối tác đến đối tác thương nhân – bảo đảm các yêu... Trình độ đào tạo /Educational Qualifications Tốt nghiệp Đại học trở lên chuyên ngành Công nghệ Thông tin, An toàn Thông tin hoặc Quản lý Hệ thống Thông tin. Bắt buộc có…",
-   "level": [
-    "senior"
-   ],
-   "skills": []
-  },
-  {
-   "title": "Consultant, Data Governance",
-   "company": "NAB Innovation Centre Vietnam",
-   "location": "Hồ Chí Minh",
-   "region": "VN",
-   "url": "https://www.vietnamworks.com/consultant-data-governance-2107466-jv",
-   "source": "VietnamWorks",
-   "date": "2026-09-15",
-   "logo": "https://images.vietnamworks.com/pictureofcompany/d9/11293186.png",
-   "salary": "Thỏa thuận",
-   "desc": "The Senior Consultant Marketing Data Governance role supports the Group Marketing Business Data Steward in the execution and continuous improvement of data risk management, data governance, data quality and compliance practices across Group Marketing. The role acts as a key advisor and coordinator, helping to ensure critical data assets are effectively governed, data obligations...",
-   "skills": []
-  },
-  {
-   "title": "Digital Marketing Analytics Consultant",
-   "company": "NAB Innovation Centre Vietnam",
-   "location": "Hồ Chí Minh",
-   "region": "VN",
-   "url": "https://www.vietnamworks.com/digital-marketing-analytics-consultant-2107470-jv",
-   "source": "VietnamWorks",
-   "date": "2026-09-15",
-   "logo": "https://images.vietnamworks.com/pictureofcompany/d9/11293186.png",
-   "salary": "Thỏa thuận",
-   "desc": "The Marketing Performance Management team is responsible for enabling the Marketing businesses through innovative tools and techniques to measure and effectively leverage data to drive marketing performance. The Digital Marketing Analytics Consultant will be responsible for executing on the design, development, and maintenance of the measurement frameworks to support marketing campaigns and…",
-   "level": [
-    "senior"
-   ],
-   "skills": []
-  },
-  {
-   "title": "Data Engineer",
-   "company": "Viettel Cyber Security",
-   "location": "Hà Nội",
-   "region": "VN",
-   "url": "https://glints.com/vn/opportunities/jobs/data-engineer/7f1c0e92-3a4d-46f5-8676-f21acf6b13fe",
-   "source": "Glints",
-   "date": "2026-09-15",
-   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/4ea0c5265faab6dc0e68ec3f43f8d001.jpeg",
-   "salary": "20–30 triệu",
-   "level": [
-    "junior"
-   ],
-   "skills": [
-    "SQL",
-    "Python",
-    "Tiếng Anh"
-   ],
-   "desc": "1. CHI TIẾT CÔNG VIỆC Tham gia thiết kế, phát triển và vận hành các luồng xử lý dữ liệu (batch & streaming) trên nền tảng Big Data Phối hợp xây dựng và tối ưu hệ thống xử lý dữ liệu thời gian thực, đảm bảo độ ổn định và hiệu năng Xây dựng và quản lý quy trình điều phối dữ liệu (orchestration), đảm bảo dữ liệu được xử lý đúng hạn và có thể theo dõi Thực hiện các hoạt động đảm bảo chất lượng dữ…"
-  },
-  {
-   "title": "Finance & Data Senior",
-   "company": "MindX Technology School",
-   "location": "Hà Nội",
-   "region": "VN",
-   "url": "https://glints.com/vn/opportunities/jobs/finance-data-senior/d3e4f8e3-34e3-4bbd-896e-a1a0fb800292",
-   "source": "Glints",
-   "date": "2026-09-15",
-   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/00a4c36ddd451d4da6e9b0c889462233.jpg",
-   "salary": "20–30 triệu",
-   "level": [
-    "senior"
-   ],
-   "skills": [
-    "Excel",
-    "Power BI",
-    "Tableau",
-    "Metabase",
-    "SQL",
-    "Python"
-   ],
-   "desc": "I. MÔ TẢ CÔNG VIỆC Phân tích báo cáo tài chính, doanh thu, chi phí, lợi nhuận, dòng tiền và hiệu quả từng mảng kinh doanh (actual và plan).. Xây dựng dashboard và báo cáo quản trị phục vụ Ban Tổng Giám đốc và các quyết định vận hành – chiến lược. Đối soát dữ liệu với Kế toán, Sales, Vận hành và các đơn vị kinh doanh để đảm bảo số liệu chính xác, nhất quán. Số hóa quy trình báo cáo, chuẩn hóa dữ…"
   }
  ],
  "rejected": [
