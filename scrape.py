@@ -680,7 +680,7 @@ def vietinbank():
     """Nhiều tin tuyển cho chi nhánh: địa chỉ thường để trống → dùng tên chi nhánh/phòng ban."""
     return [job(text(c, ".c-line-jobtitle"), "VietinBank", text(c, ".c-line-address") or text(c, ".c-line-jobcontent"), "VN", url,
                 COMPANY_SOURCE, dmy(c.get_text(" ").split("Ngày đăng")[-1]))
-            for c, a, url in paged("https://tuyendung.vietinbank.vn/tuyendung/tuyen-dung?page={}", ".c-card", "a.btn-apply-ut", 40)]
+            for c, a, url in paged("https://tuyendung.vietinbank.vn/tuyen-dung?page={}", ".c-card", "a.btn-apply-ut", 40)]
 
 
 def msb():
@@ -772,6 +772,10 @@ def details(url):
     if m := re.match(r"https://jobs\.smartrecruiters\.com/([^/]+)/(\d+)", url):  # Grab, Bosch...: trang chạy bằng JS, đọc API
         ad = get_json(f"https://api.smartrecruiters.com/v1/companies/{m[1]}/postings/{m[2]}")["jobAd"]["sections"]
         return " ".join(ad.get(k, {}).get("text", "") for k in ("jobDescription", "qualifications"))
+    m = re.match(r"https://([^/]+)/vi/jobs/(\w+)$", url)
+    if m and m[1] in {slug for fetch, slug, _ in COMPANIES if fetch is ainavi}:  # TPBank, OCB...: trang chi tiết trả lỗi 500, đọc API
+        d = get_json(f"https://centralize-api.ainavi.com.vn/api/recruitment/Recruitment/GetRecruitmentBySlug?Slug={m[2]}&Domain={m[1]}")
+        return " ".join(d.get(k) or "" for k in ("description", "requirement", "request"))
     page = soup(url)
     for script in page.select('script[type="application/ld+json"]'):
         try:
@@ -786,6 +790,8 @@ def details(url):
     if el := page.select_one("script#__NEXT_DATA__"):  # MoMo, VNG: chỉ lấy dữ liệu của tin, bỏ menu và tin liên quan
         props = json.loads(el.string)["props"]["pageProps"]
         return " ".join(str(v) for k, v in props.items() if re.search(r"job_?detail|job_data", k, re.I))
+    if "vietinbank.vn" in url:  # hai cột "Mô tả công việc", "Yêu cầu công việc"
+        return " ".join(str(el) for el in page.select(".left-10"))
     return ""  # trang không có dữ liệu chuẩn: chỉ đọc kỹ năng từ tên vị trí
 
 
