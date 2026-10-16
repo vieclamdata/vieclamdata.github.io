@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T02:10+00:00",
+ "updated": "2026-10-16T02:37+00:00",
  "jobs": [
   {
    "title": "Manager, Business Intelligence & Analytics",
@@ -4390,6 +4390,86 @@
    "logo": "logos/vietinbank.png"
   },
   {
+   "title": "CV/CVC/CVCC BI Developer",
+   "company": "VietinBank",
+   "location": "Thành phố Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vietinbank.vn/thong-tin-tuyen-dung/TSC202610661T00763",
+   "source": "Trang công ty",
+   "date": "2026-10-06",
+   "skills": [
+    "Data Modeling",
+    "Thống kê",
+    "SQL",
+    "Power BI",
+    "Tableau",
+    "Metabase",
+    "Data Warehouse",
+    "Python",
+    "R"
+   ],
+   "desc": "Mô tả công việc 1. Phát triển báo cáo và dashboard Xây dựng, phát triển và duy trì các báo cáo quản trị, dashboard điều hành phục vụ Ban Lãnh đạo, các Khối nghiệp vụ (Bán lẻ, KHDN, Vận hành, Tài chính, Rủi ro…) và Chi nhánh. Phối hợp với các đơn vị nghiệp vụ chuẩn hóa định nghĩa, logic tính toán KPI và các chỉ tiêu kinh doanh theo từng mảng. Đảm bảo báo cáo chính xác, đầy đủ, kịp thời và trực…",
+   "logo": "logos/vietinbank.png"
+  },
+  {
+   "title": "CV/CVC/CVCC BA Data (Analytics Translator)",
+   "company": "VietinBank",
+   "location": "Thành phố Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vietinbank.vn/thong-tin-tuyen-dung/TSC202610661T00762",
+   "source": "Trang công ty",
+   "date": "2026-10-06",
+   "skills": [
+    "Data Warehouse",
+    "Thống kê",
+    "Excel",
+    "SQL",
+    "Power BI",
+    "Tableau",
+    "Metabase"
+   ],
+   "desc": "Mô tả công việc 1. Phân tích nghiệp vụ và xác định yêu cầu dữ liệu Làm việc với các Khối nghiệp vụ (Bán lẻ, Khách hàng Doanh nghiệp, Tài chính, Rủi ro, Vận hành...) để phân tích quy trình nghiệp vụ, nhu cầu quản trị, điều hành và giám sát. Xác định các chỉ tiêu kinh doanh, KPI, metric, báo cáo và insight cần thiết. Làm rõ mục tiêu sử dụng dữ liệu, phạm vi phân tích và mức độ chi tiết phù hợp với…",
+   "logo": "logos/vietinbank.png"
+  },
+  {
+   "title": "CV/CVC/CVCC AI Engineer",
+   "company": "VietinBank",
+   "location": "Thành phố Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vietinbank.vn/thong-tin-tuyen-dung/TSC202610661T00761",
+   "source": "Trang công ty",
+   "date": "2026-10-06",
+   "skills": [
+    "LLM / GenAI",
+    "MLOps",
+    "NLP",
+    "Python",
+    "Docker",
+    "Tiếng Anh"
+   ],
+   "desc": "Mô tả công việc 1. Phân tích bài toán và thiết kế giải pháp GenAI Làm việc với các đơn vị nghiệp vụ để tiếp nhận yêu cầu, đánh giá khả năng ứng dụng GenAI và đề xuất hướng tiếp cận kỹ thuật phù hợp. Phân tích bối cảnh sử dụng, dữ liệu đầu vào/đầu ra và rủi ro để thiết kế kiến trúc GenAI khả thi, an toàn. Lựa chọn mô hình, nền tảng và phương thức triển khai (on-premise, private cloud, hybrid, API…",
+   "logo": "logos/vietinbank.png"
+  },
+  {
+   "title": "CV/CVC/CVCC Data Scientist",
+   "company": "VietinBank",
+   "location": "Thành phố Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vietinbank.vn/thong-tin-tuyen-dung/TSC202610661T00760",
+   "source": "Trang công ty",
+   "date": "2026-10-06",
+   "skills": [
+    "Machine Learning",
+    "Data Modeling",
+    "Thống kê",
+    "AWS",
+    "GCP",
+    "Azure"
+   ],
+   "desc": "Mô tả công việc Thu thập, làm sạch và tiền xử lý dữ liệu phục vụ phân tích, mô hình hóa và phát triển các ứng dụng dữ liệu. Xây dựng giả thuyết, lựa chọn và phát triển các kỹ thuật tạo đặc trưng (feature engineering). Phân tích dữ liệu bằng các phương pháp, công cụ và thuật toán phù hợp. Xây dựng, đánh giá và tối ưu các mô hình khoa học dữ liệu, machine learning và các ứng dụng liên quan. Thực…",
+   "logo": "logos/vietinbank.png"
+  },
+  {
    "title": "Unit Head Of Fraud Analytics",
    "company": "CÔNG TY TÀI CHÍNH TÍN DỤNG TIÊU DÙNG TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN SFINANCE",
    "location": "Hồ Chí Minh",
@@ -7844,7 +7924,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/data-engineer.35C843CF.html",
    "source": "CareerViet",
    "date": "2026-09-21",
-   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuy%E1%BB%83n%20d%E1%BB%A5ng.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuyển dụng.png",
    "salary": "Thỏa thuận",
    "desc": "Đây là vị trí có vai trò quan trọng trong việc xây dựng nền tảng công nghệ và dữ liệu cho Fraud Detection, kết nối giữa năng lực Big Data/Data Engineering và bài toán quản trị rủi ro trong môi trường Retail. Vị trí có cơ hội tham gia trực tiếp vào các bài toán dữ liệu lớn, xây dựng Detection Engine/Model và triển khai các use case thực tế cùng đội ngũ Retail Fraud Analytics. 1. Mục tiêu vị trí…",
    "skills": [
