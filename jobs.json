@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T11:20+00:00",
+ "updated": "2026-10-16T16:40+00:00",
  "jobs": [
   {
    "title": "Academic Assistant, Systems, Data & Quality Coordinator",
@@ -261,6 +261,50 @@
     "Data Warehouse"
    ],
    "logo": "logos/techcombank.png",
+   "last_seen": "2026-10-16"
+  },
+  {
+   "title": "Business Intelligence Specialist",
+   "company": "Tuyển Dụng 247",
+   "location": "Ho Chi Minh City Metropolitan Area",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4479358087",
+   "source": "LinkedIn",
+   "date": "2026-10-16",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEy6FbUCOJbQg/company-logo_100_100/B56Z0aAoCOKMAQ-/0/1774257865657/tuyendung247_logo?e=2147483647&v=beta&t=OHrnP-qFmrFk2yfTqjk1BadI6yHS4ZPyBcz759cnTWo",
+   "skills": [
+    "Data Warehouse",
+    "ETL",
+    "Data Modeling",
+    "SQL",
+    "SSIS",
+    "Python",
+    "R",
+    "Power BI",
+    "Qlik"
+   ],
+   "desc": "1. Summary Reporting directly to: Business Intelligence Manager Department: Commercial Excellence Working location: Lê Đai Hanh Q11 HCM 2. Job Description Responsible for all stages of the business intelligence cycle: understanding business objective, collecting business requirements, and translating them into data requirements, designing and developing reports/dashboards (code and…",
+   "last_seen": "2026-10-16"
+  },
+  {
+   "title": "Data Engineer",
+   "company": "Viettel Cyber Security",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/data-engineer/7f1c0e92-3a4d-46f5-8676-f21acf6b13fe",
+   "source": "Glints",
+   "date": "2026-10-16",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/4ea0c5265faab6dc0e68ec3f43f8d001.jpeg",
+   "salary": "20–30 triệu",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "SQL",
+    "Python",
+    "Tiếng Anh"
+   ],
+   "desc": "1. CHI TIẾT CÔNG VIỆC Tham gia thiết kế, phát triển và vận hành các luồng xử lý dữ liệu (batch & streaming) trên nền tảng Big Data Phối hợp xây dựng và tối ưu hệ thống xử lý dữ liệu thời gian thực, đảm bảo độ ổn định và hiệu năng Xây dựng và quản lý quy trình điều phối dữ liệu (orchestration), đảm bảo dữ liệu được xử lý đúng hạn và có thể theo dõi Thực hiện các hoạt động đảm bảo chất lượng dữ…",
    "last_seen": "2026-10-16"
   },
   {
@@ -530,6 +574,33 @@
    "location": "Hanoi",
    "region": "VN",
    "url": "https://www.linkedin.com/jobs/view/4479811568",
+   "source": "LinkedIn",
+   "date": "2026-10-15",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQFa7H1kYdf2rA/company-logo_100_100/B56aEvVjiWKYAI-/0/1791795542530?e=2147483647&v=beta&t=HqdsCbioUIL01kJTLAVcZcQxfnATOlC7gEEaOAtv33c",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Thống kê",
+    "SQL",
+    "Power BI",
+    "Data Warehouse",
+    "ETL",
+    "Python",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Informatica"
+   ],
+   "desc": "Senior Data Analyst/ Senior Data Engineer Work Location: Hanoi: TechnoPark Tower, Vinhomes Ocean Park, Hanoi Hochiminh: Vincom Dong Khoi, HCM Job Overview Vị trí đóng vai trò quan trọng trong việc phân tích dữ liệu nghiệp vụ, quy hoạch và quản lý tài sản dữ liệu phục vụ các PnL trong công ty. Ứng viên sẽ chịu trách nhiệm phân tích dữ liệu từ nhiều lĩnh vực nghiệp vụ, xác định nhu cầu, khoảng…",
+   "last_seen": "2026-10-16"
+  },
+  {
+   "title": "Senior Data Analyst/ Data Engineer",
+   "company": "Qode Solutions",
+   "location": "Ho Chi Minh City Metropolitan Area",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4479804906",
    "source": "LinkedIn",
    "date": "2026-10-15",
    "logo": "https://media.licdn.com/dms/image/v2/D560BAQFa7H1kYdf2rA/company-logo_100_100/B56aEvVjiWKYAI-/0/1791795542530?e=2147483647&v=beta&t=HqdsCbioUIL01kJTLAVcZcQxfnATOlC7gEEaOAtv33c",
@@ -1308,7 +1379,7 @@
     "senior"
    ],
    "skills": [],
-   "last_seen": "2026-10-14"
+   "last_seen": "2026-10-16"
   },
   {
    "title": "Trưởng phòng Kỹ thuật dữ liệu",
@@ -1498,6 +1569,29 @@
     "intern"
    ],
    "skills": [],
+   "last_seen": "2026-10-16"
+  },
+  {
+   "title": "Senior Specialist – AI & Data Platform",
+   "company": "VEC - Vietnam Exposition Center",
+   "location": "Hanoi Capital Region",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4478418056",
+   "source": "LinkedIn",
+   "date": "2026-10-14",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHuBmO_tzFgUA/company-logo_100_100/B56aAZLRSnH4AI-/0/1787128780192/vecglobal_logo?e=2147483647&v=beta&t=krSUryCLfBqMbscnn83lfzUPMYPthoC97urNE72Wc-E",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Data Warehouse",
+    "ETL",
+    "Machine Learning",
+    "SQL",
+    "Python",
+    "LLM / GenAI"
+   ],
+   "desc": "Vietnam Exposition Center (VEC) – Information Technology Department, Hanoi About the role VEC is looking for a Senior AI & Data Platform Specialist to build the shared data foundation and AI platform that support VEC’s operations. You will work in a lean, AI-enabled IT team, building and running data and AI solutions end to end and turning business needs into working tools. Key responsibilities…",
    "last_seen": "2026-10-16"
   },
   {
@@ -8715,15 +8809,17 @@
    "date": "2026-09-21",
    "logo": "https://images.vietnamworks.com/pictureofcompany/31/11435513.png",
    "salary": "Thỏa thuận",
-   "desc": "• Tham gia phát triển và triển khai các hệ thống AI production phục vụ sản phẩm thực tế • Xây dựng OCR pipeline, Chatbot/Voice bot platform • Phát triển AI Agent workflow sử dụng LangChain / LangGraph / ADK • Xây dựng và tối ưu hệ thống RAG, embeddings và retrieval pipeline • Tích hợp và triển...",
+   "desc": "• Tham gia phát triển và triển khai các hệ thống AI production phục vụ sản phẩm thực tế • Xây dựng OCR pipeline, Chatbot/Voice bot platform • Phát triển AI Agent workflow sử dụng LangChain / LangGraph / ADK • Xây dựng và tối ưu hệ thống RAG, embeddings và retrieval pipeline • Tích hợp và triển... • Có từ 2 năm kinh nghiệm tại vị trí AI Engineer hoặc tương đương • Thành thạo: o Python o FastAPI…",
    "level": [
     "junior",
     "mid"
    ],
    "skills": [
-    "LLM / GenAI"
+    "LLM / GenAI",
+    "Python",
+    "Git"
    ],
-   "last_seen": "2026-09-21"
+   "last_seen": "2026-10-16"
   },
   {
    "title": "Senior/Lead - Data Engineering",
