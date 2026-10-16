@@ -1,6 +1,39 @@
 {
- "updated": "2026-10-15T12:00+00:00",
+ "updated": "2026-10-16T02:17+00:00",
  "jobs": [
+  {
+   "title": "Data Engineer (Quận 9)",
+   "company": "CÔNG TY TNHH TECHTRONIC PRODUCTS (VIỆT NAM)",
+   "location": "Hồ Chí Minh (mới)",
+   "region": "VN",
+   "url": "https://www.topcv.vn/viec-lam/data-engineer-quan-9/2332695.html",
+   "source": "TopCV",
+   "date": "2026-10-16",
+   "logo": "https://cdn-new.topcv.vn/unsafe/150x/https://static.topcv.vn/company_logos/cong-ty-tnhh-techtronic-products-viet-nam-77280b7d78d52b251071cdd66d262751-66fb9767bbf53.jpg",
+   "salary": "Thỏa thuận",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Machine Learning",
+    "Python",
+    "Java",
+    "SQL",
+    "NoSQL",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Power BI",
+    "Tableau",
+    "Hadoop",
+    "Spark",
+    "Tiếng Anh",
+    "Excel",
+    "R",
+    "SAS"
+   ],
+   "desc": "Mô tả công việc - Design, develop and maintain scalable data architectures and data pipelines supporting manufacturing applications and analytics. - Integrate data from multiple operational systems and IIoT sources to improve data accessibility and reliability. - Analyze large datasets and leverage advanced analytics and machine learning to generate actionable insights. - Develop ad-hoc…"
+  },
   {
    "title": "Junior Data Analyst (Python, SQL, R, Git)",
    "company": "AI+DI",
@@ -133,9 +166,29 @@
   {
    "title": "Data Analyst",
    "company": "Công Ty Cổ Phần Mh Digital",
-   "location": "",
    "region": "VN",
    "url": "https://vieclam24h.vn/it-phan-mem/data-analyst-c8p210000160id200961652.html",
+   "source": "Vieclam24h",
+   "date": "2026-10-15",
+   "logo": "https://cdn1.vieclam24h.vn/images/default/2026/01/15/img-1768465327295_176846532699.png?v=220513",
+   "salary": "10–15 triệu",
+   "skills": [
+    "SQL",
+    "Data Warehouse",
+    "Excel",
+    "Power BI",
+    "Python",
+    "Superset",
+    "Tiếng Anh"
+   ],
+   "desc": "Mô tả công việc: - Vận hành và quản trị hệ thống cơ sở dữ liệu sẵn có, thực hiện thu thập, làm sạch và xử lý dữ liệu từ nhiều nguồn khác nhau. - Viết truy vấn SQL để khai thác, tổng hợp dữ liệu và phối hợp với các bộ phận liên quan để triển khai phân tích yêu cầu kinh doanh. - Duy trì các báo cáo hiện có, đồng thời tham gia phát triển và nâng cấp hệ thống Data Warehouse. - Xây dựng, thiết kế báo…"
+  },
+  {
+   "title": "Data Analyst Executive",
+   "company": "Công Ty Cổ Phần Mh Digital",
+   "location": "",
+   "region": "VN",
+   "url": "https://vieclam24h.vn/it-phan-mem/data-analyst-executive-c8p210000160id200961652.html",
    "source": "Vieclam24h",
    "date": "2026-10-15",
    "logo": "https://cdn1.vieclam24h.vn/images/default/2026/01/15/img-1768465327295_176846532699.png?v=220513",
@@ -2403,6 +2456,64 @@
    "desc": "Mô tả công việc - Inventory current SOCOM data sources by API, crawl, manual export, frequency, owner, quality and business criticality. - Design and build ingestion pipelines from TikTok media/video API, manual exports, crawl outputs, Stickler exports and creator/affiliate datasets. - Create canonical data models for brand, platform, store, campaign, creator, MCN/TAP, livestream session, SKU,…"
   },
   {
+   "title": "CV/CVC/CVCC BA Data (Analytics Translator)",
+   "company": "VietinBank",
+   "location": "Thành phố Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vietinbank.vn/thong-tin-tuyen-dung/TSC202610661T00762",
+   "source": "Trang công ty",
+   "date": "2026-10-06",
+   "skills": [
+    "Data Warehouse",
+    "Thống kê",
+    "Excel",
+    "SQL",
+    "Power BI",
+    "Tableau",
+    "Metabase"
+   ],
+   "desc": "Mô tả công việc 1. Phân tích nghiệp vụ và xác định yêu cầu dữ liệu Làm việc với các Khối nghiệp vụ (Bán lẻ, Khách hàng Doanh nghiệp, Tài chính, Rủi ro, Vận hành...) để phân tích quy trình nghiệp vụ, nhu cầu quản trị, điều hành và giám sát. Xác định các chỉ tiêu kinh doanh, KPI, metric, báo cáo và insight cần thiết. Làm rõ mục tiêu sử dụng dữ liệu, phạm vi phân tích và mức độ chi tiết phù hợp với…",
+   "logo": "logos/vietinbank.png"
+  },
+  {
+   "title": "CV/CVC/CVCC AI Engineer",
+   "company": "VietinBank",
+   "location": "Thành phố Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vietinbank.vn/thong-tin-tuyen-dung/TSC202610661T00761",
+   "source": "Trang công ty",
+   "date": "2026-10-06",
+   "skills": [
+    "LLM / GenAI",
+    "MLOps",
+    "NLP",
+    "Python",
+    "Docker",
+    "Tiếng Anh"
+   ],
+   "desc": "Mô tả công việc 1. Phân tích bài toán và thiết kế giải pháp GenAI Làm việc với các đơn vị nghiệp vụ để tiếp nhận yêu cầu, đánh giá khả năng ứng dụng GenAI và đề xuất hướng tiếp cận kỹ thuật phù hợp. Phân tích bối cảnh sử dụng, dữ liệu đầu vào/đầu ra và rủi ro để thiết kế kiến trúc GenAI khả thi, an toàn. Lựa chọn mô hình, nền tảng và phương thức triển khai (on-premise, private cloud, hybrid, API…",
+   "logo": "logos/vietinbank.png"
+  },
+  {
+   "title": "CV/CVC/CVCC Data Scientist",
+   "company": "VietinBank",
+   "location": "Thành phố Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vietinbank.vn/thong-tin-tuyen-dung/TSC202610661T00760",
+   "source": "Trang công ty",
+   "date": "2026-10-06",
+   "skills": [
+    "Machine Learning",
+    "Data Modeling",
+    "Thống kê",
+    "AWS",
+    "GCP",
+    "Azure"
+   ],
+   "desc": "Mô tả công việc Thu thập, làm sạch và tiền xử lý dữ liệu phục vụ phân tích, mô hình hóa và phát triển các ứng dụng dữ liệu. Xây dựng giả thuyết, lựa chọn và phát triển các kỹ thuật tạo đặc trưng (feature engineering). Phân tích dữ liệu bằng các phương pháp, công cụ và thuật toán phù hợp. Xây dựng, đánh giá và tối ưu các mô hình khoa học dữ liệu, machine learning và các ứng dụng liên quan. Thực…",
+   "logo": "logos/vietinbank.png"
+  },
+  {
    "title": "Data Product & Semantic Layer Engineer",
    "company": "FPT Software",
    "location": "Ha Noi",
@@ -2719,10 +2830,10 @@
    "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Nzk2OTE3LCJwdXIiOiJibG9iX2lkIn19--42042283032f344a3ffed30ab486ee4c70ad0c99/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/imip-technology-and-solution-consultancy-logo.png",
    "tags": [
     "Data Engineer",
-    "Kubernetes",
-    "Apache Spark",
     "Business Intelligence",
-    "CI/CD"
+    "CI/CD",
+    "Kubernetes",
+    "Apache Spark"
    ],
    "level": [
     "mid"
@@ -3690,11 +3801,11 @@
    "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODA2NDczMiwicHVyIjoiYmxvYl9pZCJ9fQ==--ab728ec230ca86effc0ea0c7e3b83c074f25dd99/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/Icon-Workspace-06.png",
    "tags": [
     "Database",
-    "Google BigQuery",
-    "Kafka",
     "Snowflake",
     "Databricks",
-    "Spark"
+    "Spark",
+    "Google BigQuery",
+    "Kafka"
    ],
    "level": [
     "lead"
@@ -3807,49 +3918,6 @@
     "Python"
    ],
    "desc": "- Tham gia thiết kế, xây dựng và vận hành luồng dữ liệu cho các hệ thống Data Lake/Data Warehouse/Business Intelligent. - Hỗ trợ triển khai tích hợp dữ liệu từ nhiều nguồn, nhiều định dạng khác nhau về Data Lake. - Tham gia phát triển, tối ưu hệ thống dữ liệu, pipeline, công cụ ETL theo yêu cầu của dự án. - Phối hợp với đội Data Analyst / Business Analyst để phân tích, đánh giá yêu cầu và đề xuất…"
-  },
-  {
-   "title": "Data Engineer",
-   "company": "Viettel Cyber Security",
-   "location": "Hà Nội",
-   "region": "VN",
-   "url": "https://glints.com/vn/opportunities/jobs/data-engineer/7f1c0e92-3a4d-46f5-8676-f21acf6b13fe",
-   "source": "Glints",
-   "date": "2026-09-15",
-   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/4ea0c5265faab6dc0e68ec3f43f8d001.jpeg",
-   "salary": "20–30 triệu",
-   "level": [
-    "junior"
-   ],
-   "skills": [
-    "SQL",
-    "Python",
-    "Tiếng Anh"
-   ],
-   "desc": "1. CHI TIẾT CÔNG VIỆC Tham gia thiết kế, phát triển và vận hành các luồng xử lý dữ liệu (batch & streaming) trên nền tảng Big Data Phối hợp xây dựng và tối ưu hệ thống xử lý dữ liệu thời gian thực, đảm bảo độ ổn định và hiệu năng Xây dựng và quản lý quy trình điều phối dữ liệu (orchestration), đảm bảo dữ liệu được xử lý đúng hạn và có thể theo dõi Thực hiện các hoạt động đảm bảo chất lượng dữ…"
-  },
-  {
-   "title": "Finance & Data Senior",
-   "company": "MindX Technology School",
-   "location": "Hà Nội",
-   "region": "VN",
-   "url": "https://glints.com/vn/opportunities/jobs/finance-data-senior/d3e4f8e3-34e3-4bbd-896e-a1a0fb800292",
-   "source": "Glints",
-   "date": "2026-09-15",
-   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/00a4c36ddd451d4da6e9b0c889462233.jpg",
-   "salary": "20–30 triệu",
-   "level": [
-    "senior"
-   ],
-   "skills": [
-    "Excel",
-    "Power BI",
-    "Tableau",
-    "Metabase",
-    "SQL",
-    "Python"
-   ],
-   "desc": "I. MÔ TẢ CÔNG VIỆC Phân tích báo cáo tài chính, doanh thu, chi phí, lợi nhuận, dòng tiền và hiệu quả từng mảng kinh doanh (actual và plan).. Xây dựng dashboard và báo cáo quản trị phục vụ Ban Tổng Giám đốc và các quyết định vận hành – chiến lược. Đối soát dữ liệu với Kế toán, Sales, Vận hành và các đơn vị kinh doanh để đảm bảo số liệu chính xác, nhất quán. Số hóa quy trình báo cáo, chuẩn hóa dữ…"
   }
  ],
  "rejected": [
