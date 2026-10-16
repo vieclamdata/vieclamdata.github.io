@@ -9,7 +9,7 @@ Website tổng hợp việc làm ngành data tại Việt Nam. Lương được 
 | File | Việc |
 |---|---|
 | `scrape.py` | Lấy job từ VietnamWorks, CareerViet, LinkedIn Jobs, Ybox, TopDev, Glints và trang tuyển dụng của các công ty: 19 ngân hàng (Vietcombank, VietinBank, Techcombank, VPBank, ACB, VIB…), chứng khoán (SSI, VNDIRECT, TCBS), VNPAY, VNG, MoMo, VNPT, NashTech, Grab, NVIDIA, NAB, Prudential… |
-| `local.py` | Lấy job từ ITviec, TopCV, CareerLink, JobsGo, Vieclam24h (các trang chặn máy chủ GitHub) |
+| `local.py` | Lấy job từ ITviec, TopCV, CareerLink, JobsGo, Vieclam24h và trang tuyển dụng VietinBank (các trang chặn máy chủ GitHub) |
 | `index.html` | Trang web: lưới thẻ việc làm, rê chuột (hoặc chạm trên điện thoại) để xem nhanh, tìm kiếm (gõ không dấu cũng được), lọc theo mức lương, tỉnh thành, thời điểm đăng, kinh nghiệm, nguồn |
 
 ## Đưa website lên mạng (khoảng 10 phút)
@@ -52,7 +52,7 @@ Muốn tên miền riêng (`vieclamdata.com`, khoảng 250 nghìn đồng/năm):
 
 ## Cào bằng máy của bạn (`local.py`)
 
-Đã thử trên máy chủ GitHub (10/2026): ITviec, TopCV, JobsGo, Vieclam24h trả lỗi 403, CareerLink trả trang rỗng. Các trang này do `local.py` lấy bằng IP Việt Nam, ghi vào `local.json` rồi tự push. Bot GitHub chỉ ghi `jobs.json`, nên hai bên không bao giờ xung đột. Không cần trình duyệt: mọi request đi qua [Scrapling](https://github.com/D4Vinci/Scrapling), giả lập Chrome tới cả dấu vân tay TLS nên Cloudflare của TopCV, JobsGo không chặn.
+Đã thử trên máy chủ GitHub (10/2026): ITviec, TopCV, JobsGo, Vieclam24h trả lỗi 403, VietinBank trả lỗi 502, CareerLink trả trang rỗng. Các trang này do `local.py` lấy bằng IP Việt Nam, ghi vào `local.json` rồi tự push. Bot GitHub chỉ ghi `jobs.json`, nên hai bên không bao giờ xung đột. Không cần trình duyệt: mọi request đi qua [Scrapling](https://github.com/D4Vinci/Scrapling), giả lập Chrome tới cả dấu vân tay TLS nên Cloudflare của TopCV, JobsGo không chặn.
 
 1. Cài một lần: `pip install -r requirements.txt`
 2. Chạy thử không push: `python local.py --no-push`
@@ -97,7 +97,7 @@ Nhiều công ty đăng tin qua hệ thống tuyển dụng có API công khai. 
 | Trang có `<địa chỉ>/services/rss/job/` (SAP SuccessFactors, như VPBank) | `(successfactors, "https://tuyendung.abc.com.vn", "Tên công ty"),` |
 | Trang có ảnh từ `image.talentnetwork.vn`, link tin dạng `/viec-lam/ten-vi-tri.35ac13c7.html` (như SHB, PVcomBank) | `(talentnetwork, "https://tuyendung.abc.com.vn", "Tên công ty"),` |
 
-Chỉ tin ở Việt Nam và đúng ngành data mới được lấy. Công ty tự làm trang tuyển dụng riêng thì mỗi trang một hàm (`vng`, `momo`, `be`, `vnpt`, `nashtech`, `vietinbank`, `seabank`, `msb`, `ssi`, `tcbs`, `vnpay` trong `scrape.py`), nằm trong `SOURCES` như các trang tuyển dụng. Trang nào đổi giao diện thì workflow báo đỏ với tên hàm đó. Đã thử nhưng chưa làm được: FPT, Tiki, Ahamove, BIDV, Kienlongbank, vì các trang này tải danh sách bằng JavaScript hoặc chặn API; VinBigData không còn cập nhật từ 2022.
+Chỉ tin ở Việt Nam và đúng ngành data mới được lấy. Công ty tự làm trang tuyển dụng riêng thì mỗi trang một hàm (`vng`, `momo`, `be`, `vnpt`, `nashtech`, `seabank`, `msb`, `ssi`, `tcbs`, `vnpay` trong `scrape.py`), nằm trong `SOURCES` như các trang tuyển dụng. Trang nào đổi giao diện thì workflow báo đỏ với tên hàm đó. Đã thử nhưng chưa làm được: FPT, Tiki, Ahamove, BIDV, Kienlongbank, vì các trang này tải danh sách bằng JavaScript hoặc chặn API; VinBigData không còn cập nhật từ 2022.
 
 **Logo:** trang tuyển dụng của công ty không kèm logo, nên logo lấy từ thư mục `logos/`, tên file là tên công ty viết không dấu, nối bằng gạch ngang (`Nam A Bank` → `logos/nam-a-bank.png`; `logos/vnpt.png` dùng cho mọi đơn vị có chữ VNPT). Thêm công ty mới thì thêm một file PNG vuông khoảng 160px, nền trong suốt hoặc trắng. Không có file thì dùng logo của tin khác cùng tên công ty (từ ITviec, TopCV...), vẫn không có thì trang hiện chữ cái đầu.
 

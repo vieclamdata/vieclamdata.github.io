@@ -1,6 +1,6 @@
 """Nguồn phải cào bằng máy của bạn → local.json, rồi tự commit + push lên GitHub.
 
-Vì sao không chạy trên GitHub Actions: đã thử (10/2026), ITviec, TopCV, JobsGo, Vieclam24h trả 403 với máy chủ GitHub,
+Vì sao không chạy trên GitHub Actions: đã thử (10/2026), ITviec, TopCV, JobsGo, Vieclam24h trả 403, VietinBank trả 502 với máy chủ GitHub,
 CareerLink trả trang rỗng. Máy bạn có IP Việt Nam. Không cần trình duyệt: get() của scrape.py dùng Scrapling giả lập Chrome
 nên qua được Cloudflare của TopCV, JobsGo.
 Bot GitHub ghi jobs.json, script này ghi local.json → hai bên không bao giờ sửa chung một file, không bị xung đột khi push.
@@ -18,7 +18,7 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
-from scrape import PAGES, TODAY, ago, amount, day, get, job, run, soup, text
+from scrape import COMPANY_SOURCE, PAGES, TODAY, ago, amount, day, dmy, get, job, paged, run, soup, text
 
 HERE = Path(__file__).parent
 
@@ -97,7 +97,14 @@ def jobsgo():
     return out
 
 
-LOCAL_SOURCES = [itviec, topcv, careerlink, jobsgo, vieclam24h]
+def vietinbank():
+    """Trả 502 với máy chủ GitHub (10/2026). Nhiều tin tuyển cho chi nhánh: địa chỉ thường để trống → dùng tên chi nhánh/phòng ban."""
+    return [job(text(c, ".c-line-jobtitle"), "VietinBank", text(c, ".c-line-address") or text(c, ".c-line-jobcontent"), "VN", url,
+                COMPANY_SOURCE, dmy(c.get_text(" ").split("Ngày đăng")[-1]))
+            for c, a, url in paged("https://tuyendung.vietinbank.vn/tuyen-dung?page={}", ".c-card", "a.btn-apply-ut", 40)]
+
+
+LOCAL_SOURCES = [itviec, topcv, careerlink, jobsgo, vieclam24h, vietinbank]
 
 
 def git(*args):

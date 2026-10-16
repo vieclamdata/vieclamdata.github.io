@@ -676,13 +676,6 @@ def seabank():
             for c, a, url in paged("https://tuyendung.seabank.com.vn/jobs?page={}", "div[title]", "a")]
 
 
-def vietinbank():
-    """Nhiều tin tuyển cho chi nhánh: địa chỉ thường để trống → dùng tên chi nhánh/phòng ban."""
-    return [job(text(c, ".c-line-jobtitle"), "VietinBank", text(c, ".c-line-address") or text(c, ".c-line-jobcontent"), "VN", url,
-                COMPANY_SOURCE, dmy(c.get_text(" ").split("Ngày đăng")[-1]))
-            for c, a, url in paged("https://tuyendung.vietinbank.vn/tuyen-dung?page={}", ".c-card", "a.btn-apply-ut", 40)]
-
-
 def msb():
     """Trang chỉ hiện 10 tin mới nhất (phần còn lại tải bằng JavaScript), cộng 5 kết quả tìm "data".
     Chạy 6 tiếng/lần và tin cũ được giữ lại nên vẫn không sót tin mới."""
@@ -720,7 +713,7 @@ def vnpay():
     return out
 
 
-SOURCES = [vietnamworks, careerviet, linkedin, ybox, topdev, glints, companies, vng, momo, be, vnpt, nashtech, seabank, vietinbank, msb, ssi, tcbs, vnpay]
+SOURCES = [vietnamworks, careerviet, linkedin, ybox, topdev, glints, companies, vng, momo, be, vnpt, nashtech, seabank, msb, ssi, tcbs, vnpay]
 
 
 # ---------- Logo ----------
