@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T15:31+00:00",
+ "updated": "2026-10-17T20:33+00:00",
  "jobs": [
   {
    "title": "Academic Assistant, Systems, Data & Quality Coordinator",
@@ -636,6 +636,39 @@
    "last_seen": "2026-10-17"
   },
   {
+   "title": "Senior Data Engineer",
+   "company": "Trustify Technology",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4478828692",
+   "source": "LinkedIn",
+   "date": "2026-10-15",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQGo8aixuilnBg/company-logo_100_100/B56aDDWsVEJAAM-/0/1789983901262/trustify_technology_logo?e=2147483647&v=beta&t=r8uC5BOZBQDJ_dnWIwkku3pF1tGokYsGJfwOSNGH-Po",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Python",
+    "SQL",
+    "Airflow",
+    "Spark",
+    "Kafka",
+    "Data Modeling",
+    "Data Warehouse",
+    "ETL",
+    "Machine Learning",
+    "Linux",
+    "GCP",
+    "Docker",
+    "Java",
+    "Git",
+    "Databricks",
+    "Tiếng Anh"
+   ],
+   "desc": "About Trustify Technology Trustify Technology is a fast-growing software engineering and digital transformation company providing AI-driven software development, verification & validation, and automation solutions for global clients across the US, UK/EU, Japan, and Singapore . Trustify aims to be the top-tier technology outsourcing partner from Vietnam, combining human expertise with AI power to…",
+   "last_seen": "2026-10-17"
+  },
+  {
    "title": "Chuyên Viên Phân Tích Dữ Liệu",
    "company": "Công Ty Cổ Phần Tập Đoàn Hòa Phát",
    "location": "Hà Nội",
@@ -645,12 +678,12 @@
    "date": "2026-10-14",
    "logo": "https://images.vietnamworks.com/pictureofcompany/db/11404971.png",
    "salary": "Thỏa thuận",
-   "desc": "• Phối hợp với lãnh đạo, các đơn vị nghiệp vụ và đội ngũ kỹ thuật để làm rõ nhu cầu quản trị, chuyển đổi thành yêu cầu dữ liệu, chỉ tiêu và báo cáo phục vụ điều hành. • Thu thập, kết nối, tổng hợp, làm sạch và chuẩn hóa dữ liệu từ nhiều...",
+   "desc": "• Phối hợp với lãnh đạo, các đơn vị nghiệp vụ và đội ngũ kỹ thuật để làm rõ nhu cầu quản trị, chuyển đổi thành yêu cầu dữ liệu, chỉ tiêu và báo cáo phục vụ điều hành. • Thu thập, kết nối, tổng hợp, làm sạch và chuẩn hóa dữ liệu từ nhiều... • Tốt nghiệp đại học các ngành liên quan đến dữ liệu, công nghệ thông tin, kinh tế, tài chính, kế toán hoặc kỹ thuật. • Có tối thiểu 02 năm kinh nghiệm về dữ…",
    "level": [
     "mid"
    ],
    "skills": [],
-   "last_seen": "2026-10-14"
+   "last_seen": "2026-10-17"
   },
   {
    "title": "Nhân Viên Kế Toán Quản Lý Dữ Liệu / Master Data Staff",
@@ -9518,6 +9551,7 @@
   "https://tuyendung.vietabank.com.vn/vi/jobs/qzVYbq",
   "https://www.linkedin.com/jobs/view/4467346787",
   "https://www.linkedin.com/jobs/view/4475527711",
+  "https://www.linkedin.com/jobs/view/4477516496",
   "https://www.linkedin.com/jobs/view/4477969859",
   "https://www.linkedin.com/jobs/view/4478838496",
   "https://www.vietnamworks.com/accommodation-material-trainee-1790678846495293506-2113266-jv",
