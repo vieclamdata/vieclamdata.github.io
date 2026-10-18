@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T04:21+00:00",
+ "updated": "2026-10-18T10:59+00:00",
  "jobs": [
   {
    "title": "Academic Assistant, Systems, Data & Quality Coordinator",
@@ -284,7 +284,7 @@
     "Qlik"
    ],
    "desc": "1. Summary Reporting directly to: Business Intelligence Manager Department: Commercial Excellence Working location: Lê Đai Hanh Q11 HCM 2. Job Description Responsible for all stages of the business intelligence cycle: understanding business objective, collecting business requirements, and translating them into data requirements, designing and developing reports/dashboards (code and…",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   {
    "title": "Data Engineer",
@@ -633,7 +633,7 @@
     "Informatica"
    ],
    "desc": "Senior Data Analyst/ Senior Data Engineer Work Location: Hanoi: TechnoPark Tower, Vinhomes Ocean Park, Hanoi Hochiminh: Vincom Dong Khoi, HCM Job Overview Vị trí đóng vai trò quan trọng trong việc phân tích dữ liệu nghiệp vụ, quy hoạch và quản lý tài sản dữ liệu phục vụ các PnL trong công ty. Ứng viên sẽ chịu trách nhiệm phân tích dữ liệu từ nhiều lĩnh vực nghiệp vụ, xác định nhu cầu, khoảng…",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   {
    "title": "Senior Data Engineer",
@@ -1472,7 +1472,7 @@
     "Tableau",
     "A/B Testing"
    ],
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   {
    "title": "Data Engineer",
@@ -1490,7 +1490,7 @@
     "Python"
    ],
    "desc": "DATA ENGINEER Location: QTSC9 Building, Quang Trung Software City, Trung My Tay Ward, Ho Chi Minh City Working Time: 8AM – 5:30PM. Monday - Saturday About the job Duties and Responsibilities Develop and maintain data pipelines and existing data solutions. Monitor data processes and support troubleshooting when data issues occur. Work with data models and semantic models/layers to support…",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   {
    "title": "[F88] Chuyên viên Cao cấp Rủi ro Gian lận (Fraud Risk Data Analyst)",
@@ -1511,7 +1511,7 @@
     "SQL"
    ],
    "desc": "A. MÔ TẢ CÔNG VIỆC: 1. Phân tích Dữ liệu & Phát hiện Gian lận (Fraud Analytics & Detection) Khai thác và xử lý dữ liệu lớn từ hệ thống Core/LOS/CRM để tìm kiếm các bất thường. Phân tích các mô hình gian lận phát sinh trên toàn chuỗi giá trị: từ khâu nộp hồ sơ vay, thẩm định, giải nhân đến thanh toán và hoa hồng (CTV/Đối tác). Đánh giá và phát hiện các hành vi gian lận tinh vi: Giả mạo giấy…",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   {
    "title": "Thực Tập Sinh Kiểm Thử Phần Mềm Portal & Phân Tích Dữ Liệu",
@@ -1638,7 +1638,7 @@
     "LLM / GenAI"
    ],
    "desc": "Vietnam Exposition Center (VEC) – Information Technology Department, Hanoi About the role VEC is looking for a Senior AI & Data Platform Specialist to build the shared data foundation and AI platform that support VEC’s operations. You will work in a lean, AI-enabled IT team, building and running data and AI solutions end to end and turning business needs into working tools. Key responsibilities…",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   {
    "title": "Data Analyst (Tài Chính)",
@@ -3738,6 +3738,22 @@
    "last_seen": "2026-10-09"
   },
   {
+   "title": "Chuyên Viên Phân Tích Dữ Liệu - Data Analyst",
+   "company": "Phenikaa Group",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/chuyen-vien-phan-tich-du-lieu-data-analyst-2117744-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-09",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/ec/11129453.png",
+   "salary": "≈18–26 triệu",
+   "desc": "• Thu thập, tổng hợp, xử lý và quản lý dữ liệu nghiên cứu, dữ liệu thị trường, dữ liệu khách hàng và dữ liệu kinh doanh phục vụ công tác quản trị, điều hành của Tập đoàn. • Thực hiện phân tích dữ liệu, đánh giá xu hướng thị trường, hành vi khách hàng... • Trình độ: Tốt nghiệp đại học trở lên chuyên ngành Khoa học dữ liệu, Phân tích dữ liệu, Thống kê, Kinh tế hoặc các ngành liên quan. • Kinh…",
+   "skills": [
+    "Thống kê"
+   ],
+   "last_seen": "2026-10-18"
+  },
+  {
    "title": "Chuyên Viên Kế Toán Quản Trị Và Phân Tích Dữ Liệu",
    "company": "Công Ty Cổ Phần Tập Đoàn Thiên Khôi - Chi Nhánh Miền Nam",
    "location": "Hồ Chí Minh",
@@ -4952,7 +4968,7 @@
     "Data Modeling",
     "Airflow"
    ],
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   {
    "title": "Senior Business Intelligence (Khối EDA, RB Insight Analytics) - HN - TA174",
@@ -5502,7 +5518,7 @@
     "NoSQL"
    ],
    "desc": "Mô tả công việc: Nghiên cứu, đề xuất các giải pháp, hạ tầng, công nghệ, chu trình tiếp nhận, xử lý và khai thác dữ liệu (phân loại, thu thập, chuẩn hóa, làm sạch, làm giàu, phân tích, trực quan hóa) và tham gia xây dựng các quy trình, quy định, văn bản tài liệu liên quan đến dữ liệu của Công ty. Phân loại, thu thập và chuẩn hóa: Xây dựng và duy trì cập nhật từ điển dữ liệu (Data dictionary) cho…",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   {
    "title": "Senior Data Engineer - Lead Consulting",
@@ -7851,7 +7867,7 @@
     "dbt"
    ],
    "desc": "As a Lead/Senior Data Analyst at PropertyGuru, you will play a crucial role in transforming data into practical insights that drive business decisions. You will work closely with business stakeholders to define metrics, conduct in-depth analysis, and create impactful visualizations. Your expertise in data exploration, analysis, and technical tools will be essential in supporting our data-driven…",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   {
    "title": "Data Governance Senior Manager",
@@ -8258,7 +8274,7 @@
     "NoSQL"
    ],
    "desc": "About the job: NAB Financial Crime Operations are on a significant transformation journey to uplift our data and technology eco system to protect our customers and meet our Regulatory compliance obligations. This includes building centralised strategic financial crime data assets that will enable financial crime processes and controls. This role is critical to successful delivery of NAB's…",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   {
    "title": "Lead, Data Reconciliation (Payment Team)",
@@ -8644,7 +8660,7 @@
     "SQL"
    ],
    "desc": "ABOUT THE JOB Develop, maintain, and enhance Power BI dashboards and reports to support business reporting and decision-making. Analyze business data and translate business requirements into meaningful reports, dashboards, and actionable insights. Support users in resolving reporting-related questions and investigating data or report discrepancies. Work with the Analytics team to develop and…",
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   {
    "title": "Digital Marketing Analytics Consultant",
@@ -8928,7 +8944,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/data-engineer.35C843CF.html",
    "source": "CareerViet",
    "date": "2026-09-21",
-   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuy%E1%BB%83n%20d%E1%BB%A5ng.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuyển dụng.png",
    "salary": "Thỏa thuận",
    "desc": "Đây là vị trí có vai trò quan trọng trong việc xây dựng nền tảng công nghệ và dữ liệu cho Fraud Detection, kết nối giữa năng lực Big Data/Data Engineering và bài toán quản trị rủi ro trong môi trường Retail. Vị trí có cơ hội tham gia trực tiếp vào các bài toán dữ liệu lớn, xây dựng Detection Engine/Model và triển khai các use case thực tế cùng đội ngũ Retail Fraud Analytics. 1. Mục tiêu vị trí…",
    "skills": [
@@ -9366,6 +9382,7 @@
   "https://tuyendung.vietabank.com.vn/vi/jobs/qzVYbq",
   "https://www.linkedin.com/jobs/view/4467346787",
   "https://www.linkedin.com/jobs/view/4475527711",
+  "https://www.linkedin.com/jobs/view/4477516496",
   "https://www.linkedin.com/jobs/view/4477969859",
   "https://www.linkedin.com/jobs/view/4478838496",
   "https://www.vietnamworks.com/accommodation-material-trainee-1790678846495293506-2113266-jv",
