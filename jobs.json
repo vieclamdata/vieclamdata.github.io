@@ -1,6 +1,30 @@
 {
- "updated": "2026-10-18T15:51+00:00",
+ "updated": "2026-10-18T20:34+00:00",
  "jobs": [
+  {
+   "title": "Accounting Data Management, Specialist",
+   "company": "AIA Vietnam",
+   "location": "Ho Chi Minh City, VN-AIA Vietnam",
+   "region": "VN",
+   "url": "https://aia.wd3.myworkdayjobs.com/External/job/Ho-Chi-Minh-City-VN-AIA-Vietnam/Accounting-Data-Management--Specialist_JR-71180",
+   "source": "Trang công ty",
+   "date": "2026-10-19",
+   "desc": "Build a healthier and more sustainable future for everyone. At AIA, your skills, perspective and ideas can contribute to our Purpose of helping millions of people live Healthier, Longer, Better Lives. Across our diverse markets, you will take on meaningful challenges, collaborate with talented colleagues and help turn ideas into positive outcomes for our customers and communities. Join us to…",
+   "skills": [
+    "Data Warehouse",
+    "Thống kê",
+    "Excel",
+    "SQL",
+    "Power BI",
+    "Tableau",
+    "SAS",
+    "Alteryx",
+    "Python",
+    "R"
+   ],
+   "logo": "logos/aia-vietnam.png",
+   "last_seen": "2026-10-18"
+  },
   {
    "title": "Data QA_CVCC Kiểm thử chất lượng giải pháp DL - Hà Nội - TA105",
    "company": "VPBank",
@@ -5913,7 +5937,7 @@
     "senior"
    ],
    "skills": [],
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   {
    "title": "Sales Business Intelligence Specialist",
@@ -6907,6 +6931,25 @@
    "last_seen": "2026-09-30"
   },
   {
+   "title": "Market Intelligence & Data Analyst",
+   "company": "RMIT University Vietnam",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/market-intelligence-and-data-analyst-2114505-jv",
+   "source": "VietnamWorks",
+   "date": "2026-09-30",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/02/11286511.png",
+   "salary": "Thỏa thuận",
+   "desc": "RMIT Vietnam is seeking a Market Intelligence & Data Analyst to turn complex data into clear, decision-ready insights that shape how we understand our market, customers and performance. Sitting within the Market Intelligence & Strategy team, this role combines advanced quantitative analysis, statistical modelling and business intelligence to uncover trends, identify risks and support... Key…",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Thống kê"
+   ],
+   "last_seen": "2026-10-18"
+  },
+  {
    "title": "HO - Data Lake Manager",
    "company": "Ngân Hàng TMCP Á Châu (ACB)",
    "location": "Hồ Chí Minh",
@@ -7662,6 +7705,30 @@
    "last_seen": "2026-10-18"
   },
   {
+   "title": "Business Intelligence Analyst / Data Analyst",
+   "company": "Galaxyjoy JSC",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/business-intelligence-analyst-data-analyst-1790512384435782494-2112102-jv",
+   "source": "VietnamWorks",
+   "date": "2026-09-27",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/70/11161672.png",
+   "salary": "Thỏa thuận",
+   "desc": "The Data/BI Analyst will play a crucial role in the Loyalty Department, helping to transform data into actionable insights that drive decision-making across the organization. This role involves collecting, analyzing, and interpreting data related to customer loyalty programs, member behaviors, and business performance. The BI Analyst will collaborate with various departments to support the...…",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Thống kê",
+    "Tableau",
+    "Power BI",
+    "Looker",
+    "SQL",
+    "Data Warehouse"
+   ],
+   "last_seen": "2026-10-18"
+  },
+  {
    "title": "Chuyên Gia Phân Tích Dữ Liệu Kinh Doanh, Phòng Kế Hoạch và Quản Lý Hiệu Quả Kinh Doanh, Khối Khách Hàng Cá Nhân",
    "company": "Ngân Hàng TMCP Đại Chúng Việt Nam",
    "location": "Hà Nội",
@@ -8229,9 +8296,11 @@
     "mid"
    ],
    "skills": [
-    "LLM / GenAI"
+    "LLM / GenAI",
+    "Docker",
+    "Tiếng Nhật"
    ],
-   "last_seen": "2026-09-24"
+   "last_seen": "2026-10-18"
   },
   {
    "title": "Senior Data Analyst (Remote/Hybrid)",
@@ -8849,6 +8918,29 @@
     "Python"
    ],
    "last_seen": "2026-10-16"
+  },
+  {
+   "title": "AI Engineer (Remote Fulltime/hybrid/onsite]",
+   "company": "Vmo - An Alten Company",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ai-engineer-remote-fulltime-hybrid-onsite-2110354-jv",
+   "source": "VietnamWorks",
+   "date": "2026-09-22",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/99/11437140.png",
+   "salary": "50–60 triệu",
+   "desc": "1. About the Role - We are looking for an experienced Data Scientist, AI Engineer to join our AI team and work on end-to-end AI solutions, from Machine Learning and predictive analytics to Generative AI, NLP, RAG, and Agentic AI. - You will work closely with technical teams and business stakeholders to transform real-world business... - 4+ years of experience in Data Science, Machine Learning, AI…",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Machine Learning",
+    "LLM / GenAI",
+    "NLP",
+    "Python",
+    "Deep Learning"
+   ],
+   "last_seen": "2026-10-18"
   },
   {
    "title": "Senior Data Engineer",
