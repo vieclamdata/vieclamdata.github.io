@@ -1,6 +1,28 @@
 {
- "updated": "2026-10-18T10:59+00:00",
+ "updated": "2026-10-18T15:51+00:00",
  "jobs": [
+  {
+   "title": "Data QA_CVCC Kiểm thử chất lượng giải pháp DL - Hà Nội - TA105",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-Data-QA_CVCC-Ki%E1%BB%83m-th%E1%BB%AD-ch%E1%BA%A5t-l%C6%B0%E1%BB%A3ng-gi%E1%BA%A3i-ph%C3%A1p-DL-H%C3%A0-N%E1%BB%99i-TA105/1361902766/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-18",
+   "desc": "Các trách nhiệm chính Thực hiện lập kế hoạch kiểm thử Thực hiện xây dựng kịch bản kiểm thử Thực hiện kiểm thử đảm bảo chất lượng phát triển và golive cho các cập nhật liên tục trên các hệ thống sản phẩm dữ liệu (thông tư, data engine, data service…) trên nền tảng dịch vụ quản trị và phân tích dữ liệu của VPbank, dữ liệu tập trung của EDA. Tổng hợp tài liệu liên quan kiểm thử, kiểm tra quá…",
+   "skills": [
+    "Machine Learning",
+    "ETL",
+    "Redshift",
+    "Airflow",
+    "Python",
+    "R",
+    "SQL",
+    "Data Warehouse"
+   ],
+   "logo": "logos/vpbank.png",
+   "last_seen": "2026-10-18"
+  },
   {
    "title": "Academic Assistant, Systems, Data & Quality Coordinator",
    "company": "Trường Đại học VinUni",
@@ -3491,7 +3513,7 @@
     "senior"
    ],
    "skills": [],
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   {
    "title": "[EAB] Automation & AI Tooling Intern (Python/ML/Simulink)",
@@ -4343,7 +4365,7 @@
     "SQL",
     "A/B Testing"
    ],
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-18"
   },
   {
    "title": "Head of Enterprise Data (AI/Database/Data Science)",
@@ -8944,7 +8966,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/data-engineer.35C843CF.html",
    "source": "CareerViet",
    "date": "2026-09-21",
-   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuyển dụng.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuy%E1%BB%83n%20d%E1%BB%A5ng.png",
    "salary": "Thỏa thuận",
    "desc": "Đây là vị trí có vai trò quan trọng trong việc xây dựng nền tảng công nghệ và dữ liệu cho Fraud Detection, kết nối giữa năng lực Big Data/Data Engineering và bài toán quản trị rủi ro trong môi trường Retail. Vị trí có cơ hội tham gia trực tiếp vào các bài toán dữ liệu lớn, xây dựng Detection Engine/Model và triển khai các use case thực tế cùng đội ngũ Retail Fraud Analytics. 1. Mục tiêu vị trí…",
    "skills": [
@@ -9382,7 +9404,6 @@
   "https://tuyendung.vietabank.com.vn/vi/jobs/qzVYbq",
   "https://www.linkedin.com/jobs/view/4467346787",
   "https://www.linkedin.com/jobs/view/4475527711",
-  "https://www.linkedin.com/jobs/view/4477516496",
   "https://www.linkedin.com/jobs/view/4477969859",
   "https://www.linkedin.com/jobs/view/4478838496",
   "https://www.vietnamworks.com/accommodation-material-trainee-1790678846495293506-2113266-jv",
