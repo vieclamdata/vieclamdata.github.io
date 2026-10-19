@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T04:05+00:00",
+ "updated": "2026-10-19T04:30+00:00",
  "jobs": [
   {
    "title": "Accounting Data Management, Specialist",
@@ -97,6 +97,28 @@
    "last_seen": "2026-10-19"
   },
   {
+   "title": "Chuyên gia Phân tích và quản trị dữ liệu Bảo hiểm",
+   "company": "VIB",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://careers.vib.com.vn/careers/job/34590/chuyen-gia-phan-tich-va-quan-tri-du-lieu-bao-hiem",
+   "source": "Trang công ty",
+   "date": "2026-10-19",
+   "desc": "Chịu trách nhiệm: (i)Phân tích dữ liệu và tài chính trong mảng bảo hiểm (Life & Non‑Life) của khối ngân hàng bán lẻ; (ii) Tối ưu danh mục kinh doanh, thúc đẩy tăng trưởng doanh thu, cải thiện hiệu quả chi phí và hỗ trợ ra quyết định chiến lược dựa trên dữ liệu. (iii)Phối hợp chặt chẽ với các phòng ban trong và ngoài VIB để triển khai các dự án tích hợp dữ liệu, phát triển mô hình tài chính, thiết…",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "SQL",
+    "VBA",
+    "Python",
+    "Tableau",
+    "Tiếng Anh"
+   ],
+   "logo": "logos/vib.png",
+   "last_seen": "2026-10-19"
+  },
+  {
    "title": "Data QA_CVCC Kiểm thử chất lượng giải pháp DL - Hà Nội - TA105",
    "company": "VPBank",
    "location": "Hà Nội",
@@ -116,6 +138,24 @@
     "Data Warehouse"
    ],
    "logo": "logos/vpbank.png",
+   "last_seen": "2026-10-19"
+  },
+  {
+   "title": "CV QUẢN TRỊ HỆ THỐNG CƠ SỞ DỮ LIỆU - PHÒNG KỸ THUẬT HẠ TẦNG - KHỐI CÔNG NGHỆ THÔNG TIN",
+   "company": "Sacombank",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://sacombankcareer.com/job/Th%C3%A0nh-ph%E1%BB%91-H%E1%BB%93-Ch%C3%AD-Minh-CV-QU%E1%BA%A2N-TR%E1%BB%8A-H%E1%BB%86-TH%E1%BB%90NG-C%C6%A0-S%E1%BB%9E-D%E1%BB%AE-LI%E1%BB%86U-PH%C3%92NG-K%E1%BB%B8-THU%E1%BA%ACT-H%E1%BA%A0-T%E1%BA%A6NG-KH%E1%BB%90I-C%C3%94NG-NGH%E1%BB%86-TH%C3%94NG-TIN/58117244/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-17",
+   "desc": "TRÁCH NHIỆM CHÍNH Cài đặt mới, cấu hình, cập nhật các bản vá lỗi phần mềm CSDL Oracle, SQL Server Cấu hình các giải pháp nâng cao tính sẵn sàng của hệ thống CSDL Oracle, SQL Server Cấu hình tính năng kiểm toán CSDL. Giám sát hiệu năng các hệ thống CSDL Oracle, SQL Server. Thiết lập các cảnh báo tự động cho hệ thống CSDL, gửi báo cáo hàng ngày tình trạng CSDL thông qua email, SMS. Hỗ trợ tinh…",
+   "skills": [
+    "SQL",
+    "Tiếng Anh",
+    "Linux",
+    "Machine Learning"
+   ],
+   "logo": "logos/sacombank.png",
    "last_seen": "2026-10-19"
   },
   {
@@ -1607,7 +1647,7 @@
     "Python"
    ],
    "desc": "DATA ENGINEER Location: QTSC9 Building, Quang Trung Software City, Trung My Tay Ward, Ho Chi Minh City Working Time: 8AM – 5:30PM. Monday - Saturday About the job Duties and Responsibilities Develop and maintain data pipelines and existing data solutions. Monitor data processes and support troubleshooting when data issues occur. Work with data models and semantic models/layers to support…",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-19"
   },
   {
    "title": "[F88] Chuyên viên Cao cấp Rủi ro Gian lận (Fraud Risk Data Analyst)",
@@ -1755,7 +1795,7 @@
     "LLM / GenAI"
    ],
    "desc": "Vietnam Exposition Center (VEC) – Information Technology Department, Hanoi About the role VEC is looking for a Senior AI & Data Platform Specialist to build the shared data foundation and AI platform that support VEC’s operations. You will work in a lean, AI-enabled IT team, building and running data and AI solutions end to end and turning business needs into working tools. Key responsibilities…",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-19"
   },
   {
    "title": "Data Analyst (Tài Chính)",
@@ -8456,7 +8496,7 @@
     "Excel",
     "Power BI"
    ],
-   "last_seen": "2026-10-17"
+   "last_seen": "2026-10-19"
   },
   {
    "title": "Supply Chain Data Analyst (Total Annual Compensation Up-To 37,000 USD)",
@@ -8822,7 +8862,7 @@
     "SQL"
    ],
    "desc": "ABOUT THE JOB Develop, maintain, and enhance Power BI dashboards and reports to support business reporting and decision-making. Analyze business data and translate business requirements into meaningful reports, dashboards, and actionable insights. Support users in resolving reporting-related questions and investigating data or report discrepancies. Work with the Analytics team to develop and…",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-19"
   },
   {
    "title": "Digital Marketing Analytics Consultant",
@@ -9129,7 +9169,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/data-engineer.35C843CF.html",
    "source": "CareerViet",
    "date": "2026-09-21",
-   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuyển dụng.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuy%E1%BB%83n%20d%E1%BB%A5ng.png",
    "salary": "Thỏa thuận",
    "desc": "Đây là vị trí có vai trò quan trọng trong việc xây dựng nền tảng công nghệ và dữ liệu cho Fraud Detection, kết nối giữa năng lực Big Data/Data Engineering và bài toán quản trị rủi ro trong môi trường Retail. Vị trí có cơ hội tham gia trực tiếp vào các bài toán dữ liệu lớn, xây dựng Detection Engine/Model và triển khai các use case thực tế cùng đội ngũ Retail Fraud Analytics. 1. Mục tiêu vị trí…",
    "skills": [
