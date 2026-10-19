@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T12:59+00:00",
+ "updated": "2026-10-19T22:26+00:00",
  "jobs": [
   {
    "title": "Accounting Data Management, Specialist",
@@ -316,6 +316,22 @@
     "Tiếng Anh"
    ],
    "logo": "logos/techcombank.png",
+   "last_seen": "2026-10-19"
+  },
+  {
+   "title": "Nhân Viên Data Analyst (Fresher)",
+   "company": "Công Ty SEEDCOM",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://ybox.vn/tuyen-dung/hcm-cong-ty-seedcom-tuyen-dung-nhan-vien-data-analyst-fresher-full-time-2026-6ad57c7be815fd633ba7ad94",
+   "source": "Ybox",
+   "date": "2026-10-19",
+   "logo": "https://static.ybox.vn/2024/11/0/1732427790727-IV5peyNJLTFrMRS9eiZqwrGo594aIvPn_1713516113____bd53e7b53e93a950cae1a4b311e8d1bd.png",
+   "desc": "We are a diverse and cohesive group of companies in the fields of technology, retail, services and production led by a team that commits to creating a difference for Vietnam. We ar",
+   "level": [
+    "intern"
+   ],
+   "skills": [],
    "last_seen": "2026-10-19"
   },
   {
@@ -7866,7 +7882,7 @@
   {
    "title": "Data Analyst Expert",
    "company": "FE CREDIT",
-   "location": "Ho Chi Minh City, Ho Chi Minh City, Vietnam",
+   "location": "Ho Chi Minh City",
    "region": "VN",
    "url": "https://www.linkedin.com/jobs/view/4472482527",
    "source": "LinkedIn",
@@ -7889,7 +7905,7 @@
     "Pandas"
    ],
    "desc": "OBJECTIVES The Data Analyst Expert is responsible for leading advanced data analysis, delivering scalable dashboards, and transforming complex datasets into actionable business insights that drive portfolio robustness and profitability. This role requires strong expertise in data analytics and business intelligence, with a deep understanding of financial services or consumer lending, to support…",
-   "last_seen": "2026-09-28"
+   "last_seen": "2026-10-19"
   },
   {
    "title": "Senior Data Engineer (từ 4 năm kinh nghiệm)",
@@ -9632,6 +9648,7 @@
   "https://www.vietnamworks.com/quan-ly-tap-su-hanh-chinh-nhan-su-1790159250166324401-2110379-jv",
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1790718519389513213-2113475-jv",
   "https://www.vietnamworks.com/service-engineer-trainee-ho-chi-minh-1790145355731674278-2110639-jv",
-  "https://www.vietnamworks.com/tpbank-nhan-vien-tap-su-khach-hang-ca-nhan-hop-dong-6-12-thang-2098371-jv"
+  "https://www.vietnamworks.com/tpbank-nhan-vien-tap-su-khach-hang-ca-nhan-hop-dong-6-12-thang-2098371-jv",
+  "https://ybox.vn/tuyen-dung/hcm-cong-ty-cung-cap-cac-dich-vu-tu-van-quan-ly-chuyen-nghiep-dialectica-vietnam-tuyen-dung-nhan-vien-international-associate-client-service-associate-korean-japanese-speaking-fresh-graduate-program-full-time-2026-6ad5c66a796151430722b3f3"
  ]
 }
