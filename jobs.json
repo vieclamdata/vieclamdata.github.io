@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T11:29+00:00",
+ "updated": "2026-10-20T16:53+00:00",
  "jobs": [
   {
    "title": "Data Engineer I Vietnam",
@@ -693,7 +693,7 @@
     "Data Warehouse"
    ],
    "desc": "Malaysia + 2 more Data Analyst and Modeler, VisionFund International Organization World Vision Posted 15 Oct 2026 Closing date 15 Nov 2026 VisionFund International is World Vision’s microfinance provider serving vulnerable clients through loans, savings, and insurance. We enable families to grow their livelihoods in hard to reach, rural locations in 28 countries so that caregivers can create…",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   {
    "title": "Lead Product Manager, Data Platform",
@@ -3707,7 +3707,7 @@
     "SQL"
    ],
    "desc": "1. Responsibilities: Data Maintenance & Reporting Build and manage master datasets covering store analogs, rental profiles, rent-to-revenue ratios, lease benchmarks, and site evaluation inputs to support expansion, renewal, and investment decisions. Develop and maintain dynamic dashboards and reporting systems using Power BI and SQL, ensuring accurate, complete, and actionable data for…",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   {
    "title": "*Data Analyst (Tender Data)",
@@ -8711,6 +8711,31 @@
    "last_seen": "2026-10-19"
   },
   {
+   "title": "Data Engineer (Snowflake / Python)",
+   "company": "TransPerfect",
+   "location": "Hanoi",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4481538734",
+   "source": "LinkedIn",
+   "date": "2026-09-25",
+   "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQGjAYf8CSLV2Q/company-logo_100_100/company-logo_100_100/0/1638370935935/transperfect_logo?e=2147483647&v=beta&t=Fh3tegMOrLGzYcitv107m0ejNJOL-FSlmZj41ytO5AM",
+   "skills": [
+    "Snowflake",
+    "Python",
+    "ETL",
+    "SQL",
+    "NoSQL",
+    "AWS",
+    "Azure",
+    "Excel",
+    "Git",
+    "Tableau",
+    "Alteryx"
+   ],
+   "desc": "Overview The analytics team at TransPerfect is responsible for servicing reporting requests from both internal and client users. We are responsible for connecting to production systems’ data stores, creating ETL flows that publish the results to a variety of destinations, and building visualizations from the resulting data. Description Design, build, and maintain Python-based data pipelines in…",
+   "last_seen": "2026-10-20"
+  },
+  {
    "title": "Data Business Partner",
    "company": "De Heus LLC",
    "location": "Hồ Chí Minh",
@@ -9072,7 +9097,7 @@
     "Excel",
     "Power BI"
    ],
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   {
    "title": "Supply Chain Data Analyst (Total Annual Compensation Up-To 37,000 USD)",
