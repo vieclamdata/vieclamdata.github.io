@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T04:44+00:00",
+ "updated": "2026-10-20T11:29+00:00",
  "jobs": [
   {
    "title": "Data Engineer I Vietnam",
@@ -88,6 +88,110 @@
    ],
    "desc": "I. MỤC TIÊU VỊ TRÍ Xây dựng và vận hành nền tảng dữ liệu toàn hàng: DWH, MIS/BI, Data Lakehouse. Thiết lập và vận hành khung Quản trị dữ liệu (Data Governance) của VietABank. Cung cấp dữ liệu cho quản trị điều hành, phân tích kinh doanh và các chương trình A-Score/B-Score, CRM, PFM & Loyalty. II. TRÁCH NHIỆM CHÍNH Hoàn thiện DWH đủ các nguồn dữ liệu trọng yếu (core banking, thẻ, eBanking,…",
    "logo": "logos/vietabank.png",
+   "last_seen": "2026-10-20"
+  },
+  {
+   "title": "Chuyên viên cao cấp Phân Tích Dữ Liệu Thẻ Và Cho Vay Không Có TSBĐ",
+   "company": "Ngân Hàng TMCP Quốc Tế Việt Nam (VIB)",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/chuyen-vien-cao-cap-phan-tich-du-lieu-the-va-cho-vay-khong-co-tsbd-1792480915140716834-2121404-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-20",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/9f/11125546.png",
+   "salary": "Thỏa thuận",
+   "desc": "Trách nhiệm :Chịu trách nhiệm (i) phân tích danh mục; (ii)xây dựng các báo cáo liên quan đến sản phẩm Thẻ và cho vay không có TSBĐ, từ đó đề xuất cải tiến sản phẩm, quy trình dựa trên số liệu giúp nâng cao hiệu quả hoạt động kinh doanh của Khối. 1. Quản lý & Tối... • Trình độ Đại học trở lên chuyên ngành Tài chính - Ngân hàng, Quản trị kinh doanh, Công nghệ thông tin, Toán thống kê, Kinh tế…",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Thống kê"
+   ],
+   "last_seen": "2026-10-20"
+  },
+  {
+   "title": "AI Engineer (Computer Vision)",
+   "company": "Công Ty Cổ Phần Vinsmart Future",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ai-engineer-computer-vision-1792478500012309531-2121378-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-20",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/b6/11474273.png",
+   "salary": "Thỏa thuận",
+   "desc": "As a Senior AI Engineer, you will be responsible for designing, developing, and deploying scalable AI solutions that address complex business and operational challenges. You will lead the end-to-end lifecycle of AI products—from data strategy and model development to deployment and optimization—while collaborating closely with cross-functional teams to deliver production-ready solutions across…",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Computer Vision",
+    "Machine Learning",
+    "Python",
+    "Deep Learning",
+    "PyTorch"
+   ],
+   "last_seen": "2026-10-20"
+  },
+  {
+   "title": "Master Data Maintenance Executive (5-Month Contractor)",
+   "company": "Archer Daniels Midland (ADM)",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/master-data-maintenance-executive-5-month-contractor-1792480795852640597-2121402-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-20",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/45/11032376.png",
+   "salary": "Thỏa thuận",
+   "desc": "We are seeking a detail-oriented Master Data Maintenance Executive to support master data management activities across customer, vendor and product data. This role will focus on system migration, existing data cleansing and data quality improvement. The successful candidate will be responsible for ensuring accuracy, completeness and consistency of master data across multiple systems. This role...…",
+   "skills": [
+    "Tiếng Anh",
+    "Informatica"
+   ],
+   "last_seen": "2026-10-20"
+  },
+  {
+   "title": "Data Analyst",
+   "company": "Công ty TNHH MTV CNTH Viễn Sơn",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/data-analyst/537fc2c8-800a-4251-a2f0-bf00e47e2e7e",
+   "source": "Glints",
+   "date": "2026-10-20",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/2a6ce4568e0fbdb8336a2648ebf02d11.png",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Excel",
+    "Power BI",
+    "Data Warehouse",
+    "Tiếng Anh",
+    "Looker"
+   ],
+   "desc": "THU THẬP VÀ XỬ LÝ DỮ LIỆU • Thu thập dữ liệu từ nhiều nguồn: ERP, CRM, Google Sheet, Excel, Database, phần mềm nội bộ • Làm sạch, chuẩn hóa và kiểm tra tính chính xác của dữ liệu. • Kiểm soát chất lượng dữ liệu, phát hiện dữ liệu bất thường hoặc sai lệch. • Xây dựng và duy trì hệ thống dữ liệu phục vụ báo cáo. • Tổng hợp dữ liệu định kỳ theo yêu cầu của các phòng ban và Ban lãnh đạo. PHÂN TÍCH DỮ…",
+   "last_seen": "2026-10-20"
+  },
+  {
+   "title": "AI Engineer Intern",
+   "company": "LTS Group",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/ai-engineer-intern/3ccba95d-ec95-4974-944d-537e25a3cde3",
+   "source": "Glints",
+   "date": "2026-10-20",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/7ccb7afb8aa887ee969e2143ef4857be.jpg",
+   "salary": "3–4 triệu",
+   "level": [
+    "intern"
+   ],
+   "skills": [
+    "LLM / GenAI",
+    "Computer Vision",
+    "Deep Learning",
+    "NLP",
+    "Machine Learning"
+   ],
+   "desc": "You’ll work in our AI team in a fast-moving, startup-like environment inside a high-growth company. We move with speed, we bet on innovation, and we expect ownership. You’ll have room to explore and propose new approaches. We value fast experiments, clear learnings, and real outcomes. If you like building real systems (not just notebooks), shipping fast products, and learning by doing - this is…",
    "last_seen": "2026-10-20"
   },
   {
@@ -1090,7 +1194,7 @@
     "Git"
    ],
    "desc": "Our Company We're Hitachi Digital Services, a global digital solutions and transformation business with a bold vision of our world's potential. We're people-centric and here to power good. Every day, we future-proof urban spaces, conserve natural resources, protect rainforests, and save lives. This is a world where innovation, technology, and deep expertise come together to take our company and…",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   {
    "title": "Nhân Viên Triển Khai/Content Marketing/Chuẩn Hóa Dữ Liệu",
@@ -2174,12 +2278,14 @@
    "date": "2026-10-13",
    "logo": "https://images.vietnamworks.com/pictureofcompany/7b/11420901.png",
    "salary": "Thỏa thuận",
-   "desc": "Tại sao bạn nên gia nhập cùng chúng tôi CHẾ ĐỘ PHÚC LỢI: - Thu nhập cạnh tranh. Lương thỏa thuận theo năng lực, tương xứng với kinh nghiệm và đóng góp thực tế. - Thưởng hấp dẫn: 1. Thưởng tháng lương 13 cố định. 2. Thưởng các ngày Lễ, Tết theo quy định Công ty. 3. Thưởng hiệu quả...",
+   "desc": "Tại sao bạn nên gia nhập cùng chúng tôi CHẾ ĐỘ PHÚC LỢI: - Thu nhập cạnh tranh. Lương thỏa thuận theo năng lực, tương xứng với kinh nghiệm và đóng góp thực tế. - Thưởng hấp dẫn: 1. Thưởng tháng lương 13 cố định. 2. Thưởng các ngày Lễ, Tết theo quy định Công ty. 3. Thưởng hiệu quả... Trình độ & kinh nghiệm - Tốt nghiệp Đại học trở lên các chuyên ngành: Data Analytics, Toán – Tin, Kinh tế, Tài…",
    "level": [
     "mid"
    ],
-   "skills": [],
-   "last_seen": "2026-10-13"
+   "skills": [
+    "Thống kê"
+   ],
+   "last_seen": "2026-10-20"
   },
   {
    "title": "Head Of Insights And Analytics",
@@ -4581,7 +4687,7 @@
     "Spark",
     "Kafka"
    ],
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   {
    "title": "Data Analystics",
@@ -4625,7 +4731,7 @@
     "Python"
    ],
    "desc": "DATA ENGINEER Location: Quang Trung Software City, District 12, Ho Chi Minh City Duties and Responsibilities Develop and maintain data pipelines and existing data solutions. Monitor data processes and support troubleshooting when data issues occur. Work with data models and semantic models/layers to support reporting and analytics. Work with large datasets and MPP (Massively Parallel Processing)…",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   {
    "title": "Business Intelligence Engineer (Junior)",
@@ -7221,6 +7327,30 @@
    "last_seen": "2026-10-16"
   },
   {
+   "title": "Senior/lead Data Engineer",
+   "company": "Home Credit Vietnam - Explore Your Dream Team",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/senior-lead-data-engineer--2114728-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-01",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/5a/10480385.png",
+   "salary": "Thỏa thuận",
+   "desc": "- Lead the team of Data & Feature Engineers (mix of Juniors and Seniors), continuously developing the team both soft-skill & hard-skill wise​ - Analyze data from data producers and transform them into unified form, organize them within the data platforms and/or - analytical/production feature store, produce base & derived features in line with Risk... - Proven track record with Data & Feature…",
+   "level": [
+    "senior",
+    "lead"
+   ],
+   "skills": [
+    "Hadoop",
+    "Spark",
+    "Kafka",
+    "Airflow",
+    "MLOps"
+   ],
+   "last_seen": "2026-10-20"
+  },
+  {
    "title": "AI Engineer (Hands-On)",
    "company": "Western Environmental Pty Ltd.",
    "location": "Hà Nội",
@@ -7989,7 +8119,7 @@
     "ETL"
    ],
    "desc": "Description Du Poste Company Description SOCOTEC VIETNAM is a technical support platform for the SOCOTEC GROUP providing expert services on a range of projects in testing, inspection and certification (TIC) in the construction and infrastructure sectors. Around the globe, more than 15,000 experts in 26 countries across 5 continents deliver professional services in construction, buildings & real…",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   {
    "title": "Senior Data Analyst/Engineer",
@@ -9722,12 +9852,14 @@
   "https://tuyendung.ncb-bank.vn/vi/jobs/yLK3Eq",
   "https://tuyendung.tpb.vn/vi/jobs/PwleoR",
   "https://tuyendung.tpb.vn/vi/jobs/RlVpay",
+  "https://tuyendung.tpb.vn/vi/jobs/qDX71q",
   "https://tuyendung.tpb.vn/vi/jobs/yKX3YP",
   "https://tuyendung.vietabank.com.vn/vi/jobs/qzVYbq",
   "https://www.linkedin.com/jobs/view/4467346787",
   "https://www.linkedin.com/jobs/view/4475527711",
   "https://www.linkedin.com/jobs/view/4477969859",
   "https://www.linkedin.com/jobs/view/4478838496",
+  "https://www.linkedin.com/jobs/view/4480440858",
   "https://www.vietnamworks.com/accommodation-material-trainee-1790678846495293506-2113266-jv",
   "https://www.vietnamworks.com/accommodation-trainee-1790679015465772928-2113273-jv",
   "https://www.vietnamworks.com/aeon-future-leader-quan-tri-vien-tap-su-1790055049222356870-2110044-jv",
@@ -9744,6 +9876,7 @@
   "https://www.vietnamworks.com/quan-ly-tap-su-hanh-chinh-nhan-su-1790159250166324401-2110379-jv",
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1790718519389513213-2113475-jv",
   "https://www.vietnamworks.com/service-engineer-trainee-ho-chi-minh-1790145355731674278-2110639-jv",
+  "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv",
   "https://www.vietnamworks.com/tpbank-nhan-vien-tap-su-khach-hang-ca-nhan-hop-dong-6-12-thang-2098371-jv",
   "https://ybox.vn/tuyen-dung/hcm-cong-ty-cung-cap-cac-dich-vu-tu-van-quan-ly-chuyen-nghiep-dialectica-vietnam-tuyen-dung-nhan-vien-international-associate-client-service-associate-korean-japanese-speaking-fresh-graduate-program-full-time-2026-6ad5c66a796151430722b3f3"
  ]
