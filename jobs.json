@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T16:53+00:00",
+ "updated": "2026-10-20T21:36+00:00",
  "jobs": [
   {
    "title": "Data Engineer I Vietnam",
@@ -192,6 +192,52 @@
     "Machine Learning"
    ],
    "desc": "You’ll work in our AI team in a fast-moving, startup-like environment inside a high-growth company. We move with speed, we bet on innovation, and we expect ownership. You’ll have room to explore and propose new approaches. We value fast experiments, clear learnings, and real outcomes. If you like building real systems (not just notebooks), shipping fast products, and learning by doing - this is…",
+   "last_seen": "2026-10-20"
+  },
+  {
+   "title": "Thực Tập Sinh AI Engineer",
+   "company": "Công Ty Dịch Vụ Công Nghệ LTS Group",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://ybox.vn/tuyen-dung/hn-cong-ty-dich-vu-cong-nghe-lts-group-tuyen-dung-thuc-tap-sinh-ai-engineer-part-time-full-time-2026-6ad7429329ef6319c4e18d04",
+   "source": "Ybox",
+   "date": "2026-10-20",
+   "logo": "https://static.ybox.vn/2026/10/2/1792491342888-oip.jpg",
+   "desc": "LTS (Lotus Technology Service) is an outsourcing company, established in 2017, We are specialized in Web development, Mobile Phone development, and AI Development, our main clien",
+   "level": [
+    "intern"
+   ],
+   "skills": [],
+   "last_seen": "2026-10-20"
+  },
+  {
+   "title": "[SO] Senior Data Analyst – Databricks / Modern Data Platform",
+   "company": "Bosch Vietnam",
+   "location": "Ho Chi Minh city",
+   "region": "VN",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000156463549",
+   "source": "Trang công ty",
+   "date": "2026-10-20",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Databricks",
+    "SQL",
+    "Data Modeling",
+    "Python",
+    "ETL",
+    "Azure",
+    "Power BI",
+    "Spark",
+    "Data Warehouse",
+    "Tiếng Anh",
+    "SSIS",
+    "Git",
+    "Machine Learning"
+   ],
+   "desc": "We are looking for a Senior Data Engineer with strong hands-on experience in Databricks and modern data platforms to design, build, and maintain scalable data solutions for analytics and BI. The ideal candidate combines strong Data Engineering, SQL, data modeling, cloud, and system optimization skills, with the ability to take technical ownership and work closely with business and technical…",
+   "logo": "logos/bosch-vietnam.png",
    "last_seen": "2026-10-20"
   },
   {
@@ -8314,7 +8360,7 @@
     "Machine Learning",
     "LLM / GenAI"
    ],
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-20"
   },
   {
    "title": "Associate, Data Integration",
@@ -9882,8 +9928,8 @@
   "https://tuyendung.vietabank.com.vn/vi/jobs/qzVYbq",
   "https://www.linkedin.com/jobs/view/4467346787",
   "https://www.linkedin.com/jobs/view/4475527711",
-  "https://www.linkedin.com/jobs/view/4477969859",
   "https://www.linkedin.com/jobs/view/4478838496",
+  "https://www.linkedin.com/jobs/view/4478915429",
   "https://www.linkedin.com/jobs/view/4480440858",
   "https://www.vietnamworks.com/accommodation-material-trainee-1790678846495293506-2113266-jv",
   "https://www.vietnamworks.com/accommodation-trainee-1790679015465772928-2113273-jv",
