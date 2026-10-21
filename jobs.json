@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T04:33+00:00",
+ "updated": "2026-10-21T11:44+00:00",
  "jobs": [
   {
    "title": "Kỹ sư dữ liệu",
@@ -24,6 +24,156 @@
     "AWS"
    ],
    "desc": "Thiết kế, xây dựng và duy trì kiến trúc Data Pipeline có khả năng mở rộng, ổn định và tối ưu hóa. Phát triển và vận hành các quy trình ETL/ELT để thu thập, xử lý, làm sạch và chuyển đổi dữ liệu từ nhiều nguồn (API, database, log files, streaming,...). Đảm bảo tính toàn vẹn, độ tin cậy và chất lượng của dữ liệu trong toàn bộ hệ thống. Làm việc với các công nghệ Big Data như Spark, Hadoop, Kafka để…",
+   "last_seen": "2026-10-21"
+  },
+  {
+   "title": "PMO (AI&Data product)",
+   "company": "CÔNG TY CỔ PHẦN VINSMART FUTURE",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/pmo-ai-data-product-1792573708078486816-2121752-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-21",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/b6/11474273.png",
+   "salary": "Thỏa thuận",
+   "desc": "Job Overview Đảm bảo quản trị hiệu quả danh mục dự án phần mềm của công ty thông qua việc xây dựng quy trình, chuẩn hóa phương pháp quản lý, giám sát tiến độ, hỗ trợ và nâng cao năng lực quản lý dự án cho các bộ phận liên quan. Mô tả công việc • Xây... • Tốt nghiệp đại học chuyên ngành Công nghệ thông tin, Quản trị dự án, Quản trị Kinh doanh hoặc lĩnh vực liên quan. • Tối thiểu 8 năm kinh nghiệm…",
+   "level": [
+    "senior"
+   ],
+   "skills": [],
+   "last_seen": "2026-10-21"
+  },
+  {
+   "title": "Product Analytics & Growth",
+   "company": "Ngân Hàng TMCP Công Thương Việt Nam (VietinBank)",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/product-analytics-growth-1792572298479139777-2121949-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-21",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/58/10395466.png",
+   "salary": "Thỏa thuận",
+   "desc": "Phân tích dữ liệu khách hàng và hiệu quả sản phẩm - Phân tích dữ liệu khách hàng và dữ liệu giao dịch nhằm đánh giá hiệu quả hoạt động của các sản phẩm tín dụng. - Xây dựng các báo cáo phân tích, dashboard và hệ thống theo dõi dữ liệu phục vụ công tác... Trình độ: Tốt nghiệp đại học trở lên, hệ chính quy các trường đại học công lập trong nước: Đại học Ngoại Thương, Đại học Kinh tế quốc dân, Học…",
+   "level": [
+    "mid"
+   ],
+   "skills": [],
+   "last_seen": "2026-10-21"
+  },
+  {
+   "title": "AI Data Labeling Intern (Construction/ Architecture Background)",
+   "company": "Simpson Strong-Tie Vietnam Company Limited",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ai-data-labeling-intern-construction-architecture-background-1792561948323459920-2121820-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-21",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/b9/11186877.png",
+   "salary": "Thỏa thuận",
+   "desc": "As an AI Data Labeling Intern (Construction/Architecture Background) , you will join the AI-Powered Takeoff Team in Vietnam, working alongside a passionate in-house AI team to label, annotate, and classify data that directly powers our AI models. Your work will be at the heart of transforming technical drawings (PDFs, CAD files, and blueprints) into actionable... DESIRED SKILLS AND EXPERIENCE…",
+   "level": [
+    "intern"
+   ],
+   "skills": [],
+   "last_seen": "2026-10-21"
+  },
+  {
+   "title": "Senior / Staff Data Engineer (BI) – CEG Team",
+   "company": "Agoda",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4480750769",
+   "source": "LinkedIn",
+   "date": "2026-10-21",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQHnu249lVL3yA/company-logo_100_100/B4DZ09fn8fJQAU-/0/1774853194495/agoda_logo?e=2147483647&v=beta&t=lrOwUfAF1WHmQzDaHFq--pWzFhz_5SS-xmzXmFp2SJU",
+   "level": [
+    "senior",
+    "lead"
+   ],
+   "skills": [
+    "ETL",
+    "Python",
+    "Java",
+    "SQL",
+    "Data Warehouse",
+    "BigQuery",
+    "Snowflake",
+    "Redshift",
+    "Hadoop",
+    "Spark",
+    "Airflow",
+    "dbt",
+    "Tableau",
+    "Power BI",
+    "Superset",
+    "Metabase",
+    "Looker",
+    "Data Modeling",
+    "A/B Testing",
+    "Machine Learning"
+   ],
+   "desc": "About Agoda At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyone to explore the world. Today, we are part of Booking Holdings [NASDAQ: BKNG], with a diverse team of over 7,000 people from 90 countries, working together in offices around the globe. Every…",
+   "last_seen": "2026-10-21"
+  },
+  {
+   "title": "Chuyên gia Data AI – Phòng Kế hoạch và Phân tích Tài chính",
+   "company": "Ngân hàng TMCP Quốc Dân (NCB)",
+   "location": "Hanoi",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4480799003",
+   "source": "LinkedIn",
+   "date": "2026-10-21",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQF76RRI_-RSjw/company-logo_100_100/B56Z_P4e6YGgAI-/0/1785899118452/ngn_hng_tmcp_quc_dn_ncb_logo?e=2147483647&v=beta&t=JPVLbwLupxZYMXJIYpV8n25Bn0AylQ0cH7VOLVci5Zs",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "LLM / GenAI",
+    "Data Warehouse",
+    "SQL",
+    "Power BI",
+    "Tableau",
+    "Python",
+    "Machine Learning"
+   ],
+   "desc": "MÔ TẢ CÔNG VIỆC Xây dựng và triển khai Finance Data Mart, mô hình dữ liệu tài chính, KPI và Dashboard điều hành Nghiên cứu, phát triển và triển khai các ứng dụng AI/GenAI phục vụ lập kế hoạch, dự báo tài chính, quản trị chi phí, phân tích hiệu quả kinh doanh và tự động hóa báo cáo. Tham gia xây dựng chiến lược dữ liệu và lộ trình chuyển đổi số của Khối QTTC. YÊU CẦU CÔNG VIỆC Tối thiểu 5 năm kinh…",
+   "last_seen": "2026-10-21"
+  },
+  {
+   "title": "Chuyên viên/Chuyên viên cao cấp phân tích dữ liệu - Khối Tuân thủ",
+   "company": "PVcomBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.pvcombank.com.vn/viec-lam/chuyen-vien-chuyen-vien-cao-cap-phan-tich-du-lieu-khoi-tuan-thu.35ac15d6.html",
+   "source": "Trang công ty",
+   "date": "2026-10-21",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "ETL",
+    "Power BI",
+    "AWS",
+    "Python",
+    "SQL"
+   ],
+   "desc": "Mô tả công việc Phân tích dữ liệu trên môi trường số đảm bảo tuân thủ đúng quy định của pháp luật và ngân hàng; đáp ứng đầy đủ các tiêu chí về hiệu năng, an toàn bảo mật thông tin dữ liệu và trải nghiệm khách hàng; Theo dõi danh mục tín dụng và các danh mục sản phẩm khác tại ngân hàng, xây dựng các mô hình dự báo để sớm phát hiện các dấu hiệu tuân thủ, rủi ro thông qua phân tích dữ liệu rủi ro…",
+   "logo": "logos/pvcombank.png",
+   "last_seen": "2026-10-21"
+  },
+  {
+   "title": "Thực Tập Sinh Kiểm Soát (Kế toán & Dữ liệu)",
+   "company": "SSI",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.ssi.com.vn/tin-tuyen-dung/thuc-tap-sinh-kiem-soat-ke-toan-du-lieu",
+   "source": "Trang công ty",
+   "date": "2026-10-21",
+   "level": [
+    "intern"
+   ],
+   "skills": [],
+   "logo": "logos/ssi.png",
    "last_seen": "2026-10-21"
   },
   {
@@ -1332,7 +1482,7 @@
     "Informatica"
    ],
    "desc": "Senior Data Analyst/ Senior Data Engineer Work Location: Hanoi: TechnoPark Tower, Vinhomes Ocean Park, Hanoi Hochiminh: Vincom Dong Khoi, HCM Job Overview Vị trí đóng vai trò quan trọng trong việc phân tích dữ liệu nghiệp vụ, quy hoạch và quản lý tài sản dữ liệu phục vụ các PnL trong công ty. Ứng viên sẽ chịu trách nhiệm phân tích dữ liệu từ nhiều lĩnh vực nghiệp vụ, xác định nhu cầu, khoảng…",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-21"
   },
   {
    "title": "Senior Data Engineer",
@@ -1832,7 +1982,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpt.png",
    "skills": [],
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-21"
   },
   {
    "title": "Kỹ sư Phân tích dữ liệu - Data Analyst",
@@ -1844,7 +1994,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpt.png",
    "skills": [],
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-21"
   },
   {
    "title": "Lập trình PL/SQL",
@@ -4452,7 +4602,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-21"
   },
   {
    "title": "Chuyên Viên Kế Toán Quản Trị Và Phân Tích Dữ Liệu",
@@ -5430,7 +5580,7 @@
    "skills": [
     "Excel"
    ],
-   "last_seen": "2026-10-07"
+   "last_seen": "2026-10-21"
   },
   {
    "title": "CV/CVC/CVCC Data Engineer",
@@ -5443,6 +5593,44 @@
    "logo": "logos/vietinbank.png",
    "skills": [],
    "last_seen": "2026-10-07"
+  },
+  {
+   "title": "Chuyên viên Phân tích và thiết kế Mô hình dữ liệu - Data Analyst - Khối Dữ liệu (2026TD450983)",
+   "company": "NGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/chuyen-vien-phan-tich-va-thiet-ke-mo-hinh-du-lieu-data-analyst-khoi-du-lieu-2026td450983-2100274-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-07",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/e4/11445482.png",
+   "salary": "Thỏa thuận",
+   "desc": "- Hiểu cấu trúc dữ liệu từ source, thực hiện phân tích và thiết kế cơ sở dữ liệu, làm nền tảng cho Data Engineer thực hiện tổ chức dữ liệu vào Datawarehouse, - Đảm bảo tính logic và nhất quán với dữ liệu đã có trong datawarehouse. - Xây dựng và maintain các dataset,... 1. Trình độ học vấn - Tốt nghiệp Đại học (bằng khá) trở lên. - Ưu tiên ứng viên tốt nghiệp các trường Bách Khoa, Học viện Bưu…",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Data Warehouse"
+   ],
+   "last_seen": "2026-10-21"
+  },
+  {
+   "title": "Chuyên viên Phân tích và thiết kế Mô hình dữ liệu - Data Analyst - Khối Dữ liệu (2026TD45098)",
+   "company": "NGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/chuyen-vien-phan-tich-va-thiet-ke-mo-hinh-du-lieu-data-analyst-khoi-du-lieu-2026td45098-2100265-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-07",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/e4/11445482.png",
+   "salary": "Thỏa thuận",
+   "desc": "- Hiểu cấu trúc dữ liệu từ source, thực hiện phân tích và thiết kế cơ sở dữ liệu, làm nền tảng cho Data Engineer thực hiện tổ chức dữ liệu vào Datawarehouse, - Đảm bảo tính logic và nhất quán với dữ liệu đã có trong datawarehouse. - Xây dựng và maintain các dataset,... 1. Trình độ học vấn - Tốt nghiệp Đại học (bằng khá) trở lên. - Ưu tiên ứng viên tốt nghiệp các trường Bách Khoa, Học viện Bưu…",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Data Warehouse"
+   ],
+   "last_seen": "2026-10-21"
   },
   {
    "title": "Senior/Expert Data Architect (Database, ETL/ELT)",
@@ -7893,7 +8081,7 @@
     "junior"
    ],
    "skills": [],
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-21"
   },
   {
    "title": "Data Scientist - Hà Nội - TA105",
