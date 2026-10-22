@@ -16,7 +16,7 @@
     --ground: #f2f4f7; --surface: #fff; --raised: #eeeeee; --border: #e6e6e6; --control: #d4d4d4;
     --text: #0a0a0a; --text2: #3d3d3d; --muted: #6b6b6b; --hue: #1d5fbf;
     --primary: #141414; --primary-ink: #fff; --fresh: #2e7d32; --stale: #92400e;
-    --gutter: 32px; --gap: 12px; --side: 256px;
+    --gutter: 32px; --gap: 12px;
     color-scheme: light;
   }
   @media (prefers-color-scheme: dark) {
@@ -34,13 +34,10 @@
     font-variant-numeric: tabular-nums; -webkit-font-smoothing: antialiased;
   }
 
-  /* Lưới 1440: 32 + cột lọc 256 + 32 + danh sách 1088 + 32 = 1440; danh sách 3 cột × 354,67 + 2 × 12 = 1088 */
-  .app {
-    display: grid; grid-template-columns: var(--side) minmax(0, 1fr); column-gap: var(--gutter);
-    grid-template-areas: "head head" "side list"; padding: 0 var(--gutter);
-  }
+  /* Lưới 1440: 32 + danh sách 1376 + 32 = 1440; 4 cột × 335 + 3 × 12 = 1376 */
+  .app { padding: 0 var(--gutter); }
 
-  .head { grid-area: head; display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 8px 24px; padding: 32px 0 24px; }
+  .head { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 8px 24px; padding: 32px 0 24px; }
   .brand { display: flex; align-items: center; gap: 12px; }
   .mark { flex: none; width: 32px; height: 32px; color: var(--text); }
   h1 { margin: 0; font-size: 24px; line-height: 1.2; font-weight: 700; letter-spacing: -0.02em; }
@@ -50,14 +47,14 @@
   .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--fresh); }
   .dot.stale { background: var(--stale); }
 
-  /* Cột lọc: dính khi cuộn; điện thoại thành thanh ngang (cuối file) */
-  .side {
-    grid-area: side; align-self: start; position: sticky; top: 0; z-index: 2;
-    display: grid; gap: 16px; max-height: 100vh; overflow-y: auto; padding: 4px 0 32px;
+  /* Thanh tìm kiếm + bộ lọc: một hàng dưới tiêu đề, dính khi cuộn (nền đặc, kẻ một đường khi đã dính) */
+  .bar {
+    position: sticky; top: 0; z-index: 2; display: grid; grid-template-columns: minmax(260px, 1fr) auto; gap: var(--gap);
+    margin: 0 calc(-1 * var(--gutter)); padding: 12px var(--gutter); background: var(--ground); transition: box-shadow .2s;
   }
-  .filters { display: grid; gap: 16px; }
-  .field { display: grid; gap: 6px; }
-  .field > span { font-size: 12px; font-weight: 500; color: var(--muted); }
+  .bar.stuck { box-shadow: 0 1px 0 var(--border); }
+  .filters { display: flex; gap: 8px; }
+  .field { flex: 1 0 auto; width: auto; }
   input, select {
     font: inherit; font-size: 14px; color: var(--text); background: var(--surface);
     border: 1px solid var(--control); border-radius: 6px; height: 36px; padding: 0 10px; min-width: 0; width: 100%;
@@ -76,10 +73,8 @@
   }
   .search input:focus ~ kbd, .search input:not(:placeholder-shown) ~ kbd { display: none; }
   @media (hover: none) { .search kbd { display: none; } }
-  .side-note { margin: 8px 0 0; font-size: 12px; color: var(--muted); }
 
-  main { grid-area: list; min-width: 0; }
-  .status { display: flex; align-items: center; justify-content: space-between; min-height: 36px; margin-bottom: 4px; }
+  .status { display: flex; align-items: center; justify-content: space-between; min-height: 36px; margin: 8px 0 4px; }
   .status p { margin: 0; font-size: 14px; color: var(--muted); }
   .reset {
     font: inherit; font-size: 14px; font-weight: 500; color: var(--text); background: var(--raised);
@@ -173,24 +168,19 @@
   /* Máy tính bảng, điện thoại: tiêu đề → thanh tìm kiếm + bộ lọc vuốt ngang (dính) → danh sách */
   @media (max-width: 900px) {
     :root { --gutter: 16px; }
-    .app { grid-template-columns: minmax(0, 1fr); grid-template-areas: "head" "side" "list"; }
-    .head { padding: 24px 0 16px; }
-    .side {
-      max-height: none; overflow: visible; gap: 8px; padding: 8px 0; margin: 0 calc(-1 * var(--gutter)); padding-inline: var(--gutter);
-      background: var(--ground); transition: box-shadow .2s;
-    }
-    .side.stuck { box-shadow: 0 1px 0 var(--border); }
+    .head { padding: 24px 0 12px; }
+    input, select { height: 44px; font-size: 16px; } /* 16px: iOS không phóng to khi chạm */
+  }
+  /* không đủ chỗ cho tìm kiếm + 5 bộ lọc trên một hàng: bộ lọc xuống hàng dưới, vuốt ngang, tràn tới mép màn hình */
+  @media (max-width: 1180px) {
+    .bar { grid-template-columns: minmax(0, 1fr); gap: 8px; }
     .filters {
-      display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none;
+      overflow-x: auto; scrollbar-width: none;
       margin: -2px calc(-1 * var(--gutter)); padding: 2px var(--gutter);
     }
     .filters::-webkit-scrollbar { display: none; }
-    .field { flex: 1 0 auto; }
-    .field > span, .side-note { display: none; }
-    input, select { height: 44px; font-size: 16px; } /* 16px: iOS không phóng to khi chạm */
-    .status { margin-top: 8px; }
   }
-  @media (prefers-reduced-motion: reduce) { .card, .side, .reset, .apply { transition: none; } .card:active { transform: none; } }
+  @media (prefers-reduced-motion: reduce) { .card, .bar, .reset, .apply { transition: none; } .card:active { transform: none; } }
   @media (prefers-contrast: more) { :root { --border: #8a8a8a; } }
 </style>
 </head>
@@ -208,20 +198,19 @@
     <p class="updated" id="updated" hidden><span class="dot" id="dot"></span><span id="since"></span></p>
   </header>
 
-  <form id="f" class="side" role="search" autocomplete="off">
+  <form id="f" class="bar" role="search" autocomplete="off">
     <label class="search">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       <input name="q" type="search" placeholder="Vị trí, công ty, kỹ năng…" aria-label="Tìm kiếm" enterkeyhint="search" spellcheck="false">
       <kbd>/</kbd>
     </label>
     <div class="filters">
-      <label class="field"><span>Mức lương</span><select name="salary" aria-label="Mức lương"><option value="">Mọi mức lương</option></select></label>
-      <label class="field"><span>Tỉnh thành</span><select name="province" aria-label="Tỉnh thành"><option value="">Mọi tỉnh thành</option></select></label>
-      <label class="field"><span>Đăng trong</span><select name="posted" aria-label="Thời điểm đăng"><option value="">Mọi thời điểm</option></select></label>
-      <label class="field"><span>Kinh nghiệm</span><select name="level" aria-label="Kinh nghiệm"><option value="">Mọi kinh nghiệm</option></select></label>
-      <label class="field"><span>Nguồn</span><select name="source" aria-label="Nguồn"><option value="">Mọi nguồn</option></select></label>
+      <select class="field" name="salary" aria-label="Mức lương"><option value="">Mọi mức lương</option></select>
+      <select class="field" name="province" aria-label="Tỉnh thành"><option value="">Mọi tỉnh thành</option></select>
+      <select class="field" name="posted" aria-label="Thời điểm đăng"><option value="">Mọi thời điểm</option></select>
+      <select class="field" name="level" aria-label="Kinh nghiệm"><option value="">Mọi kinh nghiệm</option></select>
+      <select class="field" name="source" aria-label="Nguồn"><option value="">Mọi nguồn</option></select>
     </div>
-    <p class="side-note">Bấm vào tin để mở bản gốc và ứng tuyển. Rê chuột để xem nhanh.</p>
   </form>
 
   <main>
