@@ -5,218 +5,234 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Việc làm Data</title>
 <meta name="description" content="Tổng hợp việc làm ngành data tại Việt Nam, cập nhật mỗi 6 tiếng.">
-<meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#f2f4f7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Be Vietnam Pro: grotesk vẽ cho tiếng Việt (dấu chồng ệ, ữ đúng vị trí), có số tabular -->
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
+  /* Sổ cái không màu: khung chỉ có mực đen/xám, màu xanh duy nhất đánh dấu tin mới hôm nay */
   :root {
-    --bg: #f5f5f7; --card: #fff; --text: #1d1d1f; --text2: #424245; --muted: #6e6e73;
-    --line: rgb(0 0 0 / .1); --line-hi: rgb(0 0 0 / .18); --accent: #0066cc; --accent-soft: rgb(0 102 204 / .16);
-    --fill: rgb(118 118 128 / .12); --pop: rgb(255 255 255 / .82);
-    --bar: rgb(245 245 247 / .72); --shadow: 0 1px 2px rgb(0 0 0 / .04), 0 4px 16px rgb(0 0 0 / .04);
-    --shadow-hi: 0 2px 4px rgb(0 0 0 / .05), 0 12px 32px rgb(0 0 0 / .08);
+    --ground: #f2f4f7; --surface: #fff; --raised: #eeeeee; --border: #e6e6e6; --control: #d4d4d4;
+    --text: #0a0a0a; --text2: #3d3d3d; --muted: #6b6b6b; --hue: #1d5fbf;
+    --primary: #141414; --primary-ink: #fff; --fresh: #2e7d32; --stale: #92400e;
+    --gutter: 32px; --gap: 12px; --side: 256px;
     color-scheme: light;
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #000; --card: #1c1c1e; --text: #f5f5f7; --text2: #d1d1d6; --muted: #98989d;
-      --line: rgb(255 255 255 / .12); --line-hi: rgb(255 255 255 / .24); --accent: #4da3ff; --accent-soft: rgb(77 163 255 / .25);
-      --fill: rgb(118 118 128 / .24); --pop: rgb(44 44 46 / .82);
-      --bar: rgb(0 0 0 / .7); --shadow: none; --shadow-hi: 0 12px 32px rgb(0 0 0 / .5);
+      --ground: #000; --surface: #111; --raised: #222; --border: #2e2e2e; --control: #444;
+      --text: #fff; --text2: #d4d4d4; --muted: #a3a3a3; --hue: #6ea3f5;
+      --primary: #fff; --primary-ink: #000; --fresh: #3fc07a; --stale: #e5a93b;
       color-scheme: dark;
     }
   }
   * { box-sizing: border-box; }
   body {
-    margin: 0; background: var(--bg); color: var(--text);
-    font: 100%/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-    -webkit-font-smoothing: antialiased;
+    margin: 0; background: var(--ground); color: var(--text);
+    font: 400 14px/1.45 "Be Vietnam Pro", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-variant-numeric: tabular-nums; -webkit-font-smoothing: antialiased;
   }
-  :root { --gutter: clamp(16px, 3vw, 40px); }
-  .wrap { padding: 0 var(--gutter); } /* giãn hết chiều ngang, lưới tự thêm cột */
 
-  /* Tiêu đề lớn: chữ to thì tracking âm, leading chặt (chừa chỗ cho dấu tiếng Việt) */
-  .hero { padding-top: 56px; padding-bottom: 20px; }
-  h1 { margin: 0; font-size: clamp(2.25rem, 1.6rem + 3vw, 3rem); line-height: 1.1; letter-spacing: -0.03em; font-weight: 700; }
-  .sub { margin: 8px 0 0; font-size: 1.0625rem; color: var(--text2); letter-spacing: -0.01em; }
-  .updated { margin: 6px 0 0; font-size: .875rem; color: var(--muted); }
-  .dot { display: inline-block; width: 8px; height: 8px; margin-right: 6px; border-radius: 50%; background: #30d158; vertical-align: 1px; }
-  .dot.stale { background: #ff9f0a; }
+  /* Lưới 1440: 32 + cột lọc 256 + 32 + danh sách 1088 + 32 = 1440; danh sách 3 cột × 354,67 + 2 × 12 = 1088 */
+  .app {
+    display: grid; grid-template-columns: var(--side) minmax(0, 1fr); column-gap: var(--gutter);
+    grid-template-areas: "head head" "side list"; padding: 0 var(--gutter);
+  }
 
-  /* Thanh lọc: lớp kính mờ, chỉ hiện "vật liệu" khi có nội dung cuộn bên dưới */
-  .bar { position: sticky; top: 0; z-index: 2; padding: 10px 0; transition: background-color .2s, box-shadow .2s; }
-  .bar.stuck {
-    background: var(--bar); box-shadow: 0 1px 0 var(--line);
-    -webkit-backdrop-filter: saturate(180%) blur(20px); backdrop-filter: saturate(180%) blur(20px);
+  .head { grid-area: head; display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 8px 24px; padding: 32px 0 24px; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .mark { flex: none; width: 32px; height: 32px; color: var(--text); }
+  h1 { margin: 0; font-size: 24px; line-height: 1.2; font-weight: 700; letter-spacing: -0.02em; }
+  .sub { margin: 4px 0 0; font-size: 14px; color: var(--text2); }
+  .sub b { font-weight: 500; color: var(--hue); }
+  .updated { display: flex; align-items: center; gap: 8px; margin: 0; font-size: 12px; color: var(--muted); }
+  .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--fresh); }
+  .dot.stale { background: var(--stale); }
+
+  /* Cột lọc: dính khi cuộn; điện thoại thành thanh ngang (cuối file) */
+  .side {
+    grid-area: side; align-self: start; position: sticky; top: 0; z-index: 2;
+    display: grid; gap: 16px; max-height: 100vh; overflow-y: auto; padding: 4px 0 32px;
   }
-  .controls { display: grid; gap: 8px; }
-  /* bộ lọc: một hàng dưới ô tìm kiếm; màn hình hẹp thì vuốt ngang, tràn tới mép màn hình */
-  .filters {
-    display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none;
-    margin: -4px calc(-1 * var(--gutter)); padding: 4px var(--gutter); /* chừa chỗ cho viền focus */
-  }
-  .filters::-webkit-scrollbar { display: none; }
-  .filters select { flex: 1 0 auto; height: 40px; }
-  .filters select.on { border-color: var(--accent); color: var(--accent); font-weight: 600; } /* bộ lọc đang chọn */
+  .filters { display: grid; gap: 16px; }
+  .field { display: grid; gap: 6px; }
+  .field > span { font-size: 12px; font-weight: 500; color: var(--muted); }
   input, select {
-    font: inherit; font-size: 1rem; color: var(--text); background: var(--card);
-    border: 1px solid var(--line); border-radius: 10px; height: 44px; padding: 0 12px; min-width: 0;
-    transition: border-color .15s, box-shadow .15s;
+    font: inherit; font-size: 14px; color: var(--text); background: var(--surface);
+    border: 1px solid var(--control); border-radius: 6px; height: 36px; padding: 0 10px; min-width: 0; width: 100%;
+    transition: border-color .15s;
   }
-  input:focus-visible, select:focus-visible { outline: none; border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
+  input:hover, select:hover { border-color: var(--muted); }
+  input:focus-visible, select:focus-visible { outline: 2px solid var(--text); outline-offset: 1px; }
   select { cursor: pointer; }
+  select.on { border-color: var(--text); font-weight: 500; } /* bộ lọc đang chọn */
   .search { position: relative; display: flex; align-items: center; }
-  .search input { width: 100%; padding: 0 36px 0 38px; }
-  .search svg { position: absolute; left: 12px; width: 18px; height: 18px; color: var(--muted); pointer-events: none; }
+  .search input { padding: 0 32px 0 34px; }
+  .search svg { position: absolute; left: 11px; width: 16px; height: 16px; color: var(--muted); pointer-events: none; }
   .search kbd {
-    position: absolute; right: 10px; padding: 3px 7px; border: 1px solid var(--line); border-radius: 6px;
-    font: 500 .75rem/1 system-ui, sans-serif; color: var(--muted); pointer-events: none;
+    position: absolute; right: 8px; padding: 2px 6px; border: 1px solid var(--control); border-radius: 4px;
+    font: 500 12px/1 inherit; color: var(--muted); pointer-events: none;
   }
   .search input:focus ~ kbd, .search input:not(:placeholder-shown) ~ kbd { display: none; }
   @media (hover: none) { .search kbd { display: none; } }
+  .side-note { margin: 8px 0 0; font-size: 12px; color: var(--muted); }
 
-
-  .status { display: flex; align-items: center; justify-content: space-between; min-height: 36px; margin: 12px 0 0; }
-  .status p { margin: 0; font-size: .875rem; color: var(--muted); }
+  main { grid-area: list; min-width: 0; }
+  .status { display: flex; align-items: center; justify-content: space-between; min-height: 36px; margin-bottom: 4px; }
+  .status p { margin: 0; font-size: 14px; color: var(--muted); }
   .reset {
-    font: inherit; font-size: .9375rem; font-weight: 500; color: var(--accent); background: none;
-    border: 0; border-radius: 8px; padding: 6px 10px; margin-right: -10px; cursor: pointer;
+    font: inherit; font-size: 14px; font-weight: 500; color: var(--text); background: var(--raised);
+    border: 0; border-radius: 6px; height: 32px; padding: 0 12px; cursor: pointer; transition: transform .12s;
   }
-  .reset:active { opacity: .55; }
-  .reset:focus-visible { outline: 2px solid var(--accent); }
+  .reset:active { transform: scale(.97); }
+  .reset:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
 
-  /* Lưới thẻ việc làm, nhóm theo ngày */
+  /* Thẻ việc làm, nhóm theo ngày */
+  h2 { display: flex; align-items: baseline; gap: 8px; margin: 32px 0 12px; font-size: 16px; font-weight: 500; line-height: 1.3; }
   section:first-child h2 { margin-top: 8px; }
-  h2 { display: flex; align-items: baseline; gap: 8px; margin: 32px 4px 12px; font-size: 1.25rem; font-weight: 700; letter-spacing: -0.015em; line-height: 1.2; }
-  h2 .n { font-size: .875rem; font-weight: 500; color: var(--muted); letter-spacing: 0; }
-  .grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 16px; }
+  h2 .n { font-size: 14px; font-weight: 400; color: var(--muted); }
+  .grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: var(--gap); }
   .card {
-    position: relative; display: flex; flex-direction: column; background: var(--card);
-    border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); overflow-wrap: anywhere;
-    -webkit-tap-highlight-color: transparent;
-    transition: transform .25s cubic-bezier(.2, .8, .2, 1), border-color .2s, box-shadow .2s;
+    position: relative; display: flex; flex-direction: column; gap: 8px; padding: 16px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow-wrap: anywhere;
+    -webkit-tap-highlight-color: transparent; transition: border-color .15s, transform .2s cubic-bezier(.2, .8, .2, 1);
   }
-  @media (hover: hover) { .card:hover { border-color: var(--line-hi); box-shadow: var(--shadow-hi); } }
-  .card:active { transform: scale(.98); transition-duration: .1s; } /* phản hồi ngay khi nhấn xuống */
-  .co { display: flex; align-items: center; gap: 14px; padding: 16px 18px; }
-  .logo {
-    flex: none; display: grid; place-items: center; width: 56px; height: 56px; overflow: hidden; border-radius: 12px;
-    background: #fff; box-shadow: inset 0 0 0 1px rgb(0 0 0 / .06); /* logo thiết kế cho nền trắng, kể cả ở chế độ tối */
-  }
-  .logo img { width: 100%; height: 100%; padding: 6px; object-fit: contain; }
-  .logo.mono { background: var(--fill); box-shadow: none; color: var(--muted); font-size: 1.375rem; font-weight: 700; }
-  .cname, .title { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; overflow: hidden; }
-  .cname { font-weight: 600; line-height: 1.3; letter-spacing: -0.01em; }
-  .body { flex: 1; padding: 14px 18px 16px; border-top: 1px solid var(--line); }
-  .title { color: var(--text); font-size: 1.0625rem; font-weight: 600; line-height: 1.35; letter-spacing: -0.01em; text-decoration: none; }
+  @media (hover: hover) { .card:hover { border-color: var(--control); } }
+  .card:active { transform: scale(.985); transition-duration: .1s; } /* phản hồi ngay khi nhấn xuống */
+  .title, .cname { display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
+  .title { -webkit-line-clamp: 2; color: var(--text); font-size: 16px; font-weight: 500; line-height: 1.35; letter-spacing: -0.01em; text-decoration: none; }
   .title:visited { color: var(--muted); }
   .title::after { content: ""; position: absolute; inset: 0; } /* cả thẻ là vùng bấm */
   .title:focus-visible { outline: none; }
-  .title:focus-visible::after { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 16px; }
-  .loc { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; margin-top: 8px; font-size: .875rem; color: var(--text2); }
-  .foot { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 4px 12px; padding: 12px 18px; border-top: 1px solid var(--line); }
-  .sal { display: flex; align-items: center; gap: 8px; font-weight: 600; }
-  .sal.none { font-weight: 400; font-size: .875rem; color: var(--muted); }
-  .sal svg { flex: none; width: 20px; height: 20px; color: var(--muted); }
-  .src { font-size: .8125rem; color: var(--muted); white-space: nowrap; }
-  .tag { padding: 1px 8px; border-radius: 99px; font-size: .75rem; font-weight: 600; letter-spacing: .01em; }
-  .tag.lvl { background: var(--fill); color: var(--text2); }
-  /* kỹ năng: viền mảnh để khác nhãn cấp bậc (nền xám) */
-  .skills { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
-  .skills span { padding: 2px 8px; border-radius: 6px; font-size: .75rem; color: var(--text2); box-shadow: inset 0 0 0 1px var(--line); }
-  .skills .more { color: var(--muted); box-shadow: none; padding-inline: 2px; }
-  .qv-label { margin: 0 0 -6px; font-size: .8125rem; font-weight: 600; color: var(--muted); }
+  .title:focus-visible::after { outline: 2px solid var(--text); outline-offset: 2px; border-radius: 8px; }
+  .co { display: flex; align-items: center; gap: 8px; }
+  .cname { -webkit-line-clamp: 1; color: var(--text2); }
+  /* logo vẽ cho nền trắng → nền trắng cả ở chế độ tối */
+  .logo { flex: none; display: grid; place-items: center; width: 24px; height: 24px; overflow: hidden; border-radius: 4px; background: #fff; }
+  .logo img { width: 100%; height: 100%; padding: 1px; object-fit: contain; }
+  .logo.mono { background: var(--raised); color: var(--muted); font-size: 12px; font-weight: 700; }
+  .loc { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; color: var(--muted); }
+  .tag { flex: none; white-space: nowrap; padding: 1px 8px; border-radius: 4px; font-size: 12px; font-weight: 500; background: var(--raised); color: var(--text2); }
+  .skills { margin: 0; font-size: 12px; color: var(--muted); }
+  .foot { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 12px; margin-top: auto; padding-top: 4px; }
+  .sal { font-weight: 700; }
+  .sal.none { font-weight: 400; color: var(--muted); }
+  .src { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .src.new::before { content: ""; display: inline-block; width: 6px; height: 6px; margin-right: 6px; border-radius: 50%; background: var(--hue); vertical-align: 1px; }
 
   /* Xem nhanh: popover cạnh thẻ (chuột) hoặc sheet từ dưới lên (cảm ứng) */
   #qv {
     width: 380px; max-width: calc(100vw - 16px); max-height: min(600px, calc(100vh - 16px)); overflow: auto; padding: 0;
-    color: var(--text); background: var(--pop); border: 1px solid var(--line); border-radius: 18px;
-    box-shadow: 0 16px 48px rgb(0 0 0 / .2), 0 2px 8px rgb(0 0 0 / .08);
-    -webkit-backdrop-filter: saturate(180%) blur(24px); backdrop-filter: saturate(180%) blur(24px);
+    color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    box-shadow: 0 12px 32px rgb(0 0 0 / .16), 0 2px 6px rgb(0 0 0 / .06); /* nổi trên trang */
   }
   #qv:not(:modal) { position: fixed; inset: auto; z-index: 10; margin: 0; }
   #qv:modal {
-    inset: auto 0 0; width: 100%; max-width: none; max-height: 88vh; margin: 0; background: var(--card);
-    border-width: 1px 0 0; border-radius: 20px 20px 0 0; padding-bottom: env(safe-area-inset-bottom);
+    inset: auto 0 0; width: 100%; max-width: none; max-height: 88vh; margin: 0;
+    border-width: 1px 0 0; border-radius: 16px 16px 0 0; padding-bottom: env(safe-area-inset-bottom);
   }
   #qv::backdrop { background: rgb(0 0 0 / .4); transition: background-color .3s; }
   #qv.closing::backdrop { background: transparent; }
   @starting-style { #qv:modal::backdrop { background: transparent; } }
   html:has(#qv:modal) { overflow: hidden; }
-  .qv { display: grid; gap: 14px; padding: 20px; }
-  .qv-head { display: flex; align-items: center; gap: 12px; }
-  .qv-head .logo { width: 48px; height: 48px; border-radius: 10px; }
-  .qv-co { flex: 1; font-weight: 600; color: var(--text2); line-height: 1.3; }
+  .qv { display: grid; gap: 16px; padding: 20px; }
+  .qv-head { display: flex; align-items: center; gap: 10px; }
+  .qv-co { flex: 1; color: var(--text2); line-height: 1.3; }
   .qv-x {
-    flex: none; display: grid; place-items: center; width: 32px; height: 32px; padding: 0; border: 0; border-radius: 50%;
-    background: var(--fill); color: var(--muted); font-size: 1.125rem; line-height: 1; cursor: pointer;
+    flex: none; display: grid; place-items: center; width: 32px; height: 32px; padding: 0; border: 0; border-radius: 6px;
+    background: var(--raised); color: var(--text2); cursor: pointer;
   }
-  .qv-x:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .qv-x svg { width: 14px; height: 14px; }
+  .qv-x:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
   #qv:not(:modal) .qv-x { display: none; }
-  .qv h3 { margin: 0; font-size: 1.25rem; line-height: 1.3; letter-spacing: -0.02em; }
+  .qv h3 { margin: 0; font-size: 20px; font-weight: 500; line-height: 1.3; letter-spacing: -0.015em; }
+  .facts { display: grid; grid-template-columns: auto 1fr; gap: 6px 16px; margin: 0; }
+  .facts dt { color: var(--muted); }
+  .facts dd { margin: 0; }
+  .facts .money { font-weight: 700; }
+  .qv-label { margin: 0 0 -8px; font-size: 12px; font-weight: 500; color: var(--muted); }
   .chips { display: flex; flex-wrap: wrap; gap: 6px; }
-  .chip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 99px; background: var(--fill); font-size: .8125rem; color: var(--text2); }
-  .chip.money { font-weight: 600; color: var(--text); }
-  .chip.money svg { width: 16px; height: 16px; }
-  .chip.skill { background: none; box-shadow: inset 0 0 0 1px var(--line); }
-  .desc { margin: 0; font-size: .9375rem; line-height: 1.6; color: var(--text2); }
+  .chips span { padding: 2px 8px; border-radius: 4px; background: var(--raised); font-size: 12px; color: var(--text2); white-space: nowrap; }
+  .desc { margin: 0; line-height: 1.6; color: var(--text2); }
   .desc.none { color: var(--muted); }
   .apply {
-    display: flex; align-items: center; justify-content: center; gap: 6px; height: 48px; border-radius: 12px;
-    background: #0066cc; color: #fff; font-weight: 600; text-decoration: none; transition: transform .1s, filter .15s;
+    display: flex; align-items: center; justify-content: center; height: 40px; border-radius: 6px;
+    background: var(--primary); color: var(--primary-ink); font-weight: 500; text-decoration: none; transition: transform .12s, opacity .15s;
   }
-  .apply:hover { filter: brightness(1.1); }
-  .apply:active { transform: scale(.97); }
-  .apply:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  .note { margin: -6px 0 0; font-size: .75rem; color: var(--muted); text-align: center; }
+  .apply:hover { opacity: .88; }
+  .apply:active { transform: scale(.98); }
+  .apply:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
+  .note { margin: -8px 0 0; font-size: 12px; color: var(--muted); text-align: center; }
 
-  .skel { height: 230px; box-shadow: none; }
-  .empty { padding: 64px 0; text-align: center; color: var(--muted); }
-  .empty p { margin: 0 0 8px; font-size: 1.0625rem; }
-  footer { margin: 40px 0 64px; font-size: .8125rem; color: var(--muted); }
+  .skel { height: 168px; background: var(--raised); border-color: transparent; }
+  .empty { padding: 48px 16px; border: 1px dashed var(--control); border-radius: 8px; text-align: center; color: var(--muted); }
+  .empty p { margin: 0 0 12px; }
+  footer { margin: 48px 0 64px; font-size: 12px; color: var(--muted); }
 
-  @media (max-width: 640px) {
-    .hero { padding-top: 32px; }
+  /* Máy tính bảng, điện thoại: tiêu đề → thanh tìm kiếm + bộ lọc vuốt ngang (dính) → danh sách */
+  @media (max-width: 900px) {
+    :root { --gutter: 16px; }
+    .app { grid-template-columns: minmax(0, 1fr); grid-template-areas: "head" "side" "list"; }
+    .head { padding: 24px 0 16px; }
+    .side {
+      max-height: none; overflow: visible; gap: 8px; padding: 8px 0; margin: 0 calc(-1 * var(--gutter)); padding-inline: var(--gutter);
+      background: var(--ground); transition: box-shadow .2s;
+    }
+    .side.stuck { box-shadow: 0 1px 0 var(--border); }
+    .filters {
+      display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none;
+      margin: -2px calc(-1 * var(--gutter)); padding: 2px var(--gutter);
+    }
+    .filters::-webkit-scrollbar { display: none; }
+    .field { flex: 1 0 auto; }
+    .field > span, .side-note { display: none; }
+    input, select { height: 44px; font-size: 16px; } /* 16px: iOS không phóng to khi chạm */
+    .status { margin-top: 8px; }
   }
-  @media (prefers-reduced-motion: reduce) { .bar, .card { transition: none; } .card:active { transform: none; } }
-  @media (prefers-reduced-transparency: reduce) {
-    .bar.stuck { background: var(--bg); -webkit-backdrop-filter: none; backdrop-filter: none; }
-    #qv { background: var(--card); -webkit-backdrop-filter: none; backdrop-filter: none; }
-  }
-  @media (prefers-contrast: more) { :root { --line: rgb(128 128 128 / .7); } }
+  @media (prefers-reduced-motion: reduce) { .card, .side, .reset, .apply { transition: none; } .card:active { transform: none; } }
+  @media (prefers-contrast: more) { :root { --border: #8a8a8a; } }
 </style>
 </head>
 <body>
-<header class="wrap hero">
-  <h1>Việc làm Data</h1>
-  <p class="sub" id="sub">Đang tải…</p>
-  <p class="updated" id="updated" hidden><span class="dot" id="dot"></span><span id="since"></span></p>
-</header>
+<div class="app">
+  <header class="head">
+    <div>
+      <div class="brand">
+        <!-- ba cột tăng dần: dữ liệu -->
+        <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="6" fill="currentColor"/><path d="M9 23v-5M16 23V13M23 23V9" stroke="var(--ground)" stroke-width="3.2" stroke-linecap="round"/></svg>
+        <h1>Việc làm Data</h1>
+      </div>
+      <p class="sub" id="sub">Đang tải…</p>
+    </div>
+    <p class="updated" id="updated" hidden><span class="dot" id="dot"></span><span id="since"></span></p>
+  </header>
 
-<form id="f" class="bar" role="search" autocomplete="off">
-  <div class="wrap controls">
+  <form id="f" class="side" role="search" autocomplete="off">
     <label class="search">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
-      <input name="q" type="search" placeholder="Tìm vị trí, công ty, kỹ năng…" aria-label="Tìm kiếm" enterkeyhint="search" spellcheck="false">
+      <input name="q" type="search" placeholder="Vị trí, công ty, kỹ năng…" aria-label="Tìm kiếm" enterkeyhint="search" spellcheck="false">
       <kbd>/</kbd>
     </label>
     <div class="filters">
-      <select name="salary" aria-label="Mức lương"><option value="">Mọi mức lương</option></select>
-      <select name="province" aria-label="Tỉnh thành"><option value="">Mọi tỉnh thành</option></select>
-      <select name="posted" aria-label="Thời điểm đăng"><option value="">Mọi thời điểm</option></select>
-      <select name="level" aria-label="Kinh nghiệm"><option value="">Mọi kinh nghiệm</option></select>
-      <select name="source" aria-label="Nguồn"><option value="">Mọi nguồn</option></select>
+      <label class="field"><span>Mức lương</span><select name="salary" aria-label="Mức lương"><option value="">Mọi mức lương</option></select></label>
+      <label class="field"><span>Tỉnh thành</span><select name="province" aria-label="Tỉnh thành"><option value="">Mọi tỉnh thành</option></select></label>
+      <label class="field"><span>Đăng trong</span><select name="posted" aria-label="Thời điểm đăng"><option value="">Mọi thời điểm</option></select></label>
+      <label class="field"><span>Kinh nghiệm</span><select name="level" aria-label="Kinh nghiệm"><option value="">Mọi kinh nghiệm</option></select></label>
+      <label class="field"><span>Nguồn</span><select name="source" aria-label="Nguồn"><option value="">Mọi nguồn</option></select></label>
     </div>
-  </div>
-</form>
+    <p class="side-note">Bấm vào tin để mở bản gốc và ứng tuyển. Rê chuột để xem nhanh.</p>
+  </form>
 
-<main class="wrap">
-  <div class="status">
-    <p id="count" aria-live="polite"></p>
-    <button type="button" class="reset" id="reset" hidden>Xóa bộ lọc</button>
-  </div>
-  <div id="list"><ul class="grid" aria-hidden="true"><li class="card skel"></li><li class="card skel"></li><li class="card skel"></li></ul></div>
-  <footer>Dữ liệu tổng hợp tự động từ các trang tuyển dụng và mạng xã hội. Bấm vào tin để xem bản gốc và ứng tuyển.</footer>
-</main>
+  <main>
+    <div class="status">
+      <p id="count" aria-live="polite"></p>
+      <button type="button" class="reset" id="reset" hidden>Xóa bộ lọc</button>
+    </div>
+    <div id="list"><ul class="grid" aria-hidden="true"><li class="card skel"></li><li class="card skel"></li><li class="card skel"></li></ul></div>
+    <footer>Dữ liệu tổng hợp tự động từ các trang tuyển dụng và trang tuyển dụng của công ty, cập nhật 6 tiếng/lần.</footer>
+  </main>
+</div>
 
 <dialog id="qv" aria-labelledby="qv-title"></dialog>
 
@@ -229,7 +245,6 @@ function skillsOf(j) {
   return [...(j.skills || []), ...(j.tags || [])].filter((s) => !seen.has(s.toLowerCase()) && seen.add(s.toLowerCase()));
 }
 const where = (j) => (j.source === "Trang công ty" ? `trang ${j.company}` : j.source); // "Ứng tuyển trên trang Grab"
-const CASH = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="2.5" y="6" width="19" height="12" rx="2.5"/><circle cx="12" cy="12" r="2.5"/></svg>';
 const $ = (id) => document.getElementById(id);
 const form = $("f"), qv = $("qv");
 // bỏ dấu để "du lieu" tìm được "dữ liệu"
@@ -306,36 +321,25 @@ function logo(j) {
   return box;
 }
 
-function money(salary, cls) {
-  const s = el("span", cls);
-  s.innerHTML = CASH;
-  s.append(salary);
-  return s;
-}
-
 function card(j) {
   const li = el("li", "card");
   li._job = j;
   const co = el("div", "co");
   co.append(logo(j), el("span", "cname", j.company || j.source));
-  const body = el("div", "body");
-  body.append(link("title", j.title, j.url));
+  li.append(link("title", j.title, j.url), co);
   const loc = el("div", "loc");
-  if (j.level?.length) loc.append(el("span", "tag lvl", levelText(j)));
+  if (j.level?.length) loc.append(el("span", "tag", levelText(j)));
   if (j.location) loc.append(el("span", "", j.location));
-  if (loc.childElementCount) body.append(loc);
+  if (loc.childElementCount) li.append(loc);
   if (j._skills.length) { // 4 kỹ năng đầu (nhắc sớm nhất trong tin), còn lại xem trong khung xem nhanh
-    const sk = el("div", "skills");
-    sk.setAttribute("aria-label", "Kỹ năng");
-    sk.append(...j._skills.slice(0, 4).map((s) => el("span", "", s)));
-    if (j._skills.length > 4) sk.append(el("span", "more", `+${j._skills.length - 4}`));
-    body.append(sk);
+    const more = j._skills.length > 4 ? ` +${j._skills.length - 4}` : "";
+    li.append(el("p", "skills", j._skills.slice(0, 4).join(" · ") + more));
   }
   const foot = el("div", "foot");
-  const t = el("time", "src", `${j.source} · ${when(j)}`);
+  const t = el("time", j._days <= 0 ? "src new" : "src", `${j.source} · ${when(j)}`); // chấm xanh: tin mới hôm nay
   t.dateTime = j.date;
-  foot.append(money(j.salary || "Chưa có thông tin lương", j.salary ? "sal" : "sal none"), t);
-  li.append(co, body, foot);
+  foot.append(el("span", j.salary ? "sal" : "sal none", j.salary || "Chưa rõ lương"), t);
+  li.append(foot);
   li.addEventListener("pointerenter", (e) => { if (e.pointerType === "mouse") hoverIn(li); });
   li.addEventListener("pointerleave", (e) => { if (e.pointerType === "mouse") hoverOut(); });
   return li;
@@ -345,18 +349,20 @@ function card(j) {
 
 function fill(j) {
   const head = el("div", "qv-head");
-  const x = el("button", "qv-x", "✕");
+  const x = el("button", "qv-x");
+  x.innerHTML = '<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 2l10 10M12 2 2 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>';
   x.type = "button"; x.setAttribute("aria-label", "Đóng"); x.onclick = qvHide;
   head.append(logo(j), el("div", "qv-co", j.company || j.source), x);
   const h = el("h3", "", j.title);
   h.id = "qv-title";
-  const facts = el("div", "chips");
-  if (j.salary) facts.append(money(j.salary, "chip money"));
-  if (j.level?.length) facts.append(el("span", "chip", levelText(j)));
-  if (j.location) facts.append(el("span", "chip", j.location));
-  facts.append(el("span", "chip", when(j)));
+  const facts = el("dl", "facts");
+  const fact = (k, v, cls) => facts.append(el("dt", "", k), el("dd", cls, v));
+  fact("Lương", j.salary || "—", j.salary ? "money" : "");
+  if (j.level?.length) fact("Cấp bậc", levelText(j));
+  if (j.location) fact("Nơi làm", j.location);
+  fact("Đăng", when(j));
   const skills = el("div", "chips");
-  for (const s of j._skills) skills.append(el("span", "chip skill", s));
+  for (const s of j._skills) skills.append(el("span", "", s));
   const desc = j.desc;
   const box = el("div", "qv");
   box.append(head, h, facts);
@@ -554,7 +560,9 @@ new IntersectionObserver(([e]) => form.classList.toggle("stuck", e.intersectionR
   for (const j of jobs) for (const p of j._provinces) freq[p] = (freq[p] || 0) + 1;
   options(form.province, Object.keys(freq).sort((a, b) => freq[b] - freq[a]).map((p) => [p, p]));
 
-  $("sub").textContent = `${jobs.length.toLocaleString("vi-VN")} việc làm ngành data tại Việt Nam.`;
+  const fresh = jobs.filter((j) => j._days <= 0).length;
+  $("sub").replaceChildren(...(fresh ? [el("b", "", `${fresh} tin mới hôm nay`), " · "] : []),
+    `${jobs.length.toLocaleString("vi-VN")} việc làm ngành data tại Việt Nam`);
   const updated = [main?.updated, local?.updated].filter(Boolean).sort().at(-1);
   if (updated) {
     const h = (Date.now() - new Date(updated)) / 36e5;
