@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T17:08+00:00",
+ "updated": "2026-10-22T21:34+00:00",
  "jobs": [
   {
    "title": "Senior AI Engineer (Computer Vision/NLP/LLM) - Khối Công nghệ thông tin (2026TD450878)",
@@ -1529,7 +1529,7 @@
     "Airflow"
    ],
    "desc": "Key Responsibilities Data Collection & Analysis: Gather, consolidate, and analyze large-scale datasets from internal and external sources to support business objectives. Insights & Customer Experience: Mine data to understand customer behavior, product/service trends, and business performance to optimize operations and CX. BI & Reporting: Design, build, operate, and optimize regular and ad-hoc…",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-22"
   },
   {
    "title": "Data Engineer (Fabric, Python, Azure)",
@@ -1889,7 +1889,7 @@
     "Data Modeling"
    ],
    "desc": "Công Ty Cổ Phần Tập Đoàn Hòa Phát Tuyển Dụng Vị Trí Thuộc Ban Công Nghệ Và Chuyển Đổi Số, Tham Gia Đề Án Trung Tâm Dữ Liệu Tập Trung Và Agentic AI, Chi Tiết Như Sau Vị trí tuyển dụng: 02 Chuyên viên Phân tích dữ liệu (Data Analyst) Yêu cầu Tốt nghiệp đại học chuyên ngành Thống kê, Toán ứng dụng, Hệ thống thông tin, Công nghệ thông tin hoặc các ngành liên quan. Có tối thiểu 02 năm kinh nghiệm làm…",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-22"
   },
   {
    "title": "Trợ Giảng/Giảng Viên Phân Tích Dữ Liệu",
@@ -3413,7 +3413,7 @@
     "Tiếng Anh",
     "Thống kê"
    ],
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-22"
   },
   {
    "title": "[TT KT&KHDL]_Trưởng phòng Khoa học dữ liệu",
@@ -5108,7 +5108,7 @@
     "SQL"
    ],
    "desc": "JOB DESCRIPTION Position : DATA ANALYST Quantity : 02 ( 1 senior English - 1 Middle) Type : Full-time Location : 5nd Floor, TTC Building, No.19 Duy Tan St., Dich Vong Hau Ward, Cau Giay Dist,. Hanoi Capital, Vietnam. ABOUT US  Astek is a global player in engineering and technology consulting, founded in France in 1988. Today, we are +7500 engineers across over 30 countries in the world.  With…",
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-22"
   },
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu - Data Analyst",
@@ -8164,6 +8164,25 @@
    "last_seen": "2026-10-22"
   },
   {
+   "title": "Data Analyst/Power Business Intelligence",
+   "company": "Astek Vietnam",
+   "location": "Hanoi Capital Region",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4433917647",
+   "source": "LinkedIn",
+   "date": "2026-10-01",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQE_MNUiadaN_Q/company-logo_100_100/company-logo_100_100/0/1685084019433?e=2147483647&v=beta&t=MDx3-PzSwm62LjI7Gadn6Ta_WiOSnxPrm1OBCDU-9Vk",
+   "skills": [
+    "Power BI",
+    "SQL",
+    "Excel",
+    "Data Modeling",
+    "Tiếng Anh"
+   ],
+   "desc": "JOB DESCRIPTION Position: Data Analyst/ Power Business Intelligence Quantity: 01 (Middle), 01 (Senior) Type: Full-time Work model: Onsite Location: 5th Floor, TTC Building, No.19 Duy Tan St., Dich Vong Hau Ward, Cau Giay Dist., Hanoi Capital, Vietnam ABOUT US Astek is a global player in engineering and technology consulting, founded in France in 1988. Today, we are +7500 engineers across over 22…",
+   "last_seen": "2026-10-22"
+  },
+  {
    "title": "AI Engineer (Hands-On)",
    "company": "Western Environmental Pty Ltd.",
    "location": "Hà Nội",
@@ -9842,6 +9861,29 @@
     "senior"
    ],
    "skills": [],
+   "last_seen": "2026-10-22"
+  },
+  {
+   "title": "Senior Data Engineer",
+   "company": "HEINEKEN Vietnam",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4469638690",
+   "source": "LinkedIn",
+   "date": "2026-09-24",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQFrpnW2MrxLcw/company-logo_100_100/company-logo_100_100/0/1676547623634/heinekenvietnam_logo?e=2147483647&v=beta&t=8WuNicv5Pr2S7BupZ55n2uTLS-yZtriQo8w9R6-iRqI",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Azure",
+    "Databricks",
+    "Spark",
+    "SQL",
+    "Data Modeling",
+    "Data Warehouse"
+   ],
+   "desc": "About the Role As a Senior Data Engineer , you will play a critical role in shaping and scaling our modern data platform on Azure and Databricks. This role goes beyond building pipelines. You will design reliable, scalable data foundations that power analytics, reporting, and advanced use cases across the business. You will work closely with data, business, and global teams to turn raw data into…",
    "last_seen": "2026-10-22"
   },
   {
