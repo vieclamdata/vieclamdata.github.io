@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T17:01+00:00",
+ "updated": "2026-10-23T21:26+00:00",
  "jobs": [
   {
    "title": "[Hà Nội] CV/CVC/CVCC Kỹ Thuật Dữ Liệu (DE)",
@@ -204,6 +204,24 @@
     "Machine Learning"
    ],
    "logo": "logos/vpbank.png",
+   "last_seen": "2026-10-23"
+  },
+  {
+   "title": "Nhân Viên Talent Acquisition Business Partner (BO/IT)/Process Quality Assurance (IT)/Manual Tester/Data Analyst/Product Design (Senior)/Process Quality Assurance (Fresher/Junior)",
+   "company": "Công Ty Công Nghệ SAPO",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://ybox.vn/tuyen-dung/hn-cong-ty-cong-nghe-sapo-tuyen-dung-nhan-vien-talent-acquisition-business-partner-bo-it-process-quality-assurance-it-manual-tester-data-analyst-product-design-senior-process-quality-assurance-fresher-junior-tro-ly-chu-tich-mang-tai-chinh-chuyen-vien-trien-khai-phan-mem-ke-toan-cho-doi-tac-hrbp-giam-doc-trung-tam-giai-phap-tai-chinh-so-head-of-fintech-full-time-2026-6adac171f36507181e554664",
+   "source": "Ybox",
+   "date": "2026-10-23",
+   "logo": "https://static.ybox.vn/2024/9/3/1726022973084-1717382607227-Thiết-kế-chưa-có-tên-(2).png",
+   "desc": "Được thành lập từ 20/08/2008, với khả năng và hướng đi rõ ràng, Sapo nhanh chóng khẳng định được vị trí hàng đầu trong việc xây dựng nền tảng công nghệ hỗ trợ lĩnh vực bán lẻ và TM",
+   "level": [
+    "intern",
+    "junior",
+    "senior"
+   ],
+   "skills": [],
    "last_seen": "2026-10-23"
   },
   {
@@ -1629,7 +1647,7 @@
     "Power BI",
     "Tableau"
    ],
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-23"
   },
   {
    "title": "Senior/Expert Business Intelligence - ID12770",
@@ -10347,9 +10365,7 @@
   "https://www.vietnamworks.com/project-commercial-trainee-1791972722591135951-2119502-jv",
   "https://www.vietnamworks.com/project-product-management-trainee-1792386036859803249-2120952-jv",
   "https://www.vietnamworks.com/project-trainee-temp-4-months-1791875037524242745-2118862-jv",
-  "https://www.vietnamworks.com/quan-ly-tap-su-hanh-chinh-nhan-su-1790159250166324401-2110379-jv",
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1790718519389513213-2113475-jv",
-  "https://www.vietnamworks.com/service-engineer-trainee-ho-chi-minh-1790145355731674278-2110639-jv",
   "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv",
   "https://www.vietnamworks.com/tpbank-nhan-vien-tap-su-khach-hang-ca-nhan-hop-dong-6-12-thang-2098371-jv"
  ]
