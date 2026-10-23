@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T11:33+00:00",
+ "updated": "2026-10-23T17:01+00:00",
  "jobs": [
   {
    "title": "[Hà Nội] CV/CVC/CVCC Kỹ Thuật Dữ Liệu (DE)",
@@ -189,6 +189,21 @@
    "date": "2026-10-23",
    "skills": [],
    "logo": "logos/vnpay.png",
+   "last_seen": "2026-10-23"
+  },
+  {
+   "title": "Data Governance - HN - TA174",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-Data-Governance-HN-TA174/1367900166/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-23",
+   "desc": "Mục đích của chức danh / Job purpose Phối hợp với các đơn vị liên quan thực hiện xây dựng và triển khai các khung quản trị, chính sách dữ liệu toàn hàng và hệ sinh thái, tham gia xây dựng các chính sách, quy định, quy trình nhằm đảm bảo chất lượng của dữ liệu cũng như các ứng dụng trí tuệ nhân tạo và phân tích số liệu. Điều phối các đơn vị kinh doanh trong việc cấu trúc yêu cầu dữ liệu và phân…",
+   "skills": [
+    "Machine Learning"
+   ],
+   "logo": "logos/vpbank.png",
    "last_seen": "2026-10-23"
   },
   {
@@ -824,7 +839,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/data-engineer.35C843CF.html",
    "source": "CareerViet",
    "date": "2026-10-21",
-   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuyển dụng.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuy%E1%BB%83n%20d%E1%BB%A5ng.png",
    "salary": "Thỏa thuận",
    "skills": [
     "Python",
@@ -5381,7 +5396,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-23"
   },
   {
    "title": "Chuyên Viên Kế Toán Quản Trị Và Phân Tích Dữ Liệu",
@@ -10336,7 +10351,6 @@
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1790718519389513213-2113475-jv",
   "https://www.vietnamworks.com/service-engineer-trainee-ho-chi-minh-1790145355731674278-2110639-jv",
   "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv",
-  "https://www.vietnamworks.com/tpbank-nhan-vien-tap-su-khach-hang-ca-nhan-hop-dong-6-12-thang-2098371-jv",
-  "https://ybox.vn/tuyen-dung/hcm-khach-san-reve-tuyen-dung-finance-trainee-part-time-full-time-2026-6ad83c1c17c8a43faa01bb1f"
+  "https://www.vietnamworks.com/tpbank-nhan-vien-tap-su-khach-hang-ca-nhan-hop-dong-6-12-thang-2098371-jv"
  ]
 }
