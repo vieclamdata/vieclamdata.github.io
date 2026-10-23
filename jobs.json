@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23T04:37+00:00",
+ "updated": "2026-10-23T11:33+00:00",
  "jobs": [
   {
    "title": "[Hà Nội] CV/CVC/CVCC Kỹ Thuật Dữ Liệu (DE)",
@@ -58,6 +58,137 @@
    ],
    "desc": "1. Thiết kế, cài đặt, cấu hình và tiếp nhận vận hành hệ thống CSDL, nền tảng dữ liệu. 2. Giám sát hoạt động, quản lý dung lượng, phân tích và tối ưu hiệu năng CSDL. 3. Triển khai, vận hành sao lưu, phục hồi và dự phòng; kiểm thử HA/DR định kỳ. 4. Thực hiện nâng cấp, vá lỗi, di trú, bảo mật và quản lý quyền truy cập CSDL. 5. Phân tích, xử lý sự cố; xác định nguyên nhân và triển khai biện pháp…",
    "logo": "logos/lpbank.png",
+   "last_seen": "2026-10-23"
+  },
+  {
+   "title": "Supply Chain Data Analyst (Total Annual Compensation Up-To 37,000 USD)",
+   "company": "Crossian Việt Nam",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/supply-chain-data-analyst-total-annual-compensation-up-to-37-000-usd-1792743704700058252-2123046-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-23",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/27/11025436.png",
+   "salary": "Đến ≈80 triệu",
+   "desc": "ABOUT THE ROLE Crossian is a high-growth technology-driven e-commerce business. Behind our success is our people. As a start-up formed in 2020, we have created a fast-paced and dynamic environment, enabling our people to reach a cumulative average growth rate of over 1000% in the last 3 years. Our mission now is to build DTC... WHAT ARE WE LOOKING FOR - Bachelor's degree in business analytics,…",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Thống kê"
+   ],
+   "last_seen": "2026-10-23"
+  },
+  {
+   "title": "Data Analyst (ERP/SAP)",
+   "company": "Công Ty Cổ Phần BM Windows",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/data-analyst-erp-sap-1790063466401984202-2110161-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-23",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/14/11286904.png",
+   "salary": "≈13–26 triệu",
+   "desc": "- Xây dựng Data Pipelines (ETL/ELT): Thiết kế, phát triển và tối ưu hóa các quy trình trích xuất, chuyển đổi và tải dữ liệu (ETL/ELT) từ nhiều nguồn khác nhau về hệ thống lưu trữ chung. - Quản lý hạ tầng dữ liệu: Thiết kế và duy trì kho dữ liệu (Data Warehouse, Data... - Trình độ học vấn: Tốt nghiệp Đại học chuyên ngành Computer Science hoặc Data engineering. - Thành thạo SQL & Python (Ưu tiên) ;…",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "ETL",
+    "Data Warehouse",
+    "SQL",
+    "Python"
+   ],
+   "last_seen": "2026-10-23"
+  },
+  {
+   "title": "Software & Web Developer — Power BI and Microsoft Dynamics ERP",
+   "company": "MDC Precision Vietnam",
+   "location": "Đồng Nai, Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/software-web-developer-power-bi-and-microsoft-dynamics-erp-2108384-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-23",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/30/11016819.png",
+   "salary": "Đến ≈65 triệu",
+   "desc": "Location and Employment • Location: Dong Nai/HCM, Vietnam • Work arrangement: Full-time, onsite • Experience: Minimum three years • Department: Information Technology / Business Systems • Reports to: IT Director Position Summary The Software & Web Developer will design, develop, integrate, test, deploy, and support web applications, internal business systems, Power BI reporting solutions, and…",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Power BI",
+    "Python",
+    "Git"
+   ],
+   "last_seen": "2026-10-23"
+  },
+  {
+   "title": "Business Data Analyst",
+   "company": "CÔNG TY TNHH MĂMMY VIỆT NAM",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://topdev.vn/detail-jobs/business-data-analyst-cong-ty-tnhh-mammy-viet-nam-2140547",
+   "source": "TopDev",
+   "date": "2026-10-23",
+   "logo": "https://assets.saramin.vn/images/2025/11/25/TopDev-tai-xuong---2025-11-25T105308.907-1764042947.png",
+   "skills": [],
+   "desc": "Your role & responsibilities Your skills & qualifications Benefits for you - Các chế độ phúc lợi theo luật lao động (lương, thưởng, nghỉ lễ, phép năm,..) - Du lịch, hoạt động teambuilding (100% chi phí công ty) - Thời gian làm việc từ Thứ 2 đến Thứ 7 (8h00 – 17h00). Chiều thứ 7 làm việc online - Review lương hằng năm - Thưởng tháng 13, tháng 14 - Môi trường năng động, trẻ trung toàn các bạn GenZ…",
+   "last_seen": "2026-10-23"
+  },
+  {
+   "title": "Senior Officer, Data Translator\t(50000431)",
+   "company": "Techcombank",
+   "location": "TP. Ha Noi",
+   "region": "VN",
+   "url": "https://www.techcombankjobs.com/job/TP_-Ha-Noi-Senior-Officer%2C-Data-Translator-%2850000431%29/60923044/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-23",
+   "desc": "Job Purpose - The job holder will assist in gathering, analyzing business and data requirements to arrive at comprehensive solutions - The job holder will be responsible for exploring a variety of company systems, company data platforms and analytical tools to provide timely, meaningful and consumable information to internal stakeholders as well as the team. Key Accountabilities (1) A. Reporting…",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "SQL",
+    "Data Warehouse",
+    "AWS",
+    "Azure",
+    "GCP"
+   ],
+   "logo": "logos/techcombank.png",
+   "last_seen": "2026-10-23"
+  },
+  {
+   "title": "CVC/CVCC Quản trị dữ liệu - Khối Tài chính",
+   "company": "TPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.tpb.vn/vi/jobs/qoVoYR",
+   "source": "Trang công ty",
+   "date": "2026-10-23",
+   "skills": [
+    "Power BI",
+    "Qlik",
+    "Python",
+    "Spark",
+    "SQL",
+    "Data Warehouse",
+    "ETL",
+    "Tiếng Anh"
+   ],
+   "desc": "· Xây dựng, quản lý và vận hành cơ sở dữ liệu; đảm bảo dữ liệu được tích hợp, xử lý, lưu trữ tập trung và cung cấp kịp thời, chính xác phục vụ báo cáo quản trị, phân tích và tuân thủ. · Xây dựng, triển khai các quy tắc kiểm soát chất lượng, đối soát và xử lý sai lệch dữ liệu; quản lý danh mục sản phẩm dữ liệu, Data Mapping và tài liệu vận hành. · Phối hợp với các đơn vị nghiệp vụ và IT trong phân…",
+   "logo": "logos/tpbank.png",
+   "last_seen": "2026-10-23"
+  },
+  {
+   "title": "Nhân viên Phân tích dữ liệu Sản phẩm (Data Analyst)",
+   "company": "VNPAY",
+   "location": "TP. Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://tuyendung.vnpay.vn/tuyen-dung/nhan-vien-phan-tich-du-lieu-san-pham.html",
+   "source": "Trang công ty",
+   "date": "2026-10-23",
+   "skills": [],
+   "logo": "logos/vnpay.png",
    "last_seen": "2026-10-23"
   },
   {
@@ -693,7 +824,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/data-engineer.35C843CF.html",
    "source": "CareerViet",
    "date": "2026-10-21",
-   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuy%E1%BB%83n%20d%E1%BB%A5ng.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuyển dụng.png",
    "salary": "Thỏa thuận",
    "skills": [
     "Python",
@@ -704,6 +835,31 @@
     "Databricks"
    ],
    "desc": "Đây là vị trí có vai trò quan trọng trong việc xây dựng nền tảng công nghệ và dữ liệu cho Fraud Detection, kết nối giữa năng lực Big Data/Data Engineering và bài toán quản trị rủi ro trong môi trường Retail. Vị trí có cơ hội tham gia trực tiếp vào các bài toán dữ liệu lớn, xây dựng Detection Engine/Model và triển khai các use case thực tế cùng đội ngũ Retail Fraud Analytics. 1. Mục tiêu vị trí…",
+   "last_seen": "2026-10-23"
+  },
+  {
+   "title": "Senior DevOps/Data Engineer",
+   "company": "Panasonic R&D Center Việt Nam",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/senior-devops-data-engineer/7db09171-0391-45d2-a5ee-fd9826c2ec19",
+   "source": "Glints",
+   "date": "2026-10-21",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/88bae0c67ae62d2d6747c15776e4c09f.png",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Kubernetes",
+    "SQL",
+    "Superset",
+    "Kafka",
+    "NoSQL",
+    "Hadoop",
+    "ETL",
+    "Python"
+   ],
+   "desc": "RESPONSIBILITIES: • Access to the highest technical resources available for problem resolution or new feature creation. • Level 3 technicians attempt to duplicate problems and define root causes, using product designs, code, or specifications. • Once a cause is identified, the company decides whether to create a new fix, depending on the cause of the problem. New fixes are documented for use by…",
    "last_seen": "2026-10-23"
   },
   {
@@ -1493,7 +1649,7 @@
     "Data Warehouse"
    ],
    "desc": "Malaysia + 2 more Data Analyst and Modeler, VisionFund International Organization World Vision Posted 15 Oct 2026 Closing date 15 Nov 2026 VisionFund International is World Vision’s microfinance provider serving vulnerable clients through loans, savings, and insurance. We enable families to grow their livelihoods in hard to reach, rural locations in 28 countries so that caregivers can create…",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-23"
   },
   {
    "title": "Lead Product Manager, Data Platform",
@@ -1749,6 +1905,33 @@
    "last_seen": "2026-10-20"
   },
   {
+   "title": "Data Engineer",
+   "company": "Công Ty Chứng Khoán Acb",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/data-engineer/e95fa32b-0e53-4728-8f00-7e7963f41b6a",
+   "source": "Glints",
+   "date": "2026-10-16",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/02227ced40baf7f2d2530137832c408e.jpg",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Data Warehouse",
+    "ETL",
+    "SQL",
+    "Python",
+    "Java",
+    "Airflow",
+    "dbt",
+    "AWS",
+    "GCP",
+    "Git"
+   ],
+   "desc": "1) Mô tả công việc Tham gia thiết kế, xây dựng và vận hành hệ thống Data Warehouse/Data Lake phục vụ khai thác và phân tích dữ liệu của Công ty. Xây dựng, tối ưu và giám sát các ETL/ELT pipeline (batch và streaming), đảm bảo dữ liệu được tích hợp ổn định từ nhiều nguồn. Đảm bảo chất lượng dữ liệu, tính toàn vẹn và bảo mật dữ liệu trong toàn bộ hệ thống. Phối hợp với các bộ phận BI, Data Analyst,…",
+   "last_seen": "2026-10-23"
+  },
+  {
    "title": "Manager, Business Intelligence & Analytics",
    "company": "Công Ty TNHH Dược Phẩm Gigamed",
    "location": "Hồ Chí Minh",
@@ -1994,7 +2177,7 @@
     "Git"
    ],
    "desc": "Our Company We're Hitachi Digital Services, a global digital solutions and transformation business with a bold vision of our world's potential. We're people-centric and here to power good. Every day, we future-proof urban spaces, conserve natural resources, protect rainforests, and save lives. This is a world where innovation, technology, and deep expertise come together to take our company and…",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-23"
   },
   {
    "title": "Nhân Viên Triển Khai/Content Marketing/Chuẩn Hóa Dữ Liệu",
@@ -4360,7 +4543,7 @@
    "last_seen": "2026-10-23"
   },
   {
-   "title": "Senior/Lead - Machine Learning Engineer",
+   "title": "Senior - Machine Learning Engineer",
    "company": "MoMo",
    "location": "Hồ Chí Minh",
    "region": "VN",
@@ -4368,8 +4551,7 @@
    "source": "Trang công ty",
    "date": "2026-10-12",
    "level": [
-    "senior",
-    "lead"
+    "senior"
    ],
    "logo": "logos/momo.png",
    "desc": "{'jobId': 18478, 'jobTitle': 'Senior - Machine Learning Engineer', 'jobDesc': '\\n Company Introduction Momo is one of Vietnam\\'s leading fintech companies, serving more than 30 million users across payments, financial services, and everyday digital needs. Our ambition is to become an AI-powered Financial Assistant for every Vietnamese. We use technology and data to make managing money simpler,…",
@@ -8051,7 +8233,7 @@
     "Pandas"
    ],
    "desc": "As a Junior Data Analyst in the Finance Analytics team, you'll turn data into answers for the business. Most of your work will be supporting the finance department with ad hoc requests: pulling and preparing data with SQL, maintaining and improving existing reporting and reconciliation scripts, checking data quality, and explaining what the numbers show. You'll also take part in research on unit…",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-23"
   },
   {
    "title": "CHUYÊN VIÊN PHÁT TRIỂN MIS (DATA ANALYST) - TT PHÁT TRIỂN ỨNG DỤNG - KHỐI CÔNG NGHỆ THÔNG TIN",
@@ -9626,7 +9808,7 @@
     "Alteryx"
    ],
    "desc": "Overview The analytics team at TransPerfect is responsible for servicing reporting requests from both internal and client users. We are responsible for connecting to production systems’ data stores, creating ETL flows that publish the results to a variety of destinations, and building visualizations from the resulting data. Description Design, build, and maintain Python-based data pipelines in…",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-23"
   },
   {
    "title": "Data Business Partner",
@@ -9663,7 +9845,7 @@
     "AWS"
    ],
    "desc": "ABOUT THE JOB We are seeking motivated Senior Data Analyst to join our team. At NAB, we believe success comes from our people. We're committed to supporting your talent and skills through your career, as you help us build a culture that affects change for our customers and for the community too. As a Senior Data Analyst, you will partner closely with business stakeholders to turn data into…",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-23"
   },
   {
    "title": "Senior Data Analyst",
@@ -10138,6 +10320,7 @@
   "https://www.vietnamworks.com/accommodation-material-trainee-1790678846495293506-2113266-jv",
   "https://www.vietnamworks.com/accommodation-trainee-1790679015465772928-2113273-jv",
   "https://www.vietnamworks.com/graduate-engineering-trainee-1790230182764835855-2111207-jv",
+  "https://www.vietnamworks.com/graduate-engineering-trainee-1792730133447338887-2122883-jv",
   "https://www.vietnamworks.com/ha-noi-tuyen-dung-brand-management-trainee-2026-2122476-jv",
   "https://www.vietnamworks.com/industrial-trainee-24-months-fast-track-career-1790336858138308582-2111996-jv",
   "https://www.vietnamworks.com/industrial-trainee-full-time-job-position-1790918632757412991-2115040-jv",
