@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T04:28+00:00",
+ "updated": "2026-10-24T10:53+00:00",
  "jobs": [
   {
    "title": "Senior Data Engineer [iGaming]",
@@ -26,6 +26,30 @@
     "GCP"
    ],
    "desc": "📌 Job Title: SENIOR DATA ENGINEER 📍 Location: Vietnam 🕒 Type: Full Time 📂 Department: Job Summary: For one of our clients, we are seeking an experienced Data Engineer to join our dynamic team. The ideal candidate will have a solid background in data engineering, with expertise in Python , ETL tools, Airflow, and Hadoop. You will be responsible for building, maintaining, and optimizing data…",
+   "last_seen": "2026-10-24"
+  },
+  {
+   "title": "Senior Data Engineer/ Data Platform Engineer (Ecommerce)",
+   "company": "Công Ty TNHH Airr Labs (Việt Nam)",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/senior-data-engineer-data-platform-engineer-ecommerce-2123332-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-24",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/f1/11138249.png",
+   "salary": "Thỏa thuận",
+   "desc": "About AIRR Labs: AIRR Labs , headquartered in Singapore, is a leading e-commerce enabler in Southeast Asia, specializing in FMCG, Beauty, and Lifestyle brands across platforms such as TikTok Shop, Shopee, and Lazada. Since 2019, AIRR Labs has grown to more than 350 experts across Thailand, the Philippines, Vietnam, Malaysia, and Singapore, with a technology hub... 6+ years of experience in Data…",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "SQL",
+    "Data Modeling",
+    "AWS",
+    "Snowflake",
+    "BigQuery",
+    "Redshift"
+   ],
    "last_seen": "2026-10-24"
   },
   {
@@ -249,6 +273,34 @@
     "senior"
    ],
    "skills": [],
+   "last_seen": "2026-10-24"
+  },
+  {
+   "title": "Data Engineer - MSB - KCN - 3I142",
+   "company": "Ngân hàng Thương mại Cổ phần Hàng Hải Việt Nam (MSB)",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://careerviet.vn/vi/tim-viec-lam/data-engineer-msb-kcn-3i142.35C84663.html",
+   "source": "CareerViet",
+   "date": "2026-10-23",
+   "logo": "https://images.careerviet.vn/employer_folders/lot0/228060/170701logomsb.png",
+   "salary": "Thỏa thuận",
+   "skills": [
+    "Kubernetes",
+    "Airflow",
+    "Kafka",
+    "Spark",
+    "Git",
+    "SQL",
+    "Python",
+    "Scala",
+    "Java",
+    "AWS",
+    "Databricks",
+    "GCP",
+    "Tiếng Anh"
+   ],
+   "desc": "• Platform Construction: Build, operate, and define the strategic architecture for the Big Data and Lakehouse platform using Delta Lake, Apache Iceberg, and Medallion architectures (Bronze/Silver/Gold). • Infrastructure Management: Manage, monitor, and scale data infrastructure across On-Prem and OpenShift/Kubernetes container platforms. • Data Integration & Pipelines: Design, develop, and…",
    "last_seen": "2026-10-24"
   },
   {
@@ -632,6 +684,34 @@
    ],
    "desc": "1. Xây dựng và phát triển hạ tầng dữ liệu Thiết kế kiến trúc tổng thể Data Platform cấp domain/toàn khối; xây dựng HA/DR, scalability, security architecture; capacity planning dài hạn. Tối ưu khả năng mở rộng, tính sẵn sàng cao và hiệu năng xử lý dữ liệu. 2. Tích hợp dữ liệu nguồn, cung cấp dữ liệu cho downstream systems Thiết kế framework tích hợp dữ liệu dùng chung; ownership SLA cung cấp dữ…",
    "logo": "logos/lpbank.png",
+   "last_seen": "2026-10-24"
+  },
+  {
+   "title": "Senior Data Scientist (Techcom Insurance)",
+   "company": "Techcombank",
+   "location": "TP. Ha Noi",
+   "region": "VN",
+   "url": "https://www.techcombankjobs.com/job/TP_-Ha-Noi-Senior-Data-Scientist-%28Techcom-Insurance%29/59202244/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-22",
+   "desc": "Job Purpose - The job holder proposes, initiates and manages mutliple ML projects together with business in order to address problems raised before linked to company OKRs and product enhancements using DS methods, processes and systems on unstructured, diverse Big Data sources. - The job holder also participates in strategic deicion circles and contributes to guiding business high level and…",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Machine Learning",
+    "Data Modeling",
+    "Deep Learning",
+    "Thống kê",
+    "Tiếng Anh",
+    "Python",
+    "R",
+    "Spark",
+    "Scala",
+    "SQL",
+    "Java"
+   ],
+   "logo": "logos/techcombank.png",
    "last_seen": "2026-10-24"
   },
   {
@@ -1806,7 +1886,7 @@
     "Airflow"
    ],
    "desc": "Key Responsibilities Data Collection & Analysis: Gather, consolidate, and analyze large-scale datasets from internal and external sources to support business objectives. Insights & Customer Experience: Mine data to understand customer behavior, product/service trends, and business performance to optimize operations and CX. BI & Reporting: Design, build, operate, and optimize regular and ad-hoc…",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-24"
   },
   {
    "title": "Data Engineer (Fabric, Python, Azure)",
@@ -5432,7 +5512,7 @@
     "SQL"
    ],
    "desc": "JOB DESCRIPTION Position : DATA ANALYST Quantity : 02 ( 1 senior English - 1 Middle) Type : Full-time Location : 5nd Floor, TTC Building, No.19 Duy Tan St., Dich Vong Hau Ward, Cau Giay Dist,. Hanoi Capital, Vietnam. ABOUT US  Astek is a global player in engineering and technology consulting, founded in France in 1988. Today, we are +7500 engineers across over 30 countries in the world.  With…",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-24"
   },
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu - Data Analyst",
@@ -5462,7 +5542,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-24"
   },
   {
    "title": "Chuyên Viên Kế Toán Quản Trị Và Phân Tích Dữ Liệu",
