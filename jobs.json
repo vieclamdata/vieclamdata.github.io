@@ -1,6 +1,29 @@
 {
- "updated": "2026-10-25T04:32+00:00",
+ "updated": "2026-10-25T11:16+00:00",
  "jobs": [
+  {
+   "title": "Data Engineer (Junior Data Architect)",
+   "company": "HEINEKEN Vietnam",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4482674658",
+   "source": "LinkedIn",
+   "date": "2026-10-25",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQFrpnW2MrxLcw/company-logo_100_100/company-logo_100_100/0/1676547623634/heinekenvietnam_logo?e=2147483647&v=beta&t=8WuNicv5Pr2S7BupZ55n2uTLS-yZtriQo8w9R6-iRqI",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Azure",
+    "Databricks",
+    "Spark",
+    "SQL",
+    "Data Modeling",
+    "Data Warehouse"
+   ],
+   "desc": "About the Role As a Data Engineer (Junior Data Architect) , you will play a critical role in shaping and scaling our modern data platform on Azure and Databricks. This role goes beyond building pipelines. You will support the Data Architect team design reliable, scalable data foundations that power analytics, reporting, and advanced use cases across the business. You will work closely with data,…",
+   "last_seen": "2026-10-25"
+  },
   {
    "title": "Senior Data Engineer [iGaming]",
    "company": "My clients",
@@ -66,6 +89,41 @@
     "intern"
    ],
    "skills": [],
+   "last_seen": "2026-10-25"
+  },
+  {
+   "title": "AI Engineer",
+   "company": "Công ty CP Eduvator",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/ai-engineer/e04a64de-7d0f-4a69-a853-8698aac78a3c",
+   "source": "Glints",
+   "date": "2026-10-24",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/36463b0a75eedbbe86a6282de1db951c.jpeg",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "ETL",
+    "Machine Learning",
+    "PyTorch",
+    "TensorFlow",
+    "Scikit-learn",
+    "A/B Testing",
+    "Deep Learning",
+    "Python",
+    "SQL",
+    "NoSQL",
+    "Databricks",
+    "Spark",
+    "AWS",
+    "LLM / GenAI",
+    "GCP",
+    "MLOps",
+    "Computer Vision",
+    "NLP"
+   ],
+   "desc": "Role: AI ENGINEER Responsibilities Design and develop data pipelines and ETL processes to collect, process, and store large-scale data from various sources, including user interactions, web logs, and sensor data. Develop and maintain data architecture and infrastructure, ensuring scalability, reliability, and security of data storage and processing. Build and deploy machine learning models and…",
    "last_seen": "2026-10-25"
   },
   {
@@ -890,7 +948,7 @@
    ],
    "desc": "Mô tả công việc Phân tích dữ liệu trên môi trường số đảm bảo tuân thủ đúng quy định của pháp luật và ngân hàng; đáp ứng đầy đủ các tiêu chí về hiệu năng, an toàn bảo mật thông tin dữ liệu và trải nghiệm khách hàng; Theo dõi danh mục tín dụng và các danh mục sản phẩm khác tại ngân hàng, xây dựng các mô hình dự báo để sớm phát hiện các dấu hiệu tuân thủ, rủi ro thông qua phân tích dữ liệu rủi ro…",
    "logo": "logos/pvcombank.png",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   {
    "title": "Thực Tập Sinh Kiểm Soát (Kế toán & Dữ liệu)",
@@ -1637,7 +1695,7 @@
     "SQL",
     "Tableau"
    ],
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-25"
   },
   {
    "title": "Data QA_CVCC Kiểm thử chất lượng giải pháp DL - Hà Nội - TA105",
@@ -4240,7 +4298,7 @@
    "logo": "logos/pvcombank.png",
    "skills": [],
    "desc": "Theo dõi, tổng hợp và phân tích dữ liệu hoạt động kinh doanh của Khối theo định kỳ, đảm bảo phản ánh đầy đủ tình hình thực hiện. Lập các báo cáo quản trị định kỳ và đột xuất, phục vụ nhu cầu điều hành của Lãnh đạo Khối. Theo dõi hiệu quả TOI theo khách hàng, các chỉ tiêu tài chính và hỗ trợ phân tích xu hướng biến động. Hỗ trợ quản lý dữ liệu nhân sự, cập nhật thông tin phân công công việc và…",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   {
    "title": "Chuyên gia Dữ liệu báo cáo - Phòng Quản lý kinh doanh - Khối KHDN",
@@ -4256,7 +4314,7 @@
    "logo": "logos/pvcombank.png",
    "skills": [],
    "desc": "Thiết kế, xây dựng và hoàn thiện hệ thống báo cáo quản trị đa chiều, đảm bảo tính nhất quán, chính xác và khả năng khai thác phục vụ điều hành. Phân tích dữ liệu kinh doanh, theo dõi hiệu quả TOI, lãi suất cho vay và các chỉ tiêu tài chính quan trọng theo từng khách hàng, ngành và chương trình. Tham gia xây dựng các báo cáo phân tích chuyên sâu, hỗ trợ Lãnh đạo Khối trong việc ra quyết định và…",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   {
    "title": "Chuyên gia Vận hành Nền tảng tích hợp dữ liệu - K.CNTT",
@@ -4274,7 +4332,7 @@
     "AWS"
    ],
    "desc": "Mô tả công việc Thiết kế và định hướng kiến trúc tích hợp dữ liệu trên On-premise và AWS. Xây dựng giải pháp tích hợp dữ liệu Batch, Near Real-time và Real-time. Xây dựng tiêu chuẩn vận hành, Monitoring, HA/DR và Performance. Chủ trì xử lý sự cố phức tạp, định hướng Automation/DevOps/CI/CD và dẫn dắt kỹ thuật. Chuyên gia Vận hành Nền tảng tích hợp dữ liệu - K.CNTT",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   {
    "title": "Chuyên viên cao cấp vận hành nền tảng tích hợp dữ liệu - K.CNTT",
@@ -4292,7 +4350,7 @@
     "AWS"
    ],
    "desc": "Mô tả công việc Quản trị và xử lý sự cố các nền tảng tích hợp dữ liệu. Vận hành các luồng Batch, CDC và Streaming trên On-premise và AWS. Phân tích và xử lý các vấn đề về độ trễ, hiệu năng và tính toàn vẹn dữ liệu. Thực hiện triển khai, nâng cấp, tối ưu; xây dựng Monitoring, Automation và CI/CD. Review thay đổi và hỗ trợ kỹ thuật cho các thành viên khác. Chuyên viên cao cấp vận hành nền tảng tích…",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   {
    "title": "Chuyên viên vận hành nền tảng tích hợp dữ liệu - K.CNTT",
@@ -4307,7 +4365,7 @@
     "ETL"
    ],
    "desc": "Mô tả công việc Vận hành và giám sát các luồng tích hợp, đồng bộ và trao đổi dữ liệu giữa các hệ thống. Theo dõi các luồng ETL/ELT, CDC, Replication và Data Streaming. Phát hiện, xử lý lỗi, độ trễ hoặc gián đoạn luồng dữ liệu. Hỗ trợ triển khai thay đổi và phối hợp với DBA, Data Engineer, hệ thống nguồn/đích để xử lý sự cố. Chuyên viên vận hành nền tảng tích hợp dữ liệu - K.CNTT",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   {
    "title": "Chuyên gia Vận hành Nền tảng khai thác dữ liệu - K.CNTT",
@@ -4323,7 +4381,7 @@
    "logo": "logos/pvcombank.png",
    "skills": [],
    "desc": "Mô tả công việc Thiết kế và định hướng kiến trúc nền tảng xử lý, khai thác dữ liệu. Xây dựng tiêu chuẩn vận hành, Monitoring, HA/DR, Capacity và Performance. Chủ trì xử lý sự cố phức tạp và các dự án nâng cấp, chuyển đổi nền tảng dữ liệu. Định hướng Automation, DevOps; review kiến trúc và dẫn dắt kỹ thuật. Chuyên gia Vận hành Nền tảng khai thác dữ liệu - K.CNTT",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   {
    "title": "Chuyên viên cao cấp vận hành nền tảng tích hợp dữ liệu - K.CNTT",
@@ -4342,7 +4400,7 @@
     "ETL"
    ],
    "desc": "Mô tả công việc Vận hành và quản trị các nền tảng xử lý, khai thác dữ liệu trên On-premise và AWS. Xử lý sự cố phức tạp liên quan đến ETL, job, service và hiệu năng hệ thống. Thực hiện triển khai, nâng cấp và tối ưu nền tảng. Xây dựng Monitoring, Automation, CI/CD; review thay đổi và hướng dẫn kỹ thuật. Chuyên viên cao cấp vận hành nền tảng tích hợp dữ liệu - K.CNTT",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   {
    "title": "Chuyên viên vận hành nền tảng khai thác dữ liệu - K.CNTT",
@@ -4357,7 +4415,7 @@
     "AWS"
    ],
    "desc": "Mô tả công việc Vận hành, giám sát các nền tảng và ứng dụng phục vụ xử lý, khai thác dữ liệu trên On-premise và AWS. Theo dõi job, service, tài nguyên và tình trạng hoạt động của hệ thống. Phân tích log, hỗ trợ xử lý lỗi job và sự cố ứng dụng. Thực hiện triển khai, cấu hình, quản lý thay đổi và tham gia tự động hóa vận hành. Chuyên viên vận hành nền tảng khai thác dữ liệu - K.CNTT",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   {
    "title": "Chuyên viên cao cấp Kế hoạch tài chính (mảng dữ liệu)",
