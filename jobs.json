@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T11:16+00:00",
+ "updated": "2026-10-25T16:04+00:00",
  "jobs": [
   {
    "title": "Data Engineer (Junior Data Architect)",
@@ -22,6 +22,46 @@
     "Data Warehouse"
    ],
    "desc": "About the Role As a Data Engineer (Junior Data Architect) , you will play a critical role in shaping and scaling our modern data platform on Azure and Databricks. This role goes beyond building pipelines. You will support the Data Architect team design reliable, scalable data foundations that power analytics, reporting, and advanced use cases across the business. You will work closely with data,…",
+   "last_seen": "2026-10-25"
+  },
+  {
+   "title": "CVCC Kiến trúc dữ liệu_JG 08",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-CVCC-Ki%E1%BA%BFn-tr%C3%BAc-d%E1%BB%AF-li%E1%BB%87u_JG-08/1360847766/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-25",
+   "desc": "Các trách nhiệm chính 1 Responsibilities include, but are not limited to, the following: Aid the Finance team (IT CcoE, FIN) for monthly Cloud Consumption reporting Ensure tagging compliance in the cloud environment Ensure data feeds to automated dashboards are always available Provide Cost Center Owners within Business Units, actionable recommendations on cloud spend to optimize their cloud…",
+   "skills": [
+    "AWS",
+    "Power BI",
+    "Tableau",
+    "Azure"
+   ],
+   "logo": "logos/vpbank.png",
+   "last_seen": "2026-10-25"
+  },
+  {
+   "title": "CVCC Kỹ sư dữ liệu - Hà Nội - TA105",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-CVCC-K%E1%BB%B9-s%C6%B0-d%E1%BB%AF-li%E1%BB%87u-H%C3%A0-N%E1%BB%99i-TA105/1362253266/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-25",
+   "desc": "Các trách nhiệm chính Đóng vai trò lead chính trong việc thực thi: Tiếp nhận, phân tích và hướng dẫn nghiệp vụ khai thác và sử dụng dữ liệu phục vụ cho báo cáo quản trị, báo cáo phân tích, báo cáo tuân thủ, dữ liệu hệ sinh thái. Sử dụng số liệu để tư vấn, kiểm tra tính logic và đầy đủ trong quy tắc tính do nghiệp vụ đưa ra phân tích thiết kế luồng dữ liệu cho từng CR các phân vùng dữ…",
+   "skills": [
+    "Data Modeling",
+    "Machine Learning",
+    "SQL",
+    "Redshift",
+    "Data Warehouse",
+    "ETL",
+    "SSIS",
+    "Airflow"
+   ],
+   "logo": "logos/vpbank.png",
    "last_seen": "2026-10-25"
   },
   {
@@ -10061,7 +10101,6 @@
   "https://www.linkedin.com/jobs/view/4475527711",
   "https://www.linkedin.com/jobs/view/4478915429",
   "https://www.linkedin.com/jobs/view/4478977404",
-  "https://www.linkedin.com/jobs/view/4480440858",
   "https://www.vietnamworks.com/accommodation-material-trainee-1790678846495293506-2113266-jv",
   "https://www.vietnamworks.com/accommodation-trainee-1790679015465772928-2113273-jv",
   "https://www.vietnamworks.com/graduate-engineering-trainee-1792730133447338887-2122883-jv",
