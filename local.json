@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T06:00+00:00",
+ "updated": "2026-10-25T12:00+00:00",
  "jobs": [
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu (BI) Data Analyst Specialist",
@@ -726,7 +726,7 @@
     "SQL"
    ],
    "desc": "Mô tả công việc Collaborate with business stakeholders to understand business challenges, and define the optimal analytical approach. Communicating findings and recommendations and collaborating with other partners. Work with a variety of data sources - extracting knowledge and actionable information from massive datasets. Analyze broad data sets and provide actionable insights to solve critical…",
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-25"
   },
   {
    "title": "Lead Data Analyst / Scientist ( Trưởng Nhóm Phân Tích Dữ Liệu) - Lương Up To 40M + Thưởng",
@@ -4039,11 +4039,11 @@
    "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODAwNDkzLCJwdXIiOiJibG9iX2lkIn19--7e0bca7fee8eb985817d0e72b1dd2cebb8327b70/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGVnIiwicmVzaXplX3RvX2ZpdCI6WzEwMCwxMDBdfSwicHVyIjoidmFyaWF0aW9uIn19--dfd952f8c4b42af5fe179fc2418bed6692ee2704/trusting-social-logo.jpeg",
    "tags": [
     "LLM",
-    "Agentic AI",
     "SQL",
     "AI",
     "Python",
-    "NLP"
+    "NLP",
+    "Agentic AI"
    ],
    "level": [
     "senior"
@@ -4098,11 +4098,11 @@
    "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODE0ODIwLCJwdXIiOiJibG9iX2lkIn19--aff515ddb168ee9e67400f81d1f78928888711a1/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/vietinbank-logo.png",
    "tags": [
     "Data Engineer",
+    "Hadoop",
+    "Java",
     "NoSQL",
     "SQL",
-    "Python",
-    "Hadoop",
-    "Java"
+    "Python"
    ],
    "desc": "Top 3 Reasons To Join Us Thu nhập từ 24 - 26 tháng lương/năm Được đào tạo trend công nghệ mới Team building, year-end party... The Job Tham gia phát triển và triển khai các dịch vụ sử dụng các công nghệ Big Data: Hadoop ecosystem, Kafka, Spark, Airflow, … Nghiên cứu, xây dựng, tối ưu các Job ETL có khả năng mở rộng linh hoạt với độ tin cậy cao, phục vụ cho việc khai thác/ingest, tổng hợp các loại…",
    "skills": [
