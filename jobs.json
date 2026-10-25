@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T16:04+00:00",
+ "updated": "2026-10-25T20:48+00:00",
  "jobs": [
   {
    "title": "Data Engineer (Junior Data Architect)",
@@ -62,6 +62,30 @@
     "Airflow"
    ],
    "logo": "logos/vpbank.png",
+   "last_seen": "2026-10-25"
+  },
+  {
+   "title": "Senior Data Analyst",
+   "company": "UrBox - Digital Rewards & Loyalty Solution",
+   "location": "Hanoi Capital Region",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4482699119",
+   "source": "LinkedIn",
+   "date": "2026-10-25",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHrNYJvEo9m8Q/company-logo_100_100/B56ZqfZ3piJUAU-/0/1763610950830/urboxvn_logo?e=2147483647&v=beta&t=cHFO9Yu2MuvF4-pjArZEAA2Cah8ob80JQDYDjLuzeO0",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "A/B Testing",
+    "Thống kê",
+    "SQL",
+    "BigQuery",
+    "Looker",
+    "R",
+    "Python"
+   ],
+   "desc": "ABOUT URBOX UrBox is Vietnam’s leading digital gifting & loyalty platform that enables businesses to integrate their reward & loyalty programs with an ever-growing network of more than 350 brands & 20,000 accepted online and offline stores in Vietnam. UrBox has the widest network of clients in loyalty in Vietnam and provides loyalty & reward solutions to many big organizations in the aviation,…",
    "last_seen": "2026-10-25"
   },
   {
@@ -1868,7 +1892,7 @@
     "Power BI",
     "Tableau"
    ],
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   {
    "title": "Senior/Expert Business Intelligence - ID12770",
@@ -3544,6 +3568,48 @@
    "last_seen": "2026-10-20"
   },
   {
+   "title": "Senior AI Engineer",
+   "company": "Công Ty Cổ Phần Greenfeed Việt Nam",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/senior-ai-engineer--2119462-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-14",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/57/11126537.png",
+   "salary": "Thỏa thuận",
+   "desc": "The AI Engineer is responsible for developing and integrating practical AI solutions that support GREENFEED's business and Digital/AI transformation initiatives. The role will focus on building GenAI applications, RAG solutions, AI assistants/agents, and AI-enabled business applications, working closely with Data, Business, and Technology teams to bring AI use cases from idea to production.…",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "LLM / GenAI",
+    "Python"
+   ],
+   "last_seen": "2026-10-25"
+  },
+  {
+   "title": "Senior Data Engineer (Databricks)",
+   "company": "Globant",
+   "location": "Hanoi",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4478453477",
+   "source": "LinkedIn",
+   "date": "2026-10-14",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQHupr1U3gIQKA/company-logo_100_100/company-logo_100_100/0/1719839010650/globant_logo?e=2147483647&v=beta&t=cnVqgncFTu2OSAYyxTuyXBl9ZCL8NyWDh9IT5bkgwBE",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Databricks",
+    "Spark",
+    "SQL",
+    "Git",
+    "Machine Learning"
+   ],
+   "desc": "At Globant, we are working to make the world a better place, one step at a time. We enhance business development and enterprise solutions to prepare them for a digital future. With a diverse and talented team present in more than 30 countries, we are strategic partners to leading global companies in their business process transformation. We seek a Senior Data Engineer who shares our passion for…",
+   "last_seen": "2026-10-25"
+  },
+  {
    "title": "Data Analyst (Tài Chính)",
    "company": "Công ty Cổ phần Vàng bạc đá quý Bảo Tín Mạnh Hải",
    "location": "Hà Nội",
@@ -3654,8 +3720,11 @@
    "level": [
     "senior"
    ],
-   "skills": [],
-   "last_seen": "2026-10-13"
+   "skills": [
+    "Thống kê",
+    "SQL"
+   ],
+   "last_seen": "2026-10-25"
   },
   {
    "title": "Nhân viên data (admin)",
@@ -7503,7 +7572,7 @@
     "NoSQL"
    ],
    "desc": "Mô tả công việc: Nghiên cứu, đề xuất các giải pháp, hạ tầng, công nghệ, chu trình tiếp nhận, xử lý và khai thác dữ liệu (phân loại, thu thập, chuẩn hóa, làm sạch, làm giàu, phân tích, trực quan hóa) và tham gia xây dựng các quy trình, quy định, văn bản tài liệu liên quan đến dữ liệu của Công ty. Phân loại, thu thập và chuẩn hóa: Xây dựng và duy trì cập nhật từ điển dữ liệu (Data dictionary) cho…",
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-25"
   },
   {
    "title": "Senior Data Engineer - Lead Consulting",
@@ -10105,7 +10174,6 @@
   "https://www.vietnamworks.com/accommodation-trainee-1790679015465772928-2113273-jv",
   "https://www.vietnamworks.com/graduate-engineering-trainee-1792730133447338887-2122883-jv",
   "https://www.vietnamworks.com/ha-noi-tuyen-dung-brand-management-trainee-2026-2122476-jv",
-  "https://www.vietnamworks.com/industrial-trainee-24-months-fast-track-career-1790336858138308582-2111996-jv",
   "https://www.vietnamworks.com/industrial-trainee-full-time-job-position-1790918632757412991-2115040-jv",
   "https://www.vietnamworks.com/management-trainee-for-operations-1792723030155137607-2122702-jv",
   "https://www.vietnamworks.com/management-trainee-manufacturing-2100334-jv",
