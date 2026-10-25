@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T18:00+00:00",
+ "updated": "2026-10-25T06:00+00:00",
  "jobs": [
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu (BI) Data Analyst Specialist",
@@ -1630,8 +1630,8 @@
     "NoSQL",
     "Java",
     "Python",
-    "SQL",
-    "Data Warehousing"
+    "Data Warehousing",
+    "SQL"
    ],
    "skills": [
     "Data Warehouse",
@@ -2314,7 +2314,7 @@
     "Tiếng Anh"
    ],
    "desc": "Mô tả công việc • Thực hiện Phân tích Dữ liệu Kiểm toán (ADA Execution) & Xử lý Big Data: Lập trình các kịch bản truy vấn (SQL, Python, Alteryx) để rà soát toàn bộ tổng thể giao dịch, phát hiện các điểm bất thường (Anomalies), vi phạm chốt kiểm soát và dấu hiệu gian lận. Xây dựng các kịch bản kiểm tra dữ liệu tự động cho các mục tiêu kiểm toán tại các quy trình nghiệp vụ có độ ổn định luồng xử lý…",
-   "last_seen": "2026-10-22"
+   "last_seen": "2026-10-25"
   },
   {
    "title": "Data Analyst (Dự Án AI LLM)",
@@ -4098,11 +4098,11 @@
    "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODE0ODIwLCJwdXIiOiJibG9iX2lkIn19--aff515ddb168ee9e67400f81d1f78928888711a1/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/vietinbank-logo.png",
    "tags": [
     "Data Engineer",
-    "Hadoop",
-    "Java",
     "NoSQL",
     "SQL",
-    "Python"
+    "Python",
+    "Hadoop",
+    "Java"
    ],
    "desc": "Top 3 Reasons To Join Us Thu nhập từ 24 - 26 tháng lương/năm Được đào tạo trend công nghệ mới Team building, year-end party... The Job Tham gia phát triển và triển khai các dịch vụ sử dụng các công nghệ Big Data: Hadoop ecosystem, Kafka, Spark, Airflow, … Nghiên cứu, xây dựng, tối ưu các Job ETL có khả năng mở rộng linh hoạt với độ tin cậy cao, phục vụ cho việc khai thác/ingest, tổng hợp các loại…",
    "skills": [
