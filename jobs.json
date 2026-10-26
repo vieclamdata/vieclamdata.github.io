@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T12:51+00:00",
+ "updated": "2026-10-26T22:41+00:00",
  "jobs": [
   {
    "title": "IT Intern - Digital & Data Services",
@@ -2647,6 +2647,30 @@
    "last_seen": "2026-10-26"
   },
   {
+   "title": "Operations Data Team Lead",
+   "company": "Intrepid Asia",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4480342828",
+   "source": "LinkedIn",
+   "date": "2026-10-16",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQGWUPt8TcIbug/company-logo_100_100/company-logo_100_100/0/1713918788734/flywheelsea_logo?e=2147483647&v=beta&t=PM6Rs3-0LhAYFtaTxj5TliYGwuJNrO5vis_ubIVHWVI",
+   "level": [
+    "lead"
+   ],
+   "skills": [
+    "Python",
+    "SQL",
+    "BigQuery",
+    "Looker",
+    "Power BI",
+    "Tiếng Anh",
+    "Excel"
+   ],
+   "desc": "Who We Are Intrepid Asia is a leading Ecommerce and Digital Solutions Provider in South East Asia. We offer end-to-end omni-channel ecommerce management, Livestreaming, Video production & Affiliate Management for Social Commerce plus full funnel Digital Marketing Services and advanced Market Intelligence, all powered by state of the art inhouse Technology to our client base of leading…",
+   "last_seen": "2026-10-26"
+  },
+  {
    "title": "Manager, Business Intelligence & Analytics",
    "company": "Công Ty TNHH Dược Phẩm Gigamed",
    "location": "Hồ Chí Minh",
@@ -4499,7 +4523,7 @@
     "Azure"
    ],
    "desc": "Phu Thai Cat is implementing Microsoft Dynamics 365 across Finance, Field Service, Sales, Supply Chain, and Operations — and we need someone to own the analytics layer that makes all of that data meaningful. As Analytics Lead, you will build the reporting foundation from the ground up: connecting D365 to our Data Warehouse, designing the data models, and delivering Power BI dashboards that help…",
-   "last_seen": "2026-10-13"
+   "last_seen": "2026-10-26"
   },
   {
    "title": "Kỹ Sư Dữ Liệu (Data Engineer)",
@@ -6144,6 +6168,33 @@
    "last_seen": "2026-10-24"
   },
   {
+   "title": "Head of Data & Analytics (AI Native)",
+   "company": "Intrepid Asia",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4413418554",
+   "source": "LinkedIn",
+   "date": "2026-10-09",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQGWUPt8TcIbug/company-logo_100_100/company-logo_100_100/0/1713918788734/flywheelsea_logo?e=2147483647&v=beta&t=PM6Rs3-0LhAYFtaTxj5TliYGwuJNrO5vis_ubIVHWVI",
+   "level": [
+    "lead"
+   ],
+   "skills": [
+    "NLP",
+    "Machine Learning",
+    "LLM / GenAI",
+    "BigQuery",
+    "Airflow",
+    "Looker",
+    "Superset",
+    "Data Warehouse",
+    "MLOps",
+    "Data Modeling"
+   ],
+   "desc": "Who We Are Intrepid Asia is a leading Ecommerce and Digital Solutions Provider in South East Asia. We offer end-to-end omni-channel ecommerce management, Livestreaming, Video production & Affiliate Management for Social Commerce, plus full funnel Digital Marketing Services and advanced Market Intelligence, all powered by state-of-the-art in-house Technology to our client base of leading…",
+   "last_seen": "2026-10-26"
+  },
+  {
    "title": "Chuyên Viên Kế Toán Quản Trị Và Phân Tích Dữ Liệu",
    "company": "Công Ty Cổ Phần Tập Đoàn Thiên Khôi - Chi Nhánh Miền Nam",
    "location": "Hồ Chí Minh",
@@ -6657,7 +6708,7 @@
     "Data Warehouse"
    ],
    "desc": "WHAT YOU WILL BE WORKING ON​ What you will focus on As a Business Intelligence Engineer, you’ll own the telemetry and reporting foundation that the studio relies on to make data-driven decisions. You’ll work at the intersection of raw event data, analytics, and business reporting - making sure our data is clean, consistent, and trustworthy. The key challenge is to build a scalable tracking…",
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-26"
   },
   {
    "title": "Product/ Data Analyst (SQL)",
@@ -7187,7 +7238,7 @@
    "skills": [
     "Data Warehouse"
    ],
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-26"
   },
   {
    "title": "Senior/Expert Data Architect (Database, ETL/ELT)",
@@ -8178,7 +8229,7 @@
     "ETL"
    ],
    "desc": "Job Description MiTek® is a global provider of building solutions for the residential and commercial construction industries. Utilizing software, services, engineered products, and automated manufacturing equipment, MiTek partners with clients to accelerate their genius and deliver breakthroughs in building. With a rich 60-year history and a network of 6,500 team members worldwide, MiTek pairs…",
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-10-26"
   },
   {
    "title": "Nhân Viên Kiểm Tra và Đối Chiếu Dữ Liệu",
@@ -10264,7 +10315,6 @@
   "https://tuyendung.tpb.vn/vi/jobs/qDX71q",
   "https://tuyendung.tpb.vn/vi/jobs/yKX3YP",
   "https://tuyendung.vietabank.com.vn/vi/jobs/P8Qa1R",
-  "https://tuyendung.vietabank.com.vn/vi/jobs/qzVYbq",
   "https://www.linkedin.com/jobs/view/4475527711",
   "https://www.linkedin.com/jobs/view/4478915429",
   "https://www.linkedin.com/jobs/view/4478977404",
@@ -10284,6 +10334,7 @@
   "https://www.vietnamworks.com/project-trainee-temp-4-months-1791875037524242745-2118862-jv",
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1790718519389513213-2113475-jv",
   "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv",
-  "https://www.vietnamworks.com/tpbank-nhan-vien-tap-su-khach-hang-ca-nhan-hop-dong-6-12-thang-2098371-jv"
+  "https://www.vietnamworks.com/tpbank-nhan-vien-tap-su-khach-hang-ca-nhan-hop-dong-6-12-thang-2098371-jv",
+  "https://ybox.vn/tuyen-dung/hn-cong-ty-thunder-cloud-studio-tuyen-dung-trainee-motion-designer-full-time-2026-6adf00f1543de056c639b112"
  ]
 }
