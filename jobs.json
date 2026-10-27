@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T04:55+00:00",
+ "updated": "2026-10-27T12:06+00:00",
  "jobs": [
   {
    "title": "Senior Collection Analytics & Modeling Executive",
@@ -67,6 +67,134 @@
     "Tiếng Anh"
    ],
    "desc": "[HN] Data Analyst (Government Product) Giới thiệu CMC TS – thành viên Tập đoàn Công nghệ CMC – là đơn vị cung cấp giải pháp công nghệ và chuyển đổi số cho các cơ quan nhà nước và doanh nghiệp. Trung tâm Phát triển sản phẩm chuyển đổi số C-Gov của CMC TS đang triển khai dự án xây dựng hệ thống Trung tâm Giám sát, điều hành thông minh (IOC) – nền tảng tập trung, kết nối dữ liệu đa lĩnh vực, giúp cơ…",
+   "last_seen": "2026-10-27"
+  },
+  {
+   "title": "Analytics & Insights Team Lead",
+   "company": "United Overseas Bank (Vietnam) Limited (UOB)",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/analytics-insights-team-lead-1793081253558658904-2124168-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-27",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/93/11149825.png",
+   "salary": "Thỏa thuận",
+   "desc": "About UOB United Overseas Bank Limited (UOB) is a leading bank in Asia with a global network of more than 500 branches and offices in 19 countries and territories in Asia Pacific, Europe and North America. In Asia, we operate through our head office in Singapore and banking subsidiaries in China, Indonesia, Malaysia and Thailand,... • Bachelor’s degree, or equivalent, Computer Science,…",
+   "level": [
+    "lead"
+   ],
+   "skills": [
+    "Thống kê",
+    "Machine Learning"
+   ],
+   "last_seen": "2026-10-27"
+  },
+  {
+   "title": "Midlle Data Engineer",
+   "company": "Athena AI",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4483297643",
+   "source": "LinkedIn",
+   "date": "2026-10-27",
+   "logo": "https://static.licdn.com/aero-v1/sc/h/6puxblwmhnodu6fjircz4dn4h",
+   "skills": [
+    "Kafka",
+    "Spark",
+    "Flink",
+    "LLM / GenAI",
+    "Kubernetes",
+    "Airflow",
+    "Python",
+    "SQL",
+    "Java",
+    "Scala",
+    "Docker"
+   ],
+   "desc": "WHAT YOU WILL DO • Build and maintain large-scale data platforms processing tens to hundreds of millions of events per day. • Design and operate real-time and batch pipelines handle 100k+ events/second using Kafka, Spark Streaming, and/or Flink . • Develop and scale multimodal pipelines. • Work with vector databases (Milvus, Weaviate, or similar) to store and query millions of embeddings with…",
+   "last_seen": "2026-10-27"
+  },
+  {
+   "title": "Head of Data Management",
+   "company": "VietABank",
+   "location": "Hanoi Capital Region",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4483294885",
+   "source": "LinkedIn",
+   "date": "2026-10-27",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQEXWgDYrnX3OQ/company-logo_100_100/company-logo_100_100/0/1661151594923?e=2147483647&v=beta&t=-WTIYt1VVDcRdkeSCosTE41ntifg2QanvlZgn6HzskM",
+   "level": [
+    "lead"
+   ],
+   "skills": [
+    "Data Warehouse",
+    "ETL",
+    "Power BI",
+    "Thống kê",
+    "Spark",
+    "MLOps",
+    "Databricks",
+    "Azure",
+    "AWS",
+    "Machine Learning"
+   ],
+   "desc": "I. MỤC TIÊU VỊ TRÍ 1. Xây dựng và vận hành nền tảng dữ liệu toàn hàng: DWH, MIS/BI, Data Lakehouse. 2. Thiết lập và vận hành khung Quản trị dữ liệu (Data Governance) của VietABank. 3. Cung cấp dữ liệu cho quản trị điều hành, phân tích kinh doanh và các chương trình A-Score/B-Score, CRM, PFM & Loyalty. II. TRÁCH NHIỆM CHÍNH 1. Xây dựng mô hình dữ liệu dùng chung và triển khai DataMart theo…",
+   "last_seen": "2026-10-27"
+  },
+  {
+   "title": "Thực tập sinh Data",
+   "company": "AA-GlobalGroup",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/thuc-tap-sinh-data/027d5b77-4367-4e4f-9d16-77076211eb11",
+   "source": "Glints",
+   "date": "2026-10-27",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/bb8c386f83483cc56c985624e5920cd1.png",
+   "level": [
+    "intern"
+   ],
+   "skills": [],
+   "desc": "MÔ TẢ CÔNG VIỆC - Sử dụng các tool, công cụ AI lấy thông tin của các công ty/người nổi tiếng thuộc các lĩnh vực. - Sử dụng các tool AI để tạo và post bài và gửi tin nhắn, gửi báo giá trên các nền tảng social media đến các công ty để quảng cáo các các dịch vụ. - Thực hiện các công việc khác (nếu có) theo sự phân công của công ty. - Kinh nghiệm: Không cần kinh nghiệm (có kinh nghiệm là một lợi…",
+   "last_seen": "2026-10-27"
+  },
+  {
+   "title": "Thực tập sinh, Tình nguyện viên Data Part-time",
+   "company": "TAHK",
+   "location": "Đà Nẵng",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/thuc-tap-sinh-tinh-nguyen-vien-data-part-time/1d6dd8fd-9bcb-4e42-ac1c-dd36abd827cb",
+   "source": "Glints",
+   "date": "2026-10-27",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/cd0a359151bd1e793ccd468ccb95b532.png",
+   "level": [
+    "intern"
+   ],
+   "skills": [],
+   "desc": "MÔ TẢ CÔNG VIỆC Data Analytic Volunteer sẽ tham gia hỗ trợ các nhiệm vụ liên quan đến thu thập và phân tích dữ liệu, bao gồm: - Sử dụng các công cụ để thu thập dữ liệu (email, Twitter, LinkedIn, Facebook, Instagram, YouTube, TikTok, Pinterest, Threads…) của các công ty thuộc nhiều lĩnh vực khác nhau. - Sử dụng các công cụ đăng bài, gửi tin nhắn và gửi báo giá trên các nền tảng Social Media…",
+   "last_seen": "2026-10-27"
+  },
+  {
+   "title": "Senior - People Analytics Specialist",
+   "company": "MoMo",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://momo.careers/jobs/senior-people-analytics-specialist-20219",
+   "source": "Trang công ty",
+   "date": "2026-10-27",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "SQL",
+    "Thống kê",
+    "Excel",
+    "Looker",
+    "Power BI",
+    "Tableau",
+    "Machine Learning"
+   ],
+   "desc": "{'jobId': 20219, 'jobTitle': 'Senior - People Analytics Specialist', 'jobDesc': '\\n \\n Role purpose \\n\\n Turn people and\\nbusiness data into practical insights that improve workforce planning, talent\\ndecisions and the effectiveness of people investment. Build trusted reporting,\\ninvestigate workforce issues and help HR and business leaders make\\nevidence-based decisions across the employee…",
+   "logo": "logos/momo.png",
    "last_seen": "2026-10-27"
   },
   {
@@ -3681,7 +3809,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpt.png",
    "skills": [],
-   "last_seen": "2026-10-18"
+   "last_seen": "2026-10-27"
   },
   {
    "title": "Kỹ sư dữ liệu (Data Engineer)",
@@ -4156,7 +4284,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-20"
+   "last_seen": "2026-10-27"
   },
   {
    "title": "Head Of Insights And Analytics",
@@ -6255,7 +6383,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-27"
   },
   {
    "title": "Head of Data & Analytics (AI Native)",
@@ -8129,7 +8257,7 @@
     "NoSQL"
    ],
    "desc": "Mô tả công việc: Nghiên cứu, đề xuất các giải pháp, hạ tầng, công nghệ, chu trình tiếp nhận, xử lý và khai thác dữ liệu (phân loại, thu thập, chuẩn hóa, làm sạch, làm giàu, phân tích, trực quan hóa) và tham gia xây dựng các quy trình, quy định, văn bản tài liệu liên quan đến dữ liệu của Công ty. Phân loại, thu thập và chuẩn hóa: Xây dựng và duy trì cập nhật từ điển dữ liệu (Data dictionary) cho…",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-27"
   },
   {
    "title": "Senior Data Engineer - Lead Consulting",
@@ -10418,6 +10546,7 @@
   "https://www.vietnamworks.com/management-trainee-manufacturing-2100334-jv",
   "https://www.vietnamworks.com/mb-trainee-information-security-grc-fresher-intern-khoi-cong-nghe-thong-tin-2026td457289-1790590413668087639-2112736-jv",
   "https://www.vietnamworks.com/mechanical-engineer-trainee-kcn-long-hau-1791808290545524719-2118612-jv",
+  "https://www.vietnamworks.com/operations-engineer-trainee-1793085102891239269-2124208-jv",
   "https://www.vietnamworks.com/production-management-trainee-1792385386699673266-2120946-jv",
   "https://www.vietnamworks.com/project-commercial-trainee-1791972722591135951-2119502-jv",
   "https://www.vietnamworks.com/project-product-management-trainee-1792386036859803249-2120952-jv",
