@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T12:06+00:00",
+ "updated": "2026-10-27T18:03+00:00",
  "jobs": [
   {
    "title": "Senior Collection Analytics & Modeling Executive",
@@ -195,6 +195,30 @@
    ],
    "desc": "{'jobId': 20219, 'jobTitle': 'Senior - People Analytics Specialist', 'jobDesc': '\\n \\n Role purpose \\n\\n Turn people and\\nbusiness data into practical insights that improve workforce planning, talent\\ndecisions and the effectiveness of people investment. Build trusted reporting,\\ninvestigate workforce issues and help HR and business leaders make\\nevidence-based decisions across the employee…",
    "logo": "logos/momo.png",
+   "last_seen": "2026-10-27"
+  },
+  {
+   "title": "Data Engineer - Hà Nội - TA105",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-Data-Engineer-H%C3%A0-N%E1%BB%99i-TA105/1358325366/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-27",
+   "desc": "Các trách nhiệm chính 1 - Phân tích yêu cầu nghiệp vụ cho hệ thống dữ liệu và báo cáo (đối với kỹ sư dữ liệu toàn phần) -Phân tích thiết kế luồng dữ liệu cho từng CR các phân vùng dữ liệu/ báo cáo của DPC nhằm đáp ứng yêu cầu nghiệp vụ. Tham gia dựng môi trường, thực hiện lập trình phát triển, kiểm thử đơn lẻ (unit test) -Tham gia golive các yêu cầu thay đổi hệ thống -Tổ chức liên tục cải tiến…",
+   "skills": [
+    "Machine Learning",
+    "NoSQL",
+    "Data Warehouse",
+    "ETL",
+    "SSIS",
+    "Kafka",
+    "Spark",
+    "Airflow",
+    "Redshift",
+    "Databricks"
+   ],
+   "logo": "logos/vpbank.png",
    "last_seen": "2026-10-27"
   },
   {
@@ -4243,7 +4267,7 @@
     "LLM / GenAI",
     "Python"
    ],
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-27"
   },
   {
    "title": "Senior Data Engineer (Databricks)",
@@ -6123,7 +6147,7 @@
     "senior"
    ],
    "skills": [],
-   "last_seen": "2026-10-24"
+   "last_seen": "2026-10-27"
   },
   {
    "title": "[EAB] Automation & AI Tooling Intern (Python/ML/Simulink)",
@@ -10554,6 +10578,7 @@
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1790718519389513213-2113475-jv",
   "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv",
   "https://www.vietnamworks.com/tpbank-nhan-vien-tap-su-khach-hang-ca-nhan-hop-dong-6-12-thang-2098371-jv",
-  "https://ybox.vn/tuyen-dung/hn-cong-ty-thunder-cloud-studio-tuyen-dung-trainee-motion-designer-full-time-2026-6adf00f1543de056c639b112"
+  "https://ybox.vn/tuyen-dung/hcm-cong-ty-bambuup-tuyen-dung-marcom-trainee-chuyen-vien-integrated-marketing-communication-full-time-2026-6ae0519678750d56ad5027e1",
+  "https://ybox.vn/tuyen-dung/hcm-ngan-hang-quan-doi-mb-bank-tuyen-dung-tap-su-khach-hang-ca-nhan-tin-dung-khach-hang-doanh-nghiep-ub-phi-tin-dung-full-time-2026-6ae0741e0ce10456bf5d523d"
  ]
 }
