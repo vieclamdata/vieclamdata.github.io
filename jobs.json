@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T12:44+00:00",
+ "updated": "2026-10-28T22:35+00:00",
  "jobs": [
   {
    "title": "Data Analysis Officer (AEON Group Point)",
@@ -235,6 +235,39 @@
     "Excel"
    ],
    "logo": "logos/vng.png",
+   "last_seen": "2026-10-28"
+  },
+  {
+   "title": "Data Engineer",
+   "company": "SotaTek",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/data-engineer/5642fd9b-56f7-49d6-919b-e53771a85cf4",
+   "source": "Glints",
+   "date": "2026-10-28",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/dd0b3ac359134639c75766fa6a6c72a2.jpg",
+   "salary": "15–35 triệu",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Data Modeling",
+    "ETL",
+    "GCP",
+    "AWS",
+    "Kubernetes",
+    "MLOps",
+    "SQL",
+    "Python",
+    "Airflow",
+    "BigQuery",
+    "Kafka",
+    "Spark",
+    "Tiếng Anh",
+    "NoSQL",
+    "Hadoop"
+   ],
+   "desc": "JOB DESCRIPTION: Data pipeline maintenance and operation Processing data to meet functional and non-functional business requirements Identification, design, implement in internal processes for automatizing manual processes and optimizing data provision DW data modeling and ETL design and development Real-time streaming data collection and processing development Design about GCP/AWS-based data…",
    "last_seen": "2026-10-28"
   },
   {
@@ -4545,7 +4578,7 @@
     "LLM / GenAI",
     "Python"
    ],
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-28"
   },
   {
    "title": "Senior Data Engineer (Databricks)",
@@ -4684,7 +4717,7 @@
     "Thống kê",
     "SQL"
    ],
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-28"
   },
   {
    "title": "Nhân viên data (admin)",
@@ -10242,9 +10275,22 @@
    "logo": "logos/vpbank.png",
    "skills": [
     "Thống kê",
-    "Machine Learning"
+    "Machine Learning",
+    "Deep Learning",
+    "LLM / GenAI",
+    "Python",
+    "Pandas",
+    "Scikit-learn",
+    "TensorFlow",
+    "PyTorch",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Databricks",
+    "SQL",
+    "Excel"
    ],
-   "last_seen": "2026-09-29"
+   "last_seen": "2026-10-28"
   },
   {
    "title": "Senior Data Engineer",
@@ -10800,6 +10846,7 @@
  ],
  "rejected": [
   "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Vietnam---Ho-Chi-Minh-City/Marketing-Trainee---Ensure-Upstream_31164023",
+  "https://careerviet.vn/vi/tim-viec-lam/sales-manager-mt-gt-audio-field.35C8982E.html",
   "https://jobs.msb.com.vn/jobs/mt8-management-trainee-kh%E1%BB%91i-qu%E1%BA%A3n-l%C3%BD-r%E1%BB%A7i-ro-mrrb-6856",
   "https://momo.careers/jobs/sdet-trainee-20159",
   "https://tuyendung.ncb-bank.vn/vi/jobs/RlVAry",
