@@ -1,6 +1,170 @@
 {
- "updated": "2026-10-28T22:35+00:00",
+ "updated": "2026-10-29T05:38+00:00",
  "jobs": [
+  {
+   "title": "Kỹ Sư AI và Dữ Liệu (AI & Data Engineer)",
+   "company": "CÔNG TY CỔ PHẦN THỜI TRANG H VÀ A (PANTIO)",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-ai-va-du-lieu-ai-data-engineer.35C8C2F7.html",
+   "source": "CareerViet",
+   "date": "2026-10-29",
+   "logo": "https://images.careerviet.vn/employer_folders/lot1/213381/95659taixuong.png",
+   "salary": "18–25 triệu",
+   "skills": [
+    "ETL",
+    "Excel",
+    "Data Warehouse",
+    "LLM / GenAI",
+    "Python",
+    "Data Modeling",
+    "Pandas",
+    "Scikit-learn",
+    "Airflow",
+    "dbt",
+    "Talend",
+    "SQL",
+    "Machine Learning",
+    "GCP",
+    "BigQuery",
+    "AWS",
+    "Azure"
+   ],
+   "desc": "Mục tiêu công việc Chúng tôi tìm kiếm một ứng viên đa năng trong lĩnh vực AI và Data, có khả năng xây dựng pipeline dữ liệu, ứng dụng các mô hình AI, đồng thời xử lý và triển khai dữ liệu phục vụ trực tiếp cho các mục tiêu kinh doanh. Ứng viên sẽ đóng vai trò nòng cốt giúp công ty xây dựng hệ thống dữ liệu nền tảng để khai thác AI một cách hiệu quả và bền vững. Trách nhiệm chính · Xây dựng và vận…",
+   "last_seen": "2026-10-29"
+  },
+  {
+   "title": "Remote Data Engineer - AI Data Platform Japan (Python)",
+   "company": "SalesNow Inc.",
+   "location": "Remote",
+   "region": "VN",
+   "url": "https://topdev.vn/detail-jobs/remote-data-engineer-ai-data-platform-japan-python-salesnow-inc-2141955",
+   "source": "TopDev",
+   "date": "2026-10-29",
+   "logo": "https://assets.saramin.vn/images/2026/05/06/TopDev-logomark-1778060562.jpg",
+   "tags": [
+    "SQL",
+    "Python",
+    "Scala"
+   ],
+   "skills": [
+    "Python",
+    "Airflow",
+    "Databricks",
+    "SQL",
+    "Scala"
+   ],
+   "desc": "Mô tả công việc Vì sao có vị trí này Thời kỳ doanh thu tăng tỷ lệ thuận với số lượng nhân sự đã kết thúc. Khi lực lượng lao động thu hẹp, mỗi người cần tạo ra nhiều giá trị hơn. SalesNow đã tái thiết kế tổ chức của chính mình trên nền tảng AI trước khi quy mô trở nên lớn. Chúng tôi đặt mục tiêu tăng ARR trên mỗi nhân viên lên gấp 10 lần trong 3 năm, tính từ tháng 11/2025. Chúng tôi đang tuyển…",
+   "last_seen": "2026-10-29"
+  },
+  {
+   "title": "Chuyên Gia Phân Tích Dữ Liệu Khách Hàng Và Đánh Giá Hiệu Quả",
+   "company": "CÔNG TY CỔ PHẦN CHỨNG KHOÁN SSI",
+   "location": "Quận Hoàn Kiếm, Hà Nội",
+   "region": "VN",
+   "url": "https://topdev.vn/detail-jobs/chuyen-gia-phan-tich-du-lieu-khach-hang-va-danh-gia-hieu-qua-cong-ty-co-phan-chung-khoan-ssi-2142030",
+   "source": "TopDev",
+   "date": "2026-10-29",
+   "logo": "https://assets.saramin.vn/images/2020/07/16/8614acd1b479ea05203284af7ac90c0b-Eofqs.PNG",
+   "tags": [
+    "Data analysis"
+   ],
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Excel",
+    "Power BI"
+   ],
+   "desc": "Vị trí: Chuyên gia Phân tích dữ liệu Khách hàng và Đánh giá hiệu quả Bộ phận: Phát triển sản phẩm tài chính Báo cáo cho: Giám đốc Phát triển Sản phẩm tài chính Your role & responsibilities Phân tích hành vi giao dịch của khách hàng đối với các sản phẩm đầu tư (cổ phiếu, trái phiếu, sản phẩm cấu trúc...) nhằm nhận diện xu hướng, nhu cầu và các điểm chạm quan trọng trong hành trình đầu tư của khách…",
+   "last_seen": "2026-10-29"
+  },
+  {
+   "title": "data engineer",
+   "company": "CÔNG TY CỔ PHẦN CÔNG NGHỆ UNITRUST VIỆT NAM",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/data-engineer/89aa302d-4e2e-49b2-8ecf-f53c8b670cd5",
+   "source": "Glints",
+   "date": "2026-10-29",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/921da906353e93c87cdea78acd062646.jpg",
+   "salary": "20–23 triệu",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "ETL",
+    "SQL",
+    "Thống kê",
+    "Python",
+    "Airflow",
+    "Data Warehouse",
+    "Tiếng Anh",
+    "Spark",
+    "Databricks",
+    "NoSQL"
+   ],
+   "desc": "Mô tả công việc Về dự án Dự án phân tích dữ liệu phục vụ các thị trường nước ngoài, khách hàng trực tiếp là VT tại các quốc gia đang vận hành. Dự án đã ở giai đoạn chạy ổn định - nhân sự tham gia sẽ vào luồng công việc ngay, không phải chờ giai đoạn khởi tạo. Trách nhiệm chính - Xây dựng và vận hành các luồng ETL/ELT: ingest, transform, load dữ liệu từ nhiều nguồn của các thị trường - Viết và tối…",
+   "last_seen": "2026-10-29"
+  },
+  {
+   "title": "AI Engineer",
+   "company": "CÔNG TY CỔ PHẦN CÔNG NGHỆ UNITRUST VIỆT NAM",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/ai-engineer/2ad2ee15-8b0e-4d44-85a6-2ea3e168a1fa",
+   "source": "Glints",
+   "date": "2026-10-29",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/921da906353e93c87cdea78acd062646.jpg",
+   "salary": "15–40 triệu",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "LLM / GenAI",
+    "SQL",
+    "NoSQL",
+    "Machine Learning",
+    "Python",
+    "Docker",
+    "Excel",
+    "Power BI"
+   ],
+   "desc": "Mô tả công việc Thiết kế, phát triển và tối ưu các dịch vụ AI/LLM, tập trung vào RAG và tích hợp MCP (Model Context Protocol). Xây dựng pipeline xử lý tài liệu đa định dạng và áp dụng các kỹ thuật Chunking nâng cao như Semantic, Context-aware, Hierarchical. Phát triển RESTful API hiệu suất cao bằng FastAPI, hỗ trợ async/await, Pydantic và streaming response (SSE). Triển khai Hybrid Search (Vector…",
+   "last_seen": "2026-10-29"
+  },
+  {
+   "title": "Cộng tác viên Dữ liệu và Truyền thông - Khối Ngân hàng bán lẻ",
+   "company": "SHB",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.shb.com.vn/viec-lam/cong-tac-vien-du-lieu-va-truyen-thong-khoi-ngan-hang-ban-le.35ac17e2.html",
+   "source": "Trang công ty",
+   "date": "2026-10-29",
+   "skills": [
+    "Thống kê"
+   ],
+   "desc": "Hỗ trợ khai thác, tổng hợp và cập nhật dữ liệu phục vụ các báo cáo kinh doanh, chương trình thi đua của Khối. Vận hành các báo cáo định kỳ/ad-hoc theo biểu mẫu và hướng dẫn có sẵn. Tham gia kiểm thử, đối soát dữ liệu khi xây dựng Data Mart và phát triển báo cáo. Tổng hợp số liệu, slide phục vụ đánh giá hiệu quả kinh doanh và lập kế hoạch kinh doanh. Thu thập, thống kê thông tin thị trường, thị…",
+   "logo": "logos/shb.png",
+   "last_seen": "2026-10-29"
+  },
+  {
+   "title": "AI Engineer - Dự án CNTT",
+   "company": "SHB",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.shb.com.vn/viec-lam/ai-engineer-du-an-cntt.35ac17da.html",
+   "source": "Trang công ty",
+   "date": "2026-10-29",
+   "skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "LLM / GenAI"
+   ],
+   "desc": "1. Phát triển và tối ưu giải pháp AI Xây dựng và tối ưu hóa mô hình: Tinh chỉnh ( fine-tune ) và tối ưu hóa các mô hình Học máy ( Machine Learning ) và Học sâu ( Deep Learning ) nhằm tối đa hóa hiệu suất (độ chính xác, độ trễ) trong khi vẫn đảm bảo tính ổn định và tối ưu chi phí hạ tầng. Triển khai đa nền tảng: Triển khai và ứng dụng các mô hình AI trên nhiều môi trường (cloud, on-premise),…",
+   "logo": "logos/shb.png",
+   "last_seen": "2026-10-29"
+  },
   {
    "title": "Data Analysis Officer (AEON Group Point)",
    "company": "CÔNG TY TNHH AEON VIỆT NAM",
@@ -18,7 +182,7 @@
     "Power BI"
    ],
    "desc": "Your role & responsibilities 1. Data Analysis and System ManagementCooperate with other departments (BI, IT, Marketing, Operations, Merchandising) for jobs related to data analysis and query dataData Tracking & Reporting: Track and monitor member data, generating comprehensive reports for regular review and decision-making. Analyze member behavior and engagement metrics to provide actionable…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Expert, Retail & Small BB Credit Risk Data, Porfolio Management & Early Warning (40001484)",
@@ -37,7 +201,7 @@
     "Tiếng Anh"
    ],
    "logo": "logos/techcombank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "In-App Operation & Data Analyst Executive",
@@ -78,7 +242,7 @@
     "Java",
     "SQL"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "AI Engineer",
@@ -97,7 +261,7 @@
    "skills": [
     "LLM / GenAI"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Business Intelligence Associate (Operations)",
@@ -115,7 +279,7 @@
     "senior"
    ],
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Risk Management Data Analytics Expert – ID9106",
@@ -138,7 +302,7 @@
     "Excel"
    ],
    "desc": "M1. Thực hiện tính toán, phân tích và theo dõi các chỉ tiêu CAR, RWA, RROE theo quy định của NHNN (phương pháp tiêu chuẩn và phương pháp nâng cao) và Basel. Phân tích biến động CAR/RWA, đánh giá nguyên nhân biến động RWA từng khối, danh mục & KH. Thực hiện các báo cáo định kỳ và phân tích phục vụ Ban lãnh đạo, NHNN. 2. Tìm hiểu, nghiên cứu các sản phẩm, nghiệp vụ ngân hàng và cấu trúc dữ liệu…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Product Engineer (Databricks Data & AI Products) - Up to $2500",
@@ -165,7 +329,7 @@
     "LLM / GenAI"
    ],
    "desc": "ABOUT COMPANY We are looking for a senior Data Product Engineer to develop, operate, and continuously improve business-facing Data Products and AI-enabled solutions on Databricks. The role combines data engineering, data modeling, governance, analytics, AI product implementation, and software engineering to deliver high-quality, reusable data products. RESPONSIBILITIES Data Product Development:…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Leader",
@@ -190,7 +354,7 @@
     "Tableau"
    ],
    "desc": "VỊ TRÍ TUYỂN DỤNG MÔ TẢ CÔNG VIỆC Quản lý, dẫn dắt và xây dựng đội ngũ Data Engineer, phân công công việc và định hướng phát triển chuyên môn cho các thành viên trong team. Xây dựng, vận hành và tối ưu data pipeline từ các sản phẩm app, game, web và hệ thống nội bộ. Thiết kế luồng xử lý dữ liệu theo mô hình ETL/ELT, đáp ứng nhu cầu batch hoặc near real-time processing. Đảm bảo hệ thống dữ liệu có…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "AI Engineer Intern",
@@ -216,7 +380,7 @@
     "SQL"
    ],
    "desc": "Tham gia xây sử dụng và triển khai các thuật toan model AI (NLP, computer vision). Computer Vision: object detection, object classification, Image processing... Nhận yêu cầu nhiệm vụ, lập kế hoạch chi tiết và triển khai thực hiện Chuẩn bị và xử lý dữ liệu, mã nguồn cho các công việc khác nhau Đào tạo, giám sát và đánh giá mô hình Nghiên cứu các phương pháp mới nhất để ứng dụng trong dự án Tích…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Product Management Trainee (CRM), Zalopay",
@@ -235,7 +399,7 @@
     "Excel"
    ],
    "logo": "logos/vng.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer",
@@ -268,7 +432,29 @@
     "Hadoop"
    ],
    "desc": "JOB DESCRIPTION: Data pipeline maintenance and operation Processing data to meet functional and non-functional business requirements Identification, design, implement in internal processes for automatizing manual processes and optimizing data provision DW data modeling and ETL design and development Real-time streaming data collection and processing development Design about GCP/AWS-based data…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
+  },
+  {
+   "title": "Senior Data Scientist (Real-Time Forecasting)",
+   "company": "L4 Studio - Software Development Company",
+   "location": "Hanoi Capital Region",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4483839927",
+   "source": "LinkedIn",
+   "date": "2026-10-28",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQECxEwVAFK2tg/company-logo_100_100/company-logo_100_100/0/1643674907816/l4studiovn_logo?e=2147483647&v=beta&t=sMIGa28nDzs5HlKBqmyEvS5jVekObg1fXylLcPSAYCk",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Thống kê",
+    "Machine Learning",
+    "Python",
+    "MLOps",
+    "Airflow"
+   ],
+   "desc": "Only for candidates in Vietnam Working location: Remote full-time (09:00 - 18:00 ICT) Salary range: USD 4,000 - 8,000 gross RESPONSIBILITIES We are looking for a senior applied data scientist or quantitative researcher to lead the development and continuous improvement of the predictive models and statistical frameworks behind our real-time forecasting engines, beginning with eSports. You will…",
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Collection Analytics & Modeling Executive",
@@ -288,7 +474,7 @@
     "Thống kê",
     "SQL"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Expert, Business Intelligence & Data Products",
@@ -311,7 +497,7 @@
     "LLM / GenAI"
    ],
    "desc": "About the role Vietcombank is one of the largest and most influential banks in Vietnam. The data foundations are in place: a governed platform, an established BI estate, and data products used across business divisions. The next phase is acceleration: taking what works from pilot to bank-wide scale, raising the quality and adoption of every data product, and bringing AI-driven analytics into…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "[HN] DATA ANALYST (GOVERNMENT PRODUCT)",
@@ -356,7 +542,7 @@
     "Thống kê",
     "Machine Learning"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Midlle Data Engineer",
@@ -408,7 +594,7 @@
     "Machine Learning"
    ],
    "desc": "I. MỤC TIÊU VỊ TRÍ 1. Xây dựng và vận hành nền tảng dữ liệu toàn hàng: DWH, MIS/BI, Data Lakehouse. 2. Thiết lập và vận hành khung Quản trị dữ liệu (Data Governance) của VietABank. 3. Cung cấp dữ liệu cho quản trị điều hành, phân tích kinh doanh và các chương trình A-Score/B-Score, CRM, PFM & Loyalty. II. TRÁCH NHIỆM CHÍNH 1. Xây dựng mô hình dữ liệu dùng chung và triển khai DataMart theo…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Thực tập sinh Data",
@@ -424,7 +610,7 @@
    ],
    "skills": [],
    "desc": "MÔ TẢ CÔNG VIỆC - Sử dụng các tool, công cụ AI lấy thông tin của các công ty/người nổi tiếng thuộc các lĩnh vực. - Sử dụng các tool AI để tạo và post bài và gửi tin nhắn, gửi báo giá trên các nền tảng social media đến các công ty để quảng cáo các các dịch vụ. - Thực hiện các công việc khác (nếu có) theo sự phân công của công ty. - Kinh nghiệm: Không cần kinh nghiệm (có kinh nghiệm là một lợi…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Thực tập sinh, Tình nguyện viên Data Part-time",
@@ -440,7 +626,7 @@
    ],
    "skills": [],
    "desc": "MÔ TẢ CÔNG VIỆC Data Analytic Volunteer sẽ tham gia hỗ trợ các nhiệm vụ liên quan đến thu thập và phân tích dữ liệu, bao gồm: - Sử dụng các công cụ để thu thập dữ liệu (email, Twitter, LinkedIn, Facebook, Instagram, YouTube, TikTok, Pinterest, Threads…) của các công ty thuộc nhiều lĩnh vực khác nhau. - Sử dụng các công cụ đăng bài, gửi tin nhắn và gửi báo giá trên các nền tảng Social Media…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior - People Analytics Specialist",
@@ -464,7 +650,7 @@
    ],
    "desc": "{'jobId': 20219, 'jobTitle': 'Senior - People Analytics Specialist', 'jobDesc': '\\n \\n Role purpose \\n\\n Turn people and\\nbusiness data into practical insights that improve workforce planning, talent\\ndecisions and the effectiveness of people investment. Build trusted reporting,\\ninvestigate workforce issues and help HR and business leaders make\\nevidence-based decisions across the employee…",
    "logo": "logos/momo.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer - Hà Nội - TA105",
@@ -488,7 +674,7 @@
     "Databricks"
    ],
    "logo": "logos/vpbank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "IT Intern - Digital & Data Services",
@@ -505,7 +691,7 @@
     "intern"
    ],
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Midlle Data Engineer",
@@ -567,7 +753,7 @@
     "mid"
    ],
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "AI ENGINEER (DATA & AUTOMATION)",
@@ -586,7 +772,7 @@
    "skills": [
     "LLM / GenAI"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "AI Engineer (Junior-Middle Level)",
@@ -645,7 +831,7 @@
     "Kubernetes"
    ],
    "desc": "JOB DESCRIPTION 1. Primary Objective: Design and build scalable batch and real-time ETL/ELT data pipelines Design data models and DataMarts (Customer Profile, Journey, Event) per business requirements Operate, monitor, and optimize the data platform on Microsoft Azure and Google Cloud Integrate source systems and provide technical support to other teams in the Data Department Ensure data quality…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Analyst, DOMO Data Engineer - Group Marketing",
@@ -660,7 +846,7 @@
     "ETL"
    ],
    "logo": "logos/nab-innovation-centre-vietnam.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Team Leader - Data Analytics",
@@ -687,7 +873,7 @@
    ],
    "desc": "{'jobId': 19778, 'jobTitle': 'Senior Team Leader - Data Analytics', 'jobDesc': '\\n \\n \\n The Senior Team Leader - Data Analytics will be part of MoMo’s Product Development Data team, contributing to data-driven decision-making across product, business, and operations teams. This role is responsible for transforming large-scale product, customer, and operational data into reliable insights,…",
    "logo": "logos/momo.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên cao cấp, Chuyên Gia Phân tích dữ liệu Tuân thủ - Khối Pháp chế và Tuân thủ (2026TD450951)",
@@ -706,7 +892,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer (Junior Data Architect)",
@@ -729,7 +915,7 @@
     "Data Warehouse"
    ],
    "desc": "About the Role As a Data Engineer (Junior Data Architect) , you will play a critical role in shaping and scaling our modern data platform on Azure and Databricks. This role goes beyond building pipelines. You will support the Data Architect team design reliable, scalable data foundations that power analytics, reporting, and advanced use cases across the business. You will work closely with data,…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "CVCC Kiến trúc dữ liệu_JG 08",
@@ -747,7 +933,7 @@
     "Azure"
    ],
    "logo": "logos/vpbank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "CVCC Kỹ sư dữ liệu - Hà Nội - TA105",
@@ -769,7 +955,7 @@
     "Airflow"
    ],
    "logo": "logos/vpbank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Analyst",
@@ -793,7 +979,7 @@
     "Python"
    ],
    "desc": "ABOUT URBOX UrBox is Vietnam’s leading digital gifting & loyalty platform that enables businesses to integrate their reward & loyalty programs with an ever-growing network of more than 350 brands & 20,000 accepted online and offline stores in Vietnam. UrBox has the widest network of clients in loyalty in Vietnam and provides loyalty & reward solutions to many big organizations in the aviation,…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên cao cấp Bảo mật dữ liệu - Senior Data Security - Khối Dữ liệu (2026TD450980)",
@@ -812,7 +998,7 @@
     "SQL"
    ],
    "desc": "1. Mục tiêu công việc: Thực hiện các hoạt động liên quan đến xây dựng và triển khai cơ chế bảo mật dữ liệu, đảm bảo an toàn, tuân thủ và bảo vệ dữ liệu trong suốt vòng đời, theo quy định pháp luật và tiêu chuẩn quốc tế (Nghị định 13/2023/NĐ-CP, ISO 27001, GDPR...). Phối hợp với các đơn vị Quản trị dữ liệu, An ninh thông tin, Rủi ro và Tuân thủ để triển khai hiệu quả các chính sách, quy trình,…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên, Chuyên viên Cao cấp Khoa học Dữ liệu - Data Scientist - Khối Dữ liệu (2026TD450984)",
@@ -841,7 +1027,7 @@
     "Deep Learning"
    ],
    "desc": "- Thực hiện các nhiệm vụ định kì của phòng theo lĩnh vực được phân công bao gồm: khai phá dữ liệu, phân tích chuyên sâu, xây dựng và làm giàu kho dữ liệu đặc trưng, phát triển mô hình phục vụ kinh doanh (tiềm năng bán, upsale, cross sale, chống churn ...) - Thực hiện xây dựng và phát triển các mô hình phục vụ đáp ứng nhu cầu và hỗ trợ ra quyết định kinh doanh trên lĩnh vực được phân công - Thực…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên Quản lý chất lượng dữ liệu - Data Quality Management Specialist - Khối Dữ liệu (2026TD450981)",
@@ -858,7 +1044,7 @@
     "SQL"
    ],
    "desc": "- Thực hiện phân loại/cập nhật phân loại bảo mật dữ liệu, xây dựng ma trận phân quyền truy cập dữ liệu - Tham gia triển khai, đánh giá và kiểm soát tuân thủ các quy định pháp luật về bảo vệ dữ liệu cá nhân và bảo mật thông tin - Triển khai đo lường, đánh giá chất lượng dữ liệu theo các tiêu chuẩn, thang điểm, hướng dẫn... đã được ban hành. Giám sát và định kỳ báo cáo về tình hình chất lượng dữ…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên Phân tích và thiết kế Mô hình dữ liệu - Data Analyst - Khối Dữ liệu (2026TD450983)",
@@ -879,7 +1065,7 @@
     "Tableau"
    ],
    "desc": "- Hiểu cấu trúc dữ liệu từ source, thực hiện phân tích và thiết kế cơ sở dữ liệu, làm nền tảng cho Data Engineer thực hiện tổ chức dữ liệu vào Datawarehouse, - Đảm bảo tính logic và nhất quán với dữ liệu đã có trong datawarehouse. - Xây dựng và maintain các dataset, hướng dẫn các phòng ban liên quan sử dụng các dataset trong phân tích dữ liệu. - Xây dựng các data model,business model, datamart…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên Phân tích và thiết kế Mô hình dữ liệu - Data Analyst - Khối Dữ liệu (2026TD45098)",
@@ -900,7 +1086,7 @@
     "Tableau"
    ],
    "desc": "- Hiểu cấu trúc dữ liệu từ source, thực hiện phân tích và thiết kế cơ sở dữ liệu, làm nền tảng cho Data Engineer thực hiện tổ chức dữ liệu vào Datawarehouse, - Đảm bảo tính logic và nhất quán với dữ liệu đã có trong datawarehouse. - Xây dựng và maintain các dataset, hướng dẫn các phòng ban liên quan sử dụng các dataset trong phân tích dữ liệu. - Xây dựng các data model,business model, datamart…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Engineer [iGaming]",
@@ -951,7 +1137,7 @@
     "BigQuery",
     "Redshift"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Thực Tập Sinh Kỹ Sư AI (AI Engineer Intern)",
@@ -1002,7 +1188,7 @@
     "NLP"
    ],
    "desc": "Role: AI ENGINEER Responsibilities Design and develop data pipelines and ETL processes to collect, process, and store large-scale data from various sources, including user interactions, web logs, and sensor data. Develop and maintain data architecture and infrastructure, ensuring scalability, reliability, and security of data storage and processing. Build and deploy machine learning models and…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "[Hà Nội] CV/CVC/CVCC Kỹ Thuật Dữ Liệu (DE)",
@@ -1025,7 +1211,7 @@
     "GCP",
     "Databricks"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Nhân Viên Data Engineer",
@@ -1061,7 +1247,7 @@
    ],
    "desc": "1. Thiết kế, cài đặt, cấu hình và tiếp nhận vận hành hệ thống CSDL, nền tảng dữ liệu. 2. Giám sát hoạt động, quản lý dung lượng, phân tích và tối ưu hiệu năng CSDL. 3. Triển khai, vận hành sao lưu, phục hồi và dự phòng; kiểm thử HA/DR định kỳ. 4. Thực hiện nâng cấp, vá lỗi, di trú, bảo mật và quản lý quyền truy cập CSDL. 5. Phân tích, xử lý sự cố; xác định nguyên nhân và triển khai biện pháp…",
    "logo": "logos/lpbank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Supply Chain Data Analyst (Total Annual Compensation Up-To 37,000 USD)",
@@ -1123,7 +1309,7 @@
     "Python",
     "Git"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Business Data Analyst",
@@ -1136,7 +1322,7 @@
    "logo": "https://assets.saramin.vn/images/2025/11/25/TopDev-tai-xuong---2025-11-25T105308.907-1764042947.png",
    "skills": [],
    "desc": "Your role & responsibilities Your skills & qualifications Benefits for you - Các chế độ phúc lợi theo luật lao động (lương, thưởng, nghỉ lễ, phép năm,..) - Du lịch, hoạt động teambuilding (100% chi phí công ty) - Thời gian làm việc từ Thứ 2 đến Thứ 7 (8h00 – 17h00). Chiều thứ 7 làm việc online - Review lương hằng năm - Thưởng tháng 13, tháng 14 - Môi trường năng động, trẻ trung toàn các bạn GenZ…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Officer, Data Translator\t(50000431)",
@@ -1158,7 +1344,7 @@
     "GCP"
    ],
    "logo": "logos/techcombank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "CVC/CVCC Quản trị dữ liệu - Khối Tài chính",
@@ -1180,7 +1366,7 @@
    ],
    "desc": "· Xây dựng, quản lý và vận hành cơ sở dữ liệu; đảm bảo dữ liệu được tích hợp, xử lý, lưu trữ tập trung và cung cấp kịp thời, chính xác phục vụ báo cáo quản trị, phân tích và tuân thủ. · Xây dựng, triển khai các quy tắc kiểm soát chất lượng, đối soát và xử lý sai lệch dữ liệu; quản lý danh mục sản phẩm dữ liệu, Data Mapping và tài liệu vận hành. · Phối hợp với các đơn vị nghiệp vụ và IT trong phân…",
    "logo": "logos/tpbank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Nhân viên Phân tích dữ liệu Sản phẩm (Data Analyst)",
@@ -1192,7 +1378,7 @@
    "date": "2026-10-23",
    "skills": [],
    "logo": "logos/vnpay.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Governance - HN - TA174",
@@ -1207,7 +1393,7 @@
     "Machine Learning"
    ],
    "logo": "logos/vpbank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Nhân Viên Talent Acquisition Business Partner (BO/IT)/Process Quality Assurance (IT)/Manual Tester/Data Analyst/Product Design (Senior)/Process Quality Assurance (Fresher/Junior)",
@@ -1253,7 +1439,7 @@
     "Tiếng Anh"
    ],
    "desc": "• Platform Construction: Build, operate, and define the strategic architecture for the Big Data and Lakehouse platform using Delta Lake, Apache Iceberg, and Medallion architectures (Bronze/Silver/Gold). • Infrastructure Management: Manage, monitor, and scale data infrastructure across On-Prem and OpenShift/Kubernetes container platforms. • Data Integration & Pipelines: Design, develop, and…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior AI Engineer (Computer Vision/NLP/LLM) - Khối Công nghệ thông tin (2026TD450878)",
@@ -1274,7 +1460,7 @@
     "NLP",
     "LLM / GenAI"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên Cao cấp Công nghệ Mô hình - Senior Machine Learning Engineer - Khối Dữ liệu (2026TD456629)",
@@ -1295,7 +1481,7 @@
     "MLOps",
     "Thống kê"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Phó phòng Công nghệ Mô hình - Deputy Head of Machine Learning Engineering - Khối Dữ liệu (2026TD456609)",
@@ -1316,7 +1502,7 @@
     "MLOps",
     "Thống kê"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên Gia Kiểm Định Mô Hình Kinh Doanh - Senior Business Model Validation Analyst (BI) - Khối Dữ Liệu ( 2026TD453781)",
@@ -1335,7 +1521,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "MB Trainee - AI Engineer (Fresher, Intern) - Khối Công Nghệ Thông Tin (2025TD924)",
@@ -1355,7 +1541,7 @@
     "Computer Vision",
     "NLP"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "[All level] AI Engineer (Computer Vision/NLP/LLM) - Khối Công nghệ thông tin (2026TD450582)",
@@ -1373,7 +1559,7 @@
     "NLP",
     "LLM / GenAI"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "BIM - Data Analyst",
@@ -1416,7 +1602,7 @@
     "Kafka"
    ],
    "desc": "Company Information Founded in 2018, Data Nest is a dynamic and innovative company specialising in credit scoring, lead generation services and other products. By harnessing the power of Data Analytics and AI, we help finance companies to reduce their credit loss, to widen their consumer base, and to fasten their release of new financial services. We aim to transform the financial landscape…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên Quản lý thông tin Cơ sở dữ liệu về giá",
@@ -1429,7 +1615,7 @@
    "skills": [],
    "desc": "1. Là nhân viên giúp việc về nghiệp vụ cho lãnh đạo đơn vị hoặc hỗ trợ các chuyên viên cấp 1, cấp 2, cấp 3 trong một số khâu tác nghiệp (nhiệm vụ phụ trợ, giản đơn) hoặc là nhân viên thuộc các lĩnh vực có công việc lao động giản đơn, mức độ phức tạp không cao 2. NLĐ được tuyển dụng vào học việc tại ngân hàng mà chưa có kinh nghiệm, Thực hiện chuyên môn nghiệp vụ tại một lĩnh vực cần sự kèm cặp và…",
    "logo": "logos/shb.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Governance Manager",
@@ -1489,7 +1675,7 @@
    "skills": [
     "A/B Testing"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Modeler/ Semantic Analyst",
@@ -1510,7 +1696,7 @@
     "SQL",
     "Snowflake"
    ],
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Power BI Specialist",
@@ -1530,7 +1716,7 @@
     "Power BI",
     "Data Modeling"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "[Hà Nội] Chuyên gia Data AI- Phòng Kế hoạch và Phân tích tài chính- Khối Quản trị tài chính",
@@ -1550,7 +1736,7 @@
     "LLM / GenAI",
     "Data Warehouse"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Expert/Senior Data Scientist",
@@ -1597,7 +1783,7 @@
    ],
    "skills": [],
    "logo": "logos/acb.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "HO - Data Policy Specialist",
@@ -1636,7 +1822,7 @@
    ],
    "desc": "1. Xây dựng và phát triển hạ tầng dữ liệu Thiết kế kiến trúc tổng thể Data Platform cấp domain/toàn khối; xây dựng HA/DR, scalability, security architecture; capacity planning dài hạn. Tối ưu khả năng mở rộng, tính sẵn sàng cao và hiệu năng xử lý dữ liệu. 2. Tích hợp dữ liệu nguồn, cung cấp dữ liệu cho downstream systems Thiết kế framework tích hợp dữ liệu dùng chung; ownership SLA cung cấp dữ…",
    "logo": "logos/lpbank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Scientist (Techcom Insurance)",
@@ -1664,7 +1850,7 @@
     "Java"
    ],
    "logo": "logos/techcombank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer",
@@ -1714,6 +1900,19 @@
    "last_seen": "2026-10-27"
   },
   {
+   "title": "HO - Data Governance Specialist",
+   "company": "ACB",
+   "location": "Hội sở (Tp. HCM)",
+   "region": "VN",
+   "url": "https://www.acbjobs.com.vn/job/ho-data-governance-specialist-56163",
+   "source": "Trang công ty",
+   "date": "2026-10-22",
+   "desc": "Data Governance Specialist is responsible for supporting the implementation and operation of the Bank‘s Data Governance Framework to ensure data quality, data integrity, regulatory compliance, and effective management of data assets. The role works closely with business units, data owners, IT teams, and risk/compliance functions to establish, monitor, and enhance data governance practices across…",
+   "skills": [],
+   "logo": "logos/acb.png",
+   "last_seen": "2026-10-29"
+  },
+  {
    "title": "Kỹ sư dữ liệu",
    "company": "FPT Telecom",
    "location": "Hanoi Capital Region",
@@ -1753,7 +1952,7 @@
     "senior"
    ],
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "CVC/CV Phân tích dữ liệu kinh doanh - Business Data Analyst / Senior Business Data Analyst",
@@ -1789,7 +1988,7 @@
     "intern"
    ],
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior / Staff Data Engineer (BI) – CEG Team",
@@ -1851,7 +2050,7 @@
     "Machine Learning"
    ],
    "desc": "MÔ TẢ CÔNG VIỆC Xây dựng và triển khai Finance Data Mart, mô hình dữ liệu tài chính, KPI và Dashboard điều hành Nghiên cứu, phát triển và triển khai các ứng dụng AI/GenAI phục vụ lập kế hoạch, dự báo tài chính, quản trị chi phí, phân tích hiệu quả kinh doanh và tự động hóa báo cáo. Tham gia xây dựng chiến lược dữ liệu và lộ trình chuyển đổi số của Khối QTTC. YÊU CẦU CÔNG VIỆC Tối thiểu 5 năm kinh…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên/Chuyên viên cao cấp phân tích dữ liệu - Khối Tuân thủ",
@@ -1873,7 +2072,7 @@
    ],
    "desc": "Mô tả công việc Phân tích dữ liệu trên môi trường số đảm bảo tuân thủ đúng quy định của pháp luật và ngân hàng; đáp ứng đầy đủ các tiêu chí về hiệu năng, an toàn bảo mật thông tin dữ liệu và trải nghiệm khách hàng; Theo dõi danh mục tín dụng và các danh mục sản phẩm khác tại ngân hàng, xây dựng các mô hình dự báo để sớm phát hiện các dấu hiệu tuân thủ, rủi ro thông qua phân tích dữ liệu rủi ro…",
    "logo": "logos/pvcombank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Thực Tập Sinh Kiểm Soát (Kế toán & Dữ liệu)",
@@ -1974,7 +2173,7 @@
     "Databricks"
    ],
    "desc": "Đây là vị trí có vai trò quan trọng trong việc xây dựng nền tảng công nghệ và dữ liệu cho Fraud Detection, kết nối giữa năng lực Big Data/Data Engineering và bài toán quản trị rủi ro trong môi trường Retail. Vị trí có cơ hội tham gia trực tiếp vào các bài toán dữ liệu lớn, xây dựng Detection Engine/Model và triển khai các use case thực tế cùng đội ngũ Retail Fraud Analytics. 1. Mục tiêu vị trí…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior DevOps/Data Engineer",
@@ -1999,7 +2198,7 @@
     "Python"
    ],
    "desc": "RESPONSIBILITIES: • Access to the highest technical resources available for problem resolution or new feature creation. • Level 3 technicians attempt to duplicate problems and define root causes, using product designs, code, or specifications. • Once a cause is identified, the company decides whether to create a new fix, depending on the cause of the problem. New fixes are documented for use by…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data & Business Intelligence Analyst",
@@ -2024,7 +2223,7 @@
     "Tiếng Anh"
    ],
    "desc": "The Data Analyst is responsible for developing & implementing data analyses, data collection systems that optimize statistical efficiency and quality while ensuring the accuracy of datasets in the data warehouse. This role will also support cross-functional teams in interpreting data, analyzing results, and building dashboards & reports to ensure that business performance is tracked and reported…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Kiến trúc sư dữ liệu (Data Architect)",
@@ -2077,7 +2276,7 @@
     "Data Modeling"
    ],
    "desc": "Temus was established by Temasek to provide digital transformation solutions for the private and public sectors as we aspire to be a strategic partner in realising the Singapore Government’s Smart Nation vision. We are headquartered in Singapore and have more than 400 employees across a wide range of disciplines in strategy, design, architecture, technology, data & AI. Responsibilities:…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "[HCM/Hybrid] DATA ENGINEER",
@@ -2143,7 +2342,7 @@
    ],
    "desc": "I. MỤC TIÊU VỊ TRÍ Xây dựng và vận hành nền tảng dữ liệu toàn hàng: DWH, MIS/BI, Data Lakehouse. Thiết lập và vận hành khung Quản trị dữ liệu (Data Governance) của VietABank. Cung cấp dữ liệu cho quản trị điều hành, phân tích kinh doanh và các chương trình A-Score/B-Score, CRM, PFM & Loyalty. II. TRÁCH NHIỆM CHÍNH Hoàn thiện DWH đủ các nguồn dữ liệu trọng yếu (core banking, thẻ, eBanking,…",
    "logo": "logos/vietabank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên cao cấp Phân Tích Dữ Liệu Thẻ Và Cho Vay Không Có TSBĐ",
@@ -2185,7 +2384,7 @@
     "Deep Learning",
     "PyTorch"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Master Data Maintenance Executive (5-Month Contractor)",
@@ -2202,7 +2401,7 @@
     "Tiếng Anh",
     "Informatica"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Analyst",
@@ -2224,7 +2423,7 @@
     "Looker"
    ],
    "desc": "THU THẬP VÀ XỬ LÝ DỮ LIỆU • Thu thập dữ liệu từ nhiều nguồn: ERP, CRM, Google Sheet, Excel, Database, phần mềm nội bộ • Làm sạch, chuẩn hóa và kiểm tra tính chính xác của dữ liệu. • Kiểm soát chất lượng dữ liệu, phát hiện dữ liệu bất thường hoặc sai lệch. • Xây dựng và duy trì hệ thống dữ liệu phục vụ báo cáo. • Tổng hợp dữ liệu định kỳ theo yêu cầu của các phòng ban và Ban lãnh đạo. PHÂN TÍCH DỮ…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "AI Engineer Intern",
@@ -2293,7 +2492,7 @@
    ],
    "desc": "We are looking for a Senior Data Engineer with strong hands-on experience in Databricks and modern data platforms to design, build, and maintain scalable data solutions for analytics and BI. The ideal candidate combines strong Data Engineering, SQL, data modeling, cloud, and system optimization skills, with the ability to take technical ownership and work closely with business and technical…",
    "logo": "logos/bosch-vietnam.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Scientist (40000031)",
@@ -2320,7 +2519,7 @@
     "Tableau"
    ],
    "logo": "logos/techcombank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Accounting Data Management, Specialist",
@@ -2344,7 +2543,7 @@
     "R"
    ],
    "logo": "logos/aia-vietnam.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer",
@@ -2372,7 +2571,7 @@
     "Hadoop"
    ],
    "desc": "Working Location: 89 Lang Ha, Hanoi 1. Job Description Design, build, and operate data processing systems to support analytics, reporting, and data consumption. Develop and optimize ETL/ELT pipelines to collect, transform, and integrate data from multiple sources. Build, manage, and optimize Data Warehouses and Data Lakes according to the project's system architecture. Develop batch and/or…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên Viên Cao Cấp Rủi Ro Gian Lận (Fraud Risk Data Analyst)",
@@ -2395,7 +2594,7 @@
     "Python"
    ],
    "desc": "A. MÔ TẢ CÔNG VIỆC: 1. Phân tích Dữ liệu & Phát hiện Gian lận (Fraud Analytics & Detection) Khai thác và xử lý dữ liệu lớn từ hệ thống Core/LOS/CRM để tìm kiếm các bất thường. Phân tích các mô hình gian lận phát sinh trên toàn chuỗi giá trị: từ khâu nộp hồ sơ vay, thẩm định, giải nhân đến thanh toán và hoa hồng (CTV/Đối tác). Đánh giá và phát hiện các hành vi gian lận tinh vi: Giả mạo giấy…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Expert, FCC System and Data Management (40001533)",
@@ -2415,7 +2614,7 @@
     "Tiếng Anh"
    ],
    "logo": "logos/techcombank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên gia Phân tích và quản trị dữ liệu Bảo hiểm",
@@ -2437,7 +2636,7 @@
     "Tiếng Anh"
    ],
    "logo": "logos/vib.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên Viên Data Marketing & Growth (Superapp và OTT TV) Làm Việc Tại Viettel Lào",
@@ -2497,7 +2696,7 @@
     "Machine Learning",
     "Deep Learning"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên Gia Phân Tích Và Quản Trị Dữ Liệu Bảo Hiểm",
@@ -2617,7 +2816,7 @@
     "Tiếng Anh"
    ],
    "logo": "logos/techcombank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Expert, FCC System and Data Management (40001533)",
@@ -2637,7 +2836,7 @@
     "Tiếng Anh"
    ],
    "logo": "logos/techcombank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Nhân Viên Data Analyst (Fresher)",
@@ -2715,7 +2914,7 @@
     "Machine Learning"
    ],
    "logo": "logos/sacombank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Nhân Viên Quản Lý Dữ Liệu & Hệ Thống",
@@ -2762,7 +2961,7 @@
    "logo": "https://assets.saramin.vn/images/2026/07/07/TopDev-ava-HL-1783406919.png",
    "skills": [],
    "desc": "Số lượng tuyển: 2 người Your role & responsibilities Tiến hành xuất số liệu từ phần mềm nội bộ và tổng hợp các số liệu về Doanh số, khách hàng, các chương trình, chính sách bán hàng,.. (thực hiện định kỳ và phát sinh theo yêu cầu của Quản lý).Tính toán, theo dõi tiến độ đạt KPI và các hiệu suất kinh doanh khác theo số liệu có sẵn từ phần mềm nội bộ.Báo cáo và update cho Quản lý, các Bộ phận liên…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên gia Data AI- Phòng Kế hoạch và Phân tích tài chính- Khối Quản trị tài chính",
@@ -2786,7 +2985,7 @@
    ],
    "desc": "Xây dựng và triển khai Finance Data Mart, mô hình dữ liệu tài chính, KPI và Dashboard điều hành Nghiên cứu, phát triển và triển khai các ứng dụng AI/GenAI phục vụ lập kế hoạch, dự báo tài chính, quản trị chi phí, phân tích hiệu quả kinh doanh và tự động hóa báo cáo. Tham gia xây dựng chiến lược dữ liệu và lộ trình chuyển đổi số của Khối QTTC. Tối thiểu 5 năm kinh nghiệm về Data Analytics, Data…",
    "logo": "logos/ncb.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Business/Data Analyst - RB (Platforms Debit Card And Payments)",
@@ -2825,7 +3024,7 @@
     "senior"
    ],
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Analyst and Modeler, VisionFund International",
@@ -2843,7 +3042,7 @@
     "Data Warehouse"
    ],
    "desc": "Malaysia + 2 more Data Analyst and Modeler, VisionFund International Organization World Vision Posted 15 Oct 2026 Closing date 15 Nov 2026 VisionFund International is World Vision’s microfinance provider serving vulnerable clients through loans, savings, and insurance. We enable families to grow their livelihoods in hard to reach, rural locations in 28 countries so that caregivers can create…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Lead Product Manager, Data Platform",
@@ -2866,7 +3065,7 @@
    ],
    "desc": "Get to Know the Role We're looking for an experienced Lead Product Manager to join our Technical Infrastructure team, specifically focusing on the Data Platform. In this role, you will own the strategic direction and execution of our data platform, collaborating with engineering, data science, analytics, and product teams to identify areas for improvement and develop impactful solutions. The Data…",
    "logo": "logos/grab.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Trade Marketing Leader - Mạnh Về Data Analyst",
@@ -2883,7 +3082,7 @@
     "lead"
    ],
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Scientist – ID2643",
@@ -2913,7 +3112,7 @@
     "Excel"
    ],
    "desc": "1. Tham gia và phối hợp triển khai các giải pháp khoa học dữ liệu và trí tuệ nhân tạo cho các đơn vị trong ngân hàng - Đề xuất và tham gia triển khai các giải pháp khoa học dữ liệu cùng chuyên gia và phối hợp chặt chẽ với các đơn vị kinh doanh/vận hành để giải quyết các bài toán thực tế có tính ứng dụng cao - Ứng dụng các kỹ thuật phân tích nâng cao, xác suất thống kê, học máy, học sâu và GenAI…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Phân tích dữ liệu - Data Analyst",
@@ -2990,7 +3189,7 @@
     "Data Warehouse"
    ],
    "logo": "logos/techcombank.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Business Intelligence Specialist",
@@ -3013,7 +3212,7 @@
     "Qlik"
    ],
    "desc": "1. Summary Reporting directly to: Business Intelligence Manager Department: Commercial Excellence Working location: Lê Đai Hanh Q11 HCM 2. Job Description Responsible for all stages of the business intelligence cycle: understanding business objective, collecting business requirements, and translating them into data requirements, designing and developing reports/dashboards (code and…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer",
@@ -3034,7 +3233,7 @@
     "Tiếng Anh"
    ],
    "desc": "1. CHI TIẾT CÔNG VIỆC Tham gia thiết kế, phát triển và vận hành các luồng xử lý dữ liệu (batch & streaming) trên nền tảng Big Data Phối hợp xây dựng và tối ưu hệ thống xử lý dữ liệu thời gian thực, đảm bảo độ ổn định và hiệu năng Xây dựng và quản lý quy trình điều phối dữ liệu (orchestration), đảm bảo dữ liệu được xử lý đúng hạn và có thể theo dõi Thực hiện các hoạt động đảm bảo chất lượng dữ…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Nhân Viên Data Engineer",
@@ -3071,7 +3270,7 @@
     "LLM / GenAI"
    ],
    "desc": "Flodesk is recognized in the Inc 5000 as one of the world's fastest-growing email marketing companies, built to help entrepreneurs sell online and design emails that people love to get. We're committed to giving small businesses simple and intuitive tools that help them grow, nurture, and monetize their email list. We’re a remote-first company headquartered in San Francisco with a globally…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Engineer",
@@ -3123,7 +3322,7 @@
     "Git"
    ],
    "desc": "1) Mô tả công việc Tham gia thiết kế, xây dựng và vận hành hệ thống Data Warehouse/Data Lake phục vụ khai thác và phân tích dữ liệu của Công ty. Xây dựng, tối ưu và giám sát các ETL/ELT pipeline (batch và streaming), đảm bảo dữ liệu được tích hợp ổn định từ nhiều nguồn. Đảm bảo chất lượng dữ liệu, tính toàn vẹn và bảo mật dữ liệu trong toàn bộ hệ thống. Phối hợp với các bộ phận BI, Data Analyst,…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Academic Assistant (Systems, Data & Quality Coordination)",
@@ -3144,7 +3343,7 @@
     "Power BI",
     "Looker"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer (3-4 yoe+)",
@@ -3234,7 +3433,7 @@
     "lead"
    ],
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Specialist, Business Intelligence & Process Automation",
@@ -3317,7 +3516,7 @@
     "Tableau"
    ],
    "desc": "Job Description Prepare accurate and timely financial reports (monthly, quarterly, and annual statements). Collect, consolidate, and validate financial data from multiple departments and systems. Assist in coordinating financial planning activities and preparing executive summaries for management and stakeholders. Support the development of automated reports and interactive dashboards to convert…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Catalog",
@@ -3361,7 +3560,7 @@
     "Airflow"
    ],
    "logo": "logos/vib.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Business Intelligence (BI)",
@@ -3383,7 +3582,7 @@
     "Git"
    ],
    "logo": "logos/vib.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Công ty Cổ phần Tập đoàn Hòa Phát tuyển dụng chuyên viên phân tích dữ liệu",
@@ -3402,7 +3601,7 @@
     "Data Modeling"
    ],
    "desc": "Công Ty Cổ Phần Tập Đoàn Hòa Phát Tuyển Dụng Vị Trí Thuộc Ban Công Nghệ Và Chuyển Đổi Số, Tham Gia Đề Án Trung Tâm Dữ Liệu Tập Trung Và Agentic AI, Chi Tiết Như Sau Vị trí tuyển dụng: 02 Chuyên viên Phân tích dữ liệu (Data Analyst) Yêu cầu Tốt nghiệp đại học chuyên ngành Thống kê, Toán ứng dụng, Hệ thống thông tin, Công nghệ thông tin hoặc các ngành liên quan. Có tối thiểu 02 năm kinh nghiệm làm…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Trợ Giảng/Giảng Viên Phân Tích Dữ Liệu",
@@ -3446,7 +3645,7 @@
     "Git"
    ],
    "desc": "Our Company We're Hitachi Digital Services, a global digital solutions and transformation business with a bold vision of our world's potential. We're people-centric and here to power good. Every day, we future-proof urban spaces, conserve natural resources, protect rainforests, and save lives. This is a world where innovation, technology, and deep expertise come together to take our company and…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Nhân Viên Triển Khai/Content Marketing/Chuẩn Hóa Dữ Liệu",
@@ -3563,7 +3762,7 @@
     "Tiếng Anh"
    ],
    "logo": "logos/vib.png",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Engineer",
@@ -3586,7 +3785,7 @@
     "Pandas"
    ],
    "desc": "OPSWAT, a global leader in IT, OT, and ICS critical infrastructure cybersecurity, delivers an end-to-end platform that gives public and private sector organizations and enterprises the critical advantage needed to protect their complex networks, secure their devices, and ensure compliance. Over the last 20 years our commitment to innovative technology has earned the trust of more than 1,700…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu",
@@ -3767,7 +3966,7 @@
     "ETL"
    ],
    "desc": "VỀ VNDIRECT VNDIRECT là công ty chứng khoán hàng đầu tại Việt Nam, cung cấp hệ sinh thái dịch vụ tài chính toàn diện, đáng tin cậy và cực kỳ đơn giản nhằm hướng tới Sức khỏe tài chính và Tài sản an toàn của khách hàng. Tại VNDIRECT, chúng tôi tìm kiếm những cộng sự chia sẻ chung hệ giá trị phẩm chất IPAM : Insights (Quan sát & Tôn trọng sự thật), Passion (Học hỏi & Tống hiến cải tiến), Action…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer",
@@ -3783,7 +3982,7 @@
     "Data Modeling"
    ],
    "desc": "MÔ TẢ CÔNG VIỆC Xây dựng và vận hành nền tảng dữ liệu của công ty - bao gồm hạ tầng lưu trữ, các luồng xử lý dữ liệu và bộ công cụ phục vụ nhu cầu khai thác và quản trị dữ liệu trong toàn tổ chức. 1. Xây dựng nền tảng và công cụ dữ liệu Phát triển và duy trì nền tảng dữ liệu ở các tầng lưu trữ, xử lý và phục vụ dữ liệu (serving), đảm bảo đáp ứng nhu cầu của các nhóm khai thác dữ liệu trong công…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên Viên/ CVCC Phân Tích Dữ Liệu (Data Analyst)",
@@ -3798,7 +3997,7 @@
     "Data Modeling"
    ],
    "desc": "1. Xây dựng nền tảng dữ liệu: - Khảo sát yêu cầu nghiệp vụ, trao đổi với Biz owner/ PO sản phẩm, phòng ban nghiệp vụ có liên quan để hiểu được các quy trình phát sinh dữ liệu từ hệ thống nhằm xây dựng tài liệu mô tả nguồn dữ liệu và tài liệu thiết kế tổ chức dữ liệu. - Xây dựng ra các bộ công thức để đảm bảo chất lượng của dữ liệu và kiểm tra được tính chính xác của dữ liệu. - Xây dựng tài liệu…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Phụ Trách Bảo Vệ Dữ Liệu (Data Protection Officer)",
@@ -3811,7 +4010,7 @@
    "logo": "logos/vndirect.png",
    "skills": [],
    "desc": "1. Đảm bảo tuân thủ quy định pháp luật Đảm bảo tổ chức tuân thủ các quy định pháp luật bảo vệ dữ liệu. Đóng vai trò trung tâm trong việc tư vấn chiến lược bảo vệ dữ liệu cho ban lãnh đạo. Triển khai các biện pháp kỹ thuật và tổ chức để bảo vệ quyền lợi của các chủ thể dữ liệu. 2. Đào tạo và nâng cao nhận thức Xây dựng và triển khai chương trình đào tạo nội bộ về bảo vệ dữ liệu. Nâng cao nhận thức…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên Dữ liệu lớn",
@@ -3829,7 +4028,7 @@
    ],
    "desc": "* Xây dựng kiến trúc, phát triển các công cụ khai thác dữ liệu lớn, xử lý, chuyển đổi dữ liệu lớn và quản trị dữ liệu lớn (Big Data). * Triển khai và phát triển các ứng dụng, mô hình xử lý dữ liệu trong hệ sinh thái dữ liệu lớn (Big Data) (Hadoop, Spark, Kafka,…) nhằm đảm bảo cung cấp một nền tảng lưu trữ, xử lý và khai thác dữ liệu đồng nhất, ổn định và hiệu quả cao. * Nghiên cứu và thiết kế các…",
    "location": "",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên chính Quản lý dữ liệu",
@@ -3845,7 +4044,7 @@
    ],
    "desc": "* Phân tích yêu cầu nghiệp vụ, thiết kế lập trình chuyển đổi dữ liệu từ các cơ sở dữ liệu giao dịch về kho hợp nhất ODS (Operational Data Store). Thiết kế, xây dựng kho dữ liệu Data Warehouse, Data mart. * Xây dựng và phát triển các hệ thống lưu trữ dữ liệu lớn (Big Data), các tiến trình đồng bộ dữ liệu thời gian thực (real-time) và streaming dữ liệu (streaming processing, stream analytics). *…",
    "location": "",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "AI Engineer - MSIB",
@@ -3857,7 +4056,7 @@
    "logo": "logos/msb.png",
    "skills": [],
    "location": "",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer",
@@ -3869,7 +4068,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpay.png",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "[HN] Data Engineer",
@@ -3881,7 +4080,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpay.png",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Scientist",
@@ -3893,7 +4092,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpay.png",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Nhân viên phát triển sản phẩm dữ liệu (PO)",
@@ -3905,7 +4104,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpay.png",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên phân tích dữ liệu (Data Analyst)",
@@ -3917,7 +4116,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpay.png",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "AI ENGINEER",
@@ -3929,7 +4128,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpay.png",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Scientist",
@@ -3941,7 +4140,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpay.png",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên Gia Phân Tích Dữ Liệu Khách Hàng Và Đánh Giá Hiệu Quả",
@@ -3993,7 +4192,7 @@
     "Tableau",
     "Power BI"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Finance & Data Specialist",
@@ -4017,7 +4216,7 @@
     "Python"
    ],
    "desc": "I. MÔ TẢ CÔNG VIỆC Phân tích báo cáo tài chính, doanh thu, chi phí, lợi nhuận, dòng tiền và hiệu quả từng mảng kinh doanh. Xây dựng dashboard và báo cáo quản trị phục vụ Ban Tổng Giám đốc và các quyết định vận hành – chiến lược. Đối soát dữ liệu với Kế toán, Sales, Vận hành và các đơn vị kinh doanh để đảm bảo số liệu chính xác, nhất quán. Ứng dụng AI/AI Agent trong công việc để hỗ trợ tổng hợp dữ…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Finance & Data Senior",
@@ -4041,7 +4240,7 @@
     "Python"
    ],
    "desc": "I. MÔ TẢ CÔNG VIỆC Phân tích báo cáo tài chính, doanh thu, chi phí, lợi nhuận, dòng tiền và hiệu quả từng mảng kinh doanh (actual và plan).. Xây dựng dashboard và báo cáo quản trị phục vụ Ban Tổng Giám đốc và các quyết định vận hành – chiến lược. Đối soát dữ liệu với Kế toán, Sales, Vận hành và các đơn vị kinh doanh để đảm bảo số liệu chính xác, nhất quán. Số hóa quy trình báo cáo, chuẩn hóa dữ…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Kỹ sư dữ liệu - Data Engineer",
@@ -4053,7 +4252,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpt.png",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Kỹ sư Phân tích dữ liệu - Data Analyst",
@@ -4065,7 +4264,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpt.png",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Lập trình PL/SQL",
@@ -4093,7 +4292,7 @@
    "skills": [
     "MLOps"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Kỹ sư Khoa học dữ liệu (Data Scientist)",
@@ -4105,7 +4304,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpt.png",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Kỹ sư dữ liệu (Data Engineer)",
@@ -4117,7 +4316,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpt.png",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Fresher Kỹ sư dữ liệu",
@@ -4144,7 +4343,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpt.png",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Kỹ sư dữ liệu (Data Engineer)",
@@ -4190,7 +4389,7 @@
     "Data Warehouse"
    ],
    "desc": "Vận hành dữ liệu thể thao Quản lý, sắp xếp và cập nhật giải đấu, mùa giải, vòng đấu và lịch thi đấu thể thao quốc tế. Kiểm tra dữ liệu trận đấu: thời gian, đội nhà/đội khách, tỷ số, trạng thái, hiệp đấu và sự kiện trận đấu; phát hiện các lỗi sai, thiếu hoặc trùng dữ liệu. Sử dụng hệ thống Admin/CMS để cập nhật, chỉnh sửa, phê duyệt và quản lý dữ liệu giải đấu, đội bóng, cầu thủ và trận đấu. Kiểm…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Business Data Analyst",
@@ -4246,7 +4445,7 @@
     "Azure",
     "AWS"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior - Data Analyst",
@@ -4266,7 +4465,7 @@
     "SQL",
     "Python"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Middle/Senior Data Orchestration - Data Engineer",
@@ -4301,7 +4500,7 @@
     "GCP",
     "AWS"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Ops - Senior Data Engineer",
@@ -4328,7 +4527,7 @@
     "dbt",
     "Kafka"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên Viên Cao Cấp Quản Lý Dữ Liệu - Master Data Management",
@@ -4366,7 +4565,7 @@
     "Data Warehouse",
     "ETL"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Analyst – Credit Risk & Collections | Hanoi",
@@ -4477,7 +4676,7 @@
     "Scala",
     "Tiếng Anh"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Scientist",
@@ -4578,7 +4777,7 @@
     "LLM / GenAI",
     "Python"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Engineer (Databricks)",
@@ -4636,7 +4835,7 @@
     "lead"
    ],
    "skills": [],
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior AI Scientist",
@@ -4656,7 +4855,7 @@
     "Python",
     "LLM / GenAI"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Kỹ sư Dữ liệu (Data Engineer)",
@@ -4697,7 +4896,7 @@
     "SQL",
     "NoSQL"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Business Intelligence",
@@ -4717,7 +4916,7 @@
     "Thống kê",
     "SQL"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Nhân viên data (admin)",
@@ -4733,7 +4932,7 @@
     "Excel"
    ],
    "desc": "- Làm việc với các khách hàng để nhận lịch giao hàng hằng ngày. - Phối hợp với đội ngũ vận hành thực hiện kế hoạch phân loại, xuất hàng và nhập hàng hằng ngày trên hệ thống. - Quản lý, kiểm soát chứng từ, tài liệu. - Nhập dữ liệu kịp thời trên hệ thống và bảo đảm tính chính xác của dữ liệu. - Đảm bảo tất cả các báo cáo được duy trì và cập nhật kịp thời. - Đảm bảo việc tuân thủ Kỷ luật, các quy…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Analyst",
@@ -4855,7 +5054,7 @@
     "MLOps",
     "Kubernetes"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "[TT KT&KHDL]_Trưởng phòng Kỹ thuật dữ liệu",
@@ -5031,7 +5230,7 @@
    "logo": "logos/lpbank.png",
    "skills": [],
    "desc": "1. Quản trị dữ liệu và phân luồng nợ - Thực hiện phân luồng các khoản nợ theo đúng quy định, đảm bảo kịp thời và chính xác. - Kiểm tra, rà soát, cập nhật và quản lý dữ liệu các khoản nợ trên hệ thống. - Tổng hợp dữ liệu và lập báo cáo định kỳ/đột xuất theo yêu cầu của cấp trên. 2. Vận hành và hỗ trợ phát triển công nghệ - Trực tiếp vận hành, theo dõi và xử lý sự cố của các phần mềm, công cụ số…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "[Hà Nội] Chuyên gia Quản lý Dữ liệu tài chính (MIS) - Khối Thị trường và Quản trị tài chính",
@@ -5055,7 +5254,7 @@
     "VBA"
    ],
    "desc": "Xây dựng và duy trì các nguyên tắc quản trị dữ liệu tài chính: - Quản lý danh mục dữ liệu, từ điển dữ liệu tài chính và hệ thống datamart đảm bảo phục vụ Quản trị Tài chính. - Đề xuất và triển khai các chiến lược quản trị dữ liệu phù hợp với yêu cầu phát triển của ngân hàng. Phát triển hệ thống thông tin báo cáo quản trị: - Đầu mối làm việc với nhà thầu, Khối CNTT về xây dựng và nâng cấp hệ thống…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Analytics Lead - D365",
@@ -5102,7 +5301,7 @@
     "Scala"
    ],
    "desc": "• Vị trí tuyển dụng: Kỹ sư dữ liệu • Đơn vị tuyển dụng: VNPT-Net • Số lượng tuyển dụng: 05 • Thu nhập: từ 400 đến 550 triệu đồng/năm (min/max) • Địa điểm làm việc: Hà Nội Your role & responsibilities Your skills & qualifications Benefits for you Các chế độ bảo hiểm theo quy định của Bộ Tham dự chương trình đào tạo ở trong & ngoaì nước Hưởng phụ cấp ăn ca 730.00VNĐ/tháng Các chế độ BHXH, BHYT,…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Analysis Officer (AEON Group Point)",
@@ -5147,7 +5346,7 @@
     "Python"
    ],
    "desc": "MỤC ĐÍCH CHỨC DANH: Quản lý và điều hành đội ngũ DataOps trong việc vận hành các nền tảng dữ liệu của Ngân hàng, chịu trách nhiệm vận hành, giám sát và tối ưu nền tảng dữ liệu tập trung (DWH), bao gồm hệ thống On-Premises (DB2, ExaCC), nền tảng dashboard BI/AI BI và Cloud Data Platform (Databricks), đảm bảo các dịch vụ dữ liệu hoạt động ổn định, liên tục và đáp ứng yêu cầu kinh doanh. Đồng thời…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Analyst",
@@ -5250,7 +5449,7 @@
     "Tiếng Anh",
     "Excel"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "CVCC Quản trị dữ liệu TSBĐ- Hà Nội- TA084",
@@ -5266,7 +5465,7 @@
     "Machine Learning",
     "Tiếng Anh"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Business Intelligence (Collection) - Hà Nội - TA174",
@@ -5323,7 +5522,7 @@
    "logo": "logos/shb.png",
    "skills": [],
    "desc": "1. Xây dựng, kiểm định, giám sát và triển khai trên hệ thống các mô hình/công cụ đo lường rủi ro tín dụng bao gồm tối thiểu các mô hình sau: Scorecard (A-/B-Card), PD, LGD, EAD theo cấp độ khoản vay/khách hàng/danh mục 2. Xây dựng, kiểm định, giám sát và triển khai trên hệ thống các mô hình/công cụ phân tích kinh doanh nhằm nâng cao hiệu quả hoạt động kinh doanh của NH theo suốt vòng đời tín dụng…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên cao cấp Quản lý dữ liệu - Khối Ngân hàng Bán lẻ",
@@ -5339,7 +5538,7 @@
    "logo": "logos/shb.png",
    "skills": [],
    "desc": "1. Vận hành và đảm bảo chất lượng nền tảng dữ liệu Vận hành, giám sát và xử lý các pipeline dữ liệu hằng ngày; chủ động phát hiện, phân tích nguyên nhân và xử lý các sự cố phát sinh. Kiểm tra, đối soát và đảm bảo chất lượng dữ liệu giữa các hệ thống nguồn; phối hợp xử lý các vấn đề liên quan đến dữ liệu. Tham gia xây dựng, cập nhật Data Dictionary, Metadata và các tài liệu phục vụ quản trị dữ…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "AI Engineer - Dự án CNTT",
@@ -5400,7 +5599,7 @@
    "logo": "logos/pvcombank.png",
    "skills": [],
    "desc": "Theo dõi, tổng hợp và phân tích dữ liệu hoạt động kinh doanh của Khối theo định kỳ, đảm bảo phản ánh đầy đủ tình hình thực hiện. Lập các báo cáo quản trị định kỳ và đột xuất, phục vụ nhu cầu điều hành của Lãnh đạo Khối. Theo dõi hiệu quả TOI theo khách hàng, các chỉ tiêu tài chính và hỗ trợ phân tích xu hướng biến động. Hỗ trợ quản lý dữ liệu nhân sự, cập nhật thông tin phân công công việc và…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên gia Dữ liệu báo cáo - Phòng Quản lý kinh doanh - Khối KHDN",
@@ -5416,7 +5615,7 @@
    "logo": "logos/pvcombank.png",
    "skills": [],
    "desc": "Thiết kế, xây dựng và hoàn thiện hệ thống báo cáo quản trị đa chiều, đảm bảo tính nhất quán, chính xác và khả năng khai thác phục vụ điều hành. Phân tích dữ liệu kinh doanh, theo dõi hiệu quả TOI, lãi suất cho vay và các chỉ tiêu tài chính quan trọng theo từng khách hàng, ngành và chương trình. Tham gia xây dựng các báo cáo phân tích chuyên sâu, hỗ trợ Lãnh đạo Khối trong việc ra quyết định và…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên gia Vận hành Nền tảng tích hợp dữ liệu - K.CNTT",
@@ -5434,7 +5633,7 @@
     "AWS"
    ],
    "desc": "Mô tả công việc Thiết kế và định hướng kiến trúc tích hợp dữ liệu trên On-premise và AWS. Xây dựng giải pháp tích hợp dữ liệu Batch, Near Real-time và Real-time. Xây dựng tiêu chuẩn vận hành, Monitoring, HA/DR và Performance. Chủ trì xử lý sự cố phức tạp, định hướng Automation/DevOps/CI/CD và dẫn dắt kỹ thuật. Chuyên gia Vận hành Nền tảng tích hợp dữ liệu - K.CNTT",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên cao cấp vận hành nền tảng tích hợp dữ liệu - K.CNTT",
@@ -5452,7 +5651,7 @@
     "AWS"
    ],
    "desc": "Mô tả công việc Quản trị và xử lý sự cố các nền tảng tích hợp dữ liệu. Vận hành các luồng Batch, CDC và Streaming trên On-premise và AWS. Phân tích và xử lý các vấn đề về độ trễ, hiệu năng và tính toàn vẹn dữ liệu. Thực hiện triển khai, nâng cấp, tối ưu; xây dựng Monitoring, Automation và CI/CD. Review thay đổi và hỗ trợ kỹ thuật cho các thành viên khác. Chuyên viên cao cấp vận hành nền tảng tích…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên vận hành nền tảng tích hợp dữ liệu - K.CNTT",
@@ -5467,7 +5666,7 @@
     "ETL"
    ],
    "desc": "Mô tả công việc Vận hành và giám sát các luồng tích hợp, đồng bộ và trao đổi dữ liệu giữa các hệ thống. Theo dõi các luồng ETL/ELT, CDC, Replication và Data Streaming. Phát hiện, xử lý lỗi, độ trễ hoặc gián đoạn luồng dữ liệu. Hỗ trợ triển khai thay đổi và phối hợp với DBA, Data Engineer, hệ thống nguồn/đích để xử lý sự cố. Chuyên viên vận hành nền tảng tích hợp dữ liệu - K.CNTT",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên gia Vận hành Nền tảng khai thác dữ liệu - K.CNTT",
@@ -5483,7 +5682,7 @@
    "logo": "logos/pvcombank.png",
    "skills": [],
    "desc": "Mô tả công việc Thiết kế và định hướng kiến trúc nền tảng xử lý, khai thác dữ liệu. Xây dựng tiêu chuẩn vận hành, Monitoring, HA/DR, Capacity và Performance. Chủ trì xử lý sự cố phức tạp và các dự án nâng cấp, chuyển đổi nền tảng dữ liệu. Định hướng Automation, DevOps; review kiến trúc và dẫn dắt kỹ thuật. Chuyên gia Vận hành Nền tảng khai thác dữ liệu - K.CNTT",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên cao cấp vận hành nền tảng tích hợp dữ liệu - K.CNTT",
@@ -5502,7 +5701,7 @@
     "ETL"
    ],
    "desc": "Mô tả công việc Vận hành và quản trị các nền tảng xử lý, khai thác dữ liệu trên On-premise và AWS. Xử lý sự cố phức tạp liên quan đến ETL, job, service và hiệu năng hệ thống. Thực hiện triển khai, nâng cấp và tối ưu nền tảng. Xây dựng Monitoring, Automation, CI/CD; review thay đổi và hướng dẫn kỹ thuật. Chuyên viên cao cấp vận hành nền tảng tích hợp dữ liệu - K.CNTT",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên vận hành nền tảng khai thác dữ liệu - K.CNTT",
@@ -5517,7 +5716,7 @@
     "AWS"
    ],
    "desc": "Mô tả công việc Vận hành, giám sát các nền tảng và ứng dụng phục vụ xử lý, khai thác dữ liệu trên On-premise và AWS. Theo dõi job, service, tài nguyên và tình trạng hoạt động của hệ thống. Phân tích log, hỗ trợ xử lý lỗi job và sự cố ứng dụng. Thực hiện triển khai, cấu hình, quản lý thay đổi và tham gia tự động hóa vận hành. Chuyên viên vận hành nền tảng khai thác dữ liệu - K.CNTT",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên cao cấp Kế hoạch tài chính (mảng dữ liệu)",
@@ -5535,7 +5734,7 @@
     "SQL"
    ],
    "desc": "1. Xây dựng Cơ sở Dữ liệu: • Xây dựng cấu trúc dữ liệu SQL Server. • Thiết lập download dữ liệu tự động từ Database SQL Oracle của Ngân hàng. • Thiết lập download dữ liệu tự động từ các báo cáo trên BO (Trang web lưu dữ liệu của Ngân hàng). • Xây dựng các nguyên tắc quản trị dữ liệu liên quan đến chuyên môn nghiệp vụ tài chính, bảng dữ liệu tài chính (Datamart), các từ điển dữ liệu tài chính. •…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Business Intelligence Analyst (User Growth), Zalopay",
@@ -5561,7 +5760,7 @@
     "Google Analytics",
     "Machine Learning"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Privacy Executive, Zalopay",
@@ -5574,7 +5773,7 @@
    "desc": "Support ZION ’s Data Protection Officer (DPO) in driv ing company-wide data privacy compliance under Vietnam’s data laws , helping buil d a governance culture that treats data as a critical asset and ensures privacy across all key business activities . Responsibilities Support d ata governance & privacy risk management . Assist in internal legal reviews & GRC activities to ensur e compliance with…",
    "logo": "logos/vng.png",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data & Analytics Lead, GreenNode",
@@ -5598,7 +5797,7 @@
     "Spark",
     "Python"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "AI Engineer, GreenNode",
@@ -5618,7 +5817,7 @@
     "PyTorch",
     "Tiếng Anh"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior AI Engineer, GreenNode",
@@ -5639,7 +5838,7 @@
     "Python",
     "Tiếng Anh"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "AI Engineer (Forward Deployed), GreenNode",
@@ -5678,7 +5877,7 @@
     "SQL",
     "LLM / GenAI"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Business Intelligence Analyst (Financial Services), Zalopay",
@@ -5699,7 +5898,7 @@
     "Snowflake",
     "LLM / GenAI"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "AI Engineer, Zalopay",
@@ -5717,7 +5916,7 @@
     "Python",
     "A/B Testing"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Machine Learning Engineer (Production Focus), VNGGames",
@@ -5763,7 +5962,7 @@
     "MLOps"
    ],
    "desc": "{'jobId': 16901, 'jobTitle': 'Senior - Data Scientist (Multiple Teams)', 'jobDesc': '\\n \\n \\n \\n Company Introduction Momo is one of Vietnam\\'s leading fintech companies, serving more than 30 million users across payments, financial services, and everyday digital needs. Our ambition is to become an AI-powered Financial Assistant for every Vietnamese. We use technology and data to make managing…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior/Lead - Software Engineer, AI & Data Team",
@@ -5786,7 +5985,7 @@
     "Kubernetes",
     "NLP"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Scientist II",
@@ -5802,7 +6001,7 @@
     "Thống kê",
     "Machine Learning"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Expert Data Engineer - Data Infrastructure",
@@ -5824,7 +6023,7 @@
     "Hadoop",
     "Spark"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Middle/Senior Data Orchestration - Data Engineer",
@@ -5861,7 +6060,7 @@
     "NoSQL",
     "SQL"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Scientist I",
@@ -5877,7 +6076,7 @@
     "Machine Learning",
     "A/B Testing"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior - Machine Learning Engineer",
@@ -5903,7 +6102,7 @@
     "Deep Learning",
     "NLP"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "AI Engineer II, Voicebot",
@@ -5931,7 +6130,7 @@
     "BigQuery",
     "Thống kê"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Analytics Engineer",
@@ -5974,7 +6173,7 @@
     "NLP"
    ],
    "desc": "{'jobId': 16905, 'jobTitle': 'Senior AI Engineer, Inference', 'jobDesc': '\\n We are seeking a Senior AI Engineer (Inference) to design, optimize, and scale high-performance AI inference systems in production; This role focuses on serving large-scale AI models (LLMs, VLMs, Computer Vision models) with high throughput, low latency, and strong reliability. You will work closely with AI researchers,…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior - AI Engineer, NLP",
@@ -5995,7 +6194,7 @@
     "LLM / GenAI",
     "Python"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "(Lead/ Expert) - Product Growth & Analytics",
@@ -6015,7 +6214,7 @@
     "NLP"
    ],
    "desc": "{'jobId': 19898, 'jobTitle': '(Lead/ Expert) - Product Growth & Analytics', 'jobDesc': '\\n \\n \\n \\n We’re reimagining how people connect with financial products - making them useful, meaningful, and part of everyday life. This is a senior individual contributor role designed to strengthen the specialist capabilities of Product Growth & Analytics. You will build the research capability that…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Digital Analytics Specialist",
@@ -6044,7 +6243,7 @@
     "SQL"
    ],
    "desc": "1. Responsibilities: Data Maintenance & Reporting Build and manage master datasets covering store analogs, rental profiles, rent-to-revenue ratios, lease benchmarks, and site evaluation inputs to support expansion, renewal, and investment decisions. Develop and maintain dynamic dashboards and reporting systems using Power BI and SQL, ensuring accurate, complete, and actionable data for…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "*Data Analyst (Tender Data)",
@@ -6101,7 +6300,7 @@
    ],
    "skills": [],
    "desc": "Địa điểm làm việc: Hà Nội Your role & responsibilities Your skills & qualifications Benefits for you Trải nghiệm Thu nhập hấp dẫn với gói đãi ngộ toàn diện: Thưởng tháng lương 13; Thưởng thành tích 06 tháng, 1 năm ; Thưởng các dịp lễ tết trong năm ; Thưởng theo danh hiệu cá nhân và tập thể… Du lịch nghỉ dưỡng hàng năm, Khám sức khỏe định kì; Gói bảo hiểm sức khỏe cá nhân và người thân (MIC); Quà…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "DATA ANALYST EXECUTIVE",
@@ -6128,7 +6327,7 @@
     "Excel"
    ],
    "desc": "Job Description: Analyze business requirements related to management reporting, accounting, and finance. Work with data from various application systems to define data requirements and reporting logic. Collaborate with IT/Data teams in: Data design Building ETL processes and Data Pipelines for reporting purposes Perform data mapping, data reconciliation, and support UAT activities. Participate in…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Engineer (60%DE 40%BE)",
@@ -6169,7 +6368,7 @@
     "Tiếng Nhật"
    ],
    "desc": "NHÂN VIÊN PHÒNG DỮ LIỆU Công ty 100% vốn đầu tư của Nhật Địa điểm: KCN Long Đức – Đồng Nai Có xe đưa đón từ công viên Tam Hiệp – Biên Hòa. 1. Mô tả công việc: Quản lý dữ liệu nhập. Nhận tài liệu, thông số kỹ thuật từ công ty mẹ qua mail, Teams, chat... và truyền đạt xuống các phòng ban. Lấy dữ liệu từ bảng thiết kế nhập vào hệ thống để bộ phận thiết kế sử dụng. Thời gian đầu nhận việc sẽ được đào…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior AI Engineer",
@@ -6190,7 +6389,7 @@
     "Python",
     "Java"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer",
@@ -6355,7 +6554,7 @@
     "junior"
    ],
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Trưởng/ Phó Phòng Công Nghệ Dữ Liệu",
@@ -6374,7 +6573,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên Viên, Chuyên Viên Cao Cấp Phân Tích Dữ Liệu Và Xây Dựng Mô Hình Phát Hiện Gian Lận - Khối Quản Trị Rủi Ro (2026TD455215)",
@@ -6395,7 +6594,7 @@
     "Deep Learning",
     "Thống kê"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Kỹ Sư Dữ Liệu (DE)",
@@ -6417,7 +6616,7 @@
     "Kafka",
     "NoSQL"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Solutions Architect (Cloud Arch., Warehousing)",
@@ -6478,7 +6677,7 @@
     "Machine Learning",
     "Tiếng Anh"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Business Intelligence (C360) - HN - TA174",
@@ -6553,7 +6752,7 @@
     "SQL",
     "Java"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "IT Data Architect",
@@ -6574,7 +6773,7 @@
     "NoSQL",
     "Tiếng Anh"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Business Data Analyst",
@@ -6610,7 +6809,7 @@
     "Power BI"
    ],
    "desc": "1. CRM Quản lý các kênh CRM/owned channels gồm Zalo OA/ZNS/ZBS, push notification, in-app banner, pop-up, app inbox và các hình thức thông báo trong app Thiết lập và theo dõi hiệu quả các kênh CRM/owned channels theo từng nhóm khách hàng; đề xuất điều chỉnh khi theo hiệu quả, kế hoạch; Setup, kiểm tra và vận hành các chương trình voucher/campaign trên hệ thống, đảm bảo đúng điều kiện, đúng tệp…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "[DNA274] Nhân viên phòng dữ liệu - Tiếng Nhật N2 - KCN Long Đức",
@@ -6631,7 +6830,7 @@
     "SQL"
    ],
    "desc": "TÊN VỊ TRÍ NHÂN VIÊN PHÒNG DỮ LIỆU ĐỊA ĐIỂM Khu công nghiệp Long Đức, Đồng Nai XE ĐƯA RƯỚC Công ty có xe đưa đón từ công viên Tam Hiệp - Biên Hòa. MÔ TẢ CÔNG VIỆC - Quản lý dữ liệu nhập. - Nhận tài liệu, thông số kỹ thuật từ công ty mẹ qua email, team, chat... và truyền đạt xuống các phòng ban liên quan. - Lấy dữ liệu từ bảng thiết kế và nhập vào hệ thống để bộ phận thiết kế sử dụng. - Hỗ trợ…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "AI Engineer Intern",
@@ -6668,7 +6867,7 @@
    "skills": [
     "SQL"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Analyst",
@@ -6762,7 +6961,7 @@
     "mid"
    ],
    "skills": [],
-   "last_seen": "2026-10-08"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu Cao Cấp Danh Mục Thu Hồi Nợ",
@@ -6781,7 +6980,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Scientist – VoiceAI",
@@ -6938,7 +7137,7 @@
     "SQL"
    ],
    "desc": "1. Mục tiêu công việc: Thực hiện các hoạt động liên quan đến xây dựng và triển khai cơ chế bảo mật dữ liệu, đảm bảo an toàn, tuân thủ và bảo vệ dữ liệu trong suốt vòng đời, theo quy định pháp luật và tiêu chuẩn quốc tế (Nghị định 13/2023/NĐ-CP, ISO 27001, GDPR...). Phối hợp với các đơn vị Quản trị dữ liệu, An ninh thông tin, Rủi ro và Tuân thủ để triển khai hiệu quả các chính sách, quy trình,…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Kỹ sư Dữ liệu - Data Engineer - Khối Dữ liệu (2026TD450985)",
@@ -6956,7 +7155,7 @@
     "AWS",
     "Tiếng Anh"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên Quản lý chất lượng dữ liệu - Data Quality Management Specialist - Khối Dữ liệu (2026TD450981)",
@@ -6973,7 +7172,7 @@
     "SQL"
    ],
    "desc": "- Thực hiện phân loại/cập nhật phân loại bảo mật dữ liệu, xây dựng ma trận phân quyền truy cập dữ liệu - Tham gia triển khai, đánh giá và kiểm soát tuân thủ các quy định pháp luật về bảo vệ dữ liệu cá nhân và bảo mật thông tin - Triển khai đo lường, đánh giá chất lượng dữ liệu theo các tiêu chuẩn, thang điểm, hướng dẫn... đã được ban hành. Giám sát và định kỳ báo cáo về tình hình chất lượng dữ…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Engineer",
@@ -7095,7 +7294,7 @@
     "Python"
    ],
    "desc": "DATA ENGINEER Location: Quang Trung Software City, District 12, Ho Chi Minh City Duties and Responsibilities Develop and maintain data pipelines and existing data solutions. Monitor data processes and support troubleshooting when data issues occur. Work with data models and semantic models/layers to support reporting and analytics. Work with large datasets and MPP (Massively Parallel Processing)…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Business Intelligence Engineer (Junior)",
@@ -7119,7 +7318,7 @@
     "Data Warehouse"
    ],
    "desc": "WHAT YOU WILL BE WORKING ON​ What you will focus on As a Business Intelligence Engineer, you’ll own the telemetry and reporting foundation that the studio relies on to make data-driven decisions. You’ll work at the intersection of raw event data, analytics, and business reporting - making sure our data is clean, consistent, and trustworthy. The key challenge is to build a scalable tracking…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "IT Auditor (For Data Governance)(40000068)",
@@ -7169,7 +7368,7 @@
     "Docker",
     "Kubernetes"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "HO - Data Science Specialist",
@@ -7190,7 +7389,7 @@
     "NLP",
     "A/B Testing"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "P&G LEAD GEN - Data & Automation Intern",
@@ -7213,7 +7412,7 @@
     "SQL",
     "Python"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Steward (Quản trị dữ liệu nghiệp vụ)",
@@ -7299,7 +7498,7 @@
     "Machine Learning",
     "Thống kê"
    ],
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên Viên Cao Cấp Công Nghệ Mô Hình (AI/ML Ops) - Machine Learning Operations (AI/ML Ops) - Khối Dữ Liệu (2026TD455214)",
@@ -7319,7 +7518,7 @@
     "Machine Learning",
     "Thống kê"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên Viên Cao Cấp Khoa Học Dữ Liệu - Data Scientist - Khối Dữ Liệu (2026TD450984)",
@@ -7339,7 +7538,7 @@
     "Data Warehouse",
     "Thống kê"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Kỹ Sư Lập Trình AI/ AI Engineer",
@@ -7356,7 +7555,7 @@
     "mid"
    ],
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Scientist (Chuyên viên Cấp cao Khoa Học Dữ Liệu)",
@@ -7379,7 +7578,7 @@
     "SQL",
     "A/B Testing"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Head of Enterprise Data (AI/Database/Data Science)",
@@ -7559,7 +7758,7 @@
     "Excel",
     "Tiếng Anh"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên Viên Xử Lý Dữ Liệu",
@@ -7578,7 +7777,7 @@
     "Excel",
     "VBA"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên Phân tích Dữ liệu",
@@ -7668,7 +7867,7 @@
     "Tiếng Anh"
    ],
    "desc": "Location: Ho Chi Minh City Apply now What you can expect ROSEN is seeking a detail oriented and analytically minded Data Analyst to support the Large Standoff Magnetometry (LSM) evaluation process. This role focuses on careful data review, pattern recognition, cross referencing, and contributing to high quality integrity assessments. LSM is an interdisciplinary domain, and comprehensive training…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Architect (40000054)",
@@ -7725,7 +7924,7 @@
     "Data Modeling",
     "Tiếng Anh"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Analyst",
@@ -7772,7 +7971,7 @@
    "skills": [
     "Data Warehouse"
    ],
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên Phân tích và thiết kế Mô hình dữ liệu - Data Analyst - Khối Dữ liệu (2026TD45098)",
@@ -7791,7 +7990,26 @@
    "skills": [
     "Data Warehouse"
    ],
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-29"
+  },
+  {
+   "title": "Chuyên viên Phân tích Khách hàng Doanh nghiệp - Business Customer Data Analyst - Khối Dữ liệu (2026TD451020)",
+   "company": "NGÂN HÀNG TMCP QUÂN ĐỘI – MBBANK",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/chuyen-vien-phan-tich-khach-hang-doanh-nghiep-business-customer-data-analyst-khoi-du-lieu-2026td451020-2100210-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-07",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/e4/11445482.png",
+   "salary": "Thỏa thuận",
+   "desc": "- Thu thập dữ liệu phục vụ cho việc phân tích chuyên sâu cho Tổng Giám Đốc/Ban Điều Hành về tình hình triển khai hoạt động kinh doanh mảng khách hàng doanh nghiệp - Thực hiện các hoạt động xây dựng và báo cáo tình hình hoạt động kinh doanh mảng khách hàng doanh nghiệp... - Tốt nghiệp Đại học các chuyên ngành Thống kê, Khoa học dữ liệu, các chuyên ngành thuộc nhóm ngành Kinh tế, Tài chính, Ngân…",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Thống kê"
+   ],
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior/Expert Data Architect (Database, ETL/ELT)",
@@ -7992,7 +8210,7 @@
     "Power BI"
    ],
    "desc": "The Master Data Management Specialist owns and operationalizes enterprise master data across key domains (product, customer, vendor, store, employee, finance). The role manages day-to-day data creation/maintenance and quality across ERP, POS, and CRM/CDP systems according to defined standards, and partners closely with Data Governance, Data Engineering, and business functions to ensure master…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Delivery Manager — Data & Platform Products",
@@ -8015,7 +8233,7 @@
     "Databricks"
    ],
    "desc": "1. Mục tiêu vị trí Chịu trách nhiệm delivery end-to-end cho danh mục dự án Data, bao gồm Data Platform, Data Engineering, BI/Analytics, Data Product và Data Governance; bảo đảm đúng ưu tiên, tiến độ, chất lượng và outcome kinh doanh. 2. Trách nhiệm chính Quản lý dự án từ intake, làm rõ yêu cầu, lập kế hoạch, UAT, go-live đến theo dõi sau triển khai. Điều phối nguồn lực, tiến độ và dependency giữa…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Engineer",
@@ -8042,7 +8260,7 @@
     "Data Modeling",
     "Airflow"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Business Intelligence (Khối EDA, RB Insight Analytics) - HN - TA174",
@@ -8327,7 +8545,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Product & Semantic Layer Engineer",
@@ -8527,7 +8745,7 @@
    "salary": "Thỏa thuận",
    "skills": [],
    "desc": "Tiếp nhận các yêu cầu (request) làm bản vẽ, BOM hoặc yêu cầu điều chỉnh bản vẽ (có ECR) từ các bộ phận liên quan. Phối hợp cùng đội ngũ để thông báo hạn chót (deadline) hoàn thành bản vẽ cho phía người yêu cầu (requestor). Quản lý & lập kế hoạch tổng thể (Master Planning) cho team Kỹ thuật (Technical Engineering Team) nhằm dự báo khối lượng công việc (workload) của đội ngũ. Theo dõi sát sao…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "CHUYÊN VIÊN PHÂN TÍCH DỮ LIỆU KINH DOANH (Data Analyst - UP25M)",
@@ -8543,7 +8761,7 @@
     "Excel"
    ],
    "desc": "Chuyên viên tổng hợp & phân tích số liệu _Phòng Kinh doanh: 1/ Tổng hợp, phân tích dữ liệu. Xây dựng danh mục hàng hoá theo mục đích kinh doanh (35%): - Tổng hợp dữ liệu bán hàng, tồn hàng, so sánh cùng kỳ, đề xuất phương án danh mục hàng cho khuyến mãi. - Tổng hợp xây dựng danh mục hàng hoá theo các nội dung từng chương trình khuyến mãi. - Lên báo cáo danh mục hàng hoá tồn kho theo định kỳ hoặc…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "1 Data Engineer",
@@ -8649,7 +8867,7 @@
     "Kubernetes",
     "Git"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Service & AI Engineer",
@@ -8693,7 +8911,7 @@
     "Azure",
     "Airflow"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Analyst (Affiliate Platform)",
@@ -8718,7 +8936,7 @@
     "Thống kê"
    ],
    "desc": "COMPANY DESCRIPTION MOSAIC Vietnam is a key player in the leading Affiliate Marketing platform, with an extensive network across Vietnam and the Asia region. We are seeking a proactive and detail-oriented Data Analyst/Performance Analyst to join our growing team at Mosaic. In this role, you’ll act as the key link between optimization campaign team and traffic teams to ensure campaigns run…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Scientist Lead",
@@ -8736,7 +8954,7 @@
    ],
    "logo": "logos/nashtech.png",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Officer, Data Translator (50000281)",
@@ -8838,7 +9056,7 @@
    ],
    "desc": "Vai trò & Mục tiêu: Chịu trách nhiệm triển khai các hoạt động nhằm nâng cao chất lượng dữ liệu và giám sát việc bảo vệ các tài sản thông tin và dữ liệu nhạy cảm; là đầu mối các vấn đề về quản trị chất lượng dữ liệu và bảo vệ dữ liệu; đảm bảo sự nhất quán, chất lượng và bảo vệ cần thiết để đáp ứng nhu cầu kinh doanh tổng thể. 1. Nghiên cứu và đào tạo • Huấn luyện và đào tạo các năng lực và kỹ…",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "CVCC Quản trị dữ liệu - Hà Nội - TA105",
@@ -8879,7 +9097,7 @@
     "Airflow",
     "Git"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Junior Data & AI Platform Engineer (SQL, Python)",
@@ -8964,7 +9182,7 @@
     "Machine Learning",
     "Java"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên cao cấp Bảo mật dữ liệu - Senior Data Security - Khối Dữ liệu (2026TD450980)",
@@ -8981,7 +9199,7 @@
     "senior"
    ],
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Sales Business Intelligence Specialist",
@@ -9003,7 +9221,7 @@
     "Python",
     "ETL"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Middle Data Engineer (Apache Spark, Trino)",
@@ -9129,7 +9347,7 @@
     "AWS",
     "GCP"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "[Hà Nội] Chuyên gia Quản trị dữ liệu (DG)",
@@ -9145,7 +9363,7 @@
    "logo": "logos/lpbank.png",
    "skills": [],
    "desc": "Xây dựng và hoàn thiện khung Quản trị dữ liệu Tham mưu và vận hành cơ chế Hội đồng dữ liệu Quản trị chất lượng dữ liệu Quản trị Metadata và Data Dictionary Quản trị cấu trúc dữ liệu, dữ liệu chủ và dữ liệu tham chiếu Phối hợp quản trị dữ liệu với các đơn vị nghiệp vụ Đào tạo và truyền thông nhận thức về quản trị dữ liệu Triển khai tuân thủ và bảo vệ dữ liệu 1/ Kinh nghiệm Có tối thiểu 7–8 năm…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer (Big Data / Lakehouse)",
@@ -9170,7 +9388,7 @@
     "Data Warehouse"
    ],
    "desc": "Your role & responsibilities Your skills & qualifications Benefits for you PEOPLE DEVELOPMENT POLICY: - \"EXCEL WITH JOY\" WORKPLACE Guided by the positioning “Excel With Joy”, F88 fosters continuous growth in an environment built on joy, support, and empowerment - enabling every individual to become a more capable and fulfilled version of themselves, both at work and in life. - JOY represents the…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "DATA ENGINEER / DATA PLATFORM ENGINEER",
@@ -9190,7 +9408,7 @@
     "SQL"
    ],
    "desc": "Your role & responsibilities Your skills & qualifications Benefits for you SQL, Database, Data Engineer",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Services Specialist",
@@ -9212,7 +9430,7 @@
     "ETL"
    ],
    "desc": "We are looking for a Data Services Specialist to join our Service team, focusing on Data Integration, Workflow Automation, Data Quality, and BI & Analytics . You will work with enterprise customer data across CRM, POS, Ecommerce, Loyalty, ERP, Billing, Data Warehouses, and third-party platforms , helping ensure data is integrated, reliable, and ready for analytics and business use. This is a…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Services Consultant",
@@ -9236,7 +9454,7 @@
     "SQL"
    ],
    "desc": "We are looking for a Senior Data Services Consultant with strong expertise in Data Integration, Workflow Automation, Data Quality, and BI & Analytics to lead enterprise data initiatives across Antsomi’s Customer Data Platform (CDP) and related solutions. You will work with complex customer data ecosystems spanning systems such as CRM, POS, Ecommerce, Loyalty, ERP, Billing, Data Warehouses, and…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên cao cấp Bảo mật dữ liệu- Senior Data Security - Data Division - Khối Dữ liệu (2026TD450980)",
@@ -9262,7 +9480,7 @@
     "Power BI"
    ],
    "desc": "Địa điểm làm việc: Hà Nội Your role & responsibilities Your skills & qualifications Benefits for you Trải nghiệm Thu nhập hấp dẫn với gói đãi ngộ toàn diện: Thưởng tháng lương 13; Thưởng thành tích 06 tháng, 1 năm ; Thưởng các dịp lễ tết trong năm ; Thưởng theo danh hiệu cá nhân và tập thể… Du lịch nghỉ dưỡng hàng năm, Khám sức khỏe định kì; Gói bảo hiểm sức khỏe cá nhân và người thân (MIC); Quà…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Kỹ sư Dữ liệu - Data Engineer - Khối Dữ liệu (2026TD450985)",
@@ -9286,7 +9504,7 @@
     "Power BI"
    ],
    "desc": "Địa điểm làm việc: Hà Nội Your role & responsibilities Your skills & qualifications Benefits for you Trải nghiệm Thu nhập hấp dẫn với gói đãi ngộ toàn diện: Thưởng tháng lương 13; Thưởng thành tích 06 tháng, 1 năm ; Thưởng các dịp lễ tết trong năm ; Thưởng theo danh hiệu cá nhân và tập thể… Du lịch nghỉ dưỡng hàng năm, Khám sức khỏe định kì; Gói bảo hiểm sức khỏe cá nhân và người thân (MIC); Quà…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên Quản lý chất lượng dữ liệu - Data Quality Management Specialist - Khối Dữ liệu (2026TD450981)",
@@ -9304,7 +9522,7 @@
    ],
    "skills": [],
    "desc": "Địa điểm làm việc: Hà Nội Your role & responsibilities Your skills & qualifications Benefits for you Trải nghiệm Thu nhập hấp dẫn với gói đãi ngộ toàn diện: Thưởng tháng lương 13; Thưởng thành tích 06 tháng, 1 năm ; Thưởng các dịp lễ tết trong năm ; Thưởng theo danh hiệu cá nhân và tập thể… Du lịch nghỉ dưỡng hàng năm, Khám sức khỏe định kì; Gói bảo hiểm sức khỏe cá nhân và người thân (MIC); Quà…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên Business Analyst (Product & Data)",
@@ -9345,7 +9563,7 @@
     "SQL"
    ],
    "desc": "Công ty 100% vốn đầu tư của Nhật Bản. Địa chỉ: KCN Long Đức – Đồng Nai (Có xe đưa đón từ công viên Tam Hiệp - Biên Hòa). Vị trí: Nhân viên phòng dữ liệu Mô tả công việc Quản lý dữ liệu nhập. Nhận tài liệu, thông số kỹ thuật từ công ty mẹ qua mail, team, chat và truyền đạt xuống phòng ban. Lấy dữ liệu từ bảng thiết kế nhập vào hệ thống để bộ phận thiết kế sử dụng. Thời gian đầu nhận việc sẽ được…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Nhân Viên Xử lý dữ liệu fulltime tại Hà Nội",
@@ -9362,7 +9580,7 @@
     "Tiếng Anh"
    ],
    "desc": "Mô tả công việc: - Nhận file dữ liệu và các thông tin về sản phẩm (mô tả sản phẩm, giá bán, tên sản phẩm của các mặt hàng nội thất), và xử lý trên bảng tính excel. - Kiểm tra lại các thông tin liên quan đến sản phẩm (hình ảnh, tiêu đề, mô tả, hóa đơn thanh toán,…) bằng Excel và hệ thống của công ty. - Phân loại, xử lý cơ bản hóa đơn thanh toán của đối tác. - Chi tiết công việc được trao đổi trong…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Market Analyst Trainee",
@@ -9383,7 +9601,7 @@
     "Excel",
     "Power BI"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên viên Quản lý chất lượng dữ liệu - Data Quality Management Specialist - Khối Dữ liệu (2026TD450981)",
@@ -9624,7 +9842,7 @@
     "Redshift",
     "BigQuery"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "[Hà Nội] CV/CVC/CVCC Quản lý Dữ liệu tài chính (MIS) - Khối Thị trường và Quản trị tài chính",
@@ -9643,7 +9861,7 @@
     "Power BI"
    ],
    "desc": "Xây dựng các nguyên tắc quản trị dữ liệu liên quan đến chuyên môn nghiệp vụ tài chính, bảng dữ liệu tài chính (datamart), các từ điển dữ liệu tài chính. Quản lý danh mục master data, các bảng mapping dữ liệu, các bộ code liên quan đến Khối Thị trường và Quản trị tài chính (TT&QTTC) Tiếp nhận và tổng hợp yêu cầu phát triển về bảng dữ liệu, báo cáo, sản phẩm dịch vụ CNTT từ các Đơn vị trong Khối…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Process Transformation Engineer (Data & Automation)",
@@ -9660,7 +9878,7 @@
     "SQL",
     "Databricks"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer",
@@ -9721,7 +9939,7 @@
     "Tableau"
    ],
    "desc": "Bouygues Construction Information Technologies Vietnam, a trusted digital partner supporting the competitiveness and transformation of the Bouygues Construction Group worldwide. We are currently looking for a Data Services Support Specialist to join our team in Vietnam. In this role, you will support our internal users with a focus on data services, dashboarding, and the usage of Microsoft 365…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Analyst, Collections",
@@ -9744,7 +9962,7 @@
     "Tiếng Anh"
    ],
    "desc": "About the Role As a Senior Collection Analyst, you will play a pivotal role in enhancing the effectiveness of our collections operations by analyzing performance data, identifying improvement opportunities, and supporting the implementation of strategies that minimize risk. Your insights and contributions will directly impact the success of the collections team and the organization’s financial…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior/lead Data Engineer",
@@ -9768,7 +9986,7 @@
     "Airflow",
     "MLOps"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Analyst/Power Business Intelligence",
@@ -9807,7 +10025,7 @@
     "LLM / GenAI",
     "Python"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Market Intelligence & Data Analyst",
@@ -9843,7 +10061,7 @@
     "Data Warehouse",
     "Data Modeling"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Kỹ Sư Trí Tuệ Nhân Tạo (AI Engineer)",
@@ -9865,7 +10083,7 @@
     "Deep Learning",
     "LLM / GenAI"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "[BGSV/PJ-TE] Senior Edge AI Engineer (ROS 2/Computer Vision/Sensor Fusion)",
@@ -9885,7 +10103,7 @@
     "Linux"
    ],
    "desc": "We are looking for a Specialist to build a new technology capability in Technology & Innovation at Bosch Global Software Technologies Vietnam, from zero to first real deployments. This role is ideal for someone who wants to own a system end-to-end, work directly with real users, and shape how a small team engineers. You will work hands-on with latest-generation AI hardware platforms, from…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "[BGSV/PJ-TE] Edge AI Engineer (ROS 2/Computer Vision/Sensor Fusion)",
@@ -9905,7 +10123,7 @@
     "Linux"
    ],
    "desc": "We are looking for a Specialist to build a new technology capability in Technology & Innovation at Bosch Global Software Technologies Vietnam, from zero to first real deployments. This role is ideal for someone who wants to own a system end-to-end, work directly with real users, and shape how a small team engineers. You will work hands-on with latest-generation AI hardware platforms, from…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "DATA ANALYST",
@@ -9926,7 +10144,7 @@
     "Excel"
    ],
    "desc": "1. Vận hành: Quản trị hệ thống cơ sở dữ liệu sẵn có. Thu thập, làm sạch và xử lý dữ liệu từ nhiều nguồn khác nhau Viết truy vấn SQL để khai thác, tổng hợp dữ liệu phục vụ phân tích Cung cấp thông tin dữ liệu đang có theo yêu cầu. Duy trì các hệ thống báo cáo, report đang có. Phối hợp với team BA/Business để hiểu yêu cầu và triển khai phân tích 2. Phát triển: Tham gia phát triển và nâng cấp hệ…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer",
@@ -9977,7 +10195,7 @@
     "SQL"
    ],
    "desc": "VỊ TRÍ TUYỂN DỤNG MÔ TẢ CÔNG VIỆC Quản lý, dẫn dắt và xây dựng đội ngũ Data Engineer, phân công công việc và định hướng phát triển chuyên môn cho các thành viên trong team. Xây dựng, vận hành và tối ưu data pipeline từ các sản phẩm app, game, web và hệ thống nội bộ. Thiết kế luồng xử lý dữ liệu theo mô hình ETL/ELT, đáp ứng nhu cầu batch hoặc near real-time processing. Đảm bảo hệ thống dữ liệu có…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Nhân Viên IT Phần Mềm / Dữ Liệu (Chuỗi Siêu Thị)",
@@ -10034,7 +10252,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "HO - Data Lake Manager",
@@ -10053,7 +10271,7 @@
    "skills": [
     "Machine Learning"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "HO - Data Science Expert",
@@ -10073,7 +10291,7 @@
     "Machine Learning",
     "Thống kê"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer",
@@ -10090,7 +10308,7 @@
     "junior"
    ],
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer",
@@ -10110,7 +10328,7 @@
     "ETL",
     "SQL"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Science",
@@ -10132,7 +10350,7 @@
     "Pandas",
     "TensorFlow"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Engineer (C++, Python, AI/LLM)",
@@ -10290,7 +10508,7 @@
     "SQL",
     "Excel"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Engineer",
@@ -10315,7 +10533,7 @@
     "Git"
    ],
    "desc": "Job Description Job Summary: Design and build Renesas's governed enterprise data platform on Azure Databricks, Unity Catalog, and Delta Lake. A build-and-design role  work upstream with functional teams to shape how data is ingested, modelled, catalogued, and governed. Blend hands-on data engineering with architecture thinking and SAP/manufacturing domain fluency. Focus on long-term value:…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Analyst",
@@ -10338,7 +10556,7 @@
     "Azure",
     "AWS"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Head of Insights and Analytics",
@@ -10354,7 +10572,7 @@
    ],
    "logo": "logos/nab-innovation-centre-vietnam.png",
    "skills": [],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Governance Advisor (Cố vấn Quản trị Dữ liệu)",
@@ -10369,7 +10587,7 @@
    "skills": [
     "Informatica"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên Viên Bảo Vệ Dữ Liệu Cá Nhân",
@@ -10431,7 +10649,7 @@
     "Tiếng Anh"
    ],
    "desc": "Responsibilities Assist in developing and maintaining web application components under supervision. Support the implementation of new features and basic enhancements for company products. Collaborate with Developers, Business Analysts, and QC teams to understand requirements and technical specifications. Follow established software development processes, coding standards, and best practices.…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Graduate Development Program (TikTok Shop E-commerce, Vietnam) - 2027 Start",
@@ -10450,398 +10668,7 @@
     "SQL"
    ],
    "desc": "Responsibilities TikTok Shop is redefining how people shop for the things they love through a unique discovery e-commerce model that brings together joy, entertainment, and commerce in one seamless experience. About The Role The TikTok Shop Graduate Development Program is a curated management trainee program designed for high-potential Bachelor's degree graduates who are excited about building…",
-   "last_seen": "2026-10-28"
-  },
-  {
-   "title": "[Hà Nội] Chuyên Gia Quản Trị Dữ Liệu (Dg)",
-   "company": "Ngân hàng Lộc Phát Việt Nam LPBank",
-   "location": "Hà Nội",
-   "region": "VN",
-   "url": "https://www.vietnamworks.com/ha-noi-chuyen-gia-quan-tri-du-lieu-dg-1790564174737989028-2112247-jv",
-   "source": "VietnamWorks",
-   "date": "2026-09-28",
-   "logo": "https://images.vietnamworks.com/pictureofcompany/13/11287997.png",
-   "salary": "Thỏa thuận",
-   "desc": "- Xây dựng và hoàn thiện khung Quản trị dữ liệu - Tham mưu và vận hành cơ chế Hội đồng dữ liệu - Quản trị chất lượng dữ liệu - Quản trị Metadata và Data Dictionary - Quản trị cấu trúc dữ liệu, dữ liệu chủ và dữ liệu tham chiếu - Phối hợp quản trị dữ liệu... Kinh nghiệm: • Có tối thiểu 7–8 năm kinh nghiệm trong lĩnh vực Ngân hàng – Tài chính, trong đó ưu tiên có kinh nghiệm liên quan đến quản trị…",
-   "level": [
-    "senior"
-   ],
-   "skills": [],
-   "last_seen": "2026-10-28"
-  },
-  {
-   "title": "AI Engineer (Education & Research)",
-   "company": "Trường Đại học VinUni",
-   "location": "Hà Nội",
-   "region": "VN",
-   "url": "https://www.vietnamworks.com/ai-engineer-education-research-1790563015964287649-2112163-jv",
-   "source": "VietnamWorks",
-   "date": "2026-09-28",
-   "logo": "https://images.vietnamworks.com/pictureofcompany/d5/10894078.png",
-   "salary": "Thỏa thuận",
-   "desc": "ABOUT THE POSITION The AI Engineer builds and maintains production AI systems for learning, teaching and research at VinUniversity as part of the Center for AI Research's product team. Products include conversational tutors, retrieval over course and academic content, authoring and rubric-based grading assistants, and research agents. The role spans the full stack of a...",
-   "level": [
-    "mid"
-   ],
-   "skills": [],
-   "last_seen": "2026-09-28"
-  },
-  {
-   "title": "Senior AI Data Engineer (Python, SQL, Data Warehouse)",
-   "company": "EPOS Vietnam",
-   "location": "Ho Chi Minh",
-   "region": "VN",
-   "url": "https://itviec.com/it-jobs/senior-ai-data-engineer-python-sql-data-warehouse-epos-vietnam-2942",
-   "source": "ITviec",
-   "date": "2026-09-28",
-   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzI5NDIyNCwicHVyIjoiYmxvYl9pZCJ9fQ==--4873c73fd10f2e39668f60cc9e784fe31eedfd1b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/EPOS-Logo_Full-Color.png",
-   "tags": [
-    "Data Engineer",
-    "ETL",
-    "Data Warehousing",
-    "SQL",
-    "Python",
-    "AI"
-   ],
-   "level": [
-    "senior"
-   ],
-   "desc": "Top 3 Reasons To Join Us Performance Bonus Biannual Performance and Salary review Liberty Insurance covers inpatient + outpatient The Job About Us Established in 2009, EPOS Vietnam serves as the technical hub of EPOS Singapore, a leading provider of cutting-edge Point-of-Sale (POS) and SaaS solutions. Backed by Ant International — a global leader in digital payments and financial technology — we…",
-   "skills": [
-    "Python",
-    "SQL",
-    "Data Warehouse",
-    "Machine Learning",
-    "LLM / GenAI",
-    "ETL",
-    "Data Modeling",
-    "Tiếng Anh",
-    "AWS",
-    "GCP",
-    "Azure"
-   ],
-   "last_seen": "2026-09-28"
-  },
-  {
-   "title": "DATA ENGINEER/ BUSINESS DATA ANALYST",
-   "company": "Medigo Software",
-   "location": "Hồ Chí Minh",
-   "region": "VN",
-   "url": "https://careerviet.vn/vi/tim-viec-lam/data-engineer-business-data-analyst.35C88AAC.html",
-   "source": "CareerViet",
-   "date": "2026-09-28",
-   "logo": "https://images.careerviet.vn/employer_folders/lot7/236627/160538logodigital-02.png",
-   "salary": "14–15,5 triệu",
-   "desc": "● Thu thập, xử lý, làm sạch và chuẩn hóa dữ liệu từ nhiều nguồn. ● Xây dựng và duy trì các quy trình xử lý dữ liệu bằng ngôn ngữ lập trình. ● Tự động hóa các tác vụ dữ liệu thủ công, lặp lại. ● Kết nối và đối soát dữ liệu giữa các hệ thống. ● Xây dựng và quản lý các bảng dữ liệu phục vụ báo cáo và phân tích. ● Thực hiện các báo cáo định kỳ và báo cáo theo yêu cầu của bộ phận quản lý. ● Phân tích…",
-   "skills": [
-    "Thống kê",
-    "Python",
-    "Excel",
-    "SQL",
-    "Pandas",
-    "Power BI",
-    "Looker"
-   ],
-   "last_seen": "2026-10-28"
-  },
-  {
-   "title": "Senior Data Engineer",
-   "company": "SOCOTEC",
-   "location": "Quận Cầu Giấy",
-   "region": "VN",
-   "url": "https://www.linkedin.com/jobs/view/4462942076",
-   "source": "LinkedIn",
-   "date": "2026-09-28",
-   "logo": "https://media.licdn.com/dms/image/v2/C560BAQGf8uzRAAZS5w/company-logo_100_100/company-logo_100_100/0/1631333589236?e=2147483647&v=beta&t=a4J3QjOv68M_7HGX654MC29EiGKNdVZn0V2jFJK8jcw",
-   "level": [
-    "senior"
-   ],
-   "skills": [
-    "Power BI",
-    "Databricks",
-    "SQL",
-    "LLM / GenAI",
-    "NoSQL",
-    "Spark",
-    "Hadoop",
-    "Airflow",
-    "Kafka",
-    "Git",
-    "AWS",
-    "ETL"
-   ],
-   "desc": "Description Du Poste Company Description SOCOTEC VIETNAM is a technical support platform for the SOCOTEC GROUP providing expert services on a range of projects in testing, inspection and certification (TIC) in the construction and infrastructure sectors. Around the globe, more than 15,000 experts in 26 countries across 5 continents deliver professional services in construction, buildings & real…",
-   "last_seen": "2026-10-28"
-  },
-  {
-   "title": "Senior Data Analyst/Engineer",
-   "company": "VinSmart Future",
-   "location": "Hanoi Capital Region",
-   "region": "VN",
-   "url": "https://www.linkedin.com/jobs/view/4446006424",
-   "source": "LinkedIn",
-   "date": "2026-09-28",
-   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEQIosnKcUndw/company-logo_100_100/B56Z4F3QHAIQAM-/0/1778214830772/vinsmart_future_logo?e=2147483647&v=beta&t=UfnyjLfBm9QWLQNtJOFe9gET-zFWZNg87QRb0QOEXyg",
-   "desc": "Mô tả công việc: Data Analyst • Thu thập, xử lý và phân tích các tập dữ liệu lớn nhằm tìm ra insight hữu ích hỗ trợ quyết định kinh doanh. • Thiết kế, phát triển và duy trì hệ thống báo cáo, dashboard PowerBI trực quan hóa các chỉ số và xu hướng quan trọng cho các bên liên quan. • Đóng vai trò Product Owner cho các dự án dữ liệu: định nghĩa yêu cầu, quản lý backlog và phối hợp cùng các đội nhóm…",
-   "skills": [
-    "Power BI",
-    "Thống kê",
-    "Data Warehouse",
-    "ETL",
-    "SQL",
-    "Python",
-    "R",
-    "AWS",
-    "Azure",
-    "GCP",
-    "Machine Learning",
-    "Scikit-learn"
-   ],
-   "last_seen": "2026-09-28"
-  },
-  {
-   "title": "Data Analyst Expert",
-   "company": "FE CREDIT",
-   "location": "Ho Chi Minh City",
-   "region": "VN",
-   "url": "https://www.linkedin.com/jobs/view/4472482527",
-   "source": "LinkedIn",
-   "date": "2026-09-28",
-   "logo": "https://media.licdn.com/dms/image/v2/D560BAQFfr-E2r2ko9w/company-logo_100_100/B56Z6GayspKwAI-/0/1780371631079/fe_credit_logo?e=2147483647&v=beta&t=FEOsvKoPCe9NmS-S0FFRMKG3nZig3h2SNVzyQA6X8Bc",
-   "level": [
-    "senior"
-   ],
-   "skills": [
-    "Thống kê",
-    "Tiếng Anh",
-    "SQL",
-    "AWS",
-    "Power BI",
-    "Tableau",
-    "Data Warehouse",
-    "Data Modeling",
-    "ETL",
-    "Python",
-    "Pandas"
-   ],
-   "desc": "OBJECTIVES The Data Analyst Expert is responsible for leading advanced data analysis, delivering scalable dashboards, and transforming complex datasets into actionable business insights that drive portfolio robustness and profitability. This role requires strong expertise in data analytics and business intelligence, with a deep understanding of financial services or consumer lending, to support…",
-   "last_seen": "2026-10-20"
-  },
-  {
-   "title": "Senior Data Engineer (từ 4 năm kinh nghiệm)",
-   "company": "Sapo Technology JSC",
-   "location": "Hanoi",
-   "region": "VN",
-   "url": "https://www.linkedin.com/jobs/view/4472724408",
-   "source": "LinkedIn",
-   "date": "2026-09-28",
-   "logo": "https://media.licdn.com/dms/image/v2/C560BAQEcShU5ZoHHMg/company-logo_100_100/company-logo_100_100/0/1631673892950/sapo_nn_tng_qun_l_v_bn_hng_a_knh_logo?e=2147483647&v=beta&t=olJk6txpXCCTk7sDGOefkQSgWcNOuX007rKTUl6xevY",
-   "level": [
-    "senior"
-   ],
-   "desc": "Thu nhập: Thỏa thuận Ngành nghề: IT Phần Mềm/CNTT Địa điểm: Hà Nội Thời gian ứng tuyển: 31/10/2026 Hiện tại Sapo vận hành LakeHouse trên Cloudera/Hadoop, pipeline orchestrate bằng Airflow, dữ liệu đi qua 3 tầng Raw → Cleansed → Aggregated, truy vấn qua Dremio và ClickHouse, tiêu thụ bằng Power BI và Jupyter. Sapo đang tìm kiếm Data Engineer tham gia trực tiếp vào việc xây dựng, vận hành và phát…",
-   "skills": [
-    "Hadoop",
-    "Airflow",
-    "Power BI",
-    "SQL",
-    "Data Modeling",
-    "LLM / GenAI",
-    "Python",
-    "Pandas",
-    "Spark",
-    "Linux",
-    "Git",
-    "dbt",
-    "Docker",
-    "Kubernetes",
-    "Machine Learning",
-    "Tiếng Anh"
-   ],
-   "last_seen": "2026-10-19"
-  },
-  {
-   "title": "Senior / Staff Data Engineer (BI) – CEG Team",
-   "company": "Agoda",
-   "location": "Ho Chi Minh City, Vietnam",
-   "region": "VN",
-   "url": "https://www.linkedin.com/jobs/view/4455260157",
-   "source": "LinkedIn",
-   "date": "2026-09-28",
-   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQHnu249lVL3yA/company-logo_100_100/B4DZ09fn8fJQAU-/0/1774853194495/agoda_logo?e=2147483647&v=beta&t=lrOwUfAF1WHmQzDaHFq--pWzFhz_5SS-xmzXmFp2SJU",
-   "level": [
-    "senior",
-    "lead"
-   ],
-   "desc": "About Agoda At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyone to explore the world. Today, we are part of Booking Holdings [NASDAQ: BKNG], with a diverse team of over 7,000 people from 90 countries, working together in offices around the globe. Every…",
-   "skills": [
-    "ETL",
-    "Python",
-    "Java",
-    "SQL",
-    "Data Warehouse",
-    "BigQuery",
-    "Snowflake",
-    "Redshift",
-    "Hadoop",
-    "Spark",
-    "Airflow",
-    "dbt",
-    "Tableau",
-    "Power BI",
-    "Superset",
-    "Metabase",
-    "Looker",
-    "Data Modeling",
-    "A/B Testing",
-    "Machine Learning"
-   ],
-   "last_seen": "2026-10-19"
-  },
-  {
-   "title": "[EPM] AI Engineer (Joining Bonus)",
-   "company": "Bosch Vietnam",
-   "location": "Thành phố Hồ Chí Minh",
-   "region": "VN",
-   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000152068130",
-   "source": "Trang công ty",
-   "date": "2026-09-28",
-   "level": [
-    "junior"
-   ],
-   "logo": "logos/bosch-vietnam.png",
-   "desc": "🎁 Quarter 4 JOINING BONUS Candidates with 4+ years of relevant experience who join BGSV by the end of 31 December 2026 can receive a Joining Bonus equivalent to 1 month’s gross salary , subject to program eligibility and terms & conditions. Bosch Engineering Process, Methods & Tools (MS/EPM-XC) is a key enabler of engineering excellence and AI transformation within Bosch Cross-Domain Computing…",
-   "skills": [
-    "LLM / GenAI",
-    "Machine Learning",
-    "Python",
-    "Git",
-    "Tiếng Anh",
-    "Azure",
-    "AWS",
-    "GCP",
-    "MLOps"
-   ],
-   "last_seen": "2026-10-28"
-  },
-  {
-   "title": "AI Engineer (Education & Research)",
-   "company": "Trường Đại học VinUni",
-   "location": "Hà Nội",
-   "region": "VN",
-   "url": "https://www.vietnamworks.com/ai-engineer-education-and-research-2112163-jv",
-   "source": "VietnamWorks",
-   "date": "2026-09-28",
-   "logo": "https://images.vietnamworks.com/pictureofcompany/d5/10894078.png",
-   "salary": "Thỏa thuận",
-   "desc": "ABOUT THE POSITION The AI Engineer builds and maintains production AI systems for learning, teaching and research at VinUniversity as part of the Center for AI Research's product team. Products include conversational tutors, retrieval over course and academic content, authoring and rubric-based grading assistants, and research agents. The role spans the full stack of a... 1. Required…",
-   "level": [
-    "mid"
-   ],
-   "skills": [
-    "LLM / GenAI"
-   ],
-   "last_seen": "2026-10-28"
-  },
-  {
-   "title": "Senior Data Engineer (Azure)",
-   "company": "GFT Technologies APAC & GCC",
-   "location": "Ho Chi Minh City",
-   "region": "VN",
-   "url": "https://www.linkedin.com/jobs/view/4472496455",
-   "source": "LinkedIn",
-   "date": "2026-09-28",
-   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGCmx84P66l8Q/company-logo_100_100/B4EZmE8ywWIIAQ-/0/1758872153482/gft_technologies_apac_gcc_logo?e=2147483647&v=beta&t=PxowAF0WQW2SqpmxSsh5PZxBHEfQu21cjWDtFeyZvSo",
-   "level": [
-    "senior"
-   ],
-   "desc": "Job description: Role Summary We are looking for a Senior Data Engineer to support the Data & Analytics function of a leading global insurance company. The role is responsible for designing, developing, and maintaining scalable data pipelines and data solutions within a Microsoft Azure and Databricks environment. The successful candidate will work closely with data, analytics, AI, and business…",
-   "skills": [
-    "Azure",
-    "Databricks",
-    "SQL",
-    "Python",
-    "ETL",
-    "Data Modeling",
-    "Machine Learning",
-    "LLM / GenAI"
-   ],
-   "last_seen": "2026-10-24"
-  },
-  {
-   "title": "Associate, Data Integration",
-   "company": "NAB Innovation Centre Vietnam",
-   "location": "Capital Place, 29 Lieu Giai Street, Ngoc Ha Ward, Hanoi, VNM",
-   "region": "VN",
-   "url": "https://nab.wd3.myworkdayjobs.com/nab_careers/job/Capital-Place-29-Lieu-Giai-Street-Ngoc-Ha-Ward-Hanoi-VNM/Associate--Data-Integration_JR121982",
-   "source": "Trang công ty",
-   "date": "2026-09-28",
-   "desc": "Job Posting End Date: Worker Type: Maximum Term/Fixed Term (Fixed Term) It's more than just a career at NAB! We believe in people with people and dreams, and we want you to achieve your aspirations. More than just a career, NAB Vietnam offers you a flexibility to balance your work - life, the opportunity to grow as professionals, people and a complete set of well-being offerings. If you have an…",
-   "level": [
-    "junior"
-   ],
-   "logo": "logos/nab-innovation-centre-vietnam.png",
-   "skills": [],
-   "last_seen": "2026-09-28"
-  },
-  {
-   "title": "Data Head",
-   "company": "MNR Consulting Services",
-   "location": "Gia Bình",
-   "region": "VN",
-   "url": "https://www.linkedin.com/jobs/view/4472721796",
-   "source": "LinkedIn",
-   "date": "2026-09-28",
-   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQHHb7MShZiH2A/company-logo_100_100/B4DZUQmLaNG8AQ-/0/1739740198789/mnr_consulting_services_logo?e=2147483647&v=beta&t=OOpeAs4BbtIEnn4xdBVPo4VVtDpbkXddAbW3rb0XkAM",
-   "level": [
-    "lead"
-   ],
-   "skills": [
-    "R",
-    "Data Modeling",
-    "Machine Learning"
-   ],
-   "desc": "VÊ BUZZMETRICS Buzzmetrics, thành viên của YouNet Group, là công ty Social Media & E-commerce Market Research hàng đầu cho Marketing Systems. Từ năm 2013, Buzzmetrics tiên phong ứng dụng các phương pháp market research vào social media và môi trường digital, giúp tổ chức hiểu market dynamics, consumer behavior và category evolution thông qua dữ liệu social và commerce. Thông qua việc kết hợp…",
-   "last_seen": "2026-10-28"
-  },
-  {
-   "title": "BI Engineer",
-   "company": "Vietnam Intersnack Cashew Co., Ltd",
-   "location": "Hồ Chí Minh",
-   "region": "VN",
-   "url": "https://www.vietnamworks.com/bi-engineer-2112505-jv",
-   "source": "VietnamWorks",
-   "date": "2026-09-28",
-   "logo": "https://images.vietnamworks.com/pictureofcompany/9d/11283424.png",
-   "salary": "Thỏa thuận",
-   "desc": "Purpose of the position The Senior Process R&D Optimization Executive is responsible for implementing improvement projects in the factory and optimizing equipment processes. This role includes performing detailed calculations and simulations before implementation, continuously updating new technology solutions and applying them in the factory, collaborating with the team to improve processes, and…",
-   "level": [
-    "junior"
-   ],
-   "skills": [],
-   "last_seen": "2026-10-19"
-  },
-  {
-   "title": "[SPA] - IT - Chuyên viên chính Data Engineer/AI",
-   "company": "Công ty TNHH Hàng không Mặt trời Phú Quốc",
-   "location": "Hà Nội",
-   "region": "VN",
-   "url": "https://www.vietnamworks.com/spa-it-chuyen-vien-chinh-data-engineerai-2098344-jv",
-   "source": "VietnamWorks",
-   "date": "2026-09-28",
-   "logo": "https://images.vietnamworks.com/pictureofcompany/c4/11402732.png",
-   "salary": "Thỏa thuận",
-   "desc": "- Thiết kế nền tảng và kiến trúc dữ liệu + Thiết kế mô hình dữ liệu, Data Lake/Lakehouse, Data Warehouse và các lớp Bronze/Silver/Gold phù hợp kiến trúc dữ liệu của Khối Hàng không. + Xây dựng tiêu chuẩn kỹ thuật về cấu trúc dữ liệu, metadata, lineage, phân vùng, lưu... - Độ tuổi: 25 - 40 tuổi - Trình độ học vấn: Tốt nghiệp Đại học trở lên chuyên ngành Công nghệ thông tin, Khoa học máy tính, Khoa…",
-   "level": [
-    "junior"
-   ],
-   "skills": [
-    "Data Warehouse",
-    "Azure",
-    "AWS",
-    "GCP"
-   ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   }
  ],
  "rejected": [
