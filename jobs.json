@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T05:38+00:00",
+ "updated": "2026-10-29T12:55+00:00",
  "jobs": [
   {
    "title": "Kỹ Sư AI và Dữ Liệu (AI & Data Engineer)",
@@ -163,6 +163,105 @@
    ],
    "desc": "1. Phát triển và tối ưu giải pháp AI Xây dựng và tối ưu hóa mô hình: Tinh chỉnh ( fine-tune ) và tối ưu hóa các mô hình Học máy ( Machine Learning ) và Học sâu ( Deep Learning ) nhằm tối đa hóa hiệu suất (độ chính xác, độ trễ) trong khi vẫn đảm bảo tính ổn định và tối ưu chi phí hạ tầng. Triển khai đa nền tảng: Triển khai và ứng dụng các mô hình AI trên nhiều môi trường (cloud, on-premise),…",
    "logo": "logos/shb.png",
+   "last_seen": "2026-10-29"
+  },
+  {
+   "title": "Senior Data Engineer",
+   "company": "Home Credit Vietnam - Explore Your Dream Team",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/senior-data-engineer-1793269107067400675-2125488-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-29",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/5a/10480385.png",
+   "desc": "Work directly with business users to gather requirements, clarify business logic and propose suitable data solutions. Design data models for reporting: define grain, metrics and dimensions, and implement them as maintainable dbt projects. Build and own streaming and batch pipelines from Kafka and source databases into the warehouse and data marts, using Airflow, dbt, and Postgres. Migrate... 5+…",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "dbt",
+    "Kafka",
+    "Airflow",
+    "SQL",
+    "Data Warehouse"
+   ],
+   "last_seen": "2026-10-29"
+  },
+  {
+   "title": "Trưởng Nhóm Phân Tích Nghiệp Vụ Dữ Liệu",
+   "company": "Công Ty Cổ Phần Tập Đoàn Hòa Phát",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/truong-nhom-phan-tich-nghiep-vu-du-lieu-1793267762839415346-2125402-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-29",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/db/11404971.png",
+   "salary": "Thỏa thuận",
+   "desc": "Công ty Cổ phần Tập đoàn Hòa Phát tuyển dụng vị trí thuộc Ban Công nghệ và Chuyển đổi số, tham gia Đề án Trung tâm Dữ liệu tập trung và Agentic AI. Đề án xây dựng nền tảng dữ liệu hợp nhất làm nền móng cho quản trị bằng số liệu và ứng... • Tốt nghiệp đại học chuyên ngành Kinh tế, Tài chính, Kế toán, Quản trị kinh doanh, Kỹ thuật công nghiệp, Hệ thống thông tin quản lý, Công nghệ thông tin hoặc…",
+   "level": [
+    "lead"
+   ],
+   "skills": [],
+   "last_seen": "2026-10-29"
+  },
+  {
+   "title": "AI Engineer (Education & Research)",
+   "company": "Trường Đại học VinUni",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ai-engineer-education-research-1793265296985414510-2125377-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-29",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/d5/10894078.png",
+   "salary": "Thỏa thuận",
+   "desc": "ABOUT THE POSITION The AI Engineer builds and maintains production AI systems for learning, teaching and research at VinUniversity as part of the Center for AI Research's product team. Products include conversational tutors, retrieval over course and academic content, authoring and rubric-based grading assistants, and research agents. The role spans the full stack of a... 1. Required…",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "LLM / GenAI"
+   ],
+   "last_seen": "2026-10-29"
+  },
+  {
+   "title": "Data Engineer",
+   "company": "BIDV MetLife",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/data-engineer-1793264524888213140-2125360-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-29",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/af/11226160.png",
+   "salary": "Thỏa thuận",
+   "desc": "• Be responsible for building, enhancing, and maintaining databases in support of applications across the whole IT system • Build, maintain, and monitor basic ETL/ELT pipelines from internal and external data sources. • Prepare data extraction, transformation, validation, reconciliation, and loading for reporting and analytics needs. • Write SQL queries, scripts, and data checks to support data…",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "ETL",
+    "SQL"
+   ],
+   "last_seen": "2026-10-29"
+  },
+  {
+   "title": "Data Engineer at DATATYK CO., LTD",
+   "company": "Saramin's Client",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://topdev.vn/detail-jobs/data-engineer-at-datatyk-co-ltd-saramin-s-client-2142369",
+   "source": "TopDev",
+   "date": "2026-10-29",
+   "logo": "https://assets.saramin.vn/images/2026/10/29/Saramin-Saramin-15a2e654c8f46529ac5a3285205ac78a-1785904780-1793254378.png",
+   "tags": [
+    "SQL",
+    "Python",
+    "Data Engineer"
+   ],
+   "skills": [
+    "SQL",
+    "Python"
+   ],
+   "desc": "Datatyk is a Vietnam-based consulting firm that specializes delivery of Data Analytics solutions and Business Intelligence consulting. Job Overview The Data Engineer (Fresher / Junior) at Datatyk supports the design, development, and operation of data pipelines and data platforms for enterprise customers. You will work closely with Senior Data Engineers, Data Analysts , and AI Engineers to build…",
    "last_seen": "2026-10-29"
   },
   {
@@ -522,7 +621,7 @@
     "Tiếng Anh"
    ],
    "desc": "[HN] Data Analyst (Government Product) Giới thiệu CMC TS – thành viên Tập đoàn Công nghệ CMC – là đơn vị cung cấp giải pháp công nghệ và chuyển đổi số cho các cơ quan nhà nước và doanh nghiệp. Trung tâm Phát triển sản phẩm chuyển đổi số C-Gov của CMC TS đang triển khai dự án xây dựng hệ thống Trung tâm Giám sát, điều hành thông minh (IOC) – nền tảng tập trung, kết nối dữ liệu đa lĩnh vực, giúp cơ…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Analytics & Insights Team Lead",
@@ -677,6 +776,35 @@
    "last_seen": "2026-10-29"
   },
   {
+   "title": "Senior Data Engineer, Zalo",
+   "company": "Zalo",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4483288723",
+   "source": "LinkedIn",
+   "date": "2026-10-27",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQGk3_UQDY27Ew/company-logo_100_100/company-logo_100_100/0/1665045204657/zalocareers_logo?e=2147483647&v=beta&t=HywzCBIC340MJ5d6aLO13NujT2sJH9WfV_2Dskmy-Hw",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Machine Learning",
+    "ETL",
+    "SQL",
+    "NoSQL",
+    "Data Warehouse",
+    "Superset",
+    "Power BI",
+    "Tableau",
+    "Python",
+    "Pandas",
+    "Airflow",
+    "dbt"
+   ],
+   "desc": "We are looking for a versatile Data Engineer who combines strong technical engineering capabilities with a Data Analyst mindset. In this hybrid role, you will do much more than build backend data pipelines - you will directly transform raw data into reliable business assets, build interactive dashboards for decision-makers, maintain strict Data Quality standards, and actively monitor Machine…",
+   "last_seen": "2026-10-29"
+  },
+  {
    "title": "IT Intern - Digital & Data Services",
    "company": "PwC (Vietnam) Ltd.",
    "location": "Hồ Chí Minh, Hà Nội",
@@ -797,7 +925,7 @@
    "last_seen": "2026-10-26"
   },
   {
-   "title": "Senior Data Engineer (CRM)",
+   "title": "Senior Data Engineer (CRM Project)",
    "company": "Ho Chi Minh City Securities Corporation (HSC)",
    "location": "Ho Chi Minh City, Vietnam",
    "region": "VN",
@@ -1288,7 +1416,7 @@
     "SQL",
     "Python"
    ],
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Software & Web Developer — Power BI and Microsoft Dynamics ERP",
@@ -1656,7 +1784,7 @@
     "Python",
     "Data Modeling"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Senior Data Scientist",
@@ -1875,7 +2003,7 @@
     "Flink"
    ],
    "desc": "CHI TIẾT CÔNG VIỆC Xây dựng và vận hành data pipeline : ingest sự kiện hành vi người dùng từ Kafka và các nguồn batch vào data warehouse. Thiết kế & tối ưu model dữ liệu trên ClickHouse (user profile, attribute, event aggregate) — đảm bảo query chạy trong thời gian chấp nhận được ở quy mô chục triệu user. Tích hợp với các service nội bộ khác qua interface trừu tượng, không hard-code provider.…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Data Engineer (Dong Nai/HCM)",
@@ -2519,6 +2647,35 @@
     "Tableau"
    ],
    "logo": "logos/techcombank.png",
+   "last_seen": "2026-10-29"
+  },
+  {
+   "title": "Senior Data Engineer",
+   "company": "SOCOTEC",
+   "location": "Quận Cầu Giấy",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4462942076",
+   "source": "LinkedIn",
+   "date": "2026-10-20",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQGf8uzRAAZS5w/company-logo_100_100/company-logo_100_100/0/1631333589236?e=2147483647&v=beta&t=a4J3QjOv68M_7HGX654MC29EiGKNdVZn0V2jFJK8jcw",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Power BI",
+    "Databricks",
+    "SQL",
+    "LLM / GenAI",
+    "NoSQL",
+    "Spark",
+    "Hadoop",
+    "Airflow",
+    "Kafka",
+    "Git",
+    "AWS",
+    "ETL"
+   ],
+   "desc": "Description Du Poste Company Description SOCOTEC VIETNAM is a technical support platform for the SOCOTEC GROUP providing expert services on a range of projects in testing, inspection and certification (TIC) in the construction and infrastructure sectors. Around the globe, more than 15,000 experts in 26 countries across 5 continents deliver professional services in construction, buildings & real…",
    "last_seen": "2026-10-29"
   },
   {
@@ -3373,7 +3530,7 @@
     "Tiếng Anh"
    ],
    "desc": "Sapo là công ty công nghệ hàng đầu tại Việt Nam, cung cấp nền tảng quản lý và bán hàng đa kênh giúp hơn 230.000 khách hàng trong lĩnh vực bán lẻ và thương mại điện tử quản trị kinh doanh hiệu quả từ Online đến Offline. Với hơn 1.000 nhân sự trẻ trung, nhiệt huyết, Sapo không ngừng sáng tạo để mang đến giải pháp công nghệ tối ưu, đồng hành cùng sự phát triển của các nhà bán hàng trên toàn quốc.…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Operations Data Team Lead",
@@ -3397,7 +3554,7 @@
     "Excel"
    ],
    "desc": "Who We Are Intrepid Asia is a leading Ecommerce and Digital Solutions Provider in South East Asia. We offer end-to-end omni-channel ecommerce management, Livestreaming, Video production & Affiliate Management for Social Commerce plus full funnel Digital Marketing Services and advanced Market Intelligence, all powered by state of the art inhouse Technology to our client base of leading…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Manager, Business Intelligence & Analytics",
@@ -5014,7 +5171,7 @@
     "SQL"
    ],
    "desc": "EPAM Vietnam is seeking an experienced Senior Data Engineer to play a key role in evolving our data platform. In this position, you will not only design and build high‑quality platform components in Python, but also take ownership of daily operations while troubleshooting complex data challenges. To succeed in this role, you will bring deep expertise in Azure, Databricks and DataOps, including…",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Expert, AI Engineering (40001865)",
@@ -5275,7 +5432,7 @@
     "Azure"
    ],
    "desc": "Phu Thai Cat is implementing Microsoft Dynamics 365 across Finance, Field Service, Sales, Supply Chain, and Operations — and we need someone to own the analytics layer that makes all of that data meaningful. As Analytics Lead, you will build the reporting foundation from the ground up: connecting D365 to our Data Warehouse, designing the data models, and delivering Power BI dashboards that help…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Kỹ Sư Dữ Liệu (Data Engineer)",
@@ -6887,7 +7044,7 @@
     "SQL"
    ],
    "desc": "JOB DESCRIPTION Position : DATA ANALYST Quantity : 02 ( 1 senior English - 1 Middle) Type : Full-time Location : 5nd Floor, TTC Building, No.19 Duy Tan St., Dich Vong Hau Ward, Cau Giay Dist,. Hanoi Capital, Vietnam. ABOUT US  Astek is a global player in engineering and technology consulting, founded in France in 1988. Today, we are +7500 engineers across over 30 countries in the world.  With…",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu - Data Analyst",
@@ -10005,7 +10162,7 @@
     "Tiếng Anh"
    ],
    "desc": "JOB DESCRIPTION Position: Data Analyst/ Power Business Intelligence Quantity: 01 (Middle), 01 (Senior) Type: Full-time Work model: Onsite Location: 5th Floor, TTC Building, No.19 Duy Tan St., Dich Vong Hau Ward, Cau Giay Dist., Hanoi Capital, Vietnam ABOUT US Astek is a global player in engineering and technology consulting, founded in France in 1988. Today, we are +7500 engineers across over 22…",
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "AI Engineer (Hands-On)",
@@ -10673,7 +10830,6 @@
  ],
  "rejected": [
   "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Vietnam---Ho-Chi-Minh-City/Marketing-Trainee---Ensure-Upstream_31164023",
-  "https://careerviet.vn/vi/tim-viec-lam/sales-manager-mt-gt-audio-field.35C8982E.html",
   "https://jobs.msb.com.vn/jobs/mt8-management-trainee-kh%E1%BB%91i-qu%E1%BA%A3n-l%C3%BD-r%E1%BB%A7i-ro-mrrb-6856",
   "https://momo.careers/jobs/sdet-trainee-20159",
   "https://tuyendung.ncb-bank.vn/vi/jobs/RlVAry",
@@ -10702,7 +10858,7 @@
   "https://www.vietnamworks.com/project-commercial-trainee-1791972722591135951-2119502-jv",
   "https://www.vietnamworks.com/project-product-management-trainee-1792386036859803249-2120952-jv",
   "https://www.vietnamworks.com/project-trainee-temp-4-months-1791875037524242745-2118862-jv",
-  "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1790718519389513213-2113475-jv",
+  "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1793262742027719009-2125340-jv",
   "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv",
   "https://www.vietnamworks.com/tpbank-nhan-vien-tap-su-khach-hang-ca-nhan-hop-dong-6-12-thang-2098371-jv",
   "https://ybox.vn/tuyen-dung/hcm-cong-ty-bambuup-tuyen-dung-marcom-trainee-chuyen-vien-integrated-marketing-communication-full-time-2026-6ae0519678750d56ad5027e1",
