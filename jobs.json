@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T12:55+00:00",
+ "updated": "2026-10-29T22:48+00:00",
  "jobs": [
   {
    "title": "Kỹ Sư AI và Dữ Liệu (AI & Data Engineer)",
@@ -262,6 +262,21 @@
     "Python"
    ],
    "desc": "Datatyk is a Vietnam-based consulting firm that specializes delivery of Data Analytics solutions and Business Intelligence consulting. Job Overview The Data Engineer (Fresher / Junior) at Datatyk supports the design, development, and operation of data pipelines and data platforms for enterprise customers. You will work closely with Senior Data Engineers, Data Analysts , and AI Engineers to build…",
+   "last_seen": "2026-10-29"
+  },
+  {
+   "title": "CVCC Quản trị dữ liệu - BA (Khối Tài chính) - HN - TA133",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-CVCC-Qu%E1%BA%A3n-tr%E1%BB%8B-d%E1%BB%AF-li%E1%BB%87u-BA-%28Kh%E1%BB%91i-T%C3%A0i-ch%C3%ADnh%29-HN-TA133/1359734766/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-29",
+   "desc": "Mô tả công việc 1. Kiểm soát chất lượng dữ liệu, báo cáo Xây dựng phần đặc tả yêu cầu chi tiết, cung cấp các thông tin đầu vào để phát triển, tham gia phối hợp trong quá trình phát triển. Kiểm soát chất lượng dữ liệu/báo cáo, theo dõi các lỗi phát sinh và phối hợp xử lý với các bên liên quan trong luồng. 2. Công tác phát triển Xây dựng kế hoạch phát triển báo cáo/bảng dữ liệu. Thu thập và phân…",
+   "skills": [
+    "Tiếng Anh"
+   ],
+   "logo": "logos/vpbank.png",
    "last_seen": "2026-10-29"
   },
   {
@@ -9168,12 +9183,12 @@
    "source": "VietnamWorks",
    "date": "2026-10-05",
    "logo": "https://images.vietnamworks.com/pictureofcompany/a4/11477726.png",
-   "salary": "Từ ≈15 triệu",
+   "salary": "Từ ≈16 triệu",
    "desc": "• Đối chiếu hình ảnh các chứng từ điều chỉnh cuối năm (chứng từ khấu trừ thuế, giấy chứng nhận khấu trừ phí bảo hiểm nhân thọ, v.v.) với dữ liệu khai báo đã được nhập vào hệ thống. • Nếu phát hiện sai sót, hãy báo cáo cho quản lý theo quy định (không... • Khả năng đọc hiểu các tài liệu tiếng Nhật (tờ khai khấu trừ thuế, các loại giấy chứng nhận, v.v.) • Kỹ năng máy tính cơ bản • Khả năng làm việc…",
    "skills": [
     "Tiếng Nhật"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-29"
   },
   {
    "title": "Risk Management Data Analytics Expert – ID9106",
@@ -10830,6 +10845,7 @@
  ],
  "rejected": [
   "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Vietnam---Ho-Chi-Minh-City/Marketing-Trainee---Ensure-Upstream_31164023",
+  "https://careerviet.vn/vi/tim-viec-lam/sales-manager-mt-gt-audio-field.35C8982E.html",
   "https://jobs.msb.com.vn/jobs/mt8-management-trainee-kh%E1%BB%91i-qu%E1%BA%A3n-l%C3%BD-r%E1%BB%A7i-ro-mrrb-6856",
   "https://momo.careers/jobs/sdet-trainee-20159",
   "https://tuyendung.ncb-bank.vn/vi/jobs/RlVAry",
@@ -10844,8 +10860,6 @@
   "https://www.linkedin.com/jobs/view/4478915429",
   "https://www.linkedin.com/jobs/view/4478977404",
   "https://www.linkedin.com/jobs/view/4482928927",
-  "https://www.vietnamworks.com/accommodation-material-trainee-1790678846495293506-2113266-jv",
-  "https://www.vietnamworks.com/accommodation-trainee-1790679015465772928-2113273-jv",
   "https://www.vietnamworks.com/graduate-engineering-trainee-1792730133447338887-2122883-jv",
   "https://www.vietnamworks.com/ha-noi-tuyen-dung-brand-management-trainee-2026-2122476-jv",
   "https://www.vietnamworks.com/industrial-trainee-full-time-job-position-1790918632757412991-2115040-jv",
@@ -10860,8 +10874,6 @@
   "https://www.vietnamworks.com/project-trainee-temp-4-months-1791875037524242745-2118862-jv",
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1793262742027719009-2125340-jv",
   "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv",
-  "https://www.vietnamworks.com/tpbank-nhan-vien-tap-su-khach-hang-ca-nhan-hop-dong-6-12-thang-2098371-jv",
-  "https://ybox.vn/tuyen-dung/hcm-cong-ty-bambuup-tuyen-dung-marcom-trainee-chuyen-vien-integrated-marketing-communication-full-time-2026-6ae0519678750d56ad5027e1",
-  "https://ybox.vn/tuyen-dung/hcm-ngan-hang-quan-doi-mb-bank-tuyen-dung-tap-su-khach-hang-ca-nhan-tin-dung-khach-hang-doanh-nghiep-ub-phi-tin-dung-full-time-2026-6ae0741e0ce10456bf5d523d"
+  "https://www.vietnamworks.com/tpbank-nhan-vien-tap-su-khach-hang-ca-nhan-hop-dong-6-12-thang-2098371-jv"
  ]
 }
