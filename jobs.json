@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T05:41+00:00",
+ "updated": "2026-10-30T12:47+00:00",
  "jobs": [
   {
    "title": "Sales Business Intelligence Specialist",
@@ -81,6 +81,162 @@
     "Java"
    ],
    "logo": "logos/techcombank.png",
+   "last_seen": "2026-10-30"
+  },
+  {
+   "title": "Data Analytics Senior Manager",
+   "company": "VIB",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://careers.vib.com.vn/careers/job/34745/data-analytics-senior-manager",
+   "source": "Trang công ty",
+   "date": "2026-10-30",
+   "desc": "Mô tả công việc: Chịu trách nhiệm (i) Dẫn dắt các sáng kiến phân tích dữ liệu để tạo ra thông tin chi tiết, tối ưu hóa các nền tảng ngân hàng số và hỗ trợ ra quyết định chiến lược cho VIB; (ii) Quản lý và triển khai các giải pháp nhằm đảm bảo chất lượng dữ liệu và tuân thủ quy định trong toàn bộ hoạt động phân tích và báo cáo dữ liệu cho nền tảng Ngân hàng số. 1. Phân tích dữ liệu (50%) ‐ Xây…",
+   "level": [
+    "senior",
+    "lead"
+   ],
+   "skills": [
+    "Thống kê",
+    "SQL",
+    "Python",
+    "R",
+    "Tableau",
+    "Power BI",
+    "Machine Learning",
+    "Tiếng Anh"
+   ],
+   "logo": "logos/vib.png",
+   "last_seen": "2026-10-30"
+  },
+  {
+   "title": "Kỹ sư nền tảng dữ liệu lớn - Khối Công nghệ thông tin",
+   "company": "TPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.tpb.vn/vi/jobs/qNkpEy",
+   "source": "Trang công ty",
+   "date": "2026-10-30",
+   "skills": [
+    "NoSQL",
+    "Machine Learning",
+    "Spark",
+    "Hadoop",
+    "AWS",
+    "SQL",
+    "Kubernetes"
+   ],
+   "desc": "1. Mục tiêu: Thiết kế, triển khai và vận hành nền tảng dữ liệu lớn gồm Lakehouse on-prem/cloud, các nền tảng NoSQL và cơ sở dữ liệu chuyên biệt, phục vụ lưu trữ, xử lý, truy vấn và khai thác dữ liệu lớn cho BI, AI/ML, Data Product, phân tích nâng cao và các hệ thống nghiệp vụ/downstream. 2. Nhiệm vụ chính - Triển khai và vận hành các nền tảng dữ liệu lớn data lakehouse on-prem/cloud và các nền…",
+   "logo": "logos/tpbank.png",
+   "last_seen": "2026-10-30"
+  },
+  {
+   "title": "Kỹ sư phát triển báo cáo và xử lý dữ liệu vận hành - Khối Công nghệ thông tin",
+   "company": "TPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.tpb.vn/vi/jobs/R7Elly",
+   "source": "Trang công ty",
+   "date": "2026-10-30",
+   "skills": [
+    "Data Warehouse",
+    "Data Modeling",
+    "SQL",
+    "Power BI",
+    "Machine Learning"
+   ],
+   "desc": "1. Mục tiêu: Xây dựng báo cáo đa nguồn; Cung cấp dữ liệu từ DWH, ODH tới các hệ thống khác của ngân hàng 2. Nhiệm vụ chính Xây dựng báo cáo vận hành đa nguồn, báo cáo tài chính theo yêu cầu của các đơn vị nghiệp vụ Xây dựng các luồng dữ liệu tổng hợp đa nguồn cung cấp tới các hệ thống nghiệp vụ khác tại ngân hàng Thiêt kế DWH-DMT theo IBM 9 concept data model Xây dựng các luồng dữ liệu bổ sung…",
+   "logo": "logos/tpbank.png",
+   "last_seen": "2026-10-30"
+  },
+  {
+   "title": "Kỹ sư phát triển báo cáo và xử lý dữ liệu vận hành - Khối Công nghệ thông tin",
+   "company": "TPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.tpb.vn/vi/jobs/yvK3QP",
+   "source": "Trang công ty",
+   "date": "2026-10-30",
+   "skills": [
+    "Data Warehouse",
+    "Data Modeling",
+    "SQL",
+    "Power BI",
+    "Machine Learning"
+   ],
+   "desc": "1. Mục tiêu: Xây dựng báo cáo đa nguồn; Cung cấp dữ liệu từ DWH, ODH tới các hệ thống khác của ngân hàng 2. Nhiệm vụ chính Xây dựng báo cáo vận hành đa nguồn, báo cáo tài chính theo yêu cầu của các đơn vị nghiệp vụ Xây dựng các luồng dữ liệu tổng hợp đa nguồn cung cấp tới các hệ thống nghiệp vụ khác tại ngân hàng Thiêt kế DWH-DMT theo IBM 9 concept data model Xây dựng các luồng dữ liệu bổ sung…",
+   "logo": "logos/tpbank.png",
+   "last_seen": "2026-10-30"
+  },
+  {
+   "title": "[Hà Nội] CV/CVC/CVCC Khoa học dữ liệu (DS)",
+   "company": "LPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.lpbank.com.vn/vi/jobs/Ra5loR",
+   "source": "Trang công ty",
+   "date": "2026-10-30",
+   "skills": [
+    "Thống kê",
+    "Machine Learning",
+    "Deep Learning",
+    "A/B Testing",
+    "Python",
+    "SQL",
+    "Spark",
+    "PyTorch",
+    "Scikit-learn",
+    "Git",
+    "MLOps"
+   ],
+   "desc": "Triển khai hoặc phối hợp triển khai phân tích dữ liệu nâng cao bằng các phương pháp mô hình thống kê, thuật toán học máy (ML), học sâu (deep learning)... để giải quyết các bài toán phát sinh trong hoạt động kinh doanh của Ngân hàng Tham gia trong toàn bộ vòng đời của dự án khoa học dữ liệu, từ xác định đến giải quyết vấn đề, xây dựng và kiểm định mô hình định lượng đến vận hành, bảo trì Trình bày…",
+   "logo": "logos/lpbank.png",
+   "last_seen": "2026-10-30"
+  },
+  {
+   "title": "[Hà Nội] CV/CVC/CVCC Phân tích dữ liệu (DA)",
+   "company": "LPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.lpbank.com.vn/vi/jobs/PYnv5R",
+   "source": "Trang công ty",
+   "date": "2026-10-30",
+   "skills": [
+    "Thống kê",
+    "A/B Testing",
+    "SQL",
+    "Python",
+    "Pandas",
+    "Power BI",
+    "Superset",
+    "Data Modeling"
+   ],
+   "desc": "Phân tích các chỉ số kinh doanh, xác định xu hướng, biến động và các yếu tố thúc đẩy kết quả Khai thác dữ liệu khách hàng, sản phẩm, kênh bán và giao dịch để tìm ra cơ hội tăng trưởng hoặc các vấn đề cần cải thiện Chuyển hóa kết quả phân tích thành khuyến nghị cụ thể, có cơ sở dữ liệu, nhằm cải thiện business outcomes Làm việc với các đơn vị kinh doanh để xác định vấn đề, kiểm chứng giả thuyết,…",
+   "logo": "logos/lpbank.png",
+   "last_seen": "2026-10-30"
+  },
+  {
+   "title": "[Internship Program Q1 2027] AI Engineer Intern",
+   "company": "Bosch Vietnam",
+   "location": "Ho Chi Minh",
+   "region": "VN",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000158674030",
+   "source": "Trang công ty",
+   "date": "2026-10-30",
+   "level": [
+    "intern"
+   ],
+   "skills": [
+    "LLM / GenAI",
+    "Machine Learning",
+    "Python",
+    "TensorFlow",
+    "PyTorch",
+    "Deep Learning",
+    "Tiếng Anh"
+   ],
+   "desc": "Internship Duration: 04 Jan 2027 - 25 Jun 2027 Internship Model: Full-time or at least 4 days/week Application Period: 1 Nov – 16 Dec 2027 Interview date: 10, 15 & 17 Dec 2027 Research and prototype GenAI applications for digital learning, simulation, and content generation. Support the development of interactive modules for Digital Academy platforms (e.g., e-learning, virtual labs, AI tutors ).…",
+   "logo": "logos/bosch-vietnam.png",
    "last_seen": "2026-10-30"
   },
   {
@@ -736,6 +892,35 @@
    "last_seen": "2026-10-30"
   },
   {
+   "title": "Data Scientist - Hà Nội - TA105",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-Data-Scientist-H%C3%A0-N%E1%BB%99i-TA105/1358387266/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-28",
+   "desc": "MÔ TẢ CÔNG VIỆC 1. Tham gia và phối hợp triển khai các giải pháp khoa học dữ liệu và trí tuệ nhân tạo cho các đơn vị trong ngân hàng - Đề xuất và tham gia triển khai các giải pháp khoa học dữ liệu cùng chuyên gia và phối hợp chặt chẽ với các đơn vị kinh doanh/vận hành để giải quyết các bài toán thực tế có tính ứng dụng cao - Ứng dụng các kỹ thuật phân tích nâng cao, xác suất thống kê, học máy,…",
+   "skills": [
+    "Thống kê",
+    "Machine Learning",
+    "Deep Learning",
+    "LLM / GenAI",
+    "Python",
+    "Pandas",
+    "Scikit-learn",
+    "TensorFlow",
+    "PyTorch",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Databricks",
+    "SQL",
+    "Excel"
+   ],
+   "logo": "logos/vpbank.png",
+   "last_seen": "2026-10-30"
+  },
+  {
    "title": "Senior Collection Analytics & Modeling Executive",
    "company": "CÔNG TY TÀI CHÍNH TÍN DỤNG TIÊU DÙNG TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN SFINANCE",
    "location": "Hồ Chí Minh",
@@ -983,6 +1168,23 @@
    ],
    "desc": "We are looking for a versatile Data Engineer who combines strong technical engineering capabilities with a Data Analyst mindset. In this hybrid role, you will do much more than build backend data pipelines - you will directly transform raw data into reliable business assets, build interactive dashboards for decision-makers, maintain strict Data Quality standards, and actively monitor Machine…",
    "last_seen": "2026-10-29"
+  },
+  {
+   "title": "Commercial Technology & Data Manager",
+   "company": "Anheuser- Busch Inbev (AB Inbev)",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/commercial-technology-data-manager-1793094731147266866-2124374-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-27",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/80/11074387.png",
+   "salary": "Thỏa thuận",
+   "desc": "JOB PURPOSES The Commercial Technology & Data Manager is the single point of accountability for how Commercial operates on technology and data across SEA. This role ensures E2E Commercial processes are enabled by integrated systems, trusted data and scalable digital solutions, enabling faster execution, transparency, and better decision-making. This role also owns Commercial data, reporting and…",
+   "level": [
+    "lead"
+   ],
+   "skills": [],
+   "last_seen": "2026-10-30"
   },
   {
    "title": "IT Intern - Digital & Data Services",
@@ -1574,7 +1776,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Data Analyst (ERP/SAP)",
@@ -1596,7 +1798,7 @@
     "SQL",
     "Python"
    ],
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Software & Web Developer — Power BI and Microsoft Dynamics ERP",
@@ -1686,7 +1888,7 @@
    "date": "2026-10-23",
    "skills": [],
    "logo": "logos/vnpay.png",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Data Governance - HN - TA174",
@@ -2564,6 +2766,31 @@
    "last_seen": "2026-10-26"
   },
   {
+   "title": "Senior Data Engineer",
+   "company": "Renesas Electronics",
+   "location": "Ho Chi Minh City",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4455748718",
+   "source": "LinkedIn",
+   "date": "2026-10-21",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHlwp8hH_CdSg/company-logo_100_100/B56Zm7Sm_TIAAQ-/0/1759783842062/renesas_logo?e=2147483647&v=beta&t=IPyLH7X_M1aJkP81Og5r0dpxZkleQxB_cRImLz-lxVY",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Azure",
+    "Databricks",
+    "ETL",
+    "Spark",
+    "SQL",
+    "Python",
+    "Data Modeling",
+    "Git"
+   ],
+   "desc": "Job Description Job Summary: Design and build Renesas's governed enterprise data platform on Azure Databricks, Unity Catalog, and Delta Lake. A build-and-design role  work upstream with functional teams to shape how data is ingested, modelled, catalogued, and governed. Blend hands-on data engineering with architecture thinking and SAP/manufacturing domain fluency. Focus on long-term value:…",
+   "last_seen": "2026-10-30"
+  },
+  {
    "title": "Data Engineer I Vietnam",
    "company": "Temus",
    "location": "Ho Chi Minh City, Vietnam",
@@ -2856,6 +3083,25 @@
     "ETL"
    ],
    "desc": "Description Du Poste Company Description SOCOTEC VIETNAM is a technical support platform for the SOCOTEC GROUP providing expert services on a range of projects in testing, inspection and certification (TIC) in the construction and infrastructure sectors. Around the globe, more than 15,000 experts in 26 countries across 5 continents deliver professional services in construction, buildings & real…",
+   "last_seen": "2026-10-30"
+  },
+  {
+   "title": "Graduate Development Program (TikTok Shop E-commerce, Vietnam) - 2027 Start",
+   "company": "TikTok",
+   "location": "Ho Chi Minh City",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4449744949",
+   "source": "LinkedIn",
+   "date": "2026-10-20",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHYzDOZhwEZ7Q/company-logo_100_100/B56Zl_CaXSIAAU-/0/1758772964879/tiktok_logo?e=2147483647&v=beta&t=pOXL9bnyBOPMlI34LzNiPIxaX9lk7ry0r40olePnSGE",
+   "level": [
+    "intern"
+   ],
+   "skills": [
+    "Excel",
+    "SQL"
+   ],
+   "desc": "Responsibilities TikTok Shop is redefining how people shop for the things they love through a unique discovery e-commerce model that brings together joy, entertainment, and commerce in one seamless experience. About The Role The TikTok Shop Graduate Development Program is a curated management trainee program designed for high-potential Bachelor's degree graduates who are excited about building…",
    "last_seen": "2026-10-30"
   },
   {
@@ -4405,7 +4651,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpay.png",
    "skills": [],
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "[HN] Data Engineer",
@@ -4417,7 +4663,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpay.png",
    "skills": [],
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Data Scientist",
@@ -4429,7 +4675,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpay.png",
    "skills": [],
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Nhân viên phát triển sản phẩm dữ liệu (PO)",
@@ -4441,7 +4687,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpay.png",
    "skills": [],
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Chuyên viên phân tích dữ liệu (Data Analyst)",
@@ -4453,7 +4699,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpay.png",
    "skills": [],
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "AI ENGINEER",
@@ -4465,7 +4711,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpay.png",
    "skills": [],
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Data Scientist",
@@ -4477,7 +4723,7 @@
    "date": "2026-10-14",
    "logo": "logos/vnpay.png",
    "skills": [],
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Chuyên Gia Phân Tích Dữ Liệu Khách Hàng Và Đánh Giá Hiệu Quả",
@@ -5612,7 +5858,7 @@
     "Azure"
    ],
    "desc": "Phu Thai Cat is implementing Microsoft Dynamics 365 across Finance, Field Service, Sales, Supply Chain, and Operations — and we need someone to own the analytics layer that makes all of that data meaningful. As Analytics Lead, you will build the reporting foundation from the ground up: connecting D365 to our Data Warehouse, designing the data models, and delivering Power BI dashboards that help…",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Kỹ Sư Dữ Liệu (Data Engineer)",
@@ -6994,7 +7240,7 @@
     "senior"
    ],
    "skills": [],
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "[EAB] Automation & AI Tooling Intern (Python/ML/Simulink)",
@@ -7254,7 +7500,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Head of Data & Analytics (AI Native)",
@@ -7631,7 +7877,7 @@
     "Python"
    ],
    "desc": "DATA ENGINEER Location: Quang Trung Software City, District 12, Ho Chi Minh City Duties and Responsibilities Develop and maintain data pipelines and existing data solutions. Monitor data processes and support troubleshooting when data issues occur. Work with data models and semantic models/layers to support reporting and analytics. Work with large datasets and MPP (Massively Parallel Processing)…",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Business Intelligence Engineer (Junior)",
@@ -8597,7 +8843,7 @@
     "Data Modeling",
     "Airflow"
    ],
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Senior Business Intelligence (Khối EDA, RB Insight Analytics) - HN - TA174",
@@ -10597,8 +10843,13 @@
   "https://careerviet.vn/vi/tim-viec-lam/sales-manager-mt-gt-audio-field.35C8982E.html",
   "https://jobs.msb.com.vn/jobs/mt8-management-trainee-kh%E1%BB%91i-qu%E1%BA%A3n-l%C3%BD-r%E1%BB%A7i-ro-mrrb-6856",
   "https://momo.careers/jobs/sdet-trainee-20159",
+  "https://tuyendung.ncb-bank.vn/vi/jobs/PB1YMy",
+  "https://tuyendung.ncb-bank.vn/vi/jobs/PW32WP",
   "https://tuyendung.ncb-bank.vn/vi/jobs/RlVAry",
+  "https://tuyendung.ncb-bank.vn/vi/jobs/qD2rQP",
+  "https://tuyendung.ncb-bank.vn/vi/jobs/y3kdWy",
   "https://tuyendung.ncb-bank.vn/vi/jobs/yLK3Eq",
+  "https://tuyendung.ncb-bank.vn/vi/jobs/ypdzay",
   "https://tuyendung.tpb.vn/vi/jobs/PwleoR",
   "https://tuyendung.tpb.vn/vi/jobs/PwlmoR",
   "https://tuyendung.tpb.vn/vi/jobs/RlVpay",
@@ -10609,6 +10860,7 @@
   "https://www.linkedin.com/jobs/view/4478915429",
   "https://www.linkedin.com/jobs/view/4478977404",
   "https://www.linkedin.com/jobs/view/4482928927",
+  "https://www.vietnamworks.com/engineer-trainee-fresher-2126423-jv",
   "https://www.vietnamworks.com/graduate-engineering-trainee-1792730133447338887-2122883-jv",
   "https://www.vietnamworks.com/ha-noi-tuyen-dung-brand-management-trainee-2026-2122476-jv",
   "https://www.vietnamworks.com/industrial-trainee-full-time-job-position-1790918632757412991-2115040-jv",
@@ -10616,11 +10868,13 @@
   "https://www.vietnamworks.com/management-trainee-manufacturing-2100334-jv",
   "https://www.vietnamworks.com/mb-trainee-information-security-grc-fresher-khoi-cong-nghe-thong-tin-2026td457289-1793161615912956699-2124643-jv",
   "https://www.vietnamworks.com/mechanical-engineer-trainee-kcn-long-hau-1791808290545524719-2118612-jv",
+  "https://www.vietnamworks.com/mt-key-account-executive-third-party-contract-1793363481633871317-2126415-jv",
   "https://www.vietnamworks.com/operations-engineer-trainee-1793085102891239269-2124208-jv",
   "https://www.vietnamworks.com/production-management-trainee-1792385386699673266-2120946-jv",
   "https://www.vietnamworks.com/project-commercial-trainee-1791972722591135951-2119502-jv",
   "https://www.vietnamworks.com/project-product-management-trainee-1792386036859803249-2120952-jv",
   "https://www.vietnamworks.com/project-trainee-temp-4-months-1791875037524242745-2118862-jv",
+  "https://www.vietnamworks.com/sales-trainee-concrete-2126239-jv",
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1793262742027719009-2125340-jv",
   "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv",
   "https://www.vietnamworks.com/tpbank-nhan-vien-tap-su-khach-hang-ca-nhan-hop-dong-6-12-thang-2098371-jv"
