@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T12:47+00:00",
+ "updated": "2026-10-30T22:16+00:00",
  "jobs": [
   {
    "title": "Sales Business Intelligence Specialist",
@@ -237,6 +237,47 @@
    ],
    "desc": "Internship Duration: 04 Jan 2027 - 25 Jun 2027 Internship Model: Full-time or at least 4 days/week Application Period: 1 Nov – 16 Dec 2027 Interview date: 10, 15 & 17 Dec 2027 Research and prototype GenAI applications for digital learning, simulation, and content generation. Support the development of interactive modules for Digital Academy platforms (e.g., e-learning, virtual labs, AI tutors ).…",
    "logo": "logos/bosch-vietnam.png",
+   "last_seen": "2026-10-30"
+  },
+  {
+   "title": "Junior Data Analyst",
+   "company": "Dám Nghi - Dám Nghĩ - Dám Nghỉ",
+   "location": "Ho Chi Minh City",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4485333818",
+   "source": "LinkedIn",
+   "date": "2026-10-30",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHEPvRbdzLPuA/company-logo_100_100/company-logo_100_100/0/1705700721798?e=2147483647&v=beta&t=KEysGbSlkC3OR9-LFXWGS4vsim8RYLhAhORxJ_-DWEA",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "BigQuery",
+    "SQL",
+    "Python"
+   ],
+   "desc": "Responsibilities You'll analyze and optimize key areas of Tiki's business: Business questions across the company: Work with retail, marketplace, operations, and marketing teams to understand what's happening and why. Financial planning: Give the finance and business teams the data they need for profit planning and forecasting Campaign & Promotion Optimization: Design, monitor and analyze…",
+   "last_seen": "2026-10-30"
+  },
+  {
+   "title": "CVCC Data Warehouse- Hồ CHí Minh- TA084",
+   "company": "VPBank",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%E1%BB%93-Ch%C3%AD-Minh-CVCC-Data-Warehouse-H%E1%BB%93-CH%C3%AD-Minh-TA084/1358494666/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-30",
+   "desc": "Mô tả công việc: · Thiết kế và duy trì kiến trúc Kho dữ liệu (Data Warehouse) sử dụng Amazon Redshift. · Phát triển các quy trình ETL để thu thập và chuyển đổi dữ liệu từ nhiều hệ thống. · Quản lý lưu trữ dữ liệu và tích hợp data lake bằng Amazon S3. · Xây dựng quy trình thu nhận dữ liệu (data ingestion) sử dụng Apache NiFi. · Tối ưu hóa câu lệnh SQL và hiệu suất cơ sở dữ liệu cho các tập dữ liệu…",
+   "skills": [
+    "Data Warehouse",
+    "Redshift",
+    "ETL",
+    "SQL",
+    "AWS",
+    "Spark",
+    "Tiếng Anh"
+   ],
+   "logo": "logos/vpbank.png",
    "last_seen": "2026-10-30"
   },
   {
@@ -857,7 +898,7 @@
     "Airflow"
    ],
    "desc": "Only for candidates in Vietnam Working location: Remote full-time (09:00 - 18:00 ICT) Salary range: USD 4,000 - 8,000 gross RESPONSIBILITIES We are looking for a senior applied data scientist or quantitative researcher to lead the development and continuous improvement of the predictive models and statistical frameworks behind our real-time forecasting engines, beginning with eSports. You will…",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Data Engineer Lead/Manager (Hybrid HN/HCM) + Signing Bonus",
@@ -1304,7 +1345,7 @@
     "Python",
     "Git"
    ],
-   "last_seen": "2026-10-26"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Senior Data Engineer (CRM Project)",
@@ -2662,7 +2703,7 @@
     "AWS"
    ],
    "desc": "MoMo's data platform processes petabytes of data through thousands of pipelines every day. It powers product analytics, business performance analysis, insight validation, and machine learning models for fraud detection, credit scoring, and personalization. Its reliability directly affects business decisions and product performance; We are moving from a platform built primarily on BigQuery toward…",
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Data Engineer",
@@ -3999,7 +4040,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Head of Data Science",
@@ -4033,9 +4074,12 @@
     "junior"
    ],
    "skills": [
-    "Python"
+    "Python",
+    "SQL",
+    "Power BI",
+    "Data Modeling"
    ],
-   "last_seen": "2026-10-15"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Senior Data Analyst",
@@ -7055,7 +7099,7 @@
     "Azure",
     "GCP"
    ],
-   "last_seen": "2026-10-23"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Trung tâm Quản trị và phân tích dữ liệu - Trưởng bộ phận Tích hợp dữ liệu (Data Engineer)",
@@ -9109,7 +9153,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-25"
+   "last_seen": "2026-10-30"
   },
   {
    "title": "Data Analyst Expert",
@@ -10876,7 +10920,6 @@
   "https://www.vietnamworks.com/project-trainee-temp-4-months-1791875037524242745-2118862-jv",
   "https://www.vietnamworks.com/sales-trainee-concrete-2126239-jv",
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1793262742027719009-2125340-jv",
-  "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv",
-  "https://www.vietnamworks.com/tpbank-nhan-vien-tap-su-khach-hang-ca-nhan-hop-dong-6-12-thang-2098371-jv"
+  "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv"
  ]
 }
