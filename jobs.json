@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T05:24+00:00",
+ "updated": "2026-10-31T12:14+00:00",
  "jobs": [
   {
    "title": "Remote Senior Data Scientist",
@@ -327,6 +327,28 @@
     "ETL"
    ],
    "desc": "I - MÔ TẢ CÔNG VIỆC Thu thập, xử lý và phân tích dữ liệu từ nhiều nguồn khác nhau, đảm bảo tính chính xác và đầy đủ. Xây dựng báo cáo và Dashboard trực quan hỗ trợ ra quyết định cho Ban lãnh đạo và các phòng ban. Thiết kế, quản lý và tối ưu hóa hệ thống báo cáo KPI theo yêu cầu quản trị. Phân tích hành vi khách hàng, xu hướng thị trường và hiệu quả hoạt động để đưa ra insight, cảnh báo và khuyến…",
+   "last_seen": "2026-10-31"
+  },
+  {
+   "title": "Chuyên viên BI (Business Intelligence)",
+   "company": "CÔNG TY CỔ PHẦN CASPER VIỆT NAM",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-bi-business-intelligence.35C8924B.html",
+   "source": "CareerViet",
+   "date": "2026-10-30",
+   "logo": "https://images.careerviet.vn/employer_folders/lot8/250548/163644casperlogo_original.png",
+   "salary": "15–25 triệu",
+   "skills": [
+    "Power BI",
+    "Data Modeling",
+    "SQL",
+    "Excel",
+    "ETL",
+    "Thống kê",
+    "Python"
+   ],
+   "desc": "1.Mục tiêu công việc Xây dựng và vận hành hệ thống Business Intelligence (BI) phục vụ ra quyết định cho các khối Kinh doanh, Tài chính, Dịch vụ khách hàng… hướng tới mô hình tổ chức vận hành dựa trên dữ liệu (data-driven) 2. Mô tả công việc Phát triển và duy trì hệ thống Dashboard, KPI Report trên Power BI cho các phòng ban Thiết kế Data Model, DAX, Power Query, visual nâng cao theo chuẩn UI/UX.…",
    "last_seen": "2026-10-31"
   },
   {
@@ -2202,7 +2224,7 @@
     "Kafka"
    ],
    "desc": "Company Information Founded in 2018, Data Nest is a dynamic and innovative company specialising in credit scoring, lead generation services and other products. By harnessing the power of Data Analytics and AI, we help finance companies to reduce their credit loss, to widen their consumer base, and to fasten their release of new financial services. We aim to transform the financial landscape…",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-31"
   },
   {
    "title": "Chuyên viên Quản lý thông tin Cơ sở dữ liệu về giá",
@@ -3547,7 +3569,7 @@
     "SQL",
     "Tableau"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-10-31"
   },
   {
    "title": "Data QA_CVCC Kiểm thử chất lượng giải pháp DL - Hà Nội - TA105",
@@ -3755,7 +3777,7 @@
     "lead"
    ],
    "skills": [],
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-10-31"
   },
   {
    "title": "Data Scientist – ID2643",
