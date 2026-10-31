@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T12:14+00:00",
+ "updated": "2026-10-31T21:29+00:00",
  "jobs": [
   {
    "title": "Remote Senior Data Scientist",
@@ -26,6 +26,25 @@
     "AWS"
    ],
    "desc": "Background Our Data team is a unified, full-stack group responsible for the entire data science lifecycle. The mission is to deliver end-to-end data science services across the organization – spanning data infrastructure, engineering, advanced analytics, and data visualization. We adopt a human-centered, data-driven approach to generate talent management and Learning & Development (L&D) insights…",
+   "last_seen": "2026-10-31"
+  },
+  {
+   "title": "[Công ty BHNT VPLife]- Giám đốc AI&Data",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-C%C3%B4ng-ty-BHNT-VPLife-Gi%C3%A1m-%C4%91%E1%BB%91c-AI&Data/1368283566/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-31",
+   "desc": "MÔ TẢ CÔNG VIỆC Chief Data and AI Officer (CDAO) is responsible for shaping VPLife into an AI-Native life insurer, where data, artificial intelligence, and intelligent automation are designed from the outset as core capabilities underpinning the business model, operations, risk management, and customer experience. 1. Data & AI Strategy Define VPLife’s AI-native vision, strategy, target…",
+   "level": [
+    "lead"
+   ],
+   "skills": [
+    "Machine Learning",
+    "LLM / GenAI"
+   ],
+   "logo": "logos/vpbank.png",
    "last_seen": "2026-10-31"
   },
   {
@@ -2532,6 +2551,32 @@
    "desc": "Data Governance Specialist is responsible for supporting the implementation and operation of the Bank‘s Data Governance Framework to ensure data quality, data integrity, regulatory compliance, and effective management of data assets. The role works closely with business units, data owners, IT teams, and risk/compliance functions to establish, monitor, and enhance data governance practices across…",
    "skills": [],
    "logo": "logos/acb.png",
+   "last_seen": "2026-10-31"
+  },
+  {
+   "title": "Senior/Middle Data Scientist",
+   "company": "Data Nest",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4481185457",
+   "source": "LinkedIn",
+   "date": "2026-10-22",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEtQRodY000kA/company-logo_100_100/company-logo_100_100/0/1664333281405/datanest_vn_logo?e=2147483647&v=beta&t=mlAlVVUtJdIMVxuWoeF7t6PEZSfulRqojwJmH7aIG0A",
+   "level": [
+    "mid",
+    "senior"
+   ],
+   "skills": [
+    "Machine Learning",
+    "MLOps",
+    "Python",
+    "SQL",
+    "Thống kê",
+    "Hadoop",
+    "Spark",
+    "Kafka"
+   ],
+   "desc": "Company Information Founded in 2018, Data Nest is a dynamic and innovative company specialising in credit scoring, lead generation services and other products. By harnessing the power of Data Analytics and AI, we help finance companies to reduce their credit loss, to widen their consumer base, and to fasten their release of new financial services. We aim to transform the financial landscape…",
    "last_seen": "2026-10-31"
   },
   {
@@ -7151,6 +7196,30 @@
    "last_seen": "2026-10-21"
   },
   {
+   "title": "[HO] AI Engineer",
+   "company": "Shinhan Bank Vietnam",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ho-ai-engineer--2118226-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-12",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/b9/11244062.png",
+   "salary": "Thỏa thuận",
+   "desc": "• Design, build, optimize, and integrate AI models for application problems in Business/Banking operations in the fields of NLP, Computer Vision, ... • Participate in research, development and optimization of AI models, especially in the fields of Natural Language Processing (NLP) and Large Languege Models (LLM). • Optimize RAG solutions, intelligent CHATBOT, and information search system. •... •…",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "NLP",
+    "Computer Vision",
+    "LLM / GenAI",
+    "Python",
+    "Machine Learning",
+    "Deep Learning"
+   ],
+   "last_seen": "2026-10-31"
+  },
+  {
    "title": "Senior Officer, Data Translator (50000281)",
    "company": "Techcombank",
    "location": "TP. Ha Noi",
@@ -10024,7 +10093,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-25"
+   "last_seen": "2026-10-31"
   },
   {
    "title": "CV ĐIỆN TOÁN ĐÁM MÂY - PHÒNG PHÂN TÍCH DỮ LIỆU & AI - KHỐI CÔNG NGHỆ THÔNG TIN",
@@ -10721,7 +10790,6 @@
   "https://tuyendung.tpb.vn/vi/jobs/PwleoR",
   "https://tuyendung.tpb.vn/vi/jobs/PwlmoR",
   "https://tuyendung.tpb.vn/vi/jobs/RlVpay",
-  "https://tuyendung.tpb.vn/vi/jobs/qDX71q",
   "https://tuyendung.tpb.vn/vi/jobs/yKX3YP",
   "https://tuyendung.vietabank.com.vn/vi/jobs/P8Qa1R",
   "https://www.linkedin.com/jobs/view/4475527711",
@@ -10733,7 +10801,6 @@
   "https://www.vietnamworks.com/ha-noi-tuyen-dung-brand-management-trainee-2026-2122476-jv",
   "https://www.vietnamworks.com/industrial-trainee-full-time-job-position-1790918632757412991-2115040-jv",
   "https://www.vietnamworks.com/management-trainee-for-operations-1792723030155137607-2122702-jv",
-  "https://www.vietnamworks.com/management-trainee-manufacturing-2100334-jv",
   "https://www.vietnamworks.com/mb-trainee-information-security-grc-fresher-khoi-cong-nghe-thong-tin-2026td457289-1793161615912956699-2124643-jv",
   "https://www.vietnamworks.com/mechanical-engineer-trainee-kcn-long-hau-1791808290545524719-2118612-jv",
   "https://www.vietnamworks.com/mt-key-account-executive-third-party-contract-1793363481633871317-2126415-jv",
