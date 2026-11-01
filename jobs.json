@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T13:14+00:00",
+ "updated": "2026-11-01T22:06+00:00",
  "jobs": [
   {
    "title": "Remote Senior Data Scientist",
@@ -2881,7 +2881,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/data-engineer.35C843CF.html",
    "source": "CareerViet",
    "date": "2026-10-21",
-   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuyển dụng.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuy%E1%BB%83n%20d%E1%BB%A5ng.png",
    "salary": "Thỏa thuận",
    "skills": [
     "Python",
@@ -3311,6 +3311,33 @@
     "SQL"
    ],
    "desc": "Responsibilities TikTok Shop is redefining how people shop for the things they love through a unique discovery e-commerce model that brings together joy, entertainment, and commerce in one seamless experience. About The Role The TikTok Shop Graduate Development Program is a curated management trainee program designed for high-potential Bachelor's degree graduates who are excited about building…",
+   "last_seen": "2026-11-01"
+  },
+  {
+   "title": "Lead Data Analyst / Data Science Team Lead ( Thu nhập 45-55M)",
+   "company": "Edupia",
+   "location": "Hanoi Capital Region",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4479951289",
+   "source": "LinkedIn",
+   "date": "2026-10-20",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQEfAg11HtVEEw/company-logo_100_100/company-logo_100_100/0/1670302287920/educacorp_logo?e=2147483647&v=beta&t=qD8t7FXJChEZU3ohu0JC4njvg1GtUK1sSL83F7cKYxY",
+   "level": [
+    "lead"
+   ],
+   "skills": [
+    "Tiếng Anh",
+    "A/B Testing",
+    "Machine Learning",
+    "Thống kê",
+    "SQL",
+    "Python",
+    "R",
+    "Tableau",
+    "Power BI",
+    "Looker"
+   ],
+   "desc": "Giới thiệu công ty: Công ty Cổ phần Giáo dục Educa Corporation là doanh nghiệp hàng đầu trong lĩnh vực Edtech tại Việt Nam. Educa Corp được thành lập năm 2018, qua 8 năm hoạt động Educa hiện có quy mô hơn 900 nhân sự, 10 triệu người dùng và 500,000+ học viên đang theo học tại Việt Nam và Đông Nam Á. Các sản phẩm chủ lực gồm Educa gồm có: Edupia Business - Tiếng Anh cho Doanh Nghiệp, Babilala…",
    "last_seen": "2026-11-01"
   },
   {
@@ -7799,7 +7826,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   {
    "title": "Senior Data Scientist – VoiceAI",
@@ -8790,7 +8817,7 @@
    "skills": [
     "Data Warehouse"
    ],
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-11-01"
   },
   {
    "title": "Chuyên viên Phân tích và thiết kế Mô hình dữ liệu - Data Analyst - Khối Dữ liệu (2026TD45098)",
@@ -10471,7 +10498,6 @@
   "https://tuyendung.ncb-bank.vn/vi/jobs/y3kdWy",
   "https://tuyendung.ncb-bank.vn/vi/jobs/yLK3Eq",
   "https://tuyendung.ncb-bank.vn/vi/jobs/ypdzay",
-  "https://tuyendung.tpb.vn/vi/jobs/PwleoR",
   "https://tuyendung.tpb.vn/vi/jobs/PwlmoR",
   "https://tuyendung.tpb.vn/vi/jobs/RlVpay",
   "https://tuyendung.tpb.vn/vi/jobs/yKX3YP",
@@ -10480,10 +10506,10 @@
   "https://www.linkedin.com/jobs/view/4478915429",
   "https://www.linkedin.com/jobs/view/4478977404",
   "https://www.linkedin.com/jobs/view/4482928927",
+  "https://www.vietnamworks.com/-trainee-legal-associate-2126567-jv",
   "https://www.vietnamworks.com/engineer-trainee-fresher-2126423-jv",
   "https://www.vietnamworks.com/graduate-engineering-trainee-1792730133447338887-2122883-jv",
   "https://www.vietnamworks.com/ha-noi-tuyen-dung-brand-management-trainee-2026-2122476-jv",
-  "https://www.vietnamworks.com/industrial-trainee-full-time-job-position-1790918632757412991-2115040-jv",
   "https://www.vietnamworks.com/management-trainee-for-operations-1792723030155137607-2122702-jv",
   "https://www.vietnamworks.com/mb-trainee-information-security-grc-fresher-khoi-cong-nghe-thong-tin-2026td457289-1793161615912956699-2124643-jv",
   "https://www.vietnamworks.com/mechanical-engineer-trainee-kcn-long-hau-1791808290545524719-2118612-jv",
