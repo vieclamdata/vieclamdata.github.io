@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T05:52+00:00",
+ "updated": "2026-11-01T13:14+00:00",
  "jobs": [
   {
    "title": "Remote Senior Data Scientist",
@@ -346,7 +346,7 @@
     "ETL"
    ],
    "desc": "I - MÔ TẢ CÔNG VIỆC Thu thập, xử lý và phân tích dữ liệu từ nhiều nguồn khác nhau, đảm bảo tính chính xác và đầy đủ. Xây dựng báo cáo và Dashboard trực quan hỗ trợ ra quyết định cho Ban lãnh đạo và các phòng ban. Thiết kế, quản lý và tối ưu hóa hệ thống báo cáo KPI theo yêu cầu quản trị. Phân tích hành vi khách hàng, xu hướng thị trường và hiệu quả hoạt động để đưa ra insight, cảnh báo và khuyến…",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   {
    "title": "Chuyên viên BI (Business Intelligence)",
@@ -369,6 +369,33 @@
    ],
    "desc": "1.Mục tiêu công việc Xây dựng và vận hành hệ thống Business Intelligence (BI) phục vụ ra quyết định cho các khối Kinh doanh, Tài chính, Dịch vụ khách hàng… hướng tới mô hình tổ chức vận hành dựa trên dữ liệu (data-driven) 2. Mô tả công việc Phát triển và duy trì hệ thống Dashboard, KPI Report trên Power BI cho các phòng ban Thiết kế Data Model, DAX, Power Query, visual nâng cao theo chuẩn UI/UX.…",
    "last_seen": "2026-10-31"
+  },
+  {
+   "title": "CHUYÊN VIÊN PHÁT TRIỂN MIS (DATA ANALYST) - TT PHÁT TRIỂN ỨNG DỤNG - KHỐI CÔNG NGHỆ THÔNG TIN",
+   "company": "Sacombank",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://sacombankcareer.com/job/Th%C3%A0nh-ph%E1%BB%91-H%E1%BB%93-Ch%C3%AD-Minh-CHUY%C3%8AN-VI%C3%8AN-PH%C3%81T-TRI%E1%BB%82N-MIS-%28DATA-ANALYST%29-TT-PH%C3%81T-TRI%E1%BB%82N-%E1%BB%A8NG-D%E1%BB%A4NG-KH%E1%BB%90I-C%C3%94NG-NGH%E1%BB%86-TH%C3%94NG-TIN/16141344/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-30",
+   "desc": "TRÁCH NHIỆM CHÍNH - Xây dựng giải pháp và lập trình các tầng xử lý trên hệ thống MIS bao gồm: Data Warehouse, Data Model, BI - Tích hợp tất cả các nguồn dữ liệu từ các hệ thống ứng dụng vào Data Warehouse - Hỗ trợ các Đơn vị nghiệp vụ ngân hàng khi có nhu cầu khai thác dữ liệu từ hệ thống Mis/DW. - Thực hiện phân tích các mô hình dữ liệu, dự đoán, dự báo, báo cáo phân tích,.. - Báo cáo định kỳ…",
+   "skills": [
+    "Data Warehouse",
+    "Data Modeling",
+    "Tiếng Anh",
+    "SQL",
+    "ETL",
+    "R",
+    "Python",
+    "SAS",
+    "SSIS",
+    "Informatica",
+    "Kafka",
+    "Redshift",
+    "BigQuery"
+   ],
+   "logo": "logos/sacombank.png",
+   "last_seen": "2026-11-01"
   },
   {
    "title": "Kỹ Sư AI và Dữ Liệu (AI & Data Engineer)",
@@ -1052,6 +1079,31 @@
    "last_seen": "2026-11-01"
   },
   {
+   "title": "DATA SERVICES SUPPORT SPECIALIST – FRENCH SPEAKING",
+   "company": "Bouygues Construction IT Vietnam",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/data-services-support-specialist-french-speaking/88d113c9-3329-4db5-8534-f61276273704",
+   "source": "Glints",
+   "date": "2026-10-28",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/2539ca31ff4f12b26ccf4d131fc19e16.png",
+   "salary": "18–27 triệu",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "VBA",
+    "Power BI",
+    "Excel",
+    "Tiếng Anh",
+    "SQL",
+    "Python",
+    "Tableau"
+   ],
+   "desc": "Bouygues Construction Information Technologies Vietnam, a trusted digital partner supporting the competitiveness and transformation of the Bouygues Construction Group worldwide. We are currently looking for a Data Services Support Specialist to join our team in Vietnam. In this role, you will support our internal users with a focus on data services, dashboarding, and the usage of Microsoft 365…",
+   "last_seen": "2026-11-01"
+  },
+  {
    "title": "Senior Collection Analytics & Modeling Executive",
    "company": "CÔNG TY TÀI CHÍNH TÍN DỤNG TIÊU DÙNG TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN SFINANCE",
    "location": "Hồ Chí Minh",
@@ -1472,7 +1524,7 @@
     "Kubernetes"
    ],
    "desc": "JOB DESCRIPTION 1. Primary Objective: Design and build scalable batch and real-time ETL/ELT data pipelines Design data models and DataMarts (Customer Profile, Journey, Event) per business requirements Operate, monitor, and optimize the data platform on Microsoft Azure and Google Cloud Integrate source systems and provide technical support to other teams in the Data Department Ensure data quality…",
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-11-01"
   },
   {
    "title": "Analyst, DOMO Data Engineer - Group Marketing",
@@ -1929,7 +1981,7 @@
     "SQL",
     "Python"
    ],
-   "last_seen": "2026-10-30"
+   "last_seen": "2026-11-01"
   },
   {
    "title": "Software & Web Developer — Power BI and Microsoft Dynamics ERP",
@@ -2577,7 +2629,7 @@
     "Kafka"
    ],
    "desc": "Company Information Founded in 2018, Data Nest is a dynamic and innovative company specialising in credit scoring, lead generation services and other products. By harnessing the power of Data Analytics and AI, we help finance companies to reduce their credit loss, to widen their consumer base, and to fasten their release of new financial services. We aim to transform the financial landscape…",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   {
    "title": "Kỹ sư dữ liệu",
@@ -2829,7 +2881,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/data-engineer.35C843CF.html",
    "source": "CareerViet",
    "date": "2026-10-21",
-   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuy%E1%BB%83n%20d%E1%BB%A5ng.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot5/343975/Tuyển dụng.png",
    "salary": "Thỏa thuận",
    "skills": [
     "Python",
@@ -7654,7 +7706,7 @@
     "SQL"
    ],
    "desc": "JOB DESCRIPTION Position : DATA ANALYST Quantity : 02 ( 1 senior English - 1 Middle) Type : Full-time Location : 5nd Floor, TTC Building, No.19 Duy Tan St., Dich Vong Hau Ward, Cau Giay Dist,. Hanoi Capital, Vietnam. ABOUT US  Astek is a global player in engineering and technology consulting, founded in France in 1988. Today, we are +7500 engineers across over 30 countries in the world.  With…",
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-01"
   },
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu - Data Analyst",
