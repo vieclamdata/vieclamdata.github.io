@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T05:55+00:00",
+ "updated": "2026-11-02T15:39+00:00",
  "jobs": [
   {
    "title": "HO - Data Science Expert",
@@ -38,6 +38,144 @@
    "skills": [
     "Machine Learning"
    ],
+   "last_seen": "2026-11-02"
+  },
+  {
+   "title": "Analytics & Insights Manager",
+   "company": "United Overseas Bank (Vietnam) Limited (UOB)",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/analytics-insights-manager-1793611273983463712-2126919-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-02",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/93/11149825.png",
+   "salary": "Thỏa thuận",
+   "desc": "About UOB United Overseas Bank Limited (UOB) is a leading bank in Asia with a global network of more than 500 branches and offices in 19 countries and territories in Asia Pacific, Europe and North America. In Asia, we operate through our head office in Singapore and banking subsidiaries in China, Indonesia, Malaysia and Thailand,... • Bachelor’s degree, or equivalent, Computer Science,…",
+   "level": [
+    "lead"
+   ],
+   "skills": [
+    "Thống kê",
+    "Machine Learning"
+   ],
+   "last_seen": "2026-11-02"
+  },
+  {
+   "title": "Data Governance Specialist",
+   "company": "Viet Thai International",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://careerviet.vn/vi/tim-viec-lam/data-governance-specialist.35C8CA47.html",
+   "source": "CareerViet",
+   "date": "2026-11-02",
+   "logo": "https://images.careerviet.vn/employers/2996/11552808d75f53baccdb3fe6600824c464a9c9.jpg",
+   "salary": "Thỏa thuận",
+   "skills": [
+    "Informatica",
+    "Azure",
+    "Databricks"
+   ],
+   "desc": "The Data Governance Specialist will support the Head of Data in implementing and operating the enterprise data governance framework. This role will ensure data quality, consistency, compliance, and responsible usage across business units. The executive will collaborate with stakeholders across the organization to implement policies, standards, and controls that align with regulatory requirements…",
+   "last_seen": "2026-11-02"
+  },
+  {
+   "title": "Senior Data Engineer",
+   "company": "Amaris Consulting  | Part of Mantu",
+   "location": "Ho Chi Minh City Metropolitan Area",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4486154649",
+   "source": "LinkedIn",
+   "date": "2026-11-02",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQHsB8-V6fxAMA/company-logo_100_100/company-logo_100_100/0/1729584227309/amaris_logo?e=2147483647&v=beta&t=Gas7jHUA97blxh3l23UWbQ8ly62Bj0PZgTYzH66bTzo",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "BigQuery",
+    "Databricks",
+    "Python",
+    "SQL",
+    "Power BI",
+    "ETL"
+   ],
+   "desc": "Job Description ABOUT THE JOB Contribute to the migration of data workflows from Google BigQuery to Databricks. Develop, maintain, and optimise data pipelines using Python and PySpark. Write and optimise advanced SQL queries to process and analyse large volumes of e-commerce data. Perform data extraction, transformation, processing, and validation across multiple data sources. Clean and structure…",
+   "last_seen": "2026-11-02"
+  },
+  {
+   "title": "Data Analyst",
+   "company": "Madison Technologies",
+   "location": "Đà Nang",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4480799005",
+   "source": "LinkedIn",
+   "date": "2026-11-02",
+   "logo": "https://media.licdn.com/dms/image/v2/C510BAQGn8u7nx8_uhA/company-logo_100_100/company-logo_100_100/0/1630609991396?e=2147483647&v=beta&t=db7YGpomszGLIU01XXmvqXx20sQaNvOmydfNgO2yfJo",
+   "skills": [
+    "Data Warehouse",
+    "Power BI",
+    "Looker",
+    "SQL",
+    "dbt",
+    "BigQuery",
+    "Python",
+    "Git"
+   ],
+   "desc": "Position Overview: At Madison Technologies, we don't just deliver reports; we operate as a seamless extension of our client's internal teams. Your goal is to move from being a \"task-taker\" to a \"trusted advisor\" who understands their business as well as they do. We are seeking a technically proficient and business-savvy Data Analyst to join our team at Madison Technologies. This role is designed…",
+   "last_seen": "2026-11-02"
+  },
+  {
+   "title": "Senior Expert, Data Governance",
+   "company": "Techcombank",
+   "location": "TP. Ha Noi",
+   "region": "VN",
+   "url": "https://www.techcombankjobs.com/job/TP_-Ha-Noi-Senior-Expert%2C-Data-Governance/61207944/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-11-02",
+   "desc": "Job Purpose - The job holder maintains, implements and ensures compliance to the Data Governance strategies, policy, standards and processes to effectively govern data. - The job holder ensures the capability development of team to advise on proper Data Management and resolution of Data breaches. Key Accountabilities (1) Data Governance Development for the domain of expertise - Establish and…",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Thống kê"
+   ],
+   "logo": "logos/techcombank.png",
+   "last_seen": "2026-11-02"
+  },
+  {
+   "title": "[Hà Nội] CV/CVC/CVCC Quản lý Dữ liệu tài chính (MIS) - Khối Thị trường và Quản trị tài chính",
+   "company": "LPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.lpbank.com.vn/vi/jobs/qD2lQP",
+   "source": "Trang công ty",
+   "date": "2026-11-02",
+   "skills": [
+    "Data Warehouse",
+    "Excel",
+    "VBA",
+    "SQL",
+    "Power BI"
+   ],
+   "desc": "Xây dựng các nguyên tắc quản trị dữ liệu liên quan đến chuyên môn nghiệp vụ tài chính, bảng dữ liệu tài chính (datamart), các từ điển dữ liệu tài chính. Quản lý danh mục master data, các bảng mapping dữ liệu, các bộ code liên quan đến Khối Thị trường và Quản trị tài chính (TT&QTTC) Tiếp nhận và tổng hợp yêu cầu phát triển về bảng dữ liệu, báo cáo, sản phẩm dịch vụ CNTT từ các Đơn vị trong Khối…",
+   "logo": "logos/lpbank.png",
+   "last_seen": "2026-11-02"
+  },
+  {
+   "title": "Chuyên viên cao cấp Kế hoạch tài chính (mảng dữ liệu)",
+   "company": "PGBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.pgbank.com.vn/viec-lam/chuyen-vien-cao-cap-ke-hoach-tai-chinh-mang-du-lieu.35ac18e7.html",
+   "source": "Trang công ty",
+   "date": "2026-11-02",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "SQL"
+   ],
+   "desc": "1. Xây dựng Cơ sở Dữ liệu: • Xây dựng cấu trúc dữ liệu SQL Server. • Thiết lập download dữ liệu tự động từ Database SQL Oracle của Ngân hàng. • Thiết lập download dữ liệu tự động từ các báo cáo trên BO (Trang web lưu dữ liệu của Ngân hàng). • Xây dựng các nguyên tắc quản trị dữ liệu liên quan đến chuyên môn nghiệp vụ tài chính, bảng dữ liệu tài chính (Datamart), các từ điển dữ liệu tài chính. •…",
+   "logo": "logos/pgbank.png",
    "last_seen": "2026-11-02"
   },
   {
@@ -84,6 +222,42 @@
     "LLM / GenAI"
    ],
    "logo": "logos/vpbank.png",
+   "last_seen": "2026-11-02"
+  },
+  {
+   "title": "Digital Portfolio Analytics - TA189",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-Digital-Portfolio-Analytics-TA189/1366817666/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-31",
+   "desc": "Mô tả công việc A. Digital Portfolio Performance Management Monitor and analyze the overall performance of the Digital Bank portfolio across key dimensions including customers, products, balances, transactions, revenue and profitability. Develop portfolio performance frameworks and management dashboards covering key business KPIs such as: Active customers / MAU Digital engagement and transaction…",
+   "skills": [
+    "Thống kê"
+   ],
+   "logo": "logos/vpbank.png",
+   "last_seen": "2026-11-02"
+  },
+  {
+   "title": "CV ĐIỆN TOÁN ĐÁM MÂY - PHÒNG PHÂN TÍCH DỮ LIỆU & AI - KHỐI CÔNG NGHỆ THÔNG TIN",
+   "company": "Sacombank",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://sacombankcareer.com/job/Th%C3%A0nh-ph%E1%BB%91-H%E1%BB%93-Ch%C3%AD-Minh-CV-%C4%90I%E1%BB%86N-TO%C3%81N-%C4%90%C3%81M-M%C3%82Y-PH%C3%92NG-PH%C3%82N-T%C3%8DCH-D%E1%BB%AE-LI%E1%BB%86U-&-AI-KH%E1%BB%90I-C%C3%94NG-NGH%E1%BB%86-TH%C3%94NG-TIN/57635544/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-31",
+   "desc": "TRÁCH NHIỆM CHÍNH Thiết kế và triển khai kiến trúc hệ thống trên nền tảng Microsoft Azure theo tiêu chuẩn doanh nghiệp Quản lý, vận hành và tối ưu các dịch vụ Cloud: Compute (VM, App Services) Storage Networking Security Xây dựng, duy trì và tối ưu CI/CD pipelines phục vụ phát triển và triển khai phần mềm Triển khai và quản lý hạ tầng bằng Infrastructure as Code (IaC) (Terraform, ARM, Bicep…)…",
+   "skills": [
+    "Azure",
+    "Kubernetes",
+    "Git",
+    "Docker",
+    "Python",
+    "AWS",
+    "GCP"
+   ],
+   "logo": "logos/sacombank.png",
    "last_seen": "2026-11-02"
   },
   {
@@ -1183,7 +1357,7 @@
     "LLM / GenAI"
    ],
    "desc": "About the role Vietcombank is one of the largest and most influential banks in Vietnam. The data foundations are in place: a governed platform, an established BI estate, and data products used across business divisions. The next phase is acceleration: taking what works from pilot to bank-wide scale, raising the quality and adoption of every data product, and bringing AI-driven analytics into…",
-   "last_seen": "2026-11-01"
+   "last_seen": "2026-11-02"
   },
   {
    "title": "[HN] DATA ANALYST (GOVERNMENT PRODUCT)",
@@ -1485,7 +1659,7 @@
     "mid"
    ],
    "skills": [],
-   "last_seen": "2026-11-01"
+   "last_seen": "2026-11-02"
   },
   {
    "title": "AI ENGINEER (DATA & AUTOMATION)",
@@ -1624,6 +1798,23 @@
    "skills": [
     "Thống kê"
    ],
+   "last_seen": "2026-11-02"
+  },
+  {
+   "title": "Nhân Viên Xử lý dữ liệu fulltime tại Hà Nội",
+   "company": "CenNext",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/nhan-vien-xu-ly-du-lieu-fulltime-tai-ha-noi/42472830-e1a7-42f6-abc7-8de7e9e2b042",
+   "source": "Glints",
+   "date": "2026-10-26",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/902a99a8ebc58cd71bfaf7f1dac5dda7.jpg",
+   "salary": "6,6–7,1 triệu",
+   "skills": [
+    "Excel",
+    "Tiếng Anh"
+   ],
+   "desc": "Mô tả công việc: - Nhận file dữ liệu và các thông tin về sản phẩm (mô tả sản phẩm, giá bán, tên sản phẩm của các mặt hàng nội thất), và xử lý trên bảng tính excel. - Kiểm tra lại các thông tin liên quan đến sản phẩm (hình ảnh, tiêu đề, mô tả, hóa đơn thanh toán,…) bằng Excel và hệ thống của công ty. - Phân loại, xử lý cơ bản hóa đơn thanh toán của đối tác. - Chi tiết công việc được trao đổi trong…",
    "last_seen": "2026-11-02"
   },
   {
@@ -3512,7 +3703,7 @@
    "skills": [
     "Excel"
    ],
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-11-02"
   },
   {
    "title": "HR Data Analyst",
@@ -3733,6 +3924,36 @@
     "Tableau"
    ],
    "last_seen": "2026-10-31"
+  },
+  {
+   "title": "Data Engineer (từ 4 năm kinh nghiệm)",
+   "company": "Sapo Technology JSC",
+   "location": "Hanoi",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4480975431",
+   "source": "LinkedIn",
+   "date": "2026-10-19",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQEcShU5ZoHHMg/company-logo_100_100/company-logo_100_100/0/1631673892950/sapo_nn_tng_qun_l_v_bn_hng_a_knh_logo?e=2147483647&v=beta&t=olJk6txpXCCTk7sDGOefkQSgWcNOuX007rKTUl6xevY",
+   "skills": [
+    "Hadoop",
+    "Airflow",
+    "Power BI",
+    "SQL",
+    "Data Modeling",
+    "LLM / GenAI",
+    "Python",
+    "Pandas",
+    "Spark",
+    "Linux",
+    "Git",
+    "dbt",
+    "Docker",
+    "Kubernetes",
+    "Machine Learning",
+    "Tiếng Anh"
+   ],
+   "desc": "Thu nhập: Thỏa thuận Ngành nghề: IT Phần Mềm/CNTT Địa điểm: Hà Nội Thời gian ứng tuyển: 30/11/2026 Hiện tại Sapo vận hành LakeHouse trên Cloudera/Hadoop, pipeline orchestrate bằng Airflow, dữ liệu đi qua 3 tầng Raw → Cleansed → Aggregated, truy vấn qua Dremio và ClickHouse, tiêu thụ bằng Power BI và Jupyter. Sapo đang tìm kiếm Data Engineer tham gia trực tiếp vào việc xây dựng, vận hành và phát…",
+   "last_seen": "2026-11-02"
   },
   {
    "title": "Data QA_CVCC Kiểm thử chất lượng giải pháp DL - Hà Nội - TA105",
@@ -6924,7 +7145,7 @@
    "last_seen": "2026-11-02"
   },
   {
-   "title": "Data Scientist I",
+   "title": "Data Scientist I, Hà Nội",
    "company": "MoMo",
    "location": "Hà Nội",
    "region": "VN",
@@ -7542,7 +7763,7 @@
     "senior"
    ],
    "skills": [],
-   "last_seen": "2026-10-31"
+   "last_seen": "2026-11-02"
   },
   {
    "title": "[EAB] Automation & AI Tooling Intern (Python/ML/Simulink)",
@@ -7865,7 +8086,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-11-01"
+   "last_seen": "2026-11-02"
   },
   {
    "title": "Senior Data Scientist – VoiceAI",
@@ -9953,8 +10174,14 @@
    "date": "2026-10-04",
    "desc": "Các trách nhiệm chính 1 1. Hỗ trợ quản lý và nâng cao Chất lượng dữ liệu gồm các yếu tố dữ liệu quan trọng và các dữ liệu khác/ Support to manage and improve data quality for critical data elements (CDEs) and non-CDEs. Xây dựng các quy tắc kiểm tra CLDL và các ngưỡng chất lượng dữ liệu tương ứng với yêu cầu của đơn vị kinh doanh/ Develop data quality checking rules and thresholds based on…",
    "logo": "logos/vpbank.png",
-   "skills": [],
-   "last_seen": "2026-10-04"
+   "skills": [
+    "SQL",
+    "Redshift",
+    "Data Warehouse",
+    "Excel",
+    "Power BI"
+   ],
+   "last_seen": "2026-11-02"
   },
   {
    "title": "Senior AI Engineer - AI Platforms",
@@ -10086,6 +10313,7 @@
   "https://tuyendung.tpb.vn/vi/jobs/RlVpay",
   "https://tuyendung.tpb.vn/vi/jobs/yKX3YP",
   "https://tuyendung.vietabank.com.vn/vi/jobs/P8Qa1R",
+  "https://tuyendung.vpbank.com.vn/job/H%E1%BB%93-Ch%C3%AD-Minh-T%E1%BA%ADp-s%E1%BB%B1-KHDN-v%E1%BB%ABa-&-nh%E1%BB%8F-TP_-H%E1%BB%93-Ch%C3%AD-Minh-TA182/1364006466/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
   "https://www.linkedin.com/jobs/view/4475527711",
   "https://www.linkedin.com/jobs/view/4478915429",
   "https://www.linkedin.com/jobs/view/4478977404",
@@ -10094,6 +10322,8 @@
   "https://www.vietnamworks.com/engineer-trainee-fresher-2126423-jv",
   "https://www.vietnamworks.com/graduate-engineering-trainee-1792730133447338887-2122883-jv",
   "https://www.vietnamworks.com/ha-noi-tuyen-dung-brand-management-trainee-2026-2122476-jv",
+  "https://www.vietnamworks.com/industrial-trainee-24-months-fast-track-career-1790336858138308582-2111996-jv",
+  "https://www.vietnamworks.com/industrial-trainee-full-time-job-position-1790918632757412991-2115040-jv",
   "https://www.vietnamworks.com/management-trainee-for-operations-1792723030155137607-2122702-jv",
   "https://www.vietnamworks.com/mb-trainee-information-security-grc-fresher-khoi-cong-nghe-thong-tin-2026td457289-1793161615912956699-2124643-jv",
   "https://www.vietnamworks.com/mechanical-engineer-trainee-kcn-long-hau-1791808290545524719-2118612-jv",
