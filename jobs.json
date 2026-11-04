@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T14:29+00:00",
+ "updated": "2026-11-04T23:37+00:00",
  "jobs": [
   {
    "title": "Chuyên Gia Phân tích dữ liệu và xây dựng mô hình phát hiện gian lận - Khối Quản trị rủi ro (2026TD453499)",
@@ -1303,7 +1303,7 @@
     "Python"
    ],
    "desc": "1.Mục tiêu công việc Xây dựng và vận hành hệ thống Business Intelligence (BI) phục vụ ra quyết định cho các khối Kinh doanh, Tài chính, Dịch vụ khách hàng… hướng tới mô hình tổ chức vận hành dựa trên dữ liệu (data-driven) 2. Mô tả công việc Phát triển và duy trì hệ thống Dashboard, KPI Report trên Power BI cho các phòng ban Thiết kế Data Model, DAX, Power Query, visual nâng cao theo chuẩn UI/UX.…",
-   "last_seen": "2026-11-03"
+   "last_seen": "2026-11-04"
   },
   {
    "title": "CHUYÊN VIÊN PHÁT TRIỂN MIS (DATA ANALYST) - TT PHÁT TRIỂN ỨNG DỤNG - KHỐI CÔNG NGHỆ THÔNG TIN",
@@ -10166,7 +10166,7 @@
     "AWS",
     "Machine Learning"
    ],
-   "last_seen": "2026-10-19"
+   "last_seen": "2026-11-04"
   },
   {
    "title": "Senior Business Intelligence (Khối EDA - RB, Sales Performance & Incentive Analytics) - HN - TA174",
@@ -10188,7 +10188,7 @@
     "Superset",
     "Machine Learning"
    ],
-   "last_seen": "2026-10-21"
+   "last_seen": "2026-11-04"
   },
   {
    "title": "Chuyên viên Cao cấp - Phân tích Dữ liệu Kiểm toán (Audit Data Analytics Specialist) - TA 118 (VN)",
@@ -10218,7 +10218,7 @@
     "Excel",
     "Tiếng Anh"
    ],
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-11-04"
   },
   {
    "title": "EDA-68_CG Khoa học dữ liệu_JG 09",
@@ -10250,8 +10250,14 @@
     "mid"
    ],
    "logo": "logos/vpbank.png",
-   "skills": [],
-   "last_seen": "2026-10-06"
+   "skills": [
+    "Tiếng Anh",
+    "SQL",
+    "Excel",
+    "Python",
+    "Redshift"
+   ],
+   "last_seen": "2026-11-04"
   },
   {
    "title": "Senior Retail Business Intelligence - TA192",
@@ -10266,8 +10272,14 @@
     "senior"
    ],
    "logo": "logos/vpbank.png",
-   "skills": [],
-   "last_seen": "2026-10-06"
+   "skills": [
+    "SQL",
+    "Python",
+    "R",
+    "Superset",
+    "AWS"
+   ],
+   "last_seen": "2026-11-04"
   },
   {
    "title": "CV/CVC/CVCC AI Engineer",
@@ -10903,7 +10915,6 @@
  ],
  "rejected": [
   "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Vietnam---Ho-Chi-Minh-City/Marketing-Trainee---Ensure-Upstream_31164023",
-  "https://careerviet.vn/vi/tim-viec-lam/sales-manager-mt-gt-audio-field.35C8982E.html",
   "https://jobs.msb.com.vn/jobs/mt8-management-trainee-kh%E1%BB%91i-qu%E1%BA%A3n-l%C3%BD-r%E1%BB%A7i-ro-mrrb-6856",
   "https://momo.careers/jobs/sdet-trainee-20159",
   "https://tuyendung.ncb-bank.vn/vi/jobs/PB1YMy",
