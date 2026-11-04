@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T06:04+00:00",
+ "updated": "2026-11-04T14:29+00:00",
  "jobs": [
   {
    "title": "Chuyên Gia Phân tích dữ liệu và xây dựng mô hình phát hiện gian lận - Khối Quản trị rủi ro (2026TD453499)",
@@ -160,6 +160,102 @@
     "R"
    ],
    "logo": "logos/prudential-vietnam.png",
+   "last_seen": "2026-11-04"
+  },
+  {
+   "title": "Data Science Intern",
+   "company": "CÔNG TY CỔ PHẦN ĐẦU TƯ FINPROS",
+   "location": "Hà Nội - Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://topdev.vn/detail-jobs/data-science-intern-cong-ty-co-phan-dau-tu-finpros-2143882",
+   "source": "TopDev",
+   "date": "2026-11-04",
+   "logo": "https://assets.saramin.vn/images/2025/09/26/TopDev-logo-2-1758855992.jpg",
+   "tags": [
+    "Python",
+    "Data Science",
+    "PyTorch"
+   ],
+   "level": [
+    "intern"
+   ],
+   "skills": [
+    "Machine Learning",
+    "Thống kê",
+    "PyTorch",
+    "TensorFlow",
+    "Python",
+    "Pandas",
+    "Scikit-learn"
+   ],
+   "desc": "We are seeking a Data Scientist with strong quantitative thinking and hands-on modeling ability to transform data into reliable analytical and predictive systems. Your role & responsibilities Supporting senior in research, design, and implement predictive models to analyze financial time series dataTry to develop and backtest systematic trading strategies based on technical indicators, ML/DL…",
+   "last_seen": "2026-11-04"
+  },
+  {
+   "title": "[Hà Nội] Chuyên gia Kiểm toán mô hình và dữ liệu - Khối Kiểm toán nội bộ",
+   "company": "LPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.lpbank.com.vn/vi/jobs/qM5paq",
+   "source": "Trang công ty",
+   "date": "2026-11-04",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Tiếng Anh",
+    "Excel",
+    "SQL",
+    "Python",
+    "R",
+    "SAS",
+    "Power BI",
+    "Tableau",
+    "Git",
+    "Machine Learning"
+   ],
+   "desc": "Dẫn dắt đội ngũ KTV mô hình trong việc triển khai, giám sát và đánh giá độc lập các mô hình, đảm bảo chất lượng, tính chính xác và tuân thủ các tiêu chuẩn kiểm toán Xây dựng, phát triển phương pháp luận kiểm toán mô hình: Xây dựng, cập nhật và chuẩn hóa tiêu chí, phương pháp, RCM, chương trình và thủ tục kiểm toán chuyên sâu cho từng nhóm mô hình, dữ liệu và công nghệ liên quan Thẩm định và phân…",
+   "logo": "logos/lpbank.png",
+   "last_seen": "2026-11-04"
+  },
+  {
+   "title": "[BGSV/PJ-TE] Senior Edge AI Engineer (ROS 2/Computer Vision/Sensor Fusion)",
+   "company": "Bosch Vietnam",
+   "location": "Ho Chi Minh",
+   "region": "VN",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159582549",
+   "source": "Trang công ty",
+   "date": "2026-11-04",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Computer Vision",
+    "Python",
+    "Linux"
+   ],
+   "desc": "We are looking for a Specialist to build a new technology capability in Technology & Innovation at Bosch Global Software Technologies Vietnam, from zero to first real deployments. This role is ideal for someone who wants to own a system end-to-end, work directly with real users, and shape how a small team engineers. You will work hands-on with latest-generation AI hardware platforms, from…",
+   "logo": "logos/bosch-vietnam.png",
+   "last_seen": "2026-11-04"
+  },
+  {
+   "title": "[BGSV/PJ-TE] Edge AI Engineer (ROS 2/Computer Vision/Sensor Fusion)",
+   "company": "Bosch Vietnam",
+   "location": "Ho Chi Minh",
+   "region": "VN",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159582449",
+   "source": "Trang công ty",
+   "date": "2026-11-04",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Computer Vision",
+    "Python",
+    "Linux"
+   ],
+   "desc": "We are looking for a Specialist to build a new technology capability in Technology & Innovation at Bosch Global Software Technologies Vietnam, from zero to first real deployments. This role is ideal for someone who wants to own a system end-to-end, work directly with real users, and shape how a small team engineers. You will work hands-on with latest-generation AI hardware platforms, from…",
+   "logo": "logos/bosch-vietnam.png",
    "last_seen": "2026-11-04"
   },
   {
@@ -783,6 +879,25 @@
    "skills": [
     "Java"
    ],
+   "last_seen": "2026-11-04"
+  },
+  {
+   "title": "CVCC Quản trị dữ liệu - Hà Nội - TA105",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-CVCC-Qu%E1%BA%A3n-tr%E1%BB%8B-d%E1%BB%AF-li%E1%BB%87u-H%C3%A0-N%E1%BB%99i-TA105/1359899866/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-11-02",
+   "desc": "Các trách nhiệm chính 1 1. Hỗ trợ quản lý và nâng cao Chất lượng dữ liệu gồm các yếu tố dữ liệu quan trọng và các dữ liệu khác/ Support to manage and improve data quality for critical data elements (CDEs) and non-CDEs. Xây dựng các quy tắc kiểm tra CLDL và các ngưỡng chất lượng dữ liệu tương ứng với yêu cầu của đơn vị kinh doanh/ Develop data quality checking rules and thresholds based on…",
+   "skills": [
+    "SQL",
+    "Redshift",
+    "Data Warehouse",
+    "Excel",
+    "Power BI"
+   ],
+   "logo": "logos/vpbank.png",
    "last_seen": "2026-11-04"
   },
   {
@@ -1618,7 +1733,7 @@
    "skills": [
     "Excel"
    ],
-   "last_seen": "2026-10-28"
+   "last_seen": "2026-11-04"
   },
   {
    "title": "Senior Data Engineer",
@@ -2361,7 +2476,7 @@
     "Kubernetes"
    ],
    "desc": "JOB DESCRIPTION 1. Primary Objective: Design and build scalable batch and real-time ETL/ELT data pipelines Design data models and DataMarts (Customer Profile, Journey, Event) per business requirements Operate, monitor, and optimize the data platform on Microsoft Azure and Google Cloud Integrate source systems and provide technical support to other teams in the Data Department Ensure data quality…",
-   "last_seen": "2026-11-03"
+   "last_seen": "2026-11-04"
   },
   {
    "title": "Analyst, DOMO Data Engineer - Group Marketing",
@@ -2689,7 +2804,7 @@
    "date": "2026-10-24",
    "logo": "https://images.vietnamworks.com/pictureofcompany/f1/11138249.png",
    "salary": "Thỏa thuận",
-   "desc": "About AIRR Labs: AIRR Labs , headquartered in Singapore, is a leading e-commerce enabler in Southeast Asia, specializing in FMCG, Beauty, and Lifestyle brands across platforms such as TikTok Shop, Shopee, and Lazada. Since 2019, AIRR Labs has grown to more than 350 experts across Thailand, the Philippines, Vietnam, Malaysia, and Singapore, with a technology hub... 6+ years of experience in Data…",
+   "desc": "About AIRR Labs: Founded in 2019 and headquartered in Singapore, AIRR Labs is a leading e-commerce enabler in Southeast Asia for FMCG, Beauty and Lifestyle brands. We have 350+ people across Thailand, the Philippines, Vietnam, Malaysia and Singapore, with our technology hub in Vietnam. We are a certified TikTok Strategic Agency, Shopee Premium Enabler and... What we're looking for: Must-haves: 6+…",
    "level": [
     "senior"
    ],
@@ -2699,7 +2814,10 @@
     "AWS",
     "Snowflake",
     "BigQuery",
-    "Redshift"
+    "Redshift",
+    "Airflow",
+    "dbt",
+    "Python"
    ],
    "last_seen": "2026-11-04"
   },
@@ -3166,7 +3284,7 @@
     "Kafka"
    ],
    "desc": "Company Information Founded in 2018, Data Nest is a dynamic and innovative company specialising in credit scoring, lead generation services and other products. By harnessing the power of Data Analytics and AI, we help finance companies to reduce their credit loss, to widen their consumer base, and to fasten their release of new financial services. We aim to transform the financial landscape…",
-   "last_seen": "2026-11-03"
+   "last_seen": "2026-11-04"
   },
   {
    "title": "Chuyên viên Quản lý thông tin Cơ sở dữ liệu về giá",
@@ -3561,7 +3679,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-10-27"
+   "last_seen": "2026-11-04"
   },
   {
    "title": "AI Data Labeling Intern (Construction/ Architecture Background)",
@@ -4990,7 +5108,7 @@
     "LLM / GenAI"
    ],
    "desc": "Flodesk is recognized in the Inc 5000 as one of the world's fastest-growing email marketing companies, built to help entrepreneurs sell online and design emails that people love to get. We're committed to giving small businesses simple and intuitive tools that help them grow, nurture, and monetize their email list. We’re a remote-first company headquartered in San Francisco with a globally…",
-   "last_seen": "2026-10-29"
+   "last_seen": "2026-11-04"
   },
   {
    "title": "Senior Data Engineer",
@@ -6523,6 +6641,23 @@
    ],
    "desc": "At Globant, we are working to make the world a better place, one step at a time. We enhance business development and enterprise solutions to prepare them for a digital future. With a diverse and talented team present in more than 30 countries, we are strategic partners to leading global companies in their business process transformation. We seek a Senior Data Engineer who shares our passion for…",
    "last_seen": "2026-10-26"
+  },
+  {
+   "title": "Chuyên gia Quản trị Dữ liệu (Data Governance) - TNEX - 4B062",
+   "company": "CÔNG TY TÀI CHÍNH TNHH MTV TNEX (TNEX Finance)",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-gia-quan-tri-du-lieu-data-governance-tnex-4b062.35C86F82.html",
+   "source": "CareerViet",
+   "date": "2026-10-14",
+   "logo": "https://images.careerviet.vn/employer_folders/lot6/318956/165011logotnexfinance.png",
+   "salary": "Thỏa thuận",
+   "level": [
+    "senior"
+   ],
+   "skills": [],
+   "desc": "Vai trò & Mục tiêu: Chịu trách nhiệm triển khai các hoạt động nhằm nâng cao chất lượng dữ liệu và giám sát việc bảo vệ các tài sản thông tin và dữ liệu nhạy cảm; là đầu mối các vấn đề về quản trị chất lượng dữ liệu và bảo vệ dữ liệu; đảm bảo sự nhất quán, chất lượng và bảo vệ cần thiết để đáp ứng nhu cầu kinh doanh tổng thể. 1. Nghiên cứu và đào tạo • Huấn luyện và đào tạo các năng lực và kỹ…",
+   "last_seen": "2026-11-04"
   },
   {
    "title": "Data Analyst (Tài Chính)",
@@ -10780,6 +10915,7 @@
   "https://tuyendung.ncb-bank.vn/vi/jobs/ypdzay",
   "https://tuyendung.tpb.vn/vi/jobs/PwlmoR",
   "https://tuyendung.tpb.vn/vi/jobs/RlVpay",
+  "https://tuyendung.tpb.vn/vi/jobs/qXW2eR",
   "https://tuyendung.tpb.vn/vi/jobs/yKX3YP",
   "https://tuyendung.vietabank.com.vn/vi/jobs/P8Qa1R",
   "https://tuyendung.vpbank.com.vn/job/H%E1%BB%93-Ch%C3%AD-Minh-T%E1%BA%ADp-s%E1%BB%B1-KHDN-v%E1%BB%ABa-&-nh%E1%BB%8F-TP_-H%E1%BB%93-Ch%C3%AD-Minh-TA182/1364006466/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
@@ -10804,7 +10940,6 @@
   "https://www.vietnamworks.com/sales-trainee-concrete-2126239-jv",
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1793262742027719009-2125340-jv",
   "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv",
-  "https://ybox.vn/tuyen-dung/hcm-asia-azpire-graduate-program-tai-astrazeneca-viet-nam-chuong-trinh-dao-tao-phat-trien-danh-cho-cac-tai-nang-tre-giau-tiem-nang-trong-linh-vuc-cham-soc-suc-khoe-2026-6ae9ac50ce0244519e419ffe",
-  "https://ybox.vn/tuyen-dung/hn-cong-ty-cong-nghe-va-ho-tro-thuong-mai-dien-tu-upbase-tuyen-dung-thuc-tap-sinh-ecommerce-growth-trainee-van-hanh-va-tang-truong-san-thuong-mai-dien-tu-tiktok-shopee-full-time-2026-6ae85600ce0244519e416791"
+  "https://ybox.vn/tuyen-dung/hcm-asia-azpire-graduate-program-tai-astrazeneca-viet-nam-chuong-trinh-dao-tao-phat-trien-danh-cho-cac-tai-nang-tre-giau-tiem-nang-trong-linh-vuc-cham-soc-suc-khoe-2026-6ae9ac50ce0244519e419ffe"
  ]
 }
