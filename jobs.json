@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T06:31+00:00",
+ "updated": "2026-11-05T19:57+00:00",
  "jobs": [
   {
    "title": "Senior Data Engineer, Adtima",
@@ -25,6 +25,128 @@
     "LLM / GenAI"
    ],
    "desc": "Data Engineers in the Adtima team build and operate the data backbone of our ads ecosystem, turning raw logs into training-ready features and production-grade model scores, and working closely with Data Scientists to make experimentation fast and reliable. They also support product teams with data for analytics tasks. What you will do Build and operate the online serving data pipeline end-to-end,…",
+   "last_seen": "2026-11-05"
+  },
+  {
+   "title": "AI Engineer",
+   "company": "VF Structures",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ai-engineer-1793873419063729245-2128357-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-05",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/a2/10557285.png",
+   "salary": "Thỏa thuận",
+   "desc": "Tổng quan vị trí Phát triển phần mềm ngành xây dựng dựa trên nền tảng web, ứng dụng kiến trúc Microservices và Cloud-native. Mô tả công việc • Thiết kế và phát triển các hệ thống Backend tích hợp AI/LLM Agents • Xây dựng các Agentic Workflow, A: Planning – Tool Use – Memory – Execution. • Nghiên cứu... Yêu cầu ứng viên • Tốt nghiệp đại học chuyên ngành Công nghệ thông tin, Khoa học máy tính, Kỹ…",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "LLM / GenAI",
+    "Machine Learning"
+   ],
+   "last_seen": "2026-11-05"
+  },
+  {
+   "title": "Senior Data Analyst",
+   "company": "Central Retail in Vietnam",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4486580630",
+   "source": "LinkedIn",
+   "date": "2026-11-05",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFfEFb0Sh1nlA/company-logo_100_100/B4EZ.pVAedHAAM-/0/1785252284604?e=2147483647&v=beta&t=EZQlQpO4yT2uw_6jgSukrVQq4dyi3eYsGIN6Nc1DKJQ",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "SQL",
+    "Python",
+    "R",
+    "Thống kê"
+   ],
+   "desc": "What You Will Do Develop customer profiling, segmentation, and predictive analytics models to support CRM, Marketing, and Commercial strategies. Lead business analysis and deliver actionable insights to support strategic decision-making. Develop and maintain automated dashboards and BI reports to monitor customer behavior, model performance, and business KPIs. Lead end-to-end data projects,…",
+   "last_seen": "2026-11-05"
+  },
+  {
+   "title": "Cộng Tác Viên Training Data Image Sử Dụng AI",
+   "company": "Công Ty Công Nghệ Wonny AI",
+   "location": "Online, Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://ybox.vn/tuyen-dung/online-hcm-cong-ty-cong-nghe-wonny-ai-tuyen-dung-cong-tac-vien-training-data-image-su-dung-ai-part-time-full-time-2026-6aebf381dc89a3793f091b9c",
+   "source": "Ybox",
+   "date": "2026-11-05",
+   "logo": "https://static.ybox.vn/2026/10/3/1791979515749-laluongv5.jpg",
+   "desc": "Wonny AI Ltd. là công ty công nghệ chuyên cung cấp các giải pháp phần mềm và công cụ dữ liệu định hướng AI, giúp doanh nghiệp tối ưu hóa vận hành và tạo ra các giá trị kinh doanh m",
+   "skills": [],
+   "last_seen": "2026-11-05"
+  },
+  {
+   "title": "Data Engineer/ Senior Data Engineer",
+   "company": "CÔNG TY TÀI CHÍNH TÍN DỤNG TIÊU DÙNG TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN SFINANCE",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://topdev.vn/detail-jobs/data-engineer-senior-data-engineer-cong-ty-tai-chinh-tin-dung-tieu-dung-trach-nhiem-huu-han-mot-thanh-vien-sfinance-2144784",
+   "source": "TopDev",
+   "date": "2026-11-05",
+   "logo": "https://assets.saramin.vn/images/2026/08/25/Saramin-Logo-vuong-1787628272.png",
+   "tags": [
+    "Big Data",
+    "Data Engineer",
+    "Data Warehouse"
+   ],
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Data Warehouse"
+   ],
+   "desc": "MỤC TIÊU CÔNG VIỆC: Đảm bảo việc phối hợp với với các phòng ban liên quan triển khai và tham gia phát triển/triển khai các dự án về dữ liệu, khai thác dữ liệu cũng như các công việc khác theo phân công của Trưởng phòng/ Trưởng bộ phận Đảm bảo việc vận hành ứng dụng trên hệ thống Data Warehouse, Data mart và các hệ thống giá trị gia tăng ổn định phù hợp với chiến lược kinh doanh, chiến lược công…",
+   "last_seen": "2026-11-05"
+  },
+  {
+   "title": "CG Kỹ sư dữ liệu",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-CG-K%E1%BB%B9-s%C6%B0-d%E1%BB%AF-li%E1%BB%87u/1367042966/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-11-05",
+   "desc": "Các trách nhiệm chính 1 Các trách nhiệm chính 2 Các trách nhiệm chính 3 Các trách nhiệm chính 4 Các trách nhiệm chính 5 Các trách nhiệm chính 6 Các trách nhiệm chính 7 Các trách nhiệm chính 8 Trình độ đào tạo Đại học in Kinh tế Chứng chỉ/Bằng cấp chuyên môn Năng lực chuyên môn Kỹ năng Giá trị cốt lõi 1. KHÁT VỌNG 2. CHÍNH TRỰC 3. HIỆU QUẢ 4. KỶ CƯƠNG 5. SÁNG TẠO Các năng lực khác Các yêu cầu khác…",
+   "skills": [
+    "Machine Learning"
+   ],
+   "logo": "logos/vpbank.png",
+   "last_seen": "2026-11-05"
+  },
+  {
+   "title": "[SO] Senior Data Analyst – Databricks / Modern Data Platform",
+   "company": "Bosch Vietnam",
+   "location": "Ho Chi Minh city",
+   "region": "VN",
+   "url": "https://jobs.smartrecruiters.com/BoschGroup/744000159805979",
+   "source": "Trang công ty",
+   "date": "2026-11-05",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Databricks",
+    "SQL",
+    "Data Modeling",
+    "Python",
+    "ETL",
+    "Azure",
+    "Power BI",
+    "Spark",
+    "Data Warehouse",
+    "Tiếng Anh",
+    "SSIS",
+    "Git",
+    "Machine Learning"
+   ],
+   "desc": "We are looking for a Senior Data Engineer with strong hands-on experience in Databricks and modern data platforms to design, build, and maintain scalable data solutions for analytics and BI. The ideal candidate combines strong Data Engineering, SQL, data modeling, cloud, and system optimization skills, with the ability to take technical ownership and work closely with business and technical…",
+   "logo": "logos/bosch-vietnam.png",
    "last_seen": "2026-11-05"
   },
   {
@@ -298,6 +420,20 @@
    "last_seen": "2026-11-05"
   },
   {
+   "title": "Master Data Engineer",
+   "company": "Công Ty TNHH Fine Scandinavia",
+   "location": "Bình Dương",
+   "region": "VN",
+   "url": "https://careerviet.vn/vi/tim-viec-lam/master-data-engineer.35C89833.html",
+   "source": "CareerViet",
+   "date": "2026-11-04",
+   "logo": "https://static.careerviet.vn/themes/kiemviecv32/images/graphics/logo-default.png",
+   "salary": "Thỏa thuận",
+   "skills": [],
+   "desc": "Tiếp nhận các yêu cầu (request) làm bản vẽ, BOM hoặc yêu cầu điều chỉnh bản vẽ (có ECR) từ các bộ phận liên quan. Phối hợp cùng đội ngũ để thông báo hạn chót (deadline) hoàn thành bản vẽ cho phía người yêu cầu (requestor). Quản lý & lập kế hoạch tổng thể (Master Planning) cho team Kỹ thuật (Technical Engineering Team) nhằm dự báo khối lượng công việc (workload) của đội ngũ. Theo dõi sát sao…",
+   "last_seen": "2026-11-05"
+  },
+  {
    "title": "Kỹ Sư Hệ Thống Máy Chủ & Trung Tâm Dữ Liệu",
    "company": "CÔNG TY TNHH KOREA MIKASA VIỆT NAM",
    "location": "Hồ Chí Minh",
@@ -408,7 +544,7 @@
     "Looker"
    ],
    "desc": "A) Mô tả công việc 1. Triển khai & Tối ưu Giải pháp Dữ liệu (60% - Hands-on) Dự án End-to-End: Trực tiếp chủ trì và xắn tay áo triển khai các dự án dữ liệu từ thu thập, làm sạch, đến xây dựng mô hình và A/B testing. Xây dựng Mô hình Chuyên sâu: Phát triển và tinh chỉnh (fine-tune) các mô hình ML (Phân loại, Hồi quy, Chuỗi thời gian...) để giải quyết các bài toán kinh doanh trọng yếu: Customer…",
-   "last_seen": "2026-11-03"
+   "last_seen": "2026-11-05"
   },
   {
    "title": "DATA ENGINEER (MIDDLE)",
@@ -677,6 +813,28 @@
    "last_seen": "2026-11-05"
   },
   {
+   "title": "Senior Officer, Data Translator (50000281)",
+   "company": "Techcombank",
+   "location": "TP. Ha Noi",
+   "region": "VN",
+   "url": "https://www.techcombankjobs.com/job/TP_-Ha-Noi-Senior-Officer%2C-Data-Translator-%2850000281%29/55937144/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-11-03",
+   "desc": "Job Purpose '- The job holder will be responsible for conducting in gathering, research, analyzing business, process and data requirements to arrive at comprehensive solutions. - The job holder will be responsible for exploring a variety of company systems, company data platforms and analytical tools to provide timely, meaningful and consumable information to internal stakeholders as well as the…",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "SQL",
+    "Data Warehouse",
+    "AWS",
+    "Azure",
+    "GCP"
+   ],
+   "logo": "logos/techcombank.png",
+   "last_seen": "2026-11-05"
+  },
+  {
    "title": "HO - Data Science Expert",
    "company": "Ngân Hàng TMCP Á Châu (ACB)",
    "location": "Hồ Chí Minh",
@@ -937,6 +1095,28 @@
     "Power BI"
    ],
    "logo": "logos/vpbank.png",
+   "last_seen": "2026-11-05"
+  },
+  {
+   "title": "Senior Data Scientist",
+   "company": "L4 Studio - Software Development Company",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4485451658",
+   "source": "LinkedIn",
+   "date": "2026-11-02",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQECxEwVAFK2tg/company-logo_100_100/company-logo_100_100/0/1643674907816/l4studiovn_logo?e=2147483647&v=beta&t=sMIGa28nDzs5HlKBqmyEvS5jVekObg1fXylLcPSAYCk",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Thống kê",
+    "Machine Learning",
+    "Python",
+    "MLOps",
+    "Airflow"
+   ],
+   "desc": "Working location: Remote full-time (09:00 - 18:00 ICT) Salary range: USD 4,000 - 8,000 gross RESPONSIBILITIES We are looking for a senior applied data scientist or quantitative researcher to lead the development and continuous improvement of the predictive models and statistical frameworks behind our real-time forecasting engines, beginning with eSports. You will apply probabilistic modelling,…",
    "last_seen": "2026-11-05"
   },
   {
@@ -3397,7 +3577,7 @@
     "Python",
     "Data Modeling"
    ],
-   "last_seen": "2026-11-04"
+   "last_seen": "2026-11-05"
   },
   {
    "title": "Senior Data Scientist",
@@ -3457,7 +3637,7 @@
     "Power BI",
     "Data Modeling"
    ],
-   "last_seen": "2026-11-04"
+   "last_seen": "2026-11-05"
   },
   {
    "title": "[Hà Nội] Chuyên gia Data AI- Phòng Kế hoạch và Phân tích tài chính- Khối Quản trị tài chính",
@@ -4158,7 +4338,7 @@
   {
    "title": "AI Engineer (Computer Vision)",
    "company": "Công Ty Cổ Phần Vinsmart Future",
-   "location": "Hồ Chí Minh",
+   "location": "Hồ Chí Minh, Hà Nội",
    "region": "VN",
    "url": "https://www.vietnamworks.com/ai-engineer-computer-vision-1792478500012309531-2121378-jv",
    "source": "VietnamWorks",
@@ -4174,7 +4354,8 @@
     "Machine Learning",
     "Python",
     "Deep Learning",
-    "PyTorch"
+    "PyTorch",
+    "TensorFlow"
    ],
    "last_seen": "2026-11-05"
   },
@@ -4771,7 +4952,7 @@
     "Tiếng Anh"
    ],
    "desc": "Thu nhập: Thỏa thuận Ngành nghề: IT Phần Mềm/CNTT Địa điểm: Hà Nội Thời gian ứng tuyển: 30/11/2026 Hiện tại Sapo vận hành LakeHouse trên Cloudera/Hadoop, pipeline orchestrate bằng Airflow, dữ liệu đi qua 3 tầng Raw → Cleansed → Aggregated, truy vấn qua Dremio và ClickHouse, tiêu thụ bằng Power BI và Jupyter. Sapo đang tìm kiếm Data Engineer tham gia trực tiếp vào việc xây dựng, vận hành và phát…",
-   "last_seen": "2026-11-04"
+   "last_seen": "2026-11-05"
   },
   {
    "title": "Data QA_CVCC Kiểm thử chất lượng giải pháp DL - Hà Nội - TA105",
@@ -9790,7 +9971,7 @@
     "SQL",
     "Excel"
    ],
-   "last_seen": "2026-10-16"
+   "last_seen": "2026-11-05"
   },
   {
    "title": "Junior Data Analyst (LSM)",
@@ -10462,14 +10643,16 @@
   "https://tuyendung.ncb-bank.vn/vi/jobs/ypdzay",
   "https://tuyendung.tpb.vn/vi/jobs/PwlmoR",
   "https://tuyendung.tpb.vn/vi/jobs/RlVpay",
+  "https://tuyendung.tpb.vn/vi/jobs/qD2vJP",
   "https://tuyendung.tpb.vn/vi/jobs/qXW2eR",
   "https://tuyendung.tpb.vn/vi/jobs/yKX3YP",
+  "https://tuyendung.tpb.vn/vi/jobs/ypdLky",
   "https://tuyendung.vietabank.com.vn/vi/jobs/P8Qa1R",
   "https://tuyendung.vpbank.com.vn/job/H%E1%BB%93-Ch%C3%AD-Minh-T%E1%BA%ADp-s%E1%BB%B1-KHDN-v%E1%BB%ABa-&-nh%E1%BB%8F-TP_-H%E1%BB%93-Ch%C3%AD-Minh-TA182/1364006466/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
   "https://www.linkedin.com/jobs/view/4475527711",
-  "https://www.linkedin.com/jobs/view/4478915429",
   "https://www.linkedin.com/jobs/view/4478977404",
   "https://www.linkedin.com/jobs/view/4482928927",
+  "https://www.linkedin.com/jobs/view/4484871620",
   "https://www.vietnamworks.com/-trainee-legal-associate-2126567-jv",
   "https://www.vietnamworks.com/engineer-trainee-fresher-2126423-jv",
   "https://www.vietnamworks.com/graduate-engineering-trainee-1792730133447338887-2122883-jv",
@@ -10485,7 +10668,6 @@
   "https://www.vietnamworks.com/project-trainee-temp-4-months-1791875037524242745-2118862-jv",
   "https://www.vietnamworks.com/sales-trainee-concrete-2126239-jv",
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1793262742027719009-2125340-jv",
-  "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv",
-  "https://ybox.vn/tuyen-dung/hcm-asia-azpire-graduate-program-tai-astrazeneca-viet-nam-chuong-trinh-dao-tao-phat-trien-danh-cho-cac-tai-nang-tre-giau-tiem-nang-trong-linh-vuc-cham-soc-suc-khoe-2026-6ae9ac50ce0244519e419ffe"
+  "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv"
  ]
 }
