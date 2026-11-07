@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T05:51+00:00",
+ "updated": "2026-11-07T12:55+00:00",
  "jobs": [
   {
    "title": "Audit Data Analytics Specialist – ID11908",
@@ -292,7 +292,7 @@
     "GCP"
    ],
    "desc": "Mô tả công việc: Thu thập, xử lý, phân tích và trực quan hóa dữ liệu từ nhiều nguồn khác nhau để hỗ trợ ra quyết định kinh doanh. Thiết kế, xây dựng và duy trì các pipeline dữ liệu để thu thập, xử lý và lưu trữ dữ liệu. Xây dựng và duy trì các báo cáo, dashboard, và công cụ phân tích dữ liệu. Đảm bảo tính toàn vẹn, bảo mật và chất lượng của dữ liệu trong hệ thống. Tích hợp các nguồn dữ liệu và…",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   {
    "title": "Senior Data Engineer - Square (APAC Remote)",
@@ -425,6 +425,37 @@
    "skills": [],
    "desc": "1. Vận hành và đảm bảo chất lượng nền tảng dữ liệu Vận hành, giám sát và xử lý các pipeline dữ liệu hằng ngày; chủ động phát hiện, phân tích nguyên nhân và xử lý các sự cố phát sinh. Kiểm tra, đối soát và đảm bảo chất lượng dữ liệu giữa các hệ thống nguồn; phối hợp xử lý các vấn đề liên quan đến dữ liệu. Tham gia xây dựng, cập nhật Data Dictionary, Metadata và các tài liệu phục vụ quản trị dữ…",
    "logo": "logos/shb.png",
+   "last_seen": "2026-11-07"
+  },
+  {
+   "title": "Chuyên viên Cao cấp - Phân tích Dữ liệu Kiểm toán (Audit Data Analytics Specialist) – ID11908",
+   "company": "Ngân Hàng TMCP Việt Nam Thịnh Vượng - VPBANK",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-phan-tich-du-lieu-kiem-toan-audit-data-analytics-specialist-id11908.35C89AF3.html",
+   "source": "CareerViet",
+   "date": "2026-11-06",
+   "logo": "https://images.careerviet.vn/employer_folders/lot2/123152/92239logokotagline-01.png",
+   "salary": "Thỏa thuận",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Machine Learning",
+    "SQL",
+    "Python",
+    "Alteryx",
+    "ETL",
+    "Power BI",
+    "Tableau",
+    "LLM / GenAI",
+    "NLP",
+    "Thống kê",
+    "R",
+    "Excel",
+    "Tiếng Anh"
+   ],
+   "desc": "Các trách nhiệm chính Chịu trách nhiệm phát triển, thực thi các giải pháp Phân tích Dữ liệu Kiểm toán (ADA), tự động hóa kịch bản kiểm tra và ứng dụng AI/Machine Learning nhằm chuyển đổi phương pháp kiểm toán từ chọn mẫu truyền thống sang rà soát 100% tổng thể dữ liệu. Vị trí này đóng vai trò cầu nối dữ liệu kỹ thuật với nghiệp vụ kiểm toán, đồng thời phải am hiểu về kiểm toán CNTT (IT Audit) để…",
    "last_seen": "2026-11-07"
   },
   {
@@ -573,6 +604,29 @@
    ],
    "desc": "We are looking for a Senior Data Engineer with strong hands-on experience in Databricks and modern data platforms to design, build, and maintain scalable data solutions for analytics and BI. The ideal candidate combines strong Data Engineering, SQL, data modeling, cloud, and system optimization skills, with the ability to take technical ownership and work closely with business and technical…",
    "logo": "logos/bosch-vietnam.png",
+   "last_seen": "2026-11-07"
+  },
+  {
+   "title": "CG Khoa học dữ liệu",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-CG-Khoa-h%E1%BB%8Dc-d%E1%BB%AF-li%E1%BB%87u/1367042566/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-11-05",
+   "desc": "Các trách nhiệm chính 1 Các trách nhiệm chính 2 Các trách nhiệm chính 3 Các trách nhiệm chính 4 Các trách nhiệm chính 5 Các trách nhiệm chính 6 Các trách nhiệm chính 7 Các trách nhiệm chính 8 Trình độ đào tạo Đại học in Khoa học máy tính Chứng chỉ/Bằng cấp chuyên môn Năng lực chuyên môn Kỹ năng Giá trị cốt lõi 1. KHÁT VỌNG 2. CHÍNH TRỰC 3. HIỆU QUẢ 4. KỶ CƯƠNG 5. SÁNG TẠO Các năng lực khác Các…",
+   "skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "LLM / GenAI",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Databricks",
+    "SQL",
+    "Excel"
+   ],
+   "logo": "logos/vpbank.png",
    "last_seen": "2026-11-07"
   },
   {
@@ -2421,6 +2475,24 @@
    "last_seen": "2026-11-07"
   },
   {
+   "title": "Junior Data Analyst (LSM)",
+   "company": "ROSEN",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4439148771",
+   "source": "LinkedIn",
+   "date": "2026-10-29",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHoqmJenV7CDA/company-logo_100_100/company-logo_100_100/0/1714116244044/rosen_logo?e=2147483647&v=beta&t=i4BOelEaLlBsrZHuzBy8upSF25egwdglSxfjXaF-Iq0",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Tiếng Anh"
+   ],
+   "desc": "Location: Ho Chi Minh City Apply now What you can expect ROSEN is seeking a detail oriented and analytically minded Data Analyst to support the Large Standoff Magnetometry (LSM) evaluation process. This role focuses on careful data review, pattern recognition, cross referencing, and contributing to high quality integrity assessments. LSM is an interdisciplinary domain, and comprehensive training…",
+   "last_seen": "2026-11-07"
+  },
+  {
    "title": "Data Analysis Officer (AEON Group Point)",
    "company": "CÔNG TY TNHH AEON VIỆT NAM",
    "location": "Hồ Chí Minh",
@@ -2709,7 +2781,7 @@
     "Airflow"
    ],
    "desc": "Only for candidates in Vietnam Working location: Remote full-time (09:00 - 18:00 ICT) Salary range: USD 4,000 - 8,000 gross RESPONSIBILITIES We are looking for a senior applied data scientist or quantitative researcher to lead the development and continuous improvement of the predictive models and statistical frameworks behind our real-time forecasting engines, beginning with eSports. You will…",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   {
    "title": "Data Engineer Lead/Manager (Hybrid HN/HCM) + Signing Bonus",
@@ -3238,7 +3310,7 @@
     "Kubernetes"
    ],
    "desc": "JOB DESCRIPTION 1. Primary Objective: Design and build scalable batch and real-time ETL/ELT data pipelines Design data models and DataMarts (Customer Profile, Journey, Event) per business requirements Operate, monitor, and optimize the data platform on Microsoft Azure and Google Cloud Integrate source systems and provide technical support to other teams in the Data Department Ensure data quality…",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   {
    "title": "Analyst, DOMO Data Engineer - Group Marketing",
@@ -3732,7 +3804,7 @@
     "SQL",
     "Python"
    ],
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   {
    "title": "Software & Web Developer — Power BI and Microsoft Dynamics ERP",
@@ -4542,7 +4614,7 @@
    ],
    "desc": "Mô tả công việc Phân tích dữ liệu trên môi trường số đảm bảo tuân thủ đúng quy định của pháp luật và ngân hàng; đáp ứng đầy đủ các tiêu chí về hiệu năng, an toàn bảo mật thông tin dữ liệu và trải nghiệm khách hàng; Theo dõi danh mục tín dụng và các danh mục sản phẩm khác tại ngân hàng, xây dựng các mô hình dự báo để sớm phát hiện các dấu hiệu tuân thủ, rủi ro thông qua phân tích dữ liệu rủi ro…",
    "logo": "logos/pvcombank.png",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   {
    "title": "Thực Tập Sinh Kiểm Soát (Kế toán & Dữ liệu)",
@@ -4622,7 +4694,7 @@
     "AWS"
    ],
    "desc": "MoMo's data platform processes petabytes of data through thousands of pipelines every day. It powers product analytics, business performance analysis, insight validation, and machine learning models for fraud detection, credit scoring, and personalization. Its reliability directly affects business decisions and product performance; We are moving from a platform built primarily on BigQuery toward…",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   {
    "title": "Data Engineer",
@@ -8220,7 +8292,7 @@
    "logo": "logos/pvcombank.png",
    "skills": [],
    "desc": "Theo dõi, tổng hợp và phân tích dữ liệu hoạt động kinh doanh của Khối theo định kỳ, đảm bảo phản ánh đầy đủ tình hình thực hiện. Lập các báo cáo quản trị định kỳ và đột xuất, phục vụ nhu cầu điều hành của Lãnh đạo Khối. Theo dõi hiệu quả TOI theo khách hàng, các chỉ tiêu tài chính và hỗ trợ phân tích xu hướng biến động. Hỗ trợ quản lý dữ liệu nhân sự, cập nhật thông tin phân công công việc và…",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   {
    "title": "Chuyên gia Dữ liệu báo cáo - Phòng Quản lý kinh doanh - Khối KHDN",
@@ -8236,7 +8308,7 @@
    "logo": "logos/pvcombank.png",
    "skills": [],
    "desc": "Thiết kế, xây dựng và hoàn thiện hệ thống báo cáo quản trị đa chiều, đảm bảo tính nhất quán, chính xác và khả năng khai thác phục vụ điều hành. Phân tích dữ liệu kinh doanh, theo dõi hiệu quả TOI, lãi suất cho vay và các chỉ tiêu tài chính quan trọng theo từng khách hàng, ngành và chương trình. Tham gia xây dựng các báo cáo phân tích chuyên sâu, hỗ trợ Lãnh đạo Khối trong việc ra quyết định và…",
-   "last_seen": "2026-11-06"
+   "last_seen": "2026-11-07"
   },
   {
    "title": "Chuyên gia Vận hành Nền tảng tích hợp dữ liệu - K.CNTT",
