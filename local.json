@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T06:00+00:00",
+ "updated": "2026-11-07T12:00+00:00",
  "jobs": [
   {
    "title": "Nhân Viên Data Kho",
@@ -195,7 +195,7 @@
     "Python"
    ],
    "desc": "Mô tả công việc Xây dựng và phát triển hệ thống dữ liệu (data pipeline, data architecture, ETL). Thu thập, xử lý và chuyển đổi dữ liệu thô thành dữ liệu có giá trị phục vụ business. Thiết kế data model, phân tích yêu cầu và triển khai giải pháp dữ liệu end-to-end. Phát hiện insight/pattern từ dữ liệu và cải thiện chất lượng dữ liệu hiện có. Xử lý sự cố kỹ thuật, tối ưu hệ thống và phối hợp với…",
-   "last_seen": "2026-11-05"
+   "last_seen": "2026-11-07"
   },
   {
    "title": "Kỹ Sư Khoa Học Dữ Liệu Không Gian",
@@ -1647,6 +1647,41 @@
    ],
    "desc": "Mô tả công việc Thực hiện các tác vụ nhập, xuất và tồn kho trên hệ thống WMS/OMS. Xử lý và in đơn hàng từ các sàn thương mại điện tử như Shopee, Lazada, Tiki, TikTok và các nền tảng khác. Kiểm tra, xử lý kịp thời các đơn hàng nhập/xuất trên hệ thống và phối hợp cung cấp thông tin, chứng từ cho các team vận hành liên quan. Cập nhật và quản lý dữ liệu trên hệ thống và Excel phục vụ kiểm soát hàng…",
    "last_seen": "2026-11-05"
+  },
+  {
+   "title": "CVCC/Chuyên gia Phân tích dữ liệu (Data Analyst, SQL)",
+   "company": "ABBANK",
+   "location": "Ha Noi",
+   "region": "VN",
+   "url": "https://itviec.com/it-jobs/cvcc-chuyen-gia-phan-tich-du-lieu-data-analyst-sql-abbank-3801",
+   "source": "ITviec",
+   "date": "2026-10-28",
+   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NzA0NDc2OCwicHVyIjoiYmxvYl9pZCJ9fQ==--58852c6ffb6b5f4d6aa11d51a36133557ea29c4b/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/ABB_CoreID_RGB.png",
+   "tags": [
+    "Data Analysis",
+    "SQL",
+    "Python",
+    "Tableau",
+    "Power BI",
+    "Pandas"
+   ],
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "SQL",
+    "Thống kê",
+    "Python",
+    "Pandas",
+    "Excel",
+    "Power BI",
+    "Tableau",
+    "Machine Learning",
+    "Data Modeling",
+    "Tiếng Anh"
+   ],
+   "desc": "Top 3 Reasons To Join Us Lương/ thưởng hấp dẫn Cơ hội thăng tiến nghề nghiệp cao Môi trường làm việc thân thiện, năng động The Job Tham gia vào quá trình thiết kế và phát triển các sản phẩm và dịch vụ ngân hàng số cho KHCN, SME và KHDN. Đề xuất các phương án sử dụng phân tích dữ liệu để am hiểu khách hàng, nhằm cá nhân hóa và tối ưu hóa trải nghiệm khách hàng, đồng thời tăng cường mức độ tương…",
+   "last_seen": "2026-11-07"
   },
   {
    "title": "Senior Data Scientist - GSM Platform",
