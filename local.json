@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T18:00+00:00",
+ "updated": "2026-11-08T00:00+00:00",
  "jobs": [
   {
    "title": "Nhân Viên Gắn Nhãn Dữ Liệu Tiếng Anh",
@@ -238,7 +238,7 @@
     "Scikit-learn"
    ],
    "desc": "Mô tả công việc - Xây dựng và phát triển hệ thống xử lý, lưu trữ và khai thác dữ liệu lớn phục vụ mục đích giám sát đối tượng. - Nghiên cứu, phân tích cấu trúc dữ liệu từ nhiều nguồn khác nhau; tìm hiểu ý nghĩa dữ liệu để phục vụ xây dựng mô hình phân tích và phát hiện insight. - Thực hiện xử lý dữ liệu (Data Processing): làm sạch, chuẩn hóa, đồng bộ, xử lý dữ liệu trùng lặp, sai lệch, thiếu nhất…",
-   "last_seen": "2026-11-05"
+   "last_seen": "2026-11-08"
   },
   {
    "title": "QA/Tester Lead Mảng Data",
@@ -1079,6 +1079,38 @@
     "Python"
    ],
    "desc": "Top 3 Reasons To Join Us Attractive salary and bonus package Premium AON healthcare insurance Fully sponsored training to build your career The Job Phân tích dữ liệu & khai thác insight • Chủ động xác định vấn đề kinh doanh và đề xuất hướng phân tích • Đưa ra insight có khả năng ảnh hưởng đến decision strategy • Thực hiện phân tích dữ liệu nâng cao để hiểu hành vi khách hàng, sản phẩm và thị…",
+   "last_seen": "2026-11-08"
+  },
+  {
+   "title": "Senior Data Scientist – VoiceAI",
+   "company": "Trusting Social",
+   "location": "Ho Chi Minh",
+   "region": "VN",
+   "url": "https://itviec.com/it-jobs/senior-data-scientist-voiceai-trusting-social-2100",
+   "source": "ITviec",
+   "date": "2026-10-30",
+   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODAwNDkzLCJwdXIiOiJibG9iX2lkIn19--7e0bca7fee8eb985817d0e72b1dd2cebb8327b70/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGVnIiwicmVzaXplX3RvX2ZpdCI6WzEwMCwxMDBdfSwicHVyIjoidmFyaWF0aW9uIn19--dfd952f8c4b42af5fe179fc2418bed6692ee2704/trusting-social-logo.jpeg",
+   "tags": [
+    "LLM",
+    "Agentic AI",
+    "SQL",
+    "AI",
+    "Python",
+    "NLP"
+   ],
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "LLM / GenAI",
+    "A/B Testing",
+    "Machine Learning",
+    "Thống kê",
+    "Python",
+    "SQL",
+    "NLP"
+   ],
+   "desc": "Top 3 Reasons To Join Us Top Salary, Awesome Benefits Premium healthcare for 3 members in family Grab to work, Lunch allowance for all employee The Job VoiceAI builds the real-time voice layer behind Trusting Social's AI agents, for both outbound and inbound calls. We own the cascade pipeline that connects the caller to the agent (ASR → LLM → TTS): real-time speech understanding (ASR), real-time…",
    "last_seen": "2026-11-08"
   },
   {
@@ -2992,6 +3024,39 @@
    ],
    "desc": "Mô tả công việc Xây dựng và vận hành nền tảng dữ liệu của công ty - bao gồm hạ tầng lưu trữ, các luồng xử lý dữ liệu và bộ công cụ phục vụ nhu cầu khai thác và quản trị dữ liệu trong toàn tổ chức. Phát triển và duy trì nền tảng dữ liệu ở các tầng lưu trữ, xử lý và phục vụ dữ liệu (serving), đảm bảo đáp ứng nhu cầu của các nhóm khai thác dữ liệu trong công ty. Xây dựng và tích hợp các công cụ…",
    "last_seen": "2026-11-04"
+  },
+  {
+   "title": "Data Engineer (SQL, NoSQL, Hadoop, Python, Java)",
+   "company": "VietinBank",
+   "location": "Ha Noi",
+   "region": "VN",
+   "url": "https://itviec.com/it-jobs/data-engineer-sql-nosql-hadoop-python-java-vietinbank-1250",
+   "source": "ITviec",
+   "date": "2026-10-22",
+   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODE0ODIwLCJwdXIiOiJibG9iX2lkIn19--aff515ddb168ee9e67400f81d1f78928888711a1/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/vietinbank-logo.png",
+   "tags": [
+    "Data Engineer",
+    "Hadoop",
+    "Java",
+    "NoSQL",
+    "SQL",
+    "Python"
+   ],
+   "skills": [
+    "SQL",
+    "NoSQL",
+    "Hadoop",
+    "Python",
+    "Java",
+    "Kafka",
+    "Spark",
+    "Airflow",
+    "ETL",
+    "Scala",
+    "AWS"
+   ],
+   "desc": "Top 3 Reasons To Join Us Thu nhập từ 24 - 26 tháng lương/năm Được đào tạo trend công nghệ mới Team building, year-end party... The Job Tham gia phát triển và triển khai các dịch vụ sử dụng các công nghệ Big Data: Hadoop ecosystem, Kafka, Spark, Airflow, … Nghiên cứu, xây dựng, tối ưu các Job ETL có khả năng mở rộng linh hoạt với độ tin cậy cao, phục vụ cho việc khai thác/ingest, tổng hợp các loại…",
+   "last_seen": "2026-11-08"
   },
   {
    "title": "Junior Data Analyst",
