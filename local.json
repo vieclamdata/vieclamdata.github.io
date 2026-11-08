@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T06:00+00:00",
+ "updated": "2026-11-08T12:00+00:00",
  "jobs": [
   {
    "title": "Nhân Viên Gắn Nhãn Dữ Liệu Tiếng Anh",
@@ -260,7 +260,7 @@
     "AWS"
    ],
    "desc": "Mô tả công việc Phân tích tài liệu nghiệp vụ, tài liệu đặc tả chức năng và yêu cầu dữ liệu. Thiết kế Test Plan, Test Scenario, Test Case dựa trên yêu cầu dự án. Thực hiện kiểm thử dữ liệu (Data Testing), ETL Testing, Database Testing và kiểm thử chức năng. Đối soát dữ liệu giữa Source và Target, đảm bảo tính đầy đủ, chính xác và nhất quán của dữ liệu. Thực hiện truy vấn SQL để kiểm tra dữ liệu,…",
-   "last_seen": "2026-11-05"
+   "last_seen": "2026-11-08"
   },
   {
    "title": "Data Engineer Intern",
@@ -1458,9 +1458,9 @@
     "Data Engineer",
     "Power BI",
     "Azure",
-    "Python",
     "SQL",
-    "ETL"
+    "ETL",
+    "Python"
    ],
    "skills": [
     "ETL",
@@ -2392,10 +2392,10 @@
    "tags": [
     "Apache Spark",
     "Apache Airflow",
-    "Elasticsearch",
     "Cassandra",
     "Oracle",
-    "SQL"
+    "SQL",
+    "Elasticsearch"
    ],
    "skills": [
     "ETL",
@@ -4181,11 +4181,11 @@
    "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTQ0MTI5NSwicHVyIjoiYmxvYl9pZCJ9fQ==--d6a8152c86a37661654de323fa568ff2dbac37bc/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/Property%201=black.png",
    "tags": [
     "Data Analysis",
+    "Business Analysis",
+    "SQL",
     "English",
     "AI",
-    "Business Intelligence",
-    "Business Analysis",
-    "SQL"
+    "Business Intelligence"
    ],
    "level": [
     "mid",
@@ -6213,8 +6213,7 @@
     "Python"
    ],
    "desc": "Mô tả công việc: 1. Data Management (70%) Xây dựng, duy trì và tối ưu hóa hệ thống dữ liệu tập trung, đảm bảo dữ liệu đầy đủ, chính xác và đồng bộ từ nhiều nguồn khác nhau (Oracle, SAP, Misa, Excel...). Tiếp nhận, làm sạch, chuẩn hóa và tích hợp dữ liệu vào cơ sở dữ liệu tập trung, đảm bảo chất lượng dữ liệu đầu vào cao nhất để phục vụ báo cáo và phân tích. Quản lý và tối ưu hóa hệ thống cơ sở dữ…",
-   "last_seen": "2026-11-08",
-   "location": ""
+   "last_seen": "2026-11-08"
   },
   {
    "title": "Kỹ sư dữ liệu - Data Engineer",
