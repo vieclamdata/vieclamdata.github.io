@@ -18,7 +18,7 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
-from scrape import COMPANY_SOURCE, PAGES, TODAY, ago, amount, day, dmy, get, job, paged, run, soup, text
+from scrape import COMPANY_SOURCE, PAGES, TODAY, ago, amount, day, dmy, experience, get, job, paged, run, soup, text
 
 HERE = Path(__file__).parent
 
@@ -27,8 +27,8 @@ HERE = Path(__file__).parent
 
 def itviec():
     out = []
-    for page in range(1, PAGES + 1):
-        for c in soup(f"https://itviec.com/it-jobs/data?page={page}").select("div.job-card"):
+    for kw, page in ((kw, p) for kw in ("data", "quantitative") for p in range(1, PAGES + 1)):
+        for c in soup(f"https://itviec.com/it-jobs/{kw}?page={page}").select("div.job-card"):
             a = c.select_one("h3 a")
             loc = c.select_one("div.text-rich-grey[title]")
             img = c.select_one("img[data-src]")
@@ -74,14 +74,13 @@ def vieclam24h():
 
 def topcv():
     out = []
-    for page in range(1, PAGES + 1):
-        for c in soup(f"https://www.topcv.vn/tim-viec-lam-data?page={page}").select(".job-item-search-result"):
+    for kw, page in ((kw, p) for kw in ("data", "dinh-luong") for p in range(1, PAGES + 1)):  # "định lượng" ra cả việc bếp → lọc theo tên
+        for c in soup(f"https://www.topcv.vn/tim-viec-lam-{kw}?page={page}").select(".job-item-search-result"):
             a = c.select_one("h3.title a")
             img = c.select_one(".avatar img")
-            exp = re.search(r"(\d+) năm", text(c, ".item-tag"))  # "3 năm kinh nghiệm"
             out.append(job(a.get_text(strip=True), text(c, ".company-name"), text(c, ".city-text"), "VN", a["href"].split("?")[0],
                            "TopCV", ago(text(c, ".hidden-on-quick-view")), logo=(img.get("data-src") or img.get("src") or "") if img else "",
-                           salary=text(c, ".title-salary"), years=int(exp[1]) if exp else 0, raw=c))
+                           salary=text(c, ".title-salary"), exp=experience(text(c, ".item-tag")), raw=c))  # "Dưới 1 năm kinh nghiệm"
     return out
 
 

@@ -5,7 +5,7 @@ archive.db không commit: tạo lại từ kho lúc nào cũng được. Kho do 
 
 Bảng jobs: một dòng một tin. date = ngày thấy lần đầu, last_seen = lần cuối trang nguồn còn đăng
 (trống = chưa biết: tin đã gỡ trước khi có kho, lấy lại từ lịch sử git). salary_min / salary_max: triệu VNĐ/tháng, trống = không giới hạn hoặc không ghi.
-description = đoạn ngắn hiện trên web; full = mô tả đầy đủ (mô tả, yêu cầu, quyền lợi); salary_raw = lương ghi nguyên văn;
+exp = số năm kinh nghiệm yêu cầu ("2–3 năm", "5+ năm", "Không yêu cầu"); description = đoạn ngắn hiện trên web; full = mô tả đầy đủ (mô tả, yêu cầu, quyền lợi); salary_raw = lương ghi nguyên văn;
 raw = bản ghi gốc của nguồn: JSON (dùng json_extract(raw, '$.tên_trường')) hoặc chữ trên thẻ tin với trang HTML.
 Tin cào trước khi có full/raw: trống tới khi bot đọc lại trang chi tiết (tin còn đăng) hoặc mãi trống (tin đã gỡ).
 Bảng job_skills: (url, skill), mỗi kỹ năng của tin một dòng.
@@ -17,7 +17,7 @@ from pathlib import Path
 
 HERE = Path(__file__).parent
 COLUMNS = ["url", "title", "company", "location", "region", "source", "date", "last_seen",
-           "salary", "salary_min", "salary_max", "salary_raw", "level", "tags", "skills", "description", "full", "raw", "logo"]
+           "salary", "salary_min", "salary_max", "salary_raw", "level", "exp", "tags", "skills", "description", "full", "raw", "logo"]
 
 
 def salary_range(s):

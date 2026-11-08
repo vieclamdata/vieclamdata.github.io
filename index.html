@@ -125,7 +125,7 @@
   #qv:not(:modal) { position: fixed; inset: auto; z-index: 10; margin: 0; }
   #qv:modal {
     inset: auto 0 0; width: 100%; max-width: none; max-height: 88vh; margin: 0;
-    border-width: 1px 0 0; border-radius: 16px 16px 0 0; padding-bottom: env(safe-area-inset-bottom);
+    border-width: 1px 0 0; border-radius: 16px 16px 0 0;
   }
   #qv::backdrop { background: rgb(0 0 0 / .4); transition: background-color .3s; }
   #qv.closing::backdrop { background: transparent; }
@@ -151,6 +151,12 @@
   .chips span { padding: 2px 8px; border-radius: 4px; background: var(--raised); font-size: 12px; color: var(--text2); white-space: nowrap; }
   .desc { margin: 0; line-height: 1.6; color: var(--text2); }
   .desc.none { color: var(--muted); }
+  /* mô tả chia mục: Mô tả công việc / Yêu cầu / Quyền lợi, mỗi mục một danh sách gạch đầu dòng */
+  .sec h4 { margin: 0 0 6px; font-size: 14px; font-weight: 700; }
+  .sec ul { display: grid; gap: 4px; margin: 0; padding-left: 18px; line-height: 1.5; color: var(--text2); }
+  .sec li::marker { color: var(--muted); }
+  /* nút ứng tuyển dính đáy khi mô tả dài phải cuộn */
+  .qv-foot { position: sticky; bottom: 0; display: grid; gap: 16px; margin: 0 -20px -20px; padding: 12px 20px 16px; background: var(--surface); border-top: 1px solid var(--border); }
   .apply {
     display: flex; align-items: center; justify-content: center; height: 40px; border-radius: 6px;
     background: var(--primary); color: var(--primary-ink); font-weight: 500; text-decoration: none; transition: transform .12s, opacity .15s;
@@ -159,6 +165,7 @@
   .apply:active { transform: scale(.98); }
   .apply:focus-visible { outline: 2px solid var(--text); outline-offset: 2px; }
   .note { margin: -8px 0 0; font-size: 12px; color: var(--muted); text-align: center; }
+  #qv:modal .qv-foot { padding-bottom: max(16px, env(safe-area-inset-bottom)); }
 
   .skel { height: 168px; background: var(--raised); border-color: transparent; }
   .empty { padding: 48px 16px; border: 1px dashed var(--control); border-radius: 8px; text-align: center; color: var(--muted); }
@@ -228,6 +235,8 @@
 <script>
 const LEVELS = { intern: "Thực tập / Fresher", junior: "Junior", mid: "Middle", senior: "Senior", lead: "Lead / Quản lý" }; // khóa khớp LEVELS trong scrape.py
 const levelText = (j) => (j.level || []).map((k) => LEVELS[k]).join(" · ");
+// exp: "2–3 năm", "5+ năm", "Không yêu cầu" (scrape.py: exp_label)
+const expText = (j) => j.exp && `${j.exp} kinh nghiệm`;
 // kỹ năng đọc từ nội dung tin (scrape.py: SKILLS) trước, rồi nhãn kỹ năng của trang nguồn; trùng tên (khác hoa thường) thì bỏ
 function skillsOf(j) {
   const seen = new Set();
@@ -318,6 +327,7 @@ function card(j) {
   li.append(link("title", j.title, j.url), co);
   const loc = el("div", "loc");
   if (j.level?.length) loc.append(el("span", "tag", levelText(j)));
+  if (j.exp) loc.append(el("span", "tag", expText(j)));
   if (j.location) loc.append(el("span", "", j.location));
   if (loc.childElementCount) li.append(loc);
   if (j._skills.length) { // 4 kỹ năng đầu (nhắc sớm nhất trong tin), còn lại xem trong khung xem nhanh
@@ -348,19 +358,25 @@ function fill(j) {
   const fact = (k, v, cls) => facts.append(el("dt", "", k), el("dd", cls, v));
   fact("Lương", j.salary || "—", j.salary ? "money" : "");
   if (j.level?.length) fact("Cấp bậc", levelText(j));
+  if (j.exp) fact("Kinh nghiệm", j.exp);
   if (j.location) fact("Nơi làm", j.location);
   fact("Đăng", when(j));
   const skills = el("div", "chips");
   for (const s of j._skills) skills.append(el("span", "", s));
-  const desc = j.desc;
   const box = el("div", "qv");
   box.append(head, h, facts);
   if (j._skills.length) box.append(el("p", "qv-label", "Kỹ năng cần có"), skills);
-  box.append(
-    el("p", desc ? "desc" : "desc none", desc || `Mô tả chi tiết có trên ${where(j)}.`),
-    link("apply", `Ứng tuyển trên ${where(j)} ↗`, j.url),
-    el("p", "note", `Bạn sẽ nộp hồ sơ trực tiếp trên ${where(j)}.`),
-  );
+  // sections: [[tên mục, [ý...]], ...] (scrape.py: sections); tin cũ chưa chia mục thì hiện đoạn tóm tắt
+  for (const [name, items] of j.sections || []) {
+    const sec = el("section", "sec"), ul = el("ul");
+    for (const it of items) ul.append(el("li", "", it));
+    sec.append(el("h4", "", name), ul);
+    box.append(sec);
+  }
+  if (!j.sections?.length) box.append(el("p", j.desc ? "desc" : "desc none", j.desc || `Mô tả chi tiết có trên ${where(j)}.`));
+  const foot = el("div", "qv-foot");
+  foot.append(link("apply", `Ứng tuyển trên ${where(j)} ↗`, j.url), el("p", "note", `Bạn sẽ nộp hồ sơ trực tiếp trên ${where(j)}.`));
+  box.append(foot);
   qv.replaceChildren(box);
 }
 
@@ -501,7 +517,7 @@ function dupKey(j) {
   const title = words(j.title.replace(/\(.*?\)|\[.*?\]/g, " ")).replace(/\s+/g, " ").trim();
   return company ? `${title}|${company}` : j.url; // không có tên công ty thì không gộp, tránh gộp nhầm
 }
-const richness = (j) => (j.desc ? 8 : 0) + (j.salary ? 4 : 0) + (j.logo ? 2 : 0) + (j.skills?.length || j.tags?.length ? 1 : 0);
+const richness = (j) => (j.sections?.length ? 16 : 0) + (j.desc ? 8 : 0) + (j.salary ? 4 : 0) + (j.logo ? 2 : 0) + (j.skills?.length || j.tags?.length ? 1 : 0);
 
 async function loadJson(path) {
   try { const r = await fetch(path, { cache: "no-cache" }); return r.ok ? await r.json() : null; }
@@ -536,7 +552,7 @@ new IntersectionObserver(([e]) => form.classList.toggle("stuck", e.intersectionR
     .map((j) => {
       const d = daysAgo(j.date), skills = skillsOf(j);
       return { ...j, _days: d, _group: group(d), _salary: salaryRange(j.salary), _provinces: provinces(j), _skills: skills,
-               _search: norm([j.title, j.company, j.location, j.source, levelText(j), ...skills].join(" ")) };
+               _search: norm([j.title, j.company, j.location, j.source, levelText(j), expText(j), ...skills].join(" ")) };
     });
 
   const options = (sel, entries) => sel.append(...entries.map(([v, label]) => new Option(label, v)));

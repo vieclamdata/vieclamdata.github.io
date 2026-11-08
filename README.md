@@ -24,7 +24,13 @@ Chỉ tin ở Việt Nam và đúng ngành data mới được lấy. Công ty t
 
 **Logo:** trang tuyển dụng của công ty không kèm logo, nên logo lấy từ thư mục `logos/`, tên file là tên công ty viết không dấu, nối bằng gạch ngang (`Nam A Bank` → `logos/nam-a-bank.png`; `logos/vnpt.png` dùng cho mọi đơn vị có chữ VNPT). Thêm công ty mới thì thêm một file PNG vuông khoảng 160px, nền trong suốt hoặc trắng. Không có file thì dùng logo của tin khác cùng tên công ty (từ ITviec, TopCV...), vẫn không có thì trang hiện chữ cái đầu.
 
-Cấp bậc kinh nghiệm được đoán từ tên vị trí ("Senior", "Trưởng phòng", "Intern"...). Nếu tên không ghi thì dùng nhãn cấp bậc của nguồn. Từ khóa nằm ở `LEVELS` trong `scrape.py`.
+Cấp bậc kinh nghiệm được đoán từ tên vị trí ("Senior", "Trưởng phòng", "Intern", "CVCC"...). Nếu tên không ghi thì dùng nhãn cấp bậc của nguồn, cuối cùng là số năm kinh nghiệm. Từ khóa nằm ở `LEVELS` trong `scrape.py`.
+
+**Số năm kinh nghiệm** ("2–3 năm", "5+ năm", "Không yêu cầu") lấy từ trường của nguồn (VietnamWorks, Glints, TopCV), nếu không có thì đọc từ mô tả tin ("Tối thiểu 2 năm kinh nghiệm", "3+ years of experience"...), xem `EXP_RE` trong `scrape.py`. Sửa `SKILLS` hoặc `EXP_RE` thì lần chạy sau tin cũ cũng được đọc lại từ mô tả đầy đủ trong kho. Kiểm tra sau khi sửa từ khóa: `python test_scrape.py`.
+
+**Khung xem nhanh** chia mô tả tin thành các mục Mô tả công việc / Yêu cầu / Quyền lợi, mỗi mục một danh sách gạch đầu dòng (tối đa 8 ý). Mục được nhận ra từ tiêu đề trong mô tả ("Yêu cầu công việc", "3. QUYỀN LỢI:", "What you will do"...), xem `SECTIONS` trong `scrape.py`; tiêu đề lạ thì thêm từ khóa vào đó. Tin không có mô tả (trang chỉ có tên vị trí) thì hiện link sang trang gốc.
+
+**Nghề định lượng** (Quant Analyst/Researcher/Developer, Actuary / định phí, mô hình rủi ro, kiểm định mô hình, kinh tế lượng) được giữ như tin data, xem `QUANT` trong `scrape.py`. "Định lượng" đứng một mình không tính vì còn là việc bếp, kho.
 
 ## Kho lưu trữ (cơ sở dữ liệu)
 
