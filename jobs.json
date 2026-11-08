@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T05:52+00:00",
+ "updated": "2026-11-08T13:20+00:00",
  "jobs": [
   {
    "title": "HO - ETL Specialist",
@@ -478,6 +478,32 @@
     "Tiếng Anh"
    ],
    "desc": "Các trách nhiệm chính Chịu trách nhiệm phát triển, thực thi các giải pháp Phân tích Dữ liệu Kiểm toán (ADA), tự động hóa kịch bản kiểm tra và ứng dụng AI/Machine Learning nhằm chuyển đổi phương pháp kiểm toán từ chọn mẫu truyền thống sang rà soát 100% tổng thể dữ liệu. Vị trí này đóng vai trò cầu nối dữ liệu kỹ thuật với nghiệp vụ kiểm toán, đồng thời phải am hiểu về kiểm toán CNTT (IT Audit) để…",
+   "last_seen": "2026-11-08"
+  },
+  {
+   "title": "Senior Collections Data Analyst | Hà Nội",
+   "company": "Mcredit",
+   "location": "Hanoi Capital Region",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4488110146",
+   "source": "LinkedIn",
+   "date": "2026-11-06",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQGsWhlexrD9Cw/company-logo_100_100/company-logo_100_100/0/1723629851415/mcreditfinance_logo?e=2147483647&v=beta&t=FQrlj2kzeY9wUwkxcT61ynfUn-1BZKZn1zDcqMj8uyM",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Machine Learning",
+    "Thống kê",
+    "SQL",
+    "Python",
+    "Pandas",
+    "Scikit-learn",
+    "Power BI",
+    "Tableau",
+    "A/B Testing"
+   ],
+   "desc": "📍 Hà Nội | Mcredit Mcredit tìm kiếm Collections Data Analyst có nền tảng tốt về Data Analytics, tham gia phân tích dữ liệu danh mục tín dụng, xây dựng các mô hình dự báo và phát triển các giải pháp dữ liệu nhằm nâng cao hiệu quả hoạt động Thu hồi nợ. Vị trí phù hợp với các ứng viên yêu thích bài toán Data Analytics trong lĩnh vực tài chính , muốn phát triển sâu hơn về Credit/Collection Analytics…",
    "last_seen": "2026-11-08"
   },
   {
@@ -1696,6 +1722,60 @@
    ],
    "desc": "Working location: Remote full-time (09:00 - 18:00 ICT) Salary range: USD 4,000 - 8,000 gross RESPONSIBILITIES We are looking for a senior applied data scientist or quantitative researcher to lead the development and continuous improvement of the predictive models and statistical frameworks behind our real-time forecasting engines, beginning with eSports. You will apply probabilistic modelling,…",
    "last_seen": "2026-11-05"
+  },
+  {
+   "title": "Chuyên viên cao cấp Bảo mật dữ liệu- Senior Data Security - Data Division - Khối Dữ liệu (2026TD450980)",
+   "company": "Ngân Hàng TMCP Quân Đội",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-bao-mat-du-lieu-senior-data-security-data-division-khoi-du-lieu-2026td450980.35C8946A.html",
+   "source": "CareerViet",
+   "date": "2026-11-01",
+   "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
+   "salary": "Thỏa thuận",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "SQL"
+   ],
+   "desc": "1. Mục tiêu công việc: Thực hiện các hoạt động liên quan đến xây dựng và triển khai cơ chế bảo mật dữ liệu, đảm bảo an toàn, tuân thủ và bảo vệ dữ liệu trong suốt vòng đời, theo quy định pháp luật và tiêu chuẩn quốc tế (Nghị định 13/2023/NĐ-CP, ISO 27001, GDPR...). Phối hợp với các đơn vị Quản trị dữ liệu, An ninh thông tin, Rủi ro và Tuân thủ để triển khai hiệu quả các chính sách, quy trình,…",
+   "last_seen": "2026-11-08"
+  },
+  {
+   "title": "Kỹ sư Dữ liệu - Data Engineer - Khối Dữ liệu (2026TD450985)",
+   "company": "Ngân Hàng TMCP Quân Đội",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-du-lieu-data-engineer-khoi-du-lieu-2026td450985.35C89470.html",
+   "source": "CareerViet",
+   "date": "2026-11-01",
+   "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
+   "salary": "Thỏa thuận",
+   "skills": [
+    "Tableau",
+    "AWS",
+    "Tiếng Anh"
+   ],
+   "desc": "Thực hiện công việc tích hợp, phát triển dữ liệu, hỗ trợ vận hành hệ thống công nghệ dữ liệu trong mảng chức năng được giao đảm bảo đúng quy trình, quy định của MB nhằm thực hiện thành công mục tiêu chung của đơn vị. Tự phát triển hoặc phối hợp cùng các nhà cung cấp phát triển/triển khai các giải pháp Công nghệ dữ liệu theo các công việc được phân công. Duy trì hoạt động của các sản phẩm/dịch vụ…",
+   "last_seen": "2026-11-08"
+  },
+  {
+   "title": "Chuyên viên Quản lý chất lượng dữ liệu - Data Quality Management Specialist - Khối Dữ liệu (2026TD450981)",
+   "company": "Ngân Hàng TMCP Quân Đội",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-quan-ly-chat-luong-du-lieu-data-quality-management-specialist-khoi-du-lieu-2026td450981.35C8946C.html",
+   "source": "CareerViet",
+   "date": "2026-11-01",
+   "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
+   "salary": "Thỏa thuận",
+   "skills": [
+    "Tiếng Anh",
+    "SQL"
+   ],
+   "desc": "- Thực hiện phân loại/cập nhật phân loại bảo mật dữ liệu, xây dựng ma trận phân quyền truy cập dữ liệu - Tham gia triển khai, đánh giá và kiểm soát tuân thủ các quy định pháp luật về bảo vệ dữ liệu cá nhân và bảo mật thông tin - Triển khai đo lường, đánh giá chất lượng dữ liệu theo các tiêu chuẩn, thang điểm, hướng dẫn... đã được ban hành. Giám sát và định kỳ báo cáo về tình hình chất lượng dữ…",
+   "last_seen": "2026-11-08"
   },
   {
    "title": "Remote Senior Data Scientist",
@@ -2957,7 +3037,7 @@
     "Tiếng Anh"
    ],
    "desc": "[HN] Data Analyst (Government Product) Giới thiệu CMC TS – thành viên Tập đoàn Công nghệ CMC – là đơn vị cung cấp giải pháp công nghệ và chuyển đổi số cho các cơ quan nhà nước và doanh nghiệp. Trung tâm Phát triển sản phẩm chuyển đổi số C-Gov của CMC TS đang triển khai dự án xây dựng hệ thống Trung tâm Giám sát, điều hành thông minh (IOC) – nền tảng tập trung, kết nối dữ liệu đa lĩnh vực, giúp cơ…",
-   "last_seen": "2026-11-07"
+   "last_seen": "2026-11-08"
   },
   {
    "title": "Analytics & Insights Team Lead",
@@ -3450,7 +3530,7 @@
     "Data Warehouse"
    ],
    "desc": "About the Role As a Data Engineer (Junior Data Architect) , you will play a critical role in shaping and scaling our modern data platform on Azure and Databricks. This role goes beyond building pipelines. You will support the Data Architect team design reliable, scalable data foundations that power analytics, reporting, and advanced use cases across the business. You will work closely with data,…",
-   "last_seen": "2026-11-04"
+   "last_seen": "2026-11-08"
   },
   {
    "title": "CVCC Kiến trúc dữ liệu_JG 08",
@@ -9626,7 +9706,7 @@
     "SQL"
    ],
    "desc": "JOB DESCRIPTION Position : DATA ANALYST Quantity : 02 ( 1 senior English - 1 Middle) Type : Full-time Location : 5nd Floor, TTC Building, No.19 Duy Tan St., Dich Vong Hau Ward, Cau Giay Dist,. Hanoi Capital, Vietnam. ABOUT US  Astek is a global player in engineering and technology consulting, founded in France in 1988. Today, we are +7500 engineers across over 30 countries in the world.  With…",
-   "last_seen": "2026-11-05"
+   "last_seen": "2026-11-08"
   },
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu - Data Analyst",
@@ -9706,10 +9786,6 @@
   "https://tuyendung.tpb.vn/vi/jobs/ypdLky",
   "https://tuyendung.vietabank.com.vn/vi/jobs/P8Qa1R",
   "https://tuyendung.vpbank.com.vn/job/H%E1%BB%93-Ch%C3%AD-Minh-T%E1%BA%ADp-s%E1%BB%B1-KHDN-v%E1%BB%ABa-&-nh%E1%BB%8F-TP_-H%E1%BB%93-Ch%C3%AD-Minh-TA182/1364006466/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
-  "https://www.linkedin.com/jobs/view/4475527711",
-  "https://www.linkedin.com/jobs/view/4478977404",
-  "https://www.linkedin.com/jobs/view/4482928927",
-  "https://www.linkedin.com/jobs/view/4484871620",
   "https://www.vietnamworks.com/-trainee-legal-associate-2126567-jv",
   "https://www.vietnamworks.com/engineer-trainee-fresher-2126423-jv",
   "https://www.vietnamworks.com/graduate-engineering-trainee-1792730133447338887-2122883-jv",
