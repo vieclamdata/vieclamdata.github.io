@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T06:10+00:00",
+ "updated": "2026-11-09T16:09+00:00",
  "jobs": [
   {
    "title": "Appointed Actuary",
@@ -126,6 +126,589 @@
      ]
     ]
    ],
+   "last_seen": "2026-11-09"
+  },
+  {
+   "title": "Kỹ Sư Dữ Liệu (DE)",
+   "company": "Tập đoàn Bưu chính Viễn thông Việt Nam (VNPT)",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ky-su-du-lieu-de-1794205592977688070-2129102-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-09",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/64/11474031.png",
+   "salary": "Thỏa thuận",
+   "exp": "1+ năm",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Hadoop",
+    "Spark",
+    "Kafka",
+    "NoSQL"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "1. Nghiên cứu và phát triển Bigdata",
+      "Nghiên cứu, tối ưu và phát triển thuật toán trên các nền tảng công nghệ BigData như: Hadoop, HBase, Spark, Kafka, Elasticsearch, Hive…",
+      "Làm việc với các công cụ xử lý dữ liệu như Spark, PySpark",
+      "Làm việc với các hệ quản trị cơ sở dữ liệu..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Tốt nghiệp Đại học trở lên các ngành đào tạo sau đây: Công nghệ thông tin, An toàn thông tin, Bảo mật thông tin, Khoa học máy tính, Mạng máy tính và truyền thông dữ liệu, Kỹ thuật phần mềm, Phát…"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Đầy đủ các chế độ BHXH, BHYT, BHTN. Khám sức khỏe định kỳ hàng năm",
+      "12++ ngày phép/năm, ngày phép tăng theo thâm niên làm việc",
+      "Phát triển không giới hạn: Đào tạo liên tục, mentorship từ chuyên gia đầu ngành"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-09"
+  },
+  {
+   "title": "Remote US Tax Data Verification Associate",
+   "company": "Công ty TNHH Opes Vina",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/remote-us-tax-data-verification-associate-1794212088878516430-2129243-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-09",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/d4/11492498.png",
+   "salary": "Thỏa thuận",
+   "exp": "1+ năm",
+   "level": [
+    "junior"
+   ],
+   "skills": [],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "How Our Workflow Works",
+      "1. AI preparation: TaxGPT does the initial data entry and return preparation in Intuit ProConnect Tax. TaxGPT or Claude then produces supporting workpapers.",
+      "2. Your role (verification): You compare every amount in the workpapers to the client's source documents, such as W-2s, 1099s, K-1s, 1098s, brokerage statements, bank statements, and financial…"
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Required Qualifications",
+      "Bachelor's degree in Accounting, Auditing, Finance, or a related field",
+      "At least 1–2 years of experience in accounting, audit, or US tax (Big 4 or audit firm experience is a strong plus)",
+      "Working knowledge of US tax forms, including Form 1040 and its schedules, W-2, the 1099 series, 1098, and K-1",
+      "Strong..."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Theo quy định nhà nước"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-09"
+  },
+  {
+   "title": "Kỹ Sư Phân Tích Dữ Liệu (DA)",
+   "company": "Tập đoàn Bưu chính Viễn thông Việt Nam (VNPT)",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ky-su-phan-tich-du-lieu-da-1794205616956061662-2129103-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-09",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/64/11474031.png",
+   "salary": "Thỏa thuận",
+   "exp": "1+ năm",
+   "level": [
+    "junior"
+   ],
+   "skills": [],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "1. Nghiên cứu & phát triển",
+      "Thực hiện các hoạt động nghiên cứu chuyên môn, công nghệ được giao.",
+      "Áp dụng công nghệ, kỹ thuật cho sản phẩm dịch vụ cung cấp.",
+      "Làm đề tài, sáng kiến theo các đợt phát động của tập đoàn, tổng công ty và công ty.",
+      "Tham gia các..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Tốt nghiệp Đại học trở lên các ngành đào tạo sau đây: Công nghệ thông tin, An toàn thông tin, Bảo mật thông tin, Khoa học máy tính, Mạng máy tính và truyền thông dữ liệu, Kỹ thuật phần mềm, Phát…"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Đầy đủ các chế độ BHXH, BHYT, BHTN. Khám sức khỏe định kỳ hàng năm",
+      "12++ ngày phép/năm, ngày phép tăng theo thâm niên làm việc",
+      "Phát triển không giới hạn: Đào tạo liên tục, mentorship từ chuyên gia đầu ngành"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-09"
+  },
+  {
+   "title": "Appointed Actuary",
+   "company": "Bảo hiểm VietinBank (VBI)",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/appointed-actuary-1794205554465447268-2129223-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-09",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/c3/11104350.png",
+   "salary": "Thỏa thuận",
+   "exp": "2+ năm",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Mô hình rủi ro"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "1. Risk Assessment and Management:",
+      "Collaborate with other departments to identify and address emerging risks.",
+      "Assess and manage risks associated with insurance products and policies.",
+      "Develop and implement risk models, analyze the potential impact of various risks on the company's financial health, and work on strategies to mitigate and manage these risks effectively.",
+      "2. Premium..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Bachelor’s Degree in Actuary Science, Mathematic or related field;",
+      "Associate of an official member of the International Actuarial Association;",
+      "2–4 years of relevant experience in a similar field.",
+      "Solid background of Actuarial field, good at pricing and modelling area;",
+      "Good knowledge of Actuarial software;",
+      "Proficient at analysis and forecast with a large data..."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Thu nhập cạnh tranh, từ 14 - 15 tháng lương/năm. Chế độ phúc lợi, thưởng Lễ - Tết hấp dẫn",
+      "Bảo hiểm sức khỏe cho bản thân và gia đình",
+      "Du lịch trong và ngoài nước theo chính sách công ty"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-09"
+  },
+  {
+   "title": "Kỹ Sư Lập Trình PL/ SQL",
+   "company": "Tập đoàn Bưu chính Viễn thông Việt Nam (VNPT)",
+   "location": "Hải Phòng",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ky-su-lap-trinh-pl-sql-1794205752852961851-2129113-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-09",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/64/11474031.png",
+   "salary": "Thỏa thuận",
+   "exp": "1+ năm",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "SQL"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Thiết kế và lập trình các đối tượng cơ sở dữ liệu bao gồm: Stored Procedures, Functions, Packages, Triggers và Views sử dụng ngôn ngữ PL/SQL.",
+      "Tối ưu hóa hiệu năng (Performance Tuning): Phân tích và tinh chỉnh các câu lệnh SQL phức tạp, tối ưu hóa các tiến trình xử lý dữ..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Tốt nghiệp Đại học hệ chính quy tập trung chuyên ngành Công nghệ thông tin, Khoa học máy tính hoặc các ngành liên quan.",
+      "Tối thiểu 1 năm kinh nghiệm làm việc trực tiếp với Oracle Database.",
+      "Thành thạo SQL và PL/SQL. Hiểu các đặc tính nâng cao của Oracle 12c, 18c, 19c..."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Đầy đủ các chế độ BHXH, BHYT, BHTN. Khám sức khỏe định kỳ hàng năm",
+      "12++ ngày phép/năm, ngày phép tăng theo thâm niên làm việc",
+      "Phát triển không giới hạn: Đào tạo liên tục, mentorship từ chuyên gia đầu ngành"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-09"
+  },
+  {
+   "title": "Chuyên viên Master Data",
+   "company": "HCI Group",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-master-data.35C8D57F.html",
+   "source": "CareerViet",
+   "date": "2026-11-09",
+   "logo": "https://images.careerviet.vn/employer_folders/lot1/180771/Logo%20hci%20grop.jpg",
+   "salary": "18–25 triệu",
+   "exp": "3+ năm",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Data Governance",
+    "Data Quality",
+    "Data Modeling"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Quản trị và đảm bảo tính chính xác, đầy đủ, nhất quán và toàn vẹn của Master Data trên toàn bộ hệ thống của Tập đoàn.",
+      "Xây dựng, duy trì và thực hiện các tiêu chuẩn, chính sách, quy trình quản trị dữ liệu.",
+      "Phối hợp với các phòng ban nghiệp vụ và bộ phận CNTT để xác định yêu cầu, tiêu chuẩn và quy tắc quản lý dữ liệu.",
+      "Quản lý các nhóm Master Data như:Sản phẩm/Dịch vụ (Product)",
+      "Khách hàng (Customer)",
+      "Nhà cung cấp (Supplier)",
+      "Dữ liệu Tài chính – Kế toán (Financial Data)",
+      "Thực hiện Data Cleansing, chuẩn hóa và xử lý các vấn đề về chất lượng dữ liệu."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Chế độ bảo hiểm",
+      "Du Lịch",
+      "Phụ cấp",
+      "Đồng phục",
+      "Chế độ thưởng",
+      "Chăm sóc sức khỏe",
+      "Đào tạo",
+      "Tăng lương"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-09"
+  },
+  {
+   "title": "CW | Senior Data Engineer",
+   "company": "CBTW APAC",
+   "location": "Ho Chi Minh City",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4487116978",
+   "source": "LinkedIn",
+   "date": "2026-11-09",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQFYfsuRMxa3dg/company-logo_100_100/B56ZkDFXiNIAAU-/0/1756693363254/cbtw_apac_logo?e=2147483647&v=beta&t=J3FUdH4zLP9XI519eo6IKWOwVXtZXILD3twoE9EsJCg",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Machine Learning",
+    "Databricks",
+    "dbt",
+    "SQL",
+    "Python",
+    "Data Warehouse",
+    "Data Modeling",
+    "AWS",
+    "Tiếng Anh"
+   ],
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "Overview",
+      "About Our Partner",
+      "Our partner is Australia’s only dedicated B2B credit reporting agency, and one of the country’s most innovative fintech success stories."
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "Some of your responsibilities include and are not limited to:",
+      "Design, build and operate data products that serve the CreditorWatch/Collect applications, and internal analytics teams",
+      "Own data solutions end to end - source integration through to the interface apps and analytics consumers",
+      "Contribute to the data platform on Databricks - Lakeflow pipelines, Unity Catalog governance, Databricks apps with Lakebase backend",
+      "Build and extend transformation layers in dbt core, with testability and clear ownership",
+      "Use Claude Code or similar Agentic AI coding tools and Databricks Agent Skills as a core part of the development workflow with accountability for quality",
+      "Partner with product, analytics and software engineering teams on how data products are consumed by the broader CW stack",
+      "Mentor DEs via code reviews, pairing and technical guidance"
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Competencies (essential behaviours required for the role):",
+      "Strong expertise in SQL and Python, with track record of delivering production-grade data solutions",
+      "Experience with modern data platforms and tools such as Databricks, dbt and cloud data warehouses",
+      "Strong understanding of data modelling and storage patterns for analytical and operational use cases",
+      "Experience working with cloud platforms, ideally AWS",
+      "Understanding of data security, governance and access control principles",
+      "Experience serving data into customer-facing applications, not only analytics / reporting layers",
+      "Comfort working with AI-assisted development tools (e.g. Claude Code, Databricks Agent Skills) as day-to-day workflow"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-09"
+  },
+  {
+   "title": "Quantitative Researcher",
+   "company": "Vietquant Technologies",
+   "location": "Quận 4",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4487660731",
+   "source": "LinkedIn",
+   "date": "2026-11-09",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQH06Mrz7O-OiQ/company-logo_100_100/B4EaDsSPt4HcAI-/0/1790670601506/vietquant_logo?e=2147483647&v=beta&t=x20IqP8oAPidgq4p4he9gKc8l64fp8JV2k-KSivu_Jc",
+   "skills": [
+    "Thống kê",
+    "Python",
+    "R",
+    "MATLAB"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Company Description VietQuant Technologies is a quantitative trading firm that applies a scientific and rules-based approach to investing.",
+      "The firm focuses on identifying stock factors and characteristics that are expected to outperform the broader market over the long term.",
+      "VietQuant develops and implements systematic financial strategies built on a proprietary research platform.",
+      "A robust risk management process underpins all investment decisions, supporting disciplined portfolio construction.",
+      "Team members collaborate in a data-driven environment that values rigor, innovation, and transparency.",
+      "Role Description The Quantitative Researcher will design, test, and refine systematic investment strategies using statistical and mathematical models.",
+      "Day-to-day responsibilities include collecting and cleaning financial and alternative data, performing exploratory data analysis, and conducting empirical research to evaluate factors and signals for…",
+      "The role involves implementing research prototypes, backtesting strategies, and documenting methodology and results for both technical and non-technical stakeholders."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Candidates should possess strong foundations in Statistics and Mathematics, with experience applying these disciplines to real-world data.",
+      "Candidates should possess skills in Quantitative Research and Quantitative Investing, including model development, factor analysis, and backtesting.",
+      "Candidates should possess advanced Analytical Skills for handling large datasets, identifying patterns, and drawing robust, data-driven conclusions.",
+      "Relevant qualifications include proficiency in programming languages commonly used in quantitative finance (such as Python, R, or MATLAB) and familiarity with databases and data pipelines.",
+      "Relevant qualifications include a bachelor’s or advanced degree in a quantitative field (such as Statistics, Mathematics, Computer Science, Engineering, Finance, or Economics) and experience or…",
+      "Relevant qualifications include strong written and verbal communication skills, attention to detail, ability to work collaboratively on-site, and a commitment to rigorous, ethical research practices."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-09"
+  },
+  {
+   "title": "Chuyên viên cao cấp Quản lý năng lực Vận hành (Mảng Data)",
+   "company": "SHB",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.shb.com.vn/viec-lam/chuyen-vien-cao-cap-quan-ly-nang-luc-van-hanh-mang-data.35ac1c3f.html",
+   "source": "Trang công ty",
+   "date": "2026-11-09",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Data Warehouse",
+    "Power BI"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "1. Xây dựng hệ thống văn bản liên quan đến hoạt động của phòng QLNLVH liên quan đến các mảng: quản lý hệ thống dữ liệu, báo cáo; xây dựng phương pháp luận và thiết lập các bộ chỉ số quản lý năng lực…",
+      "2. Tham gia xây dựng, vận hành và phát triển hệ thống dữ liệu phục vụ công tác quản lý vận hành, bao gồm quản lý kho dữ liệu (Data Mart/ hệ thống lưu trữ), hệ thống báo cáo quản trị.",
+      "3. Tham gia nghiên cứu phát triển, nâng cấp hệ thống báo cáo tự động, tối ưu hóa hiệu quả khai thác quản lý dữ liệu, báo cáo của Phòng.",
+      "4. Đầu mối tổ chức triển khai đo lường, giám sát, đánh giá, cập nhật bộ chỉ số năng lực vận hành, bao gồm: KPI, SLA, TAT, Năng suất lao động (NSLĐ), Unit Cost… nhằm đánh giá thực trạng vận hành và hỗ…",
+      "5. Trực tiếp thực hiện xây dựng các nguyên tắc và triển khai lập kế hoạch định kỳ hàng năm, đề xuất điều chỉnh kế hoạch hoạt động hàng năm tùy theo thực tiễn hoạt động đối với những chỉ tiêu có tính…",
+      "6. Tham gia quản trị dự án hoặc chịu trách nhiệm chuyên môn quản lý dữ liệu, quản trị năng lực vận hành các Dự án, Sáng kiến liên quan tới quản lý dữ liệu vận hành và hiện đại hoá công tác báo cáo…",
+      "7. Tham mưu các vấn đề liên quan đến quản lý năng lực vận hành cho Quản lý phòng và thực hiện các nhiệm vụ khác theo yêu cầu của quản lý Phòng/ Trung tâm Vận hành tối ưu."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Đại học"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Bảo hiểm",
+      "Du Lịch",
+      "Phụ cấp",
+      "Đồng phục",
+      "Thưởng",
+      "Chăm sóc sức khỏe",
+      "Đào tạo",
+      "Công tác phí"
+     ]
+    ]
+   ],
+   "logo": "logos/shb.png",
+   "last_seen": "2026-11-09"
+  },
+  {
+   "title": "Data Engineering, Specialist",
+   "company": "AIA Vietnam",
+   "location": "Ho Chi Minh City, VN-AIA Vietnam",
+   "region": "VN",
+   "url": "https://aia.wd3.myworkdayjobs.com/External/job/Ho-Chi-Minh-City-VN-AIA-Vietnam/Data-Engineering--Specialist_JR-70884",
+   "source": "Trang công ty",
+   "date": "2026-11-09",
+   "exp": "3–5 năm",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Data Warehouse",
+    "ETL",
+    "Data Quality",
+    "Data Governance",
+    "Spark",
+    "Power BI",
+    "SQL",
+    "Python",
+    "Git",
+    "Azure",
+    "Airflow"
+   ],
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "Innovate and shape what comes next.",
+      "At AIA, your expertise, perspective and ideas can help us become a faster, simpler and more connected organisation while contributing to our Purpose of helping millions of people live Healthier,…",
+      "Across our diverse markets, you will take on real-world challenges, collaborate with talented colleagues and turn technology, data and bold ideas into simpler experiences, smarter solutions and…"
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "Report to: Manager, Data Engineer",
+      "Location: Ho Chi Minh",
+      "Function: Customer and Information Technology",
+      "Type: Individual contributor",
+      "THE OPPORTUNITY:",
+      "We are looking for a highly driven Data Engineering, Specialist to:",
+      "Design, develop, and maintain scalable data pipelines, integration solutions, and data platforms that enable reliable, timely, and trusted data for business reporting, analytics, and decision-making.",
+      "Support the organization's data strategy by ensuring the efficient ingestion, transformation, storage, and accessibility of enterprise data within the Data Warehouse and data ecosystem."
+     ]
+    ]
+   ],
+   "logo": "logos/aia-vietnam.png",
+   "last_seen": "2026-11-09"
+  },
+  {
+   "title": "Actuarial Senior Analyst (Chuyên viên Cấp cao Định phí Bảo hiểm)",
+   "company": "Prudential Vietnam",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://prudential.wd3.myworkdayjobs.com/prudential/job/Thnh-ph-H-Ch-Minh/Actuarial-Senior-Analyst--Chuyn-vin-Cp-cao-nh-ph-Bo-him-_26080500",
+   "source": "Trang công ty",
+   "date": "2026-11-09",
+   "exp": "2–4 năm",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Thống kê",
+    "Excel",
+    "VBA",
+    "Python",
+    "R"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Prudential’s purpose is to be partners for every life and protectors for every future.",
+      "Our purpose encourages everything we do by creating a culture in which diversity is celebrated and inclusion assured, for our people, customers, and partners.",
+      "We provide a platform for our people to do their best work and make an impact to the business, and we support our people’s career ambitions.",
+      "We pledge to make Prudential a place where you can Connect, Grow, and Succeed.",
+      "Job Purpose",
+      "Prudential Vietnam’s Participating (“Par”) business fund (the “Fund”) is one of the largest in the market, with over 1 million in force policyholders.",
+      "Strong actuarial expertise is required within the company to ensure sound financial management of the Fund, while ensuring that all policyholders are treated fairly.",
+      "The individual will be accountable for delivering high-quality actuarial insights relating to the management and governance of Prudential’s Par fund."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Bachelor’s degree in actuarial science, mathematics, statistics, finance, or a related field.",
+      "Progress in actuarial exams (SOA, IFoA, or equivalent) preferred.",
+      "2–4 years of actuarial experience in life insurance or related fields.",
+      "Strong analytical and problem-solving skills.",
+      "Proficiency in Excel and actuarial software Prophet, DCS; programming skills (e.g., VBA, Python, R) are a plus.",
+      "Good communication and collaboration skills.",
+      "Core Competencies:",
+      "Attention to Detail"
+     ]
+    ]
+   ],
+   "logo": "logos/prudential-vietnam.png",
+   "last_seen": "2026-11-09"
+  },
+  {
+   "title": "Data Engineer, VNGGames",
+   "company": "VNG",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://career.vng.com.vn/tim-kiem-viec-lam/chi-tiet/6943-data-engineer-vnggames-vi",
+   "source": "Trang công ty",
+   "date": "2026-11-09",
+   "exp": "3+ năm",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Spark",
+    "SQL",
+    "Data Quality",
+    "Python",
+    "Airflow",
+    "Git",
+    "Kafka",
+    "Hadoop",
+    "Scala"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "About the team: We own the data pipelines for the entire department — we design, build, and operate them. We handle both batch and streaming workloads at game-data scale.",
+      "What you’ll do:",
+      "Design and build batch and streaming data pipelines.",
+      "Monitor pipelines, troubleshoot failures, and fix root causes.",
+      "Optimize Spark/SQL jobs and run backfills safely.",
+      "Ensure data quality, including audited financial data.",
+      "Use AI to automate repetitive work. Must-have:",
+      "3+ years of experience in Data Engineering, including at least 1 year building and operating production pipelines."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Experience with Kafka/CDC streaming.",
+      "Familiarity with Trino, Iceberg, Hive/HDFS, and S3.",
+      "Experience with Scala.",
+      "Experience working with audited or financial data.",
+      "Experience with game data."
+     ]
+    ]
+   ],
+   "logo": "logos/vng.png",
    "last_seen": "2026-11-09"
   },
   {
@@ -372,6 +955,88 @@
       "Thực hiện định phí và mô phỏng tài chính cho các sản phẩm bảo hiểm mới và cải tiến, bảo đảm tuân thủ khung rủi ro, định vị thương hiệu và chiến lược kinh doanh của công ty.",
       "Xây dựng giả định kỹ thuật (experience study, lapse, expense, mortality/morbidity…) và đề xuất điều chỉnh dựa trên dữ liệu thực tế và xu hướng thị trường.",
       "Phối hợp với bộ phận Sản phẩm, Kinh doanh, Quản lý rủi ro… trong quá trình thiết kế, thử nghiệm và phê duyệt sản phẩm; đánh giá tác động lên lợi nhuận, biên khả năng thanh toán và khả năng phân phối."
+     ]
+    ]
+   ],
+   "logo": "logos/techcombank.png",
+   "last_seen": "2026-11-09"
+  },
+  {
+   "title": "Senior Business Intelligence (C360) - HN - TA174",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-Senior-Business-Intelligence-%28C360%29-HN-TA174/1368611866/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-11-07",
+   "exp": "5+ năm",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Thống kê",
+    "SQL",
+    "Python",
+    "R",
+    "Superset",
+    "AWS",
+    "Databricks",
+    "Machine Learning"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Mục đích của chức danh / Job Purpose",
+      "Phân tích dữ liệu, thực hiện việc thu thập, xem xét, biến đổi dữ liệu và phân tích chuyên sâu với mục tiêu chỉ ra được những insight hữu ích, đưa ra khuyến nghị và hỗ trợ trong việc ra các quyết định…",
+      "help in processing of collecting, inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information (finding meaningful facts and trends relevant to an outcome of…",
+      "Các hoạt động chính / Key Activities",
+      "1. Chịu trách nhiệm thu thập dữ liệu, phát triển và triển khai phân tích nhằm cung cấp các nhận định, khuyến nghị phục vụ việc ra quyết định của các cấp quản lý, lãnh đạo VPBank và các công ty trong…",
+      "Responsible for data collection, development and implementation analysis to provide insight for to support decision making process of manager VPBank & Ecosystem",
+      "2. Chủ động trao đổi với các đầu mối liên quan để nắm vấn đề kinh doanh nhằm đưa ra các khuyến nghị kip thời",
+      "Proactive discuss with contact point to order to catch up business problems to provide insight right time"
+     ]
+    ]
+   ],
+   "logo": "logos/vpbank.png",
+   "last_seen": "2026-11-09"
+  },
+  {
+   "title": "Chuyên gia, Khoa học Dữ liệu (Techcom Insurance)",
+   "company": "Techcombank",
+   "location": "TP. Hà Nội",
+   "region": "VN",
+   "url": "https://www.techcombankjobs.com/job/TP_-H%C3%A0-N%E1%BB%99i-Chuy%C3%AAn-gia%2C-Khoa-h%E1%BB%8Dc-D%E1%BB%AF-li%E1%BB%87u-%28Techcom-Insurance%29/59657344/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-11-07",
+   "exp": "10+ năm",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "Thống kê",
+    "Tiếng Anh",
+    "Python",
+    "R",
+    "Spark",
+    "Scala",
+    "SQL",
+    "Java"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Mục tiêu",
+      "Người đảm nhận vị trí đề xuất, khởi xướng và quản lý nhiều dự án ML khác nhau cùng với việc kinh doanh để giải quyết các vấn đề đặt ra trước khi liên kết với OKR của công ty và cải tiến sản phẩm bằng…",
+      "Người đảm nhận vị trí cũng tham gia vào vòng kết nối chiến lược và góp phần hướng dẫn kinh doanh cấp cao và cung cấp hướng dẫn dữ liệu chiến lược",
+      "Người đảm nhận vị trí được yêu cầu phân bổ nguồn lực, quyết định chiến lược về các dự án và sau đó phân cấp xuống các khách hàng tiềm năng",
+      "Trách nhiệm chính (1)",
+      "Giải quyết dữ liệu",
+      "Đánh giá hiệu quả của các mô hình đề xuất và theo dõi KPI hiệu quả kinh doanh so với mô hình dữ liệu.",
+      "Xây dựng các thuật toán tiên tiến và làm việc với các công cụ học máy và học sâu để cung cấp các giải pháp phân tích tiên tiến trong toàn công ty bao gồm công cụ đề xuất, mô hình dữ liệu tùy chỉnh,…"
      ]
     ]
    ],
@@ -4183,6 +4848,73 @@
    "last_seen": "2026-11-09"
   },
   {
+   "title": "Data Processing Leader",
+   "company": "Buzzmetrics",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4486829442",
+   "source": "LinkedIn",
+   "date": "2026-11-03",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHP1bzcbyDkeQ/company-logo_100_100/B56ZWhzEy3HoAQ-/0/1742176276471/buzzmetricsasia_logo?e=2147483647&v=beta&t=JlbvSbRrVy-28EB67uXzmjYLmMIH6uFljHDw9hvj_0U",
+   "level": [
+    "lead"
+   ],
+   "skills": [
+    "Data Quality"
+   ],
+   "exp": "5+ năm",
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "ABOUT BUZZMETRICS",
+      "Buzzmetrics, a member of YouNet Group, is a leading Social Media & E-commerce Market Research company for Marketing Systems.",
+      "Since 2013, Buzzmetrics has pioneered the application of market research methodologies to social media and digital environments, helping organizations understand market dynamics, consumer behavior…"
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "1. Data Quality & Process Control",
+      "Ensure data accuracy, consistency, and reliability in tagging/sentiment.",
+      "Build and maintain QC frameworks, SOPs, and validation checklists.",
+      "Conduct root cause analysis and implement corrective actions for recurring issues.",
+      "2. Issue Resolution & Stakeholder Collaboration",
+      "Act as the primary liaison between Data Ops, Research, and Tech",
+      "Troubleshoot data incidents (e.g., feed/API errors, duplicates, missing coverage).",
+      "Provide timely updates and communicate solutions to stakeholders."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Education/ Knowledge:",
+      "Solid background in data operations, including workflow design, process documentation, and end-to-end data management (from ingestion to delivery).",
+      "Strong understanding of data quality frameworks: validation rules, QC sampling methods, and error classification.",
+      "Project management: workload planning, timeline tracking, stakeholder coordination.",
+      "Excellent communication skills.",
+      "Problem-solving and decision-making under pressure.",
+      "5+ years in data operations / research operations, preferably within market research or social listening.",
+      "Minimum 1 year of team management experience."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Competitive salary",
+      "Premium healthcare insurance (for Upper Senior level)",
+      "12 days of annual leave & 5 days of sick leave",
+      "Standard health check",
+      "Company trip, Year end party, Team building",
+      "Occasion-based offerings: Birthday, wedding, maternity, …",
+      "Parking support",
+      "Equipment for work (Laptop)"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-09"
+  },
+  {
    "title": "HO - Data Science Expert",
    "company": "Ngân Hàng TMCP Á Châu (ACB)",
    "location": "Hồ Chí Minh",
@@ -6724,7 +7456,7 @@
     "SQL",
     "dbt"
    ],
-   "last_seen": "2026-11-06",
+   "last_seen": "2026-11-09",
    "exp": "2+ năm",
    "level": [
     "mid"
@@ -8657,6 +9389,52 @@
    "last_seen": "2026-11-09"
   },
   {
+   "title": "Senior Business Intelligence Associate (Operations)",
+   "company": "CÔNG TY TNHH SPX EXPRESS",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/senior-business-intelligence-associate-operations-2124700-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-28",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/3e/11232016.png",
+   "salary": "Thỏa thuận",
+   "exp": "3+ năm",
+   "level": [
+    "junior",
+    "senior"
+   ],
+   "skills": [],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Evaluate and define business metrics, democratize data by building and socializing decision tools (dashboards, reports).",
+      "Work closely with business stakeholders across Operations to conduct analysis that leads to actionable insights to grow the business and strengthen operational performance.",
+      "Lead the effort to communicate the state of the business to stakeholders regularly to understand reasons behind the..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "At least 3 years of experience in a Business Intelligence or Data Analytics role with proven business impact",
+      "Strong analytical thinking and ability to learn quickly with a can-do attitude",
+      "Excellent written and verbal communication skills in English and Vietnamese",
+      "Experience working with cross-functional teams to gather requirements and define the right metrics to describe the state..."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Lương tháng 13 và Performance Bonus theo quy định của công ty",
+      "Khám sức khỏe định kỳ",
+      "14 ngày phép năm, 6 ngày phép bệnh",
+      "Laptop"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-09"
+  },
+  {
    "title": "Senior Collection Analytics & Modeling Executive",
    "company": "CÔNG TY TÀI CHÍNH TÍN DỤNG TIÊU DÙNG TRÁCH NHIỆM HỮU HẠN MỘT THÀNH VIÊN SFINANCE",
    "location": "Hồ Chí Minh",
@@ -9710,7 +10488,7 @@
     "Docker",
     "Kubernetes"
    ],
-   "last_seen": "2026-11-07",
+   "last_seen": "2026-11-09",
    "exp": "5+ năm",
    "sections": [
     [
@@ -9934,7 +10712,7 @@
    "skills": [
     "Data Governance"
    ],
-   "last_seen": "2026-11-08",
+   "last_seen": "2026-11-09",
    "exp": "3+ năm",
    "sections": [
     [
@@ -10007,7 +10785,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-08"
+   "last_seen": "2026-11-09"
   },
   {
    "title": "Data Engineer (Junior Data Architect)",
@@ -11478,6 +12256,53 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
+   "last_seen": "2026-11-09"
+  },
+  {
+   "title": "Supply Chain Data Analyst (Total Annual Compensation Up-To 37,000 USD)",
+   "company": "Crossian Việt Nam",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/supply-chain-data-analyst-total-annual-compensation-up-to-37-000-usd-1794216110503618303-2123046-jv",
+   "source": "VietnamWorks",
+   "date": "2026-10-23",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/27/11025436.png",
+   "salary": "Đến ≈79 triệu",
+   "exp": "2+ năm",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Thống kê"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Crossian is a high-growth technology-driven e-commerce business.",
+      "Behind our success is our people.",
+      "As a start-up formed in 2020, we have created a fast-paced and dynamic environment, enabling our people to reach a cumulative average growth rate of over 1000% in the last 3 years.",
+      "Our mission now is to build DTC..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "WHAT ARE WE LOOKING FOR",
+      "Bachelor's degree in business analytics, data analytics, data science, statistics, business administration, computer science or related field from a recognized university (HUST, VNU, FTU, NEU...)",
+      "2+ years of work experience in data analytics, business intelligence, operations analytics, or supply chain analytics.",
+      "Strong Data Analytics Skills (Must: descriptive and diagnostic..."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Total Compensation Package: 440M – 960M VND annually (depending on experience, mindset and level of skillset).",
+      "Quarterly bonus & Year-end bonus as part of our profit sharing program",
+      "Flexible, non-binding working time and space according to office hours"
+     ]
+    ]
+   ],
    "last_seen": "2026-11-09"
   },
   {
@@ -18822,7 +19647,7 @@
     "Data Warehouse",
     "Python"
    ],
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-11-09",
    "exp": "2+ năm",
    "level": [
     "mid"
@@ -22924,9 +23749,13 @@
   "https://tuyendung.ncb-bank.vn/vi/jobs/yLK3Eq",
   "https://tuyendung.ncb-bank.vn/vi/jobs/ypdzay",
   "https://tuyendung.tpb.vn/vi/jobs/PwlmoR",
+  "https://tuyendung.tpb.vn/vi/jobs/R09V7q",
+  "https://tuyendung.tpb.vn/vi/jobs/RVpQ7y",
   "https://tuyendung.tpb.vn/vi/jobs/RlVpay",
   "https://tuyendung.tpb.vn/vi/jobs/qD2vJP",
   "https://tuyendung.tpb.vn/vi/jobs/qXW2eR",
+  "https://tuyendung.tpb.vn/vi/jobs/qbZMEq",
+  "https://tuyendung.tpb.vn/vi/jobs/y3klNy",
   "https://tuyendung.tpb.vn/vi/jobs/yKX3YP",
   "https://tuyendung.tpb.vn/vi/jobs/ypdLky",
   "https://tuyendung.vpbank.com.vn/job/H%E1%BB%93-Ch%C3%AD-Minh-T%E1%BA%ADp-s%E1%BB%B1-KHDN-v%E1%BB%ABa-&-nh%E1%BB%8F-TP_-H%E1%BB%93-Ch%C3%AD-Minh-TA182/1364006466/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
@@ -22948,6 +23777,8 @@
   "https://www.vietnamworks.com/project-trainee-temp-4-months-1791875037524242745-2118862-jv",
   "https://www.vietnamworks.com/sales-trainee-concrete-2126239-jv",
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1793262742027719009-2125340-jv",
-  "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv"
+  "https://www.vietnamworks.com/southeast-asia-trainee-programme-1794219909943462213-2129413-jv",
+  "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv",
+  "https://ybox.vn/tuyen-dung/hcm-cong-ty-thuong-mai-xuat-nhap-khau-nguon-song-viet-tuyen-dung-giam-sat-ban-hang-kenh-mt-sale-out-full-time-2026-6af12ad38f479879240237db"
  ]
 }
