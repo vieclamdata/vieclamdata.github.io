@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T14:55+00:00",
+ "updated": "2026-11-10T23:13+00:00",
  "jobs": [
   {
    "title": "Senior Officer, Actuarial Services (Valuation - EV&VNB)",
@@ -162,7 +162,7 @@
    "source": "Glints",
    "date": "2026-11-10",
    "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/9745272cee11341db3d910aba31fa290.jpg",
-   "exp": "1+ năm",
+   "exp": "1–3 năm",
    "level": [
     "junior"
    ],
@@ -255,6 +255,29 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
+   "last_seen": "2026-11-10"
+  },
+  {
+   "title": "Thực Tập Sinh Phân Tích Doanh Nghiệp AI/BI",
+   "company": "Công Ty Dịch Vụ Tài Chính Falinwa Vietnam",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://ybox.vn/tuyen-dung/hn-cong-ty-dich-vu-tai-chinh-falinwa-vietnam-tuyen-dung-thuc-tap-sinh-phan-tich-doanh-nghiep-ai-bi-full-time-2026-6af2b17c51346a6bae21ea64",
+   "source": "Ybox",
+   "date": "2026-11-10",
+   "logo": "https://static.ybox.vn/2024/7/2/1719890869883-FALINWA_LOGO_vietnam.png",
+   "level": [
+    "intern"
+   ],
+   "skills": [],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Falinwa Vietnam is part of Falinwa Group. We are newly open in Hanoi with the mission of functional supporting for clients and Cluedoo users. We are the link between the clients an"
+     ]
+    ]
+   ],
    "last_seen": "2026-11-10"
   },
   {
@@ -13415,16 +13438,39 @@
     "Thống kê",
     "Data Quality"
    ],
-   "last_seen": "2026-11-04",
+   "last_seen": "2026-11-10",
    "sections": [
     [
      "Mô tả công việc",
      [
-      "This role sets up data governance as a company-wide function — so every number we report, internally, to brand partners, and to investors, has one definition, one owner, and one source of truth. Key…"
+      "This role sets up data governance as a company-wide function — so every number we report, internally, to brand partners, and to investors, has one definition, one owner, and one source of truth.",
+      "Own the data governance policy, classification framework, and data standards.",
+      "Own the glossary and the shared definitions process — and settle disagreements..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Bachelor’s degree or higher in Information Technology, Management Information Systems (MIS), Computer Science, Data Science, Statistics, Business Administration, or a related field.",
+      "5 to 8 years of experience in data governance, data management, or analytics, with real ownership of a program.",
+      "Experience building a glossary, a master data program, or a data quality program across multiple..."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Premium Health Insurance",
+      "Full insurance package",
+      "Annual leave: 15 working days per calendar year.",
+      "Sick leave: 3 working days per calendar year.",
+      "Outing leave: 1 working day per calendar year, used for a company trip.",
+      "A laptop is provided to each team member.",
+      "Work from home: 1 day per week.",
+      "Free parking is provided."
      ]
     ]
    ],
-   "exp": "5–8 năm"
+   "exp": "5+ năm"
   },
   {
    "title": "Data Engineer",
@@ -22246,16 +22292,44 @@
     "Machine Learning",
     "Tiếng Anh"
    ],
-   "last_seen": "2026-10-29",
+   "last_seen": "2026-11-10",
    "exp": "3+ năm",
    "level": [
-    "mid"
+    "senior"
    ],
    "sections": [
     [
      "Mô tả công việc",
      [
-      "Mô tả công việc: Phân tích chất lượng toàn bộ danh mục TSBĐ Thiết lập và vận hành hệ thống Cảnh báo sớm (Early Warning System) về biến động giá trị TSBĐ, rủi ro pháp lý, và yêu cầu khách hàng bổ sung…"
+      "Phân tích chất lượng toàn bộ danh mục TSBĐ",
+      "Thiết lập và vận hành hệ thống Cảnh báo sớm (Early Warning System) về biến động giá trị TSBĐ, rủi ro pháp lý, và yêu cầu khách hàng bổ sung TSBĐ",
+      "Đề xuất, báo cáo Teamlead phụ trách các công việc liên quan đến quản lý danh mục"
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "1. Kiến thức/Chuyên môn có liên quan",
+      "Tốt nghiệp chuyên ngành Tài chính - Ngân hàng hoặc các chuyên ngành liên quan.",
+      "Am hiểu Luật Đất đai, Luật Nhà ở và các quy định pháp luật về Giao dịch bảo đảm.",
+      "Có kiến thức về Data Analytics, AI/Machine Learning và ứng dụng trong lĩnh vực Quản lý rủi ro hoặc Định giá tài sản.",
+      "2. Kỹ năng",
+      "Có khả năng phân tích, đánh giá và giải quyết vấn đề hiệu quả.",
+      "Tư duy logic, chủ động và có khả năng làm việc với dữ liệu.",
+      "3. Kinh nghiệm liên quan"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Thu nhập hấp dẫn, lương thưởng cạnh tranh theo năng lực",
+      "Thưởng các Ngày lễ, Tết (theo chính sách ngân hàng từng thời kỳ)",
+      "Được vay ưu đãi theo chính sách ngân hàng từng thời kỳ",
+      "Chế độ ngày phép hấp dẫn theo cấp bậc công việc, được hưởng chế độ du lịch hè",
+      "Bảo hiểm bắt buộc theo luật lao động + Bảo hiểm VPBank care cho CBNV tùy theo cấp bậc và thời gian công tác",
+      "Được tham gia các khóa đào tạo tùy thuộc vào Khung đào tạo cho từng vị trí",
+      "Thời gian làm việc: từ thứ 2 – thứ 6 & sáng thứ 7",
+      "Môi trường làm việc năng động, thân thiện, có nhiều cơ hội học đào tạo, học hỏi và phát triển; được tham gia nhiều hoạt động văn hóa thú vị (cuộc thi về thể thao, tài năng, hoạt động teambuilding...)"
      ]
     ]
    ]
@@ -22277,7 +22351,7 @@
     "R",
     "Machine Learning"
    ],
-   "last_seen": "2026-10-24",
+   "last_seen": "2026-11-10",
    "exp": "3+ năm",
    "level": [
     "mid"
@@ -22286,7 +22360,14 @@
     [
      "Mô tả công việc",
      [
-      "MỤC ĐÍCH CỦA CHỨC DANH - Lập kế hoạch, triển khai và giám sát việc thực hiện các công tác quản lý cơ sở dữ liệu, cung cấp báo cáo định kỳ và báo cáo theo yêu cầu phục vụ cho việc ra quyết định của…"
+      "MỤC ĐÍCH CỦA CHỨC DANH",
+      "Lập kế hoạch, triển khai và giám sát việc thực hiện các công tác quản lý cơ sở dữ liệu, cung cấp báo cáo định kỳ và báo cáo theo yêu cầu phục vụ cho việc ra quyết định của các cấp quản lý, lãnh đạo…",
+      "Phụ trách việc tính toán và đảm bảo tính chính xác kịp thời của các chương trình trả thưởng cho các vị trí của trung tâm Thu hồi nợ.",
+      "Hỗ trợ/tư vấn đơn vị kinh doanh và các phòng ban liên quan trong việc ra các chính sách/cơ chế/phương pháp tính toán thích hợp trong từng thời kỳ.",
+      "Đưa ra các nhận định về các vấn đề còn tồn đọng trong các chương trình trả thưởng.",
+      "Thực hiện việc thu thập, xem xét, biến đổi dữ liệu và phân tích chuyên sâu với mục tiêu chỉ ra được những insight hữu ích, đưa ra khuyến nghị và hỗ trợ trong việc ra các quyết định của đơn vị.",
+      "CÁC HOẠT ĐỘNG CHÍNH",
+      "1. Xây dựng hệ thống báo cáo định kỳ, công cụ theo dõi kết quả: hàng ngày, tuần, tháng, quý và các báo cáo, dữ liệu đột xuất theo yêu cầu về kết quả thu hồi nợ của các đơn vị, các kết quả tác nghiệp…"
      ]
     ]
    ]
@@ -22309,7 +22390,7 @@
     "LLM / GenAI",
     "Kubernetes"
    ],
-   "last_seen": "2026-10-23",
+   "last_seen": "2026-11-10",
    "exp": "5+ năm",
    "level": [
     "senior"
@@ -22318,7 +22399,14 @@
     [
      "Mô tả công việc",
      [
-      "Các trách nhiệm chính • Chịu trách nhiệm thiết kế giải pháp, phát triển, triển khai và tối ưu hệ thống backend cho các sản phẩm voice tại VPBank, bao gồm Callbot, AI Tutor/Coaching, Virtual QC, Voice…"
+      "Các trách nhiệm chính",
+      "Chịu trách nhiệm thiết kế giải pháp, phát triển, triển khai và tối ưu hệ thống backend cho các sản phẩm voice tại VPBank, bao gồm Callbot, AI Tutor/Coaching, Virtual QC, Voice Analytics, Information…",
+      "Chuyển hóa yêu cầu nghiệp vụ thành giải pháp kỹ thuật; trực tiếp xây dựng API, dịch vụ backend, luồng xử lý và cơ chế tích hợp các thành phần AI để đưa sản phẩm vào vận hành thực tế.",
+      "Thiết kế và phát triển các hệ thống xử lý thời gian thực (realtime) và theo lô (batch), đáp ứng yêu cầu về độ trễ, khả năng xử lý đồng thời, tính ổn định, khả năng mở rộng và bảo mật của Ngân hàng.",
+      "Tham gia xây dựng các thành phần backend dùng chung cho Voice Platform, chuẩn hóa khả năng tích hợp và tái sử dụng để rút ngắn thời gian triển khai các use case mới.",
+      "Đóng vai trò đầu mối kỹ thuật trong phạm vi được giao; chủ động đề xuất giải pháp, review thiết kế, review code và hướng dẫn các thành viên khác trong nhóm.",
+      "Trình độ đào tạo",
+      "Đại học in Khoa học máy tính"
      ]
     ]
    ]
@@ -24318,7 +24406,6 @@
   "https://tuyendung.tpb.vn/vi/jobs/PwlmoR",
   "https://tuyendung.tpb.vn/vi/jobs/R09V7q",
   "https://tuyendung.tpb.vn/vi/jobs/RVpQ7y",
-  "https://tuyendung.tpb.vn/vi/jobs/RlVpay",
   "https://tuyendung.tpb.vn/vi/jobs/qD2vJP",
   "https://tuyendung.tpb.vn/vi/jobs/qXW2eR",
   "https://tuyendung.tpb.vn/vi/jobs/qbZMEq",
