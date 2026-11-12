@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T15:08+00:00",
+ "updated": "2026-11-12T23:35+00:00",
  "jobs": [
   {
    "title": "Senior AI Engineer",
@@ -363,7 +363,7 @@
    "source": "Glints",
    "date": "2026-11-12",
    "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/6c924f87ed6ac6239274182531d28eb8.jpg",
-   "exp": "1+ năm",
+   "exp": "1–3 năm",
    "level": [
     "junior"
    ],
@@ -429,7 +429,7 @@
    "source": "Glints",
    "date": "2026-11-12",
    "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/99bb63160f6cfcf768e55bc56194af09.png",
-   "exp": "1+ năm",
+   "exp": "1–3 năm",
    "level": [
     "junior"
    ],
@@ -2349,6 +2349,53 @@
      "Mô tả công việc",
      [
       "CyberLotus là một trong những Công ty hàng đầu trong lĩnh vực giao dịch điện tử, dịch vụ công trực tuyến và cung cấp các giải pháp công nghệ số cho khối chính phủ và các doanh nghi"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-12"
+  },
+  {
+   "title": "Quantitative Researcher - HCM",
+   "company": "XCapital Technology",
+   "location": "District 2",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4488633982",
+   "source": "LinkedIn",
+   "date": "2026-11-11",
+   "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQGpoiAqUNsdeQ/company-logo_100_100/B4EZqWJY4aHcAQ-/0/1763455635671/vietnam_invest_tech_logo?e=2147483647&v=beta&t=H9tI9oHdh-lhM-mqJGZLwBPIgzyooXtnSGlL68rhuTk",
+   "skills": [
+    "Thống kê",
+    "Machine Learning",
+    "Python",
+    "Pandas",
+    "Scikit-learn",
+    "PyTorch"
+   ],
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "XNOQuant is building Vietnam’s most rigorous quantitative technology platform — AIpowered investment and trading, engineered to institutional standards. We operate at the",
+      "intersection of systematic trading, AI, and financial data, serving fund managers, trading",
+      "desks, and wealth professionals who depend on our tools for live decisions."
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "Research alpha signals from price, volume, sentiment, and alternative datasets",
+      "Build systematic models using statistics, machine learning, or reinforcement learning",
+      "Backtest rigorously and optimize for Sharpe, drawdown, and stability",
+      "Collaborate with engineering to deploy strategies into live trading environments"
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Strong background in statistics, probability, optimization, or ML",
+      "Excellent Python skills (NumPy, Pandas, Scikit-learn, PyTorch)",
+      "Proven research results (projects, papers, competitions, alpha portfolios)",
+      "Highly analytical, experimental, and performance-driven"
      ]
     ]
    ],
@@ -4739,7 +4786,7 @@
     "Airflow",
     "dbt"
    ],
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "exp": "2–4 năm",
    "sections": [
     [
@@ -5823,7 +5870,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-gia-tinh-toan-appointed-actuary.35C8D03B.html",
    "source": "CareerViet",
    "date": "2026-11-05",
-   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot3/128193/144712miclogo.png",
    "salary": "Thỏa thuận",
    "level": [
     "senior"
@@ -7238,7 +7285,7 @@
    "source": "Glints",
    "date": "2026-11-04",
    "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/99bb63160f6cfcf768e55bc56194af09.png",
-   "exp": "1+ năm",
+   "exp": "1–3 năm",
    "level": [
     "junior"
    ],
@@ -8647,7 +8694,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/data-governance-specialist.35C8CA47.html",
    "source": "CareerViet",
    "date": "2026-11-02",
-   "logo": "https://images.careerviet.vn/employers/2996/11552808d75f53baccdb3fe6600824c464a9c9.jpg",
+   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
    "salary": "Thỏa thuận",
    "skills": [
     "Data Governance",
@@ -9448,7 +9495,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-bao-mat-du-lieu-senior-data-security-data-division-khoi-du-lieu-2026td450980.35C8946A.html",
    "source": "CareerViet",
    "date": "2026-11-01",
-   "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
+   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
    "salary": "Thỏa thuận",
    "level": [
     "senior"
@@ -9496,7 +9543,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-du-lieu-data-engineer-khoi-du-lieu-2026td450985.35C89470.html",
    "source": "CareerViet",
    "date": "2026-11-01",
-   "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
+   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
    "salary": "Thỏa thuận",
    "skills": [
     "Tableau",
@@ -9541,7 +9588,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-quan-ly-chat-luong-du-lieu-data-quality-management-specialist-khoi-du-lieu-2026td450981.35C8946C.html",
    "source": "CareerViet",
    "date": "2026-11-01",
-   "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
+   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
    "salary": "Thỏa thuận",
    "skills": [
     "Data Quality",
@@ -10968,7 +11015,7 @@
     "Thống kê",
     "Python"
    ],
-   "last_seen": "2026-11-11",
+   "last_seen": "2026-11-12",
    "exp": "3+ năm",
    "level": [
     "mid"
@@ -11149,7 +11196,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/ky-su-ai-va-du-lieu-ai-data-engineer.35C8C2F7.html",
    "source": "CareerViet",
    "date": "2026-10-29",
-   "logo": "https://images.careerviet.vn/employer_folders/lot1/213381/95659taixuong.png",
+   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
    "salary": "18–25 triệu",
    "skills": [
     "ETL",
@@ -14695,7 +14742,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-bao-mat-du-lieu-senior-data-security-khoi-du-lieu-2026td450980.35C84AFD.html",
    "source": "CareerViet",
    "date": "2026-10-25",
-   "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
+   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
    "salary": "Thỏa thuận",
    "level": [
     "senior"
@@ -14750,7 +14797,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-chuyen-vien-cao-cap-khoa-hoc-du-lieu-data-scientist-khoi-du-lieu-2026td450984.35C84B00.html",
    "source": "CareerViet",
    "date": "2026-10-25",
-   "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
+   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
    "salary": "Thỏa thuận",
    "level": [
     "senior"
@@ -14808,7 +14855,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-quan-ly-chat-luong-du-lieu-data-quality-management-specialist-khoi-du-lieu-2026td450981.35C84AFE.html",
    "source": "CareerViet",
    "date": "2026-10-25",
-   "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
+   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
    "salary": "Thỏa thuận",
    "skills": [
     "Data Quality",
@@ -14871,7 +14918,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-phan-tich-va-thiet-ke-mo-hinh-du-lieu-data-analyst-khoi-du-lieu-2026td450983.35C84B08.html",
    "source": "CareerViet",
    "date": "2026-10-25",
-   "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
+   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
    "salary": "Thỏa thuận",
    "skills": [
     "Data Warehouse",
@@ -14923,7 +14970,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-phan-tich-va-thiet-ke-mo-hinh-du-lieu-data-analyst-khoi-du-lieu-2026td45098.35C84AFF.html",
    "source": "CareerViet",
    "date": "2026-10-25",
-   "logo": "https://images.careerviet.vn/employer_folders/lot0/99440/134506mb-logo-main-01.png",
+   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
    "salary": "Thỏa thuận",
    "skills": [
     "Data Warehouse",
@@ -25245,7 +25292,6 @@
   "https://tuyendung.tpb.vn/vi/jobs/yKX3YP",
   "https://tuyendung.tpb.vn/vi/jobs/ypdLky",
   "https://tuyendung.vietabank.com.vn/vi/jobs/RnKa2q",
-  "https://tuyendung.vpbank.com.vn/job/H%E1%BB%93-Ch%C3%AD-Minh-T%E1%BA%ADp-s%E1%BB%B1-KHDN-v%E1%BB%ABa-&-nh%E1%BB%8F-TP_-H%E1%BB%93-Ch%C3%AD-Minh-TA182/1364006466/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
   "https://www.linkedin.com/jobs/view/4475527711",
   "https://www.linkedin.com/jobs/view/4478977404",
   "https://www.linkedin.com/jobs/view/4482928927",
@@ -25262,7 +25308,6 @@
   "https://www.vietnamworks.com/production-management-trainee-1792385386699673266-2120946-jv",
   "https://www.vietnamworks.com/project-commercial-trainee-1791972722591135951-2119502-jv",
   "https://www.vietnamworks.com/project-product-management-trainee-1792386036859803249-2120952-jv",
-  "https://www.vietnamworks.com/project-trainee-temp-4-months-1791875037524242745-2118862-jv",
   "https://www.vietnamworks.com/sales-trainee-concrete-2126239-jv",
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1793262742027719009-2125340-jv",
   "https://www.vietnamworks.com/southeast-asia-trainee-programme-1794219909943462213-2129413-jv",
