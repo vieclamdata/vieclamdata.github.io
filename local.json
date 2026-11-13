@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T18:00+00:00",
+ "updated": "2026-11-13T12:00+00:00",
  "jobs": [
   {
    "title": "Senior Data Engineer (Databricks, MLops, AWS)",
@@ -72,6 +72,441 @@
       "Independent but also a good team player.",
       "Comfortable with a high degree of ambiguity.",
       "Focused on usability and speed."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-13"
+  },
+  {
+   "title": "Data Architect / Lead Data Engineer - Core Banking",
+   "company": "HDBank",
+   "location": "Ho Chi Minh",
+   "region": "VN",
+   "url": "https://itviec.com/it-jobs/data-architect-lead-data-engineer-core-banking-hdbank-1347",
+   "source": "ITviec",
+   "date": "2026-11-13",
+   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Nzk4MjIzLCJwdXIiOiJibG9iX2lkIn19--8386ba2df991859d2dd43d164fa44accd62f4a5d/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/hdbank-logo.png",
+   "tags": [
+    "Data Engineer",
+    "Databricks",
+    "Data Warehousing",
+    "Big Data"
+   ],
+   "level": [
+    "lead"
+   ],
+   "exp": "3+ năm",
+   "skills": [
+    "Data Quality",
+    "Data Governance",
+    "AWS",
+    "Azure",
+    "Databricks",
+    "Data Warehouse"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Dẫn dắt kiến trúc dữ liệu, Datalakehouse/Bigdata và Group Customer Data Platform (CDP) xuyên các công ty thành viên.",
+      "Thiết kế kiến trúc dữ liệu, Datalakehouse/Bigdata, Group Customer Data Platform (CDP) xuyên các công ty thành viên.",
+      "Chuẩn hóa mô hình & chất lượng dữ liệu, chia sẻ dữ liệu liên ngành phục vụ BI & Analytics Dashboard.",
+      "Đồng hành các dự án Core ngành để đảm bảo dữ liệu sẵn sàng tích hợp vào hệ sinh thái dữ liệu chung Tập đoàn.",
+      "Cấu hình và tùy chỉnh các phân hệ cốt lõi, bao gồm Customer, Account, Loans và Deposits, nhằm đáp ứng các yêu cầu nghiệp vụ và quy định cụ thể.",
+      "Thiết kế và phát triển các thành phần quan trọng của T24 như Enquiries, Versions và OFS messages để đảm bảo quá trình xử lý dữ liệu diễn ra liền mạch.",
+      "Xây dựng giao diện tích hợp giữa T24 và các hệ thống ngân hàng, đồng thời hỗ trợ các dự án liên quan đến tích hợp hệ thống.",
+      "Tham gia vào các hoạt động phân tích, phát triển, kiểm thử và hỗ trợ liên quan đến phân hệ Arrangement Architecture (AA) trong hệ thống Temenos T24."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "8–12 năm kinh nghiệm CNTT, trong đó tối thiểu 4 năm ở vai trò Data Architect / Lead Data Engineer.",
+      "Có kinh nghiệm thực chiến xây dựng Datalakehouse/CDP quy mô doanh nghiệp (triệu bản ghi khách hàng).",
+      "Background ưu tiên:",
+      "Ưu tiên kinh nghiệm tại ngân hàng, bảo hiểm, bán lẻ — các ngành có khối lượng dữ liệu khách hàng lớn và yêu cầu quản trị dữ liệu chặt chẽ.",
+      "Ưu tiên Ứng viên có kinh nghiệm thực tế với Core T24/Temenos Transact (ưu tiên có TCCP hoặc từ 1 năm kinh nghiệm trở lên), đặc biệt am hiểu các Release/Version và Module cụ thể.",
+      "Chứng chỉ ưu tiên:",
+      "AWS Certified Data Analytics / Azure Data Engineer Associate / Google Professional Data Engineer.",
+      "Databricks Certified Data Engineer, Cloudera CCA/CCP."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Friendly workplace",
+      "Competitive salary",
+      "Career development",
+      "At HDBank, we strive to create a workplace that feels like a second home—where you are empowered to innovate, grow, and pursue your passion.",
+      "13th and 14th month salary bonuses",
+      "Performance-based annual bonus",
+      "Health insurance and accident insurance",
+      "Annual company trip and vacation"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-13"
+  },
+  {
+   "title": "Data Scientist (Python, LLM, AI, Machine Learning)",
+   "company": "Beyondsoft Technology (Vietnam) Company Limited",
+   "location": "Ho Chi Minh",
+   "region": "VN",
+   "url": "https://itviec.com/it-jobs/data-scientist-python-llm-ai-machine-learning-beyondsoft-technology-vietnam-company-limited-2703",
+   "source": "ITviec",
+   "date": "2026-11-13",
+   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NTg1NjY1NCwicHVyIjoiYmxvYl9pZCJ9fQ==--55a191c178ab3481124239eee16069143372618f/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/Image_20250228092845%20-%20Ngoc%20Tram%20Ta.png",
+   "tags": [
+    "Python",
+    "LLM",
+    "Machine Learning",
+    "Azure",
+    "Data Science"
+   ],
+   "exp": "3+ năm",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Python",
+    "LLM / GenAI",
+    "Machine Learning",
+    "Excel",
+    "Azure",
+    "Tiếng Anh"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Develop robust, efficient, and scalable AI models to extract information from unstructured data sources such as PDFs, Word documents, and Excel files.",
+      "Design and implement logic and workflows to process data and generate meaningful outputs for decision-making.",
+      "Build innovative solutions using Python, LLMs, machine learning techniques, data structures, and algorithms.",
+      "Work with Azure Cloud to deploy and maintain data processing and AI solutions."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "At least 4 years of experience in Data Science, Machine Learning, or AI-related roles.",
+      "Strong proficiency in Python, Large Language Models (LLMs), machine learning algorithms, data structures, and computer science fundamentals.",
+      "Proven experience building and deploying AI/ML solutions in Azure Cloud environments.",
+      "Solid understanding of data processing workflows for unstructured data (PDFs, Word, Excel, etc.).",
+      "Fluent English (both written and spoken) for communication and documentation."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Innovative Work Culture: Join a team where creativity and innovation are at the heart of everything we do.",
+      "Our IT company thrives on new ideas, and we foster a collaborative environment where every voice is valued and heard.",
+      "You'll have the opportunity to work on cutting-edge projects that push the boundaries of technology.",
+      "Career Growth & Learning Opportunities: We believe in the power of continuous learning.",
+      "Whether it’s through mentorship, online courses, or access to industry conferences, we provide the tools you need to grow professionally.",
+      "You’ll have opportunities to learn and advance in your career, all while working with some of the best minds in the industry.",
+      "Flexible Work Environment: Work-life balance is key.",
+      "We offer flexible hours and a supportive environment that adapts to your needs."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-13"
+  },
+  {
+   "title": "Director Of Data & AI",
+   "company": "Công ty Cổ phần Công nghệ KiotViet",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.topcv.vn/viec-lam/director-of-data-ai/2357771.html",
+   "source": "TopCV",
+   "date": "2026-11-13",
+   "logo": "https://cdn-new.topcv.vn/unsafe/150x/https://static.topcv.vn/company_logos/cong-ty-co-phan-cong-nghe-kiotviet-64085ad510ded.jpg",
+   "salary": "Thỏa thuận",
+   "exp": "6+ năm",
+   "level": [
+    "lead"
+   ],
+   "skills": [
+    "Data Governance",
+    "Data Quality",
+    "Machine Learning",
+    "LLM / GenAI",
+    "MLOps",
+    "Thống kê",
+    "Python",
+    "SQL"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "1. Data & AI Strategy",
+      "Define and execute the company-wide Data & AI strategy, roadmap, and investment priorities aligned with business objectives.",
+      "Identify opportunities to drive revenue, customer retention, product innovation, and operational efficiency.",
+      "Establish the KPI framework for Data & AI initiatives, and measure and report business impact and ROI to leadership on a regular basis.",
+      "Drive internal AI adoption across departments to improve productivity and build an AI-native way of working company-wide.",
+      "2. Data Platform & Architecture",
+      "Lead the development of scalable data architecture, data platforms, analytics infrastructure, and data governance frameworks.",
+      "Ensure data quality, accessibility, security, and reliability across the organization."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Master’s or Ph.D. in Computer Science, Data Science, Mathematics, Statistics, Economics, or a related field.",
+      "Proven experience in Data Science, Machine Learning, Data Engineering, or related fields, including team leadership.",
+      "Strong expertise in data architecture, data platforms, analytics, AI/ML, and modern AI technologies.",
+      "Hands-on understanding of Python, SQL, MLOps, Generative AI, and LLMs.",
+      "Strong strategic thinking, business acumen, and ability to translate technology into measurable business outcomes.",
+      "Excellent leadership, communication, and stakeholder management skills.",
+      "Experience in SaaS, Retail Tech, POS, E-commerce, or Fintech is an advantage."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Competitive, market-leading salary, negotiable based on experience.",
+      "Annual compensation review and performance-based 13th-month salary.",
+      "Performance bonus of up to two months’ salary.",
+      "Full statutory insurance, annual health check-up, and premium health insurance according to company policy.",
+      "Additional employee and family benefits.",
+      "Employee Stock Ownership Plan (ESOP) in accordance with company policy.",
+      "Competitive, market-leading salary, negotiable based on experience.",
+      "Annual compensation review and performance-based 13th-month salary."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-13"
+  },
+  {
+   "title": "Cộng Tác Viên Xử Lý Dữ Liệu Hình Ảnh",
+   "company": "Công ty TNHH LTS Global Digital Services",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.topcv.vn/viec-lam/cong-tac-vien-xu-ly-du-lieu-hinh-anh/1911605.html",
+   "source": "TopCV",
+   "date": "2026-11-13",
+   "logo": "https://cdn-new.topcv.vn/unsafe/150x/https://static.topcv.vn/company_logos/8MPVJwEDVDdhXUIG8dIWzCAlZNfwbUSc_1665048397____95aba972491311c760b00fe2759fbfba.jpg",
+   "salary": "6–8 triệu",
+   "skills": [],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "LTS Group được thành lập tháng 10 năm 2016, hoạt động trong lĩnh vực phần mềm cung cấp hai dịch vụ chính bao gồm dịch vụ Kiểm thử, Phát triển phần mềm và dịch vụ Xử lý dữ liệu cho trí tuệ nhân tạo…",
+      "Hiện LTS tuyển Nhân viên xử lý dữ liệu hình ảnh với Mô tả công việc:",
+      "Đánh dấu các đối tượng ảnh theo quy tắc cho trước",
+      "Trích xuất ra các định dạng theo yêu cầu để làm đầu vào cho các hệ thống trí tuệ nhân tạo.",
+      "Báo cáo kết quả công việc với trưởng dự án"
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Tốt nghiệp các trường đại học/cao đẳng",
+      "Kiên trì và cẩn thận",
+      "Ưu tiên có kinh nghiệm về xử lý dữ liệu hình ảnh",
+      "Độ tuổi: 18 -25 tuổi"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Thu nhập 6 - 8 triệu/tháng",
+      "Đánh giá lên nhân viên nếu làm tốt và hưởng các quyền lợi sau:",
+      "Xét tăng lương 2 lần/năm. Tổng tháng lương 13-14 tháng/năm",
+      "Làm trong môi trường năng động và chuyên nghiệp",
+      "Có quyền lợi về bảo hiểm y tế, bảo hiểm xã hội, Thuế TNCN theo đúng quy định của nhà nước.",
+      "Hoạt động teambuilding, Summer holiday, Year-end party,...Chilling time hàng tháng",
+      "Kiểm tra sức khỏe một năm một lần.",
+      "Thu nhập 6 - 8 triệu/tháng"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-13"
+  },
+  {
+   "title": "Trưởng Nhóm Data Analyst",
+   "company": "Viettel Software",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.topcv.vn/viec-lam/truong-nhom-data-analyst/2297124.html",
+   "source": "TopCV",
+   "date": "2026-11-13",
+   "logo": "https://cdn-new.topcv.vn/unsafe/150x/https://static.topcv.vn/company_logos/WZedclI8ZfWN03oLCkYv9DQ8TYxD5T0i_1694575361____9af0c441a9a8411a4d49f4906653ced7.png",
+   "salary": "Thỏa thuận",
+   "level": [
+    "lead"
+   ],
+   "exp": "2+ năm",
+   "skills": [
+    "Machine Learning",
+    "Thống kê",
+    "NoSQL",
+    "Hadoop",
+    "Spark",
+    "SQL",
+    "Tableau",
+    "Qlik",
+    "Power BI"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Làm việc với các đơn vị chức năng, nghiệp vụ để xác định mức độ ưu tiên, các bài toán phân tích cần triển khai, gắn với mục tiêu kinh doanh cụ thể (tăng trưởng doanh thu, giảm rủi ro, tối ưu vận…",
+      "Tìm hiểu bài toán (Business Understanding): Phối hợp với đơn vị BA để xác định rõ mục tiêu kinh doanh, đề xuất giải pháp phân tích và cách đo lường hiệu quả (KPI, success metrics).",
+      "Tìm hiểu dữ liệu (Data Understanding): Tìm hiểu ý nghĩa các trường dữ liệu hiện có; thu thập, tổng hợp thêm các thuộc tính đặc trưng (feature) phục vụ cho bài toán phân tích.",
+      "Xử lý dữ liệu: Làm sạch, tích hợp và biến đổi dữ liệu từ nhiều nguồn (loại bỏ ngoại lai, xử lý giá trị thiếu/trùng lặp/sai định dạng, tạo thuộc tính/chỉ số mới) để đảm bảo dữ liệu đầu vào đạt chất…",
+      "Phân tích dữ liệu: Thực hiện phân tích mô tả và phân tích chẩn đoán (Descriptive & Diagnostic Analysis), phân tích khám phá (EDA) để không chỉ nêu \"cái gì đang xảy ra\" mà lý giải \"tại sao lại xảy…",
+      "Chuyển hóa kết quả phân tích thành insight — nhận định có tính diễn giải nguyên nhân, dự báo tác động hoặc đề xuất hành động cụ thể — chứ không chỉ là số liệu tổng hợp hay dashboard theo dõi.",
+      "Trực quan hóa kết quả phân tích theo \"ngôn ngữ của người dùng cuối\", xây dựng báo cáo insight định kỳ hoặc theo yêu cầu, kèm khuyến nghị hành động cho các đơn vị nghiệp vụ/ban lãnh đạo.",
+      "Theo dõi, đánh giá hiệu quả của các đề xuất/quyết định kinh doanh dựa trên kết quả phân tích đã triển khai (feedback loop)."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Từ 2 năm kinh nghiệm ở vị trí tương đương, ưu tiên ứng viên có kinh nghiệm phân tích dữ liệu phục vụ ra quyết định kinh doanh (business/commercial analytics), không chỉ làm báo cáo.",
+      "Kiến thức và kinh nghiệm thực tế về phân tích khám phá dữ liệu (EDA) và phân tích chẩn đoán (diagnostic analysis) để tìm nguyên nhân gốc rễ.",
+      "Kiến thức về thống kê ứng dụng (kiểm định giả thuyết, phân tích tương quan, phân khúc/segmentation...) để đảm bảo insight có cơ sở, không chỉ là quan sát cảm tính.",
+      "Có kiến thức và kinh nghiệm xây dựng mô hình học máy (Machine Learning), ứng dụng AI vào bài toán phân tích (dự báo, phân loại, phân cụm...) là một lợi thế.",
+      "Kiến thức về trực quan hóa dữ liệu (Data Visualization) theo hướng kể chuyện bằng dữ liệu (data storytelling), không chỉ dựng dashboard.",
+      "Kiến thức về các loại CSDL (RDBMS, Graph Databases, NoSQL...) và xử lý dữ liệu phân tán, dữ liệu lớn (Hadoop, Spark, Elasticsearch…).",
+      "Kỹ năng SQL tốt, có khả năng viết truy vấn phức tạp phục vụ phân tích.",
+      "Kỹ năng sử dụng công cụ trực quan hóa dữ liệu (Tableau, QlikView, Power BI...) ở mức xây dựng báo cáo phân tích chuyên sâu, không chỉ báo cáo vận hành."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Thu nhập cạnh tranh, thỏa thuận theo năng lực.",
+      "Thưởng bổ sung tháng lương 13 tháng lương.",
+      "Thưởng kinh doanh tháng 14,15,16,17 (tùy vào tình hình kinh doanh)",
+      "Phụ cấp ăn trưa, điện thoại, phụ trang.",
+      "Thưởng ngày lễ và các ngày chỉ có ở Viettel như Ngày Sáng Tạo - 1/6, 22/12, quà Tết Dương, Tết Âm tri ân Gia đình, người sinh thành (PACKAGE 20 - 30M/năm).",
+      "Nghỉ phép năm: 16 ngày/năm",
+      "Đánh giá xét tăng lương 2 lần/năm",
+      "Được đóng đầy đủ bảo hiểm xã hội, bảo hiểm y tế + bảo hiểm sức khỏe MIC."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-13"
+  },
+  {
+   "title": "Data Analyst Leader",
+   "company": "CÔNG TY CỔ PHẦN TƯ VẤN CÔNG NGHỆ NGS",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.topcv.vn/viec-lam/data-analyst-leader/2272110.html",
+   "source": "TopCV",
+   "date": "2026-11-13",
+   "logo": "https://cdn-new.topcv.vn/unsafe/150x/https://static.topcv.vn/company_logos/FIVj0pdkU90tZ5YZzES6wPWfj7nU4WVQ_1644994914____9ab3541bc46fb2ec28b07b1b8fed172b.png",
+   "salary": "Thỏa thuận",
+   "level": [
+    "lead"
+   ],
+   "exp": "4+ năm",
+   "skills": [
+    "ETL",
+    "Data Modeling",
+    "Data Quality",
+    "Power BI",
+    "Data Warehouse",
+    "Azure",
+    "SQL",
+    "Power Query / DAX",
+    "Tiếng Anh",
+    "R",
+    "Python"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Lập kế hoạch, phân chia công việc/nhiệm vụ cho các thành viên trong nhóm để đáp ứng hoàn thành tiến độ của dự án.",
+      "Đảm bảo hoàn thành mục tiêu của nhóm.",
+      "Phân tích yêu cầu của người dùng cuối và tư vấn phương pháp phân tích dữ liệu, lựa chọn KPI, đo lường phù hợp.",
+      "Đề xuất các giải pháp dự án: kinh doanh, kỹ thuật, xử lý dữ liệu tự động và trực quan hóa báo cáo",
+      "Xây dựng các luồng ETL, mô hình hóa dữ liệu và bố cục báo cáo thiết kế",
+      "Xây dựng tài liệu hướng dẫn sử dụng và đào tạo người dùng cuối",
+      "Chuẩn bị và quản lý tất cả các tài liệu của dự án.",
+      "Quản lý hệ thống báo cáo BI đảm bảo hoạt động ổn định."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Tốt nghiệp Đại học chuyên ngành các Khối ngành về Hệ thống thông tin, Cơ sở dữ liệu, IT phần mềm, …",
+      "Có từ 4 - 6 năm kinh nghiệm làm việc trong lĩnh vực Data với vai trò Data Analyst, Data Analyst Leader. ... hoặc vai trò khác tương đương.",
+      "Khả năng làm việc độc lập và đảm nhận vai trò lãnh đạo trong nhóm.",
+      "Thành thạo phân tích, triển khai báo cáo trên Power BI và các công cụ ETL & DWH khác (Azure, SQL, Power Query,...).",
+      "Có khả năng phân tích, lập mô hình dữ liệu trong môi trường hoặc dữ liệu lớn.",
+      "Tiếng Anh giao tiếp với khách hàng ở mức tốt.",
+      "Khả năng giao tiếp hiệu quả để thiết lập mối quan hệ làm việc với khách hàng.",
+      "Có kinh nghiệm lập kế hoạch, phân chia công việc/nhiệm vụ cho các thành viên trong nhóm để đáp ứng hoàn thành tiến độ của dự án."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Thưởng tháng thứ 13, thưởng lễ tết, thưởng hiệu quả kinh doanh theo quy định và theo kết quả kinh doanh của Công ty.",
+      "Tham gia các dự án lớn, có cơ hội được tiếp cận với các công cụ, tính năng mới nhất.",
+      "Được đào tạo bởi các anh chị có chuyên môn cao, được tham gia các khóa đào tạo trực tiếp với các chuyên gia từ hãng (Công ty là Gold Partner của SAP, Microsoft và nhiều hãng ERP khác).",
+      "Hỗ trợ chi phí đào tạo và thi chứng chỉ chuyên môn.",
+      "Review đánh giá công việc hằng năm.",
+      "Phúc lợi sinh nhật (ngày nghỉ + tiền mặt).",
+      "Chế độ bảo hiểm xã hội đầy đủ theo quy định của Luật.",
+      "Gói bảo hiểm chăm sóc sức khỏe toàn diện cho CBNV."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-13"
+  },
+  {
+   "title": "Chuyên Viên Giám Sát Và Vận Hành Trung Tâm Dữ Liệu Phòng Công Nghệ Thông Tin",
+   "company": "Sở Giao Dịch Chứng Khoán Thành Phố Hồ Chí Minh",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://jobsgo.vn/viec-lam/chuyen-vien-giam-sat-va-van-hanh-trung-tam-du-lieu-phong-cong-nghe-thong-tin-29766933270.html#rc=job_list__item",
+   "source": "JobsGo",
+   "date": "2026-11-13",
+   "logo": "https://media.jobsgo.vn/media/img/employer/111318-200x200.jpg?v=1681696368",
+   "salary": "Thỏa thuận",
+   "skills": [],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Giám sát và vận hành hạ tầng trung tâm dữ liệu theo quy trình, hướng dẫn.",
+      "Xử lý các cảnh báo, sự cố đã được đào tạo, hướng dẫn có trong quy trình, hướng dẫn và/hoặc sổ tay kỹ thuật thuộc hạ tầng trung tâm dữ liệu.",
+      "Giám sát bảo hành, sửa chữa các thiết bị, hệ thống hạ tầng trung tâm dữ liệu.",
+      "Giám sát thi công các dự án liên quan đến hạ tầng trung tâm dữ liệu.",
+      "Giám sát và vận hành hạ tầng trung tâm dữ liệu theo quy trình, hướng dẫn.",
+      "Xử lý các cảnh báo, sự cố đã được đào tạo, hướng dẫn có trong quy trình, hướng dẫn và/hoặc sổ tay kỹ thuật thuộc hạ tầng trung tâm dữ liệu.",
+      "Giám sát bảo hành, sửa chữa các thiết bị, hệ thống hạ tầng trung tâm dữ liệu.",
+      "Giám sát thi công các dự án liên quan đến hạ tầng trung tâm dữ liệu."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Nắm vững kiến thức chuyên ngành.",
+      "Nắm vững các quy chế, quy định, quy trình, hướng dẫn, sổ tay kỹ thuật liên quan đến giám sát và vận hành trung tâm dữ liệu.",
+      "Hiểu biết về kiểm tra vậy lý thiết bị công nghệ thông tin và giám sát trực quan hệ thống công nghệ thông tin.",
+      "Có chứng chỉ hoặc chứng nhận huấn luyện an toàn, vệ sinh lao động nhóm 3."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Chế độ chính sách về lương thưởng, bảo hiểm... đảm bảo theo quy định.",
+      "Môi trường làm việc chuyên nghiệp, ổn định, văn minh.",
+      "Chế độ phúc lợi chăm lo sức khỏe cho nhân viên hàng năm.",
+      "Có cơ hội phát triển nghề nghiệp tùy theo năng lực, kinh nghiệm.",
+      "Chế độ chính sách về lương thưởng",
+      "bảo hiểm... đảm bảo theo quy định.",
+      "Môi trường làm việc chuyên nghiệp",
+      "ổn định"
      ]
     ]
    ],
@@ -854,7 +1289,6 @@
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu",
    "company": "Công Ty TNHH Mua Bán Nợ Welcome Vina",
-   "location": "",
    "region": "VN",
    "url": "https://vieclam24h.vn/it-phan-mem/chuyen-vien-phan-tich-du-lieu-c8p210000187id200992714.html",
    "source": "Vieclam24h",
@@ -3217,7 +3651,7 @@
    "source": "TopCV",
    "date": "2026-11-09",
    "logo": "https://cdn-new.topcv.vn/unsafe/150x/https://static.topcv.vn/company_logos/pyyXjKha489HLAEzag9OmxpgPwPWYVOT_1676430583____b7f7b0ca1ba5b81cd788e655e393b402.jfif",
-   "salary": "≈19–38 triệu",
+   "salary": "≈19–39 triệu",
    "exp": "1+ năm",
    "level": [
     "junior"
@@ -5973,6 +6407,142 @@
      ]
     ]
    ]
+  },
+  {
+   "title": "Data Governance Expert",
+   "company": "MB Life",
+   "location": "Ha Noi",
+   "region": "VN",
+   "url": "https://itviec.com/it-jobs/data-governance-expert-mb-life-0542",
+   "source": "ITviec",
+   "date": "2026-11-03",
+   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjQ1NDY1MywicHVyIjoiYmxvYl9pZCJ9fQ==--54d0d68898be4abed8486ec4dbbb2dd7683404da/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/Logo%20MB%20Life%20-%20RGB.png",
+   "tags": [
+    "Data Quality Tools",
+    "Microsoft Azure SQL Database",
+    "Team Management",
+    "English"
+   ],
+   "level": [
+    "senior"
+   ],
+   "exp": "3+ năm",
+   "skills": [
+    "Data Governance",
+    "Data Quality",
+    "Azure",
+    "SQL"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "1. Job Purpose:",
+      "Leads the Data Management & Governance function and builds the enterprise framework of standards, controls and stewardship, so that data at MB Life is trusted, well-defined, secure and compliant.",
+      "Lead the Data Governance framework, policies and standards: define the governance operating model and roadmap, and drive adoption of data policies across business units in line with data protection…",
+      "Oversee master data, data quality and metadata management across key domains (customer, policy, agent, claims), including quality rules and monitoring, business glossary, data catalog and lineage.",
+      "Enforce governance standards and critical data element (CDE) controls: register CDEs with clear owners and control points, embed governance into data projects and support audits and regulatory…",
+      "Guide data owners and stewards and coordinate governance working groups to resolve data issues, agree on definitions and build a data culture through training and awareness.",
+      "Report governance roll-out and data quality status to the line manager and management committees through governance KPIs and dashboards, escalating material data risks with remediation plans."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Bachelor's degree or higher in Information Systems, Computer Science, Data Management, Economics/Finance or a related field.",
+      "10+ years in data governance / data management, including team or program leadership; insurance, banking or financial services experience is an advantage.",
+      "DAMA CDMP or an equivalent data governance certification is preferred (e.g. DCAM, governance tool certifications)."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Being an Amazer at MB Life, you are offered:",
+      "No working on the weekends (5 working days/week from Monday to Friday) and no overtime",
+      "Competitive salary with annual review and performance bonus",
+      "100% official salary during the probation period",
+      "MIC Premium Healthcare Insurance for each employee with his/her 03 dependents",
+      "Provide Life Insurance & Cancer Insurance for the company's members",
+      "Annual leave: 15 days/year",
+      "Outstanding Wellness allowances"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-13"
+  },
+  {
+   "title": "Senior Database Officer (SQL, Oracle, PostgreSql, ETL)",
+   "company": "Mcredit - Công ty Tài chính TNHH MB Shinsei",
+   "location": "Ha Noi",
+   "region": "VN",
+   "url": "https://itviec.com/it-jobs/senior-database-officer-sql-oracle-postgresql-etl-mcredit-cong-ty-tai-chinh-tnhh-mb-shinsei-5154",
+   "source": "ITviec",
+   "date": "2026-11-03",
+   "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MjU5MDA0NCwicHVyIjoiYmxvYl9pZCJ9fQ==--0a8b51a90c855be29f8d2377501a33828d1333cd/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/Logo%20PNG_RGB_Digital%20use_on%20White%20BG.png",
+   "tags": [
+    "Database",
+    "MongoDB",
+    "Oracle",
+    "PostgreSql",
+    "ETL",
+    "SQL"
+   ],
+   "level": [
+    "senior"
+   ],
+   "exp": "3+ năm",
+   "skills": [
+    "SQL",
+    "ETL",
+    "NoSQL",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Python",
+    "Data Warehouse"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Quản trị, vận hành và giám sát các hệ quản trị cơ sở dữ liệu như Oracle, SQL Server, PostgreSQL, MySQL, MongoDB; đảm bảo hệ thống hoạt động ổn định, an toàn và có tính sẵn sàng cao.",
+      "Thực hiện các hoạt động backup, restore, replication, failover và đảm bảo khả năng khôi phục dữ liệu khi xảy ra sự cố.",
+      "Theo dõi hiệu năng, tài nguyên và tình trạng hoạt động của hệ thống; chủ động phát hiện, cảnh báo và xử lý các rủi ro tiềm ẩn.",
+      "Hỗ trợ đội ngũ phát triển trong việc thiết kế cơ sở dữ liệu, tối ưu truy vấn SQL, chỉ mục (Index), phân vùng dữ liệu (Partitioning) và hiệu năng hệ thống.",
+      "Triển khai, cấu hình, nâng cấp và bảo trì các hệ quản trị cơ sở dữ liệu theo yêu cầu vận hành hoặc dự án.",
+      "Quản lý quyền truy cập, bảo mật dữ liệu, mã hóa dữ liệu và kiểm soát nhật ký truy cập theo quy định.",
+      "Phối hợp với các đội ngũ Phát triển phần mềm, DevOps và Hạ tầng trong việc triển khai cơ sở dữ liệu trên môi trường Cloud hoặc On-premise.",
+      "Xây dựng và cập nhật tài liệu kỹ thuật, quy trình vận hành (SOP), checklist quản trị; tham gia xử lý sự cố và hỗ trợ vận hành hệ thống khi cần."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Tốt nghiệp Đại học trở lên chuyên ngành Công nghệ thông tin, Khoa học máy tính, Hệ thống thông tin, Kỹ thuật phần mềm hoặc các chuyên ngành liên quan.",
+      "Có từ 2–4 năm kinh nghiệm trong lĩnh vực quản trị cơ sở dữ liệu (Database Administration).",
+      "CCó kinh nghiệm làm việc với một hoặc nhiều hệ quản trị cơ sở dữ liệu như Oracle, SQL Server, PostgreSQL, MySQL; kinh nghiệm với MongoDB hoặc Redis là lợi thế.",
+      "Thành thạo SQL, có khả năng truy vấn, khai thác và tối ưu dữ liệu.",
+      "Hiểu biết về mô hình dữ liệu, cấu trúc cơ sở dữ liệu, transaction, locking, indexing và partitioning.",
+      "Thành thạo SQL, có khả năng phân tích và tối ưu truy vấn (Query Tuning, Execution Plan).",
+      "Có kinh nghiệm sao lưu, phục hồi, giám sát và tối ưu hiệu năng cơ sở dữ liệu.",
+      "Có hiểu biết về các dịch vụ cơ sở dữ liệu trên AWS, Azure hoặc GCP là lợi thế."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Lương thưởng cạnh tranh, đãi ngộ toàn diện",
+      "Đào tạo chuyên sâu theo Công ty và Tập đoàn MB",
+      "Bảo hiểm sức khỏe MIC",
+      "1. Chính sách Thưởng cạnh tranh và linh hoạt:",
+      "Thưởng các dịp lễ tết, ngày thành lập công ty, thưởng tháng lương thứ 13 ...",
+      "Thưởng các kỳ đánh giá 6 tháng, cuối năm …",
+      "Bảo hiểm chăm sóc sức khỏe (MIC) cho CBNV/người thân với các đặc quyền độc đáo",
+      "Du lịch/ nghỉ dưỡng hàng năm"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-13"
   },
   {
    "title": "Data Lead (Lương Upto 35 Triệu)",
@@ -16195,10 +16765,10 @@
    "logo": "https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NjQxNzA4NCwicHVyIjoiYmxvYl9pZCJ9fQ==--75fa39e6fd94b63ce0841f32413006d868d5d4bd/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJwbmciLCJyZXNpemVfdG9fZml0IjpbMTAwLDEwMF19LCJwdXIiOiJ2YXJpYXRpb24ifX0=--2c09c01614b0eadd76dc50ef69cc03e9b7dc664e/Screenshot%202025-07-23%20at%2014.08.35.png",
    "tags": [
     "Data Analysis",
-    "R",
     "Git",
     "Python",
-    "SQL"
+    "SQL",
+    "R"
    ],
    "level": [
     "junior"
