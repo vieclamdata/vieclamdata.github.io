@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T06:30+00:00",
+ "updated": "2026-11-13T19:38+00:00",
  "jobs": [
   {
    "title": "Phó Phòng Phân Tích Dữ Liệu",
@@ -172,7 +172,8 @@
     "Tableau",
     "Excel",
     "Power Query / DAX",
-    "Python"
+    "Python",
+    "Tiếng Anh"
    ],
    "sections": [
     [
@@ -190,6 +191,190 @@
     ]
    ],
    "logo": "logos/vng.png",
+   "last_seen": "2026-11-13"
+  },
+  {
+   "title": "Senior Data Engineer",
+   "company": "FPT Software",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4489542850",
+   "source": "LinkedIn",
+   "date": "2026-11-13",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEomupwSTKvWA/company-logo_100_100/B56Zh4Hgj3HMAU-/0/1754361892047/fpt_software_logo?e=2147483647&v=beta&t=UYcsvXSeYXJm5a9HK_dR-UKQlaXaffcPkJnWIOt19Ww",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "ETL",
+    "Spark",
+    "SQL",
+    "Databricks",
+    "Data Governance",
+    "Machine Learning",
+    "LLM / GenAI",
+    "Python",
+    "Azure",
+    "AWS",
+    "Airflow",
+    "Tiếng Anh",
+    "Kafka",
+    "Docker",
+    "Kubernetes"
+   ],
+   "exp": "5+ năm",
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "Job: Data Engineer",
+      "Location :HCM"
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "Design and optimize ETL/ELT pipelines using PySpark, Spark SQL, and Databricks Jobs.",
+      "Architect Databricks Lakehouse solutions with Delta Lake using Bronze, Silver, and Gold layers.",
+      "Implement CI/CD pipelines for Databricks notebooks, workflows, and jobs.",
+      "Apply data governance and security through Unity Catalog, including RBAC, access control, and lineage.",
+      "Optimize Spark performance, cluster configuration, and cloud cost efficiency.",
+      "Manage Databricks environments across Development, Testing, and Production.",
+      "Deliver reliable, analytics-ready datasets for AI/ML and GenAI use cases.",
+      "Mentor junior engineers and contribute to architecture and design reviews."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "5+ years of experience in Data Engineering.",
+      "Hands-on experience with Databricks and/or Apache Spark.",
+      "Strong proficiency in Python (PySpark) and SQL.",
+      "Solid understanding of Lakehouse architecture and Delta Lake.",
+      "Experience with Databricks on Azure or AWS.",
+      "Hands-on experience with Unity Catalog and data governance.",
+      "Experience with workflow orchestration tools such as Azure Data Factory, Airflow, or equivalent.",
+      "Ability to own solutions from design through production."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-13"
+  },
+  {
+   "title": "Quant Researcher",
+   "company": "Công ty TNHH Shelby Global",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/quant-researcher/729b429e-30d6-4bcf-8322-d27cfe1f9d01",
+   "source": "Glints",
+   "date": "2026-11-13",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/c671b04f81c8c7b03fa2ed52e1c7f696.png",
+   "exp": "1+ năm",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Thống kê",
+    "C++",
+    "Python",
+    "Deep Learning",
+    "Machine Learning",
+    "Excel"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Design quantitative methods to analyze market data, trading statistics",
+      "Translate trading strategies into mathematical models, algorithms",
+      "Finding alpha and making profits",
+      "In charge of performance returns",
+      "Build custom computational data analysis tools to explore new quant research ideas;",
+      "Design mathematical models to test, visualize and refine trading ideas before implementation.",
+      "Coordinate with developers to implement new and improved quantitative trading models",
+      "Generate incomes, PNL as per KPI"
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Excellent academic record in a relevant quantitative field such as physics, mathematics, statistics, engineering, or computer science.",
+      "Strong programming skills in an object-oriented or functional paradigm such as C++, Rust, Python",
+      "Deep understanding the US markets and Vietnam markets, stock, futures, commodity and/or options.",
+      "Expertise in deep learning, machine learning, and quantitative trading.",
+      "Proven experience in developing and deploying advanced AI/ML models in competitive quant firms.",
+      "Ability to work autonomously and solve complex technical problems.",
+      "Development and use of computational data analysis tools for research",
+      "Statistical programming techniques and best practices;"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Salary: Negotiate, depending on level/experience.",
+      "Benefits include 13th-month salary, KPI-based bonus, 12 days annual leave, and basic statutory insurance (insurance contributions based on the basic salary).",
+      "bpjs tenaga kerja insurance and health",
+      "medical coverage",
+      "professional development"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-13"
+  },
+  {
+   "title": "Actuarial Pricing Intern",
+   "company": "AIA Vietnam",
+   "location": "Ho Chi Minh City, VN-AIA Vietnam",
+   "region": "VN",
+   "url": "https://aia.wd3.myworkdayjobs.com/External/job/Ho-Chi-Minh-City-VN-AIA-Vietnam/Actuarial-Pricing-Intern_JR-63524",
+   "source": "Trang công ty",
+   "date": "2026-11-13",
+   "level": [
+    "intern"
+   ],
+   "skills": [
+    "SQL",
+    "Excel",
+    "Tiếng Anh",
+    "VBA"
+   ],
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "Start building a career with purpose.",
+      "At AIA, your perspective, curiosity and ideas can contribute to our Purpose of helping millions of people live Healthier, Longer, Better Lives.",
+      "Across our diverse markets, you will learn through meaningful work, collaborate with experienced colleagues and build practical skills as you turn fresh ideas into positive outcomes and a more…"
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "Reporting to: Actuarial Pricing, Specialist",
+      "Location: Hochiminh City",
+      "Function: Finance & Actuary | Department: Actuary - Pricing",
+      "Learning Outcomes",
+      "Deep knowledge in Insurance industry as well as Actuarial career",
+      "Understanding AIA’s insurance products and implementation process",
+      "Description",
+      "Contribute to review of product specifications and other product material."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Education: Mathematics, Computer Science background",
+      "Knowledge in SQL, Access or any other programming language",
+      "Experience working with Microsoft packages, particularly Excel, a necessity.",
+      "Will (soft skill):",
+      "English fluency is necessary for this position",
+      "Good communication and presentation skills, team player, organized and punctual.",
+      "Thrill:",
+      "Deep knowledge in Insurance industry as well as Actuarial career"
+     ]
+    ]
+   ],
+   "logo": "logos/aia-vietnam.png",
    "last_seen": "2026-11-13"
   },
   {
@@ -291,7 +476,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/trung-tam-quan-tri-phan-tich-du-lieu-hoi-so-truong-nhom-van-hanh-du-lieu.35C88464.html",
    "source": "CareerViet",
    "date": "2026-11-12",
-   "logo": "https://images.careerviet.vn/employers/6442/112123logo-ocb.png",
+   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
    "salary": "Thỏa thuận",
    "level": [
     "lead"
@@ -1423,6 +1608,53 @@
    "last_seen": "2026-11-13"
   },
   {
+   "title": "Nhân viên data (admin)",
+   "company": "CÔNG TY TRÁCH NHIỆM HỮU HẠN FM SUPPLY CHAIN VIỆT NAM",
+   "location": "Hưng Yên",
+   "region": "VN",
+   "url": "https://careerviet.vn/vi/tim-viec-lam/nhan-vien-data-admin.35C8A738.html",
+   "source": "CareerViet",
+   "date": "2026-11-12",
+   "logo": "https://images.careerviet.vn/employer_folders/lot9/255299/113652tc_logo_fmlogistic_flat_nobackground.png",
+   "salary": "10–13 triệu",
+   "exp": "1+ năm",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Excel"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Làm việc với các khách hàng để nhận lịch giao hàng hằng ngày.",
+      "Phối hợp với đội ngũ vận hành thực hiện kế hoạch phân loại, xuất hàng và nhập hàng hằng ngày trên hệ thống.",
+      "Quản lý, kiểm soát chứng từ, tài liệu.",
+      "Nhập dữ liệu kịp thời trên hệ thống và bảo đảm tính chính xác của dữ liệu.",
+      "Đảm bảo tất cả các báo cáo được duy trì và cập nhật kịp thời.",
+      "Đảm bảo việc tuân thủ Kỷ luật, các quy định về An toàn, An ninh, Đảm bảo chất lượng và Vệ sinh.",
+      "Các công việc khác liên quan theo yêu cầu của Giám sát.",
+      "Làm việc theo ca:"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Laptop",
+      "Chế độ bảo hiểm",
+      "Du Lịch",
+      "Phụ cấp",
+      "Đồng phục",
+      "Chế độ thưởng",
+      "Chăm sóc sức khỏe",
+      "Đào tạo"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-13"
+  },
+  {
    "title": "Senior Machine Learning & Industrial Data Specialist",
    "company": "Công Ty TNHH Mi-Jack Manufacturing Global Viet Nam",
    "location": "Hồ Chí Minh",
@@ -1644,7 +1876,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-12"
+   "last_seen": "2026-11-13"
   },
   {
    "title": "Hotel Market Research & Business Intelligence Specialist",
@@ -4203,7 +4435,7 @@
     ]
    ],
    "logo": "logos/nashtech.png",
-   "last_seen": "2026-11-12"
+   "last_seen": "2026-11-13"
   },
   {
    "title": "CVCC Quản trị dữ liệu (Data Policy)",
@@ -5351,7 +5583,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-cao-cap-phan-tich-du-lieu-kiem-toan-audit-data-analytics-specialist-id11908.35C89AF3.html",
    "source": "CareerViet",
    "date": "2026-11-06",
-   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot2/123152/92239logokotagline-01.png",
    "salary": "Thỏa thuận",
    "level": [
     "senior"
@@ -6061,7 +6293,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-gia-tinh-toan-appointed-actuary.35C8D03B.html",
    "source": "CareerViet",
    "date": "2026-11-05",
-   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot3/128193/144712miclogo.png",
    "salary": "Thỏa thuận",
    "level": [
     "senior"
@@ -10172,7 +10404,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/can-bo-tinh-toan-bao-hiem-actuary.35C891C9.html",
    "source": "CareerViet",
    "date": "2026-10-31",
-   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot6/181286/Logo%20BIC%20chuan.png",
    "salary": "Thỏa thuận",
    "skills": [
     "Thống kê",
@@ -12636,7 +12868,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/risk-management-data-analytics-expert-id9106.35C8C184.html",
    "source": "CareerViet",
    "date": "2026-10-28",
-   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot2/123152/92239logokotagline-01.png",
    "salary": "Thỏa thuận",
    "level": [
     "senior"
@@ -14035,7 +14267,7 @@
     "Mô hình rủi ro",
     "SQL"
    ],
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "exp": "2+ năm",
    "sections": [
     [
@@ -14592,7 +14824,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-11-12",
+   "last_seen": "2026-11-13",
    "exp": "3+ năm",
    "sections": [
     [
@@ -20589,7 +20821,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/data-scientist-id2643.35C8AE5D.html",
    "source": "CareerViet",
    "date": "2026-10-16",
-   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot2/123152/92239logokotagline-01.png",
    "salary": "Thỏa thuận",
    "skills": [
     "Thống kê",
@@ -24403,7 +24635,7 @@
   "https://www.vietnamworks.com/sales-trainee-concrete-2126239-jv",
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1793262742027719009-2125340-jv",
   "https://www.vietnamworks.com/southeast-asia-trainee-programme-1794219909943462213-2129413-jv",
-  "https://www.vietnamworks.com/systems-administrator-csv-support-1792400459325135227-2120987-jv",
+  "https://www.vietnamworks.com/systems-administrator-csv-support-trainee-1794566620988513881-2120987-jv",
   "https://ybox.vn/tuyen-dung/phu-quoc-cong-ty-dia-ky-thuat-dong-son-tuyen-dung-tap-su-ky-thuat-hien-truong-full-time-2026-6af52239ed8d4a199dcc8b08"
  ]
 }
