@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T06:13+00:00",
+ "updated": "2026-11-15T18:51+00:00",
  "jobs": [
   {
    "title": "Chuyên Viên Cao Cấp/ Chuyên Gia Quản Trị Dữ Liệu MIS & Hiệu Suất Kinh Doanh – Bộ phận BFM (Business Finance Management)",
@@ -1094,7 +1094,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/truong-phong-ky-thuat-du-lieu.35C8A728.html",
    "source": "CareerViet",
    "date": "2026-11-13",
-   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot5/269075/150926logo-vietcombank.jpg",
    "salary": "Thỏa thuận",
    "level": [
     "lead"
@@ -2641,6 +2641,55 @@
    "last_seen": "2026-11-15"
   },
   {
+   "title": "Chuyên viên Cao cấp Rủi ro Gian lận (Senior Risk Data Analyst)",
+   "company": "F88",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4489206279",
+   "source": "LinkedIn",
+   "date": "2026-11-12",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQE99XsetwKvQQ/company-logo_100_100/company-logo_100_100/0/1645608456510/f88_logo?e=2147483647&v=beta&t=hlWQX5uSQIj-jTaKE6TMIu_P5-195-aW1itgaddSxUU",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Thống kê",
+    "Power BI",
+    "Tableau",
+    "SQL"
+   ],
+   "exp": "3+ năm",
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "A. MÔ TẢ CÔNG VIỆC:",
+      "1. Phân tích Dữ liệu & Phát hiện Gian lận (Fraud Analytics & Detection)",
+      "Khai thác và xử lý dữ liệu lớn từ hệ thống Core/LOS/CRM để tìm kiếm các bất thường.",
+      "Phân tích các mô hình gian lận phát sinh trên toàn chuỗi giá trị: từ khâu nộp hồ sơ vay, thẩm định, giải nhân đến thanh toán và hoa hồng (CTV/Đối tác).",
+      "Đánh giá và phát hiện các hành vi gian lận tinh vi: Giả mạo giấy tờ/eKYC, thông đồng nội bộ, gian lận hồ sơ ảo.",
+      "2 Tham gia xây dựng chính sách, quy định:",
+      "Quy trình quản lý gian lận và xây dựng khung chế tài liên quan đến phòng chống, phát hiện và giảm thiểu gian lận.",
+      "3 Xây dựng & Tối ưu hóa Mô hình Cảnh báo Gian lận"
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Quản lý thời gian.",
+      "Power BI, Tableau, SQL.",
+      "Tư duy Định hướng Giải pháp & Quyết đoán.",
+      "Tư duy Logic & Phản biện sắc bén.",
+      "4. Các Kinh nghiệm liên quan:",
+      "Tối thiểu 3 năm kinh nghiệm Phân tích Dữ liệu (Data Analyst), ưu tiên kinh nghiệm trực tiếp trong mảng Phòng chống Gian lận (Fraud Control) hoặc Quản trị Rủi ro Tín dụng tại các Công ty Tài chính…",
+      "C. QUYỀN LỢI:",
+      "Mức lương và thưởng cạnh tranh, tương xứng với năng lực, review lương hàng năm theo kết quả xếp loại hiệu quả làm việc."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-15"
+  },
+  {
    "title": "Senior Machine Learning & Industrial Data Specialist",
    "company": "Công Ty TNHH Mi-Jack Manufacturing Global Viet Nam",
    "location": "Hồ Chí Minh",
@@ -3809,6 +3858,67 @@
     ]
    ],
    "last_seen": "2026-11-13"
+  },
+  {
+   "title": "Finance Data Analyst",
+   "company": "CÔNG TY TNHH PERSOLKELLY VIỆT NAM",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/finance-data-analyst/f5102c68-c435-45f7-8ba5-94db242ec67a",
+   "source": "Glints",
+   "date": "2026-11-11",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/35d0c6dd1301686c376a97a30df91d77.png",
+   "salary": "14–19 triệu",
+   "exp": "1+ năm",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Excel",
+    "Power Query / DAX",
+    "Power BI",
+    "SQL",
+    "Python",
+    "Thống kê",
+    "Tableau"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Prepare accurate and timely financial reports (monthly, quarterly, and annual statements).",
+      "Collect, consolidate, and validate financial data from multiple departments and systems.",
+      "Assist in coordinating financial planning activities and preparing executive summaries for management and stakeholders.",
+      "Support the development of automated reports and interactive dashboards to convert complex data into meaningful insights and enable real-time analysis.",
+      "Develop a solid understanding of financial processes and contribute to the smooth execution of cross-functional or harmonized projects.",
+      "Perform other ad hoc tasks as assigned by the manager."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Bachelor's degree in Accounting, Finance, or Economics.",
+      "Minimum of 1-2 years of experience in a similar role.",
+      "Fluency in English, both written and spoken, is essential.",
+      "Proficiency in Microsoft Excel; experience with Power Query for managing large and complex datasets.",
+      "Strong analytical skills (both quantitative and qualitative), with experience building customized reporting models and templates based on business requirements.",
+      "Working knowledge of Power BI/SQL and SAP (or other ERP/financial systems) is a plus.",
+      "Python is preferred.",
+      "Proactive, self-driven, and passionate about streamlining processes and continuous improvement."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "meal allowance financial benefits",
+      "user defined",
+      "thr financial benefits",
+      "perform bonus financial benefits",
+      "team outing work environment and facilities"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-15"
   },
   {
    "title": "Senior Officer, Actuarial Services (Valuation - EV&VNB)",
@@ -6680,7 +6790,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-phan-tich-dinh-luong-nhom-phan-tich-rui-ro-tin-dung.35C89D54.html",
    "source": "CareerViet",
    "date": "2026-11-06",
-   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot5/269075/150926logo-vietcombank.jpg",
    "salary": "Thỏa thuận",
    "exp": "1+ năm",
    "level": [
@@ -6743,7 +6853,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-vien-phan-tich-dinh-luong-nhom-phan-tich-rui-ro-tt-rui-ro-tk-va-rui-ro-ls.35C89D56.html",
    "source": "CareerViet",
    "date": "2026-11-06",
-   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot5/269075/150926logo-vietcombank.jpg",
    "salary": "Thỏa thuận",
    "exp": "1+ năm",
    "level": [
@@ -6924,6 +7034,117 @@
     ]
    ],
    "logo": "logos/techcombank.png",
+   "last_seen": "2026-11-15"
+  },
+  {
+   "title": "Junior Technical Data Analyst (MFL/GEO)",
+   "company": "CÔNG TY TNHH ROSEN ENGINEERING VIETNAM",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/junior-technical-data-analyst-mflgeo-2127281-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-06",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/d4/11468517.jpg",
+   "salary": "12–15 triệu",
+   "exp": "3+ năm",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Tiếng Anh"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Why ROSEN",
+      "We are driven by three core values Drive Innovation, Act Responsibly & Win Together.",
+      "An international and multicultural working environment with opportunities to collaborate with global experts.",
+      "Competitive remuneration package aligned with market benchmarks and individual capabilities.",
+      "Providing structural training programs, technical certification pathways, and employee development initiatives.",
+      "Motivation to join an organization that values quality,..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "At least a Diploma in college/ vocational school or bachelor's degree.",
+      "Communication English level (reading, writing, listening, speaking).",
+      "General computer skills - ability to learn and adapt to new software applications easily.",
+      "Basic Microsoft Office proficiency.",
+      "Ability to work well within a diverse global environment.",
+      "Strong analytical skills with attentiveness to detail.",
+      "Demonstrated ability to adapt to changing..."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Competitive salary & attractive performance scheme.",
+      "13th month bonus.",
+      "Full 100% SHUI coverage.",
+      "Premium Health care insurance for employee & dependants.",
+      "15 annual leave days.",
+      "Yearly company trip .",
+      "Sport club activities (badminton, football,..).",
+      "Monthly employee engagement activities/ team bonding events."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-15"
+  },
+  {
+   "title": "Senior Data Engineer",
+   "company": "Hitachi Digital Services",
+   "location": "Ho Chi Minh City Metropolitan Area",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4479171818",
+   "source": "LinkedIn",
+   "date": "2026-11-06",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEC_aaLZbNDUA/company-logo_100_100/B56aF_2.otGoAI-/0/1793146481482/hitachi_digital_services_logo?e=2147483647&v=beta&t=kBRPo_YpQjMhZHm35TN-1cj57UV5onS2YfQ0u21sraM",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Databricks",
+    "Data Quality",
+    "SQL",
+    "Pandas",
+    "Machine Learning",
+    "Spark",
+    "Python",
+    "Airflow",
+    "Kafka",
+    "Docker",
+    "Kubernetes",
+    "Flink",
+    "Azure",
+    "Power BI",
+    "Git"
+   ],
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "Our Company",
+      "We're Hitachi Digital Services, a global digital solutions and transformation business with a bold vision of our world's potential.",
+      "We're people-centric and here to power good."
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "We are seeking a Data Engineer to join our Data Science team within a complex engineering environment.",
+      "Working closely with Data Scientists and engineering stakeholders, you will be responsible for translating analytical requirements into scalable, production-ready code using Databricks and modern…",
+      "You will support the development of analytics solutions by extracting, transforming, and preparing data, building reusable datasets, and implementing analytical workflows.",
+      "This role is ideal for someone who enjoys hands-on coding, problem solving, and working with large datasets, while contributing to real-world engineering and operational improvements.",
+      "Data Engineering & Preparation",
+      "Build and maintain data pipelines within Databricks.",
+      "Extract, transform, and validate data from multiple sources.",
+      "Develop reusable datasets and analytical tables for Data Science projects."
+     ]
+    ]
+   ],
    "last_seen": "2026-11-15"
   },
   {
@@ -7279,7 +7500,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/chuyen-gia-tinh-toan-appointed-actuary.35C8D03B.html",
    "source": "CareerViet",
    "date": "2026-11-05",
-   "logo": "https://static.crv.local/themes/kiemviecv32/images/graphics/logo-default.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot3/128193/144712miclogo.png",
    "salary": "Thỏa thuận",
    "level": [
     "senior"
@@ -15810,7 +16031,7 @@
    "skills": [
     "Thống kê"
    ],
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-15",
    "exp": "3+ năm",
    "sections": [
     [
@@ -22671,7 +22892,6 @@
   "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Vietnam---Bien-Hoa/XMLNAME--South-East--Senior--MT-Sales-Supervisor_31167553",
   "https://tuyendung.ncb-bank.vn/vi/jobs/PB1YMy",
   "https://tuyendung.ncb-bank.vn/vi/jobs/PW32WP",
-  "https://tuyendung.ncb-bank.vn/vi/jobs/RlVAry",
   "https://tuyendung.ncb-bank.vn/vi/jobs/qD2rQP",
   "https://tuyendung.ncb-bank.vn/vi/jobs/qNk5gy",
   "https://tuyendung.ncb-bank.vn/vi/jobs/y3kdWy",
