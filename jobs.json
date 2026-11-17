@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T07:56+00:00",
+ "updated": "2026-11-17T21:09+00:00",
  "jobs": [
   {
    "title": "Senior AI Scientist",
@@ -550,6 +550,348 @@
    "last_seen": "2026-11-17"
   },
   {
+   "title": "Senior Data Engineer | High-Impact Fintech Environment",
+   "company": "Michael Page Vietnam",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/senior-data-engineer-high-impact-fintech-environment-1794908343150180874-2132219-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-17",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/ef/11470595.png",
+   "salary": "Thỏa thuận",
+   "exp": "1+ năm",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Data Modeling"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "An exciting opportunity for an experienced Data Engineer to design, build, and optimize modern data platforms supporting critical business decisions.",
+      "This role offers broad ownership across data modeling, pipeline development, migration projects, and platform modernization initiatives.",
+      "Description",
+      "As a Data Engineer, your main responsibilities will include:",
+      "Build and maintain data pipelines to collect, transform and prepare..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Excellent stakeholder management and communication skills.",
+      "Experience within financial services, fintech, banking, or payment environments is a plus.",
+      "Comfortable working in an English-speaking and cross-functional environment."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Premium healthcare and comprehensive insurance coverage."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-17"
+  },
+  {
+   "title": "Quantitative Trader – Systematic & Algorithmic Trading",
+   "company": "Công Ty Cổ Phần Chứng Khoán KAFI",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/quantitative-trader-systematic-algorithmic-trading-1794913522496442460-2132391-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-17",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/38/11143503.png",
+   "salary": "Thỏa thuận",
+   "exp": "3+ năm",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Thống kê",
+    "Python"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Job Overview",
+      "We are an emerging securities firm in Vietnam, growing rapidly with a strong focus on technology, professional trading, and innovation.",
+      "Our Proprietary Trading business is building an in-house, technology-driven trading capability across Vietnamese equities and derivatives.",
+      "We are looking for a Quantitative Trader who combines quantitative skills, programming, and hands-on trading experience to independently..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Bachelor’s or Master’s degree in Mathematics, Statistics, Financial Engineering, Computer Science, Physics, or a related quantitative field.",
+      "3+ years (Middle) or 5+ years (Senior) in quantitative, systematic, or algorithmic trading, with live trading experience on real capital.",
+      "Hands-on trading experience in equities and/or derivatives; solid understanding of market microstructure, order types, liquidity, and transaction costs.",
+      "Strong Python..."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Competitive salary and performance-based bonus linked to strategy results.",
+      "Full Social Insurance contributions based on 100% of salary. Annual premium healthcare insurance for employees.",
+      "Participation in team-building activities, holiday gifts, and other events.",
+      "Trade your own systematic strategies with firm capital and a clear path to scale what works.",
+      "Direct access to an in-house quant trading platform, data, and engineering team.",
+      "Freedom to apply AI and new technology to real trading problems."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-17"
+  },
+  {
+   "title": "Senior Data Analyst (Analytics Engineering)",
+   "company": "Nhà Thuốc FPT Long Châu",
+   "location": "Quận 7",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4491114778",
+   "source": "LinkedIn",
+   "date": "2026-11-17",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQFguOnz7pab2A/company-logo_100_100/company-logo_100_100/0/1703992051927/nhathuocfptlongchau_logo?e=2147483647&v=beta&t=kYHiVuyCWnshpRAleeGBZfv16aVq7-_bNIbwhrwzzr0",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "ETL",
+    "Data Quality",
+    "Databricks",
+    "Spark",
+    "SQL",
+    "BigQuery",
+    "Python",
+    "Power BI",
+    "Power Query / DAX",
+    "Superset",
+    "Data Modeling",
+    "Thống kê"
+   ],
+   "exp": "3+ năm",
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Extract, process, and analyze large-scale datasets from core business systems (Sales, Marketing, Customer Care, etc.) to generate actionable insights and support business decisions.",
+      "Build and optimize data transformation workflows, ETL/ELT processes, and analytical datasets to ensure data quality, consistency, and accessibility.",
+      "Develop and maintain data models and data pipelines to support business reporting, analytics, and downstream data consumption.",
+      "Query, process, and optimize large datasets using platforms such as Databricks (Spark SQL, Delta Lake, Unity Catalog) or Google BigQuery.",
+      "Apply Python or PySpark for data processing, transformation, automation, and analytical tasks.",
+      "Build and optimize operational dashboards and analytical reports using Power BI (DAX) and/or Superset.",
+      "Conduct in-depth analysis on customer segmentation, cohort, funnel, retention, and campaign effectiveness. Experience in healthcare, pharmacy retail, or clinical services is preferred.",
+      "Identify trends, anomalies, and business opportunities, translating data findings into actionable recommendations."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "At least 3 years of experience in Data Analytics, Business Intelligence, Analytics Engineering, or related data roles.",
+      "Strong SQL skills, including CTEs, Window Functions, query optimization, and data transformation.",
+      "Hands-on experience with at least one large-scale data platform, preferably Databricks or Google BigQuery.",
+      "Experience working with large datasets (500K+ records); experience handling millions of records or large-scale data systems is highly preferred.",
+      "Proficiency in Python or PySpark for data processing, transformation, and automation.",
+      "Understanding of ETL/ELT workflows, data pipelines, and data modeling; hands-on experience building or maintaining data pipelines is a strong plus.",
+      "Experience developing dashboards and reports using Power BI (Advanced DAX) and/or Superset.",
+      "Strong analytical thinking and experience with descriptive statistics, customer segmentation, cohort, funnel, and retention analysis."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-17"
+  },
+  {
+   "title": "Senior/Middle Data Analyst (Power BI)",
+   "company": "SmartOSC",
+   "location": "Hanoi",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4491113570",
+   "source": "LinkedIn",
+   "date": "2026-11-17",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQEuH0VeaTbhxw/company-logo_100_100/company-logo_100_100/0/1641455702712/smartosc_logo?e=2147483647&v=beta&t=LV1MyVFlYZOGKL3CoICprqkyJXy8Py57tqZaaey40tI",
+   "level": [
+    "mid",
+    "senior"
+   ],
+   "skills": [
+    "Power BI",
+    "Data Modeling",
+    "SQL",
+    "Excel",
+    "Power Query / DAX",
+    "Thống kê",
+    "Tiếng Anh",
+    "Python",
+    "Azure",
+    "Tiếng Nhật"
+   ],
+   "exp": "3+ năm",
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "About us: With 20 years in operation, SmartOSC is an industry-leading digital transformation agency of 1,000+ experts across Vietnam, Australia, Singapore, Japan, Thailand, Indonesia, Korea, the US,…",
+      "Deep experience across most enterprise platforms and technology stacks has made SmartOSC a trusted partner for leading brands and financial institutions worldwide.",
+      "With a “people-centric” strategy, we always strive to enable employees to grow sustainably and pursue their passion with a transparent career path."
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "SmartOSC is seeking a Senior Data Analyst to turn business and operational data into clear, decision-ready insights.",
+      "You will own end-to-end analytics delivery — from requirements and data modeling to Power BI dashboards and executive reporting — working closely with business stakeholders and international clients…",
+      "Work with business teams to understand reporting needs and define key metrics (KPIs).",
+      "Build and maintain Power BI dashboards and reports for management and project teams.",
+      "Prepare and clean data from various sources (SQL databases, Excel, internal systems).",
+      "Create data models and DAX measures to support accurate, easy-to-use reports.",
+      "Analyze data to identify trends and issues, and present insights with clear recommendations.",
+      "Ensure report accuracy and keep basic documentation of reports and metric definitions."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Bachelor's degree in IT, Data, Statistics, Economics, Business, or a related field.",
+      "At least 3 years of experience in data analysis, reporting, or business intelligence.",
+      "Strong hands-on experience with Power BI: building dashboards, data modeling, and writing DAX measures.",
+      "Working knowledge of SQL to query and prepare data.",
+      "Good analytical thinking and the ability to explain data in a clear, business-friendly way.",
+      "Good English communication (reading, writing, and everyday speaking) to work with international stakeholders.",
+      "Experience with Power Query, Power BI Service (publishing, refresh, sharing), or Excel advanced functions.",
+      "Microsoft PL-300 (Power BI Data Analyst) certification."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "At SmartOSC, we offer the best to your values:",
+      "Attractive salary package (upto 50M gross) + Salary review twice a year",
+      "Premium health care",
+      "Flexible checkin-checkout working hour (Mondays - Fridays)",
+      "Working in One of the largest digital transformation agencies – A professional English environment",
+      "Free English, Japanese, and professional training packages",
+      "Firm’s Certified Qualifications Sponsorship for career development",
+      "Annual company trip inside or outside Vietnam"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-17"
+  },
+  {
+   "title": "Senior Data Scientist",
+   "company": "Data Nest",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4491129412",
+   "source": "LinkedIn",
+   "date": "2026-11-17",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEtQRodY000kA/company-logo_100_100/company-logo_100_100/0/1664333281405/datanest_vn_logo?e=2147483647&v=beta&t=mlAlVVUtJdIMVxuWoeF7t6PEZSfulRqojwJmH7aIG0A",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Mô hình rủi ro",
+    "Machine Learning",
+    "MLOps",
+    "Python",
+    "SQL",
+    "Thống kê",
+    "Hadoop",
+    "Spark",
+    "Kafka"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Company Information",
+      "Founded in 2018, Data Nest is a dynamic and innovative company specialising in credit scoring, lead generation services and other products.",
+      "By harnessing the power of Data Analytics and AI, we help finance companies to reduce their credit loss, to widen their consumer base, and to fasten their release of new financial services.",
+      "We aim to transform the financial landscape through the strategic application of data analytics and AI and make a better society where financial services are accessible for everyone.",
+      "Are you ready to be part of a dynamic and passionate team at the forefront of revolutionising the financial industry? Look no further – Data Nest is the place to be!",
+      "Why Choose Data Nest?",
+      "Market-Leading Benefits: At Data Nest, we believe that our success is fueled by the talent and dedication of our team members.",
+      "That's why we're proud to offer top-notch benefits that set us apart from the rest!"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-17"
+  },
+  {
+   "title": "Senior Data Engineer - Risk Data- Ho Chi Minh",
+   "company": "VPBank",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%E1%BB%93-Ch%C3%AD-Minh-Senior-Data-Engineer-Risk-Data-Ho-Chi-Minh/1370482466/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-11-17",
+   "exp": "4–5 năm",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Data Modeling",
+    "ETL",
+    "Data Warehouse",
+    "Data Quality",
+    "dbt",
+    "Airflow",
+    "Redshift",
+    "SQL",
+    "Snowflake",
+    "Git",
+    "Spark",
+    "AWS",
+    "Kafka",
+    "Docker"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Data Modeling: Design and implement enterprise data models using the Kimball methodology.",
+      "ETL/ELT Development: Design, develop, and maintain robust ETL/ELT pipelines to integrate data from multiple sources into the Data Warehouse and analytical platforms.",
+      "Data Monitoring & Issue Resolution: Proactively monitor data quality and pipeline execution, investigate abnormal data patterns, troubleshoot data-related issues, and work closely with Data Analysts…",
+      "Data Engineering Tools: Develop and manage data transformation workflows using dbt, orchestration workflows using Apache Airflow, and data ingestion, integration using Apache NiFi.",
+      "Data Platform: Work with Redshift or other data warehouse technologies to build and optimize scalable data solutions.",
+      "Performance Optimization: Optimize SQL queries, data models, and ETL/ELT processes to improve performance, scalability, and resource utilization.",
+      "Data Quality: Implement data validation, reconciliation, testing, and monitoring mechanisms to ensure data accuracy and consistency.",
+      "CI/CD: Apply CI/CD practices to manage code versioning, testing, deployment, and release processes for data pipelines and transformation models."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Bachelor's degree in Computer Science, Information Technology, Data Engineering, or a related field.",
+      "At least 4–5 years of experience in Data Engineering, Data Warehousing, or a related role.",
+      "Strong SQL skills, including query optimization, complex joins, window functions, and data transformation.",
+      "Solid understanding of Kimball Data Modeling, including:",
+      "Fact and Dimension Tables.",
+      "Star Schema and Snowflake Schema.",
+      "Defining the grain of fact tables.",
+      "Surrogate Keys and Natural Keys."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Competitive and performance-based compensation package",
+      "Holiday and Lunar New Year bonuses, subject to the Bank’s prevailing policies",
+      "Preferential staff loan programs, in accordance with bank policies",
+      "Enhanced annual leave entitlement based on job level, plus company-sponsored summer vacation",
+      "Full statutory insurance coverage as required by labor law, plus VPBank Care insurance depending on job grade and tenure",
+      "Access to comprehensive training programs, aligned with the competency framework for each position",
+      "Working schedule: Monday to Friday, and Saturday morning",
+      "Dynamic, collaborative, and growth-oriented workplace, with abundant opportunities for learning and career development"
+     ]
+    ]
+   ],
+   "logo": "logos/vpbank.png",
+   "last_seen": "2026-11-17"
+  },
+  {
    "title": "Head of Data Analytics & AI",
    "company": "LOTTE FINANCE VIETNAM",
    "location": "Hà Nội",
@@ -656,7 +998,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-16"
+   "last_seen": "2026-11-17"
   },
   {
    "title": "Senior Data Engineer",
@@ -732,7 +1074,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-16"
+   "last_seen": "2026-11-17"
   },
   {
    "title": "Nhân Viên Phân Tích Dữ Liệu",
@@ -941,7 +1283,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-16"
+   "last_seen": "2026-11-17"
   },
   {
    "title": "Expert Business Intelligence - ID12770",
@@ -1410,6 +1752,55 @@
      ]
     ]
    ],
+   "last_seen": "2026-11-17"
+  },
+  {
+   "title": "CV QUẢN TRỊ HỆ THỐNG CƠ SỞ DỮ LIỆU - PHÒNG KỸ THUẬT HẠ TẦNG - KHỐI CÔNG NGHỆ THÔNG TIN",
+   "company": "Sacombank",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://sacombankcareer.com/job/Th%C3%A0nh-ph%E1%BB%91-H%E1%BB%93-Ch%C3%AD-Minh-CV-QU%E1%BA%A2N-TR%E1%BB%8A-H%E1%BB%86-TH%E1%BB%90NG-C%C6%A0-S%E1%BB%9E-D%E1%BB%AE-LI%E1%BB%86U-PH%C3%92NG-K%E1%BB%B8-THU%E1%BA%ACT-H%E1%BA%A0-T%E1%BA%A6NG-KH%E1%BB%90I-C%C3%94NG-NGH%E1%BB%86-TH%C3%94NG-TIN/58117244/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-11-15",
+   "exp": "3+ năm",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "SQL",
+    "Tiếng Anh",
+    "Linux",
+    "Machine Learning"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Cài đặt mới, cấu hình, cập nhật các bản vá lỗi phần mềm CSDL Oracle, SQL Server",
+      "Cấu hình các giải pháp nâng cao tính sẵn sàng của hệ thống CSDL Oracle, SQL Server",
+      "Cấu hình tính năng kiểm toán CSDL.",
+      "Giám sát hiệu năng các hệ thống CSDL Oracle, SQL Server.",
+      "Thiết lập các cảnh báo tự động cho hệ thống CSDL, gửi báo cáo hàng ngày tình trạng CSDL thông qua email, SMS.",
+      "Hỗ trợ tinh chỉnh, tối ưu hóa các câu lệnh truy vấn chậm.",
+      "Sử dụng tính năng phân vùng, nén, mã hóa dữ liệu trong CSDL giúp tăng hiệu năng, giảm dung lượng lưu trữ, nâng cao tính bảo mật hệ thống CSDL.",
+      "Tham gia các dự án liên quan đến hệ thống CSDL Oracle, SQL Server."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "1. Bằng cấp/Chứng chỉ:",
+      "Tốt nghiệp Đại học các chuyên ngành về công nghệ thông tin.",
+      "Tiếng Anh: Không yêu cầu bằng cấp nhưng ứng viên phải có khả năng giao tiếp, hội họp và đọc hiểu thông thạo tài liệu chuyên ngành.",
+      "2. Kiến thức/Kinh nghiệm chuyên môn:",
+      "Có kinh nghiệm cài đặt, cấu hình, quản trị CSDL Oracle, SQL Server (Tối thiểu 03 năm kinh nghiệm quản trị CSDL đối với vị trí chuyên viên).",
+      "Có kiến thức cơ bản về hệ điều hành Linux, AIX.",
+      "Tuân thủ nghiêm ngặt quy trình vận hành hệ thống CSDL.",
+      "Nắm vững và sử dụng thành thạo hệ điều hành Linux, AIX."
+     ]
+    ]
+   ],
+   "logo": "logos/sacombank.png",
    "last_seen": "2026-11-17"
   },
   {
@@ -2412,7 +2803,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-16"
+   "last_seen": "2026-11-17"
   },
   {
    "title": "Senior Data Scientist",
@@ -6138,7 +6529,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-16"
+   "last_seen": "2026-11-17"
   },
   {
    "title": "Kỹ Sư Dữ Liệu (DE)",
@@ -6475,7 +6866,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-16"
+   "last_seen": "2026-11-17"
   },
   {
    "title": "Quantitative Researcher",
@@ -8021,7 +8412,7 @@
     "Flink",
     "Data Warehouse"
    ],
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "exp": "5+ năm",
    "sections": [
     [
@@ -8751,7 +9142,7 @@
     "Machine Learning",
     "LLM / GenAI"
    ],
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "exp": "3+ năm",
    "sections": [
     [
@@ -10709,7 +11100,7 @@
     "Data Modeling",
     "Git"
    ],
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "sections": [
     [
      "Mô tả công việc",
@@ -11741,7 +12132,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-16"
+   "last_seen": "2026-11-17"
   },
   {
    "title": "HO - Data Science Expert",
@@ -14113,7 +14504,7 @@
     "Google Sheets",
     "Python"
    ],
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "sections": [
     [
      "Mô tả công việc",
@@ -14294,7 +14685,7 @@
     "Thống kê",
     "Python"
    ],
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "exp": "3+ năm",
    "level": [
     "mid"
@@ -14435,7 +14826,7 @@
     "SQL",
     "dbt"
    ],
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "exp": "2+ năm",
    "level": [
     "mid"
@@ -15286,7 +15677,7 @@
    "skills": [
     "Tiếng Anh"
    ],
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "exp": "3–5 năm",
    "sections": [
     [
@@ -17228,7 +17619,7 @@
     "Mô hình rủi ro",
     "SQL"
    ],
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "exp": "2+ năm",
    "sections": [
     [
@@ -17725,7 +18116,7 @@
     "Docker",
     "Kubernetes"
    ],
-   "last_seen": "2026-11-16",
+   "last_seen": "2026-11-17",
    "exp": "5+ năm",
    "sections": [
     [
