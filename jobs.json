@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T07:26+00:00",
+ "updated": "2026-11-18T20:29+00:00",
  "jobs": [
   {
    "title": "Chuyên Viên Phân Tích Dữ Liệu - Data Analyst",
@@ -143,7 +143,7 @@
    "date": "2026-11-18",
    "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/72abf4c2343aa7016b9b4216df0434fe.png",
    "salary": "15–20 triệu",
-   "exp": "1+ năm",
+   "exp": "1–3 năm",
    "level": [
     "junior"
    ],
@@ -263,6 +263,521 @@
     ]
    ],
    "logo": "logos/abbank.png",
+   "last_seen": "2026-11-18"
+  },
+  {
+   "title": "Kỹ Sư Dữ Liệu Cao Cấp / Kiến Trúc Sư Dữ Liệu (Senior Data Engineer / Data Architect)",
+   "company": "Công ty TNHH Một thành viên Ứng dụng Kỹ thuật và Sản xuất (TECAPRO)",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/ky-su-du-lieu-cao-cap-kien-truc-su-du-lieu-senior-data-engineer-data-architect-1794998116005100890-2132807-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-18",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/4f/11439405.png",
+   "salary": "Thỏa thuận",
+   "exp": "7+ năm",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Data Warehouse",
+    "Data Modeling"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Địa điểm: Trung tâm Công nghệ phần mềm và Dữ liệu lớn/ Công ty TECAPRO/ BQP - Duy Tân, Cầu Giấy, Hà Nội; làm việc onsite tại khách hàng theo giai đoạn dự án.",
+      "Thời gian làm việc: Thứ Hai đến Thứ Sáu, từ 8h30 đến 18h00, nghỉ chiều thứ bảy và Chủ nhật. (Sáng..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Bắt buộc",
+      "Tốt nghiệp đại học CNTT, Hệ thống thông tin hoặc tương đương.",
+      "Có từ 07 năm kinh nghiệm trở lên về Data Engineering / DWH, trong đó có từ 02 năm trở lên ở vai trò thiết kế (architect hoặc tech lead).",
+      "Đã trực tiếp thiết kế data model cho ít nhất 01 hệ..."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Lương tháng 13 và thưởng Tết từ 01 đến 03 tháng lương, tùy kết quả công việc, mức độ đóng góp của cá nhân và kết quả kinh doanh của Trung tâm.",
+      "Thưởng các dịp 30/4, 02/9 và Tết Dương lịch theo quy định của Công ty và Trung tâm.",
+      "Thưởng theo dự án và đánh giá hiệu suất; lương cạnh tranh và thưởng theo hiệu quả công việc.",
+      "Đóng đầy đủ BHXH, BHYT, BHTN theo quy định của pháp luật.",
+      "Khám sức khỏe định kỳ hằng năm.",
+      "Nghỉ phép 12 ngày/năm và nghỉ lễ, Tết theo quy định của pháp luật.",
+      "Đào tạo nội bộ, sinh hoạt chuyên môn và chia sẻ kiến thức; được đào tạo Ab Initio.",
+      "Có tiền nghỉ mát; tham gia nghỉ mát hằng năm và company trip."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-18"
+  },
+  {
+   "title": "Trưởng Nhóm Quản Trị Dữ Liệu (Data Governance Lead)",
+   "company": "Công ty TNHH Một thành viên Ứng dụng Kỹ thuật và Sản xuất (TECAPRO)",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/truong-nhom-quan-tri-du-lieu-data-governance-lead-1794997983606110870-2132819-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-18",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/4f/11439405.png",
+   "salary": "Thỏa thuận",
+   "exp": "8+ năm",
+   "level": [
+    "lead"
+   ],
+   "skills": [
+    "Data Governance",
+    "Data Warehouse",
+    "Data Quality"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Địa điểm: Trung tâm Công nghệ phần mềm và Dữ liệu lớn/ Công ty TECAPRO/ BQP - Duy Tân, Cầu Giấy, Hà Nội; làm việc onsite tại khách hàng theo giai đoạn dự án.",
+      "Thời gian làm việc: Thứ Hai đến Thứ Sáu, từ 8h30 đến 18h00, nghỉ chiều thứ bảy và Chủ nhật. (Sáng..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Bắt buộc",
+      "Tốt nghiệp đại học CNTT, Hệ thống thông tin hoặc tương đương.",
+      "Có từ 08 năm kinh nghiệm trở lên trong lĩnh vực dữ liệu (DWH, BI, Data Integration, Data Management), trong đó tối thiểu 03 năm triển khai Data Governance / Metadata / Data Quality.",
+      "Đã trực tiếp triển khai end-to-end ít nhất..."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Lương tháng 13 và thưởng Tết từ 01 đến 03 tháng lương, tùy kết quả công việc, mức độ đóng góp của cá nhân và kết quả kinh doanh của Trung tâm.",
+      "Thưởng các dịp 30/4, 02/9 và Tết Dương lịch theo quy định của Công ty và Trung tâm.",
+      "Thưởng theo dự án và đánh giá hiệu suất; lương cạnh tranh và thưởng theo hiệu quả công việc.",
+      "Đóng đầy đủ BHXH, BHYT, BHTN theo quy định của pháp luật.",
+      "Khám sức khỏe định kỳ hằng năm.",
+      "Nghỉ phép 12 ngày/năm và nghỉ lễ, Tết theo quy định của pháp luật.",
+      "Đào tạo nội bộ, sinh hoạt chuyên môn và chia sẻ kiến thức.",
+      "Được đào tạo, cấp chứng chỉ Ab Initio và CDMP."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-18"
+  },
+  {
+   "title": "Senior Data Engineer | High-Impact Fintech Environment",
+   "company": "Michael Page Vietnam",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/senior-data-engineer-high-impact-fintech-environment-1794995806514730706-2132633-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-18",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/ef/11470595.png",
+   "salary": "Thỏa thuận",
+   "exp": "1+ năm",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Data Modeling"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "An exciting opportunity for an experienced Data Engineer to design, build, and optimize modern data platforms supporting critical business decisions.",
+      "This role offers broad ownership across data modeling, pipeline development, migration projects, and platform modernization initiatives.",
+      "Description",
+      "As a Data Engineer, your main responsibilities will include:",
+      "Build and maintain data pipelines to collect, transform and prepare..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Excellent stakeholder management and communication skills.",
+      "Experience within financial services, fintech, banking, or payment environments is a plus.",
+      "Comfortable working in an English-speaking and cross-functional environment."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Premium healthcare and comprehensive insurance coverage."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-18"
+  },
+  {
+   "title": "Data Governance Manager",
+   "company": "LOTTE FINANCE VIETNAM",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://careerviet.vn/vi/tim-viec-lam/data-governance-manager.35C8E2FF.html",
+   "source": "CareerViet",
+   "date": "2026-11-18",
+   "logo": "https://images.careerviet.vn/employer_folders/lot9/211479/lotte_crv.png",
+   "salary": "Thỏa thuận",
+   "level": [
+    "lead"
+   ],
+   "exp": "5+ năm",
+   "skills": [
+    "Data Governance",
+    "Data Quality",
+    "Informatica"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "'1. Governance Framework & Policy",
+      "Design, implement, and maintain the enterprise-wide Data Governance Framework, aligning with corporate strategy and regulatory requirements.",
+      "Define and enforce data policies, standards, and procedures for data quality, data lifecycle management, metadata management, and data access.",
+      "Establish a data ownership and stewardship model, ensuring accountability for data assets across business units.",
+      "2. Data Quality & Compliance",
+      "Develop and monitor data quality metrics and KPIs, identify data quality issues, and coordinate remediation actions.",
+      "Ensure compliance with data-related regulations (e.g., GDPR, local data privacy laws, SBV/State Bank of Vietnam requirements for financial institutions).",
+      "Partner with IT, Risk, and Compliance teams to manage data security, privacy, and classification standards."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Chế độ bảo hiểm",
+      "Phụ cấp",
+      "Chế độ thưởng",
+      "Chăm sóc sức khỏe",
+      "Đào tạo",
+      "Tăng lương",
+      "Công tác phí",
+      "Phụ cấp thâm niên"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-18"
+  },
+  {
+   "title": "Senior Data Engineer/ Data Scientist – Self-Driving",
+   "company": "VINFAST",
+   "location": "Hanoi",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4491815842",
+   "source": "LinkedIn",
+   "date": "2026-11-18",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEL5-jT2YuVVg/company-logo_100_100/company-logo_100_100/0/1664351770961/vinfast_logo?e=2147483647&v=beta&t=slRg4Tvvg8o5FXE-gOVUWf6pCj2G68PbRNC-xnopX10",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Deep Learning",
+    "Computer Vision",
+    "ETL",
+    "Data Warehouse",
+    "Machine Learning",
+    "Python",
+    "Pandas",
+    "Spark"
+   ],
+   "exp": "3+ năm",
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "VINFAST is a pioneering electric vehicle (EV) company committed to revolutionizing the automotive industry with sustainable and innovative mobility solutions.",
+      "As a leading player in the EV market, VinFast is dedicated to delivering high-quality, cutting-edge electric vehicles that redefine the driving experience.",
+      "Our team consists of passionate professionals driven by a shared vision of creating a greener and more sustainable future through innovation, technology, and excellence.",
+      "We are seeking a highly skilled Experts, Seniors, Engineers to join our self-driving team.",
+      "In this role, you will design, develop, and deploy advanced algorithms that enable autonomous vehicles to accurately sense, interpret, and interact with the world around them.",
+      "You will work on cutting-edge challenges in 3D object and occupancy detection, tracking, sensor fusion, scene understanding, and foundation models for self-driving, with direct impact on the safety…",
+      "This is an opportunity to contribute at the intersection of deep learning, computer vision, robotics, and system engineering, while collaborating with a world-class team of researchers and engineers.",
+      "Design and implement data lakes as a flexible and scalable storage of sensor data"
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "MSc/BSc degree with 3+ years of industrial experience in Computer Science, Machine Learning, Robotics and/or similar technical field",
+      "Proficiency in Python and strong software engineering skills",
+      "Comfortable in building data processing pipelines tailored for ML training pipelines",
+      "Knowledge of (at least one) of the Parquet, Pandas, Spark frameworks",
+      "Solid understanding of the main sensor modalities for self-driving (cameras, LiDAR, radar, GPS)",
+      "Experience with establishing dataset version control",
+      "Familiarity with cloud job orchestration, monitoring, and instrumentation best-practices",
+      "Ability to solve hard problems and handle large amounts of heterogeneous data"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Competitive salary",
+      "Premium healthcare package, including PVI insurance & annual health check-ups",
+      "13th-month salary & performance bonuses to reward your contributions",
+      "Enjoy preferential pricing for services within the Vingroup ecosystem including Vinmec, Vinpearl, and Vinschool...",
+      "Opportunity to collaborate with and learn from industry-leading professionals in the automotive domain",
+      "Work Location:",
+      "In Ha Noi: Technopark Tower, Gia Lam, Ha Noi",
+      "In Ho Chi Minh: No. 25, Riverview 6, Vinhomes Golden River, 02 Ton Duc Thang Street, Ben Nghe Ward, District 1, Ho Chi Minh City"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-18"
+  },
+  {
+   "title": "Senior Data Engineer (Databricks, GCP)",
+   "company": "Globant",
+   "location": "Hanoi",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4491483843",
+   "source": "LinkedIn",
+   "date": "2026-11-18",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQHupr1U3gIQKA/company-logo_100_100/company-logo_100_100/0/1719839010650/globant_logo?e=2147483647&v=beta&t=cnVqgncFTu2OSAYyxTuyXBl9ZCL8NyWDh9IT5bkgwBE",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Databricks",
+    "GCP",
+    "Data Governance",
+    "Spark",
+    "Python",
+    "Azure",
+    "NoSQL",
+    "SQL",
+    "BigQuery",
+    "Machine Learning"
+   ],
+   "exp": "4+ năm",
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "At Globant, we are working to make the world a better place, one step at a time.",
+      "We enhance business development and enterprise solutions to prepare them for a digital future.",
+      "With a diverse and talented team present in more than 30 countries, we are strategic partners to leading global companies in their business process transformation.",
+      "We seek a Senior Data Engineer who shares our passion for innovation and change.",
+      "This role is critical to helping our business partners evolve and adapt to consumers' personalized expectations in this new technological era.",
+      "Kindly note that this position is open to Vietnamese candidates or candidates currently residing in Vietnam only.",
+      "Location: Vietnam (HN/DN/HCM)",
+      "YOU WILL GET THE CHANCE TO:"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-18"
+  },
+  {
+   "title": "Data Engineer (Senior/Lead) - HN/HCM",
+   "company": "FPT Software",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4491808947",
+   "source": "LinkedIn",
+   "date": "2026-11-18",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEomupwSTKvWA/company-logo_100_100/B56Zh4Hgj3HMAU-/0/1754361892047/fpt_software_logo?e=2147483647&v=beta&t=UYcsvXSeYXJm5a9HK_dR-UKQlaXaffcPkJnWIOt19Ww",
+   "level": [
+    "senior",
+    "lead"
+   ],
+   "skills": [
+    "ETL",
+    "Data Warehouse",
+    "Data Quality",
+    "SQL",
+    "Hadoop",
+    "Spark",
+    "Kafka",
+    "Python",
+    "Java",
+    "Scala",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Tiếng Anh",
+    "Data Modeling",
+    "Data Governance",
+    "Machine Learning"
+   ],
+   "exp": "4+ năm",
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Design, develop, and maintain scalable data pipelines and ETL processes.",
+      "Optimize and manage data storage solutions, including databases and data warehouses.",
+      "Collaborate with data scientists and analysts to understand data requirements and deliver high-quality data solutions.",
+      "Implement data quality and validation processes to ensure data accuracy and integrity.",
+      "Monitor and troubleshoot data systems to ensure optimal performance and reliability.",
+      "Stay up-to-date with the latest industry trends and technologies in data engineering.",
+      "Mentor and provide guidance to junior data engineers."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Bachelor's or Master's degree in Computer Science, Engineering, or a related field.",
+      "4+ years of experience in data engineering or a related role.",
+      "Strong proficiency in SQL and experience with relational databases (e.g., MySQL, PostgreSQL).",
+      "Experience with big data technologies (e.g., Hadoop, Spark, Kafka).",
+      "Proficiency in programming languages such as Python, Java, or Scala.",
+      "Experience with cloud platforms (e.g., AWS, Azure, Google Cloud) and their data services.",
+      "Strong problem-solving skills and attention to detail.",
+      "Excellent communication and collaboration skills."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Successful candidates will be part of a friendly, motivated and committed talent teams in FPT Software HCM (FSOFT) with various benefits and attractive offers:",
+      "Have chance to build long term relationships with colleagues via multiple projects.",
+      "Be a true part of customer team across Europe and Asia.",
+      "Attractive offer, plus annual compensation and performance bonus.",
+      "“FPT care” health insurance provided by AON and is exclusive for FPT employees.",
+      "Support for learning and certificate examination.",
+      "Company shuttle buses provide convenient way of transportation for all employees.",
+      "Salary review 1 time/year or on excellent performance"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-18"
+  },
+  {
+   "title": "Data Engineer",
+   "company": "bTaskee Vietnam",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/data-engineer/14d68499-a241-4cd2-b8c2-a6f9e9864e5b",
+   "source": "Glints",
+   "date": "2026-11-18",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/555890b9532123d5e117fb44a7c170eb.png",
+   "exp": "1+ năm",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "ETL",
+    "Machine Learning",
+    "Data Quality",
+    "Python",
+    "SQL",
+    "Spark",
+    "Data Modeling",
+    "Data Warehouse",
+    "dbt",
+    "AWS",
+    "Kafka",
+    "Airflow",
+    "Hadoop",
+    "NoSQL"
+   ],
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "Job Overview:",
+      "The purpose of the Data Engineer role is to maintain, improve, clean and manipulate data in the business’s operational and analytics databases.",
+      "The Data Engineer works with the business’s software engineers and data analytics team in order to understand and aid in the implementation of database requirements, analyse performance, and…"
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "Design and build automated ETL/ELT pipelines to ingest data from multiple sources.",
+      "Develop and maintain robust data models for analytics and reporting.",
+      "Develop scheduling, monitoring, and alerting mechanisms to ensure pipeline reliability and SLA compliance.",
+      "Build and maintain a comprehensive metadata catalog with clear descriptions for every table and column across all datasets.",
+      "Design and implement a semantic layer that defines dataset purposes, field definitions, data types, business logic, and relationships between tables.",
+      "Prepare and serve datasets for AI/ML workloads: feature stores, training datasets, and inference data feeds.",
+      "Collaborate with the AI team to define data requirements for model training, evaluation, and monitoring.",
+      "Build and maintain data APIs or serving layers that enable AI systems to consume data in real time or near-real time."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Minimum 2 years of experience as a Data Engineer, particularly in AI-driven environments;",
+      "Strong Python and SQL proficiency, with hands-on Spark/PySpark experience;",
+      "Knowledge of relational databases, data modeling, and Data Warehousing;",
+      "dbt experience: models, tests, incremental strategies, documentation;",
+      "Hands-on experience building, deploying, and debugging ETL/ELT workflows in production on AWS;",
+      "Basic scripting or programming capability in Python, Go, shell script, or similar language;",
+      "Experience using one or more technologies such as Apache Spark, Kafka, Airflow, Hadoop, or equivalent data platforms;",
+      "Analytical thinking, problem-solving skills, and good teamwork."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Competitive Salary – Rewarded based on your experience and skills;",
+      "Annual Performance Review – Unlock growth opportunities every year;",
+      "KPI-Based Salary – Earn what you deserve through your contributions;",
+      "13th-Month Bonus – Rewarded based on both your performance and the company’s success;",
+      "Equipment Provided – Enjoy top-tier equipment that enhances productivity and makes your daily work easier;",
+      "BYOD Support – Get an allowance while enjoying the flexibility of using your own laptop;",
+      "Comprehensive Healthcare – Regular check-ups & a premium health package;",
+      "SHUI Compliance – Contributions aligned with legal regulations;"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-18"
+  },
+  {
+   "title": "Digital Marketing Analytics Consultant",
+   "company": "NAB Innovation Centre Vietnam",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://nab.wd3.myworkdayjobs.com/nab_careers/job/Ho-Chi-Minh-City-Vietnam/Digital-Marketing-Analytics-Consultant_JR121875",
+   "source": "Trang công ty",
+   "date": "2026-11-18",
+   "exp": "7+ năm",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "SQL",
+    "Power BI"
+   ],
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "Job Posting End Date:",
+      "Worker Type:",
+      "Maximum Term/Fixed Term (Fixed Term)"
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "A subject matter expert that delivers on the Marketing Performance roadmap.",
+      "Manage the development, implementation and evaluation of initiatives that increases the performance capability across Marketing.",
+      "Drive the use of sophisticated and innovative tools and methods providing data driven measurement solutions to support strategic decision making across Marketing and Product teams.",
+      "Deliver on the build and maintenance of the data assets and visualisation required to ensure consistent, automated measurement across marketing.",
+      "Deliver best in class technical data knowledge across marketing with a primary focus on digital media and marketing mix modelling.",
+      "Maintaining and Innovating on automated media reporting through the DOMO platform",
+      "Supporting campaign teams to ensure that the data-driven decision making is embedded into campaign management and optimisation",
+      "Fulfil other tasks as assigned by your People Leader and/or authorized representative of NAB Vietnam from time to time"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "2. Exciting career and development opportunities",
+      "Large scale products with modern technologies in banking domain",
+      "Clear roadmap for career advancement in both technical and leadership pathways",
+      "Access to digital learning platform such as Udemy",
+      "Consistent and high-quality leadership training through the Distinctive Leadership program (DLP)",
+      "Specialist capabilities and accreditations in key skill areas such as Cloud Engineering, Digital, Data, Security and SREs (Site reliability engineers)",
+      "Sponsored English course with native teachers",
+      "Opportunity for training in Australia"
+     ]
+    ]
+   ],
+   "logo": "logos/nab-innovation-centre-vietnam.png",
    "last_seen": "2026-11-18"
   },
   {
@@ -811,7 +1326,7 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Senior Data Engineer | High-Impact Fintech Environment",
@@ -1830,7 +2345,7 @@
     ]
    ],
    "logo": "logos/aia-vietnam.png",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Actuarial Business Solutions Intern",
@@ -1888,7 +2403,7 @@
     ]
    ],
    "logo": "logos/aia-vietnam.png",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "[Hà Nội] Chuyên gia Quản lý Dữ liệu tài chính (MIS) - Khối Thị trường và Quản trị tài chính",
@@ -1955,6 +2470,57 @@
    ],
    "logo": "logos/lpbank.png",
    "last_seen": "2026-11-17"
+  },
+  {
+   "title": "Data QA_CVCC Kiểm thử chất lượng giải pháp DL - Hà Nội - TA105",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-Data-QA_CVCC-Ki%E1%BB%83m-th%E1%BB%AD-ch%E1%BA%A5t-l%C6%B0%E1%BB%A3ng-gi%E1%BA%A3i-ph%C3%A1p-DL-H%C3%A0-N%E1%BB%99i-TA105/1361902766/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-11-16",
+   "skills": [
+    "Machine Learning",
+    "ETL",
+    "Redshift",
+    "Airflow",
+    "Python",
+    "R",
+    "SQL",
+    "Data Warehouse",
+    "Data Quality",
+    "Data Governance"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Các trách nhiệm chính",
+      "Thực hiện lập kế hoạch kiểm thử",
+      "Thực hiện xây dựng kịch bản kiểm thử",
+      "Thực hiện kiểm thử đảm bảo chất lượng phát triển và golive cho các cập nhật liên tục trên các hệ thống sản phẩm dữ liệu (thông tư, data engine, data service…) trên nền tảng dịch vụ quản trị và…",
+      "Tổng hợp tài liệu liên quan kiểm thử, kiểm tra quá trình check pilot golive",
+      "Thực hiện log bug và quản lý lỗi trong quá trình kiểm thử",
+      "Báo cáo quá trình kiểm thử",
+      "Trình độ đào tạo"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Thu nhập hấp dẫn, lương thưởng cạnh tranh theo năng lực",
+      "Thưởng các Ngày lễ, Tết (theo chính sách ngân hàng từng thời kỳ)",
+      "Được vay ưu đãi theo chính sách ngân hàng từng thời kỳ",
+      "Chế độ ngày phép hấp dẫn theo cấp bậc công việc",
+      "Bảo hiểm bắt buộc theo luật lao động + Bảo hiểm VPBank care cho CBNV tùy theo cấp bậc và thời gian công tác",
+      "Được tham gia các khóa đào tạo tùy thuộc vào Khung đào tạo cho từng vị trí",
+      "Thời gian làm việc:Thứ 2 – sáng Thứ 7 (off 2 sáng Thứ 7/tháng)",
+      "Môi trường làm việc năng động, thân thiện, có nhiều cơ hội học đào tạo, học hỏi và phát triển; được tham gia nhiều hoạt động văn hóa thú vị (cuộc thi về thể thao, tài năng, hoạt động teambuiding...)"
+     ]
+    ]
+   ],
+   "logo": "logos/vpbank.png",
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Data Scientist – ID2643",
@@ -3013,7 +3579,7 @@
     ]
    ],
    "logo": "logos/aia-vietnam.png",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Senior Data Architect",
@@ -3067,7 +3633,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Senior Data Scientist",
@@ -5296,7 +5862,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-15"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Senior Data Engineer",
@@ -5505,25 +6071,26 @@
     "senior"
    ],
    "skills": [
-    "Machine Learning",
+    "Data Quality",
     "Python",
     "SQL",
-    "Spark",
     "Chuỗi thời gian",
-    "MLOps"
+    "Machine Learning",
+    "Thống kê",
+    "LLM / GenAI"
    ],
    "sections": [
     [
      "Mô tả công việc",
      [
-      "1. Forecasting & Planning",
-      "Develop models for balance sheet and P&L forecasting",
-      "Build driver-based and scenario forecasting models",
-      "Improve forecast accuracy and reduce manual adjustments",
-      "2. Profitability & Optimization",
-      "Analyze profitability across customers, segment, product, channel",
-      "Optimize pricing, marketing spends, and capital allocation",
-      "3. Customer & Business Decisioning"
+      "We are looking for a Senior Data Scientist to build Forecasting, Decision Intelligence, Optimization, and AI capabilities for Finance.",
+      "You will connect predictive insights with business decisions, optimize resource allocation, and deliver measurable financial impact.",
+      "What You’ll Do",
+      "Build forecasting and decision intelligence solutions across key banking businesses, such as CASA, Deposits, Lending, and Credit Cards.",
+      "Develop driver-based forecasting and scenario analysis frameworks to improve financial planning, budgeting, and business performance.",
+      "Connect forecasts and their uncertainty with optimization and business rules to support better planning and resource allocation decisions.",
+      "Apply marketing mix modeling, causal inference, experimentation, and uplift modeling to measure incremental business impact and optimize investment allocation.",
+      "Automate data processing, analysis, insight generation, and decision-support workflows."
      ]
     ],
     [
@@ -5541,7 +6108,8 @@
     ]
    ],
    "logo": "logos/techcombank.png",
-   "last_seen": "2026-11-18"
+   "last_seen": "2026-11-18",
+   "exp": "5+ năm"
   },
   {
    "title": "[HUB CÔNG NGHỆ TẠI HCM]_Chuyên gia Kỹ thuật dữ liệu",
@@ -5949,7 +6517,7 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Thực Tập Sinh Business & Data Analyst (BA)",
@@ -6336,7 +6904,7 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Thực Tập Sinh Phân Tích Doanh Nghiệp AI/BI",
@@ -7275,7 +7843,7 @@
     ]
    ],
    "logo": "logos/aia-vietnam.png",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Actuarial Senior Analyst (Chuyên viên Cấp cao Định phí Bảo hiểm)",
@@ -7463,7 +8031,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-14"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Data Engineer (Mid/Senior)",
@@ -8676,7 +9244,7 @@
     "Flink",
     "Data Warehouse"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "exp": "5+ năm",
    "sections": [
     [
@@ -10005,7 +10573,7 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Actuarial Manager (Quản lý Định phí bảo hiểm)",
@@ -10038,7 +10606,7 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Data & AI Enablement Lead",
@@ -10507,7 +11075,7 @@
     "R"
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "exp": "4–6 năm",
    "sections": [
     [
@@ -12447,7 +13015,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "HO - Data Science Expert",
@@ -13897,7 +14465,7 @@
    "url": "https://careerviet.vn/vi/tim-viec-lam/can-bo-tinh-toan-bao-hiem-actuary.35C891C9.html",
    "source": "CareerViet",
    "date": "2026-10-31",
-   "logo": "https://static.careerviet.vn/themes/kiemviecv32/images/graphics/logo-default.png",
+   "logo": "https://images.careerviet.vn/employer_folders/lot6/181286/Logo%20BIC%20chuan.png",
    "salary": "Thỏa thuận",
    "skills": [
     "Thống kê",
@@ -15141,7 +15709,7 @@
     "SQL",
     "dbt"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "exp": "2+ năm",
    "level": [
     "mid"
@@ -18431,7 +18999,7 @@
     "Docker",
     "Kubernetes"
    ],
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "exp": "5+ năm",
    "sections": [
     [
@@ -18461,7 +19029,7 @@
     "ETL"
    ],
    "logo": "logos/nab-innovation-centre-vietnam.png",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "exp": "5+ năm",
    "level": [
     "senior"
@@ -20300,7 +20868,7 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Actuarial Analyst (Chuyên viên Định phí Bảo hiểm)",
@@ -20350,7 +20918,7 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Supply Chain Data Analyst (Total Annual Compensation Up-To 37,000 USD)",
@@ -20398,6 +20966,62 @@
     ]
    ],
    "last_seen": "2026-11-10"
+  },
+  {
+   "title": "Data Engineer",
+   "company": "Concentrix",
+   "location": "District 12",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4479287466",
+   "source": "LinkedIn",
+   "date": "2026-10-23",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQE7MK0289c3WQ/company-logo_100_100/B4DZ48c1XBJUAI-/0/1779130652451/concentrix_logo?e=2147483647&v=beta&t=CdZ0Yg3DL4LwH11dXhnRgc6uIagFF7i1oHfYvffcOC0",
+   "skills": [
+    "SQL",
+    "ETL",
+    "Data Warehouse",
+    "Python"
+   ],
+   "exp": "2+ năm",
+   "level": [
+    "mid"
+   ],
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "DATA ENGINEER",
+      "Location: QTSC9 Building, Quang Trung Software City, Trung My Tay Ward, Ho Chi Minh City",
+      "Working Time: 8AM – 5:30PM. Monday - Saturday"
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "Develop and maintain data pipelines and existing data solutions.",
+      "Monitor data processes and support troubleshooting when data issues occur.",
+      "Work with data models and semantic models/layers to support reporting and analytics.",
+      "Work with large datasets and MPP (Massively Parallel Processing) - based data platforms.",
+      "Develop and optimize SQL queries and data transformations.",
+      "Support ETL/ELT processes and Data Warehouse activities.",
+      "Work closely with Data/BI and business teams to understand requirements and provide appropriate data solutions.",
+      "Ensure data accuracy, quality, and system reliability."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Competitive salary and performance-based bonus.",
+      "13th-month salary & 100% salary during probation + 14 annual leave days",
+      "Full social, health, and Aon health insurance",
+      "Lunch and parking support",
+      "Clear career path and growth opportunities in a professional, dynamic environment",
+      "Opportunity to work with top industry experts and talented colleagues",
+      "Transparent, trustworthy, and inspiring workplace culture"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Senior AI Engineer (Computer Vision/NLP/LLM) - Khối Công nghệ thông tin (2026TD450878)",
@@ -22068,7 +22692,7 @@
     "AWS",
     "Data Governance"
    ],
-   "last_seen": "2026-11-14",
+   "last_seen": "2026-11-18",
    "exp": "2+ năm",
    "sections": [
     [
@@ -22510,7 +23134,7 @@
     ]
    ],
    "logo": "logos/nab-innovation-centre-vietnam.png",
-   "last_seen": "2026-11-17"
+   "last_seen": "2026-11-18"
   },
   {
    "title": "Data Engineer I Vietnam",
@@ -23372,7 +23996,7 @@
     "R"
    ],
    "logo": "logos/aia-vietnam.png",
-   "last_seen": "2026-11-17",
+   "last_seen": "2026-11-18",
    "exp": "3–5 năm",
    "level": [
     "mid"
@@ -24172,6 +24796,7 @@
   "https://www.linkedin.com/jobs/view/4478977404",
   "https://www.linkedin.com/jobs/view/4482928927",
   "https://www.vietnamworks.com/-trainee-legal-associate-2126567-jv",
+  "https://www.vietnamworks.com/chuong-trinh-ky-su-tap-su-technical-diploma-trainee-1794993071564895367-2132661-jv",
   "https://www.vietnamworks.com/engineer-trainee-fresher-2126423-jv",
   "https://www.vietnamworks.com/graduate-engineering-trainee-1792730133447338887-2122883-jv",
   "https://www.vietnamworks.com/industrial-trainee-coffee-operations-1794481077374308388-2111996-jv",
@@ -24181,12 +24806,9 @@
   "https://www.vietnamworks.com/mb-trainee-information-security-grc-fresher-khoi-cong-nghe-thong-tin-2026td457289-1793161615912956699-2124643-jv",
   "https://www.vietnamworks.com/mechanical-engineer-trainee-kcn-long-hau-2130018-jv",
   "https://www.vietnamworks.com/operations-engineer-trainee-1793085102891239269-2124208-jv",
-  "https://www.vietnamworks.com/production-management-trainee-1792385386699673266-2120946-jv",
   "https://www.vietnamworks.com/project-commercial-trainee-1794544609040301720-2131056-jv",
-  "https://www.vietnamworks.com/project-product-management-trainee-1792386036859803249-2120952-jv",
   "https://www.vietnamworks.com/sales-trainee-concrete-2126239-jv",
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1793262742027719009-2125340-jv",
-  "https://www.vietnamworks.com/southeast-asia-trainee-programme-1794219909943462213-2129413-jv",
-  "https://www.vietnamworks.com/systems-administrator-csv-support-trainee-1794566620988513881-2120987-jv"
+  "https://www.vietnamworks.com/southeast-asia-trainee-programme-1794219909943462213-2129413-jv"
  ]
 }
