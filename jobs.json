@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T07:14+00:00",
+ "updated": "2026-11-20T20:20+00:00",
  "jobs": [
   {
    "title": "Senior Data Analyst / Business Intelligence Analyst (4 headcounts)",
@@ -133,7 +133,7 @@
    "source": "Glints",
    "date": "2026-11-20",
    "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/555890b9532123d5e117fb44a7c170eb.png",
-   "exp": "3+ năm",
+   "exp": "3–5 năm",
    "level": [
     "mid"
    ],
@@ -211,7 +211,7 @@
    "source": "Glints",
    "date": "2026-11-20",
    "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/02227ced40baf7f2d2530137832c408e.jpg",
-   "exp": "3+ năm",
+   "exp": "3–5 năm",
    "level": [
     "mid"
    ],
@@ -266,6 +266,339 @@
       "thr financial benefits",
       "bpjs tenaga kerja insurance and health",
       "professional development"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-20"
+  },
+  {
+   "title": "Data Science Expert",
+   "company": "Techcombank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/data-science-expert-1795163759381376765-2133778-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-20",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/7e/11125544.png",
+   "salary": "Thỏa thuận",
+   "exp": "5+ năm",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Python",
+    "SQL",
+    "Chuỗi thời gian",
+    "Machine Learning",
+    "Thống kê"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "We are looking for a Senior Data Scientist to build Forecasting, Decision Intelligence, Optimization, and AI capabilities for Finance.",
+      "You will connect predictive insights with business decisions, optimize resource allocation, and deliver measurable financial impact.",
+      "Build forecasting and decision intelligence solutions across key banking businesses, such as CASA, Deposits, Lending, and Credit Cards.",
+      "Develop..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "5+ years of experience in Data Science, Decision Science, Quantitative Analytics, Operations Research, Financial Analytics, or related fields.",
+      "Strong proficiency in Python and SQL.",
+      "Hands-on experience in time-series forecasting, machine learning, and statistical modeling, with exposure to causal inference, experimentation, optimization, or simulation.",
+      "Ability to translate business problems into measurable objectives, constraints, and..."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Competitive salary package, including 13th-month salary and performance-based bonus.",
+      "Comprehensive employee well-being benefits, including health insurance/healthcare coverage and annual health check-ups.",
+      "15 days of annual leave and 01 birthday leave.",
+      "Opportunities to participate in Techcombank's advanced training and development programs.",
+      "Access to professional and technical training programs to enhance job-related competencies.",
+      "Team-building activities and year-end parties.",
+      "Clear career development pathways with strong support and guidance from the management team.",
+      "Birthday gifts from the Bank."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-20"
+  },
+  {
+   "title": "Local Data Coordinator (Master Data & Migration) ( Contract 18 months only)",
+   "company": "Công Ty TNHH GEA Việt Nam",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/local-data-coordinator-master-data-migration-contract-18-months-only-1795170490984204795-2133924-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-20",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/d4/11259256.jpg",
+   "salary": "Thỏa thuận",
+   "exp": "5+ năm",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Excel"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "1. Role Summary",
+      "The Local Data Coordinator (LDC) is responsible for coordinating local master data preparation, cleansing, validation, migration, and governance activities throughout the ERP transformation and SAP…",
+      "The role acts as the key liaison between local business teams, Finance and Controlling, IT, functional consultants, and the central data migration team to ensure..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Bachelor's degree in Finance, Accounting, Business Administration, Information Systems, IT, or a related field.",
+      "5–7 years of relevant experience in Master Data Management, ERP implementation, data migration, Finance, Accounting, or Controlling.",
+      "Experience with SAP ECC and/or SAP S/4HANA is preferred; prior ERP implementation or data migration project experience is an advantage.",
+      "Good Excel skills and experience with..."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Performance Bonus: Bonus payable at the end of the contract, subject to the applicable bonus scheme, individual performance, and agreed project deliverables."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-20"
+  },
+  {
+   "title": "Card Data Management Expert",
+   "company": "FE CREDIT",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://careerviet.vn/vi/tim-viec-lam/card-data-management-expert.35C8E73F.html",
+   "source": "CareerViet",
+   "date": "2026-11-20",
+   "logo": "https://images.careerviet.vn/employer_folders/lot2/85702/115503logo_fullcolor.png",
+   "salary": "30–40 triệu",
+   "level": [
+    "senior"
+   ],
+   "exp": "3+ năm",
+   "skills": [
+    "Tiếng Anh"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "1. Xây dựng quy định, báo cáo và công cụ kiểm soát các hoạt động có tính rủi ro cao phát sinh trên Hệ thống Thẻ.",
+      "Đồng thời, đưa ra ý tưởng để cải thiện công việc và đảm bảo mọi hoạt động vận hành thẻ có thể chạy trơn tru theo các quy tắc kiểm soát.",
+      "Ngoài ra, trở thành đầu mối thực hiện thanh toán cho nhà cung cấp và chịu trách nhiệm các báo cáo, công việc liên quan đến việc quản lý chi phí phòng vận hành thẻ",
+      "2. Đề xuất và xây dựng văn bản quy trình pháp lý nội bộ và tiêu chuẩn hóa sơ đồ quy trình phù hợp với định hướng theo từng thời kỳ.",
+      "Thường xuyên xem xét quy trình vận hành thẻ và các quy trình liên quan để cập nhật các hoạt động đúng theo luật công ty hiện ban hành.",
+      "3. Hỗ trợ phòng ban cung cấp các báo cáo hoạt động vận hành thẻ tín dụng cho Kiểm toán, NHNN …",
+      "4. Tham gia các dự án và yêu cầu thay đổi của công ty nhằm xây dựng chức năng sản phẩm mới, cải thiện và tự động hóa hoạt động vận hành thẻ tín dụng.",
+      "5. Dự toán, theo dõi và thực hiện các hoạt động liên quan đến chi phí phát sinh trong hoạt động vận hành thẻ."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Cử nhân đại học, chuyên ngành Kinh tế, Tài chính Ngân hàng, Công nghệ thông tin",
+      "Kinh nghiệm",
+      "Có 04 kinh nghiệm về hoạt động thẻ tín dụng, hiểu biết về hệ thống thẻ là một lợi thế",
+      "Có tối thiểu 03 năm làm việc trong mảng kiểm soát và quy trình thẻ",
+      "Kỹ năng",
+      "Thành thạo kỹ năng vi tính văn phòng.",
+      "Kỹ năng sắp xếp thời gian, phân tích vấn đề logic, kỹ năng trình bày.",
+      "Kỹ năng tiếng anh tốt."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Chế độ bảo hiểm",
+      "Phụ cấp",
+      "Chế độ thưởng",
+      "Chăm sóc sức khỏe",
+      "Đào tạo",
+      "Nghỉ phép năm"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-20"
+  },
+  {
+   "title": "DATA ANALYST",
+   "company": "MH Solution",
+   "location": "Quận Cầu Giấy",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4492967617",
+   "source": "LinkedIn",
+   "date": "2026-11-20",
+   "logo": "https://media.licdn.com/dms/image/v2/C4E0BAQEpcMrS_8wEMA/company-logo_100_100/company-logo_100_100/0/1634544647035?e=2147483647&v=beta&t=j1ye7TnouByo6w2S8C6CIuJIJM4wITVnX0Oty6N63HM",
+   "skills": [
+    "ETL",
+    "Airflow",
+    "Data Warehouse",
+    "Machine Learning",
+    "Thống kê",
+    "SQL",
+    "Python",
+    "R",
+    "Power BI",
+    "Tableau",
+    "Looker",
+    "Superset",
+    "BigQuery",
+    "Snowflake",
+    "Data Modeling",
+    "Data Quality"
+   ],
+   "exp": "2–3 năm",
+   "level": [
+    "mid"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Thu thập, tổng hợp và phân tích dữ liệu lớn từ nhiều nguồn nội bộ và bên ngoài nhằm phục vụ mục tiêu kinh doanh.",
+      "Phân tích hành vi khách hàng, xu hướng sản phẩm/dịch vụ, các chỉ số KPI và hiệu quả hoạt động; đưa ra insight và đề xuất giải pháp cải thiện.",
+      "Xây dựng, vận hành và tối ưu Dashboard, báo cáo định kỳ và báo cáo phát sinh bằng các công cụ trực quan hóa dữ liệu.",
+      "Phát triển, vận hành và tối ưu Data Pipeline, các quy trình ETL nhằm thu thập, xử lý và đồng bộ dữ liệu từ nhiều nguồn; ưu tiên ứng dụng Apache Airflow.",
+      "Tham gia xây dựng, nâng cấp hệ thống Data Warehouse, quản lý Data Dictionary và các chỉ số đo lường dữ liệu (Data Metric).",
+      "Nghiên cứu, xây dựng và ứng dụng các mô hình dự báo, AI/ML nhằm hỗ trợ tự động hóa phân tích và nâng cao hiệu quả hoạt động.",
+      "Phối hợp với các bộ phận Marketing, Sales, BA và Kỹ thuật để tiếp nhận yêu cầu, phân tích bài toán và triển khai các giải pháp dữ liệu.",
+      "Trao đổi trực tiếp với khách hàng, trình bày kết quả phân tích, đề xuất giải pháp và phối hợp bàn giao sản phẩm."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Tốt nghiệp Đại học chuyên ngành Công nghệ thông tin, Toán học, Thống kê, Khoa học dữ liệu, Kinh tế, Tài chính hoặc các ngành liên quan.",
+      "Có tối thiểu 2 - 3 năm kinh nghiệm ở vị trí Data Analyst, Data Engineer hoặc các vị trí liên quan.",
+      "Thành thạo SQL, Python hoặc R; có khả năng xử lý dữ liệu, tối ưu truy vấn và phân tích dữ liệu.",
+      "Có kinh nghiệm xây dựng Dashboard, báo cáo và trực quan hóa dữ liệu bằng Power BI, Tableau hoặc Looker; ưu tiên ứng viên có kinh nghiệm sử dụng Apache Superset.",
+      "Hiểu biết về các hệ quản trị cơ sở dữ liệu như MySQL, PostgreSQL, SQL Server, ClickHouse và các nền tảng dữ liệu lớn như BigQuery, Snowflake.",
+      "Có kinh nghiệm xây dựng, vận hành Data Pipeline và quy trình ETL; ưu tiên ứng viên có kinh nghiệm sử dụng Apache Airflow.",
+      "Có kiến thức về Data Warehouse, Data Modeling, Data Dictionary và quản lý chất lượng dữ liệu.",
+      "Có khả năng xây dựng mô hình dự báo hoặc ứng dụng AI/ML vào phân tích dữ liệu là một lợi thế."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Thu nhập: 15.000.000 – 25.000.000",
+      "Được hưởng mức lương cạnh tranh theo năng lực làm việc.",
+      "Nghỉ phép 12 ngày/năm.",
+      "Thưởng dự án: Chế độ thưởng theo từng dự án cụ thể, đảm bảo thu nhập đột phá theo năng lực và khối lượng công việc.",
+      "Được review lương định kỳ.",
+      "Được cung cấp đồ ngủ trưa nhân viên (thảm, gối, chăn).",
+      "Các chế độ BHXH, BHYT, BHTN đầy đủ khi ký HĐLĐ chính thức.",
+      "Cơ hội tham gia gắn kết với tập thể với các hoạt động team building thú vị."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-20"
+  },
+  {
+   "title": "Data Analyst – Business Intelligence & Audit Automation",
+   "company": "ECOM Agroindustrial Corp. Ltd.",
+   "location": "Ho Chi Minh City",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4492594088",
+   "source": "LinkedIn",
+   "date": "2026-11-20",
+   "logo": "https://media.licdn.com/dms/image/v2/C4D0BAQFoTeQO0LlSSw/company-logo_100_100/company-logo_100_100/0/1670599014458/ecom_trading_logo?e=2147483647&v=beta&t=jFiy01L0cXPd0bptr2QwVYjRdvzKs3zA5vIsfvliNyA",
+   "skills": [
+    "Power BI",
+    "Power Query / DAX",
+    "Excel",
+    "SQL",
+    "Python",
+    "Data Modeling"
+   ],
+   "exp": "2–5 năm",
+   "level": [
+    "mid"
+   ],
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "General Job Description",
+      "ECOM Agroindustrial Corp. (ECOM) is a leading global commodity merchant and sustainable supply chain management company, headquartered in Switzerland.",
+      "The Data Analyst will be part of ECOM’s Audit and Advisory Services Department (AASD) and will provide technical and analytical support to the Internal Audit team conducting audits throughout the…"
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "Power BI Reporting & Data Visualization",
+      "Design, develop and maintain Power BI dashboards and reports for audit performance monitoring, management reporting and data-driven insights.",
+      "Develop and optimize data models, relationships, DAX measures and visualizations to present complex information clearly and accurately.",
+      "Ensure the accuracy, integrity, consistency and timely refresh of dashboard in audit reporting.",
+      "Improve report accuracy, performance and ease of use.",
+      "Data Extraction, Transformation & Analysis",
+      "Extract, consolidate, clean, transform and validate data from ERP systems, databases, Excel files and other business applications.",
+      "Perform data completeness and integrity checks, including record count, missing data identification, duplicate detection to ensure data accuracy and completeness."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-20"
+  },
+  {
+   "title": "Thực Tập Sinh Marketing Data",
+   "company": "Công Ty SHAREDI.IO",
+   "location": "Online",
+   "region": "VN",
+   "url": "https://ybox.vn/tuyen-dung/online-cong-ty-sharedi-io-tuyen-dung-thuc-tap-sinh-marketing-data-part-time-full-time-2026-6affd19857a16548b988ad06",
+   "source": "Ybox",
+   "date": "2026-11-20",
+   "logo": "https://static.ybox.vn/2026/11/5/1795148466244-sharedi-logo-sharedi-io.png",
+   "level": [
+    "intern"
+   ],
+   "skills": [
+    "Tiếng Anh"
+   ],
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "About Sharedi.io:",
+      "Sharedi.io is a career development and networking platform that connects experienced professionals with ambitious young talents.",
+      "We focus on knowledge sharing, personal branding, and the practical application of technology."
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "Active Community Seeding: Engage daily in targeted social media groups (Facebook, Reddit, Quora, etc.) by actively seeding relevant comments and informative posts to boost brand visibility.",
+      "Data Collection & Organization: Systematically gather, compile, and structure information and data based on specific guidelines and team requests to fuel our marketing strategies.",
+      "Key Performance Indicators (KPIs):",
+      "Achieve a minimum of 50 seed comments per week across all designated platforms.",
+      "Ensure the successful posting and approval of at least 10 weekly seed posts per month within targeted community groups."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "First or second year student based in Vietnam, majored in Marketing, Business,..",
+      "Have personal laptop to work remotely",
+      "Proficiency in English is a plus"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Competitive Allowance: 1,500,000 - 2,000,000 VND per month.",
+      "Flexible Working: 100% Remote work setup, allowing you to manage your time effectively.",
+      "Exclusive 1-on-1 Mentorship: Direct guidance and mentorship from experienced professionals.",
+      "Comprehensive Training: Hands-on training in Data Management, Marketing strategies, and the practical application of AI tools in modern marketing.",
+      "Free Premium Course: Complimentary access to Sharedi's exclusive \"Personal Branding\" course to elevate your professional profile."
      ]
     ]
    ],
@@ -748,6 +1081,71 @@
    "last_seen": "2026-11-20"
   },
   {
+   "title": "Data Analyst",
+   "company": "Công ty TNHH MTV CNTH Viễn Sơn",
+   "location": "Thành phố Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://glints.com/vn/opportunities/jobs/data-analyst/537fc2c8-800a-4251-a2f0-bf00e47e2e7e",
+   "source": "Glints",
+   "date": "2026-11-19",
+   "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/2a6ce4568e0fbdb8336a2648ebf02d11.png",
+   "exp": "1+ năm",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Google Sheets",
+    "Excel",
+    "Data Quality",
+    "Power BI",
+    "Data Warehouse",
+    "Tiếng Anh",
+    "Looker"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "THU THẬP VÀ XỬ LÝ DỮ LIỆU",
+      "Thu thập dữ liệu từ nhiều nguồn: ERP, CRM, Google Sheet, Excel, Database, phần mềm nội bộ",
+      "Làm sạch, chuẩn hóa và kiểm tra tính chính xác của dữ liệu.",
+      "Kiểm soát chất lượng dữ liệu, phát hiện dữ liệu bất thường hoặc sai lệch.",
+      "Xây dựng và duy trì hệ thống dữ liệu phục vụ báo cáo.",
+      "Tổng hợp dữ liệu định kỳ theo yêu cầu của các phòng ban và Ban lãnh đạo.",
+      "PHÂN TÍCH DỮ LIỆU",
+      "Phân tích số liệu kinh doanh, vận hành và hiệu suất hoạt động."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "1. Trình độ học vấn/ chuyên môn: Đại học",
+      "2. Trình độ ngoại ngữ, tin học: Thành thạo tiếng Anh (IELTS 6.5 trở lên hoặc TOEIC 800 trở lên) và thành thạo Tin học văn phòng",
+      "3. Năng lực/ kỹ năng",
+      "Thành thạo Excel nâng cao",
+      "Có kinh nghiệm sử dụng Power BI/ Looker Studio",
+      "Hiểu về dữ liệu, KPI, Business Metrics, Dashboard Visualization",
+      "Có kỹ năng phân tích dữ liệu và tư duy tốt",
+      "Có kiến thức về Data, Automation, AI Tools"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Thu nhập cạnh tranh theo năng lực và kinh nghiệm.",
+      "Thưởng hiệu quả công việc và thưởng cuối năm.",
+      "Tham gia đầy đủ BHXH, BHYT, BHTN theo quy định.",
+      "Môi trường làm việc chuyên nghiệp, ổn định và có cơ hội phát triển",
+      "Có phần ăn sáng - ăn trưa miễn phí tại nhà ăn của Công ty",
+      "Khám sức khỏe định kỳ hằng năm",
+      "Du lịch, Team Building trong và ngoài nước",
+      "Tham gia các câu lạc bộ thể dục thể thao"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-20"
+  },
+  {
    "title": "Chuyên Viên Phân Tích Dữ Liệu - Data Analyst",
    "company": "Phenikaa Group",
    "location": "Hà Nội",
@@ -1157,7 +1555,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   {
    "title": "Data Governance Manager",
@@ -1622,7 +2020,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   {
    "title": "Trưởng Nhóm Quản Trị Dữ Liệu (Data Governance Lead)",
@@ -2223,7 +2621,7 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   {
    "title": "Senior Data Engineer | High-Impact Fintech Environment",
@@ -3459,7 +3857,7 @@
     ]
    ],
    "logo": "logos/aia-vietnam.png",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   {
    "title": "Actuarial Business Solutions Intern",
@@ -3517,7 +3915,7 @@
     ]
    ],
    "logo": "logos/aia-vietnam.png",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   {
    "title": "[Hà Nội] Chuyên gia Quản lý Dữ liệu tài chính (MIS) - Khối Thị trường và Quản trị tài chính",
@@ -4693,7 +5091,7 @@
     ]
    ],
    "logo": "logos/aia-vietnam.png",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   {
    "title": "Senior Data Architect",
@@ -7676,7 +8074,7 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   {
    "title": "Thực Tập Sinh Business & Data Analyst (BA)",
@@ -7856,6 +8254,65 @@
       "Comprehensive employee well-being benefits, including health insurance/healthcare coverage, annual health check-ups, birthday gifts from the Bank, team-building activities, year-end parties, and more.",
       "Provision of all necessary tools and equipment to support work effectively.",
       "Access to professional and technical training programs to enhance job-related competencies."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-20"
+  },
+  {
+   "title": "Graduate Development Program (TikTok Shop E-commerce, Vietnam) - 2027 Start",
+   "company": "TikTok",
+   "location": "Ho Chi Minh City",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4449744949",
+   "source": "LinkedIn",
+   "date": "2026-11-11",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQHYzDOZhwEZ7Q/company-logo_100_100/B56Zl_CaXSIAAU-/0/1758772964879/tiktok_logo?e=2147483647&v=beta&t=pOXL9bnyBOPMlI34LzNiPIxaX9lk7ry0r40olePnSGE",
+   "level": [
+    "intern"
+   ],
+   "skills": [
+    "Excel",
+    "SQL"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "TikTok Shop is redefining how people shop for the things they love through a unique discovery e-commerce model that brings together joy, entertainment, and commerce in one seamless experience.",
+      "The TikTok Shop Graduate Development Program is a curated management trainee program designed for high-potential Bachelor's degree graduates who are excited about building the future of e-commerce in…",
+      "The program offers an accelerated pathway for early career talent to develop commercial judgment, analytical capability, operational excellence, and cross-functional leadership in one of the…",
+      "From Day 1, you will take on meaningful business responsibilities through curated rotations across core e-commerce teams.",
+      "Each rotation is designed to give you hands-on exposure to how we grow sellers, engage creators, run large scale campaigns, improve platform operations, and solve complex business problems.",
+      "Upon successful completion of the program, graduates will be well-positioned to take on a high-impact role with continued opportunities to grow as future business, operations, or strategy leaders.",
+      "Rotation Opportunities",
+      "Acquisition and Incubation: Support sellers from launch to early growth through acquisition, onboarding, training, and incubation."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Minimum Qualification(s)",
+      "Individuals who are completing or have recently completed a Bachelor's degree in any field or a related discipline.",
+      "Strong interest in e-commerce, technology, digital platforms, consumer products, creator economy, or business operations.",
+      "Strong analytical and problem-solving skills, with the ability to work with data, structure ambiguous problems, and develop practical recommendations.",
+      "Clear and effective communication skills, with the ability to collaborate with stakeholders across teams and markets.",
+      "Demonstrated intellectual curiosity, learning agility, ownership, and resilience in a fast-paced environment.",
+      "Preferred Qualification(s)",
+      "Academic background in Business, Economics, Finance, Accounting, Analytics, Data Science, Information Systems, Information Technology, Engineering, Computer Science, or related disciplines."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Inspiring creativity is at the core of TikTok's mission.",
+      "Our innovative product is built to help people authentically express themselves, discover and connect – and our global, diverse teams make that possible.",
+      "Together, we create value for our communities, inspire creativity and bring joy - a mission we work towards every day.",
+      "We strive to do great things with great people.",
+      "We lead with curiosity, humility, and a desire to make impact in a rapidly growing tech company.",
+      "Every challenge is an opportunity to learn and innovate as one team.",
+      "We're resilient and embrace challenges as they come.",
+      "By constantly iterating and fostering an \"Always Day 1\" mindset, we achieve meaningful breakthroughs for ourselves, our company, and our users."
      ]
     ]
    ],
@@ -8115,7 +8572,7 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   {
    "title": "Thực Tập Sinh Phân Tích Doanh Nghiệp AI/BI",
@@ -8408,6 +8865,51 @@
    "location": "Thành phố Hồ Chí Minh",
    "region": "VN",
    "url": "https://sacombankcareer.com/job/Th%C3%A0nh-ph%E1%BB%91-H%E1%BB%93-Ch%C3%AD-Minh-CHUY%C3%8AN-VI%C3%8AN-CAO-C%E1%BA%A4P-QU%E1%BA%A2N-TR%E1%BB%8A-D%E1%BB%AE-LI%E1%BB%86U-PH%C3%92NG-X%E1%BB%AC-L%C3%9D-N%E1%BB%A2-KH%E1%BB%90I-QU%E1%BA%A2N-TR%E1%BB%8A-R%E1%BB%A6I-RO/53113944/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-11-10",
+   "exp": "2+ năm",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Data Governance",
+    "Thống kê",
+    "Tiếng Anh"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Tham gia tham mưu xây dựng kế hoạch xử lý nợ; theo dõi, tổng hợp, đánh giá kết quả thực hiện kế hoạch và đề xuất các giải pháp nhằm thúc đẩy hoàn thành chỉ tiêu xử lý nợ theo phân công.",
+      "Tham gia phân tích chuyên sâu về nợ quá hạn, quản trị nợ và dữ liệu, quản trị chiến lược",
+      "Thực hiện công tác quản trị, cập nhật và vận hành hệ thống cơ sở dữ liệu nợ quá hạn; đảm bảo dữ liệu đầy đủ, chính xác, kịp thời và tuân thủ quy định.",
+      "Thực hiện thống kê, tổng hợp, phân tích và lập các báo cáo thông tin, dữ liệu nợ quá hạn phục vụ công tác quản lý, điều hành và đánh giá hiệu quả xử lý nợ.",
+      "Lập và gửi các báo cáo nợ quá hạn định kỳ và đột xuất theo yêu cầu của Ngân hàng Nhà nước, Cơ quan Thanh tra, giám sát, các cơ quan chức năng có thẩm quyền và theo chỉ đạo của Ban Lãnh đạo.",
+      "Thực hiện xây dựng các báo cáo chuyên sâu, báo cáo quản trị nội bộ liên quan đến nợ quá hạn; đảm bảo số liệu chính xác, nội dung phân tích phù hợp yêu cầu quản trị.",
+      "Thực hiện hỗ trợ, cung cấp dữ liệu phục vụ công tác xử lý nợ cho các đơn vị, bộ phận nghiệp vụ liên quan theo phân công và quy định."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Tốt nghiệp Đại học trở lên các ngành: Kinh tế, tài chính, ngân hàng, quản trị kinh doanh, luật, kiểm toán hoặc các chuyên ngành có liên quan.",
+      "Chuẩn tiếng Anh B1 (CEFR) hoặc các chứng chỉ tương đương theo từng thời kỳ.",
+      "Thành thạo vi tính văn phòng và các phần mềm ứng dụng.",
+      "Tối thiểu 02 năm kinh nghiệm làm việc tại Ngân hàng liên quan đến hoạt động tín dụng.",
+      "Am hiểu bộ máy và cơ cấu tổ chức hoạt động của Sacombank, quy định pháp luật về tín dụng, xử lý nợ, các trình tự tố tụng.",
+      "Hoàn thành khung chuẩn đào tạo theo quy định trong từng thời kỳ."
+     ]
+    ]
+   ],
+   "logo": "logos/sacombank.png",
+   "last_seen": "2026-11-20"
+  },
+  {
+   "title": "CHUYÊN VIÊN CAO CẤP QUẢN TRỊ DỮ LIỆU - PHÒNG XỬ LÝ NỢ - KHỐI QUẢN TRỊ RỦI RO (VN)",
+   "company": "Sacombank",
+   "location": "",
+   "region": "VN",
+   "url": "https://sacombankcareer.com/job/CHUY%C3%8AN-VI%C3%8AN-CAO-C%E1%BA%A4P-QU%E1%BA%A2N-TR%E1%BB%8A-D%E1%BB%AE-LI%E1%BB%86U-PH%C3%92NG-X%E1%BB%AC-L%C3%9D-N%E1%BB%A2-KH%E1%BB%90I-QU%E1%BA%A2N-TR%E1%BB%8A-R%E1%BB%A6I-RO/53113944/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
    "source": "Trang công ty",
    "date": "2026-11-10",
    "exp": "2+ năm",
@@ -9054,7 +9556,7 @@
     ]
    ],
    "logo": "logos/aia-vietnam.png",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   {
    "title": "Actuarial Senior Analyst (Chuyên viên Cấp cao Định phí Bảo hiểm)",
@@ -11784,7 +12286,7 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   {
    "title": "Actuarial Manager (Quản lý Định phí bảo hiểm)",
@@ -11817,7 +12319,7 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   {
    "title": "Data & AI Enablement Lead",
@@ -12286,7 +12788,7 @@
     "R"
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "exp": "4–6 năm",
    "sections": [
     [
@@ -15384,7 +15886,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   {
    "title": "Chuyên Viên/ Chuyên Viên Cao Cấp Định Phí Bảo Hiểm Actuary",
@@ -17005,6 +17507,61 @@
    "last_seen": "2026-11-17"
   },
   {
+   "title": "CHUYÊN VIÊN PHÁT TRIỂN MIS (DATA ANALYST) - TT PHÁT TRIỂN ỨNG DỤNG - KHỐI CÔNG NGHỆ THÔNG TIN (VN)",
+   "company": "Sacombank",
+   "location": "",
+   "region": "VN",
+   "url": "https://sacombankcareer.com/job/CHUY%C3%8AN-VI%C3%8AN-PH%C3%81T-TRI%E1%BB%82N-MIS-%28DATA-ANALYST%29-TT-PH%C3%81T-TRI%E1%BB%82N-%E1%BB%A8NG-D%E1%BB%A4NG-KH%E1%BB%90I-C%C3%94NG-NGH%E1%BB%86-TH%C3%94NG-TIN/16141344/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-10-30",
+   "exp": "1+ năm",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Data Warehouse",
+    "Data Modeling",
+    "Tiếng Anh",
+    "SQL",
+    "ETL",
+    "R",
+    "Python",
+    "SAS",
+    "SSIS",
+    "Informatica",
+    "Kafka",
+    "Redshift",
+    "BigQuery"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Xây dựng giải pháp và lập trình các tầng xử lý trên hệ thống MIS bao gồm: Data Warehouse, Data Model, BI",
+      "Tích hợp tất cả các nguồn dữ liệu từ các hệ thống ứng dụng vào Data Warehouse",
+      "Hỗ trợ các Đơn vị nghiệp vụ ngân hàng khi có nhu cầu khai thác dữ liệu từ hệ thống Mis/DW.",
+      "Thực hiện phân tích các mô hình dữ liệu, dự đoán, dự báo, báo cáo phân tích,..",
+      "Báo cáo định kỳ theo quy định hoặc theo yêu cầu của cấp quản lý trực tiếp."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "1. Bằng cấp/Chứng chỉ:",
+      "Tốt nghiệp Đại học trở lên các chuyên ngành CNTT hoặc các ngành có liên quan.",
+      "Tiếng anh: Có khả năng giao tiếp; đọc hiểu tài liệu kỹ thuật.",
+      "2. Kiến thức/Kinh nghiệm chuyên môn:",
+      "Có ít nhất một trong các nhóm kỹ năng sau:",
+      "Nắm vững kiến thức về Database (Oracle,SQL,Server), thành thạo PL/SQL và các công cụ tích hợp dữ liệu ELT.",
+      "Có kinh nghiệm tối thiểu 1 năm làm việc với các công cụ BI (OBIEE / OAS )",
+      "Có kinh nghiệm tối thiểu 1 năm phân tích dữ liệu, sử dụng các ngôn ngữ R, Python,.. sử dụng công cụ SAS,.."
+     ]
+    ]
+   ],
+   "logo": "logos/sacombank.png",
+   "last_seen": "2026-11-20"
+  },
+  {
    "title": "Kỹ Sư AI và Dữ Liệu (AI & Data Engineer)",
    "company": "CÔNG TY CỔ PHẦN THỜI TRANG H VÀ A (PANTIO)",
    "location": "Hà Nội",
@@ -17741,7 +18298,7 @@
     "Airflow",
     "dbt"
    ],
-   "last_seen": "2026-11-18",
+   "last_seen": "2026-11-20",
    "sections": [
     [
      "Mô tả công việc",
@@ -20212,7 +20769,7 @@
     "Docker",
     "Kubernetes"
    ],
-   "last_seen": "2026-11-19",
+   "last_seen": "2026-11-20",
    "exp": "5+ năm",
    "sections": [
     [
@@ -22081,7 +22638,7 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   {
    "title": "Actuarial Analyst (Chuyên viên Định phí Bảo hiểm)",
@@ -22131,7 +22688,7 @@
     ]
    ],
    "logo": "logos/prudential-vietnam.png",
-   "last_seen": "2026-11-19"
+   "last_seen": "2026-11-20"
   },
   {
    "title": "Supply Chain Data Analyst (Total Annual Compensation Up-To 37,000 USD)",
@@ -24388,6 +24945,7 @@
   "https://www.vietnamworks.com/project-commercial-trainee-1794544609040301720-2131056-jv",
   "https://www.vietnamworks.com/sales-trainee-concrete-2126239-jv",
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1793262742027719009-2125340-jv",
-  "https://www.vietnamworks.com/southeast-asia-trainee-programme-1794219909943462213-2129413-jv"
+  "https://www.vietnamworks.com/southeast-asia-trainee-programme-1794219909943462213-2129413-jv",
+  "https://ybox.vn/tuyen-dung/hai-phong-ngan-hang-viet-a-bank-tuyen-dung-cong-tac-vien-quan-he-khach-hang-ca-nhan-kiem-soat-vien-giao-dich-vien-chuyen-vien-tap-su-chuyen-vien-chuyen-vien-cap-cao-quan-he-khach-hang-ca-nhan-part-time-full-time-2026-6b0015a0f1c5e248d9ca63d0"
  ]
 }
