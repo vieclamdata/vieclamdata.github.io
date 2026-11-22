@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T06:47+00:00",
+ "updated": "2026-11-22T19:51+00:00",
  "jobs": [
   {
    "title": "Senior Data Analyst / Business Intelligence Analyst (4 headcounts)",
@@ -602,6 +602,71 @@
      ]
     ]
    ],
+   "last_seen": "2026-11-22"
+  },
+  {
+   "title": "Senior Data Scientist (Techcom Insurance)",
+   "company": "Techcombank",
+   "location": "TP. Ha Noi",
+   "region": "VN",
+   "url": "https://www.techcombankjobs.com/job/TP_-Ha-Noi-Senior-Data-Scientist-%28Techcom-Insurance%29/59202244/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-11-20",
+   "exp": "10+ năm",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Machine Learning",
+    "Data Modeling",
+    "Deep Learning",
+    "Thống kê",
+    "Tiếng Anh",
+    "Python",
+    "R",
+    "Spark",
+    "Scala",
+    "SQL",
+    "Java",
+    "C++"
+   ],
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "Job Purpose",
+      "The job holder proposes, initiates and manages mutliple ML projects together with business in order to address problems raised before linked to company OKRs and product enhancements using DS methods,…",
+      "The job holder also participates in strategic deicion circles and contributes to guiding business high level and providing strategic data guidance"
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "Data Solutioning",
+      "Evaluate effectiveness of proposed models and track business performance KPIs against data model.",
+      "Build cutting-edge algorithms and work with machine learning and deep learning tools to deliver advance analytics solutions across the firm including recommendation engines, customized data models,…",
+      "Drive application of machine learning and big data techniques across different journeys and squads.",
+      "Manage, execute, and review complex data science projects in an agile manner and in compliance with internal regulatory requirements.",
+      "Data Insighting",
+      "Lead the identification and interpretation of meaningful and actionable insights from large data and metadata sources together with business partners.",
+      "Review processes and tools designed to monitor and analyze model performance and prediction accuracy."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Master’s degree (or higher) in Statistics, Mathematics, Quantitative Analysis, Computer Science, Software Engineering, Information Technology or other Numerical Disciplines",
+      "Work Experience",
+      "10+ years of relevant experience in areas of data analysis, machine learning, deep learning model development on large amount of data, implementing and deploying various statistical models",
+      "English proficiency requirements are pursuant to Techcombank's policy",
+      "Deep experience in querying databases and coding (e.g. Python, R, Spark, Scala, SQL, Java, C, C++)",
+      "Extensive experience in building data and analytics solutions and products, data mining and statistical analysis",
+      "Experience in application of machine learning and AI to questions related to the financial markets",
+      "Strategic decision taking and thinking, able to deal with very senior management, translate tech to business and vice versa"
+     ]
+    ]
+   ],
+   "logo": "logos/techcombank.png",
    "last_seen": "2026-11-22"
   },
   {
@@ -2131,6 +2196,72 @@
       "Clearly defined long-term multi-career roadmap;",
       "Unlimited development & training opportunities (Language Training, Technical Training, Soft-skill Training, On-job Training, etc.)",
       "Oversea business trips (Japan, China, Singapore, US, Mexico, EU, etc.)"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-22"
+  },
+  {
+   "title": "Operations Data Team Lead",
+   "company": "Intrepid Asia",
+   "location": "Ho Chi Minh City, Vietnam",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4491499192",
+   "source": "LinkedIn",
+   "date": "2026-11-18",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQGWUPt8TcIbug/company-logo_100_100/company-logo_100_100/0/1713918788734/flywheelsea_logo?e=2147483647&v=beta&t=PM6Rs3-0LhAYFtaTxj5TliYGwuJNrO5vis_ubIVHWVI",
+   "level": [
+    "lead"
+   ],
+   "skills": [
+    "Python",
+    "SQL",
+    "BigQuery",
+    "Looker",
+    "Power BI",
+    "Data Quality",
+    "Tiếng Anh",
+    "Excel"
+   ],
+   "exp": "3–5 năm",
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "As our Operations Data Team lead you will build and lead our data function from the ground up.",
+      "You own system data reconciliations and Operations Dashboards, workflows using tools such as Python, SQL, and Google BigQuery to provide actionable business intelligence for critical e-commerce…",
+      "As the Operations Data Team Lead you will take charge of :",
+      "Data Reconciliation Automation:",
+      "Design the data architecture: datasets, naming, partitioning, access control, cost limits",
+      "Write, optimize, and maintain complex queries using tools such as SQL and Python to extract metrics from transactional and behavioral datasets",
+      "Manage data workflows and query executions directly inside Google BigQuery and Apps Script environments",
+      "Maintain master data pipelines to ensure consistent cross-channel sync across e-commerce seller portals and digital storefronts"
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "What we are looking for - the ideal profile",
+      "Experience: 3 to 5+ years of hands-on experience in data operations, data analytics, or tech-driven e-commerce operations, with a minimum of 1-2 years in a leadership or supervisory capacity",
+      "Technical Skills: Good command of query tools and architectural familiarity with Google BigQuery are mandatory.",
+      "Proven mastery over at least one modern dashboard ecosystem.",
+      "Preferred for Google ecosystem synergy.",
+      "Clear, structured thinking: breaks vague problems into steps, writes it down, checks assumptions",
+      "Industry Domain: Intimate familiarity with B2C/B2B retail e-commerce pipelines, marketplace seller backends, or modern digital logistics structures.",
+      "Language & Communication: Good business English proficiency to effectively align with regional reporting lines and guide the team execution squads"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "In return, you will be getting",
+      "Operations in e-commerce is an incredibly dynamic field—marked by rapid replenishment cycles, tight fulfilment timelines, and major demand spikes during campaigns.",
+      "It's fast-paced, challenging, and comes with an undeniable adrenaline rush!",
+      "Intrepid partners with leading international brands across categories such as FMCG, fashion, and electronics—each with its own unique operational needs.",
+      "With multi-warehouse and omni-channel fulfilment solutions, we create the ultimate operations playground.",
+      "It's a complex, fast-paced environment with plenty to learn and tremendous satisfaction once mastered—offering strong potential for career growth and development",
+      "You don't have to manage everything in Excel, we run a lot of processes on our advanced inhouse systems and automate where we can.",
+      "Many of our warehouses are fully API integrated."
      ]
     ]
    ],
@@ -4028,7 +4159,7 @@
     ]
    ],
    "logo": "logos/aia-vietnam.png",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "title": "Actuarial Business Solutions Intern",
@@ -4086,7 +4217,7 @@
     ]
    ],
    "logo": "logos/aia-vietnam.png",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "title": "[Hà Nội] Chuyên gia Quản lý Dữ liệu tài chính (MIS) - Khối Thị trường và Quản trị tài chính",
@@ -5262,7 +5393,7 @@
     ]
    ],
    "logo": "logos/aia-vietnam.png",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "title": "Senior Data Architect",
@@ -6145,7 +6276,7 @@
     ]
    ],
    "logo": "logos/abbott.png",
-   "last_seen": "2026-11-20"
+   "last_seen": "2026-11-22"
   },
   {
    "title": "Data Pipeline Lead, Player One",
@@ -7367,7 +7498,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "title": "Hotel Market Research & Business Intelligence Specialist",
@@ -8484,6 +8615,67 @@
       "Every challenge is an opportunity to learn and innovate as one team.",
       "We're resilient and embrace challenges as they come.",
       "By constantly iterating and fostering an \"Always Day 1\" mindset, we achieve meaningful breakthroughs for ourselves, our company, and our users."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-22"
+  },
+  {
+   "title": "Senior Data Engineer",
+   "company": "SOCOTEC",
+   "location": "Quận Cầu Giấy",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4462942076",
+   "source": "LinkedIn",
+   "date": "2026-11-11",
+   "logo": "https://media.licdn.com/dms/image/v2/C560BAQGf8uzRAAZS5w/company-logo_100_100/company-logo_100_100/0/1631333589236?e=2147483647&v=beta&t=a4J3QjOv68M_7HGX654MC29EiGKNdVZn0V2jFJK8jcw",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Power BI",
+    "Databricks",
+    "SQL",
+    "LLM / GenAI",
+    "NoSQL",
+    "Spark",
+    "Hadoop",
+    "Airflow",
+    "Kafka",
+    "Git",
+    "AWS",
+    "ETL",
+    "Data Quality"
+   ],
+   "exp": "3+ năm",
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "Description Du Poste",
+      "SOCOTEC VIETNAM is a technical support platform for the SOCOTEC GROUP providing expert services on a range of projects in testing, inspection and certification (TIC) in the construction and…",
+      "Around the globe, more than 15,000 experts in 26 countries across 5 continents deliver professional services in construction, buildings & real estate, infrastructures, environment & safety and…"
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "Develop end-to-end data pipelines (ingestion, transformation, modeling, exposure) and contribute to the implementation of visualizations in Power BI or Databricks SQL.",
+      "Continuously improve the SOCOTEC Lakehouse, particularly in the areas of governance, quality, and data pseudonymization.",
+      "Experiment with generative AI solutions applied to data, such as Databricks GenIE, to transform text queries into actionable insights."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Bachelor's degree in Big Data, Computer Science, or Software Engineering with a strong specialization or appetite for data and distributed architectures.",
+      "At least 3 years of experience in Data Engineering",
+      "Strong mastery of SQL and NoSQL databases (modeling, optimized queries, integrity, and performance).",
+      "Good understanding of Big Data architecture and distributed processing tools (Spark, Hadoop, Airflow, Kafka, Delta Lake, etc.).",
+      "Prior experience with Databricks would be appreciated.",
+      "Good communication skills in English or French.",
+      "Experience with collaborative development environments: Git, GitLab, Jupyter Notebooks, VS Code",
+      "Valued knowledge of AWS cloud services."
      ]
     ]
    ],
@@ -9727,7 +9919,7 @@
     ]
    ],
    "logo": "logos/aia-vietnam.png",
-   "last_seen": "2026-11-21"
+   "last_seen": "2026-11-22"
   },
   {
    "title": "Actuarial Senior Analyst (Chuyên viên Cấp cao Định phí Bảo hiểm)",
@@ -14902,6 +15094,82 @@
    "last_seen": "2026-11-21"
   },
   {
+   "title": "[HCM] CV/CVC/CVCC Kỹ thuật Dữ liệu (DE)",
+   "company": "LPBank",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://tuyendung.lpbank.com.vn/vi/jobs/y1a3ny",
+   "source": "Trang công ty",
+   "date": "2026-11-03",
+   "level": [
+    "mid",
+    "senior"
+   ],
+   "skills": [
+    "Data Warehouse",
+    "Data Modeling",
+    "ETL",
+    "Data Governance",
+    "Data Quality",
+    "SQL",
+    "NoSQL",
+    "Python",
+    "Power BI",
+    "Spark",
+    "Hadoop",
+    "Kafka",
+    "Flink",
+    "Airflow",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "Linux"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Thiết kế, phát triển và vận hành Data Platform (ODS, Data Warehouse, Data Lakehouse), bảo đảm dữ liệu được thu thập, xử lý và cung cấp kịp thời, chính xác cho báo cáo, phân tích và các mô hình dữ…",
+      "Tích hợp dữ liệu: Kết nối, thu thập dữ liệu từ hệ thống nguồn; xây dựng pipeline batch/streaming; thiết kế framework tích hợp dữ liệu dùng chung; tối ưu realtime integration và CDC.",
+      "Cung cấp dữ liệu: Thiết kế, triển khai cơ chế cung cấp dữ liệu cho các downstream systems qua database feed, file feed, message queue hoặc API; chịu trách nhiệm (ownership) SLA cung cấp dữ liệu.",
+      "Chất lượng và bảo mật dữ liệu: Quản lý mapping, metadata, lineage; bảo đảm dữ liệu chính xác, đầy đủ và tuân thủ yêu cầu bảo mật.",
+      "Data modeling và xử lý dữ liệu: Thiết kế data model logic/vật lý chuẩn cấp domain/enterprise; thiết kế quy trình làm sạch, chuẩn hóa, biến đổi dữ liệu; chuẩn hóa data standards trong team.",
+      "Tối ưu hiệu năng: Tối ưu truy vấn, partitioning, indexing, storage format, khả năng mở rộng và tính sẵn sàng cao khi xử lý dữ liệu khối lượng lớn.",
+      "DataOps và vận hành: Xây dựng scheduler, monitoring, alerting cho job dữ liệu; chuẩn hóa CI/CD, tự động hóa release/rollback/auto-remediation; chịu trách nhiệm SLA/SLO của nền tảng dữ liệu; giảm can…",
+      "Nghiên cứu và chia sẻ: Nghiên cứu, đánh giá, thử nghiệm công nghệ mới cho nền tảng dữ liệu; đào tạo, chia sẻ kiến thức kỹ thuật trong nội bộ."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Ngân hàng & Dữ liệu: Am hiểu nghiệp vụ ngân hàng, hệ thống xử lý dữ liệu, báo cáo ngành tài chính.",
+      "Quy trình & Xu hướng: Thành thạo Agile; nắm bắt chuyển đổi số, Fintech.",
+      "Pháp lý & An toàn thông tin: Hiểu quy định NHNN, pháp luật về an toàn thông tin và bảo vệ dữ liệu cá nhân (ưu tiên).",
+      "2. Kỹ năng Chuyên môn",
+      "Kiến trúc & Data Modeling: Nắm vững DWH, Data Lake/Lakehouse và thiết kế mô hình dữ liệu (dimensional, normalized).",
+      "Xử lý dữ liệu (ETL/ELT): Thành thạo Batch, Streaming, CDC, xây dựng và tối ưu Data Pipeline.",
+      "Tối ưu hiệu năng: Xử lý dữ liệu lớn (partitioning, indexing, query tuning).",
+      "DataOps & Vận hành: Nắm vững CI/CD, version control, tự động hóa kiểm thử, monitoring, xử lý sự cố trên Production."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "1. Chế độ đãi ngộ hấp dẫn, xứng tầm",
+      "Lương hàng tháng và các chế độ phụ cấp cạnh tranh trên thị trường",
+      "Thưởng cuối năm hấp dẫn theo đánh giá hiệu quả công việc",
+      "Thưởng sinh nhật, Lễ/Tết,Chế độ thăm hỏi ốm đau...",
+      "Chăm sóc sức khoẻ toàn diện: Khám sức khoẻ hàng năm, gói bảo hiểm độc quyền dảnh riêng cho LPBanker",
+      "Các hoạt động teambuilding, nhiều chương trình văn hóa - thể thao gắn kết nội bộ",
+      "2. Môi trường làm việc hiện đại, tiên phong đổi mới sáng tạo",
+      "Không gian làm việc trẻ trung, hiện đại, đề cao sự sáng tạo"
+     ]
+    ]
+   ],
+   "logo": "logos/lpbank.png",
+   "last_seen": "2026-11-22"
+  },
+  {
    "title": "HO - Data Science Expert",
    "company": "Ngân Hàng TMCP Á Châu (ACB)",
    "location": "Hồ Chí Minh",
@@ -17452,7 +17720,7 @@
     "Thống kê",
     "Python"
    ],
-   "last_seen": "2026-11-21",
+   "last_seen": "2026-11-22",
    "exp": "3+ năm",
    "level": [
     "mid"
@@ -22973,6 +23241,7 @@
   }
  ],
  "rejected": [
+  "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Vietnam---Bien-Hoa/XMLNAME--South-East--Senior--MT-Sales-Supervisor_31167553",
   "https://tuyendung.ncb-bank.vn/vi/jobs/PB1YMy",
   "https://tuyendung.ncb-bank.vn/vi/jobs/PW32WP",
   "https://tuyendung.ncb-bank.vn/vi/jobs/qD2rQP",
@@ -22999,9 +23268,7 @@
   "https://www.vietnamworks.com/chuong-trinh-ky-su-tap-su-technical-diploma-trainee-1794993071564895367-2132661-jv",
   "https://www.vietnamworks.com/engineer-trainee-fresher-2126423-jv",
   "https://www.vietnamworks.com/goertek-management-trainee-program-2027-1795084473567799099-2133267-jv",
-  "https://www.vietnamworks.com/graduate-engineering-trainee-1792730133447338887-2122883-jv",
   "https://www.vietnamworks.com/industrial-trainee-coffee-operations-1794481077374308388-2111996-jv",
-  "https://www.vietnamworks.com/management-trainee-for-operations-1792723030155137607-2122702-jv",
   "https://www.vietnamworks.com/marketing-trainee-1794281048012739690-2129588-jv",
   "https://www.vietnamworks.com/marketing-trainee-6-month-contract-1794458673776283842-2130590-jv",
   "https://www.vietnamworks.com/mb-trainee-information-security-grc-fresher-khoi-cong-nghe-thong-tin-2026td457289-1793161615912956699-2124643-jv",
