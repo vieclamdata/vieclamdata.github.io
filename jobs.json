@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T08:21+00:00",
+ "updated": "2026-11-25T21:43+00:00",
  "jobs": [
   {
    "title": "Senior Business Intelligence",
@@ -174,7 +174,7 @@
    "date": "2026-11-25",
    "logo": "https://images.glints.com/unsafe/glints-dashboard.oss-ap-southeast-1-internal.aliyuncs.com/company-logo/19c036912239091a33849349304b6702.png",
    "salary": "9–15 triệu",
-   "exp": "1+ năm",
+   "exp": "1–3 năm",
    "level": [
     "junior"
    ],
@@ -312,6 +312,286 @@
     ]
    ],
    "logo": "logos/vnpay.png",
+   "last_seen": "2026-11-25"
+  },
+  {
+   "title": "Head of Data Analytics (Trưởng phòng Phân tích dữ liệu)",
+   "company": "VinSmart Future",
+   "location": "Hanoi Capital Region",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4493076726",
+   "source": "LinkedIn",
+   "date": "2026-11-25",
+   "logo": "https://media.licdn.com/dms/image/v2/D560BAQEQIosnKcUndw/company-logo_100_100/B56Z4F3QHAIQAM-/0/1778214830772/vinsmart_future_logo?e=2147483647&v=beta&t=UfnyjLfBm9QWLQNtJOFe9gET-zFWZNg87QRb0QOEXyg",
+   "level": [
+    "lead"
+   ],
+   "skills": [
+    "Data Governance",
+    "BigQuery",
+    "NLP",
+    "Mô hình rủi ro",
+    "SQL",
+    "Power BI",
+    "Excel",
+    "LLM / GenAI",
+    "Python",
+    "dbt",
+    "Git"
+   ],
+   "exp": "2+ năm",
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "Location: HN - Technopark / HCM - Vincom Dong Khoi ( both Location are Accpeted)",
+      "About GSM",
+      "GSM (Xanh SM) is a mobility and delivery company within the Vingroup ecosystem, operating two-wheeler and four-wheeler ride-hailing, parcel delivery and food delivery."
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "You will lead the Data Analytics team within the Data Governance division, reporting directly to the Head of Division.",
+      "The team owns the company-wide metric definitions and the automated management reporting system used by leadership and every function.",
+      "You will be the main point of contact on metric content and reporting for Business, Operations, Marketing, Finance, Accounting, Legal and HR, from intake of a request through to sign-off of the…",
+      "The team works AI-agent-first: agents handle repetitive work, while people focus on definitions, quality control and interpreting the numbers.",
+      "Lead the company's data catalog: business processes, source data, metrics, formulas and analysis dimensions",
+      "Receive and standardize metric requests from each function, ensuring every metric has one definition and one source of truth",
+      "Build and maintain multi-level management reporting, from company leadership dashboards to detailed reports for each function and market",
+      "Build and run an AI-agent analytics assistant connected to the data catalog and BigQuery, so users can ask questions about the numbers in natural language and get answers that follow the company's…"
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "5+ years in data analytics or BI, including 2+ years managing a team",
+      "Experience building a shared metric definition set or data dictionary used across multiple functions",
+      "Strong SQL (BigQuery preferred), Power BI and advanced Excel",
+      "Real-world experience using LLMs and AI agents in analytics work: delegating tasks to agents, verifying results and recognizing when an agent is wrong",
+      "Solid grounding in dimensional modeling (Kimball)",
+      "Ability to read management financial reports: revenue, costs, EBITDA and cash flow",
+      "Good working English, reading and writing",
+      "Strong attention to detail, and the resilience to align metric definitions with function heads"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Competitive compensation, negotiable based on experience",
+      "Lead the data and reporting system of a company expanding across international markets",
+      "Work directly with function leaders and the data platform team"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-25"
+  },
+  {
+   "title": "Nhân Viên Thu Thập Dữ Liệu",
+   "company": "Công Ty AI Comforce",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://ybox.vn/tuyen-dung/hn-cong-ty-ai-comforce-tuyen-dung-thuc-tap-sinh-nhan-su-nhan-vien-thu-thap-du-lieu-part-time-full-time-2026-6b06c71d46d3b9619d5e8b53",
+   "source": "Ybox",
+   "date": "2026-11-25",
+   "logo": "https://static.ybox.vn/2026/11/3/1795617365725-1790134618435-weahr.jpg",
+   "skills": [
+    "Excel",
+    "Google Sheets",
+    "Tiếng Anh"
+   ],
+   "exp": "Không yêu cầu",
+   "level": [
+    "intern"
+   ],
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "AI Comforce cung cấp dịch vụ thu thập dữ liệu, quy trình chuẩn hóa và chất lượng đạt chuẩn kiểm toán cho AI thực thể (embodied AI) và lực lượng lao động số.",
+      "Thực tập sinh Nhân sự Part time"
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "Hỗ trợ tuyển dụng: đăng tin lên nhóm Facebook, Zalo, các sàn việc làm; sàng lọc hồ sơ; liên hệ và hẹn lịch phỏng vấn ứng viên.",
+      "Trả lời tin nhắn, Zalo của ứng viên; cập nhật và quản lý danh sách ứng viên trên Excel/Google Sheet.",
+      "Hỗ trợ tổ chức phỏng vấn và buổi đào tạo cho nhân sự mới (chuẩn bị phòng, tài liệu, điểm danh).",
+      "Hỗ trợ hành chính văn phòng: quản lý hồ sơ, văn phòng phẩm, chấm công, soạn thảo văn bản, tiếp đón khách/ứng viên.",
+      "Hỗ trợ các công việc nhân sự và vận hành khác theo phân công.",
+      "Thực hành thu thập dữ liệu (Nhiệm vụ trọng tâm): Đeo thiết bị ghi hình và dùng hai tay thao tác công việc thực tế tại điểm dự án; đảm bảo hai tay luôn trong khung hình, thao tác chuẩn xác, không che…",
+      "Tối ưu năng suất: Tích cực hoàn thành thời lượng ghi hình đạt chuẩn; vượt định mức cơ bản sẽ nhận thưởng cao 150.000 ₫ cho mỗi giờ đạt chuẩn",
+      "Quản lý thiết bị & Bám sát chất lượng: Kết nối và bảo quản thiết bị ghi hình; theo dõi kết quả kiểm duyệt hàng ngày để kịp thời điều chỉnh các lỗi thao tác"
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Sinh viên năm 3, 4 hoặc mới tốt nghiệp (ưu tiên ngành Quản trị nhân lực, Quản trị kinh doanh, Luật, Ngôn ngữ hoặc các ngành liên quan).",
+      "Không yêu cầu kinh nghiệm, cần tinh thần học hỏi, cẩn thận, có trách nhiệm.",
+      "Biết sử dụng Word, Excel/Google Sheet cơ bản.",
+      "Có thể lên văn phòng tối thiểu 4 ngày/ tuần.",
+      "Ưu tiên bạn có tiếng Anh hoặc tiếng Trung cơ bản.",
+      "Chính sách đãi ngộ",
+      "Hỗ trợ thực tập theo thỏa thuận.",
+      "Được hướng dẫn trực tiếp về các nghiệp vụ nhân sự."
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-25"
+  },
+  {
+   "title": "Thực Tập Sinh Phân Tích Dữ Liệu DNA",
+   "company": "Công Ty GENESTORY",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://ybox.vn/tuyen-dung/hn-cong-ty-genestory-tuyen-dung-thuc-tap-sinh-phan-tich-du-lieu-dna-full-time-2026-6b068e7f5fafa261b52e2711",
+   "source": "Ybox",
+   "date": "2026-11-25",
+   "logo": "https://static.ybox.vn/2026/11/3/1795591410603-logo-genestory.png",
+   "level": [
+    "intern"
+   ],
+   "skills": [],
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "GeneStory - công nghệ tiên phong giải mã gen vì sức khỏe người Việt",
+      "Được đầu tư bởi Tập đoàn Vingroup và kế thừa dữ liệu từ Dự án 1.000 hệ gen người Việt, GeneStory dẫn đầu trong ứng dụng giải mã gen vào chăm sóc sức khỏe.",
+      "Báo cáo của GeneStory phân tích chuyên sâu nguy cơ bệnh lý, đáp ứng thuốc, tiềm năng thế chất – trí tuệ - dinh dưỡng, giúp cá nhân hóa lộ trình sống khỏe và góp phần thúc đẩy y học dự phòng tại Việt…"
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "Hỗ trợ phân tích trình tự ADN từ công nghệ giải trình tự Sanger và công nghệ giải trình tự thế hệ mới NGS (làm sạch dữ liệu, gọi biến thể ADN, ...).",
+      "Hỗ trợ xây dựng các báo cáo, cập nhật các quy trình kỹ thuật",
+      "Hỗ trợ tối ưu các pipeline phân tích.",
+      "Các công việc khác theo sự phân công."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Có kinh nghiệm làm việc trong lĩnh vực giám định pháp y",
+      "Có kinh nghiệm phân tích ADN ty thể sử dụng phần mềm chuyên dụng",
+      "Kỹ năng tin học văn phòng.",
+      "Có trách nhiệm với công việc được giao.",
+      "Sẵn sàng học hỏi, có tinh thần cầu tiến",
+      "Giao tiếp & tương tác tốt với các phòng ban.",
+      "Trung thực, năng động, nhiệt tình trong công việc.",
+      "Chính sách đãi ngộ"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-25"
+  },
+  {
+   "title": "Nhân Viên Data Engineer",
+   "company": "Công Ty Plus Impact",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://ybox.vn/tuyen-dung/hcm-cong-ty-plus-impact-tuyen-dung-nhan-vien-data-engineer-full-time-2026-6b064b860937d022df9ed8c6",
+   "source": "Ybox",
+   "date": "2026-11-25",
+   "logo": "https://static.ybox.vn/2025/8/2/1756185299857-plusimpactlogo.jpg",
+   "skills": [
+    "Chuỗi thời gian",
+    "Docker",
+    "Kubernetes"
+   ],
+   "sections": [
+    [
+     "Giới thiệu",
+     [
+      "PLUS IMPACT là nhà cung cấp dịch vụ EOR (Employer of Record) – dịch vụ quản lý tuyển dụng và nhân sự thay mặt doanh nghiệp.",
+      "Chúng tôi chủ yếu hợp tác với các khách hàng đến từ Nhật Bản, bên cạnh đó còn có các đối tác tại Canada, Ý, Singapore và Hồng Kong.",
+      "Chúng tôi tập trung vào việc kết nối các Kỹ sư Phần mềm giàu kinh nghiệm với các công ty công nghệ tại những thị trường quốc tế này, nhằm mang đến giải pháp nhân sự chất lượng cao và bền vững cho cả…"
+     ]
+    ],
+    [
+     "Mô tả công việc",
+     [
+      "Xây dựng hệ thống tiếp nhận sự kiện: Thiết kế các 𝐀𝐏𝐈/𝐆𝐚𝐭𝐞𝐰𝐚𝐲 chịu tải cao, thu thập dữ liệu sự kiện từ ứng dụng iOS, Android và Web với độ trễ thấp.",
+      "Kiểm soát chuẩn dữ liệu: Phối hợp cùng đội ngũ Backend/Frontend để 𝐜𝐡𝐮𝐚̂̉𝐧 𝐡𝐨́𝐚 𝐓𝐫𝐚𝐜𝐤𝐢𝐧𝐠 𝐏𝐥𝐚𝐧 và xây dựng lớp kiểm duyệt cấu trúc dữ liệu (Schema Validation) ngay tại đầu vào.",
+      "Triển khai 𝐭𝐡𝐮 𝐭𝐡𝐚̣̂𝐩 𝐥𝐨𝐠 𝐮̛́𝐧𝐠 𝐝𝐮̣𝐧𝐠, 𝐦𝐞𝐭𝐫𝐢𝐜𝐬 𝐯𝐚̀ 𝐭𝐫𝐚𝐜𝐞𝐬 theo chuẩn OpenTelemetry để phát hiện bất thường hệ thống tức thì.",
+      "Tối ưu hiệu năng truy vấn, phân mảnh và mở rộng cụm cơ sở dữ liệu phục vụ các bảng điều khiển vận hành trực tiếp (Live Ops).",
+      "Đóng gói dịch vụ và triển khai tự động các luồng xử lý dữ liệu trên môi trường Container."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Từ 𝟐+ 𝐧𝐚̆𝐦 kinh nghiệm.",
+      "Thành thạo lập trình hệ thống và xử lý bất đồng bộ với 𝐆𝐨, Node.js (𝐓𝐲𝐩𝐞𝐒𝐜𝐫𝐢𝐩𝐭) 𝐡𝐨𝐚̣̆𝐜 𝐑𝐮𝐬𝐭.",
+      "Có kinh nghiệm thực tế với hệ thống truyền tải thông điệp: Apache Pulsar, NATS hoặc RabbitMQ.",
+      "Làm việc tốt với cơ sở dữ liệu chuỗi thời gian / phân tích tức thì: TimescaleDB, Apache Druid, Apache Pinot hoặc ScyllaDB.",
+      "Quen thuộc với Docker, Kubernetes (K8s), quy trình CI/CD và giao thức gRPC / Protobuf.",
+      "Giao tiếp tốt bằng 𝐭𝐢𝐞̂́𝐧𝐠 𝐀𝐧𝐡.",
+      "Chính sách đãi ngộ",
+      "Làm việc trong môi trường quốc tế"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-25"
+  },
+  {
+   "title": "HO - Business Intelligence Specialist",
+   "company": "ACB",
+   "location": "Hội sở (Tp. HCM)",
+   "region": "VN",
+   "url": "https://www.acbjobs.com.vn/job/ho-business-intelligence-specialist-56347",
+   "source": "Trang công ty",
+   "date": "2026-11-25",
+   "exp": "3+ năm",
+   "level": [
+    "mid"
+   ],
+   "skills": [
+    "Mô hình rủi ro",
+    "Data Quality",
+    "Data Warehouse",
+    "Thống kê",
+    "SQL",
+    "ETL",
+    "Data Modeling",
+    "Power BI",
+    "Tableau",
+    "Qlik",
+    "Looker",
+    "Python",
+    "R",
+    "SAS",
+    "Hadoop"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Data Analysis & Business Insights",
+      "Analyze large volumes of banking data from Core Banking Systems, CRM platforms, Digital Banking channels, and other internal/external sources.",
+      "Identify business opportunities, customer trends, revenue drivers, cost optimization opportunities, and operational inefficiencies.",
+      "Conduct ad-hoc analyses to support business units and senior management decision-making.",
+      "Develop predictive and descriptive analytics to improve customer acquisition, retention, and cross-selling initiatives.",
+      "Dashboard & Reporting Development",
+      "Design, build, and maintain BI dashboards and management reports.",
+      "Develop KPI scorecards for:"
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Oracle",
+      "SQL Server",
+      "PostgreSQL",
+      "Teradata",
+      "Hadoop ecosystem (preferred)"
+     ]
+    ]
+   ],
+   "logo": "logos/acb.png",
    "last_seen": "2026-11-25"
   },
   {
@@ -1179,6 +1459,148 @@
      ]
     ]
    ],
+   "last_seen": "2026-11-25"
+  },
+  {
+   "title": "CVCC Kiến trúc dữ liệu_JG 08",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-CVCC-Ki%E1%BA%BFn-tr%C3%BAc-d%E1%BB%AF-li%E1%BB%87u_JG-08/1360847766/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-11-23",
+   "exp": "3+ năm",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "AWS",
+    "Power BI",
+    "Tableau",
+    "Azure"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Các trách nhiệm chính 1",
+      "Responsibilities include, but are not limited to, the following:",
+      "Aid the Finance team (IT CcoE, FIN) for monthly Cloud Consumption reporting",
+      "Ensure tagging compliance in the cloud environment",
+      "Ensure data feeds to automated dashboards are always available",
+      "Provide Cost Center Owners within Business Units, actionable recommendations on cloud spend to optimize their cloud spend",
+      "Key contributor to monthly governance reporting on cloud spend and recommendations",
+      "Be the single point of contact for all cloud cost related matters"
+     ]
+    ]
+   ],
+   "logo": "logos/vpbank.png",
+   "last_seen": "2026-11-25"
+  },
+  {
+   "title": "CVCC Kỹ sư dữ liệu - Hà Nội - TA105",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-CVCC-K%E1%BB%B9-s%C6%B0-d%E1%BB%AF-li%E1%BB%87u-H%C3%A0-N%E1%BB%99i-TA105/1362253266/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-11-23",
+   "level": [
+    "senior"
+   ],
+   "skills": [
+    "Data Modeling",
+    "Machine Learning",
+    "SQL",
+    "Redshift",
+    "Data Warehouse",
+    "ETL",
+    "SSIS",
+    "Airflow"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Các trách nhiệm chính",
+      "Đóng vai trò lead chính trong việc thực thi:",
+      "Tiếp nhận, phân tích và hướng dẫn nghiệp vụ khai thác và sử dụng dữ liệu phục vụ cho báo cáo quản trị, báo cáo phân tích, báo cáo tuân thủ, dữ liệu hệ sinh thái.",
+      "Sử dụng số liệu để tư vấn, kiểm tra tính logic và đầy đủ trong quy tắc tính do nghiệp vụ đưa ra phân tích thiết kế luồng dữ liệu cho từng CR các phân vùng dữ liệu/báo cáo của DPC nhằm đáp ứng yêu cầu…",
+      "Đưa ra quy tắc kiểm soát vận hành dữ liệu dựa trên logic nghiệp vụ",
+      "Tiếp nhận, kiểm soát tài liệu phát triển đảm bảo công tác vận hành dữ liệu sau phát triển để hỗ trợ các đơn vị nghiệp vụ",
+      "Phân tích root cause các ticket vận hành dữ liệu level 1",
+      "Xử lý yêu cầu ở mức độ đơn giản tới phức tạp."
+     ]
+    ]
+   ],
+   "logo": "logos/vpbank.png",
+   "last_seen": "2026-11-25"
+  },
+  {
+   "title": "Head of Modeling and Model Validation Center- Ha Noi",
+   "company": "VPBank",
+   "location": "Hà Nội",
+   "region": "VN",
+   "url": "https://tuyendung.vpbank.com.vn/job/H%C3%A0-N%E1%BB%99i-Head-of-Modeling-and-Model-Validation-Center-Ha-Noi/1366529766/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+   "source": "Trang công ty",
+   "date": "2026-11-23",
+   "exp": "12+ năm",
+   "level": [
+    "lead"
+   ],
+   "skills": [
+    "Mô hình rủi ro",
+    "Machine Learning",
+    "MLOps",
+    "LLM / GenAI",
+    "Thống kê",
+    "SAS",
+    "SQL",
+    "Python",
+    "R"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "1. Strategic Leadership & Governance:",
+      "Define and execute VPBank's modeling, model validation and risk analytics strategy in alignment with the Bank's strategic priorities, AI-enabled risk transformation agenda and Basel roadmap.",
+      "Establish and maintain the Group Model Risk Management Framework and enterprise-wide model lifecycle governance, including model inventory, model risk classification, model risk assessment, tiering,…",
+      "Represent RMD in model governance committees and engagements with SBV, auditors and other relevant stakeholders.",
+      "Ensure alignment of modeling, validation and risk analytics capabilities across VPBank and subsidiaries, with clear ownership and accountability.",
+      "2. Oversight of Model Development Department:",
+      "Provide strategic direction for the development, enhancement, implementation and monitoring of risk, regulatory and business models across VPBank Group.",
+      "Oversee credit risk models, including application, behavioral, collection, attrition, cross-sell, propensity and early-warning models;"
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Strong strategic leadership, stakeholder management and influencing skills.",
+      "Advanced quantitative, analytical, problem-solving and executive communication skills.",
+      "Working knowledge of SAS, SQL, Python or R, modern data platforms, model deployment and system integration.",
+      "4. Relevant Experience:",
+      "At least 12 years of relevant experience in banking risk management, analytics, model development or model validation, including at least 5 years in a senior leadership role.",
+      "Proven experience leading large-scale risk analytics, model risk or data/technology transformation programs.",
+      "Demonstrated experience engaging regulators, auditors, executive management and cross-functional stakeholders.",
+      "5. Required Competencies:"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Competitive salary and bonus package",
+      "Staff loan with special interest rates",
+      "Training courses based on the job, Training framework/Learning RoadMap for each position",
+      "Insurance in accordance with Labor laws + VPBank Care insurance for all employees. (insurance covered for family members for entitled employees);",
+      "Annual leave (varied based on job grade)",
+      "Travel allowance",
+      "A dynamic and friendly working environment, full of great opportunities to develop your career and abundant interesting activities to join (Sports competitions, talent contests, teambuilding…)",
+      "Working time: from Monday to Friday & 2 Saturday mornings/month."
+     ]
+    ]
+   ],
+   "logo": "logos/vpbank.png",
    "last_seen": "2026-11-25"
   },
   {
@@ -4650,7 +5072,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-24"
+   "last_seen": "2026-11-25"
   },
   {
    "title": "Senior Data Engineer - Risk Data- Ho Chi Minh",
@@ -5158,7 +5580,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-24"
+   "last_seen": "2026-11-25"
   },
   {
    "title": "Senior Data Engineer",
@@ -7290,6 +7712,51 @@
     ]
    ],
    "last_seen": "2026-11-20"
+  },
+  {
+   "title": "Data Scientist - Remote Vietnam (m/f/d) - Sydney Team",
+   "company": "7Learnings",
+   "location": "Hoàn Kiếm district",
+   "region": "VN",
+   "url": "https://www.linkedin.com/jobs/view/4490569755",
+   "source": "LinkedIn",
+   "date": "2026-11-13",
+   "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFtkSMAsBynOQ/company-logo_100_100/B4DZrtkqTXGsAQ-/0/1764922402406/7learnings_logo?e=2147483647&v=beta&t=7x-8NtMFCJdSgYvoDZlq4E81_w3ke2zHbKokYtG7RPQ",
+   "skills": [
+    "Machine Learning",
+    "Python",
+    "Git",
+    "TensorFlow",
+    "GCP",
+    "SQL",
+    "BigQuery"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "We are looking for an autonomous (Senior) Data Science Consultant to join 7Learnings as our first hire in Vietnam.",
+      "In this role, you will be the primary technical and client-facing counterpart for our client in Sydney (Australia), operating remotely from Vietnam while collaborating closely with our engineering…",
+      "This is not a traditional back-office data science role.",
+      "You will bridge the gap between advanced predictive modeling, software engineering, and strategic client advisory.",
+      "You will actively interact with senior retail stakeholders in Sydney on a regular basis—uncovering their business challenges, translating complex retail mechanics into mathematical models, and…",
+      "As our dedicated data science resource in Sydney, you are the engine of 7Learnings’ regional presence.",
+      "Our product relies on the perfect harmony between complex algorithms and stable software; you will be responsible for ensuring that our technical execution remains flawless, technical debt remains…",
+      "Client Management & Advisory"
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Flexible working hours",
+      "100% remote work",
+      "30 vacation days per year",
+      "Culture of trust and regular, constructive feedback",
+      "High degree of personal responsibility"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-25"
   },
   {
    "title": "Senior AI Engineer",
@@ -11382,7 +11849,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-24"
+   "last_seen": "2026-11-25"
   },
   {
    "title": "Quantitative Researcher",
@@ -20401,7 +20868,7 @@
   },
   {
    "title": "Junior Data Analyst (LSM)",
-   "company": "ROSEN",
+   "company": "ROSEN Group",
    "location": "Ho Chi Minh City, Vietnam",
    "region": "VN",
    "url": "https://www.linkedin.com/jobs/view/4439148771",
@@ -22303,12 +22770,32 @@
     "Databricks"
    ],
    "logo": "logos/vpbank.png",
-   "last_seen": "2026-11-02",
+   "last_seen": "2026-11-25",
    "sections": [
     [
      "Mô tả công việc",
      [
-      "Các trách nhiệm chính 1 - Phân tích yêu cầu nghiệp vụ cho hệ thống dữ liệu và báo cáo (đối với kỹ sư dữ liệu toàn phần) -Phân tích thiết kế luồng dữ liệu cho từng CR các phân vùng dữ liệu/ báo cáo…"
+      "Các trách nhiệm chính 1",
+      "Phân tích yêu cầu nghiệp vụ cho hệ thống dữ liệu và báo cáo (đối với kỹ sư dữ liệu toàn phần)",
+      "Phân tích thiết kế luồng dữ liệu cho từng CR các phân vùng dữ liệu/ báo cáo của DPC nhằm đáp ứng yêu cầu nghiệp vụ.",
+      "Tham gia dựng môi trường, thực hiện lập trình phát triển, kiểm thử đơn lẻ (unit test)",
+      "Tham gia golive các yêu cầu thay đổi hệ thống",
+      "Tổ chức liên tục cải tiến tối ưu về mặt thiết kế, góp phần làm giảm thời gian xử lý dữ liệu cũng như tài nguyên sử dụng trên các hệ thống dữ liệu",
+      "Tham vấn cho các đơn vị nghiệp vụ và khối CNTT về giải pháp xử lý khắc phục khi xảy ra các lỗi phức tạp.",
+      "Hỗ trợ phân tích xử lý lỗi vận hành hệ thống khi cần áp dụng kỹ thuật xử lý dữ liệu chuyên sâu."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "Thu nhập hấp dẫn, lương thưởng cạnh tranh theo năng lực",
+      "Thưởng các Ngày lễ, Tết (theo chính sách ngân hàng từng thời kỳ)",
+      "Được vay ưu đãi theo chính sách ngân hàng từng thời kỳ",
+      "Chế độ ngày phép hấp dẫn theo cấp bậc công việc",
+      "Bảo hiểm bắt buộc theo luật lao động + Bảo hiểm VPBank care cho CBNV tùy theo cấp bậc và thời gian công tác",
+      "Được tham gia các khóa đào tạo tùy thuộc vào Khung đào tạo cho từng vị trí",
+      "Thời gian làm việc:Thứ 2 – sáng Thứ 7 (off 2 sáng Thứ 7/tháng)",
+      "Môi trường làm việc năng động, thân thiện, có nhiều cơ hội học đào tạo, học hỏi và phát triển; được tham gia nhiều hoạt động văn hóa thú vị (cuộc thi về thể thao, tài năng, hoạt động teambuiding...)"
      ]
     ]
    ]
@@ -23222,30 +23709,13 @@
  ],
  "rejected": [
   "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Vietnam---Bien-Hoa/XMLNAME--South-East--Senior--MT-Sales-Supervisor_31167553",
-  "https://tuyendung.ncb-bank.vn/vi/jobs/PB1YMy",
-  "https://tuyendung.ncb-bank.vn/vi/jobs/PW32WP",
-  "https://tuyendung.ncb-bank.vn/vi/jobs/qD2rQP",
-  "https://tuyendung.ncb-bank.vn/vi/jobs/qNk5gy",
-  "https://tuyendung.ncb-bank.vn/vi/jobs/y3kdWy",
-  "https://tuyendung.ncb-bank.vn/vi/jobs/ypdzay",
-  "https://tuyendung.tpb.vn/vi/jobs/PwlmoR",
-  "https://tuyendung.tpb.vn/vi/jobs/R09V7q",
-  "https://tuyendung.tpb.vn/vi/jobs/RVpQ7y",
-  "https://tuyendung.tpb.vn/vi/jobs/RkrBxP",
-  "https://tuyendung.tpb.vn/vi/jobs/qD2vJP",
-  "https://tuyendung.tpb.vn/vi/jobs/qDX71q",
-  "https://tuyendung.tpb.vn/vi/jobs/qXW2eR",
-  "https://tuyendung.tpb.vn/vi/jobs/qbZMEq",
-  "https://tuyendung.tpb.vn/vi/jobs/qjG0By",
-  "https://tuyendung.tpb.vn/vi/jobs/y3klNy",
-  "https://tuyendung.tpb.vn/vi/jobs/ypdLky",
-  "https://tuyendung.vietabank.com.vn/vi/jobs/RnKa2q",
   "https://www.linkedin.com/jobs/view/4475527711",
   "https://www.linkedin.com/jobs/view/4478977404",
-  "https://www.linkedin.com/jobs/view/4482928927",
-  "https://www.linkedin.com/jobs/view/4484871620",
+  "https://www.linkedin.com/jobs/view/4494659914",
+  "https://www.linkedin.com/jobs/view/4494666710",
   "https://www.vietnamworks.com/-trainee-legal-associate-2126567-jv",
   "https://www.vietnamworks.com/chuong-trinh-ky-su-tap-su-technical-diploma-trainee-1794993071564895367-2132661-jv",
+  "https://www.vietnamworks.com/chuong-trinh-quan-tri-vien-tap-su-management-trainee-2027-marketing-customer-development-commercial-excellence-supply-chain-procurement-finance-people-culture-1795604365637254628-2134972-jv",
   "https://www.vietnamworks.com/engineer-trainee-fresher-2126423-jv",
   "https://www.vietnamworks.com/goertek-management-trainee-program-2027-1795084473567799099-2133267-jv",
   "https://www.vietnamworks.com/industrial-trainee-coffee-operations-1794481077374308388-2111996-jv",
@@ -23260,7 +23730,6 @@
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1793262742027719009-2125340-jv",
   "https://www.vietnamworks.com/southeast-asia-trainee-programme-1794219909943462213-2129413-jv",
   "https://www.vietnamworks.com/tob-tog-quan-tri-vien-tap-su-bo-phan-kinh-doanh-khach-hang-lon-1795424221895200519-2129438-jv",
-  "https://ybox.vn/tuyen-dung/hai-phong-ngan-hang-viet-a-bank-tuyen-dung-cong-tac-vien-quan-he-khach-hang-ca-nhan-kiem-soat-vien-giao-dich-vien-chuyen-vien-tap-su-chuyen-vien-chuyen-vien-cap-cao-quan-he-khach-hang-ca-nhan-part-time-full-time-2026-6b0015a0f1c5e248d9ca63d0",
   "https://ybox.vn/tuyen-dung/hn-cong-ty-du-lich-up-travel-vietnam-tuyen-dung-chuong-trinh-lanh-dao-tuong-lai-up-travel-future-leader-program-va-nhan-vien-ban-hang-chuyen-vien-van-hanh-dich-vu-khach-hang-full-time-2026-6b03af61a5c72a48d34e29ae"
  ]
 }
