@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T08:06+00:00",
+ "updated": "2026-11-26T21:29+00:00",
  "jobs": [
   {
    "title": "Chuyên Gia Phân tích dữ liệu Tuân thủ - Khối Pháp chế và Tuân thủ (2026TD450951)",
@@ -616,6 +616,143 @@
     ]
    ],
    "logo": "logos/bosch-vietnam.png",
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "Associate Decision Scientist (Data Science) - Meta Performance",
+   "company": "Crossian Việt Nam",
+   "location": "Hồ Chí Minh, Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/associate-decision-scientist-data-science-meta-performance-1795680270866874305-2135312-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-26",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/27/11025436.png",
+   "salary": "Thỏa thuận",
+   "exp": "1+ năm",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Thống kê"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Crossian is a high-growth technology-driven e-commerce business.",
+      "Behind our success is our people.",
+      "As a start-up formed in 2020, we have created a fast-paced and dynamic environment, enabling our people to reach a cumulative average growth rate of over 1000% in just under 3 years.",
+      "Our mission now is to build direct-to-consumer..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Education: Bachelor's degree in Mathematics & Computer Science, Computer Science, IT, Data Science, Applied Mathematics or Statistics, from a technical university (e.g.",
+      "HUST, VNU-UET, VNU-HCMUS, HCMUT, UIT) or an overseas technical program.",
+      "Good degree classification or above.",
+      "Math foundation: Strong foundation in Discrete Mathematics and Probability & Statistics. A math or..."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "13th-month salary and 100% gross salary during probation",
+      "Premium global health insurance",
+      "12 days of paid annual leave and 3 well-being off days"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "Junior Data Scientist - Meta Performance",
+   "company": "Crossian Việt Nam",
+   "location": "Hồ Chí Minh, Hà Nội",
+   "region": "VN",
+   "url": "https://www.vietnamworks.com/junior-data-scientist-meta-performance-1795680376608240037-2135310-jv",
+   "source": "VietnamWorks",
+   "date": "2026-11-26",
+   "logo": "https://images.vietnamworks.com/pictureofcompany/27/11025436.png",
+   "salary": "Thỏa thuận",
+   "exp": "1+ năm",
+   "level": [
+    "junior"
+   ],
+   "skills": [
+    "Thống kê"
+   ],
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "Crossian is a high-growth technology-driven e-commerce business.",
+      "Behind our success is our people.",
+      "As a start-up formed in 2020, we have created a fast-paced and dynamic environment, enabling our people to reach a cumulative average growth rate of over 1000% in just under 3 years.",
+      "Our mission now is to build direct-to-consumer..."
+     ]
+    ],
+    [
+     "Yêu cầu",
+     [
+      "Education: Bachelor's degree in Mathematics & Computer Science, Applied Mathematics, Statistics, Computer Science or Data Science, from a technical university (e.g.",
+      "HUST, VNU-UET, VNU-HCMUS, HCMUT, UIT).",
+      "Math foundation: Solid probability, statistics and discrete mathematics. A math or informatics olympiad, ICPC or research award is a strong plus.",
+      "Statistics & Experimentation: Hypothesis testing,..."
+     ]
+    ],
+    [
+     "Quyền lợi",
+     [
+      "13th-month salary and 100% gross salary during probation",
+      "Premium global health insurance",
+      "12 days of paid annual leave and 3 well-being off days"
+     ]
+    ]
+   ],
+   "last_seen": "2026-11-26"
+  },
+  {
+   "title": "Senior Team Leader - Data Analytics",
+   "company": "MoMo",
+   "location": "Hồ Chí Minh",
+   "region": "VN",
+   "url": "https://momo.careers/jobs/senior-team-leader-data-analytics-19778",
+   "source": "Trang công ty",
+   "date": "2026-11-26",
+   "level": [
+    "senior",
+    "lead"
+   ],
+   "skills": [
+    "Data Quality",
+    "A/B Testing",
+    "Thống kê",
+    "SQL",
+    "BigQuery",
+    "Looker",
+    "Tableau",
+    "Power BI",
+    "Python",
+    "R"
+   ],
+   "exp": "6+ năm",
+   "sections": [
+    [
+     "Mô tả công việc",
+     [
+      "The Senior Team Leader - Data Analytics will be part of MoMo’s Product Development Data team, contributing to data-driven decision-making across product, business, and operations teams.",
+      "This role is responsible for transforming large-scale product, customer, and operational data into reliable insights, scalable analytics solutions, and actionable recommendations.",
+      "The role exists to help MoMo better understand users, monitor business performance, identify growth opportunities, and optimize product decisions through high-quality analytics, automation, and…",
+      "Build, develop, and maintain automated dashboards and standardized reports to monitor key business, product, and operational performance metrics.",
+      "Analyze complex datasets to identify trends, risks, opportunities, and insights that support data-driven decisions across MoMo.",
+      "Translate analytical findings into clear, practical, and actionable recommendations for product, business, marketing, operations, and leadership stakeholders.",
+      "Monitor data quality, validate key metrics, and work with relevant teams to ensure data sources are reliable, consistent, and useful for decision-making.",
+      "Design scalable analytics solutions, reusable datasets, and best practices that empower stakeholders to become more self-reliant in using data."
+     ]
+    ]
+   ],
+   "logo": "logos/momo.png",
    "last_seen": "2026-11-26"
   },
   {
@@ -4236,7 +4373,7 @@
      ]
     ]
    ],
-   "last_seen": "2026-11-24"
+   "last_seen": "2026-11-26"
   },
   {
    "title": "Data Engineer (Senior/Lead) - HN/HCM",
@@ -19141,7 +19278,7 @@
     "MLOps",
     "AWS"
    ],
-   "last_seen": "2026-11-24",
+   "last_seen": "2026-11-26",
    "exp": "5+ năm",
    "sections": [
     [
@@ -20514,7 +20651,7 @@
     "BigQuery"
    ],
    "logo": "logos/sacombank.png",
-   "last_seen": "2026-11-20",
+   "last_seen": "2026-11-26",
    "exp": "1+ năm",
    "level": [
     "junior"
@@ -22546,7 +22683,7 @@
     "Excel"
    ],
    "logo": "logos/vpbank.png",
-   "last_seen": "2026-11-13",
+   "last_seen": "2026-11-26",
    "exp": "3–5 năm",
    "level": [
     "mid"
@@ -23685,6 +23822,7 @@
  ],
  "rejected": [
   "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Vietnam---Bien-Hoa/XMLNAME--South-East--Senior--MT-Sales-Supervisor_31167553",
+  "https://jobs.msb.com.vn/jobs/mt8-management-trainee-kh%E1%BB%91i-qu%E1%BA%A3n-l%C3%BD-r%E1%BB%A7i-ro-mrrb-6856",
   "https://tuyendung.ncb-bank.vn/vi/jobs/PB1YMy",
   "https://tuyendung.ncb-bank.vn/vi/jobs/PW32WP",
   "https://tuyendung.ncb-bank.vn/vi/jobs/qD2rQP",
@@ -23715,13 +23853,12 @@
   "https://www.vietnamworks.com/marketing-trainee-6-month-contract-1794458673776283842-2130590-jv",
   "https://www.vietnamworks.com/mb-trainee-information-security-grc-fresher-khoi-cong-nghe-thong-tin-2026td457289-1793161615912956699-2124643-jv",
   "https://www.vietnamworks.com/mechanical-engineer-trainee-kcn-long-hau-2130018-jv",
-  "https://www.vietnamworks.com/operations-engineer-trainee-1793085102891239269-2124208-jv",
   "https://www.vietnamworks.com/project-commercial-trainee-1794544609040301720-2131056-jv",
-  "https://www.vietnamworks.com/sales-trainee-2134261-jv",
+  "https://www.vietnamworks.com/sales-trainee-1795686026777332692-2134261-jv",
   "https://www.vietnamworks.com/sales-trainee-concrete-2126239-jv",
   "https://www.vietnamworks.com/senior-management-trainee-general-manager-fast-track-hospitality-coworking-hoi-an-1793262742027719009-2125340-jv",
   "https://www.vietnamworks.com/southeast-asia-trainee-programme-1794219909943462213-2129413-jv",
   "https://www.vietnamworks.com/tob-tog-quan-tri-vien-tap-su-bo-phan-kinh-doanh-khach-hang-lon-1795424221895200519-2129438-jv",
-  "https://ybox.vn/tuyen-dung/hn-cong-ty-du-lich-up-travel-vietnam-tuyen-dung-chuong-trinh-lanh-dao-tuong-lai-up-travel-future-leader-program-va-nhan-vien-ban-hang-chuyen-vien-van-hanh-dich-vu-khach-hang-full-time-2026-6b03af61a5c72a48d34e29ae"
+  "https://www.vietnamworks.com/urgent-store-manager-trainee-1795683108885947612-2135360-jv"
  ]
 }
